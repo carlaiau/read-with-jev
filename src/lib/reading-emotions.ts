@@ -1,3 +1,4 @@
+import {readerSentenceRanges} from './reader-sentences';
 import type {Book} from './model';
 import {readerSegments,readerPassageText} from './reader-text';
 export const readingEmotions=['anger','anticipation','disgust','fear','joy','sadness','surprise','trust'] as const;
@@ -13,7 +14,7 @@ export function readingPlans(book:Book & {textFormat?:'plain'|'tokenized';sectio
  const plans=book.passages.map((p,index)=>{
   let text='';const emphasis:{start:number;end:number}[]=[];
   for(const part of readerSegments(readerPassageText(book,index),book.textFormat?book.textFormat==='tokenized':book.id==='mentions')){const start=text.length;text+=part.text;if(part.emphasis)emphasis.push({start,end:text.length});}
-  const sentences=[...new Intl.Segmenter('en',{granularity:'sentence'}).segment(text)].map(s=>({id:`${p.id}:${s.index}`,start:s.index,end:s.index+s.segment.length,target:s.segment,precedingContext:'',followingContext:''}));
+  const sentences=readerSentenceRanges(text).map(({start,end})=>({id:`${p.id}:${start}`,start,end,target:text.slice(start,end),precedingContext:'',followingContext:''}));
   return {id:p.id,text,emphasis,sentences};
  });
  for(let i=0;i<plans.length;i++)for(let j=0;j<plans[i].sentences.length;j++){

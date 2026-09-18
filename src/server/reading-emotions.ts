@@ -1,3 +1,4 @@
+import {sentenceSegmentationVersion} from '../lib/reader-sentences';
 import {readFile} from 'node:fs/promises';
 import {noul} from '@typesafe-ai/sdk';
 import type {Book} from '../lib/model';
@@ -18,7 +19,7 @@ async function load(layer:string){
  const affect=await readJson<{lexicon:Record<string,string[]>}>('data/processed/affect.json');
  const plans=readingPlans(book),words=new Set(plans.flatMap(p=>[...p.text.matchAll(/[a-z]+(?:'[a-z]+)?/gi)].map(m=>m[0].toLowerCase())));
  const lexicon=Object.fromEntries(Object.entries(affect.lexicon).filter(([word])=>words.has(word)));
- return {sourceKey:digest(JSON.stringify({raw,displayVersion:2,icu:process.versions.icu,model:readingModel,instructions:passageInstructions,lexicon})),plans,lexicon,model:readingModel,threshold:readingThreshold};
+ return {sourceKey:digest(JSON.stringify({raw,displayVersion:2,sentenceSegmentationVersion,icu:process.versions.icu,model:readingModel,instructions:passageInstructions,lexicon})),plans,lexicon,model:readingModel,threshold:readingThreshold};
 }
 export function validReadingSource(value:unknown):value is string {return typeof value==='string'&&(['mentions','speaking'].includes(value)||/^document:[a-z0-9-]{1,80}$/.test(value));}
 export function readingData(layer:string){

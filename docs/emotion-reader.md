@@ -46,12 +46,19 @@ text and gold offsets are never modified. Sentence contexts stay within chapter 
 server supplies sentence boundaries to the client, avoiding browser/server segmentation mismatch.
 Live reader outputs use their own cache namespace and are not benchmark gold or held-out scores.
 
-## Known segmentation limitation
+## Sentence segmentation
 
-The current `Intl.Segmenter` boundaries can split Gutenberg hard-wrapped lines and titles such
-as “Mr.” into fragments. Consequently, a short JEV background can look like extracted phrase
-evidence even though it covers an entire supplied segment. This needs correction before treating
-all units as grammatical sentences; the model does not return evidence offsets.
+Boundary detection uses an offset-preserving copy of the displayed text: single line breaks are
+masked as spaces, and common honorifics (Mr., Mrs., Dr., etc.) and name initials are protected.
+Blank lines retain paragraph/dialogue boundaries. Highlight ranges and model targets slice the
+original display text, preserving whitespace, Unicode, and emphasis offsets. The segmentation
+version is included in the source fingerprint, so old fragment predictions cannot be reused.
+
+The reported “delighted with it … Mr. Morris” example now remains inside its complete sentence.
+The Pride and Prejudice library edition has 6,027 units rather than the previous 17,253 fragments.
+These are rule-based English boundaries, not a perfect linguistic parser: unusual abbreviations
+remain ambiguous, and units do not cross existing reading-passage or chapter boundaries. JEV
+still highlights the supplied whole unit; it does not return evidence phrases or word offsets.
 
 ## Inspection
 
