@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 .next/
 .env*
 !.env.example
@@ -8,3 +8,5 @@ data/cache/
 data/runs/
 *.tsbuildinfo
 src/catalyst/demo
+
+__pycache__/

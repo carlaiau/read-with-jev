@@ -93,6 +93,7 @@ The initial 12-passage development smoke run gave the name-matching mention base
 - [Dataset provenance and limitations](docs/datasets.md)
 - [Original MVP design and future presence layer](docs/mvp-design.md)
 - [Research grounding](docs/research.md)
+- [Proposed character-affect and plot-unit investigation](docs/affect-investigation.md)
 
 BookCoref annotations are described by their authors as **CC BY-NC-SA 4.0**. Keep research-data licensing separate from a future commercial reader. Dataset files are not committed or publicly deployed here. See the dataset notes for attribution and PDNC licensing status.
 
@@ -109,3 +110,25 @@ npm run benchmark -- --book animal-farm --split all --limit 1000 --engine jev --
 For the comparator, use `--engine baseline` and omit `--execute --max-requests ...`. The runner defaults to eight concurrent calls (configurable 1–32), validates its first call before pooling, preserves result ordering, and stops scheduling after a failure. In-flight calls settle before failure is reported; valid responses remain cached. Automatic retries are disabled. Book-specific source hashes and output filenames isolate experiments.
 
 See [the frozen transfer protocol](docs/jev-transfer-protocol.md) and [results](docs/jev-transfer-results.md). Both methods use the same fixed registry aliases, without extracting aliases from gold mention spans.
+
+## Affect experiment worktree
+
+The conditional REMAN attribution experiment and first measured results are described in
+[the experiment log](docs/affect-experiment-log.md). This branch requires Python 3's standard
+library for the pinned ZIP/XML adapter; evaluation and JEV calls use TypeScript and the official SDK.
+No new package dependencies are needed.
+
+```sh
+npm run affect:prepare
+npm run affect:benchmark -- --engine nearest --limit 2000
+npm run affect:benchmark -- --engine nrc-nearest --limit 2000
+npm run affect:benchmark -- --engine jev --limit 8  # dry run
+npm test
+npm run typecheck
+```
+
+Run `affect:prepare` as well as `data:prepare` before this branch's test suite.
+JEV execution requires a local server-side `TYPESAFE_API_KEY` and
+`--execute --max-requests 10` for the eight-excerpt pilot. `--cache-only` replays without inference.
+These are supplied-emotion/supplied-character **mention-level relation** scores, not end-to-end
+emotion detection or character emotional arcs. The author-grouped test partition remains unused.
