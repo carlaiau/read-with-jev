@@ -147,3 +147,7 @@ It is a separate, harder task with development-only evaluation and a frozen-thre
 [Iteration 4](docs/affect-iteration-4.md) compares guideline-informed definitions with the original
 highlight prompt, adds a supervised lexical baseline, and prepares a blinded human-review packet.
 The revised highlight prompt did not improve F1; the original remains the default.
+
+[Iteration 5](docs/affect-iteration-5.md) projects cached predictions onto passage-level emotion
+categories, separating category detection from exact-mention attribution and reporting both
+linked and all-annotation gold definitions. No new model calls or test-partition evaluation.
