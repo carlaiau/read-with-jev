@@ -132,3 +132,10 @@ JEV execution requires a local server-side `TYPESAFE_API_KEY` and
 `--execute --max-requests 10` for the eight-excerpt pilot. `--cache-only` replays without inference.
 These are supplied-emotion/supplied-character **mention-level relation** scores, not end-to-end
 emotion detection or character emotional arcs. The author-grouped test partition remains unused.
+
+The current affect default is `--prompt v2`: explicit span IDs plus exact text and surrounding
+context in state. Use `--prompt v1` for the original offsets-only comparison or `--prompt v3`
+for the compact marker ablation. [Exact prompts and state](docs/affect-prompts.md) and
+[iteration 2 results](docs/affect-iteration-2.md) document the experiment.
+Pin `--model jev-1.13.0` when reproducing iteration 2. The new dry run may have a different
+request payload/cache identity from the original pilot even when the sample IDs match.

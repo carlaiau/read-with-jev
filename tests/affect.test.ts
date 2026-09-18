@@ -54,3 +54,42 @@ test('prepared affect data preserves author isolation, exact offsets and source 
   }
   assert.equal(data.sources.reman.sha256, '8f459b868ee77accb59b8b96566e1a263dd748492dd5af8b17feb512b928f8f8');
 });
+
+import { createAffectRequest } from '../src/server/affect-request';
+test('v2 state anchors occurrences without leaking relations, gold labels or modifier annotations', () => {
+  const pairs = makePairs(document);
+  const request = createAffectRequest(document, pairs, 'test-model', 'v2');
+  const changed = structuredClone(document);
+  changed.relations = []; changed.author = 'Hidden'; changed.book_title = 'Hidden';
+  changed.spans[1].modifier = 'negated';
+  const changedPairs = makePairs(changed);
+  assert.deepEqual(createAffectRequest(changed, changedPairs, 'test-model', 'v2'), request);
+  const state = request.state as { characterMentions: {text: string; before: string; after: string}[]; emotionExpressions: {emotion: string}[] };
+  assert.equal(state.characterMentions[1].before, 'Ann fears ');
+  assert.equal(state.characterMentions[1].after, '.');
+  assert.equal(state.emotionExpressions[0].emotion, 'fear');
+  assert.equal(Object.keys(request.questions).length, pairs.length);
+});
+test('directional baseline handles experiencer before the expression and fallback after it', () => {
+  const pairs = makePairs(document);
+  assert.deepEqual(pairs.map(p => baseline(p, document, 'preceding', {})), [1, 0]);
+});
+
+test('compact state marks exact occurrences, including shared emotion boundaries, without changing source words', () => {
+  const shared = structuredClone(document);
+  shared.spans.push({ ...shared.spans[1], annotation_id: 'e2', type: 'sadness' });
+  const request = createAffectRequest(shared, makePairs(shared), 'test-model', 'v3');
+  const state = request.state as {annotatedText: string; emotionCategories: Record<string,string>};
+  assert.equal(state.annotatedText.replace(/⟦(?:start|end):[^⟧]+⟧/g, ''), document.text);
+  assert(state.annotatedText.includes('⟦start:E0,E1⟧fears⟦end:E0,E1⟧'));
+  assert.deepEqual(state.emotionCategories, {E0: 'fear', E1: 'sadness'});
+  const changed = structuredClone(shared); changed.relations = [];
+  assert.deepEqual(createAffectRequest(changed, makePairs(changed), 'test-model', 'v3'), request);
+});
+
+test('legacy prompt keeps its original text-only state and does not serialize gold pairs', () => {
+  const request = createAffectRequest(document, makePairs(document), 'test-model', 'v1');
+  assert.deepEqual(request.state, { text: document.text });
+  assert(!JSON.stringify(request).includes('"gold"'));
+  assert.equal(request.questions.q0.type, 'noul');
+});

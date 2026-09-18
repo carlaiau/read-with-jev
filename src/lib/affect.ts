@@ -21,6 +21,11 @@ export function makePairs(document: AffectDocument): Pair[] {
 const gap = (a: AffectSpan, b: AffectSpan) => Math.max(0, a.start - b.end, b.start - a.end);
 export function baseline(pair: Pair, document: AffectDocument, engine: string, lexicon: AffectData['lexicon']): number {
   if (engine === 'all') return 1;
+  if (engine === 'preceding') {
+    const before = document.spans.filter(s => s.type === 'character' && s.end <= pair.emotion.start);
+    if (!before.length) return baseline(pair, document, 'nearest', lexicon);
+    return Number(pair.character.end === Math.max(...before.map(s => s.end)));
+  }
   const nearest = Math.min(...document.spans.filter(s => s.type === 'character').map(s => gap(pair.emotion, s)));
   if (gap(pair.emotion, pair.character) !== nearest) return 0;
   if (engine === 'nrc-nearest') {

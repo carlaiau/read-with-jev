@@ -1,5 +1,7 @@
 # Affect experiment loop — iteration 1
 
+Follow-up: [iteration 2](affect-iteration-2.md) implements explicit span IDs and surrounding context, with a larger prompt comparison and author-disjoint development follow-up.
+
 19 September 2026. Branch `codex/affect-experiments`, isolated worktree
 `/Users/caiau/school/read-with-jev-affect-experiments`.
 
