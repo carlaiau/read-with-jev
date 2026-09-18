@@ -1,5 +1,6 @@
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
+import { displayBookTitle } from '../src/lib/reader-labels';
 const baseURL = process.env.READER_URL ?? 'http://127.0.0.1:3000';
 const browser = await chromium.launch({ channel:'chrome', headless:true });
 try {
@@ -14,7 +15,7 @@ try {
   const sample = catalog.documents.filter((d:any)=>['pride-and-prejudice','moby-dick','alice-in-wonderland','gutenberg-65238','gutenberg-3268','gutenberg-42671'].includes(d.documentId));
   for(const doc of sample){
     await page.getByLabel('Document',{exact:true}).selectOption(doc.documentId);
-    await page.waitForFunction(({title,count})=>document.querySelector('h1')?.textContent===title && document.querySelectorAll('.passage').length===count,{title:doc.title,count:doc.passages});
+    await page.waitForFunction(({title,count})=>document.querySelector('h1')?.textContent===title && document.querySelectorAll('.passage').length===count,{title:displayBookTitle(doc.title),count:doc.passages});
     assert.equal(await page.getByLabel('Explore by').count(),0);
     assert.equal(await page.locator('#channels .channel-card').getByRole('checkbox').count(),doc.characters);
     assert((await page.locator('.research-state').innerText()).includes('Baseline'));
@@ -32,7 +33,7 @@ try {
   // Abort an in-flight document switch and verify the final selection wins.
   await page.getByLabel('Document',{exact:true}).selectOption('crime-and-punishment');
   await page.getByLabel('Document',{exact:true}).selectOption('alice-in-wonderland');
-  await page.waitForFunction(()=>document.querySelector('h1')?.textContent==='Alice’s Adventures in Wonderland' && document.querySelectorAll('.passage').length===75);
+  await page.waitForFunction(()=>document.querySelector('h1')?.textContent==="Alice's Adventures in Wonderland" && document.querySelectorAll('.passage').length===75);
   await page.setViewportSize({width:390,height:844});
   await page.getByRole('button',{name:'Characters',exact:true}).click();
   await page.getByLabel('Document',{exact:true}).selectOption('frankenstein');
