@@ -36,7 +36,7 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .emotion-dial-readout button { text-decoration: underline; text-underline-offset: 3px; }
 .minimap-pane { overflow: hidden; }
 .emotion-picker { display: flex; flex-wrap: wrap; max-width: 100%; gap: 2px; }
-.emotion-note, .emotion-status { color: var(--color-muted); margin-top: .4rem; }
+.emotion-note { color: var(--color-muted); margin-top: .4rem; }
 .nrc-legend { text-decoration: underline; text-decoration-color: var(--emotion-color); text-decoration-thickness: 2px; text-underline-offset: .22em; text-decoration-skip-ink: auto; }
 .jev-legend, .emotion-background { background: color-mix(in srgb, var(--emotion-color) 19%, transparent); border-radius: 3px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .jev-legend { padding: .1rem .3rem; }
@@ -54,7 +54,7 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
   .emotion-controls-row { gap: .65rem .75rem; }
   .emotion-controls-row > [data-slot=field] { column-gap: .5rem; }
   .emotion-controls-row [data-slot=label] { font-size: .8125rem; }
-  .emotion-note, .emotion-status { font-size: .75rem; }
+  .emotion-note { font-size: .75rem; }
 }
 
 .emotion-toggle { position: relative; display: grid; place-items: center; width: 34px; height: 36px; border-radius: 5px; cursor: pointer; }
@@ -73,7 +73,7 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .emotion-controls-row [data-slot=label] { font-size: .8125rem; }
 .emotion-picker { width: 100%; display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 0; margin-bottom: .45rem; }
 .emotion-toggle { width: 100%; min-height: 32px; }
-.emotion-controls .emotion-note, .emotion-controls .emotion-status { font-size: .75rem; }
+.emotion-controls .emotion-note { font-size: .75rem; }
 /* Keep every sidebar section reachable on short screens. */
 @media (max-height: 800px) {
   #channels > nav { overflow-y: auto; }

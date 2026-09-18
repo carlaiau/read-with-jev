@@ -15,7 +15,7 @@ try{
  });
  await page.goto(base);await page.locator('[data-emotion-id]').last().waitFor();
  await expect(page.getByRole('button',{name:'Retry analysis'})).toBeVisible();await page.getByRole('button',{name:'Retry analysis'}).click();
- await expect(page.locator('[data-jev-highlight]').first()).toBeVisible();await expect(page.locator('.emotion-status')).toContainText('JEV analyses as you scroll.');
+ await expect(page.locator('[data-jev-highlight]').first()).toBeVisible();
  assert(maxActive<=readingRequestConcurrency);assert(maxActive>2,'Nearby work should use the expanded concurrency');assert(calls.length>0&&calls.length<100,'Only nearby sentences should be requested');
  await page.getByRole('button',{name:'Fear',exact:true}).scrollIntoViewIfNeeded();await page.waitForTimeout(1200);
  const firstCalls=calls.length;
@@ -60,8 +60,8 @@ try{
  await page.getByLabel('Document',{exact:true}).selectOption('alice-in-wonderland');await expect(page.locator('.passage')).toHaveCount(75);await expect.poll(()=>calls.some(c=>c.layer==='document:alice-in-wonderland')).toBe(true);
  await page.setViewportSize({width:390,height:844});await page.goto(base);await page.locator('[data-emotion-id]').last().waitFor();await expect(page.locator('[data-jev-highlight]').first()).toBeVisible();
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'/tmp/affect-reader-mobile.png'});
- await page.getByRole('button',{name:'Characters',exact:true}).click();await expect(page.getByRole('group',{name:'Visible emotions'})).toBeVisible();await expect(page.locator('#channels .channel-card').first()).toBeVisible();await page.getByRole('button',{name:'Fear',exact:true}).click();await expect(page.getByRole('button',{name:'Fear',exact:true})).toHaveAttribute('aria-pressed','false');await page.screenshot({path:'/tmp/affect-reader-mobile-sidebar.png'});await page.getByRole('button',{name:'Close characters'}).click();
- await page.getByRole('button',{name:'Map',exact:true}).click();await expect(page.getByRole('button',{name:'Next passage'})).toBeVisible();await page.getByRole('button',{name:'Close map'}).click();
+ await page.getByRole('button',{name:'Characters',exact:true}).click();await expect(page.getByRole('group',{name:'Visible emotions'})).toBeVisible();await expect(page.locator('#channels .channel-card').first()).toBeVisible();await expect(page.getByRole('button',{name:'Next passage'})).toBeVisible();await page.getByRole('button',{name:'Fear',exact:true}).click();await expect(page.getByRole('button',{name:'Fear',exact:true})).toHaveAttribute('aria-pressed','false');await page.screenshot({path:'/tmp/affect-reader-mobile-sidebar.png'});await page.getByRole('button',{name:'Close characters'}).click();
+ await page.getByRole('button',{name:'Map',exact:true}).click();await expect(page.locator('#book-map .progress-track')).toBeVisible();await expect(page.locator('#book-map').getByText('Source and research notes on GitHub')).toBeVisible();await page.getByRole('button',{name:'Close map'}).click();
  await page.setViewportSize({width:320,height:740});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  assert.equal((await page.request.post(`${base}/api/emotions`,{headers:{Origin:base},data:{}})).status(),400);
  assert.equal((await page.request.post(`${base}/api/emotions`,{headers:{Origin:'https://foreign.example'},data:{}})).status(),403);

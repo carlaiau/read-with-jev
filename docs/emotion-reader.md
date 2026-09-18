@@ -23,8 +23,7 @@ The display threshold is the one thing the reader controls. The "How emotional i
 from 1.00 (strictest) to 0.20 (loosest) in steps of 0.05-equivalent stops, with the published
 default of `readingThreshold` = 0.60 at its midpoint, and a reset action back to that default. It
 re-ranks scores already in the browser cache: moving it issues no model request, changes no
-sentence score, and asserts nothing about calibration. Local feedback records the threshold that
-was on screen when the verdict was given, alongside the edition default.
+sentence score, and asserts nothing about calibration.
 
 These are emotion-association suggestions, including recalled, hypothetical or negated
 descriptions. They are not character attributions, extracted evidence phrases, or measurements of
@@ -42,7 +41,7 @@ aborts pending browser requests. Up to six SDK requests already executing
 on the server can finish and populate cache; browser cancellation does not cancel that remote work.
 
 One SDK request scores all eight emotions for a sentence. Changing the visible emotions or the
-threshold dial does not make another request. Client results persist while toggling layers; server disk cache survives
+threshold dial does not make another request. Client results persist while toggling NRC; server disk cache survives
 reloads. Keys incorporate the source edition/text, display format, ICU version, lexicon, model,
 question and context. Identical concurrent server requests share a promise. Failures are not
 negative predictions; a visible Retry analysis action retries only nearby failures. There are no
@@ -76,13 +75,13 @@ These are rule-based English boundaries, not a perfect linguistic parser: unusua
 remain ambiguous, and units do not cross existing reading-passage or chapter boundaries. JEV
 still highlights the supplied whole unit; it does not return evidence phrases or word offsets.
 
-## Inspection
+## Reading a highlight
 
-The sentence inspector stays in the reading column, including when the mobile sidebar is closed. Click or keyboard-activate a marked sentence to inspect the enabled categories, NRC words, and
-JEV sentence-level status. Focus moves into the inspector and returns to the sentence on Close
-or Escape. Suggested sentences offer Supported, Wrong emotion, Wrong span, and Unclear feedback.
-These choices are saved only in this browser's localStorage, keyed by edition/text, sentence and
-emotion, with the model, the displayed threshold and the edition default. They are not automatically exported or promoted to gold.
+Marked sentences are **not** clickable and there is no sentence inspector. Hovering a highlighted
+sentence, or moving keyboard focus onto it, reveals the emotion names as colour-banded chips: one
+background per suggested emotion, in that emotion's colour, and nothing else. Only the currently
+visible emotions appear. The per-sentence feedback capture that previously wrote verdicts to
+`localStorage` has been removed along with the inspector; no reader verdicts are recorded.
 
 ## Local use
 
@@ -94,8 +93,9 @@ node --env-file=/Users/caiau/school/read-with-jev/.env \
   node_modules/next/dist/bin/next dev --webpack --hostname 127.0.0.1 --port 3101
 ```
 
-Webpack mode accommodates the shared node_modules symlink in this worktree. With no key, the NRC switch
-still works and the UI explains that JEV is unavailable. The server should be restarted if local
+Webpack mode accommodates the shared node_modules symlink in this worktree. With no key, the NRC switch still works,
+the threshold dial is disabled, and no sentence is highlighted; the reader shows no separate
+status line for this. The server should be restarted if local
 prepared data changes, because edition metadata is memoized for that process.
 
 ## Validation
@@ -104,8 +104,9 @@ prepared data changes, because edition metadata is memoized for that process.
   lexicon associations, complete eight-category scores, and annotation-free requests.
 - `scripts/browser-emotions.ts` uses explicit mocked JEV responses to exercise viewport scheduling,
   the six-request bound, retry, emotion reuse, the threshold dial and its score reuse, the
-  highlight hover guidance, the NRC default-off state and its toggle, keyboard inspection,
-  feedback, edition switching, desktop/mobile layouts and invalid API requests. Screenshots from that test
+  highlight hover guidance, keyboard focus on a marked sentence, the absence of any click
+  inspector, the NRC default-off state and its toggle, edition switching, desktop/mobile layouts
+  and invalid API requests. Screenshots from that test
   illustrate UI states, not model results.
 - `scripts/browser-smoke.ts` preserves checks for existing character tracks and map navigation.
 - A single real SDK smoke call on the first reader sentence returned valid eight-category scores

@@ -38,7 +38,7 @@ export function EmotionComparison({layer,children,ready}:{layer:string;children:
   document.addEventListener('visibilitychange',pump);
   return()=>{stopped=true;observer.disconnect();clearTimeout(timer);document.removeEventListener('visibilitychange',pump);for(const [id,c] of controllers){c.abort();cache.current.delete(id);}};
  },[metadata,jev,layer,retry,ready]);
- const pending=[...cache.current.values()].filter(r=>r.status==='pending').length,errors=[...cache.current.values()].filter(r=>r.status==='error');
+ const errors=[...cache.current.values()].filter(r=>r.status==='error');
  const value=useMemo(()=>({metadata,emotions,nrc,jev,threshold,results:cache.current}),[metadata,emotions,nrc,jev,threshold,revision]);
  const controls=<div className="emotion-controls">
    <div className="emotion-dial">
@@ -53,10 +53,8 @@ export function EmotionComparison({layer,children,ready}:{layer:string;children:
    {emotions.length===0&&<p className="emotion-note">All emotions hidden. Enable a circle to show its highlights.</p>}
    <div className="emotion-controls-row">
     <CheckboxField><Checkbox checked={nrc} onChange={setNrc} aria-label="NRC underlines"/><Label><span className="emotion-legend"><span className="nrc-legend">NRC underlines</span><span className="emotion-tooltip" aria-hidden="true">NRC Emotion Lexicon: a fixed dictionary of word-to-emotion associations. It underlines single words whatever the context, negation or speaker.</span></span></Label></CheckboxField>
-    <span className="emotion-legend"><span className="jev-legend">JEV highlights</span><span className="emotion-tooltip" aria-hidden="true">{metadata?.model??'JEV'} scores every nearby sentence for all eight emotions. Sentences at or above the dial threshold are highlighted; the layer itself stays on.</span></span>
    </div>
-   <div className="emotion-status" role="status" aria-live="polite">{loadError||(!metadata?'Loading emotion vocabulary…':!metadata.jevAvailable?'JEV is not configured on this server. NRC underlines are still available.':'')}{metadata&&jev&&(pending?'Analysing nearby sentences…':'JEV analyses as you scroll. Hover a marked sentence for its emotions.')}</div>
-   {errors.length>0&&jev&&<div className="emotion-error"><span>{errors[0].error}</span><Button plain onClick={()=>{for(const [id,r] of cache.current)if(r.status==='error')cache.current.delete(id);setRetry(v=>v+1);setRevision(v=>v+1);}}>Retry analysis</Button></div>}
+   {(loadError||(errors.length>0&&jev))&&<div className="emotion-error"><span>{loadError||errors[0].error}</span>{!loadError&&<Button plain onClick={()=>{for(const [id,r] of cache.current)if(r.status==='error')cache.current.delete(id);setRetry(v=>v+1);setRevision(v=>v+1);}}>Retry analysis</Button>}</div>}
   </div>;
  return <Comparison.Provider value={value}><Controls.Provider value={controls}>{children}</Controls.Provider></Comparison.Provider>;
 }
