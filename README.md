@@ -151,3 +151,6 @@ The revised highlight prompt did not improve F1; the original remains the defaul
 [Iteration 5](docs/affect-iteration-5.md) projects cached predictions onto passage-level emotion
 categories, separating category detection from exact-mention attribution and reporting both
 linked and all-annotation gold definitions. No new model calls or test-partition evaluation.
+
+[Iteration 6](docs/affect-iteration-6.md) tests direct passage-emotion questions without character
+annotations in state, with frozen development thresholds and matched accuracy/token comparisons.
