@@ -4,14 +4,14 @@ A Next.js / TypeScript research prototype for a novel reader with a character mi
 
 The reader defaults to **deterministic name/alias baseline classifications** across nine documents. A document selector loads one book at a time from a Netlify function. See [the library and hosting guide](docs/document-library.md).
 
-Local research layers for *Pride and Prejudice* retain **human annotations**:
+Research datasets and the research API for *Pride and Prejudice* retain **human annotations**:
 
 - **Mentioned:** BookCoref Gold, 38 character identities, 16,419 mention spans, 406 passages.
 - **Speaking:** PDNC, 74 registry entries, 1,270 quotations / 1,708 subquotation spans, 319 passages.
 
 Select characters to highlight passages, click the minimap to navigate, or use previous/next match. The two datasets retain their own editions and offsets. This is a full-book research view with spoilers.
 
-The UI uses **Tailwind CSS v4 and the supplied Catalyst kit** in `src/catalyst/typescript`: sidebar, field/label, select, checkbox, and button components. Its three-column layout follows the supplied reading-instrument reference, with chapter-coverage sparklines on the left and a full-book activity rail on the right. The curve is a five-passage average of passage matches, not emotional tone or model confidence. On mobile, channels collapse behind a button while the narrow book rail remains visible. The bundled Catalyst demo is excluded from the application typecheck and Tailwind scan.
+The UI uses **Tailwind CSS v4 and the supplied Catalyst kit** in `src/catalyst/typescript`: sidebar, field/label, select, checkbox, and button components. Its three-column layout follows the supplied reading-instrument reference, with chapter-coverage sparklines on the left and a full-book activity rail on the right. The curve is a five-passage average of passage matches, not emotional tone or model confidence. On mobile, characters collapse behind a button while the narrow book rail remains visible. The bundled Catalyst demo is excluded from the application typecheck and Tailwind scan.
 
 ## Start locally
 
@@ -81,9 +81,9 @@ npm run test:browser
 npm run test:library:browser
 ```
 
-The browser check covers selection, clearing, navigation, layer switching, mobile overflow, and invalid API inputs. It saves desktop/mobile screenshots under `/tmp`.
+The browser check covers selection, clearing, navigation, document switching, mobile overflow, and invalid API inputs. It saves desktop/mobile screenshots under `/tmp`.
 
-For Netlify, the committed `netlify.toml` runs `npm run build:netlify`, prepares the checksum-locked library, and bundles its JSON in the native `library` function. Research-only selectors are hidden in this build. No inference credentials are needed. Next is also configured for standalone output with prepared-data tracing. See [the hosting guide](docs/document-library.md). This prototype has no long-running inference endpoint: book processing remains an offline job, which avoids server request timeouts. A hosted worker/job queue and durable cache are later work.
+For Netlify, the committed `netlify.toml` runs `npm run build:netlify`, prepares the checksum-locked library, and bundles its JSON in the native `library` function. The reader shows character matches without a layer selector. No inference credentials are needed. Next is also configured for standalone output with prepared-data tracing. See [the hosting guide](docs/document-library.md). This prototype has no long-running inference endpoint: book processing remains an offline job, which avoids server request timeouts. A hosted worker/job queue and durable cache are later work.
 
 ## Research status
 

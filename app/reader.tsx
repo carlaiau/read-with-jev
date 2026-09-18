@@ -12,13 +12,12 @@ import { CharacterRail, chapterActivity, Sparkline } from './reader-charts';
 
 const colors = ['#b64c68', '#27818d', '#7a65a4', '#ac7b1b', '#577b64', '#bd7047'];
 export default function Reader() {
-  const [layer, setLayer] = useState('baseline');
   const [book, setBook] = useState<(Book & Partial<LibraryDocument>) | null>(null);
   const [documents, setDocuments] = useState<DocumentSummary[]>([]);
   const [documentId, setDocumentId] = useState('pride-and-prejudice');
   const [retry, setRetry] = useState(0);
-  const baseline = layer === 'baseline';
-  const mentionLayer = layer !== 'speaking';
+  const baseline = true;
+  const mentionLayer = true;
   const documentInfo = documents.find(d => d.documentId === documentId);
   const title = book?.title ?? documentInfo?.title ?? 'Document library';
   const sectionTitle = (chapter: number) => book?.sections?.find(s => s.index === chapter)?.title ?? `Chapter ${chapter}`;
@@ -36,7 +35,7 @@ export default function Reader() {
   const [mobileOpen, setMobileOpen] = useState(false);
   useEffect(() => {
     const controller = new AbortController(); setBook(null); setError(''); setCurrent(0); setSelected([]);
-    fetch(baseline ? `/.netlify/functions/library?document=${encodeURIComponent(documentId)}` : `/api/book?layer=${layer}`, { signal: controller.signal }).then(async response => {
+    fetch(`/.netlify/functions/library?document=${encodeURIComponent(documentId)}`, { signal: controller.signal }).then(async response => {
       const data = await response.json(); if (!response.ok) throw new Error(data.error); return data as Book & Partial<LibraryDocument>;
     }).then(data => {
       if (controller.signal.aborted) return;
@@ -45,7 +44,7 @@ export default function Reader() {
       setSelected(first ? [first.id] : data.characters.length ? [data.characters[0].id] : []);
     }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
     return () => controller.abort();
-  }, [layer, documentId, retry, baseline]);
+  }, [documentId, retry]);
   useEffect(() => {
     if (!book) return;
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -71,8 +70,6 @@ export default function Reader() {
   })).sort((a, b) => b.count - a.count) : [], [book]);
   const colorFor = (id: string) => colors[Math.max(0, cast.findIndex(c => c.id === id)) % colors.length];
   const activeColor = selected.length ? colorFor(selected[0]) : '#536171';
-  const activeNames = cast.filter(c => selected.includes(c.id)).map(c => c.name);
-  const focusName = activeNames.length === 1 ? activeNames[0] : activeNames.length ? `${activeNames.length} characters` : 'The whole book';
   const requireAll = matchMode === 'all' && selected.length > 1;
   const matches = book?.passages.map((p, i) => !selected.length || (requireAll ? selected.every(id => p.labels.includes(id)) : selected.some(id => p.labels.includes(id))) ? i : -1).filter(i => i >= 0) ?? [];
   function jump(index: number | undefined) {
@@ -85,32 +82,25 @@ export default function Reader() {
 
   return <div className="min-h-screen bg-paper text-ink">
     <a href="#reading-text" className="sr-only z-50 rounded bg-white p-3 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Skip to book</a>
-    <header className="fixed inset-x-0 top-0 z-40 flex h-16 items-center justify-between border-b border-rule bg-panel px-5 lg:hidden">
+    <header className="fixed left-0 right-10 top-0 z-40 flex h-16 items-center justify-between border-b border-rule bg-panel px-5 lg:hidden">
       <span className="min-w-0 truncate pr-3 font-serif text-lg">{title}</span>
-      <Button outline aria-expanded={mobileOpen} aria-controls="channels" onClick={() => setMobileOpen(!mobileOpen)}>{mobileOpen ? 'Close channels' : 'Channels'}</Button>
+      <Button outline aria-expanded={mobileOpen} aria-controls="channels" onClick={() => setMobileOpen(!mobileOpen)}>{mobileOpen ? 'Close characters' : 'Characters'}</Button>
     </header>
     <aside id="channels" className={`${mobileOpen ? 'block' : 'hidden'} fixed inset-x-0 top-16 bottom-0 z-30 border-r border-rule bg-panel lg:inset-x-auto lg:top-0 lg:left-0 lg:block lg:w-[290px] xl:w-[320px]`}>
-      <Sidebar aria-label="Reading channels">
+      <Sidebar aria-label="Characters">
         <SidebarHeader className="px-6! pt-7! pb-5! lg:pt-10!">
           <a href="/" className="font-serif text-[27px] leading-tight tracking-tight">{title}</a>
           <p className="mt-2 font-serif text-lg italic text-muted">{documentInfo?.author ?? 'Jane Austen'} · {documentInfo?.year ?? 1813}</p>
           <Field className="mt-4">
             <Label>Document</Label>
-            <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => { setLayer('baseline'); setDocumentId(e.target.value); setMatchMode('any'); }} className="mt-2">
+            <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => { setDocumentId(e.target.value); setMatchMode('any'); }} className="mt-2">
               {!documents.length && <option value="pride-and-prejudice">Loading library…</option>}
               {documents.map(d => <option key={d.documentId} value={d.documentId}>{d.title}</option>)}
             </Select>
           </Field>
-          <Field className="mt-4">
-            <Label className="text-muted!">Explore by</Label>
-            <Select value={layer} onChange={e => setLayer(e.target.value)} className="mt-2">
-              <option value="baseline">Name matches · baseline</option>
-              {documentId === 'pride-and-prejudice' && process.env.NEXT_PUBLIC_RESEARCH_LAYERS !== 'false' && <><option value="mentions">Mentioned in the text · gold</option><option value="speaking">Speaking in dialogue · gold</option></>}
-            </Select>
-          </Field>
         </SidebarHeader>
         <SidebarBody className="gap-2 px-5! pt-4!">
-          <div className="flex items-center justify-between px-2"><h2 className="text-sm font-semibold text-muted">Channels</h2><Button plain className="text-xs! text-muted!" onClick={() => setSelected([])}>Clear</Button></div>
+          <div className="flex items-center justify-between px-2"><h2 className="text-sm font-semibold text-muted">Characters</h2><Button plain className="text-xs! text-muted!" onClick={() => setSelected([])}>Clear</Button></div>
           {book && <>
             <button className={`channel-card w-full cursor-pointer rounded-lg border p-3 text-left ${!selected.length ? 'border-rule bg-ink/5' : 'border-transparent hover:bg-ink/3'}`} onClick={() => setSelected([])} aria-pressed={!selected.length}>
               <span className="flex items-baseline justify-between gap-2"><strong className="text-base font-medium">The book</strong><span className="text-xs text-muted">all {book.passages.length} passages</span></span>
@@ -174,16 +164,12 @@ export default function Reader() {
               <p className="font-serif text-[21px] leading-[1.95] whitespace-pre-line sm:text-[23px]">{readerSegments(passageText, baseline ? book.textFormat === 'tokenized' : mentionLayer).map((part, i) => part.emphasis ? <em key={i}>{part.text}</em> : part.text)}</p>
             </section>;
           })}</div>
-          <footer className="border-t border-rule pt-7 text-sm leading-7 text-muted">{baseline ? 'Name and alias matches for a selected cast. These do not resolve pronouns or establish physical presence. Generic aliases may be ambiguous; an unmarked passage does not prove a character is absent.' : 'Human reference annotations, not JEV predictions or physical-presence labels. Each layer keeps its own source edition.'} Switching documents or layers resets the reading position. <a className="underline underline-offset-4" href={book.source} target="_blank" rel="noreferrer">Source edition</a></footer>
+          <footer className="border-t border-rule pt-7 text-sm leading-7 text-muted">{baseline ? 'Name and alias matches for a selected cast. These do not resolve pronouns or establish physical presence. Generic aliases may be ambiguous; an unmarked passage does not prove a character is absent.' : 'Human reference annotations, not JEV predictions or physical-presence labels. Each layer keeps its own source edition.'} Switching documents resets the reading position. <a className="underline underline-offset-4" href={book.source} target="_blank" rel="noreferrer">Source edition</a></footer>
         </>}
       </div>
     </main>
-    <aside className="fixed top-20 right-1 bottom-5 w-10 lg:top-0 lg:right-0 lg:bottom-0 lg:w-[155px] lg:border-l lg:border-rule lg:bg-panel xl:w-[185px]" aria-label="Whole-book character map">
-      <div className="hidden h-36 px-4 pt-6 lg:block"><p className="truncate text-sm text-muted" title={focusName}>{focusName}</p><p className="mt-1 text-[11px] text-muted">{mentionLayer ? 'Mention' : 'Speaker'} frequency</p><p className="mt-1 text-[11px] leading-4 text-muted">Share of matching passages<br />5-passage window</p></div>
-      {book && <>
-        <div className="h-full lg:h-[calc(100%-253px)]"><CharacterRail book={book} selected={selected} current={current} colorFor={colorFor} jump={jump} /></div>
-        <div className="hidden space-y-2 px-5 pt-4 lg:block"><label htmlFor="book-position" className="text-xs text-muted">Book position</label><input id="book-position" type="range" className="w-full accent-slate-600" min={0} max={book.passages.length - 1} value={current} onChange={e => jump(Number(e.target.value))} aria-valuetext={`${sectionTitle(book.passages[current].chapter)}, passage ${current + 1}`} /><p className="text-[11px] leading-4 text-muted">{selected.length > 1 ? 'Dark marks: all selected in the same passage. Bands: sections.' : 'Bands mark sections. Click the map to navigate.'}</p></div>
-      </>}
+    <aside className="fixed inset-y-0 right-0 w-10 lg:w-[155px] lg:border-l lg:border-rule lg:bg-panel xl:w-[185px]" aria-label="Whole-book character map">
+      {book && <CharacterRail book={book} selected={selected} current={current} colorFor={colorFor} jump={jump} />}
     </aside>
   </div>;
 }

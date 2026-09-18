@@ -8,9 +8,7 @@ try {
   page.on('pageerror', error => errors.push(error.message));
   await page.goto(baseURL);
   await page.locator('.passage').last().waitFor();
-  await page.getByLabel('Explore by').selectOption('mentions');
-  await page.waitForFunction(() => document.querySelectorAll('.passage').length === 406);
-  assert.equal(await page.locator('.passage').count(), 406);
+  assert.equal(await page.locator('.passage').count(), 324);
   assert(await page.locator('.matched').count() > 0);
   await page.getByRole('checkbox', { name: 'Mr. Darcy', exact: false }).check();
   assert.equal(await page.locator('.rail-curve').count(), 2);
@@ -28,9 +26,9 @@ try {
     assert.equal(await curve.getAttribute('stroke'), channelColor);
   }
   assert.notEqual(await page.locator('.rail-curve').nth(0).getAttribute('points'), await page.locator('.rail-curve').nth(1).getAttribute('points'));
-  const sharedPassage = page.locator('#passage-55');
-  assert.equal(await sharedPassage.locator('.passage-thread').count(), 2);
   await page.getByRole('checkbox', { name: 'Jane Bennet', exact: false }).check();
+  const sharedId = await page.locator('.passage[data-shared="true"]').first().getAttribute('id');
+  const sharedPassage = page.locator(`#${sharedId}`);
   assert.equal(await sharedPassage.locator('.passage-thread').count(), 3);
   for (const thread of await sharedPassage.locator('.passage-thread').all()) {
     const id = await thread.getAttribute('data-character-id');
@@ -60,27 +58,22 @@ try {
   const slider = page.getByRole('slider', { name: 'Book position' });
   await slider.focus();
   await slider.press('End');
-  assert.equal(await slider.inputValue(), '405');
+  assert.equal(await slider.getAttribute('aria-valuenow'), '323');
   await slider.press('Home');
-  assert.equal(await slider.inputValue(), '0');
+  assert.equal(await slider.getAttribute('aria-valuenow'), '0');
   const rail = await page.locator('.minimap').boundingBox();
   assert(rail);
   await page.mouse.click(rail.x + rail.width / 2, rail.y + rail.height / 2);
-  assert(Number(await slider.inputValue()) > 100);
-  await page.getByLabel('Explore by').selectOption('speaking');
-  await page.waitForFunction(() => document.querySelectorAll('.passage').length === 319);
-  assert.equal(await page.getByRole('checkbox').count(), 74);
+  assert(Number(await slider.getAttribute('aria-valuenow')) > 100);
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(baseURL);
   await page.locator('.passage').last().waitFor();
-  await page.getByRole('button', { name: 'Channels', exact: true }).click();
-  await page.getByLabel('Explore by').selectOption('speaking');
-  await page.waitForFunction(() => document.querySelectorAll('.passage').length === 319);
-  await page.getByRole('button', { name: 'Close channels' }).click();
+  await page.getByRole('button', { name: 'Characters', exact: true }).click();
+  await page.getByRole('button', { name: 'Close characters' }).click();
   assert(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth));
   await page.screenshot({ path: '/tmp/read-with-jev-mobile.png' });
   const invalid = await page.request.get(`${baseURL}/api/book?layer=../../.env`);
   assert.equal(invalid.status(), 400);
   assert.deepEqual(errors, []);
-  console.log('Reader checks passed: Catalyst selection, clear, passage navigation, keyboard position slider, rail click, layer switching, mobile channels, mobile width, invalid layer, and no browser errors.');
+  console.log('Reader checks passed: Catalyst selection, clear, passage navigation, keyboard position slider, rail click, mobile characters, mobile width, invalid layer, and no browser errors.');
 } finally { await browser.close(); }

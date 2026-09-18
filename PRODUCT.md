@@ -23,9 +23,9 @@ The research mechanism combines stable target passages, overlapping neighboring 
 ## Operating Context
 
 - The primary annotated reader is *Pride and Prejudice*. BookCoref and PDNC supply independent annotated editions; their text offsets and character inventories must stay separate.
-- Researchers switch between character mentions and quotation speakers, select one or several characters, inspect matching passages, and navigate with the whole-book minimap or previous/next passage controls.
+- Readers select one or several characters, inspect matching passages, and navigate with the full-height minimap or previous/next passage controls. The map supports arrow keys, Home, End, and Page Up/Down; research layers remain available through the API and benchmark commands.
 - Shared passages retain a separate colored margin line for every selected matching character. Each selected character also has an independent minimap curve, using the same color as their channel.
-- Data preparation and inference run offline through TypeScript commands. Reading and filtering do not trigger paid model requests. The Next.js reader defaults to deterministic name/alias baseline classifications across nine documents, served by a Netlify function. Local Pride and Prejudice research layers retain human annotations; JEV predictions remain offline research artifacts.
+- Data preparation and inference run offline through TypeScript commands. Reading and filtering do not trigger paid model requests. The Next.js reader defaults to deterministic name/alias baseline classifications across nine documents, served by a Netlify function. Pride and Prejudice research datasets retain human annotations; JEV predictions remain offline research artifacts.
 - This research view reveals the full cast and whole-book activity. It is not spoiler-safe.
 
 ## Capabilities and Constraints

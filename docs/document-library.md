@@ -52,7 +52,7 @@ The first returns the catalog; the second returns a complete document. HEAD and 
 
 `netlify/functions/library.ts` is the native Netlify handler. For `next dev` and local Next production builds, a rewrite forwards the same URL to `/api/library`; both use `src/server/library.ts`.
 
-Connect this repository to Netlify using the committed `netlify.toml`: it runs `npm run build:netlify`, publishes the Next build, and includes `data/library/*.json` in the function bundle. It sets `NEXT_PUBLIC_RESEARCH_LAYERS=false` to hide the local gold-layer controls. Library preparation needs outbound access to the source hosts at build time, but requests need only the bundled files. No Netlify deployment has been performed as part of this implementation.
+Connect this repository to Netlify using the committed `netlify.toml`: it runs `npm run build:netlify`, publishes the Next build, and includes `data/library/*.json` in the function bundle. Library preparation needs outbound access to the source hosts at build time, but requests need only the bundled files. No Netlify deployment has been performed as part of this implementation.
 
 Every current document is below 1.4 MB as JSON. Preparation rejects documents at 5.5 MB; larger future works should use chunked passage endpoints or object storage rather than enlarging this response indefinitely. All catalog files are bundled together, so reconsider bundle size as the collection grows.
 
@@ -74,6 +74,6 @@ npm run build:netlify
 npm run test:library:browser
 ```
 
-Research checks also require `npm run data:fetch` on a fresh checkout. `npm run test:browser` covers the local gold-layer controls and should run against a build with research selectors enabled.
+Research checks also require `npm run data:fetch` on a fresh checkout. `npm run test:browser` covers character selection and mouse/keyboard navigation. The reader has no layer selector; gold datasets remain available to the research API and benchmark commands.
 
 Gutenberg documents retain their source and terms links. Animal Farm uses only released token text from the checksum-pinned BookCoref file, never its labels. Its BookCoref research license and underlying-text rights remain distinct from the Gutenberg editions; see [dataset provenance](datasets.md) before any public distribution. The catalog and each response carry source attribution.
