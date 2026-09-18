@@ -143,3 +143,7 @@ request payload/cache identity from the original pilot even when the sample IDs 
 The next [passage-highlight experiment](docs/affect-iteration-3.md) uses `npm run affect:highlights`
 to predict eight emotion associations per supplied character, without supplied emotion spans.
 It is a separate, harder task with development-only evaluation and a frozen-threshold follow-up.
+
+[Iteration 4](docs/affect-iteration-4.md) compares guideline-informed definitions with the original
+highlight prompt, adds a supervised lexical baseline, and prepares a blinded human-review packet.
+The revised highlight prompt did not improve F1; the original remains the default.

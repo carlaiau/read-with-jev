@@ -36,3 +36,12 @@ test('lexical matching preserves offsets when Unicode lowercasing would change t
  const pairs=highlightPairs(d).filter(p=>p.emotion.type==='fear');
  assert.deepEqual(pairs.map(p=>highlightBaseline(d,p,'nrc-nearest',{fear:['fear']})),[1,1]);
 });
+test('revised prompt preserves state and candidate questions while adding category and coreference conventions',()=>{
+ const d=fixture(),pairs=highlightPairs(d).slice(0,8);
+ const v1=highlightRequest(d,pairs,'test','v1'),v2=highlightRequest(d,pairs,'test','v2');
+ assert.deepEqual(v1.state,v2.state);assert.deepEqual(Object.keys(v1.questions),Object.keys(v2.questions));
+ assert(JSON.stringify(v2.questions).includes('SAME experiencer'));
+ assert(JSON.stringify(v2.questions).includes('Future tense'));
+ const changed=structuredClone(d);changed.spans=changed.spans.filter(s=>s.type==='character');changed.relations=[];
+ assert.deepEqual(highlightRequest(changed,highlightPairs(changed).slice(0,8),'test','v2'),v2);
+});

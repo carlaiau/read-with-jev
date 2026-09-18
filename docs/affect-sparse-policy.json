@@ -1,0 +1,53 @@
+{
+  "notice": "Retrospective exploratory operating-point analysis; no new inference or calibrated precision guarantee.",
+  "selectionRule": "Lowest threshold on original selection grid with observed precision >= .75 and at least 10 predicted positives",
+  "selected": {
+    "threshold": 0.75,
+    "pairs": 816,
+    "support": 90,
+    "tp": 13,
+    "fp": 4,
+    "fn": 77,
+    "tn": 722,
+    "precision": 0.7647058823529411,
+    "recall": 0.14444444444444443,
+    "f1": 0.24299065420560748,
+    "brier": 0.07735208333333324
+  },
+  "reports": [
+    {
+      "path": "affect-highlight-jev-29-9b689cea5999-1789739706006.json",
+      "documents": 29,
+      "threshold": 0.75,
+      "metrics": {
+        "pairs": 312,
+        "support": 30,
+        "tp": 7,
+        "fp": 0,
+        "fn": 23,
+        "tn": 282,
+        "precision": 1,
+        "recall": 0.23333333333333334,
+        "f1": 0.3783783783783784,
+        "brier": 0.07148493589743578
+      }
+    },
+    {
+      "path": "affect-highlight-jev-64-e92b56254ff9-1789739291164.json",
+      "documents": 64,
+      "threshold": 0.75,
+      "metrics": {
+        "pairs": 784,
+        "support": 82,
+        "tp": 14,
+        "fp": 5,
+        "fn": 68,
+        "tn": 697,
+        "precision": 0.7368421052631579,
+        "recall": 0.17073170731707318,
+        "f1": 0.27722772277227725,
+        "brier": 0.07160803571428548
+      }
+    }
+  ]
+}

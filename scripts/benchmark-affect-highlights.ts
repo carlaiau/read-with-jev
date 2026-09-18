@@ -7,10 +7,13 @@ import {highlightEligibility,highlightPairs,highlightBaseline} from '../src/lib/
 import {highlightRequest} from '../src/server/affect-highlight-request';
 import {createClient,validateAnswers} from '../src/server/jev';
 const {values} = parseArgs({options:{
+  prompt:{type:'string',default:'v1'},
   threshold:{type:'string',default:'0.5'},'exclude-authors-from':{type:'string'},
   engine:{type:'string',default:'nrc-nearest'},limit:{type:'string',default:'64'},offset:{type:'string',default:'0'},
   model:{type:'string',default:'jev-1.13.0'},execute:{type:'boolean',default:false},'cache-only':{type:'boolean',default:false},'max-requests':{type:'string',default:'0'},
 }});
+assert(['v1','v2'].includes(values.prompt!),'Unknown prompt');
+const prompt=values.prompt as 'v1'|'v2';
 const threshold=Number(values.threshold);assert(Number.isFinite(threshold)&&threshold>0&&threshold<1,'Invalid threshold');
 const engine=values.engine!,limit=Number(values.limit),offset=Number(values.offset),cap=Number(values['max-requests']);
 assert(['jev','none','nrc-passage','nrc-nearest','nrc-preceding'].includes(engine));
@@ -26,8 +29,8 @@ const audit:Record<string,number>={};
 const eligible=data.documents.filter(d=>d.split==='dev'&&!excludedAuthors.has(d.author)).filter(d=>{const issue=highlightEligibility(d);audit[issue??'eligible']=(audit[issue??'eligible']??0)+1;return !issue;}).sort((a,b)=>digest(a.doc_id).localeCompare(digest(b.doc_id)));
 const docs=eligible.slice(offset,offset+limit);assert(docs.length);
 const pairs=docs.flatMap(highlightPairs);
-const jobs=docs.flatMap(doc=>{const ps=highlightPairs(doc);const jobs=[];for(let i=0;i<ps.length;i+=8){const chunk=ps.slice(i,i+8);jobs.push({chunk,request:highlightRequest(doc,chunk,values.model!)});}return jobs;});
-const plan={task:'REMAN character-mention by eight emotions, no supplied emotion spans, v1',engine,prompt:engine==='jev'?'highlight-v1':null,
+const jobs=docs.flatMap(doc=>{const ps=highlightPairs(doc);const jobs=[];for(let i=0;i<ps.length;i+=8){const chunk=ps.slice(i,i+8);jobs.push({chunk,request:highlightRequest(doc,chunk,values.model!,prompt)});}return jobs;});
+const plan={task:'REMAN character-mention by eight emotions, no supplied emotion spans, v1',engine,prompt:engine==='jev'?`highlight-${prompt}`:null,
   split:'dev',offset,threshold,excludedAuthors:[...excludedAuthors].sort(),datasetHash:digest(raw),sourceHashes:data.sources,documentIds:docs.map(d=>d.doc_id),documents:docs.length,pairs:pairs.length,
   model:engine==='jev'?values.model:null,requests:engine==='jev'?jobs.length:0,audit,nodeVersion:process.version,icuVersion:process.versions.icu,
   caveat:'Oracle character mentions, automatically segmented middle-sentence target checked against gold scope. Emotion association includes negated/hypothetical/remembered expression. Missing corpus links score negative; not exhaustive felt-emotion gold.'};

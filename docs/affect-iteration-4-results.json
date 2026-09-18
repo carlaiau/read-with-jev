@@ -1,0 +1,1111 @@
+{
+  "task": "REMAN character-mention by eight emotions, no supplied emotion spans, v1",
+  "datasetHash": "8cbfb62d7fe18f7628dc06b39ac1663edec1b5939427e73e0a3f1e2467e5930d",
+  "documentIds": [
+    "25834|6648",
+    "32025|98473",
+    "32025|1357",
+    "7344|1348",
+    "34009|3626",
+    "403|6712",
+    "32636|93503",
+    "32780|12896",
+    "4396|4420",
+    "3684|9546",
+    "2084|3318",
+    "34009|1667",
+    "11045|3211",
+    "403|96961",
+    "26335|1648",
+    "6616|28",
+    "27595|466",
+    "25834|12176",
+    "27595|473",
+    "7412|4752",
+    "32615|447",
+    "34009|96629",
+    "32615|173",
+    "12991|3274",
+    "32025|1638",
+    "32029|606",
+    "27595|2611",
+    "34009|2104",
+    "403|91760"
+  ],
+  "documents": 29,
+  "authors": 18,
+  "uncertainty": "2000 paired author-cluster bootstrap resamples, seed 20260919, per-run fixed thresholds; development estimates, not held-out evidence",
+  "runs": [
+    {
+      "path": "data/runs/affect-highlight-nrc-passage-29-1d70519a62ba-1789739705698.json",
+      "label": "nrc-passage",
+      "requestedModel": null,
+      "threshold": 0.25,
+      "returnedModels": [],
+      "callsMade": 0,
+      "elapsedMs": 6,
+      "codeHashes": {
+        "scripts/benchmark-affect-highlights.ts": "2088af799ba3942b5c0266c9dfaaaa655c80f14be178777504be401996cba4b0",
+        "src/lib/affect-highlights.ts": "abd2698353ccd914f306d70663e0d295491c855fe71c715bb69ac3e4fb626330",
+        "src/server/affect-highlight-request.ts": "af91a4bc34086141c0f267cfceff79c3cf5946d7ea6d365a9feacb937ea4c1b5"
+      },
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "metrics": {
+        "strict": {
+          "micro": {
+            "pairs": 312,
+            "support": 30,
+            "tp": 15,
+            "fp": 89,
+            "fn": 15,
+            "tn": 193,
+            "precision": 0.14423076923076922,
+            "recall": 0.5,
+            "f1": 0.22388059701492538,
+            "brier": 0.3333333333333333
+          },
+          "macroF1": 0.206418386992825,
+          "perEmotion": {
+            "anger": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 0,
+              "fp": 7,
+              "fn": 2,
+              "tn": 30,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": 0.23076923076923078
+            },
+            "anticipation": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 1,
+              "fp": 10,
+              "fn": 5,
+              "tn": 23,
+              "precision": 0.09090909090909091,
+              "recall": 0.16666666666666666,
+              "f1": 0.11764705882352941,
+              "brier": 0.38461538461538464
+            },
+            "disgust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 1,
+              "fp": 13,
+              "fn": 2,
+              "tn": 23,
+              "precision": 0.07142857142857142,
+              "recall": 0.3333333333333333,
+              "f1": 0.11764705882352941,
+              "brier": 0.38461538461538464
+            },
+            "fear": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 3,
+              "fp": 10,
+              "fn": 3,
+              "tn": 23,
+              "precision": 0.23076923076923078,
+              "recall": 0.5,
+              "f1": 0.3157894736842105,
+              "brier": 0.3333333333333333
+            },
+            "joy": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 1,
+              "fp": 9,
+              "fn": 1,
+              "tn": 28,
+              "precision": 0.1,
+              "recall": 0.5,
+              "f1": 0.16666666666666666,
+              "brier": 0.2564102564102564
+            },
+            "sadness": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 3,
+              "fp": 8,
+              "fn": 1,
+              "tn": 27,
+              "precision": 0.2727272727272727,
+              "recall": 0.75,
+              "f1": 0.4,
+              "brier": 0.23076923076923078
+            },
+            "surprise": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 3,
+              "fp": 15,
+              "fn": 1,
+              "tn": 20,
+              "precision": 0.16666666666666666,
+              "recall": 0.75,
+              "f1": 0.2727272727272727,
+              "brier": 0.41025641025641024
+            },
+            "trust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 3,
+              "fp": 17,
+              "fn": 0,
+              "tn": 19,
+              "precision": 0.15,
+              "recall": 1,
+              "f1": 0.2608695652173913,
+              "brier": 0.4358974358974359
+            },
+            "other-emotion": {
+              "pairs": 0,
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "data/runs/affect-highlight-nrc-nearest-29-3f88133006bd-1789739705802.json",
+      "label": "nrc-nearest",
+      "requestedModel": null,
+      "threshold": 0.25,
+      "returnedModels": [],
+      "callsMade": 0,
+      "elapsedMs": 6,
+      "codeHashes": {
+        "scripts/benchmark-affect-highlights.ts": "2088af799ba3942b5c0266c9dfaaaa655c80f14be178777504be401996cba4b0",
+        "src/lib/affect-highlights.ts": "abd2698353ccd914f306d70663e0d295491c855fe71c715bb69ac3e4fb626330",
+        "src/server/affect-highlight-request.ts": "af91a4bc34086141c0f267cfceff79c3cf5946d7ea6d365a9feacb937ea4c1b5"
+      },
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "metrics": {
+        "strict": {
+          "micro": {
+            "pairs": 312,
+            "support": 30,
+            "tp": 14,
+            "fp": 64,
+            "fn": 16,
+            "tn": 218,
+            "precision": 0.1794871794871795,
+            "recall": 0.4666666666666667,
+            "f1": 0.25925925925925924,
+            "brier": 0.2564102564102564
+          },
+          "macroF1": 0.23532647907647908,
+          "perEmotion": {
+            "anger": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 0,
+              "fp": 4,
+              "fn": 2,
+              "tn": 33,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": 0.15384615384615385
+            },
+            "anticipation": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 1,
+              "fp": 8,
+              "fn": 5,
+              "tn": 25,
+              "precision": 0.1111111111111111,
+              "recall": 0.16666666666666666,
+              "f1": 0.13333333333333333,
+              "brier": 0.3333333333333333
+            },
+            "disgust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 1,
+              "fp": 8,
+              "fn": 2,
+              "tn": 28,
+              "precision": 0.1111111111111111,
+              "recall": 0.3333333333333333,
+              "f1": 0.16666666666666666,
+              "brier": 0.2564102564102564
+            },
+            "fear": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 3,
+              "fp": 7,
+              "fn": 3,
+              "tn": 26,
+              "precision": 0.3,
+              "recall": 0.5,
+              "f1": 0.375,
+              "brier": 0.2564102564102564
+            },
+            "joy": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 1,
+              "fp": 8,
+              "fn": 1,
+              "tn": 29,
+              "precision": 0.1111111111111111,
+              "recall": 0.5,
+              "f1": 0.18181818181818182,
+              "brier": 0.23076923076923078
+            },
+            "sadness": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 3,
+              "fp": 7,
+              "fn": 1,
+              "tn": 28,
+              "precision": 0.3,
+              "recall": 0.75,
+              "f1": 0.42857142857142855,
+              "brier": 0.20512820512820512
+            },
+            "surprise": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 3,
+              "fp": 9,
+              "fn": 1,
+              "tn": 26,
+              "precision": 0.25,
+              "recall": 0.75,
+              "f1": 0.375,
+              "brier": 0.2564102564102564
+            },
+            "trust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 2,
+              "fp": 13,
+              "fn": 1,
+              "tn": 23,
+              "precision": 0.13333333333333333,
+              "recall": 0.6666666666666666,
+              "f1": 0.2222222222222222,
+              "brier": 0.358974358974359
+            },
+            "other-emotion": {
+              "pairs": 0,
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "data/runs/affect-highlight-nrc-preceding-29-95b16d66c8c4-1789739705904.json",
+      "label": "nrc-preceding",
+      "requestedModel": null,
+      "threshold": 0.25,
+      "returnedModels": [],
+      "callsMade": 0,
+      "elapsedMs": 6,
+      "codeHashes": {
+        "scripts/benchmark-affect-highlights.ts": "2088af799ba3942b5c0266c9dfaaaa655c80f14be178777504be401996cba4b0",
+        "src/lib/affect-highlights.ts": "abd2698353ccd914f306d70663e0d295491c855fe71c715bb69ac3e4fb626330",
+        "src/server/affect-highlight-request.ts": "af91a4bc34086141c0f267cfceff79c3cf5946d7ea6d365a9feacb937ea4c1b5"
+      },
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "metrics": {
+        "strict": {
+          "micro": {
+            "pairs": 312,
+            "support": 30,
+            "tp": 12,
+            "fp": 66,
+            "fn": 18,
+            "tn": 216,
+            "precision": 0.15384615384615385,
+            "recall": 0.4,
+            "f1": 0.2222222222222222,
+            "brier": 0.2692307692307692
+          },
+          "macroF1": 0.20407647907647908,
+          "perEmotion": {
+            "anger": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 0,
+              "fp": 4,
+              "fn": 2,
+              "tn": 33,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": 0.15384615384615385
+            },
+            "anticipation": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 1,
+              "fp": 8,
+              "fn": 5,
+              "tn": 25,
+              "precision": 0.1111111111111111,
+              "recall": 0.16666666666666666,
+              "f1": 0.13333333333333333,
+              "brier": 0.3333333333333333
+            },
+            "disgust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 1,
+              "fp": 8,
+              "fn": 2,
+              "tn": 28,
+              "precision": 0.1111111111111111,
+              "recall": 0.3333333333333333,
+              "f1": 0.16666666666666666,
+              "brier": 0.2564102564102564
+            },
+            "fear": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 3,
+              "fp": 7,
+              "fn": 3,
+              "tn": 26,
+              "precision": 0.3,
+              "recall": 0.5,
+              "f1": 0.375,
+              "brier": 0.2564102564102564
+            },
+            "joy": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 1,
+              "fp": 8,
+              "fn": 1,
+              "tn": 29,
+              "precision": 0.1111111111111111,
+              "recall": 0.5,
+              "f1": 0.18181818181818182,
+              "brier": 0.23076923076923078
+            },
+            "sadness": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 3,
+              "fp": 7,
+              "fn": 1,
+              "tn": 28,
+              "precision": 0.3,
+              "recall": 0.75,
+              "f1": 0.42857142857142855,
+              "brier": 0.20512820512820512
+            },
+            "surprise": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 1,
+              "fp": 11,
+              "fn": 3,
+              "tn": 24,
+              "precision": 0.08333333333333333,
+              "recall": 0.25,
+              "f1": 0.125,
+              "brier": 0.358974358974359
+            },
+            "trust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 2,
+              "fp": 13,
+              "fn": 1,
+              "tn": 23,
+              "precision": 0.13333333333333333,
+              "recall": 0.6666666666666666,
+              "f1": 0.2222222222222222,
+              "brier": 0.358974358974359
+            },
+            "other-emotion": {
+              "pairs": 0,
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "data/runs/affect-linear-29-1789739808739.json",
+      "label": "linear-nrc",
+      "requestedModel": null,
+      "threshold": 0.15,
+      "returnedModels": [],
+      "callsMade": 0,
+      "elapsedMs": 712,
+      "codeHashes": {
+        "src/lib/affect-linear.ts": "b26af8adf21178e1c626c2c33a51a5d7dde7854258706a8337de22bbd39aaa1f",
+        "src/lib/affect-highlights.ts": "abd2698353ccd914f306d70663e0d295491c855fe71c715bb69ac3e4fb626330",
+        "scripts/benchmark-affect-linear.ts": "ed90672fe08cd43bf8ab0aba5d9740e3c4308df03e348587ec5b4c85e2e04670"
+      },
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "metrics": {
+        "strict": {
+          "micro": {
+            "pairs": 312,
+            "support": 30,
+            "tp": 11,
+            "fp": 67,
+            "fn": 19,
+            "tn": 215,
+            "precision": 0.14102564102564102,
+            "recall": 0.36666666666666664,
+            "f1": 0.2037037037037037,
+            "brier": 0.08639995013888428
+          },
+          "macroF1": 0.17617521367521366,
+          "perEmotion": {
+            "anger": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 0,
+              "fp": 4,
+              "fn": 2,
+              "tn": 33,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": 0.05404089195600856
+            },
+            "anticipation": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 1,
+              "fp": 8,
+              "fn": 5,
+              "tn": 25,
+              "precision": 0.1111111111111111,
+              "recall": 0.16666666666666666,
+              "f1": 0.13333333333333333,
+              "brier": 0.14093648142467194
+            },
+            "disgust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 0,
+              "fp": 8,
+              "fn": 3,
+              "tn": 28,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": 0.0755940524008167
+            },
+            "fear": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 3,
+              "fp": 9,
+              "fn": 3,
+              "tn": 24,
+              "precision": 0.25,
+              "recall": 0.5,
+              "f1": 0.3333333333333333,
+              "brier": 0.12647245757979397
+            },
+            "joy": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 1,
+              "fp": 9,
+              "fn": 1,
+              "tn": 28,
+              "precision": 0.1,
+              "recall": 0.5,
+              "f1": 0.16666666666666666,
+              "brier": 0.052570610783234585
+            },
+            "sadness": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 3,
+              "fp": 8,
+              "fn": 1,
+              "tn": 27,
+              "precision": 0.2727272727272727,
+              "recall": 0.75,
+              "f1": 0.4,
+              "brier": 0.08147043105889908
+            },
+            "surprise": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 1,
+              "fp": 8,
+              "fn": 3,
+              "tn": 27,
+              "precision": 0.1111111111111111,
+              "recall": 0.25,
+              "f1": 0.15384615384615385,
+              "brier": 0.09087365380009664
+            },
+            "trust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 2,
+              "fp": 13,
+              "fn": 1,
+              "tn": 23,
+              "precision": 0.13333333333333333,
+              "recall": 0.6666666666666666,
+              "f1": 0.2222222222222222,
+              "brier": 0.06924102210755277
+            },
+            "other-emotion": {
+              "pairs": 0,
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "data/runs/affect-highlight-jev-29-9b689cea5999-1789739706006.json",
+      "label": "jev-highlight-v1@0.25",
+      "requestedModel": "jev-1.13.0",
+      "threshold": 0.25,
+      "returnedModels": [
+        "jev-1.13.0"
+      ],
+      "callsMade": 39,
+      "elapsedMs": 11292,
+      "codeHashes": {
+        "scripts/benchmark-affect-highlights.ts": "2088af799ba3942b5c0266c9dfaaaa655c80f14be178777504be401996cba4b0",
+        "src/lib/affect-highlights.ts": "abd2698353ccd914f306d70663e0d295491c855fe71c715bb69ac3e4fb626330",
+        "src/server/affect-highlight-request.ts": "af91a4bc34086141c0f267cfceff79c3cf5946d7ea6d365a9feacb937ea4c1b5"
+      },
+      "usage": {
+        "inputTokens": 72202,
+        "outputTokens": 5460
+      },
+      "metrics": {
+        "strict": {
+          "micro": {
+            "pairs": 312,
+            "support": 30,
+            "tp": 15,
+            "fp": 32,
+            "fn": 15,
+            "tn": 250,
+            "precision": 0.3191489361702128,
+            "recall": 0.5,
+            "f1": 0.38961038961038963,
+            "brier": 0.07148493589743578
+          },
+          "macroF1": 0.4048971861471861,
+          "perEmotion": {
+            "anger": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 1,
+              "fp": 5,
+              "fn": 1,
+              "tn": 32,
+              "precision": 0.16666666666666666,
+              "recall": 0.5,
+              "f1": 0.25,
+              "brier": 0.05363333333333333
+            },
+            "anticipation": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 3,
+              "fp": 5,
+              "fn": 3,
+              "tn": 28,
+              "precision": 0.375,
+              "recall": 0.5,
+              "f1": 0.42857142857142855,
+              "brier": 0.10656153846153846
+            },
+            "disgust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 2,
+              "fp": 6,
+              "fn": 1,
+              "tn": 30,
+              "precision": 0.25,
+              "recall": 0.6666666666666666,
+              "f1": 0.36363636363636365,
+              "brier": 0.06869999999999998
+            },
+            "fear": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 2,
+              "fp": 3,
+              "fn": 4,
+              "tn": 30,
+              "precision": 0.4,
+              "recall": 0.3333333333333333,
+              "f1": 0.36363636363636365,
+              "brier": 0.1046128205128205
+            },
+            "joy": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 1,
+              "fp": 1,
+              "fn": 1,
+              "tn": 36,
+              "precision": 0.5,
+              "recall": 0.5,
+              "f1": 0.5,
+              "brier": 0.03542564102564103
+            },
+            "sadness": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 1,
+              "fp": 7,
+              "fn": 3,
+              "tn": 28,
+              "precision": 0.125,
+              "recall": 0.25,
+              "f1": 0.16666666666666666,
+              "brier": 0.0961102564102564
+            },
+            "surprise": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 3,
+              "fp": 2,
+              "fn": 1,
+              "tn": 33,
+              "precision": 0.6,
+              "recall": 0.75,
+              "f1": 0.6666666666666666,
+              "brier": 0.05957179487179486
+            },
+            "trust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 2,
+              "fp": 3,
+              "fn": 1,
+              "tn": 33,
+              "precision": 0.4,
+              "recall": 0.6666666666666666,
+              "f1": 0.5,
+              "brier": 0.04726410256410256
+            },
+            "other-emotion": {
+              "pairs": 0,
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "data/runs/affect-highlight-jev-29-d99e63a286e9-1789739717665.json",
+      "label": "jev-highlight-v2@0.25",
+      "requestedModel": "jev-1.13.0",
+      "threshold": 0.25,
+      "returnedModels": [
+        "jev-1.13.0"
+      ],
+      "callsMade": 39,
+      "elapsedMs": 11369,
+      "codeHashes": {
+        "scripts/benchmark-affect-highlights.ts": "2088af799ba3942b5c0266c9dfaaaa655c80f14be178777504be401996cba4b0",
+        "src/lib/affect-highlights.ts": "abd2698353ccd914f306d70663e0d295491c855fe71c715bb69ac3e4fb626330",
+        "src/server/affect-highlight-request.ts": "af91a4bc34086141c0f267cfceff79c3cf5946d7ea6d365a9feacb937ea4c1b5"
+      },
+      "usage": {
+        "inputTokens": 114751,
+        "outputTokens": 5460
+      },
+      "metrics": {
+        "strict": {
+          "micro": {
+            "pairs": 312,
+            "support": 30,
+            "tp": 13,
+            "fp": 27,
+            "fn": 17,
+            "tn": 255,
+            "precision": 0.325,
+            "recall": 0.43333333333333335,
+            "f1": 0.37142857142857144,
+            "brier": 0.06888173076923075
+          },
+          "macroF1": 0.3939664502164502,
+          "perEmotion": {
+            "anger": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 1,
+              "fp": 7,
+              "fn": 1,
+              "tn": 30,
+              "precision": 0.125,
+              "recall": 0.5,
+              "f1": 0.2,
+              "brier": 0.05822564102564103
+            },
+            "anticipation": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 2,
+              "fp": 3,
+              "fn": 4,
+              "tn": 30,
+              "precision": 0.4,
+              "recall": 0.3333333333333333,
+              "f1": 0.36363636363636365,
+              "brier": 0.1118948717948718
+            },
+            "disgust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 2,
+              "fp": 2,
+              "fn": 1,
+              "tn": 34,
+              "precision": 0.5,
+              "recall": 0.6666666666666666,
+              "f1": 0.5714285714285714,
+              "brier": 0.058894871794871795
+            },
+            "fear": {
+              "pairs": 39,
+              "support": 6,
+              "tp": 1,
+              "fp": 1,
+              "fn": 5,
+              "tn": 32,
+              "precision": 0.5,
+              "recall": 0.16666666666666666,
+              "f1": 0.25,
+              "brier": 0.11438205128205127
+            },
+            "joy": {
+              "pairs": 39,
+              "support": 2,
+              "tp": 1,
+              "fp": 1,
+              "fn": 1,
+              "tn": 36,
+              "precision": 0.5,
+              "recall": 0.5,
+              "f1": 0.5,
+              "brier": 0.031271794871794864
+            },
+            "sadness": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 1,
+              "fp": 7,
+              "fn": 3,
+              "tn": 28,
+              "precision": 0.125,
+              "recall": 0.25,
+              "f1": 0.16666666666666666,
+              "brier": 0.09099743589743589
+            },
+            "surprise": {
+              "pairs": 39,
+              "support": 4,
+              "tp": 3,
+              "fp": 3,
+              "fn": 1,
+              "tn": 32,
+              "precision": 0.5,
+              "recall": 0.75,
+              "f1": 0.6,
+              "brier": 0.05308717948717947
+            },
+            "trust": {
+              "pairs": 39,
+              "support": 3,
+              "tp": 2,
+              "fp": 3,
+              "fn": 1,
+              "tn": 33,
+              "precision": 0.4,
+              "recall": 0.6666666666666666,
+              "f1": 0.5,
+              "brier": 0.032299999999999995
+            },
+            "other-emotion": {
+              "pairs": 0,
+              "support": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "brier": null
+            }
+          }
+        }
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "baseline": "nrc-passage",
+      "candidate": "nrc-nearest",
+      "subsets": {
+        "strict": {
+          "deltaF1": 0.035378662244333864,
+          "percentile95": [
+            -0.007115489874110537,
+            0.06908813817627635
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-passage",
+      "candidate": "nrc-preceding",
+      "subsets": {
+        "strict": {
+          "deltaF1": -0.0016583747927031711,
+          "percentile95": [
+            -0.05445895333535783,
+            0.036068111455108354
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-passage",
+      "candidate": "linear-nrc",
+      "subsets": {
+        "strict": {
+          "deltaF1": -0.02017689331122169,
+          "percentile95": [
+            -0.08813700918964079,
+            0.02509241626526268
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-passage",
+      "candidate": "jev-highlight-v1@0.25",
+      "subsets": {
+        "strict": {
+          "deltaF1": 0.16572979259546425,
+          "percentile95": [
+            0.0029761904761904656,
+            0.3099398175111629
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-passage",
+      "candidate": "jev-highlight-v2@0.25",
+      "subsets": {
+        "strict": {
+          "deltaF1": 0.14754797441364606,
+          "percentile95": [
+            -0.007624633431085048,
+            0.2787446080618771
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-nearest",
+      "candidate": "nrc-preceding",
+      "subsets": {
+        "strict": {
+          "deltaF1": -0.037037037037037035,
+          "percentile95": [
+            -0.10526315789473684,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-nearest",
+      "candidate": "linear-nrc",
+      "subsets": {
+        "strict": {
+          "deltaF1": -0.05555555555555555,
+          "percentile95": [
+            -0.13906810035842293,
+            -0.0037267080745341796
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-nearest",
+      "candidate": "jev-highlight-v1@0.25",
+      "subsets": {
+        "strict": {
+          "deltaF1": 0.13035113035113038,
+          "percentile95": [
+            -0.038395339600158895,
+            0.295034694061458
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-nearest",
+      "candidate": "jev-highlight-v2@0.25",
+      "subsets": {
+        "strict": {
+          "deltaF1": 0.1121693121693122,
+          "percentile95": [
+            -0.04285026480500723,
+            0.25303030303030305
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-preceding",
+      "candidate": "linear-nrc",
+      "subsets": {
+        "strict": {
+          "deltaF1": -0.018518518518518517,
+          "percentile95": [
+            -0.06513157894736843,
+            0.006896551724137917
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-preceding",
+      "candidate": "jev-highlight-v1@0.25",
+      "subsets": {
+        "strict": {
+          "deltaF1": 0.16738816738816742,
+          "percentile95": [
+            0.008651766402307137,
+            0.321395492435937
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "nrc-preceding",
+      "candidate": "jev-highlight-v2@0.25",
+      "subsets": {
+        "strict": {
+          "deltaF1": 0.14920634920634923,
+          "percentile95": [
+            -0.001571091908876665,
+            0.289272030651341
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "linear-nrc",
+      "candidate": "jev-highlight-v1@0.25",
+      "subsets": {
+        "strict": {
+          "deltaF1": 0.18590668590668594,
+          "percentile95": [
+            0.01693548387096777,
+            0.35841694537346713
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "linear-nrc",
+      "candidate": "jev-highlight-v2@0.25",
+      "subsets": {
+        "strict": {
+          "deltaF1": 0.16772486772486775,
+          "percentile95": [
+            0.010737628384687226,
+            0.3281612270376315
+          ]
+        }
+      }
+    },
+    {
+      "baseline": "jev-highlight-v1@0.25",
+      "candidate": "jev-highlight-v2@0.25",
+      "subsets": {
+        "strict": {
+          "deltaF1": -0.018181818181818188,
+          "percentile95": [
+            -0.08405797101449275,
+            0.03607843137254907
+          ]
+        }
+      }
+    }
+  ]
+}
