@@ -1,0 +1,41 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {digest,readJson,writeJson} from '../src/lib/io';
+import {evaluatePairs,type AffectData} from '../src/lib/affect';
+import {passagePairs,passageLexicon} from '../src/lib/affect-passage';
+const runPath=process.argv[2];assert(runPath,'Pass completed expansion run');
+const samplePath='docs/affect-iteration-7-sample.json';
+const manifest=await readJson<{datasetHash:string;promptHash:string;thresholdSelectionHash:string;primaryThreshold:number;secondaryThresholds:number[];documentIds:string[];exclusionSources:{path:string;sha256:string;documentIds:string[]}[];groups:{stratum:string;eligible:number;documentIds:string[]}[]}>(samplePath);
+const run=await readJson<{task:string;status:string;prompt:string;model:string;datasetHash:string;sampleHash:string;documentIds:string[];scores:Record<string,number>;callsMade:number;responses:{cached:boolean;response:{model:string;usage?:{input_tokens:number;output_tokens:number}}}[]}>(runPath);
+const raw=await readFile('data/processed/affect.json','utf8'),data=JSON.parse(raw) as AffectData;
+assert.equal(manifest.datasetHash,digest(raw));assert.equal(run.datasetHash,digest(raw));assert.equal(run.sampleHash,digest(await readFile(samplePath)));
+assert.equal(manifest.promptHash,digest(await readFile('src/server/affect-passage-request.ts')));assert.equal(manifest.thresholdSelectionHash,digest(await readFile('docs/affect-direct-threshold-selection.json')));
+assert.equal(run.task,'REMAN direct passage eight emotions v1');assert.equal(run.status,'complete');assert.equal(run.model,'jev-1.13.0');assert.equal(run.prompt,'passage-v1');assert.deepEqual(run.documentIds,manifest.documentIds);
+const excluded=new Set(manifest.exclusionSources.flatMap(s=>s.documentIds));
+for(const source of manifest.exclusionSources)assert.equal(source.sha256,digest(await readFile(source.path)));
+const docs=run.documentIds.map(id=>{const d=data.documents.find(d=>d.doc_id===id);assert(d&&d.split==='dev');assert(!excluded.has(id));return d;});assert.equal(new Set(run.documentIds).size,docs.length);
+assert.deepEqual(manifest.groups.flatMap(g=>g.documentIds),manifest.documentIds);
+for(const g of manifest.groups)for(const id of g.documentIds){const d=docs.find(d=>d.doc_id===id)!;assert.equal(d.spans.some(s=>s.type==='character'),g.stratum==='with-annotated-characters');}
+const allPairs=docs.flatMap(passagePairs);evaluatePairs(allPairs,run.scores);
+const nrc=Object.assign({},...docs.map(d=>passageLexicon(d,data.lexicon))) as Record<string,number>;
+const oldAuthors=new Set(data.documents.filter(d=>excluded.has(d.doc_id)).map(d=>d.author));
+const groups=[...manifest.groups,{stratum:'balanced-combined',eligible:manifest.groups.reduce((n,g)=>n+g.eligible,0),documentIds:manifest.documentIds}];
+const results=groups.map(g=>{
+ const groupDocs=docs.filter(d=>g.documentIds.includes(d.doc_id)),pairs=groupDocs.flatMap(passagePairs);
+ const methods=[{name:'direct-primary',threshold:manifest.primaryThreshold,scores:run.scores},{name:'nrc',threshold:.5,scores:nrc},...manifest.secondaryThresholds.map(threshold=>({name:`direct@${threshold}`,threshold,scores:run.scores}))];
+ const authors=[...new Set(groupDocs.map(d=>d.author))].sort(),authorOf=new Map(groupDocs.map(d=>[d.doc_id,d.author]));
+ const metrics=methods.map(m=>{
+  const score=Object.fromEntries(pairs.map(p=>[p.id,m.scores[p.id]])),metrics=evaluatePairs(pairs,score,m.threshold),micro=metrics.micro;
+  const negativeDocs=groupDocs.filter(d=>passagePairs(d).every(p=>!p.gold));
+  const negativeDocsFlagged=negativeDocs.filter(d=>passagePairs(d).some(p=>m.scores[p.id]>=m.threshold)).length;
+  return {name:m.name,threshold:m.threshold,metrics,falsePositiveRate:micro.fp+micro.tn?micro.fp/(micro.fp+micro.tn):null,negativeDocuments:negativeDocs.length,negativeDocumentsFlagged:negativeDocsFlagged,negativeDocumentFlagRate:negativeDocs.length?negativeDocsFlagged/negativeDocs.length:null};
+ });
+ const counts=(m:typeof methods[number])=>authors.map(a=>pairs.filter(p=>authorOf.get(p.id.slice(0,p.id.lastIndexOf(':')))===a).reduce((n,p)=>{const yes=m.scores[p.id]>=m.threshold;if(yes&&p.gold)n[0]++;else if(yes)n[1]++;else if(p.gold)n[2]++;return n;},[0,0,0]));
+ const f1=(counts:number[][],sample:number[])=>{const n=sample.reduce((n,i)=>n.map((v,j)=>v+counts[i][j]),[0,0,0]);return 2*n[0]/(2*n[0]+n[1]+n[2]||1);};
+ let seed=20260919;const random=()=>{seed^=seed<<13;seed^=seed>>>17;seed^=seed<<5;return(seed>>>0)/4294967296;};
+ const samples=Array.from({length:2000},()=>authors.map(()=>Math.floor(random()*authors.length))),ca=counts(methods[0]),cb=counts(methods[1]),distribution=samples.map(s=>f1(ca,s)-f1(cb,s)).sort((a,b)=>a-b);
+ return {stratum:g.stratum,poolDocuments:g.eligible,documents:groupDocs.length,authors:authors.length,authorsPreviouslySentToJev:authors.filter(a=>oldAuthors.has(a)).length,goldPositiveDocuments:groupDocs.filter(d=>passagePairs(d).some(p=>p.gold)).length,methods:metrics,comparison:{candidate:'direct-primary',baseline:'nrc',deltaF1:metrics[0].metrics.micro.f1-metrics[1].metrics.micro.f1,percentile95:[distribution[49],distribution[1949]]}};
+});
+const report={iteration:7,datasetHash:digest(raw),samplePath,sampleHash:digest(await readFile(samplePath)),runPath,runHash:digest(await readFile(runPath)),codeHashes:Object.fromEntries(await Promise.all(['scripts/analyze-affect-expansion.ts','scripts/benchmark-affect-passage.ts','src/lib/affect-passage.ts','src/server/affect-passage-request.ts'].map(async p=>[p,digest(await readFile(p))]))),notes:'New-to-JEV development passages, earlier lexical evaluation and author reuse allowed. Prompt and thresholds frozen. Equal sample sizes per annotation-character stratum; pooled metrics are not population estimates. 2000 paired whole-author bootstrap samples seed20260919, exploratory unadjusted intervals; zero F1 for degenerate no-positive resamples. Annotation-negative is not independent human evidence of emotion absence. Test excluded.',usage:{callsMade:run.callsMade,requests:run.responses.length,returnedModels:[...new Set(run.responses.map(r=>r.response.model))],inputTokens:run.responses.reduce((n,r)=>n+(r.response.usage?.input_tokens??0),0),outputTokens:run.responses.reduce((n,r)=>n+(r.response.usage?.output_tokens??0),0)},results};
+await writeJson('docs/affect-iteration-7-results.json',report);
+console.log(JSON.stringify({...report,codeHashes:undefined,results:results.map(r=>({...r,methods:r.methods.map(m=>({...m,metrics:m.metrics.micro}))}))},null,2));

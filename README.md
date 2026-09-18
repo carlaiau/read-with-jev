@@ -154,3 +154,7 @@ linked and all-annotation gold definitions. No new model calls or test-partition
 
 [Iteration 6](docs/affect-iteration-6.md) tests direct passage-emotion questions without character
 annotations in state, with frozen development thresholds and matched accuracy/token comparisons.
+
+[Iteration 7](docs/affect-iteration-7.md) evaluates the frozen direct prompt on 96 new-to-JEV
+passages, including those without annotated characters, exposing a substantial precision drop
+in that low-annotation-prevalence group. No threshold retuning or test-partition evaluation.

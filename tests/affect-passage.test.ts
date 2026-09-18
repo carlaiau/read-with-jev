@@ -22,3 +22,14 @@ test('unlinked emotion remains positive only in all-annotations passage task',()
  assert.equal(passageProjection(unlinked,scores,'linked').pairs.filter(p=>p.gold).length,0);
  assert.equal(passageProjection(unlinked,scores,'all').pairs.filter(p=>p.gold).length,1);
 });
+
+test('direct passage gold and lexicon work without annotated characters and reject scope errors',async()=>{
+ const {passageEligibility,passagePairs,passageLexicon}=await import('../src/lib/affect-passage');
+ const d={...doc,spans:doc.spans.filter(s=>s.type!=='character'),relations:[]};
+ assert.equal(passageEligibility(d),null);
+ assert.equal(passagePairs(d).filter(p=>p.gold).length,1);
+ assert.equal(passageLexicon(d,{fears:['fear'],start:['joy']})['synthetic:fear'],1);
+ assert.equal(passageLexicon(d,{fears:['fear'],start:['joy']})['synthetic:joy'],0);
+ assert.equal(passageEligibility({...d,spans:[{annotation_id:'bad',type:'fear',text:'Start',start:0,end:5}]}),'gold-emotion-outside-derived-target');
+ assert.throws(()=>passagePairs({...d,spans:[{annotation_id:'bad',type:'fear',text:'wrong',start:0,end:5}]}));
+});
