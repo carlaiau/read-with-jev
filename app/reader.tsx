@@ -2,6 +2,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { documentPath } from '../src/lib/document-url';
+import { displayBookTitle, displayCharacterName } from '../src/lib/reader-labels';
 import { loadLibraryDocument } from '../src/lib/library-transport';
 import { readerSegments } from '../src/lib/reader-text';
 import type { DocumentSummary, LibraryDocument } from '../src/lib/library-model';
@@ -23,14 +24,14 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
   const baseline = true;
   const mentionLayer = true;
   const documentInfo = documents.find(d => d.documentId === documentId) ?? initialDocument;
-  const title = book?.title ?? documentInfo?.title ?? 'Document library';
+  const title = displayBookTitle(book?.title ?? documentInfo?.title ?? 'Document library');
   const sectionTitle = (chapter: number) => book?.sections?.find(s => s.index === chapter)?.title ?? `Chapter ${chapter}`;
   useEffect(() => {
     const controller = new AbortController();
     fetch('/.netlify/functions/library', { signal: controller.signal }).then(async response => {
       const data = await response.json(); if (!response.ok) throw new Error(data.error);
       setDocuments((data.documents as DocumentSummary[]).toSorted((a, b) =>
-        a.title.localeCompare(b.title, 'en', { sensitivity: 'base', numeric: true }) ||
+        displayBookTitle(a.title).localeCompare(displayBookTitle(b.title), 'en', { sensitivity: 'base', numeric: true }) ||
         a.source.localeCompare(b.source, 'en', { numeric: true }) ||
         a.documentId.localeCompare(b.documentId, 'en', { numeric: true })));
     }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
@@ -72,6 +73,7 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
     return () => window.removeEventListener('scroll', onScroll);
   }, [book]);
   const cast = useMemo(() => book ? book.characters.map(c => ({ ...c,
+    name: displayCharacterName(c),
     count: book.passages.filter(p => p.labels.includes(c.id)).length,
     activity: chapterActivity(book, [c.id]),
   })).sort((a, b) => b.count - a.count) : [], [book]);
@@ -106,8 +108,8 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
               setSelected([]); setMatchMode('any');
               router.push(documentPath(nextDocument));
             }} className="mt-2">
-              {!documents.length && <option value={documentId}>{documentInfo.title}</option>}
-              {documents.map(d => <option key={d.documentId} value={d.documentId}>{d.title}{documents.filter(other => other.title === d.title).length > 1 ? ` · Gutenberg ${d.source.split("/").at(-1)}` : ""}</option>)}
+              {!documents.length && <option value={documentId}>{displayBookTitle(documentInfo.title)}</option>}
+              {documents.map(d => <option key={d.documentId} value={d.documentId}>{displayBookTitle(d.title)}</option>)}
             </Select>
           </Field>
         </SidebarHeader>

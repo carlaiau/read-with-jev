@@ -1,4 +1,5 @@
 import type { Book } from '../src/lib/model';
+import { displayCharacterName } from '../src/lib/reader-labels';
 
 /** Each sample is the fraction of chapter passages containing this identity. */
 export function chapterActivity(book: Book, ids: string[]): number[] {
@@ -37,7 +38,8 @@ export function CharacterRail({ book, selected, current, colorFor, jump }: {
       return { x: baseline + matches / (end - start) * laneWidth * .62,
         y: (p.start + p.end) / 2 / book.text.length * 1000 };
     });
-    return { id, left, baseline, points, color: colorFor(id), name: book.characters.find(c => c.id === id)?.name };
+    const character = book.characters.find(c => c.id === id);
+    return { id, left, baseline, points, color: colorFor(id), name: character ? displayCharacterName(character) : undefined };
   });
   const position = book.passages[current];
   const chapters = book.passages.filter((p, i) => i === 0 || p.chapter !== book.passages[i - 1].chapter);
