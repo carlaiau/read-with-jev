@@ -1,9 +1,13 @@
 # NRC and JEV reader comparison
 
-The existing reader now has independent NRC-underlining and JEV-background toggles, with one
-selected emotion at a time: anger, anticipation, disgust, fear, joy, sadness, surprise and trust.
+The existing reader now has independent NRC-underlining and JEV-background toggles, with all eight
+emotions enabled initially: anger, anticipation, disgust, fear, joy, sadness, surprise and trust.
 Colours are shared across both layers; text and the underline/background distinction carry meaning
-without relying on colour alone. Existing character tracks remain human annotations.
+without relying on colour alone. Filled circles are enabled; hollow circles are hidden. Hover or
+keyboard focus reveals each name. Shared NRC words have segmented coloured underlines; shared
+JEV sentences have bands for every enabled suggested emotion. Opacity is fixed: these scores
+represent association confidence, not emotional intensity. Hiding every emotion hides both layers;
+the independent JEV switch controls inference. Existing character tracks remain human annotations.
 
 NRC marks dictionary-associated words. JEV marks whole sentences at the fixed experimental .75
 threshold, using the direct passage-v1 question and jev-1.13.0. These are emotion-association
@@ -21,7 +25,7 @@ most two simultaneous requests. Hidden tabs stop scheduling. Disabling JEV or ch
 stops scheduling and aborts pending browser requests. Up to two SDK requests already executing
 on the server can finish and populate cache; browser cancellation does not cancel that remote work.
 
-One SDK request scores all eight emotions for a sentence. Changing the selected emotion does not
+One SDK request scores all eight emotions for a sentence. Changing visible emotions does not
 make another request. Client results persist while toggling layers; server disk cache survives
 reloads. Keys incorporate the source edition/text, display format, ICU version, lexicon, model,
 question and context. Identical concurrent server requests share a promise. Failures are not
@@ -44,7 +48,7 @@ Live reader outputs use their own cache namespace and are not benchmark gold or 
 
 ## Inspection
 
-Click or keyboard-activate a marked sentence to inspect the selected category, NRC words, and
+Click or keyboard-activate a marked sentence to inspect the enabled categories, NRC words, and
 JEV sentence-level status. Focus moves into the inspector and returns to the sentence on Close
 or Escape. Suggested sentences offer Supported, Wrong emotion, Wrong span, and Unclear feedback.
 These choices are saved only in this browser's localStorage, keyed by edition/text, sentence and

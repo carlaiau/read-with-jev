@@ -26,11 +26,11 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .channel-card { transition: background-color 150ms, border-color 150ms; }
 @media (prefers-reduced-motion: reduce) { .passage p, .channel-card { transition: none; } }
 
-.emotion-controls { margin-bottom: 1.5rem; border-block: 1px solid var(--color-rule); padding: .85rem 0; font-size: .8125rem; line-height: 1.55; }
+.emotion-controls { --emotion-color: var(--color-muted); margin-bottom: 1.5rem; border-block: 1px solid var(--color-rule); padding: .85rem 0; font-size: .8125rem; line-height: 1.55; }
 .emotion-controls-row { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.25rem; }
-.emotion-picker { width: 10rem; }
+.emotion-picker { display: flex; flex-wrap: wrap; max-width: 100%; gap: 2px; }
 .emotion-note, .emotion-status { color: var(--color-muted); margin-top: .4rem; }
-.nrc-legend, .emotion-underline { text-decoration: underline; text-decoration-color: var(--emotion-color); text-decoration-thickness: 2px; text-underline-offset: .22em; text-decoration-skip-ink: auto; }
+.nrc-legend { text-decoration: underline; text-decoration-color: var(--emotion-color); text-decoration-thickness: 2px; text-underline-offset: .22em; text-decoration-skip-ink: auto; }
 .jev-legend, .emotion-background { background: color-mix(in srgb, var(--emotion-color) 19%, transparent); border-radius: 3px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .jev-legend { padding: .1rem .3rem; }
 .emotion-sentence[role=button] { cursor: pointer; }
@@ -50,3 +50,13 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
   .emotion-controls-row [data-slot=label] { font-size: .8125rem; }
   .emotion-note, .emotion-status { font-size: .75rem; }
 }
+
+.emotion-toggle { position: relative; display: grid; place-items: center; width: 34px; height: 36px; border-radius: 5px; cursor: pointer; }
+.emotion-circle { width: 20px; height: 20px; border: 2px solid var(--emotion-color); border-radius: 50%; background: var(--emotion-color); }
+.emotion-toggle[aria-pressed=false] .emotion-circle { background: transparent; }
+.emotion-toggle:hover { background: var(--color-panel); }
+.emotion-tooltip { position: absolute; bottom: calc(100% + 5px); left: 50%; transform: translateX(-50%); padding: 4px 8px; border-radius: 4px; background: var(--color-ink); color: var(--color-paper); font-size: .75rem; pointer-events: none; opacity: 0; z-index: 30; }
+.emotion-toggle:hover .emotion-tooltip, .emotion-toggle:focus-visible .emotion-tooltip { opacity: 1; }
+.emotion-underline { background-size: 100% 2px; background-position: left bottom; background-repeat: no-repeat; padding-bottom: 3px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.emotion-inspector { max-height: 45vh; overflow-y: auto; }
+.emotion-inspection-row { padding-block: .65rem; border-bottom: 1px solid var(--color-rule); }

@@ -169,7 +169,7 @@ artifacts, not new gold; the pass also exposes a judge rubric mismatch around ne
 
 ## Live emotion comparison in the reader
 
-Toggle **NRC underlines** and **JEV highlights**, then select one of eight emotions. JEV analyses
+Toggle **NRC underlines** and **JEV highlights**, use the eight coloured circles to toggle emotions independently. JEV analyses
 nearby sentences as you scroll, with cached results and at most two concurrent requests. Click a
 marked sentence to inspect it or record local feedback. Backgrounds are sentence-level suggestions,
 not extracted evidence spans or character emotions. [Setup, behaviour and validation](docs/emotion-reader.md).

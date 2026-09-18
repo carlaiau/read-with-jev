@@ -1,3 +1,4 @@
+import {hasAllowedOrigin} from '../../../src/server/request-origin';
 import {readingData,readingScores,ReadingError} from '../../../src/server/reading-emotions';
 export const runtime='nodejs';
 export const maxDuration=90;
@@ -8,7 +9,7 @@ export async function GET(request:Request){
  catch{return Response.json({error:'Emotion vocabulary is unavailable. Prepare the affect data on the server.'},{status:503});}
 }
 export async function POST(request:Request){
- const origin=request.headers.get('origin');if(origin&&origin!==new URL(request.url).origin)return Response.json({error:'Origin not allowed.'},{status:403});
+ if(!hasAllowedOrigin(request))return Response.json({error:'Origin not allowed.'},{status:403});
  let body;try{const raw=await request.text();if(raw.length>2048)return Response.json({error:'Request too large.'},{status:413});body=JSON.parse(raw);}catch{return Response.json({error:'Invalid request.'},{status:400});}
  if(!body||!['mentions','speaking'].includes(body.layer)||typeof body.sourceKey!=='string'||typeof body.sentenceId!=='string')return Response.json({error:'Invalid sentence request.'},{status:400});
  try{
