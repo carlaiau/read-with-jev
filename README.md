@@ -15,6 +15,8 @@ The UI uses **Tailwind CSS v4 and the supplied Catalyst kit** in `src/catalyst/t
 
 Requires Node.js 22+ and GitHub CLI (`gh`). GitHub downloads use `gh`; Hugging Face downloads use Node fetch.
 
+Dependencies use exact versions and a committed lockfile. Use npm 11.13+ to enforce the configured 14-day minimum release age when resolving updates. The only approved age exception is `@typesafe-ai/sdk@0.6.0`; retain its locked version. See `AGENTS.md` for the dependency policy.
+
 ```sh
 npm ci
 npm run data:fetch

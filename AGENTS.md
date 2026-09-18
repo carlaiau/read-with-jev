@@ -11,6 +11,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## Project conventions
 
 - Use the `gh` CLI for GitHub interactions, not a GitHub connector.
+- Pin JavaScript/TypeScript dependencies and devDependencies to exact versions (no `^`, `~`, or floating tags). Before adding or updating a dependency, verify that its npm release is at least 14 days old; apply the same age requirement to transitive versions in `package-lock.json`. Keep the lockfile in sync and run the project checks after dependency changes.
+- Explicit exception: `@typesafe-ai/sdk` is permitted at exactly `0.6.0` despite its release age, as approved by the user. This exception does not extend to other packages or future SDK versions.
 - Keep JEV credentials and model calls server-side. Use the official JavaScript SDK.
 - Never use prediction artifacts as gold labels. Preserve dataset provenance and offset checks.
 - Keep mention, quotation-speaker, and physical-presence labels distinct.

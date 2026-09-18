@@ -21,11 +21,11 @@ export function CharacterRail({ book, selected, current, colorFor, jump }: {
   book: Book; selected: string[]; current: number; colorFor: (id: string) => string; jump: (index: number) => void;
 }) {
   const ids = selected.length ? selected : book.characters.map(c => c.id);
-  const laneWidth = 134 / Math.max(1, ids.length);
+  const laneWidth = 112 / Math.max(1, ids.length);
   // Each character has an independent five-passage average and a separate lane,
   // so selecting a second character cannot merge or hide the first one's curve.
   const lanes = ids.map((id, lane) => {
-    const left = 8 + lane * laneWidth;
+    const left = 30 + lane * laneWidth;
     const baseline = left + laneWidth * .18;
     const points = book.passages.map((p, i) => {
       const start = Math.max(0, i - 2), end = Math.min(book.passages.length, i + 3);
@@ -38,7 +38,7 @@ export function CharacterRail({ book, selected, current, colorFor, jump }: {
   });
   const position = book.passages[current];
   const chapters = book.passages.filter((p, i) => i === 0 || p.chapter !== book.passages[i - 1].chapter);
-  return <svg viewBox="0 0 150 1000" preserveAspectRatio="none" className="minimap h-full w-full cursor-crosshair" role="img"
+  return <div className="relative h-full"><svg viewBox="0 0 150 1000" preserveAspectRatio="none" className="minimap h-full w-full cursor-crosshair" role="img"
     aria-label="Whole-book character map. Each selected character has a separate curve in their channel color. Use the book position slider or previous and next passage buttons for keyboard navigation."
     onClick={event => {
       const rect = event.currentTarget.getBoundingClientRect();
@@ -62,11 +62,24 @@ export function CharacterRail({ book, selected, current, colorFor, jump }: {
           fill="none" stroke={lane.color} strokeWidth="1.35" strokeLinejoin="round" vectorEffect="non-scaling-stroke" />
       </>}
     </g>)}
+    {selected.length > 1 && book.passages.map((p, i) => selected.every(id => p.labels.includes(id)) && <g key={p.id} className="rail-shared" data-passage-index={i}>
+      <title>All selected characters · passage {i + 1}</title>
+      <rect x="24" width="120" y={p.start / book.text.length * 1000}
+        height={Math.max(.8, (p.end - p.start) / book.text.length * 1000)} fill="#24303b" opacity=".09" />
+      <rect x="24" width="3" y={p.start / book.text.length * 1000}
+        height={Math.max(.8, (p.end - p.start) / book.text.length * 1000 - .5)} fill="#24303b" opacity=".8" />
+    </g>)}
     {position && <g>
       <rect x="0" width="150" y={position.start / book.text.length * 1000} height={Math.max(5, (position.end - position.start) / book.text.length * 1000)} fill="#202a36" opacity=".12" />
       <line x1="0" x2="150" y1={position.start / book.text.length * 1000} y2={position.start / book.text.length * 1000} stroke="#334155" strokeWidth="1" />
       {selected.length > 0 && lanes.map(lane => <circle key={lane.id} cx={lane.points[current].x} cy={position.start / book.text.length * 1000}
         r="2.8" fill="#f6f4f0" stroke={lane.color} strokeWidth="1.5" />)}
     </g>}
-  </svg>;
+  </svg>
+    <div className="pointer-events-none absolute inset-0 hidden lg:block" aria-hidden="true">
+      {chapters.filter((p, i) => i === 0 || p.chapter % 10 === 0).map(p => <span key={p.chapter}
+        className="absolute left-1 text-[10px] leading-none text-muted tabular-nums"
+        style={{ top: `${p.start / book.text.length * 100}%` }}>{p.chapter}</span>)}
+    </div>
+  </div>;
 }

@@ -19,7 +19,7 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 button:not(:disabled), [role=checkbox] { cursor: pointer; }
 :focus-visible { outline: 2px solid #536a85; outline-offset: 4px; }
 ::selection { background: #b64c6829; }
-.passage p { color: #727670; overflow-wrap: break-word; transition: color 150ms; }
+.passage p { color: #49534f; overflow-wrap: break-word; transition: color 150ms; }
 .passage[data-focused=true] p { color: #29333c; }
 .passage-threads { position: absolute; left: -20px; top: 3px; bottom: 0; width: 14px; display: flex; justify-content: space-between; pointer-events: none; }
 .passage-thread { width: 2px; flex-shrink: 1; opacity: .75; }
