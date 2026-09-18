@@ -1,0 +1,237 @@
+{
+  "iteration": 9,
+  "status": "automated-second-opinion-not-gold",
+  "model": "gpt-5.6-sol",
+  "returnedModels": [
+    "gpt-5.6-sol"
+  ],
+  "runPath": "data/runs/affect-openai-judge-40-1789759768240.json",
+  "runHash": "e0da4d2018c4673d1bde1a7810918da8e2491371c60df67d31b3ff0c49eeb58e",
+  "packetHash": "d57f6e4a682cf0f843fd91760c6057ee56d1779fce3a32450a7885069e84f424",
+  "analystKeyHash": "62002989969685e4cb2d97ad8c64447b8e3e6345ebdbdbea17f0280a91a615e6",
+  "newCallsInFullRun": 39,
+  "usage": {
+    "inputTokens": 16917,
+    "outputTokens": 5975,
+    "reasoningTokens": 3116
+  },
+  "notes": "Blinded GPT-5.6 Sol review of a deliberately selected 40-item diagnostic sample. Model never sees JEV scores, gold labels or annotation strata. Joins occur only after model calls. Agreement is not accuracy; model judgments are not independent human gold. Unclear retained, decisive denominators explicit. Human forms and REMAN labels unchanged.",
+  "results": [
+    {
+      "group": "all",
+      "items": 40,
+      "distinctDocuments": 33,
+      "association": {
+        "yes": {
+          "corpusPositive": 4,
+          "corpusNegative": 7
+        },
+        "no": {
+          "corpusPositive": 2,
+          "corpusNegative": 23
+        },
+        "unclear": {
+          "corpusPositive": 2,
+          "corpusNegative": 2
+        }
+      },
+      "jevComparison": {
+        "yes": {
+          "jevFlag": 10,
+          "jevNoFlag": 1
+        },
+        "no": {
+          "jevFlag": 10,
+          "jevNoFlag": 15
+        },
+        "unclear": {
+          "jevFlag": 4,
+          "jevNoFlag": 0
+        }
+      },
+      "decisiveItems": 36,
+      "unclear": 4,
+      "agreementWithCorpusOnDecisive": 27,
+      "agreementWithJevOnDecisive": 25,
+      "currentlyExperienced": {
+        "yes": 6,
+        "no": 30,
+        "unclear": 4
+      },
+      "associationYesButNotCurrent": 5
+    },
+    {
+      "group": "without-annotated-characters",
+      "items": 20,
+      "distinctDocuments": 17,
+      "association": {
+        "yes": {
+          "corpusPositive": 2,
+          "corpusNegative": 4
+        },
+        "no": {
+          "corpusPositive": 0,
+          "corpusNegative": 13
+        },
+        "unclear": {
+          "corpusPositive": 0,
+          "corpusNegative": 1
+        }
+      },
+      "jevComparison": {
+        "yes": {
+          "jevFlag": 5,
+          "jevNoFlag": 1
+        },
+        "no": {
+          "jevFlag": 6,
+          "jevNoFlag": 7
+        },
+        "unclear": {
+          "jevFlag": 1,
+          "jevNoFlag": 0
+        }
+      },
+      "decisiveItems": 19,
+      "unclear": 1,
+      "agreementWithCorpusOnDecisive": 15,
+      "agreementWithJevOnDecisive": 12,
+      "currentlyExperienced": {
+        "yes": 3,
+        "no": 14,
+        "unclear": 3
+      },
+      "associationYesButNotCurrent": 3
+    },
+    {
+      "group": "with-annotated-characters",
+      "items": 20,
+      "distinctDocuments": 16,
+      "association": {
+        "yes": {
+          "corpusPositive": 2,
+          "corpusNegative": 3
+        },
+        "no": {
+          "corpusPositive": 2,
+          "corpusNegative": 10
+        },
+        "unclear": {
+          "corpusPositive": 2,
+          "corpusNegative": 1
+        }
+      },
+      "jevComparison": {
+        "yes": {
+          "jevFlag": 5,
+          "jevNoFlag": 0
+        },
+        "no": {
+          "jevFlag": 4,
+          "jevNoFlag": 8
+        },
+        "unclear": {
+          "jevFlag": 3,
+          "jevNoFlag": 0
+        }
+      },
+      "decisiveItems": 17,
+      "unclear": 3,
+      "agreementWithCorpusOnDecisive": 12,
+      "agreementWithJevOnDecisive": 13,
+      "currentlyExperienced": {
+        "yes": 3,
+        "no": 16,
+        "unclear": 1
+      },
+      "associationYesButNotCurrent": 2
+    },
+    {
+      "group": "flag",
+      "items": 24,
+      "distinctDocuments": 20,
+      "association": {
+        "yes": {
+          "corpusPositive": 4,
+          "corpusNegative": 6
+        },
+        "no": {
+          "corpusPositive": 2,
+          "corpusNegative": 8
+        },
+        "unclear": {
+          "corpusPositive": 2,
+          "corpusNegative": 2
+        }
+      },
+      "jevComparison": {
+        "yes": {
+          "jevFlag": 10,
+          "jevNoFlag": 0
+        },
+        "no": {
+          "jevFlag": 10,
+          "jevNoFlag": 0
+        },
+        "unclear": {
+          "jevFlag": 4,
+          "jevNoFlag": 0
+        }
+      },
+      "decisiveItems": 20,
+      "unclear": 4,
+      "agreementWithCorpusOnDecisive": 12,
+      "agreementWithJevOnDecisive": 10,
+      "currentlyExperienced": {
+        "yes": 6,
+        "no": 14,
+        "unclear": 4
+      },
+      "associationYesButNotCurrent": 4
+    },
+    {
+      "group": "below-threshold",
+      "items": 16,
+      "distinctDocuments": 16,
+      "association": {
+        "yes": {
+          "corpusPositive": 0,
+          "corpusNegative": 1
+        },
+        "no": {
+          "corpusPositive": 0,
+          "corpusNegative": 15
+        },
+        "unclear": {
+          "corpusPositive": 0,
+          "corpusNegative": 0
+        }
+      },
+      "jevComparison": {
+        "yes": {
+          "jevFlag": 0,
+          "jevNoFlag": 1
+        },
+        "no": {
+          "jevFlag": 0,
+          "jevNoFlag": 15
+        },
+        "unclear": {
+          "jevFlag": 0,
+          "jevNoFlag": 0
+        }
+      },
+      "decisiveItems": 16,
+      "unclear": 0,
+      "agreementWithCorpusOnDecisive": 15,
+      "agreementWithJevOnDecisive": 15,
+      "currentlyExperienced": {
+        "yes": 0,
+        "no": 16,
+        "unclear": 0
+      },
+      "associationYesButNotCurrent": 1
+    }
+  ],
+  "codeHash": "9cba0124d7d41b5b5edc0a953eb5fdd696262528980a9ec8fd2eb96694734e97"
+}

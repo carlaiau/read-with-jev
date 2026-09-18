@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {digest,readJson,writeJson} from '../src/lib/io';
+import {validateJudgment,type JudgeItem,type Judgment} from '../src/server/affect-judge';
+const path=process.argv[2];assert(path,'Pass complete 40-item judge run');
+const run=await readJson<{status:string;packetHash:string;model:string;callsMade:number;results:{id:string;judgment:Judgment;response:{model:string;usage?:{input_tokens:number;output_tokens:number;output_tokens_details?:{reasoning_tokens:number}}}}[]}>(path);
+assert.equal(run.status,'model-judgments-not-gold');assert.equal(run.model,'gpt-5.6-sol');assert.equal(run.results.length,40);assert.equal(new Set(run.results.map(r=>r.id)).size,40);
+const packetPath='data/runs/affect-expansion-review-A.json',packetRaw=await readFile(packetPath,'utf8'),packet=JSON.parse(packetRaw) as {items:JudgeItem[]};assert.equal(run.packetHash,digest(packetRaw));
+const keyPath='data/runs/affect-expansion-review-key.json',key=await readJson<{items:{id:string;gold:boolean;score:number;hasCharacters:boolean;band:string;documentId:string;emotion:string}[]}>(keyPath);
+assert.equal(key.items.length,40);
+const items=run.results.map(r=>{const item=packet.items.find(i=>i.id===r.id),k=key.items.find(i=>i.id===r.id);assert(item&&k);validateJudgment(r.judgment,item);return {...k,judgment:r.judgment,jevFlag:k.score>=.35};});
+const groups=[{name:'all',items},... [false,true].map(hasCharacters=>({name:hasCharacters?'with-annotated-characters':'without-annotated-characters',items:items.filter(i=>i.hasCharacters===hasCharacters)})),...['flag','below-threshold'].map(band=>({name:band,items:items.filter(i=>i.band===band)}))];
+const results=groups.map(g=>{
+ const decisive=g.items.filter(i=>i.judgment.emotionAssociated!=='unclear'),unclear=g.items.length-decisive.length;
+ const corpusTable=Object.fromEntries(['yes','no','unclear'].map(v=>[v,{corpusPositive:g.items.filter(i=>i.judgment.emotionAssociated===v&&i.gold).length,corpusNegative:g.items.filter(i=>i.judgment.emotionAssociated===v&&!i.gold).length}]));
+ const jevTable=Object.fromEntries(['yes','no','unclear'].map(v=>[v,{jevFlag:g.items.filter(i=>i.judgment.emotionAssociated===v&&i.jevFlag).length,jevNoFlag:g.items.filter(i=>i.judgment.emotionAssociated===v&&!i.jevFlag).length}]));
+ return {group:g.name,items:g.items.length,distinctDocuments:new Set(g.items.map(i=>i.documentId)).size,association:corpusTable,jevComparison:jevTable,decisiveItems:decisive.length,unclear,agreementWithCorpusOnDecisive:decisive.filter(i=>(i.judgment.emotionAssociated==='yes')===i.gold).length,agreementWithJevOnDecisive:decisive.filter(i=>(i.judgment.emotionAssociated==='yes')===i.jevFlag).length,currentlyExperienced:Object.fromEntries(['yes','no','unclear'].map(v=>[v,g.items.filter(i=>i.judgment.currentlyExperienced===v).length])),associationYesButNotCurrent:g.items.filter(i=>i.judgment.emotionAssociated==='yes'&&i.judgment.currentlyExperienced!=='yes').length};
+});
+const report={iteration:9,status:'automated-second-opinion-not-gold',model:run.model,returnedModels:[...new Set(run.results.map(r=>r.response.model))],runPath:path,runHash:digest(await readFile(path)),packetHash:run.packetHash,analystKeyHash:digest(await readFile(keyPath)),newCallsInFullRun:run.callsMade,usage:run.results.reduce((n,r)=>({inputTokens:n.inputTokens+(r.response.usage?.input_tokens??0),outputTokens:n.outputTokens+(r.response.usage?.output_tokens??0),reasoningTokens:n.reasoningTokens+(r.response.usage?.output_tokens_details?.reasoning_tokens??0)}),{inputTokens:0,outputTokens:0,reasoningTokens:0}),notes:'Blinded GPT-5.6 Sol review of a deliberately selected 40-item diagnostic sample. Model never sees JEV scores, gold labels or annotation strata. Joins occur only after model calls. Agreement is not accuracy; model judgments are not independent human gold. Unclear retained, decisive denominators explicit. Human forms and REMAN labels unchanged.',results,codeHash:digest(await readFile('scripts/analyze-affect-judge.ts'))};
+await writeJson('docs/affect-iteration-9-results.json',report);console.log(JSON.stringify(report,null,2));

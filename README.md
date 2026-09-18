@@ -162,3 +162,7 @@ in that low-annotation-prevalence group. No threshold retuning or test-partition
 [Iteration 8](docs/affect-iteration-8.md) confirms from REMAN's guidelines that character annotations
 are emotion-participant annotations, quantifies their selection effect, and prepares two independent
 blinded review forms. Earlier character-filtered metrics are conditional, not general passage accuracy.
+
+[Iteration 9](docs/affect-iteration-9.md) uses GPT-5.6 Sol as a blinded automated judge on the
+40-case diagnostic packet. Judgments, evidence quotes and agreement counts are separate model
+artifacts, not new gold; the pass also exposes a judge rubric mismatch around negated emotions.
