@@ -25,3 +25,28 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .passage-thread { width: 2px; flex-shrink: 1; opacity: .75; }
 .channel-card { transition: background-color 150ms, border-color 150ms; }
 @media (prefers-reduced-motion: reduce) { .passage p, .channel-card { transition: none; } }
+
+.emotion-controls { margin-bottom: 1.5rem; border-block: 1px solid var(--color-rule); padding: .85rem 0; font-size: .8125rem; line-height: 1.55; }
+.emotion-controls-row { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.25rem; }
+.emotion-picker { width: 10rem; }
+.emotion-note, .emotion-status { color: var(--color-muted); margin-top: .4rem; }
+.nrc-legend, .emotion-underline { text-decoration: underline; text-decoration-color: var(--emotion-color); text-decoration-thickness: 2px; text-underline-offset: .22em; text-decoration-skip-ink: auto; }
+.jev-legend, .emotion-background { background: color-mix(in srgb, var(--emotion-color) 19%, transparent); border-radius: 3px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.jev-legend { padding: .1rem .3rem; }
+.emotion-sentence[role=button] { cursor: pointer; }
+.emotion-sentence:focus-visible { outline-offset: 3px; border-radius: 3px; }
+.emotion-error { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; color: #8b3030; margin-top: .5rem; }
+.emotion-inspector { border-top: 1px solid var(--color-rule); padding-top: .75rem; margin-top: .75rem; }
+.emotion-inspector p { margin-top: .4rem; }
+.emotion-feedback { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .65rem; }
+.emotion-feedback button { border: 1px solid var(--color-rule); border-radius: 5px; background: var(--color-panel); padding: .3rem .55rem; }
+.emotion-feedback button:hover { background: var(--color-paper); }
+.emotion-controls { position: sticky; top: 4rem; z-index: 20; background: var(--color-paper); }
+.passage { scroll-margin-top: 18rem; }
+@media (min-width: 1024px) { .emotion-controls { top: 0; } .passage { scroll-margin-top: 12rem; } }
+@media (max-width: 639px) {
+  .emotion-controls-row { gap: .65rem .75rem; }
+  .emotion-controls-row > [data-slot=field] { column-gap: .5rem; }
+  .emotion-controls-row [data-slot=label] { font-size: .8125rem; }
+  .emotion-note, .emotion-status { font-size: .75rem; }
+}

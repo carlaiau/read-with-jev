@@ -166,3 +166,10 @@ blinded review forms. Earlier character-filtered metrics are conditional, not ge
 [Iteration 9](docs/affect-iteration-9.md) uses GPT-5.6 Sol as a blinded automated judge on the
 40-case diagnostic packet. Judgments, evidence quotes and agreement counts are separate model
 artifacts, not new gold; the pass also exposes a judge rubric mismatch around negated emotions.
+
+## Live emotion comparison in the reader
+
+Toggle **NRC underlines** and **JEV highlights**, then select one of eight emotions. JEV analyses
+nearby sentences as you scroll, with cached results and at most two concurrent requests. Click a
+marked sentence to inspect it or record local feedback. Backgrounds are sentence-level suggestions,
+not extracted evidence spans or character emotions. [Setup, behaviour and validation](docs/emotion-reader.md).

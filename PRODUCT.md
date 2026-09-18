@@ -25,7 +25,7 @@ The research mechanism combines stable target passages, overlapping neighboring 
 - The current test novel is *Pride and Prejudice*. BookCoref and PDNC supply independent annotated editions; their text offsets and character inventories must stay separate.
 - Researchers switch between character mentions and quotation speakers, select one or several characters, inspect matching passages, and navigate with the whole-book minimap or previous/next passage controls.
 - Shared passages retain a separate colored margin line for every selected matching character. Each selected character also has an independent minimap curve, using the same color as their channel.
-- Data preparation and inference run offline through TypeScript commands. Reading and filtering do not trigger paid model requests. The Next.js reader currently displays human annotations, not JEV predictions.
+- Character data preparation and benchmarks run offline. Character tracks display human annotations. The reader now also compares NRC word underlines with experimental JEV sentence backgrounds. With JEV enabled and configured, nearby sentences trigger paid server-side classification as the reader scrolls; results are cached and reused across emotion switches. Turning JEV off stops new requests. This feature does not extract phrase evidence or attribute emotion to characters.
 - This research view reveals the full cast and whole-book activity. It is not spoiler-safe.
 
 ## Capabilities and Constraints

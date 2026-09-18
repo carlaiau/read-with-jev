@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
+import {EmotionComparison,EmotionText} from './emotion-comparison';
 import { readerSegments } from '../src/lib/reader-text';
 import type { Book } from '../src/lib/model';
 import { Button } from '../src/catalyst/typescript/button';
@@ -36,12 +37,13 @@ export default function Reader() {
     const update = () => {
       ticking = false;
       const elements = [...document.querySelectorAll<HTMLElement>('[data-index]')];
-      const marker = window.innerWidth < 1024 ? 100 : 80;
+      const marker = elements[0] ? parseFloat(getComputedStyle(elements[0]).scrollMarginTop) + 4 : 80;
       let index = 0;
       for (const element of elements) {
         if (element.getBoundingClientRect().top > marker) break;
         index = Number(element.dataset.index);
       }
+      if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2) index = book.passages.length - 1;
       setCurrent(index);
     };
     const onScroll = () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } };
@@ -123,7 +125,8 @@ export default function Reader() {
       <div className="mx-auto max-w-[860px]">
         <h1 className="font-serif text-3xl leading-tight tracking-tight sm:text-4xl">Pride and Prejudice</h1>
         <p className="mt-3 mb-5 text-sm leading-6 text-muted">Select characters to inspect their {layer === 'mentions' ? 'mentions' : 'dialogue'}. Use the map to jump to a passage.</p>
-        <div className="research-state sticky top-16 z-20 mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-y border-rule bg-paper py-3 text-xs lg:top-0" aria-label="Annotation source">
+        <EmotionComparison key={layer} layer={layer} ready={!!book}>
+        <div className="research-state mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-y border-rule bg-paper py-3 text-xs" aria-label="Annotation source">
           <strong className="font-semibold">Gold annotations · {layer === 'mentions' ? 'BookCoref · Mentions' : 'PDNC · Speakers'}</strong>
           <span className="text-muted">Full-book spoilers</span>
         </div>
@@ -140,11 +143,12 @@ export default function Reader() {
               </div>
               {newChapter && <h2 className="mb-7 pt-5 font-serif text-2xl text-ink">Chapter {p.chapter}</h2>}
               <div className="passage-meta mb-3 flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted"><span>{String(index + 1).padStart(3, '0')}</span>{matching.map(id => <span key={id} style={{ color: colorFor(id) }}>{cast.find(c => c.id === id)?.name}</span>)}{selected.length > 1 && matching.length === selected.length && <span className="font-semibold text-ink">{layer === 'mentions' ? 'All selected mentioned' : 'All selected speak'}</span>}</div>
-              <p className="font-serif text-[21px] leading-[1.95] whitespace-pre-line sm:text-[23px]">{readerSegments(book.text.slice(p.start, p.end), layer === 'mentions').map((part, i) => part.emphasis ? <em key={i}>{part.text}</em> : part.text)}</p>
+              <p className="font-serif text-[21px] leading-[1.95] whitespace-pre-line sm:text-[23px]"><EmotionText passageId={p.id} fallback={readerSegments(book.text.slice(p.start, p.end), layer === 'mentions').map((part, i) => part.emphasis ? <em key={i}>{part.text}</em> : part.text)} /></p>
             </section>;
           })}</div>
-          <footer className="border-t border-rule pt-7 text-sm leading-7 text-muted">Reference annotations, not JEV predictions or physical-presence labels. Each layer keeps its own source edition; switching layers resets the reading position. <a className="underline underline-offset-4" href={book.source} target="_blank" rel="noreferrer">Dataset source</a></footer>
+          <footer className="border-t border-rule pt-7 text-sm leading-7 text-muted">Character tracks use reference annotations. Emotion backgrounds are experimental JEV sentence suggestions; underlines are NRC word associations. Each layer keeps its own source edition; switching layers resets the reading position. <a className="underline underline-offset-4" href={book.source} target="_blank" rel="noreferrer">Dataset source</a></footer>
         </>}
+        </EmotionComparison>
       </div>
     </main>
     <aside className="fixed top-20 right-1 bottom-5 w-10 lg:top-0 lg:right-0 lg:bottom-0 lg:w-[155px] lg:border-l lg:border-rule lg:bg-panel xl:w-[185px]" aria-label="Whole-book character map">
