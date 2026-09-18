@@ -79,3 +79,36 @@ test('prepared real corpora have complete text coverage, in-range evidence, and 
     assert(book.passages.every(p => p.contextStart <= p.start && p.contextEnd >= p.end));
   }
 });
+
+
+test('explicit mention prompt preserves target and context boundaries without gold leakage', () => {
+  const book = { id: 'mentions', text: 'Before.Target.After.', characters: [{ id: 'a', name: 'Alice', aliases: ['Alice', 'Ally'] }] } as Book;
+  const passage = { start: 7, end: 14, contextStart: 0, contextEnd: 20, labels: ['SECRET_GOLD'] } as Book['passages'][number];
+  const original = createRequest(book, passage, book.characters, true, 'jev-1.13.0');
+  const revised = createRequest(book, passage, book.characters, true, 'jev-1.13.0', 'explicit-mentions');
+  assert.deepEqual(revised.state, original.state);
+  assert.equal(revised.state.target, 'Target.');
+  assert.equal(revised.state.precedingContext, 'Before.');
+  assert.equal(revised.state.followingContext, 'After.');
+  assert(!JSON.stringify(revised).includes('SECRET_GOLD'));
+  assert.match(String(revised.questions.a.instructions), /Ally/);
+  assert(revised.questions.a.criteria?.true);
+  const withoutContext = createRequest(book, passage, book.characters, false, 'jev-1.13.0', 'explicit-mentions');
+  assert.equal(withoutContext.state.target, 'Target.');
+  assert.equal(withoutContext.state.precedingContext, '');
+  assert.equal(withoutContext.state.followingContext, '');
+  assert.throws(() => createRequest({ ...book, id: 'speaking' }, passage, book.characters, true, 'jev-1.13.0', 'explicit-mentions'));
+});
+
+
+test('book metadata changes only the state metadata and is optional', () => {
+  const book = { id: 'mentions', text: 'Jane spoke.', characters: [{ id: 'jane', name: 'Jane', aliases: ['Jane'] }] } as Book;
+  const passage = { start: 0, end: 11, contextStart: 0, contextEnd: 11 } as Book['passages'][number];
+  const original = createRequest(book, passage, book.characters, true, 'jev-1.13.0');
+  const enriched = createRequest(book, passage, book.characters, true, 'jev-1.13.0', 'original', { title: 'Pride and Prejudice', author: 'Jane Austen' });
+  assert.deepEqual(enriched.questions, original.questions);
+  const { book: metadata, ...state } = enriched.state;
+  assert.deepEqual(state, original.state);
+  assert.deepEqual(metadata, { title: 'Pride and Prejudice', author: 'Jane Austen' });
+  assert(!('book' in original.state));
+});

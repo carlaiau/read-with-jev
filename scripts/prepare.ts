@@ -123,3 +123,5 @@ await writeJson('data/processed/speaking.json', speaking);
 await writeJson('data/processed/summary.json', [mentions, speaking].map(b => ({ id: b.id, characters: b.characters.length, passages: b.passages.length,
   evidenceSpans: b.evidence.length, devPassages: b.passages.filter(p => p.split === 'dev').length, testPassages: b.passages.filter(p => p.split === 'test').length })));
 console.log(await readFile('data/processed/summary.json', 'utf8'));
+
+await import('./prepare-books');

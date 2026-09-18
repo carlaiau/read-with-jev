@@ -15,6 +15,8 @@ The UI uses **Tailwind CSS v4 and the supplied Catalyst kit** in `src/catalyst/t
 
 Requires Node.js 22+ and GitHub CLI (`gh`). GitHub downloads use `gh`; Hugging Face downloads use Node fetch.
 
+Dependencies use exact versions and a committed lockfile. Use npm 11.13+ to enforce the configured 14-day minimum release age when resolving updates. The only approved age exception is `@typesafe-ai/sdk@0.6.0`; retain its locked version. See `AGENTS.md` for the dependency policy.
+
 ```sh
 npm ci
 npm run data:fetch
@@ -46,9 +48,19 @@ To run inference, create `.env.local` from `.env.example` and set `TYPESAFE_API_
 npm run benchmark -- --engine jev --limit 2 --execute --max-requests 10
 ```
 
-The cap bounds SDK calls, not dollar cost; retries are disabled. Review the dry run and current account pricing before executing. The default model is `jev-latest`; set `TYPESAFE_MODEL` to a pinned model if your account provides one. Exact responses and returned model identifiers are retained. No live JEV calls have been made as part of initial setup.
+The cap bounds SDK calls, not dollar cost; retries are disabled. Review the dry run and current account pricing before executing. The default model is `jev-latest`; set `TYPESAFE_MODEL` to a pinned model if your account provides one. Exact responses and returned model identifiers are retained. Live development pilots are recorded in [the context comparison](docs/jev-context-pilot.md) and [the prompt/metadata audit](docs/jev-prompt-audit.md).
 
 Results go to `data/runs/`; validated responses go to `data/cache/`. `--cache-only` prohibits network inference. `--split test` uses the project's held-out chapters; prompt development must stay on `dev`. `--threshold` defaults to 0.5. Failure never becomes a negative label, and a partial run never produces a completed evaluation report.
+
+## Controlled prompt experiments
+
+The original prompt remains the default. To plan the revised mention prompt with title/author context:
+
+```sh
+npm run benchmark -- --engine jev --limit 12 --prompt explicit-mentions --book-context
+```
+
+Add `--execute --max-requests 60` to execute this 12-passage mention run. Omit `--book-context` to isolate metadata effects; `--context none` removes neighboring text. The metadata option currently supports the verified *Pride and Prejudice* / Jane Austen pairing only. Keep model, sample, threshold, and batching fixed when comparing conditions. Run artifacts record the selected prompt and metadata; request content separates cache entries.
 
 ## Checks and production build
 
@@ -71,6 +83,8 @@ Next is configured for standalone output and explicitly includes both prepared J
 
 ## Research status
 
+[Research summary, experiment reports, and committed metric snapshots](docs/jev-research-summary.md).
+
 This evaluates **passage-level character mentions and quotation speakers**, not exhaustive physical presence or full coreference-clustering quality. BookCoref's original test book is being repurposed for this project's development: these results are not an untouched BookCoref benchmark submission.
 
 The initial 12-passage development smoke run gave the name-matching mention baseline micro F1 **0.815** and supported-character macro F1 **0.731**. These are small-sample baseline results, not JEV accuracy or held-out conclusions.
@@ -81,3 +95,17 @@ The initial 12-passage development smoke run gave the name-matching mention base
 - [Research grounding](docs/research.md)
 
 BookCoref annotations are described by their authors as **CC BY-NC-SA 4.0**. Keep research-data licensing separate from a future commercial reader. Dataset files are not committed or publicly deployed here. See the dataset notes for attribution and PDNC licensing status.
+
+
+## Cross-book transfer evaluation
+
+`npm run data:prepare` also imports the pinned BookCoref gold editions of *Siddhartha* and *Animal Farm*, checking matching released token arrays, gold span bounds, chapter boundaries, and full text coverage. They are benchmark inputs; the reader UI remains on *Pride and Prejudice*.
+
+```sh
+npm run benchmark -- --book siddhartha --split all --limit 1000 --engine jev --prompt explicit-mentions --concurrency 8 --execute --max-requests 266
+npm run benchmark -- --book animal-farm --split all --limit 1000 --engine jev --prompt explicit-mentions --concurrency 8 --execute --max-requests 300
+```
+
+For the comparator, use `--engine baseline` and omit `--execute --max-requests ...`. The runner defaults to eight concurrent calls (configurable 1–32), validates its first call before pooling, preserves result ordering, and stops scheduling after a failure. In-flight calls settle before failure is reported; valid responses remain cached. Automatic retries are disabled. Book-specific source hashes and output filenames isolate experiments.
+
+See [the frozen transfer protocol](docs/jev-transfer-protocol.md) and [results](docs/jev-transfer-results.md). Both methods use the same fixed registry aliases, without extracting aliases from gold mention spans.

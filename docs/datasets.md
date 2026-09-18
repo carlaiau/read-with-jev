@@ -41,3 +41,12 @@ Prepared JSON includes the manifest, transformation notes, UTF-16 evidence offse
 - Underlying novel: Jane Austen, *Pride and Prejudice*, Project Gutenberg ID 1342; these artifacts retain the editions used by their annotators.
 
 The BookCoref authors' README/license prose specifies **CC BY-NC-SA 4.0**, although some badges/metadata differ. This research prototype does not assume commercial reuse permission. The pinned PDNC repository root has no standalone license file; its reuse terms should be clarified before redistributing its annotations publicly. Raw and derived datasets are ignored by Git and have only been used locally here.
+
+
+## Additional BookCoref novels
+
+`scripts/prepare-books.ts` imports *Siddhartha* (`siddhartha_2500`) and *Animal Farm* (`animal_farm_0`) from the same pinned downloads. Both released input token arrays must match; Animal Farm's embedded gold text must also match. Predictions from those artifacts are never used as labels. Gold inclusive token endpoints are converted to half-open UTF-16 offsets, retaining all source text.
+
+Siddhartha uses its 12 named chapter headings; Animal Farm uses its 10 numbered chapter headings. Sentence units spanning a heading are split before passage construction. Existing target length and chapter-bounded context rules apply. BookCoref includes group identities (for example, Samanas and dogs), which are evaluated as provided, not reinterpreted as individual people.
+
+Prepared outputs: `data/processed/siddhartha.json` (133 passages, 9 identities, 4,933 evidence spans) and `data/processed/animal-farm.json` (100 passages, 20 identities, 1,705 evidence spans). Fixed aliases are recorded in the importer and are shared by JEV and the baseline. The P&P-specific PDNC alias crosswalk is not reused for other books. Both new novels are used whole for frozen-prompt transfer evaluation.
