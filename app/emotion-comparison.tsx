@@ -1,5 +1,6 @@
 'use client';
 import {createContext,useContext,useEffect,useMemo,useRef,useState,type CSSProperties,type ReactNode} from 'react';
+import {loadLibraryDocument} from '../src/lib/library-transport';
 import {readingEmotions,emotionColors,lexicalRanges,validEmotionScores,type ReadingEmotion,type EmotionMetadata,type EmotionScores,type ReadingPlan,type ReadingSentence} from '../src/lib/reading-emotions';
 import {Checkbox,CheckboxField} from '../src/catalyst/typescript/checkbox';
 import {Label} from '../src/catalyst/typescript/fieldset';
@@ -14,7 +15,7 @@ export function EmotionComparison({layer,children,ready}:{layer:string;children:
  const [emotions,setEmotions]=useState<ReadingEmotion[]>([...readingEmotions]),[nrc,setNrc]=useState(true),[jev,setJev]=useState(true);
  const inspector=useRef<HTMLDivElement>(null),trigger=useRef<HTMLElement|null>(null);
  const cache=useRef(new Map<string,Result>()),[revision,setRevision]=useState(0),[retry,setRetry]=useState(0),[selected,setSelected]=useState<ReadingSentence|null>(null),[feedback,setFeedback]=useState<Partial<Record<ReadingEmotion,string>>>({});
- useEffect(()=>{const c=new AbortController();fetch(`/api/emotions?layer=${layer}`,{signal:c.signal}).then(async r=>{const d=await r.json();if(!r.ok)throw new Error(d.error);return d as EmotionMetadata;}).then(d=>{setMetadata(d);if(!d.jevAvailable)setJev(false);}).catch(e=>{if(e.name!=='AbortError')setLoadError(e.message);});return()=>c.abort();},[layer]);
+ useEffect(()=>{const c=new AbortController();loadLibraryDocument<EmotionMetadata>(`/api/emotions?layer=${encodeURIComponent(layer)}`,c.signal).then(d=>{setMetadata(d);if(!d.jevAvailable)setJev(false);}).catch(e=>{if(e.name!=='AbortError')setLoadError(e.message);});return()=>c.abort();},[layer]);
  useEffect(()=>{
   if(!metadata||!jev||!metadata.jevAvailable||!ready)return;
   let stopped=false,active=0,timer:ReturnType<typeof setTimeout>|undefined;const nearby=new Set<string>(),controllers=new Map<string,AbortController>();

@@ -1,0 +1,2687 @@
+{
+  "schema": 1,
+  "gutenbergId": 145,
+  "sourceSha256": "dc2e0107e6ae07e8e33da934b2ec4e8e600826a2e0cd48df265119cd02e5fb50",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-22dd54c371d9ec48",
+      "name": "Dorothea Brooke",
+      "description": "Young heiress and central protagonist, idealistic and recently Mrs. Casaubon.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Brooke",
+          "evidence": [
+            5921,
+            5932
+          ]
+        },
+        {
+          "text": "Dorothea",
+          "evidence": [
+            8115,
+            8123
+          ]
+        },
+        {
+          "text": "Dorothea Brooke",
+          "evidence": [
+            404948,
+            404963
+          ]
+        },
+        {
+          "text": "Dodo",
+          "evidence": [
+            19308,
+            19312
+          ]
+        },
+        {
+          "text": "Mrs. Casaubon",
+          "evidence": [
+            197345,
+            197358
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4849de2318492da2",
+      "name": "Celia Brooke",
+      "description": "Dorothea’s younger sister; amiable and practical.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Celia",
+          "evidence": [
+            6553,
+            6558
+          ]
+        },
+        {
+          "text": "Kitty",
+          "evidence": [
+            24512,
+            24517
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-67261fc14e437b9d",
+      "name": "Mr. Brooke",
+      "description": "The girls’ uncle and guardian; a country gentleman of easy temper.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Brooke",
+          "evidence": [
+            9837,
+            9847
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d9f1d7d87bc560a",
+      "name": "Sir James Chettam",
+      "description": "A amiable, practical baronet and local gentleman.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir James Chettam",
+          "evidence": [
+            13655,
+            13672
+          ]
+        },
+        {
+          "text": "Sir James",
+          "evidence": [
+            13655,
+            13664
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c58f7ba1351d84b0",
+      "name": "Edward Casaubon",
+      "description": "Learned clergyman and scholar whose work and will affect Dorothea.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Casaubon",
+          "evidence": [
+            26646,
+            26658
+          ]
+        },
+        {
+          "text": "Casaubon",
+          "evidence": [
+            15503,
+            15511
+          ]
+        },
+        {
+          "text": "the Reverend Edward Casaubon",
+          "evidence": [
+            15483,
+            15511
+          ]
+        },
+        {
+          "text": "EDWARD CASAUBON.",
+          "evidence": [
+            86847,
+            86863
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6b5d9c5f8ee80db0",
+      "name": "Monk (Great St. Bernard dog)",
+      "description": "The Great St. Bernard dog belonging to the Brookes, attendant in their walks.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Monk",
+          "evidence": [
+            49568,
+            49572
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9572d0e29edd5c04",
+      "name": "Mrs. Cadwallader",
+      "description": "Wife of the Rector; socially influential and meddlesome in match-making.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Cadwallader",
+          "evidence": [
+            15039,
+            15055
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d2b7bbd0a7abfe26",
+      "name": "Mr. Cadwallader",
+      "description": "Rector of a neighboring parish; good-humored and indulgent.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Cadwallader",
+          "evidence": [
+            138739,
+            138754
+          ]
+        },
+        {
+          "text": "Humphrey",
+          "evidence": [
+            107679,
+            107687
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b44a7ce80dc163f7",
+      "name": "Lovegood",
+      "description": "Local gentleman referenced in parish discussions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lovegood",
+          "evidence": [
+            59527,
+            59535
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5057704f2d2cc978",
+      "name": "Mr. Tucker",
+      "description": "Middle-aged curate at Lowick who assists with parish duties.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Tucker",
+          "evidence": [
+            158420,
+            158430
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-88052206cb9f271d",
+      "name": "Mr. Standish",
+      "description": "Established local lawyer, blunt and outspoken at social gatherings.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Standish",
+          "evidence": [
+            187287,
+            187299
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d2b370a1368d4374",
+      "name": "Nicholas Bulstrode",
+      "description": "Wealthy, influential banker and local benefactor.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Bulstrode",
+          "evidence": [
+            186613,
+            186626
+          ]
+        },
+        {
+          "text": "Bulstrode",
+          "evidence": [
+            186617,
+            186626
+          ]
+        },
+        {
+          "text": "Nicholas",
+          "evidence": [
+            901356,
+            901364
+          ]
+        },
+        {
+          "text": "Nicholas Bulstrode",
+          "evidence": [
+            1341178,
+            1341196
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5b3024e424ce924a",
+      "name": "Mr. Chichely",
+      "description": "Middle-aged local gentleman and sporting man.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Chichely",
+          "evidence": [
+            186765,
+            186777
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1a8a17e8bef4c3d9",
+      "name": "Tertius Lydgate",
+      "description": "Young, ambitious physician with modern ideas.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Lydgate",
+          "evidence": [
+            191822,
+            191833
+          ]
+        },
+        {
+          "text": "Lydgate",
+          "evidence": [
+            191826,
+            191833
+          ]
+        },
+        {
+          "text": "Tertius",
+          "evidence": [
+            213557,
+            213564
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-527ad3a39933dfb3",
+      "name": "Rosamond Vincy",
+      "description": "Pretty, accomplished daughter of Mr. Vincy; social focus.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rosamond Vincy",
+          "evidence": [
+            198126,
+            198140
+          ]
+        },
+        {
+          "text": "Rosamond",
+          "evidence": [
+            198126,
+            198134
+          ]
+        },
+        {
+          "text": "Rosy",
+          "evidence": [
+            209330,
+            209334
+          ]
+        },
+        {
+          "text": "Mrs. Lydgate",
+          "evidence": [
+            929697,
+            929709
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e40a58ef7231ba88",
+      "name": "Mr. Vincy",
+      "description": "Rosamond and Fred’s father; a sociable manufacturer and civic figure.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Vincy",
+          "evidence": [
+            195720,
+            195729
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0baf885b53e938d8",
+      "name": "Mrs. Vincy",
+      "description": "Rosamond and Fred’s mother; lively and status-conscious.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Vincy",
+          "evidence": [
+            203349,
+            203359
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8fb1551e6fc2e392",
+      "name": "Fred Vincy",
+      "description": "Good-natured but improvident eldest Vincy son who reforms later.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Fred",
+          "evidence": [
+            206871,
+            206875
+          ]
+        },
+        {
+          "text": "Fred Vincy",
+          "evidence": [
+            224557,
+            224567
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19e410d423665167",
+      "name": "Mary Garth",
+      "description": "Caleb Garth’s sensible, morally steady daughter and Fred’s love interest.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mary Garth",
+          "evidence": [
+            214114,
+            214124
+          ]
+        },
+        {
+          "text": "Mary",
+          "evidence": [
+            214114,
+            214118
+          ]
+        },
+        {
+          "text": "Miss Garth",
+          "evidence": [
+            224111,
+            224121
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-892c72293586fb04",
+      "name": "Caleb Garth",
+      "description": "Practical, honest surveyor/engineer and moral exemplar.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Caleb Garth",
+          "evidence": [
+            490825,
+            490836
+          ]
+        },
+        {
+          "text": "Caleb",
+          "evidence": [
+            490825,
+            490830
+          ]
+        },
+        {
+          "text": "Mr. Garth",
+          "evidence": [
+            495235,
+            495244
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c086540c40bae223",
+      "name": "Mrs. Garth",
+      "description": "Caleb Garth’s steady, prudent wife who manages the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Garth",
+          "evidence": [
+            496934,
+            496944
+          ]
+        },
+        {
+          "text": "Susan",
+          "evidence": [
+            343445,
+            343450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dfbb78553f68d8f9",
+      "name": "Peter Featherstone",
+      "description": "Wealthy local landowner whose death and wills affect local relations.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Featherstone",
+          "evidence": [
+            204207,
+            204223
+          ]
+        },
+        {
+          "text": "Peter Featherstone",
+          "evidence": [
+            227194,
+            227212
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1d36ce7757200bba",
+      "name": "Mrs. Waule",
+      "description": "Talkative relative involved in parish gossip.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Waule",
+          "evidence": [
+            220311,
+            220321
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c75319c0e86cfbf5",
+      "name": "John Waule",
+      "description": "Mrs. Waule’s nephew; local acquaintance in parish scenes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John Waule",
+          "evidence": [
+            287249,
+            287259
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-79564243b4580921",
+      "name": "Adolf Naumann",
+      "description": "German painter acquaintance of Ladislaw in Rome.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Naumann",
+          "evidence": [
+            409497,
+            409504
+          ]
+        },
+        {
+          "text": "Adolf Naumann",
+          "evidence": [
+            461241,
+            461254
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-161c9e9017d507d4",
+      "name": "Will Ladislaw",
+      "description": "Spirited, artistic relative of Casaubon and friend to Dorothea.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Ladislaw",
+          "evidence": [
+            163333,
+            163345
+          ]
+        },
+        {
+          "text": "Will Ladislaw",
+          "evidence": [
+            167255,
+            167268
+          ]
+        },
+        {
+          "text": "Will",
+          "evidence": [
+            60572,
+            60576
+          ]
+        },
+        {
+          "text": "Ladislaw",
+          "evidence": [
+            163337,
+            163345
+          ]
+        },
+        {
+          "text": "Mr. Orlando Ladislaw",
+          "evidence": [
+            1362979,
+            1362999
+          ]
+        },
+        {
+          "text": "Orlando Ladislaw",
+          "evidence": [
+            1362983,
+            1362999
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d7be6ecdc5e40178",
+      "name": "Camden Farebrother",
+      "description": "Genial, popular vicar of St. Botolph’s and a natural friend to many.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Farebrother",
+          "evidence": [
+            263428,
+            263443
+          ]
+        },
+        {
+          "text": "Camden Farebrother",
+          "evidence": [
+            358834,
+            358852
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9221496895afc065",
+      "name": "Mrs. Farebrother",
+      "description": "The vicar’s mother/wife figure; upright and active in parish life.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Farebrother",
+          "evidence": [
+            362056,
+            362072
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a23d07bef4874edf",
+      "name": "Miss Winifred Farebrother",
+      "description": "The vicar’s elder sister who helps manage the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Winifred",
+          "evidence": [
+            360017,
+            360030
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8353d7182e6fcb79",
+      "name": "Miss Noble",
+      "description": "Charitable relative/companion in the Farebrother household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Noble",
+          "evidence": [
+            359897,
+            359907
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18b0d30e99f2c326",
+      "name": "Dr. Sprague",
+      "description": "Senior physician regarded as a local medical authority.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Sprague",
+          "evidence": [
+            299668,
+            299679
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f6db25fb94e3e932",
+      "name": "Dr. Minchin",
+      "description": "Local physician with a conciliatory manner in medical affairs.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Minchin",
+          "evidence": [
+            299684,
+            299695
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c3cee5c27fa5ad35",
+      "name": "Mr. Wrench",
+      "description": "Local practitioner/surgeon later supplanted by Lydgate in some cases.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Wrench",
+          "evidence": [
+            204590,
+            204600
+          ]
+        },
+        {
+          "text": "Wrench",
+          "evidence": [
+            204594,
+            204600
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cbd4f5dddad215d9",
+      "name": "Mr. Toller",
+      "description": "Local surgeon/medical figure who attends infirmary matters.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Toller",
+          "evidence": [
+            392004,
+            392014
+          ]
+        },
+        {
+          "text": "Mr. Harry Toller",
+          "evidence": [
+            1383179,
+            1383195
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-81f281cdb71f04d8",
+      "name": "Mr. Bambridge",
+      "description": "Horse-dealer involved with Fred Vincy’s hunting and transactions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Bambridge",
+          "evidence": [
+            490029,
+            490042
+          ]
+        },
+        {
+          "text": "Bambridge",
+          "evidence": [
+            490033,
+            490042
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d9e79815a66ecc65",
+      "name": "Horrock",
+      "description": "Local horseman/veterinarian who accompanies hunting and fairs.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Horrock",
+          "evidence": [
+            506789,
+            506796
+          ]
+        },
+        {
+          "text": "Mr. Horrock",
+          "evidence": [
+            508421,
+            508432
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e059f0709a6eb42e",
+      "name": "Tantripp",
+      "description": "Servant/housekeeper in the Brooke/Casaubon household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tantripp",
+          "evidence": [
+            68960,
+            68968
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dcc7c317064524fb",
+      "name": "Jonas",
+      "description": "Butler/servant referenced as delivering letters at Tipton Grange.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jonas",
+          "evidence": [
+            93375,
+            93380
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-da89a9ddb7eb1a5d",
+      "name": "Mrs. Bulstrode",
+      "description": "Member of the Bulstrode family concerned with nieces and matches.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Bulstrode",
+          "evidence": [
+            223642,
+            223656
+          ]
+        },
+        {
+          "text": "Harriet",
+          "evidence": [
+            273762,
+            273769
+          ]
+        },
+        {
+          "text": "Harriet Vincy",
+          "evidence": [
+            1329324,
+            1329337
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea133b361760ae54",
+      "name": "Mrs. Plymdale",
+      "description": "Socially observant local lady connected to the Plymdales.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Plymdale",
+          "evidence": [
+            358263,
+            358276
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-101ddef054e699ba",
+      "name": "Lady Chettam",
+      "description": "Sir James Chettam’s mother, a local social arbiter.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lady Chettam",
+          "evidence": [
+            115141,
+            115153
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4663dff89c28a502",
+      "name": "Dorothea (Mrs. Casaubon)",
+      "description": "Dorothea as referred to by the married name (separate record in Middlemarch scope exists).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Dorothea",
+          "evidence": [
+            8115,
+            8123
+          ]
+        },
+        {
+          "text": "Dorothea,",
+          "evidence": [
+            12769,
+            12778
+          ]
+        },
+        {
+          "text": "Mrs. Casaubon",
+          "evidence": [
+            197345,
+            197358
+          ]
+        },
+        {
+          "text": "Dodo",
+          "evidence": [
+            19308,
+            19312
+          ]
+        },
+        {
+          "text": "Dodo,",
+          "evidence": [
+            19308,
+            19313
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ec7f2020b59840f2",
+      "name": "Edward Casaubon",
+      "description": "Casaubon as recorded in the 'Middlemarch' scope.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Casaubon",
+          "evidence": [
+            26646,
+            26658
+          ]
+        },
+        {
+          "text": "Edward Casaubon",
+          "evidence": [
+            15496,
+            15511
+          ]
+        },
+        {
+          "text": "Casaubon",
+          "evidence": [
+            15503,
+            15511
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b0a95e5b07b7422",
+      "name": "Tertius Lydgate",
+      "description": "Physician (Dr. Lydgate) whose marriage to Rosamond and professional struggles are central.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Lydgate",
+          "evidence": [
+            191826,
+            191833
+          ]
+        },
+        {
+          "text": "Tertius",
+          "evidence": [
+            213557,
+            213564
+          ]
+        },
+        {
+          "text": "Mr. Lydgate",
+          "evidence": [
+            191822,
+            191833
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-01bad608a6309cf4",
+      "name": "Rosamond Vincy",
+      "description": "Young woman of Vincy background; wife of Dr. Lydgate in Middlemarch scope.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Rosamond",
+          "evidence": [
+            198126,
+            198134
+          ]
+        },
+        {
+          "text": "Rosamond Vincy",
+          "evidence": [
+            198126,
+            198140
+          ]
+        },
+        {
+          "text": "Rosy",
+          "evidence": [
+            209330,
+            209334
+          ]
+        },
+        {
+          "text": "Rosy,",
+          "evidence": [
+            210312,
+            210317
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba4c29a064e3ab5b",
+      "name": "Fred Vincy",
+      "description": "Vincy son disappointed by Featherstone’s will; courtship of Mary Garth in Middlemarch scope.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Fred",
+          "evidence": [
+            206871,
+            206875
+          ]
+        },
+        {
+          "text": "Fred Vincy",
+          "evidence": [
+            224557,
+            224567
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-95141f58c490db3d",
+      "name": "Mr. Vincy",
+      "description": "Father of Fred and Rosamond in the Middlemarch scope.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Vincy",
+          "evidence": [
+            195720,
+            195729
+          ]
+        },
+        {
+          "text": "Vincy",
+          "evidence": [
+            187947,
+            187952
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9a9babd4bb72f5e7",
+      "name": "Lucy Vincy",
+      "description": "Mrs. Vincy in the Middlemarch scope; proud mother of Rosamond and Fred.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mrs. Vincy",
+          "evidence": [
+            203349,
+            203359
+          ]
+        },
+        {
+          "text": "Lucy",
+          "evidence": [
+            564173,
+            564177
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-10cb10f99961cfba",
+      "name": "Mary Garth",
+      "description": "Sensible, hardworking daughter of Caleb Garth in Middlemarch scope.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mary",
+          "evidence": [
+            214114,
+            214118
+          ]
+        },
+        {
+          "text": "Miss Garth",
+          "evidence": [
+            224111,
+            224121
+          ]
+        },
+        {
+          "text": "Miss Garth,",
+          "evidence": [
+            672673,
+            672684
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dbac17cbdada36ba",
+      "name": "Caleb Garth",
+      "description": "Manager/agent and practical man of business in Middlemarch scope.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Caleb Garth",
+          "evidence": [
+            490825,
+            490836
+          ]
+        },
+        {
+          "text": "Caleb",
+          "evidence": [
+            490825,
+            490830
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b3833764703659fd",
+      "name": "Susan Garth",
+      "description": "Mrs. Garth, practical matron directing household affairs (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mrs. Garth",
+          "evidence": [
+            496934,
+            496944
+          ]
+        },
+        {
+          "text": "Susan",
+          "evidence": [
+            343445,
+            343450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1d562c039b87d7e4",
+      "name": "Ben (Garth)",
+      "description": "One of the Garth children (boy) appearing in household scenes.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Ben",
+          "evidence": [
+            526444,
+            526447
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-366dec15db56655d",
+      "name": "Letty (Garth)",
+      "description": "Young Garth daughter appearing in household scenes.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Letty",
+          "evidence": [
+            527284,
+            527289
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-faa04fb00b66e0de",
+      "name": "Christy (Garth)",
+      "description": "Garth son returning home from study; Caleb’s eldest son.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Christy",
+          "evidence": [
+            861194,
+            861201
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-77afef588fd8adc2",
+      "name": "Jim (Garth)",
+      "description": "Garth son who reads aloud in family scenes.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Jim",
+          "evidence": [
+            864002,
+            864005
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-521f697d174e972c",
+      "name": "Callum",
+      "description": "Assistant at Caleb Garth’s office who helps with books/accounts.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Callum",
+          "evidence": [
+            1224666,
+            1224672
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6723c41a63f031d3",
+      "name": "Tom (assistant)",
+      "description": "Young assistant who rides to fetch errands for Caleb Garth.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Tom",
+          "evidence": [
+            662125,
+            662128
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ce1cf7a030672d88",
+      "name": "Monk (house dog)",
+      "description": "House spaniel owned by the Lydgates/household (dog).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Monk",
+          "evidence": [
+            49568,
+            49572
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1bf27defc76905e0",
+      "name": "Fag",
+      "description": "Sheep-dog mentioned in farm scenes.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Fag",
+          "evidence": [
+            853843,
+            853846
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18a5426f4b7095eb",
+      "name": "Brownie",
+      "description": "Small active dog in the Garth household.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Brownie",
+          "evidence": [
+            1233272,
+            1233279
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f2d715f35217f27c",
+      "name": "Fly",
+      "description": "Little terrier in the Garth household.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Fly",
+          "evidence": [
+            1114257,
+            1114260
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-08207d23f61c6471",
+      "name": "Pratt",
+      "description": "Butler/servant at Lowick Manor attending callers and household matters.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Pratt",
+          "evidence": [
+            780893,
+            780898
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba144df829af8470",
+      "name": "Tantripp",
+      "description": "Housekeeper/maid at Lowick attendant to Mrs. Casaubon (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Tantripp",
+          "evidence": [
+            68960,
+            68968
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e518381337f989d8",
+      "name": "Peter Featherstone",
+      "description": "Old Mr. Featherstone, the testator whose wills provoke family agitation (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Peter Featherstone",
+          "evidence": [
+            227194,
+            227212
+          ]
+        },
+        {
+          "text": "old Featherstone",
+          "evidence": [
+            231805,
+            231821
+          ]
+        },
+        {
+          "text": "poor Peter",
+          "evidence": [
+            654973,
+            654983
+          ]
+        },
+        {
+          "text": "Mr. Featherstone",
+          "evidence": [
+            204207,
+            204223
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a33608529ec417bc",
+      "name": "Solomon Featherstone",
+      "description": "Brother Solomon, a rich Featherstone relative involved in will proceedings.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Solomon",
+          "evidence": [
+            222756,
+            222763
+          ]
+        },
+        {
+          "text": "Mr. Solomon",
+          "evidence": [
+            678539,
+            678550
+          ]
+        },
+        {
+          "text": "Brother Solomon",
+          "evidence": [
+            655304,
+            655319
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aafcca332fb2a06b",
+      "name": "Jane (Mrs. Waule)",
+      "description": "Featherstone sister concerned about inheritance in Middlemarch scope.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mrs. Waule",
+          "evidence": [
+            220311,
+            220321
+          ]
+        },
+        {
+          "text": "Jane",
+          "evidence": [
+            221532,
+            221536
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-870a418cd382ff61",
+      "name": "Jonah Featherstone",
+      "description": "Featherstone brother noted for wit among the relatives.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Jonah",
+          "evidence": [
+            655734,
+            655739
+          ]
+        },
+        {
+          "text": "Brother Jonah",
+          "evidence": [
+            655726,
+            655739
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-27fc2021bf043481",
+      "name": "Martha Cranch",
+      "description": "Sister Martha, a needy Featherstone relation from the Chalky Flats.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Sister Martha",
+          "evidence": [
+            655741,
+            655754
+          ]
+        },
+        {
+          "text": "Mrs. Cranch",
+          "evidence": [
+            657609,
+            657620
+          ]
+        },
+        {
+          "text": "Martha",
+          "evidence": [
+            655748,
+            655754
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d31a2557ca413fa",
+      "name": "Tom Cranch",
+      "description": "Young Cranch nephew who stays at Stone Court.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "young Cranch",
+          "evidence": [
+            660522,
+            660534
+          ]
+        },
+        {
+          "text": "Tom",
+          "evidence": [
+            662125,
+            662128
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bbcea96334111839",
+      "name": "Joshua Rigg",
+      "description": "Residuary legatee who becomes sole executor and assumes the Featherstone name.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Joshua Rigg",
+          "evidence": [
+            724570,
+            724581
+          ]
+        },
+        {
+          "text": "Rigg",
+          "evidence": [
+            714179,
+            714183
+          ]
+        },
+        {
+          "text": "Mr. Rigg",
+          "evidence": [
+            716317,
+            716325
+          ]
+        },
+        {
+          "text": "Rigg Featherstone",
+          "evidence": [
+            732666,
+            732683
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-079f1c08824d1c1e",
+      "name": "John Raffles",
+      "description": "Townier figure whose unexpected appearance at Stone Court provokes events.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Raffles",
+          "evidence": [
+            894703,
+            894710
+          ]
+        },
+        {
+          "text": "John Raffles",
+          "evidence": [
+            894698,
+            894710
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4fc466425fb22649",
+      "name": "Mr. Standish",
+      "description": "Lawyer who reads wills and documents concerning Featherstone’s testamentary dispositions (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Standish",
+          "evidence": [
+            187287,
+            187299
+          ]
+        },
+        {
+          "text": "Standish",
+          "evidence": [
+            186361,
+            186369
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-372e3982259b961f",
+      "name": "Mr. Borthrop Trumbull",
+      "description": "Second cousin to Peter Featherstone; auctioneer and local public character (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Borthrop Trumbull",
+          "evidence": [
+            669814,
+            669835
+          ]
+        },
+        {
+          "text": "Mr. Trumbull",
+          "evidence": [
+            673028,
+            673040
+          ]
+        },
+        {
+          "text": "Mr. Borthrop Trumbull,",
+          "evidence": [
+            669814,
+            669836
+          ]
+        },
+        {
+          "text": "Mr. Trumbull,",
+          "evidence": [
+            673028,
+            673041
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-69fd2aaa70475d26",
+      "name": "Mr. Brooke",
+      "description": "Mr. Brooke of Tipton; landowner and local political actor (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Brooke",
+          "evidence": [
+            9837,
+            9847
+          ]
+        },
+        {
+          "text": "Brooke",
+          "evidence": [
+            5926,
+            5932
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-72cdb1a95bf74718",
+      "name": "Celia Brooke",
+      "description": "Mrs. Brooke (Celia), Dorothea’s confidante (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Celia",
+          "evidence": [
+            6553,
+            6558
+          ]
+        },
+        {
+          "text": "Celia,",
+          "evidence": [
+            12403,
+            12409
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-338d7545702587fb",
+      "name": "Sir James Chettam",
+      "description": "Baronet and active local figure, related by marriage to Dorothea (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Sir James Chettam",
+          "evidence": [
+            13655,
+            13672
+          ]
+        },
+        {
+          "text": "Sir James",
+          "evidence": [
+            13655,
+            13664
+          ]
+        },
+        {
+          "text": "Chettam",
+          "evidence": [
+            13665,
+            13672
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c6da6e2499e4a8d6",
+      "name": "Dowager Lady Chettam",
+      "description": "Sir James’s mother, appearing as a social arbiter.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Dowager Lady Chettam",
+          "evidence": [
+            698391,
+            698411
+          ]
+        },
+        {
+          "text": "Lady Chettam",
+          "evidence": [
+            115141,
+            115153
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5792d54c7d163860",
+      "name": "Mr. Cadwallader",
+      "description": "The Rector of Tipton and Freshitt with local presence (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Cadwallader",
+          "evidence": [
+            138739,
+            138754
+          ]
+        },
+        {
+          "text": "Cadwallader",
+          "evidence": [
+            15044,
+            15055
+          ]
+        },
+        {
+          "text": "the Rector",
+          "evidence": [
+            15056,
+            15066
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-08b427c3467566d6",
+      "name": "Mrs. Cadwallader",
+      "description": "Socially active local lady commenting on affairs (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mrs. Cadwallader",
+          "evidence": [
+            15039,
+            15055
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-44e848adbaf1d720",
+      "name": "Will Ladislaw",
+      "description": "Artistic and political young man, Casaubon’s relative and friend to Dorothea (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Will Ladislaw",
+          "evidence": [
+            167255,
+            167268
+          ]
+        },
+        {
+          "text": "Will",
+          "evidence": [
+            60572,
+            60576
+          ]
+        },
+        {
+          "text": "Ladislaw",
+          "evidence": [
+            163337,
+            163345
+          ]
+        },
+        {
+          "text": "Mr. Ladislaw",
+          "evidence": [
+            163333,
+            163345
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fa688346c86cece4",
+      "name": "Mr. Bulstrode",
+      "description": "Banker and local influential man engaged in hospital patronage (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Bulstrode",
+          "evidence": [
+            186613,
+            186626
+          ]
+        },
+        {
+          "text": "Bulstrode",
+          "evidence": [
+            186617,
+            186626
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2afa077105506c04",
+      "name": "Mrs. Bulstrode",
+      "description": "Mrs. Bulstrode (Harriet), concerned for her family (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mrs. Bulstrode",
+          "evidence": [
+            223642,
+            223656
+          ]
+        },
+        {
+          "text": "Harriet",
+          "evidence": [
+            273762,
+            273769
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-91510905842ca627",
+      "name": "Mr. Farebrother",
+      "description": "Vicar and moral adviser to many characters (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Farebrother",
+          "evidence": [
+            263428,
+            263443
+          ]
+        },
+        {
+          "text": "the Vicar",
+          "evidence": [
+            359766,
+            359775
+          ]
+        },
+        {
+          "text": "Farebrother",
+          "evidence": [
+            263432,
+            263443
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cac6f302f92d09cd",
+      "name": "Mrs. Farebrother",
+      "description": "Wife/mother in the Farebrother household active in local affairs (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mrs. Farebrother",
+          "evidence": [
+            362056,
+            362072
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-faa47e97ec05fc24",
+      "name": "Miss Winifred",
+      "description": "Genteel spinster, sister of the Vicar (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Miss Winifred",
+          "evidence": [
+            360017,
+            360030
+          ]
+        },
+        {
+          "text": "Winifred",
+          "evidence": [
+            360022,
+            360030
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4e385bb3725036ab",
+      "name": "Miss Noble",
+      "description": "Elderly lady associated with the vicarage household (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Miss Noble",
+          "evidence": [
+            359897,
+            359907
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e7e5cffb950bf2d5",
+      "name": "Mr. Tyke",
+      "description": "Clergyman candidate mentioned in connection with a living.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Tyke",
+          "evidence": [
+            264123,
+            264131
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e331de7575ecaa20",
+      "name": "Garth’s bailiff and laborers",
+      "description": "Named laborers and agricultural workers involved in field-work and controversies (collective).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Hiram Ford",
+          "evidence": [
+            1194660,
+            1194670
+          ]
+        },
+        {
+          "text": "the laborers",
+          "evidence": [
+            839619,
+            839631
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-62fcbc44469c5ea7",
+      "name": "Mr. Hawley",
+      "description": "Local political operator and opponent in borough politics.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Hawley",
+          "evidence": [
+            397774,
+            397784
+          ]
+        },
+        {
+          "text": "Hawley",
+          "evidence": [
+            395518,
+            395524
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-10d17e1619cd7d10",
+      "name": "Mr. Hackbutt",
+      "description": "Local gentleman and political commentator (book-scope grouping).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Hackbutt",
+          "evidence": [
+            394366,
+            394378
+          ]
+        },
+        {
+          "text": "Hackbutt",
+          "evidence": [
+            394370,
+            394378
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-285a756a65bb89f4",
+      "name": "Mr. Keck",
+      "description": "Editor of the 'Trumpet', critic of local papers and Ladislaw.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Keck",
+          "evidence": [
+            998705,
+            998713
+          ]
+        },
+        {
+          "text": "Keck",
+          "evidence": [
+            820886,
+            820890
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7f4b880b7349d69a",
+      "name": "Mr. Toller",
+      "description": "Established local physician/surgeon opposed to Lydgate (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Toller",
+          "evidence": [
+            392004,
+            392014
+          ]
+        },
+        {
+          "text": "Toller",
+          "evidence": [
+            299005,
+            299011
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d43b4f1f93fc4d5",
+      "name": "Dr. Minchin",
+      "description": "Local medical figure commenting on Lydgate in Middlemarch scope.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Dr. Minchin",
+          "evidence": [
+            299684,
+            299695
+          ]
+        },
+        {
+          "text": "Minchin",
+          "evidence": [
+            299688,
+            299695
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8f4ed853a8be25a4",
+      "name": "Dr. Sprague",
+      "description": "Local physician appearing in medical controversies (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Dr. Sprague",
+          "evidence": [
+            299668,
+            299679
+          ]
+        },
+        {
+          "text": "Sprague",
+          "evidence": [
+            299672,
+            299679
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea9c35535346a4b4",
+      "name": "Dr. Wrench",
+      "description": "Conservative local medical practitioner (Middlemarch scope).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Mr. Wrench",
+          "evidence": [
+            204590,
+            204600
+          ]
+        },
+        {
+          "text": "Wrench",
+          "evidence": [
+            204594,
+            204600
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-429120008f781007",
+      "name": "Dr. Gambit",
+      "description": "Medical practitioner mentioned in connection with local benefit clubs.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Doctor Gambit",
+          "evidence": [
+            953405,
+            953418
+          ]
+        },
+        {
+          "text": "Gambit",
+          "evidence": [
+            953412,
+            953418
+          ]
+        },
+        {
+          "text": "Mr. Gambit",
+          "evidence": [
+            959118,
+            959128
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-79b7aff05d3eed5f",
+      "name": "Dr. Spanning",
+      "description": "Physician mentioned in praise of Ladislaw’s tract.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Dr. Spanning",
+          "evidence": [
+            799480,
+            799492
+          ]
+        },
+        {
+          "text": "Spanning",
+          "evidence": [
+            796858,
+            796866
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-95cdeb9f997701bf",
+      "name": "Mr. Protheroe",
+      "description": "Surgeon from Brassing who may be called in for operations.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Protheroe",
+          "evidence": [
+            979272,
+            979281
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a4a480dc303a105c",
+      "name": "Mr. Webbe",
+      "description": "House-surgeon engaged at the New Hospital.",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Webbe",
+          "evidence": [
+            979133,
+            979138
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-78a34eba2984fd6d",
+      "name": "Mr. Hackbutt’s acquaintances",
+      "description": "Various named men mentioned in political discussion and canvassing (collective).",
+      "scope": "Middlemarch",
+      "aliases": [
+        {
+          "text": "Bagster",
+          "evidence": [
+            818029,
+            818036
+          ]
+        },
+        {
+          "text": "Pinkerton",
+          "evidence": [
+            106866,
+            106875
+          ]
+        },
+        {
+          "text": "Lord Medlicote",
+          "evidence": [
+            259047,
+            259061
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-32c8fa104c903d5c",
+      "name": "John Raffles",
+      "description": "Dissolute, vagrant former acquaintance of Bulstrode whose illness precipitates scandal (book scope).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Raffles",
+          "evidence": [
+            894703,
+            894710
+          ]
+        },
+        {
+          "text": "Mr. Raffles",
+          "evidence": [
+            895024,
+            895035
+          ]
+        },
+        {
+          "text": "John Raffles",
+          "evidence": [
+            894698,
+            894710
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-674e5ef256af8b6f",
+      "name": "Mr. Borthrop Trumbull",
+      "description": "Prosperous provincial auctioneer and dealer in art and furniture (book scope).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Borthrop Trumbull",
+          "evidence": [
+            669814,
+            669835
+          ]
+        },
+        {
+          "text": "Mr. Trumbull",
+          "evidence": [
+            673028,
+            673040
+          ]
+        },
+        {
+          "text": "Borthrop Trumbull",
+          "evidence": [
+            669818,
+            669835
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9633340d7bbfaee1",
+      "name": "Edwin Larcher",
+      "description": "Businessman whose household goods are sold at auction.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edwin Larcher, Esq.",
+          "evidence": [
+            1301559,
+            1301578
+          ]
+        },
+        {
+          "text": "Mr. Larcher",
+          "evidence": [
+            397360,
+            397371
+          ]
+        },
+        {
+          "text": "Mrs. Larcher",
+          "evidence": [
+            562143,
+            562155
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-66f8c7ed70a3d778",
+      "name": "Mr. Thesiger",
+      "description": "Rector of St. Peter’s appearing in town affairs.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Thesiger",
+          "evidence": [
+            398620,
+            398632
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f80f6db7819298f6",
+      "name": "Mr. Powderell",
+      "description": "Middlemarch gentleman and bidder at sales.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Powderell",
+          "evidence": [
+            393809,
+            393822
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4c17d5a80efeea26",
+      "name": "Mr. Clintup",
+      "description": "Nurseryman who bids at auctions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Clintup",
+          "evidence": [
+            1310278,
+            1310289
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e420333b4e03c270",
+      "name": "Mr. Mawmsey",
+      "description": "Local gentleman who comments at auctions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Mawmsey",
+          "evidence": [
+            956669,
+            956680
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a510b4eb84111e97",
+      "name": "Mr. Bowyer",
+      "description": "Local man who bids at auctions and stirs rivalry.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Bowyer",
+          "evidence": [
+            338753,
+            338763
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a4bec2d9a30c877c",
+      "name": "Mr. Ned Plymdale",
+      "description": "Young man of means taking a house in town; prospective tenant.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Ned Plymdale",
+          "evidence": [
+            581417,
+            581433
+          ]
+        },
+        {
+          "text": "Ned Plymdale",
+          "evidence": [
+            581421,
+            581433
+          ]
+        },
+        {
+          "text": "Mr. Plymdale",
+          "evidence": [
+            395965,
+            395977
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6377892c848bc979",
+      "name": "Sir Godwin Lydgate",
+      "description": "Uncle of Tertius Lydgate referenced regarding family matters.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Godwin Lydgate",
+          "evidence": [
+            757768,
+            757786
+          ]
+        },
+        {
+          "text": "Sir Godwin",
+          "evidence": [
+            757768,
+            757778
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-338cd704d8d5029a",
+      "name": "Archie Duncan",
+      "description": "Name mentioned in Raffles’s gossip as having jilted Sarah Dunkirk.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Archie Duncan",
+          "evidence": [
+            1323571,
+            1323584
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8210fb8279c7f0a8",
+      "name": "Sarah Dunkirk",
+      "description": "Named by Raffles as Will Ladislaw’s mother in disclosures.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sarah Dunkirk",
+          "evidence": [
+            1320195,
+            1320208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d1e415668c9e9045",
+      "name": "Mr. Dunkirk",
+      "description": "Earlier employer and patron in Bulstrode’s backstory.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Dunkirk",
+          "evidence": [
+            1334661,
+            1334672
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c70e212e21b03ff9",
+      "name": "Mrs. Dunkirk",
+      "description": "Wife in the Dunkirk household in Bulstrode’s past.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Dunkirk",
+          "evidence": [
+            1338713,
+            1338725
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-99076f253b217e48",
+      "name": "Joseph",
+      "description": "Servant/attendant at auctions called on by the auctioneer.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Joseph",
+          "evidence": [
+            236111,
+            236117
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d6be04cca4c6f2c3",
+      "name": "Blucher",
+      "description": "Dog mentioned as breaking his chain and running on the gravel at The Shrubs.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Blucher",
+          "evidence": [
+            1326011,
+            1326018
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-feafbed4a091fa1e",
+      "name": "Mrs. Kell",
+      "description": "Housekeeper at Lowick Manor who announces visitors.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Kell",
+          "evidence": [
+            1366448,
+            1366457
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-57f08640875d05db",
+      "name": "Mrs. Abel",
+      "description": "Housekeeper at Stone Court who tended Raffles during his illness.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Abel",
+          "evidence": [
+            1515452,
+            1515461
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5633a92255141ea4",
+      "name": "Abel",
+      "description": "Tenant/farmer at Stone Court associated with Mrs. Abel.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Abel",
+          "evidence": [
+            1504634,
+            1504638
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4510b9f40aa98c46",
+      "name": "Mr. Rigg",
+      "description": "Former owner of Stone Court mentioned in connection with Raffles.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rigg",
+          "evidence": [
+            714179,
+            714183
+          ]
+        },
+        {
+          "text": "Mr. Rigg",
+          "evidence": [
+            716317,
+            716325
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ded852242d697cb7",
+      "name": "Mr. Byles",
+      "description": "Local butcher mentioned in gossip.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Byles",
+          "evidence": [
+            1572467,
+            1572476
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a3c757362bed2f5b",
+      "name": "Mrs. Dollop",
+      "description": "Landlady of the Tankard in Slaughter Lane, talkative about scandal.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Dollop",
+          "evidence": [
+            952074,
+            952085
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f8867a21d615c4fd",
+      "name": "Mr. Limp",
+      "description": "Meek shoemaker participating in tavern talk at Dollop’s.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Limp",
+          "evidence": [
+            1567643,
+            1567651
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1a894cf5c1200619",
+      "name": "Mr. Dill",
+      "description": "Barber who joins gossip at the Tankard.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Dill",
+          "evidence": [
+            1568474,
+            1568482
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-533c0b8f44f60ac8",
+      "name": "Mr. Crabbe",
+      "description": "Glazier who gathers and repeats town news.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Crabbe",
+          "evidence": [
+            1571736,
+            1571746
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-189fb827f8565534",
+      "name": "Mr. Baldwin",
+      "description": "Tax-gatherer referenced in gossip at the Tankard.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Baldwin",
+          "evidence": [
+            1571168,
+            1571179
+          ]
+        }
+      ]
+    }
+  ]
+}

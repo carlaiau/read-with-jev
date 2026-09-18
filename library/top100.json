@@ -1,0 +1,608 @@
+{
+  "schema": 1,
+  "source": "https://www.gutenberg.org/browse/scores/top#books-last30",
+  "fetchedAt": "2026-09-18T19:09:42.928Z",
+  "pageSha256": "43d52bab1e335506e5b5f6d987d018266a46987aae357b3e1d6284633425f989",
+  "books": [
+    {
+      "gutenbergId": 2701,
+      "rank": 1,
+      "listing": "Moby Dick; Or, The Whale by Herman Melville",
+      "downloads": 190821
+    },
+    {
+      "gutenbergId": 1342,
+      "rank": 2,
+      "listing": "Pride and Prejudice by Jane Austen",
+      "downloads": 186807
+    },
+    {
+      "gutenbergId": 1727,
+      "rank": 3,
+      "listing": "The Odyssey by Homer",
+      "downloads": 147299
+    },
+    {
+      "gutenbergId": 2641,
+      "rank": 4,
+      "listing": "A Room with a View by E. M.  Forster",
+      "downloads": 144510
+    },
+    {
+      "gutenbergId": 1513,
+      "rank": 5,
+      "listing": "Romeo and Juliet by William Shakespeare",
+      "downloads": 133750
+    },
+    {
+      "gutenbergId": 2554,
+      "rank": 6,
+      "listing": "Crime and Punishment by Fyodor Dostoyevsky",
+      "downloads": 126752
+    },
+    {
+      "gutenbergId": 65238,
+      "rank": 7,
+      "listing": "The Secret of Chimneys by Agatha Christie",
+      "downloads": 119715
+    },
+    {
+      "gutenbergId": 3268,
+      "rank": 8,
+      "listing": "The Mysteries of Udolpho by Ann Ward Radcliffe",
+      "downloads": 118944
+    },
+    {
+      "gutenbergId": 2465,
+      "rank": 9,
+      "listing": "Carmen by Prosper Mérimée",
+      "downloads": 113593
+    },
+    {
+      "gutenbergId": 67979,
+      "rank": 10,
+      "listing": "The Blue Castle: a novel by L. M.  Montgomery",
+      "downloads": 109200
+    },
+    {
+      "gutenbergId": 2868,
+      "rank": 11,
+      "listing": "The Green Mummy by Fergus Hume",
+      "downloads": 107590
+    },
+    {
+      "gutenbergId": 1661,
+      "rank": 12,
+      "listing": "The Adventures of Sherlock Holmes by Arthur Conan Doyle",
+      "downloads": 107046
+    },
+    {
+      "gutenbergId": 34413,
+      "rank": 13,
+      "listing": "The Love Letters of Mary Wollstonecraft to Gilbert Imlay by Mary Wollstonecraft",
+      "downloads": 106492
+    },
+    {
+      "gutenbergId": 1260,
+      "rank": 14,
+      "listing": "Jane Eyre: An Autobiography by Charlotte Brontë",
+      "downloads": 104481
+    },
+    {
+      "gutenbergId": 5197,
+      "rank": 15,
+      "listing": "My Life — Volume 1 by Richard Wagner",
+      "downloads": 97133
+    },
+    {
+      "gutenbergId": 11,
+      "rank": 16,
+      "listing": "Alice's Adventures in Wonderland by Lewis Carroll",
+      "downloads": 95985
+    },
+    {
+      "gutenbergId": 100,
+      "rank": 17,
+      "listing": "The Complete Works of William Shakespeare by William Shakespeare",
+      "downloads": 95784
+    },
+    {
+      "gutenbergId": 59828,
+      "rank": 18,
+      "listing": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance. by Prest and Rymer",
+      "downloads": 94662
+    },
+    {
+      "gutenbergId": 62215,
+      "rank": 19,
+      "listing": "Le Fantôme de l'Opéra by Gaston Leroux",
+      "downloads": 93103
+    },
+    {
+      "gutenbergId": 345,
+      "rank": 20,
+      "listing": "Dracula by Bram Stoker",
+      "downloads": 91563
+    },
+    {
+      "gutenbergId": 3011,
+      "rank": 21,
+      "listing": "The Lady of the Lake by Walter Scott",
+      "downloads": 91120
+    },
+    {
+      "gutenbergId": 1695,
+      "rank": 22,
+      "listing": "The Man Who Was Thursday: A Nightmare by G. K.  Chesterton",
+      "downloads": 90406
+    },
+    {
+      "gutenbergId": 6133,
+      "rank": 23,
+      "listing": "The Extraordinary Adventures of Arsène Lupin, Gentleman-Burglar by Maurice Leblanc",
+      "downloads": 90390
+    },
+    {
+      "gutenbergId": 21839,
+      "rank": 24,
+      "listing": "Sense and Sensibility by Jane Austen",
+      "downloads": 89334
+    },
+    {
+      "gutenbergId": 2680,
+      "rank": 25,
+      "listing": "Meditations by Emperor of Rome Marcus Aurelius",
+      "downloads": 88601
+    },
+    {
+      "gutenbergId": 24739,
+      "rank": 26,
+      "listing": "Bidwell's Travels, from Wall Street to London Prison: Fifteen Years in Solitude by Austin Bidwell",
+      "downloads": 87888
+    },
+    {
+      "gutenbergId": 51252,
+      "rank": 27,
+      "listing": "The Book of the Thousand Nights and a Night — Volume 01 (of 10)",
+      "downloads": 87328
+    },
+    {
+      "gutenbergId": 601,
+      "rank": 28,
+      "listing": "The Monk: A Romance by M. G.  Lewis",
+      "downloads": 86989
+    },
+    {
+      "gutenbergId": 831,
+      "rank": 29,
+      "listing": "Four Arthurian Romances by active 12th century de Troyes Chrétien",
+      "downloads": 86553
+    },
+    {
+      "gutenbergId": 145,
+      "rank": 30,
+      "listing": "Middlemarch by George Eliot",
+      "downloads": 85873
+    },
+    {
+      "gutenbergId": 76639,
+      "rank": 31,
+      "listing": "Eloisa : by Jean-Jacques Rousseau",
+      "downloads": 85237
+    },
+    {
+      "gutenbergId": 72,
+      "rank": 32,
+      "listing": "Thuvia, maid of Mars by Edgar Rice Burroughs",
+      "downloads": 84839
+    },
+    {
+      "gutenbergId": 19476,
+      "rank": 33,
+      "listing": "A Honeymoon in Space by George Chetwynd Griffith",
+      "downloads": 84587
+    },
+    {
+      "gutenbergId": 7326,
+      "rank": 34,
+      "listing": "The Yeoman Adventurer by George W. Gough",
+      "downloads": 84557
+    },
+    {
+      "gutenbergId": 468,
+      "rank": 35,
+      "listing": "Manon Lescaut by abbé Prévost",
+      "downloads": 83539
+    },
+    {
+      "gutenbergId": 75201,
+      "rank": 36,
+      "listing": "A farewell to arms by Ernest Hemingway",
+      "downloads": 83523
+    },
+    {
+      "gutenbergId": 22541,
+      "rank": 37,
+      "listing": "The Misplaced Battleship by Harry Harrison",
+      "downloads": 83208
+    },
+    {
+      "gutenbergId": 43,
+      "rank": 38,
+      "listing": "The strange case of Dr. Jekyll and Mr. Hyde by Robert Louis Stevenson",
+      "downloads": 82305
+    },
+    {
+      "gutenbergId": 42671,
+      "rank": 39,
+      "listing": "Pride and Prejudice by Jane Austen",
+      "downloads": 82032
+    },
+    {
+      "gutenbergId": 71046,
+      "rank": 40,
+      "listing": "Modern English biography, volume 2 (of 4), I-Q by Frederic Boase",
+      "downloads": 81493
+    },
+    {
+      "gutenbergId": 45839,
+      "rank": 41,
+      "listing": "Dracula by Bram Stoker",
+      "downloads": 80901
+    },
+    {
+      "gutenbergId": 8492,
+      "rank": 42,
+      "listing": "The King in Yellow by Robert W.  Chambers",
+      "downloads": 78814
+    },
+    {
+      "gutenbergId": 42,
+      "rank": 43,
+      "listing": "The strange case of Dr. Jekyll and Mr. Hyde by Robert Louis Stevenson",
+      "downloads": 78807
+    },
+    {
+      "gutenbergId": 37106,
+      "rank": 44,
+      "listing": "Little Women; Or, Meg, Jo, Beth, and Amy by Louisa May Alcott",
+      "downloads": 78787
+    },
+    {
+      "gutenbergId": 564,
+      "rank": 45,
+      "listing": "The Mystery of Edwin Drood by Charles Dickens",
+      "downloads": 78200
+    },
+    {
+      "gutenbergId": 1184,
+      "rank": 46,
+      "listing": "The Count of Monte Cristo by Alexandre Dumas and Auguste Maquet",
+      "downloads": 77954
+    },
+    {
+      "gutenbergId": 31100,
+      "rank": 47,
+      "listing": "The Complete Project Gutenberg Works of Jane Austen by Jane Austen",
+      "downloads": 77754
+    },
+    {
+      "gutenbergId": 47530,
+      "rank": 48,
+      "listing": "Oliver Twist, Vol. 2 (of 3) by Charles Dickens",
+      "downloads": 77052
+    },
+    {
+      "gutenbergId": 3296,
+      "rank": 49,
+      "listing": "The Confessions of St. Augustine by Saint of Hippo Augustine",
+      "downloads": 76810
+    },
+    {
+      "gutenbergId": 1259,
+      "rank": 50,
+      "listing": "Twenty years after by Alexandre Dumas and Auguste Maquet",
+      "downloads": 75632
+    },
+    {
+      "gutenbergId": 245,
+      "rank": 51,
+      "listing": "Life on the Mississippi by Mark Twain",
+      "downloads": 73126
+    },
+    {
+      "gutenbergId": 36462,
+      "rank": 52,
+      "listing": "King Arthur and the Knights of the Round Table by Sir Thomas Malory",
+      "downloads": 72997
+    },
+    {
+      "gutenbergId": 40284,
+      "rank": 53,
+      "listing": "The Sex Life of the Gods by M. E.  Knerr",
+      "downloads": 72339
+    },
+    {
+      "gutenbergId": 70854,
+      "rank": 54,
+      "listing": "The Countess of Pembroke's Arcadia by Philip Sidney",
+      "downloads": 71349
+    },
+    {
+      "gutenbergId": 393,
+      "rank": 55,
+      "listing": "The Blue Lagoon: A Romance by H. De Vere  Stacpoole",
+      "downloads": 71116
+    },
+    {
+      "gutenbergId": 53874,
+      "rank": 56,
+      "listing": "Under the Red Dragon: A Novel by James Grant",
+      "downloads": 70802
+    },
+    {
+      "gutenbergId": 24793,
+      "rank": 57,
+      "listing": "Blow The Man Down: A Romance Of The Coast by Holman Day",
+      "downloads": 70460
+    },
+    {
+      "gutenbergId": 589,
+      "rank": 58,
+      "listing": "Catriona by Robert Louis Stevenson",
+      "downloads": 70411
+    },
+    {
+      "gutenbergId": 18143,
+      "rank": 59,
+      "listing": "Roméo et Juliette by William Shakespeare",
+      "downloads": 69252
+    },
+    {
+      "gutenbergId": 76178,
+      "rank": 60,
+      "listing": "I am a woman by Ann Bannon",
+      "downloads": 68812
+    },
+    {
+      "gutenbergId": 161,
+      "rank": 61,
+      "listing": "Sense and Sensibility by Jane Austen",
+      "downloads": 68620
+    },
+    {
+      "gutenbergId": 244,
+      "rank": 62,
+      "listing": "A Study in Scarlet by Arthur Conan Doyle",
+      "downloads": 68484
+    },
+    {
+      "gutenbergId": 1112,
+      "rank": 63,
+      "listing": "Romeo and Juliet by William Shakespeare",
+      "downloads": 67002
+    },
+    {
+      "gutenbergId": 23784,
+      "rank": 64,
+      "listing": "The History of Sir Richard Calmady: A Romance by Lucas Malet",
+      "downloads": 66215
+    },
+    {
+      "gutenbergId": 2852,
+      "rank": 65,
+      "listing": "The Hound of the Baskervilles by Arthur Conan Doyle",
+      "downloads": 65868
+    },
+    {
+      "gutenbergId": 23,
+      "rank": 66,
+      "listing": "Narrative of the Life of Frederick Douglass, an American Slave by Frederick Douglass",
+      "downloads": 65742
+    },
+    {
+      "gutenbergId": 7889,
+      "rank": 67,
+      "listing": "Erotica Romana by Johann Wolfgang von Goethe",
+      "downloads": 65741
+    },
+    {
+      "gutenbergId": 103,
+      "rank": 68,
+      "listing": "Around the World in Eighty Days by Jules Verne",
+      "downloads": 65325
+    },
+    {
+      "gutenbergId": 20203,
+      "rank": 69,
+      "listing": "Autobiography of Benjamin Franklin by Benjamin Franklin",
+      "downloads": 64860
+    },
+    {
+      "gutenbergId": 42389,
+      "rank": 70,
+      "listing": "The Pirate by Walter Scott",
+      "downloads": 64626
+    },
+    {
+      "gutenbergId": 224,
+      "rank": 71,
+      "listing": "A pair of blue eyes by Thomas Hardy",
+      "downloads": 64612
+    },
+    {
+      "gutenbergId": 51428,
+      "rank": 72,
+      "listing": "That Which Hath Wings: A Novel of the Day",
+      "downloads": 64595
+    },
+    {
+      "gutenbergId": 2148,
+      "rank": 73,
+      "listing": "The Works of Edgar Allan Poe — Volume 2 by Edgar Allan Poe",
+      "downloads": 64562
+    },
+    {
+      "gutenbergId": 53416,
+      "rank": 74,
+      "listing": "Only a girl's love by Charles Garvice",
+      "downloads": 64453
+    },
+    {
+      "gutenbergId": 17460,
+      "rank": 75,
+      "listing": "Lorna Doone: A Romance of Exmoor by R. D.  Blackmore",
+      "downloads": 64317
+    },
+    {
+      "gutenbergId": 2620,
+      "rank": 76,
+      "listing": "The Home Book of Verse — Volume 2 by Burton Egbert Stevenson",
+      "downloads": 64195
+    },
+    {
+      "gutenbergId": 1212,
+      "rank": 77,
+      "listing": "Love and Freindship [sic] by Jane Austen",
+      "downloads": 64143
+    },
+    {
+      "gutenbergId": 55179,
+      "rank": 78,
+      "listing": "One of the Six Hundred: A Novel",
+      "downloads": 63875
+    },
+    {
+      "gutenbergId": 4499,
+      "rank": 79,
+      "listing": "Complete Short Works of George Meredith by George Meredith",
+      "downloads": 63854
+    },
+    {
+      "gutenbergId": 48296,
+      "rank": 80,
+      "listing": "Linnet: A Romance by Grant Allen",
+      "downloads": 63830
+    },
+    {
+      "gutenbergId": 38311,
+      "rank": 81,
+      "listing": "What Will People Say? A Novel by Rupert Hughes",
+      "downloads": 63788
+    },
+    {
+      "gutenbergId": 18459,
+      "rank": 82,
+      "listing": "Hypnerotomachia: The Strife of Loue in a Dreame by Francesco Colonna",
+      "downloads": 63608
+    },
+    {
+      "gutenbergId": 2002,
+      "rank": 83,
+      "listing": "Sonnets from the Portuguese by Elizabeth Barrett Browning",
+      "downloads": 63573
+    },
+    {
+      "gutenbergId": 3922,
+      "rank": 84,
+      "listing": "The Red Lily — Complete by Anatole France",
+      "downloads": 63560
+    },
+    {
+      "gutenbergId": 32155,
+      "rank": 85,
+      "listing": "The Love Letters of Henry VIII to Anne Boleyn; With Notes by King of England Henry VIII",
+      "downloads": 63491
+    },
+    {
+      "gutenbergId": 38177,
+      "rank": 86,
+      "listing": "The Passionate Elopement by Compton MacKenzie",
+      "downloads": 63424
+    },
+    {
+      "gutenbergId": 35548,
+      "rank": 87,
+      "listing": "Doctor Cupid: A Novel by Rhoda Broughton",
+      "downloads": 63418
+    },
+    {
+      "gutenbergId": 14244,
+      "rank": 88,
+      "listing": "The Romance of Tristan and Iseult by Joseph Bédier",
+      "downloads": 63333
+    },
+    {
+      "gutenbergId": 28203,
+      "rank": 89,
+      "listing": "Moods by Louisa May Alcott",
+      "downloads": 63306
+    },
+    {
+      "gutenbergId": 35312,
+      "rank": 90,
+      "listing": "Aus dem Leben eines Taugenichts: Novelle by Freiherr von Joseph Eichendorff",
+      "downloads": 63291
+    },
+    {
+      "gutenbergId": 1523,
+      "rank": 91,
+      "listing": "As You Like It by William Shakespeare",
+      "downloads": 63290
+    },
+    {
+      "gutenbergId": 1608,
+      "rank": 92,
+      "listing": "Camille (La Dame aux Camilias) by Alexandre Dumas",
+      "downloads": 63276
+    },
+    {
+      "gutenbergId": 49987,
+      "rank": 93,
+      "listing": "Forest Days: A Romance of Old Times by G. P. R.  James",
+      "downloads": 63214
+    },
+    {
+      "gutenbergId": 2825,
+      "rank": 94,
+      "listing": "Undine by Freiherr de Friedrich Heinrich Karl La Motte-Fouqué",
+      "downloads": 63076
+    },
+    {
+      "gutenbergId": 46276,
+      "rank": 95,
+      "listing": "The Treasure of Pearls: A Romance of Adventures in California by Gustave Aimard",
+      "downloads": 63037
+    },
+    {
+      "gutenbergId": 31472,
+      "rank": 96,
+      "listing": "Cynthia's Chauffeur by Louis Tracy",
+      "downloads": 63020
+    },
+    {
+      "gutenbergId": 53154,
+      "rank": 97,
+      "listing": "Cameron of Lochiel by Philippe Aubert de Gaspé",
+      "downloads": 63009
+    },
+    {
+      "gutenbergId": 42681,
+      "rank": 98,
+      "listing": "The Hero of the People: A Historical Romance of Love, Liberty and Loyalty by Alexandre Dumas",
+      "downloads": 62997
+    },
+    {
+      "gutenbergId": 31635,
+      "rank": 99,
+      "listing": "The Silent Barrier by Louis Tracy",
+      "downloads": 62995
+    },
+    {
+      "gutenbergId": 36725,
+      "rank": 100,
+      "listing": "On the Cross: A Romance of the Passion Play at Oberammergau by Wilhelmine von Hillern",
+      "downloads": 62949
+    }
+  ]
+}

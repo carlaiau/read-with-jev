@@ -14,7 +14,7 @@ The primary audience is researchers evaluating JEV classification. They need to 
 
 Test whether a general-purpose JEV classifier can produce useful, trustworthy character maps for novels. The reader makes character distributions navigable alongside the book text, supporting inspection of the experiment rather than substituting a compelling visualization for evidence of accuracy.
 
-The longer-term concept is a web novel reader that processes Project Gutenberg books and lets readers select characters to highlight their contributions. The current MVP evaluates one annotated novel before expanding to arbitrary books.
+The longer-term concept is a web novel reader that processes Project Gutenberg books and lets readers select characters to highlight their contributions. The MVP evaluates three annotated novels and offers a baseline reader with curated books and imported English Gutenberg editions. Arbitrary-book ingestion remains future work.
 
 ## Positioning
 
@@ -22,10 +22,10 @@ The research mechanism combines stable target passages, overlapping neighboring 
 
 ## Operating Context
 
-- The current test novel is *Pride and Prejudice*. BookCoref and PDNC supply independent annotated editions; their text offsets and character inventories must stay separate.
-- Researchers switch between character mentions and quotation speakers, select one or several characters, inspect matching passages, and navigate with the whole-book minimap or previous/next passage controls.
+- The primary annotated reader is *Pride and Prejudice*. BookCoref and PDNC supply independent annotated editions; their text offsets and character inventories must stay separate.
+- Readers select one or several characters, inspect matching passages, and navigate with the full-height minimap or previous/next passage controls. The map supports arrow keys, Home, End, and Page Up/Down; research layers remain available through the API and benchmark commands.
 - Shared passages retain a separate colored margin line for every selected matching character. Each selected character also has an independent minimap curve, using the same color as their channel.
-- Character data preparation and benchmarks run offline. Character tracks display human annotations. The reader now also compares NRC word underlines with experimental JEV sentence backgrounds. With JEV enabled and configured, nearby sentences trigger paid server-side classification as the reader scrolls; results are cached and reused across emotion switches. Turning JEV off stops new requests. This feature does not extract phrase evidence or attribute emotion to characters.
+- The reader uses deterministic name/alias character matches across the prepared document library. Research datasets retain their independent human annotations. NRC word underlines and experimental JEV sentence backgrounds compare eight emotion associations; JEV classifies nearby sentences on demand through a server-side API and caches results. Disabling JEV stops new requests. These suggestions do not extract evidence phrases, measure intensity, or attribute emotions to characters.
 - This research view reveals the full cast and whole-book activity. It is not spoiler-safe.
 
 ## Capabilities and Constraints
@@ -62,4 +62,4 @@ The current project name is Read with JEV. The user supplied a three-column read
 
 ## Open Decisions
 
-Formal accessibility targets and researcher-specific accessibility needs have not yet been established. Numerical acceptance thresholds for classification quality, hosting arrangements, and the scope of a future general-reader release remain undecided.
+Formal accessibility targets and researcher-specific accessibility needs have not yet been established. Numerical acceptance thresholds for classification quality and the scope of a future general-reader release remain undecided.

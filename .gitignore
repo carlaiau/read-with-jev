@@ -9,4 +9,8 @@ data/runs/
 *.tsbuildinfo
 src/catalyst/demo
 
+data/library/
+data/library-sources/
+.netlify/
+
 __pycache__/

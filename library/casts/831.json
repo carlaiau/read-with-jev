@@ -1,0 +1,2148 @@
+{
+  "schema": 1,
+  "gutenbergId": 831,
+  "sourceSha256": "53f968fb28496c8def6642da6e7c8d40249faac4a5ddabebe3bfb99a1e6b52dd",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-2d957993ebbb4c9b",
+      "name": "Erec",
+      "description": "Young knight of the Round Table; son of King Lac and central hero who wins a bride and performs many adventures.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Erec",
+          "evidence": [
+            1327,
+            1331
+          ]
+        },
+        {
+          "text": "Erec the son of Lac",
+          "evidence": [
+            89027,
+            89046
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c490b2b0a5cd7835",
+      "name": "Enide",
+      "description": "Daughter of a poor vavasor who becomes Erec's wife; celebrated for her beauty and virtue (formerly the vavasor's maiden who serves Erec).",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Enide",
+          "evidence": [
+            1336,
+            1341
+          ]
+        },
+        {
+          "text": "the maiden",
+          "evidence": [
+            38571,
+            38581
+          ]
+        },
+        {
+          "text": "the damsel",
+          "evidence": [
+            36724,
+            36734
+          ]
+        },
+        {
+          "text": "the maid",
+          "evidence": [
+            38571,
+            38579
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-90583ad20ec287e8",
+      "name": "King Arthur",
+      "description": "King of Britain and lord of the Round Table who holds court, presides over tournaments and hunts.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "King Arthur",
+          "evidence": [
+            33420,
+            33431
+          ]
+        },
+        {
+          "text": "the King",
+          "evidence": [
+            25488,
+            25496
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-53c965345a853e1c",
+      "name": "Queen Guinevere",
+      "description": "Queen consort of King Arthur; hostess at court who intervenes in Erec's adventure.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Queen Guinevere",
+          "evidence": [
+            36642,
+            36657
+          ]
+        },
+        {
+          "text": "the Queen",
+          "evidence": [
+            35020,
+            35029
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1964cdbd240b06f7",
+      "name": "Gawain",
+      "description": "One of Arthur's foremost knights; speaks and acts throughout the court episodes (Arthur's nephew).",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Gawain",
+          "evidence": [
+            3222,
+            3228
+          ]
+        },
+        {
+          "text": "my lord Gawain",
+          "evidence": [
+            42257,
+            42271
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1c3eb7424efbe3dd",
+      "name": "Kay",
+      "description": "Arthur's seneschal; brusque, tactless knight who speaks his mind in court.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Kay",
+          "evidence": [
+            42885,
+            42888
+          ]
+        },
+        {
+          "text": "Kay the seneschal",
+          "evidence": [
+            68782,
+            68799
+          ]
+        },
+        {
+          "text": "Kay the Seneschal",
+          "evidence": [
+            279258,
+            279275
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5b411c65428ab3d7",
+      "name": "the dwarf",
+      "description": "Small malicious attendant encountered in the forest who strikes a damsel and wounds Erec.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "the dwarf",
+          "evidence": [
+            38190,
+            38199
+          ]
+        },
+        {
+          "text": "the spiteful dwarf",
+          "evidence": [
+            37687,
+            37705
+          ]
+        },
+        {
+          "text": "dwarf",
+          "evidence": [
+            37310,
+            37315
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0ad6be5e3e64d09a",
+      "name": "the vavasor (the host)",
+      "description": "A low-ranking but honourable landholder who lodges Erec; his daughter becomes Erec's bride.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "the vavasor",
+          "evidence": [
+            45080,
+            45091
+          ]
+        },
+        {
+          "text": "vavasor",
+          "evidence": [
+            44795,
+            44802
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e54829ba2e2015d5",
+      "name": "Count (unnamed; host's kinsman)",
+      "description": "A neighbouring count who befriends Erec, offers hospitality, and escorts him and Enide to Arthur's court.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "the Count",
+          "evidence": [
+            5734,
+            5743
+          ]
+        },
+        {
+          "text": "Count",
+          "evidence": [
+            5738,
+            5743
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9b64827e7882d1e8",
+      "name": "King Lac",
+      "description": "King of Farther Wales; father of Erec who receives his son back and secures rewards for his host.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "King Lac",
+          "evidence": [
+            53933,
+            53941
+          ]
+        },
+        {
+          "text": "Lac",
+          "evidence": [
+            33117,
+            33120
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ace24ef3ac3d4336",
+      "name": "Yder",
+      "description": "A knight involved in the tournament incident connected to Erec's adventure (appears bringing news/prisoner).",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Yder",
+          "evidence": [
+            42773,
+            42777
+          ]
+        },
+        {
+          "text": "King Yder",
+          "evidence": [
+            42768,
+            42777
+          ]
+        },
+        {
+          "text": "Yder of the Dolorous Mount",
+          "evidence": [
+            89968,
+            89994
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fe8b599b2ba3c36b",
+      "name": "Count of Roadan / Montrevel",
+      "description": "Towns and holdings promised by Erec to his host (named in narrative as grants).",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Roadan",
+          "evidence": [
+            77067,
+            77073
+          ]
+        },
+        {
+          "text": "Montrevel",
+          "evidence": [
+            77190,
+            77199
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b466edd330c40ef0",
+      "name": "Count of Limors / Count Oringle",
+      "description": "Count who finds a supposedly dead knight and the lady with him and attempts to marry her; later killed by Erec.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Count Oringle",
+          "evidence": [
+            199983,
+            199996
+          ]
+        },
+        {
+          "text": "Oringle",
+          "evidence": [
+            199989,
+            199996
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e4c9833e66c5199a",
+      "name": "Guivret the Little",
+      "description": "A nearby lord who aids Erec and later hosts and nurses him back to health.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Guivret the Little",
+          "evidence": [
+            163539,
+            163557
+          ]
+        },
+        {
+          "text": "Guivret",
+          "evidence": [
+            163539,
+            163546
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b9491fd9781b3383",
+      "name": "Loholt",
+      "description": "Named among Arthur's household knights (listed in the court roster).",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Loholt",
+          "evidence": [
+            90213,
+            90219
+          ]
+        },
+        {
+          "text": "Loholt the son of King Arthur",
+          "evidence": [
+            90213,
+            90242
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2503850ad77c9589",
+      "name": "Sagremor the Impetuous",
+      "description": "One of the knights of the Round Table mentioned among the courtly company.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Sagremor the Impetuous",
+          "evidence": [
+            90254,
+            90276
+          ]
+        },
+        {
+          "text": "Sagremor",
+          "evidence": [
+            90254,
+            90262
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1c478c92de62095a",
+      "name": "Lancelot of the Lake",
+      "description": "Knight of the Round Table listed among Arthur's foremost knights.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Lancelot of the Lake",
+          "evidence": [
+            2855,
+            2875
+          ]
+        },
+        {
+          "text": "Lancelot",
+          "evidence": [
+            1760,
+            1768
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f5c91e6ca9e2f0f3",
+      "name": "Gornemant of Gohort",
+      "description": "Knight of the Round Table listed in the court roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Gornemant of Gohort",
+          "evidence": [
+            89087,
+            89106
+          ]
+        },
+        {
+          "text": "Gornemant",
+          "evidence": [
+            89087,
+            89096
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47378600b224041c",
+      "name": "the Ugly Brave",
+      "description": "Courtly epithet/name listed among Arthur's knights.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "the Ugly Brave",
+          "evidence": [
+            89173,
+            89187
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ce959d6628447cf8",
+      "name": "Meliant of Liz",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Meliant",
+          "evidence": [
+            89201,
+            89208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aba7aca16c0d484c",
+      "name": "Mauduit the Wise",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Mauduit the Wise",
+          "evidence": [
+            89229,
+            89245
+          ]
+        },
+        {
+          "text": "Mauduit",
+          "evidence": [
+            89229,
+            89236
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8966b4e074004fff",
+      "name": "Dodinel the Wild",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Dodinel the Wild",
+          "evidence": [
+            89261,
+            89277
+          ]
+        },
+        {
+          "text": "Dodinel",
+          "evidence": [
+            89261,
+            89268
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-29464209dde29b6f",
+      "name": "Gandelu",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Gandelu",
+          "evidence": [
+            89284,
+            89291
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fc4de39dce311146",
+      "name": "Eslit",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Eslit",
+          "evidence": [
+            89411,
+            89416
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6a74a11066f860c2",
+      "name": "Briien",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Briien",
+          "evidence": [
+            89433,
+            89439
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-32442be0adf6828a",
+      "name": "Yvain the son of Uriien",
+      "description": "Knight named in the Round Table roster (distinct identifier in list).",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Yvain the son of Uriien",
+          "evidence": [
+            89445,
+            89468
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bb347428acc416bb",
+      "name": "Yvain of Loenel",
+      "description": "Knight named in the Round Table roster (distinct Yvain variant).",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Yvain of Loenel",
+          "evidence": [
+            89474,
+            89489
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7c96985cf7ce123c",
+      "name": "Yvain the Adulterer",
+      "description": "Knight named in the Round Table roster (listed by epithet).",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Yvain the Adulterer",
+          "evidence": [
+            89513,
+            89532
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-60cff219eb3fb770",
+      "name": "Yvain of Cavaliot",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Yvain of Cavaliot",
+          "evidence": [
+            89541,
+            89558
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-481158e2474390b5",
+      "name": "the Knight with the Horn",
+      "description": "Courtly epithet listed among the knights in the roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "the Knight with the Horn",
+          "evidence": [
+            89594,
+            89618
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6cbadb499ac5d85b",
+      "name": "Tristan",
+      "description": "Legendary knight referenced in the narrative and the court list.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Tristan",
+          "evidence": [
+            11422,
+            11429
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4bf3ab4b209b24cb",
+      "name": "Bliobleheris",
+      "description": "Named companion in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Bliobleheris",
+          "evidence": [
+            89697,
+            89709
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e62df872292b4772",
+      "name": "Brun of Piciez",
+      "description": "Knight named in the Round Table roster; his brother Gru the Sullen also listed.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Brun of Piciez",
+          "evidence": [
+            89723,
+            89737
+          ]
+        },
+        {
+          "text": "Brun",
+          "evidence": [
+            89723,
+            89727
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1b65fbe546add762",
+      "name": "Gru the Sullen",
+      "description": "Brother of Brun of Piciez, named in the roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Gru the Sullen",
+          "evidence": [
+            89754,
+            89768
+          ]
+        },
+        {
+          "text": "Gru",
+          "evidence": [
+            89754,
+            89757
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1a8bff202bf33ade",
+      "name": "The Armourer",
+      "description": "Named by office among Arthur's company in the roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "The Armourer",
+          "evidence": [
+            89770,
+            89782
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-36789d433db88a1f",
+      "name": "Karadues the Shortarmed",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Karadues the Shortarmed",
+          "evidence": [
+            89831,
+            89854
+          ]
+        },
+        {
+          "text": "Karadues",
+          "evidence": [
+            89831,
+            89839
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d2eb10b059761a3",
+      "name": "Caveron of Robendic",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Caveron of Robendic",
+          "evidence": [
+            89885,
+            89904
+          ]
+        },
+        {
+          "text": "Caveron",
+          "evidence": [
+            89885,
+            89892
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ac87bc60c8e74086",
+      "name": "the Youth of Quintareus",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "the Youth of Quintareus",
+          "evidence": [
+            89940,
+            89963
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-db0ad99e5408510d",
+      "name": "Gaheriet",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Gaheriet",
+          "evidence": [
+            89997,
+            90005
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e95bfa7d529d87de",
+      "name": "Amauguin",
+      "description": "Knight named in the Round Table roster and mentioned earlier among the King's council.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Amauguin",
+          "evidence": [
+            42921,
+            42929
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-426d3b18e86ab7c8",
+      "name": "Gales the Bald",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Gales the Bald",
+          "evidence": [
+            90039,
+            90053
+          ]
+        },
+        {
+          "text": "Gales",
+          "evidence": [
+            3249,
+            3254
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1ef31c31fde80326",
+      "name": "Tor the son of King Aras",
+      "description": "Knight named in the Round Table roster and earlier as part of Arthur's company.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Tor the son of King Aras",
+          "evidence": [
+            90091,
+            90115
+          ]
+        },
+        {
+          "text": "Tor",
+          "evidence": [
+            83515,
+            83518
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9c6644a86fa856df",
+      "name": "Girflet the son of Do",
+      "description": "Knight named in the Round Table roster and earlier in the narrative.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Girflet",
+          "evidence": [
+            42893,
+            42900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ac3baa7fa0a24267",
+      "name": "Taulas",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Taulas",
+          "evidence": [
+            90145,
+            90151
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ada43208d20f0f16",
+      "name": "Bedoiier the Master of the Horse",
+      "description": "Named officer/knight in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Bedoiier the Master of the Horse",
+          "evidence": [
+            90312,
+            90344
+          ]
+        },
+        {
+          "text": "Bedoiier",
+          "evidence": [
+            90312,
+            90320
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d95291fa5cc0a76",
+      "name": "Count Lot",
+      "description": "Named noble present in the roster of knights.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "King Lot",
+          "evidence": [
+            90403,
+            90411
+          ]
+        },
+        {
+          "text": "Lot",
+          "evidence": [
+            90408,
+            90411
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-063b800d9f7cc824",
+      "name": "Galegantin of Wales",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Galegantin of Wales",
+          "evidence": [
+            90418,
+            90437
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c888b7884c40cb6d",
+      "name": "Gronosis",
+      "description": "Knight named in the roster; identified as son of Kay the Seneschal.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Gronosis",
+          "evidence": [
+            90443,
+            90451
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b537804c68cd3e81",
+      "name": "Labigodes the Courteous",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Labigodes the Courteous",
+          "evidence": [
+            90508,
+            90531
+          ]
+        },
+        {
+          "text": "Labigodes",
+          "evidence": [
+            90508,
+            90517
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-865ee41f9fed6694",
+      "name": "Count Cadorcaniois",
+      "description": "Count named among the courtly company.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Count Cadorcaniois",
+          "evidence": [
+            90537,
+            90555
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dde21fd71463ba77",
+      "name": "Letron of Prepelesant",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Letron of Prepelesant",
+          "evidence": [
+            90562,
+            90583
+          ]
+        },
+        {
+          "text": "Letron",
+          "evidence": [
+            90562,
+            90568
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1860607c914d0496",
+      "name": "Breon the son of Canodan",
+      "description": "Knight named in the Round Table roster.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "Breon",
+          "evidence": [
+            90622,
+            90627
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-307077e1a74db775",
+      "name": "Count of Honolan",
+      "description": "Count mentioned in the roster with a notable lock of hair; present at court.",
+      "scope": "Erec et Enide",
+      "aliases": [
+        {
+          "text": "the Count of Honolan",
+          "evidence": [
+            90653,
+            90673
+          ]
+        },
+        {
+          "text": "Count of Honolan",
+          "evidence": [
+            90657,
+            90673
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-92a09731b6d0e35e",
+      "name": "Alexander",
+      "description": "Prince of Greece who travels to King Arthur's court seeking knighthood; later central in the romance 'Cligés'.",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "Alexander",
+          "evidence": [
+            108689,
+            108698
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fb6722798468e211",
+      "name": "the Emperor",
+      "description": "Ruler of Greece/Constantinople and father of Alexander and Alis; grants Alexander treasure for his voyage.",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "the emperor",
+          "evidence": [
+            286366,
+            286377
+          ]
+        },
+        {
+          "text": "the Emperor",
+          "evidence": [
+            258048,
+            258059
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0a2c5dcabf9c9193",
+      "name": "Tantalis",
+      "description": "Named as Alexander's mother in the introductory genealogy.",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "Tantalis",
+          "evidence": [
+            286708,
+            286716
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d6b34474c5db75d5",
+      "name": "Alis",
+      "description": "Younger brother of Alexander who later becomes emperor under disputed circumstances.",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "Alis",
+          "evidence": [
+            286635,
+            286639
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3a3c1ee028ff5f13",
+      "name": "Soredamors",
+      "description": "A lady who travels with the Queen; initially disdainful of love but later falls for Alexander.",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "Soredamors",
+          "evidence": [
+            299580,
+            299590
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ce2e14d7dd5a977b",
+      "name": "Cligés",
+      "description": "Son born to Alexander and Soredamors; central figure of the tale 'Cligés' and later emperor in the narrative.",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "Cligés",
+          "evidence": [
+            2018,
+            2024
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a2285622e0ab49e5",
+      "name": "Fenice",
+      "description": "German princess promised to the Duke of Saxony; later becomes object of Alexander's and Cligés' story (Fenice of Cologne).",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "Fenice",
+          "evidence": [
+            16404,
+            16410
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-42923baeeb849862",
+      "name": "Guivret the Little",
+      "description": "A lord who befriends Erec in 'Erec et Enide' and in 'Cligés' aids Alexander/Cligés (appears in both narratives but here in Cligés scope).",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "Guivret the Little",
+          "evidence": [
+            163539,
+            163557
+          ]
+        },
+        {
+          "text": "Guivret",
+          "evidence": [
+            163539,
+            163546
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7ecfac463650688f",
+      "name": "King Evrain",
+      "description": "King who owns Brandigant, entertains Alexander, and plays host in the 'Joy of the Court' episode.",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "King Evrain",
+          "evidence": [
+            215588,
+            215599
+          ]
+        },
+        {
+          "text": "Evrain",
+          "evidence": [
+            215593,
+            215599
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9a355d863a3e67db",
+      "name": "John (the artisan)",
+      "description": "Skilled craftsman/serf who builds a hidden tower and secret sepulchre used in Fenice and Cligés' ruse.",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "John",
+          "evidence": [
+            282376,
+            282380
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a1459fa4bca98d1d",
+      "name": "Thessala",
+      "description": "Fenice's nurse and an experienced practitioner of potions and charms who aids the ruse that leads to Fenice being presumed dead.",
+      "scope": "Cligés",
+      "aliases": [
+        {
+          "text": "Thessala",
+          "evidence": [
+            387829,
+            387837
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-923f5d68f361d76a",
+      "name": "Count Alier",
+      "description": "Count who attacks the town and is later confronted by Yvain in battle.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "Count Alier",
+          "evidence": [
+            633630,
+            633641
+          ]
+        },
+        {
+          "text": "Alier",
+          "evidence": [
+            633636,
+            633641
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0410fb2a9cd18972",
+      "name": "Yvain",
+      "description": "Knight of the Round Table, protagonist of 'Yvain, or The Knight with the Lion', who undertakes the adventure of the stormy spring and later befriends a lion.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "Yvain",
+          "evidence": [
+            1555,
+            1560
+          ]
+        },
+        {
+          "text": "my lord Yvain",
+          "evidence": [
+            533497,
+            533510
+          ]
+        },
+        {
+          "text": "The Knight with the Lion",
+          "evidence": [
+            1525,
+            1549
+          ]
+        },
+        {
+          "text": "'The Knight with the Lion'",
+          "evidence": [
+            680004,
+            680030
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f3204cbac484ed8f",
+      "name": "Calogrenant",
+      "description": "Knight who recounts the tale of the marvelous spring and the tempest that follows when its stone is sprinkled.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "Calogrenant",
+          "evidence": [
+            533526,
+            533537
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4eda837ff93ac1a6",
+      "name": "Lunete",
+      "description": "Damsel and lady's attendant who advises and mediates; acts as intermediary for Yvain and the lady Laudine.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "Lunete",
+          "evidence": [
+            615127,
+            615133
+          ]
+        },
+        {
+          "text": "Lunete alone",
+          "evidence": [
+            692278,
+            692290
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9cf3097853e4fa77",
+      "name": "Laudine de Landuc",
+      "description": "Lady of the lordship surrounding the stormy spring; marries Yvain after he defeats the knight who held the spring.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "Laudine de Landuc",
+          "evidence": [
+            606252,
+            606269
+          ]
+        },
+        {
+          "text": "the lady",
+          "evidence": [
+            95123,
+            95131
+          ]
+        },
+        {
+          "text": "my lady",
+          "evidence": [
+            66267,
+            66274
+          ]
+        },
+        {
+          "text": "the Lady",
+          "evidence": [
+            613379,
+            613387
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0926d9136a37b65e",
+      "name": "the giant boor",
+      "description": "Huge ugly man who tends wild bulls in the clearing beside the marvelous spring (encounters Calogrenant and Yvain).",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "the rustic boor",
+          "evidence": [
+            559092,
+            559107
+          ]
+        },
+        {
+          "text": "the giant boor",
+          "evidence": [
+            556054,
+            556068
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8d7ebf13ddac89b1",
+      "name": "the lion",
+      "description": "Lion rescued by Yvain from a serpent; becomes Yvain's loyal companion and aids him in battle and sorrow.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "the lion",
+          "evidence": [
+            417072,
+            417080
+          ]
+        },
+        {
+          "text": "a lion",
+          "evidence": [
+            406186,
+            406192
+          ]
+        },
+        {
+          "text": "his lion",
+          "evidence": [
+            681540,
+            681548
+          ]
+        },
+        {
+          "text": "the lion was",
+          "evidence": [
+            648916,
+            648928
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e9996b7aca467691",
+      "name": "the serpent",
+      "description": "Venomous creature that grips the lion's tail and breathes fire; slain by Yvain.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "the serpent",
+          "evidence": [
+            647825,
+            647836
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d8e10337d9825f1",
+      "name": "the lord of the place",
+      "description": "Wealthy host whose fortified place is threatened by a giant and whose daughter and sons are endangered.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "the lord of the place",
+          "evidence": [
+            664218,
+            664239
+          ]
+        },
+        {
+          "text": "the lord",
+          "evidence": [
+            214746,
+            214754
+          ]
+        },
+        {
+          "text": "the wealthy man",
+          "evidence": [
+            667016,
+            667031
+          ]
+        },
+        {
+          "text": "the gentleman",
+          "evidence": [
+            57013,
+            57026
+          ]
+        },
+        {
+          "text": "the good man",
+          "evidence": [
+            630989,
+            631001
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c32690edefd64488",
+      "name": "the daughter (of the lord)",
+      "description": "The lord's daughter, demanded by the giant and delivered by Yvain.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "the daughter",
+          "evidence": [
+            5776,
+            5788
+          ]
+        },
+        {
+          "text": "his daughter",
+          "evidence": [
+            53530,
+            53542
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5abb6706f35398b8",
+      "name": "the lord's sons",
+      "description": "Sons of the lord who are captured or threatened by the giant (six taken, four survive).",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "six sons",
+          "evidence": [
+            665294,
+            665302
+          ]
+        },
+        {
+          "text": "four sons",
+          "evidence": [
+            674467,
+            674476
+          ]
+        },
+        {
+          "text": "the four brothers",
+          "evidence": [
+            678948,
+            678965
+          ]
+        },
+        {
+          "text": "his four sons",
+          "evidence": [
+            674463,
+            674476
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eed0e5c488c25b65",
+      "name": "Harpin of the Mountain",
+      "description": "The giant who extorts tribute and claims the lord's daughter in the Yvain episode.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "Harpin of the Mountain",
+          "evidence": [
+            665034,
+            665056
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-32e02978f32bac91",
+      "name": "the seneschal (accuser)",
+      "description": "A rascally, jealous seneschal who stirs enmity and falsely accuses a damsel.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "the seneschal",
+          "evidence": [
+            68786,
+            68799
+          ]
+        },
+        {
+          "text": "a rascally, underhanded, disloyal wretch",
+          "evidence": [
+            658555,
+            658595
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ec17a436bd32c974",
+      "name": "the captive maidens (weavers)",
+      "description": "Group of maidens held in shameful captivity, forced to weave in the lord's yard.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "the damsels",
+          "evidence": [
+            61942,
+            61953
+          ]
+        },
+        {
+          "text": "the maidens",
+          "evidence": [
+            219093,
+            219104
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-84a867990e244e8a",
+      "name": "Gawain",
+      "description": "Arthurian knight; nephew of King Arthur, praised and sought in Yvain's narrative (appears as supporter and relation).",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "my lord Gawain",
+          "evidence": [
+            42257,
+            42271
+          ]
+        },
+        {
+          "text": "Gawain",
+          "evidence": [
+            3222,
+            3228
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-044c9a319916a22e",
+      "name": "King Arthur",
+      "description": "King presiding over the court frequented by the knights in these romances.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "King Arthur",
+          "evidence": [
+            33420,
+            33431
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d9fba9021a916e5",
+      "name": "the Queen (Arthur's wife)",
+      "description": "The Queen of Arthur's court whose abduction and return are referenced in the narratives.",
+      "scope": "Yvain",
+      "aliases": [
+        {
+          "text": "the Queen",
+          "evidence": [
+            35020,
+            35029
+          ]
+        },
+        {
+          "text": "the Queen Guinevere",
+          "evidence": [
+            885188,
+            885207
+          ]
+        },
+        {
+          "text": "my lady",
+          "evidence": [
+            66267,
+            66274
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-17b09a920efe293d",
+      "name": "Kay",
+      "description": "Arthur's seneschal who escorts the Queen and figures in the Lancelot abduction episode.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Kay",
+          "evidence": [
+            42885,
+            42888
+          ]
+        },
+        {
+          "text": "the seneschal",
+          "evidence": [
+            68786,
+            68799
+          ]
+        },
+        {
+          "text": "Kay the seneschal",
+          "evidence": [
+            68782,
+            68799
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b88178d37233f408",
+      "name": "Lancelot",
+      "description": "Knight of the Round Table, central hero of the Lancelot romance; identified as the 'Knight of the Cart' and 'Lancelot of the Lake'.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Lancelot",
+          "evidence": [
+            1760,
+            1768
+          ]
+        },
+        {
+          "text": "Lancelot of the Lake",
+          "evidence": [
+            2855,
+            2875
+          ]
+        },
+        {
+          "text": "the Knight of the Cart",
+          "evidence": [
+            777721,
+            777743
+          ]
+        },
+        {
+          "text": "the vermilion knight",
+          "evidence": [
+            969696,
+            969716
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-696b76223337f18d",
+      "name": "the Queen (Arthur's wife)",
+      "description": "Queen at Arthur's court; object of abduction and of Lancelot's devotion.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "the Queen",
+          "evidence": [
+            35020,
+            35029
+          ]
+        },
+        {
+          "text": "the Queen Guinevere",
+          "evidence": [
+            885188,
+            885207
+          ]
+        },
+        {
+          "text": "my lady",
+          "evidence": [
+            66267,
+            66274
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d7f8c28b643968f9",
+      "name": "Meleagant",
+      "description": "Son of the King of Gorre; antagonist who abducts the Queen and imprisons or battles knights.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Meleagant",
+          "evidence": [
+            798876,
+            798885
+          ]
+        },
+        {
+          "text": "Maleagant",
+          "evidence": [
+            695901,
+            695910
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2849930cae5965b3",
+      "name": "King Bademagu",
+      "description": "King (of Gorre in the romance) in whose land captives are held and who appears at the sword-bridge.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "King Bademagu",
+          "evidence": [
+            883025,
+            883038
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-781f1778994574c7",
+      "name": "the dwarf (betrayer)",
+      "description": "A dwarf who deceives or lures knights (notably implicated in Lancelot's capture).",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "a dwarf",
+          "evidence": [
+            37308,
+            37315
+          ]
+        },
+        {
+          "text": "the dwarf",
+          "evidence": [
+            38190,
+            38199
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dc785321ab8d60c7",
+      "name": "Meleagant's seneschal",
+      "description": "The unnamed seneschal in Meleagant's service who keeps Lancelot prisoner.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "the seneschal",
+          "evidence": [
+            68786,
+            68799
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9964866cef0b0454",
+      "name": "the seneschal's wife",
+      "description": "Wife of Meleagant's seneschal who befriends Lancelot, provides him with arms, and speaks on his behalf.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "his wife",
+          "evidence": [
+            23005,
+            23013
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3e1247c933c1053a",
+      "name": "the monk / hermit",
+      "description": "An old monk/hermit who shows Lancelot the great tomb and the inscription about delivering the captives.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "the monk",
+          "evidence": [
+            840795,
+            840803
+          ]
+        },
+        {
+          "text": "the hermit",
+          "evidence": [
+            630087,
+            630097
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5cc615742ecbebd1",
+      "name": "the damsel (who demanded the head)",
+      "description": "A damsel who asks Lancelot to cut off the head of a vanquished knight and who later rewards him.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "the damsel",
+          "evidence": [
+            36724,
+            36734
+          ]
+        },
+        {
+          "text": "a damsel",
+          "evidence": [
+            35056,
+            35064
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-da6f13e5dca5f74b",
+      "name": "the gentleman / host (who aids Lancelot)",
+      "description": "A host who shelters Lancelot and whose household (sons and daughters) assist him.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "the gentleman",
+          "evidence": [
+            57013,
+            57026
+          ]
+        },
+        {
+          "text": "the host",
+          "evidence": [
+            45415,
+            45423
+          ]
+        },
+        {
+          "text": "the master of the house",
+          "evidence": [
+            48922,
+            48945
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1960492d9a809f5",
+      "name": "the host's daughters (two)",
+      "description": "Daughters of the gentleman/host who minister to Lancelot and help dress him.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "the daughters",
+          "evidence": [
+            862344,
+            862357
+          ]
+        },
+        {
+          "text": "the maidens",
+          "evidence": [
+            219093,
+            219104
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-79e629a27b30b2a5",
+      "name": "the vavasor's sons",
+      "description": "Younger knights (sons of a local vavasor) who join Lancelot in battle against the countrymen.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "the vavasor's sons",
+          "evidence": [
+            858513,
+            858531
+          ]
+        },
+        {
+          "text": "his sons",
+          "evidence": [
+            862815,
+            862823
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-72c9083b36ab53c9",
+      "name": "Lancelot's captors (local countrymen)",
+      "description": "Natives of the land who seize Lancelot when he is unarmed and lead him to Meleagant's power.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "the natives of the country",
+          "evidence": [
+            915670,
+            915696
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7956f23fac8e87ef",
+      "name": "Governauz of Roberdic",
+      "description": "Named knight who appears among tournament combatants.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Governauz of Roberdic",
+          "evidence": [
+            971901,
+            971922
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a596a06f9d197130",
+      "name": "Ignaures",
+      "description": "Named tournament knight described as 'the well-beloved'.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Ignaures",
+          "evidence": [
+            972305,
+            972313
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4e112ce753868fe0",
+      "name": "Coguillanz of Mautirec",
+      "description": "Named tournament knight (identified by shield description).",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Coguillanz of Mautirec",
+          "evidence": [
+            972435,
+            972457
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c926459e0f6e6fee",
+      "name": "Semiramis",
+      "description": "Named combatant mentioned among tournament participants.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Semiramis",
+          "evidence": [
+            972576,
+            972585
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-097eab91e0b1e49a",
+      "name": "Taulas of the Desert",
+      "description": "Named knight brought up in the catalogue of tournament arms (Lancelot scope).",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Taulas of the Desert",
+          "evidence": [
+            973180,
+            973200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06b3a5f118b1c24f",
+      "name": "Pilades",
+      "description": "Named herald/knight mentioned in passing among arms and men present.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Pilades",
+          "evidence": [
+            972893,
+            972900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-76696bb89e58e17f",
+      "name": "Kay of Estraus",
+      "description": "Named bearer of particular arms mentioned among tournament company (distinct from Arthur's seneschal Kay).",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Kay of Estraus",
+          "evidence": [
+            90010,
+            90024
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6bd2839c672fb686",
+      "name": "Thoas",
+      "description": "Named knight briefly listed among tournament participants.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "Thoas",
+          "evidence": [
+            973490,
+            973495
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba8262cd0d369759",
+      "name": "King Ider",
+      "description": "Named king mentioned in the tournament roll-call.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "King Ider",
+          "evidence": [
+            972778,
+            972787
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9b8dc9f57265cf9e",
+      "name": "the sycamore / spring",
+      "description": "Not a person but a recurring narrated feature: the sycamore and spring beside the field where combats occur.",
+      "scope": "Lancelot",
+      "aliases": [
+        {
+          "text": "a sycamore",
+          "evidence": [
+            231832,
+            231842
+          ]
+        },
+        {
+          "text": "the spring",
+          "evidence": [
+            102150,
+            102160
+          ]
+        }
+      ]
+    }
+  ]
+}

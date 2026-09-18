@@ -1,0 +1,80 @@
+{
+  "chunks": [
+    {
+      "start": 916,
+      "end": 650914,
+      "key": "16da04e46d14ef4b70695b526233e6bc05da25ac91a6a39827d71e3d3af165ca",
+      "usage": {
+        "input_tokens": 180052,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5704,
+        "output_tokens_details": {
+          "reasoning_tokens": 3712
+        },
+        "total_tokens": 185756
+      }
+    },
+    {
+      "start": 650914,
+      "end": 1044305,
+      "key": "4544ebaf074d58f3f64679d995ff05ecc2e2d6b58bf855521768488973398852",
+      "usage": {
+        "input_tokens": 109518,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5520,
+        "output_tokens_details": {
+          "reasoning_tokens": 3776
+        },
+        "total_tokens": 115038
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "597114acfc97916f912f758527b38e904355b5b7f899d225a28b930c91721fb8",
+    "usage": {
+      "input_tokens": 4789,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 7823,
+      "output_tokens_details": {
+        "reasoning_tokens": 3456
+      },
+      "total_tokens": 12612
+    }
+  },
+  "rejected": [
+    {
+      "name": "Eliza Reed",
+      "alias": "Eliza Reed",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Brocklehurst (Rev. Robert Brocklehurst)",
+      "alias": "Rev. Robert Brocklehurst",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Brocklehurst (Rev. Robert Brocklehurst)",
+      "alias": "Robert Brocklehurst",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Richard Mason (Mr. Mason)",
+      "alias": "Richard Mason",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Adèle Varens",
+      "alias": "Adèle Varens",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

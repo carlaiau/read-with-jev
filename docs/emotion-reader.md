@@ -7,7 +7,7 @@ without relying on colour alone. Filled circles are enabled; hollow circles are 
 keyboard focus reveals each name. Shared NRC words have segmented coloured underlines; shared
 JEV sentences have bands for every enabled suggested emotion. Opacity is fixed: these scores
 represent association confidence, not emotional intensity. Hiding every emotion hides both layers;
-the independent JEV switch controls inference. Existing character tracks remain human annotations.
+the independent JEV switch controls inference. The library character tracks remain name/alias baselines; the separate research editions retain human annotations.
 
 NRC marks dictionary-associated words. JEV marks whole sentences at the fixed experimental .75
 threshold, using the direct passage-v1 question and jev-1.13.0. These are emotion-association
@@ -32,7 +32,7 @@ question and context. Identical concurrent server requests share a promise. Fail
 negative predictions; a visible Retry analysis action retries only nearby failures. There are no
 automatic retries or whole-book model prefetches.
 
-The metadata GET reads local book/lexicon data and creates deterministic sentence plans. The
+Large metadata responses use revision-pinned JSON parts, and browser metadata omits server-only adjacent context and duplicate plan text. The metadata GET supports the selected catalog document via `layer=document:<id>` (and the independent `mentions`/`speaking` research editions). It reads local book/lexicon data and creates deterministic sentence plans. The
 POST accepts only a known edition, its source fingerprint and a sentence ID; text is reconstructed
 on the server. Invalid editions, stale versions, unknown sentences, malformed/oversized bodies and
 cross-origin browser requests are rejected. This is a local research app, not an authenticated

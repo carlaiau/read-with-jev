@@ -1,0 +1,429 @@
+{
+  "chunks": [
+    {
+      "start": 903,
+      "end": 650881,
+      "key": "17823930af1ad18dda4381d0b66654a4047b42000d17815b2631a8a28752c5ca",
+      "usage": {
+        "input_tokens": 209389,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7672,
+        "output_tokens_details": {
+          "reasoning_tokens": 2944
+        },
+        "total_tokens": 217061
+      }
+    },
+    {
+      "start": 650881,
+      "end": 1300867,
+      "key": "845c6969262774cb7f9d72b4cf6d778d7d11277c4728e5205f76b2581c66ad4d",
+      "usage": {
+        "input_tokens": 212090,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7026,
+        "output_tokens_details": {
+          "reasoning_tokens": 2944
+        },
+        "total_tokens": 219116
+      }
+    },
+    {
+      "start": 1300867,
+      "end": 1950831,
+      "key": "56cb5c8ce5b9de8e2726775530fe3257d9589f8838aed7d28f3f7cafb76c44a6",
+      "usage": {
+        "input_tokens": 204983,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6343,
+        "output_tokens_details": {
+          "reasoning_tokens": 2432
+        },
+        "total_tokens": 211326
+      }
+    },
+    {
+      "start": 1950831,
+      "end": 2600828,
+      "key": "c1ee27cdbb3d928b9be56a41d86ac82ba70b7f2a3ac5da037460944e592ad3e1",
+      "usage": {
+        "input_tokens": 208795,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8242,
+        "output_tokens_details": {
+          "reasoning_tokens": 2368
+        },
+        "total_tokens": 217037
+      }
+    },
+    {
+      "start": 2600828,
+      "end": 3250827,
+      "key": "9f43ede6458a6d2abf85b8a6b71f0c4ed54bee9cb37802e4f6b125bdd860562f",
+      "usage": {
+        "input_tokens": 214232,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7603,
+        "output_tokens_details": {
+          "reasoning_tokens": 1600
+        },
+        "total_tokens": 221835
+      }
+    },
+    {
+      "start": 3250827,
+      "end": 3900820,
+      "key": "92baafdc1ad39f358120d805a8811f859352041a99d4ea93a9231df6a12dc69d",
+      "usage": {
+        "input_tokens": 211670,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 11485,
+        "output_tokens_details": {
+          "reasoning_tokens": 2944
+        },
+        "total_tokens": 223155
+      }
+    },
+    {
+      "start": 3900820,
+      "end": 4550797,
+      "key": "210c981df255931d98e8c783854625c928442a35ada12f4b3ab8e16a2ee667e6",
+      "usage": {
+        "input_tokens": 214939,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8103,
+        "output_tokens_details": {
+          "reasoning_tokens": 3072
+        },
+        "total_tokens": 223042
+      }
+    },
+    {
+      "start": 4550797,
+      "end": 5200779,
+      "key": "1bb2c26ef5048559598aad0aec588bf4b58caa7cc5900a451f59ed506112db6c",
+      "usage": {
+        "input_tokens": 215622,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7578,
+        "output_tokens_details": {
+          "reasoning_tokens": 2944
+        },
+        "total_tokens": 223200
+      }
+    },
+    {
+      "start": 5200779,
+      "end": 5556275,
+      "key": "46917208da5125515f7451d1054d9113cff4293271aa307da1c5f2e7fd494027",
+      "usage": {
+        "input_tokens": 109498,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 10165,
+        "output_tokens_details": {
+          "reasoning_tokens": 5760
+        },
+        "total_tokens": 119663
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "f6db9c3c4cb46f9c3bb37945ce5b69dc041b90daed7500a8332fe26e952ed4c9",
+    "usage": {
+      "input_tokens": 62194,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 11494,
+      "output_tokens_details": {
+        "reasoning_tokens": 5504
+      },
+      "total_tokens": 73688
+    }
+  },
+  "rejected": [
+    {
+      "name": "EUPHRONIUS",
+      "alias": "Euphronius",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PINCH",
+      "alias": "A Schoolmaster",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "FIRST CITIZEN",
+      "alias": "First Citizen",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SECOND CITIZEN",
+      "alias": "Second Citizen",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Second Player (Hamlet)",
+      "alias": "SECOND PLAYER",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Prince Henry / Prince Hal",
+      "alias": "PRINCE HAL",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Hostess (Boar's Head)",
+      "alias": "HOSTESS QUICKLY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LORD CHIEF JUSTICE",
+      "alias": "LORD CHIEF JUSTICE.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "DOLL TEARSHEET",
+      "alias": "DOLL TEAR-SHEET.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "DOLL TEARSHEET",
+      "alias": "DOLL TEAR-SHEET",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "CHARLES (King of France)",
+      "alias": "KING CHARLES",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ORLEANS (Bastard of Orleans)",
+      "alias": "BASTARD OF ORLEANS.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "EDWARD (Prince / Earl of March)",
+      "alias": "Edward, Earl of March",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "RICHARD (Duke of Gloucester / later Richard III)",
+      "alias": "RICHARD Plantagenet",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "MONTAGUE",
+      "alias": "Marquess of Montague",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "GEORGE BEVIS",
+      "alias": "GEORGE BEVIS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "MARGERY JOURDAIN",
+      "alias": "MARGERY JOURDAIN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "QUEEN’S GENTLEMAN USHER",
+      "alias": "QUEEN’S GENTLEMAN USHER",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "CASSIUS",
+      "alias": "GAIUS CASSIUS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "CINNA (poet)",
+      "alias": "CINNA (a poet)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "POET",
+      "alias": "POET (stage)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "MISTRESS OVERDONE",
+      "alias": "MISTRESS OVERDONE.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PRINCE OF ARRAGON",
+      "alias": "PRINCE OF ARRAGON.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PETER SIMPLE",
+      "alias": "PETER SIMPLE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "MISTRESS ANNE PAGE",
+      "alias": "ANNE PAGE.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SNUG",
+      "alias": "SNUG.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SNOUT",
+      "alias": "SNOUT.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Lord Ross",
+      "alias": "R0SS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Abbot of Westminster",
+      "alias": "An Abbot.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Lord Stanley (Earl of Derby)",
+      "alias": "EARL OF DERBY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Morton",
+      "alias": "Bishop OF ELY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Young Duke of York",
+      "alias": "Young Duke of York",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Old Duchess of York",
+      "alias": "DUCHESS OF YORK.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Musicians",
+      "alias": "MUSICIANS.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Hortensio",
+      "alias": "Licio (as alias)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sycorax",
+      "alias": "Sycórax",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sycorax",
+      "alias": "SYCORAX.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Setebos",
+      "alias": "SETÉBOS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "AARON",
+      "alias": "AARON the Moor",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "CLOWN (Feste)",
+      "alias": "FESTE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SCHOOLMASTER",
+      "alias": "GERALD",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "FRITZ",
+      "alias": "FRITZ",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "MAUDLIN",
+      "alias": "MAUDLIN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "BARBARY",
+      "alias": "BARBARY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "First Knight",
+      "alias": "First Knight",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Second Knight",
+      "alias": "Second Knight",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Third Knight",
+      "alias": "Third Knight",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Turtle",
+      "alias": "Turtle",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Lucrece",
+      "alias": "Lucrece'.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Groom (Rape of Lucrece)",
+      "alias": "The groom",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Palfrey / Courser (horse)",
+      "alias": "jerkin’d courser",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

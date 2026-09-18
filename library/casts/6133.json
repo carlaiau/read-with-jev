@@ -1,0 +1,871 @@
+{
+  "schema": 1,
+  "gutenbergId": 6133,
+  "sourceSha256": "1b8fcfb078007a2fd0d33371563741aa821694149efed2f4dd368a9f67bd2ff8",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-ba43779cb4f15b7e",
+      "name": "Arsène Lupin",
+      "description": "Mysterious, ingenious gentleman-burglar; central criminal protagonist, master of disguise and organizer of thefts and schemes",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Arsène Lupin",
+          "evidence": [
+            1048,
+            1060
+          ]
+        },
+        {
+          "text": "Lupin",
+          "evidence": [
+            1055,
+            1060
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c96a62a043018dc1",
+      "name": "Bernard d’Andrézy",
+      "description": "Passenger and narrator in several episodes; gentleman who is accused/arrested in connection with Lupin",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Monsieur d’Andrézy",
+          "evidence": [
+            6070,
+            6088
+          ]
+        },
+        {
+          "text": "Bernard d’Andrézy",
+          "evidence": [
+            22769,
+            22786
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2aa6c4400ba6adbb",
+      "name": "Miss Nelly Underdown",
+      "description": "Wealthy and beautiful young American passenger; object of several admirers’ attentions",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Nelly",
+          "evidence": [
+            6248,
+            6258
+          ]
+        },
+        {
+          "text": "Nelly",
+          "evidence": [
+            5942,
+            5947
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-50731a86ca820576",
+      "name": "Lady Jerland",
+      "description": "Friend and traveling companion of Miss Nelly; victim of a partial jewel theft aboard La Provence",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lady Jerland",
+          "evidence": [
+            6613,
+            6625
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e9fe55760ef231fd",
+      "name": "Mon. Louis Rozaine",
+      "description": "Passenger accused of being Arsène Lupin; offers reward and seeks to clear his name",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mon. Rozaine",
+          "evidence": [
+            9161,
+            9173
+          ]
+        },
+        {
+          "text": "Mon. Louis Rozaine",
+          "evidence": [
+            13618,
+            13636
+          ]
+        },
+        {
+          "text": "Rozaine",
+          "evidence": [
+            9166,
+            9173
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5eb13340aa163d90",
+      "name": "Ganimard",
+      "description": "Veteran French detective, Arsène Lupin’s persistent adversary",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ganimard",
+          "evidence": [
+            4867,
+            4875
+          ]
+        },
+        {
+          "text": "Mon. Ganimard",
+          "evidence": [
+            34673,
+            34686
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4492212aebd49059",
+      "name": "Major Rawson",
+      "description": "Passenger mentioned among the first-cabin list; referenced in suspicion of Lupin",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Major Rawson",
+          "evidence": [
+            8746,
+            8758
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-70631bfe787ad138",
+      "name": "Marquis de Raverdan",
+      "description": "Passenger, secretary to the American Ambassador; present aboard La Provence",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Marquis de Raverdan",
+          "evidence": [
+            8631,
+            8654
+          ]
+        },
+        {
+          "text": "Marquis de Raverdan",
+          "evidence": [
+            8635,
+            8654
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b9d52a8e135cab67",
+      "name": "Mon. Rivolta",
+      "description": "Italian passenger (bearded) mentioned during the transatlantic voyage",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mon. Rivolta",
+          "evidence": [
+            8814,
+            8826
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dd3992b5d122ee39",
+      "name": "Baron Nathan Cahorn (Baron Satan)",
+      "description": "Owner of the feudal Malaquis castle; collector terrified by Lupin’s threats",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Baron Satan",
+          "evidence": [
+            27761,
+            27772
+          ]
+        },
+        {
+          "text": "Baron Cahorn",
+          "evidence": [
+            34949,
+            34961
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8931d60255a00a64",
+      "name": "Mon. Dudouis",
+      "description": "Chief of the Sûreté (Paris detective administration); supervises investigations into Lupin’s affairs",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mon. Dudouis",
+          "evidence": [
+            48252,
+            48264
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ee8017bd576756f",
+      "name": "Mon. Jules Bouvier",
+      "description": "Examining judge who conducts inquiries related to Lupin and prison matters",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mon. Jules Bouvier",
+          "evidence": [
+            68984,
+            69002
+          ]
+        },
+        {
+          "text": "Jules Bouvier",
+          "evidence": [
+            68989,
+            69002
+          ]
+        },
+        {
+          "text": "the examining judge",
+          "evidence": [
+            67222,
+            67241
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bcc1aba07940f96e",
+      "name": "Baudru Désiré",
+      "description": "Poor vagabond substituted (or substituted for) Arsène Lupin in prison records; central to a confusion in custody",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Baudru Désiré",
+          "evidence": [
+            88028,
+            88041
+          ]
+        },
+        {
+          "text": "Baudru",
+          "evidence": [
+            79777,
+            79783
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f2f250aa0d4e2351",
+      "name": "Inspector Dieuzy",
+      "description": "Inspector involved in prison and correspondence examinations regarding Lupin",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Inspector Dieuzy",
+          "evidence": [
+            63156,
+            63172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f4806c9c2deae43b",
+      "name": "Inspector Folenfant",
+      "description": "Inspector who assists in examining Arsène Lupin’s cell and correspondence",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Inspector Folenfant",
+          "evidence": [
+            63188,
+            63207
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cb927dfbb3484ba6",
+      "name": "Pierre Onfrey",
+      "description": "Criminal and assassin captured after robbing Madame Renaud on a train; pursued by the narrator/Lupin",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pierre Onfrey",
+          "evidence": [
+            129941,
+            129954
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2205143db9006a7b",
+      "name": "Madame Renaud",
+      "description": "Wife of a director in the penitentiary service; victim of a railway robbery",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Renaud",
+          "evidence": [
+            119154,
+            119167
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6d06962d00274737",
+      "name": "Georges Ardelle",
+      "description": "Brother of Madame Renaud; director of the Crédit Rouennais; witnesses events at the station",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Georges Ardelle",
+          "evidence": [
+            118450,
+            118465
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-44db5e3625d6b4f0",
+      "name": "Honoré Massol",
+      "description": "Police agent from Rouen who assists in the pursuit and arrest on the railway line",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Honoré Massol",
+          "evidence": [
+            123764,
+            123777
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dee76e71d4c3be5c",
+      "name": "Gaston Delivet",
+      "description": "Police agent from Rouen who assists in the pursuit and arrest on the railway line",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gaston Delivet",
+          "evidence": [
+            123782,
+            123796
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3058f0e855a6ee71",
+      "name": "Countess de Dreux-Soubise",
+      "description": "Aristocratic owner of the (mounted) historical 'Queen’s Necklace' and central figure in that theft mystery",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Countess de Dreux-Soubise",
+          "evidence": [
+            132467,
+            132492
+          ]
+        },
+        {
+          "text": "the countess",
+          "evidence": [
+            137135,
+            137147
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-db044702fa5249ff",
+      "name": "Count de Dreux-Soubise",
+      "description": "Husband of the Countess; head of the Dreux-Soubise household and claimant of the historic necklace",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Count",
+          "evidence": [
+            132463,
+            132472
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-99ba3aa08bf05501",
+      "name": "Henriette",
+      "description": "Former schoolmate and chambermaid who lives in the Dreux-Soubise house and is suspected in the necklace affair",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Henriette",
+          "evidence": [
+            138761,
+            138770
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d2cf84e006b84a1",
+      "name": "Raoul",
+      "description": "Henriette’s son; a child implicated in theories about how the Queen’s Necklace was removed",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Raoul",
+          "evidence": [
+            139432,
+            139437
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b0b1694814114951",
+      "name": "Chevalier Floriani",
+      "description": "Guest at the Dreux-Soubise; amateur problem-solver who advances a reconstruction of the Queen’s Necklace theft and is revealed to have a personal connection",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "chevalier Floriani",
+          "evidence": [
+            146580,
+            146598
+          ]
+        },
+        {
+          "text": "Floriani",
+          "evidence": [
+            146590,
+            146598
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2d9b3cc483af9e1c",
+      "name": "Deputy Bochas",
+      "description": "Guest at Dreux-Soubise; political figure present during the discussion of the necklace case",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the deputy Bochas",
+          "evidence": [
+            146557,
+            146574
+          ]
+        },
+        {
+          "text": "deputy Bochas",
+          "evidence": [
+            146561,
+            146574
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-57b6ceee8b7b2ce3",
+      "name": "General Marquis de Rouzières",
+      "description": "Military guest at the Dreux-Soubise dinner",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "General Marquis de Rouzières",
+          "evidence": [
+            146641,
+            146669
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-880e13c332568033",
+      "name": "Salvator",
+      "description": "Journalist/anonymous correspondent whose articles about the 'Seven-of-Hearts' and related secrets agitate the public and push the plot (signature 'Salvator')",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Salvator",
+          "evidence": [
+            183030,
+            183038
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4cab799d34f8bbdc",
+      "name": "Georges Andermatt",
+      "description": "Prominent banker (founder/president of the Metal Exchange) whose name becomes connected to a mysterious death and missing plans",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Georges Andermatt",
+          "evidence": [
+            178161,
+            178178
+          ]
+        },
+        {
+          "text": "Mon. Andermatt",
+          "evidence": [
+            178715,
+            178729
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47fa61edda9e1779",
+      "name": "Louis Lacombe",
+      "description": "Young mining engineer and inventor of a sub‑marine called the 'Seven-of-Hearts'; disappears with plans",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Louis Lacombe",
+          "evidence": [
+            184314,
+            184327
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e0da72c09658cf3b",
+      "name": "Etienne Varin",
+      "description": "One of the Varin brothers (foreigners) implicated in possession/sale of Lacombe’s plans",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Etienne Varin",
+          "evidence": [
+            179321,
+            179334
+          ]
+        },
+        {
+          "text": "Varin",
+          "evidence": [
+            179329,
+            179334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-64b98e592a737662",
+      "name": "Alfred Varin",
+      "description": "The other Varin brother; involved with the plans and correspondence regarding the 'Seven-of-Hearts'",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Alfred Varin",
+          "evidence": [
+            179466,
+            179478
+          ]
+        },
+        {
+          "text": "Varin",
+          "evidence": [
+            179329,
+            179334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-36d8363311b735f2",
+      "name": "Madame Andermatt",
+      "description": "Wife of Georges Andermatt; correspondent in the scandal involving Lacombe’s plans and the letters referenced by Salvator",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Andermatt",
+          "evidence": [
+            188872,
+            188888
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c936701b986a6828",
+      "name": "Mon. Ludovic Imbert",
+      "description": "Wealthy man whose staged assault leads to Arsène Lupin’s introduction and subsequent employment as secretary; victim of a safe burglary",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mon. Ludovic Imbert",
+          "evidence": [
+            227684,
+            227703
+          ]
+        },
+        {
+          "text": "Ludovic Imbert",
+          "evidence": [
+            225852,
+            225866
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0778dfcd72fe432c",
+      "name": "Madame Gervaise Imbert",
+      "description": "Ludovic Imbert’s wife; hostess who befriends the protagonist and whose household contains the safe Lupin later robs",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gervaise Imbert",
+          "evidence": [
+            229309,
+            229324
+          ]
+        },
+        {
+          "text": "Madame Gervaise Imbert",
+          "evidence": [
+            229302,
+            229324
+          ]
+        },
+        {
+          "text": "Madame Imbert",
+          "evidence": [
+            1431,
+            1444
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4fa1a43230f90f46",
+      "name": "Brawford (André Brawford)",
+      "description": "Eccentric individual referenced in the Imbert affair; name used by Lupin when posing as a benefactor",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Brawford",
+          "evidence": [
+            228643,
+            228651
+          ]
+        },
+        {
+          "text": "André Brawford",
+          "evidence": [
+            243091,
+            243105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-82a474914769f141",
+      "name": "Victor Danègre",
+      "description": "Servant of Countess d’Andillot accused and tried (then acquitted) for her murder; later approached by an ex-inspector for the black pearl",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Victor Danègre",
+          "evidence": [
+            255292,
+            255306
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2e100c2eadee3797",
+      "name": "Grimaudan",
+      "description": "Ex-inspector of detectives (name used by an agent who pressures Danègre); identity in narrative tied to Lupin’s intervention",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Grimaudan",
+          "evidence": [
+            261769,
+            261778
+          ]
+        },
+        {
+          "text": "Grimaudan, ex-inspector of the detective force",
+          "evidence": [
+            261769,
+            261815
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7e7649fa3653f458",
+      "name": "Léotine Zalti (Countess d’Andillot)",
+      "description": "Formerly famous cantatrice and owner of the renowned black pearl; murdered in her apartment",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Countess d’Andillot",
+          "evidence": [
+            255324,
+            255347
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b7c0cc271fe1a41",
+      "name": "Mlle. De Sinclèves",
+      "description": "Cousin and heiress of the Countess d’Andillot who receives (and later loses) a letter describing the pearl’s hiding-place",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mlle. De Sinclèves",
+          "evidence": [
+            256913,
+            256931
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0afb55f5cad26938",
+      "name": "Sherlock Holmes",
+      "description": "Famous English detective invited by Georges Devanne to investigate the Thibermesnil mystery; arrives to confront Lupin’s handiwork",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sherlock Holmes",
+          "evidence": [
+            1496,
+            1511
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8edb451e5136e601",
+      "name": "Horace Velmont",
+      "description": "Artist and guest at Château de Thibermesnil; suspected by hosts to resemble and possibly be Arsène Lupin",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Horace Velmont",
+          "evidence": [
+            272530,
+            272544
+          ]
+        },
+        {
+          "text": "Velmont",
+          "evidence": [
+            272292,
+            272299
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eabaefaa02dbadaa",
+      "name": "Monsieur Georges Devanne",
+      "description": "Owner of the Château de Thibermesnil; host who seeks to recover a lost book and the castle’s secret passage",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Georges Devanne",
+          "evidence": [
+            273272,
+            273287
+          ]
+        },
+        {
+          "text": "Mon. Devanne",
+          "evidence": [
+            280129,
+            280141
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8c5cf4c9101a88ff",
+      "name": "Father Gélis",
+      "description": "Parish priest and local antiquarian who discusses the castle legend and historical clues",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Father Gélis",
+          "evidence": [
+            273119,
+            273131
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-712002107a3da670",
+      "name": "Monsieur and Madame d’Androl",
+      "description": "Travelers/guests who accompany Miss Nelly to Devanne’s castle",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Monsieur and Madame d’Androl",
+          "evidence": [
+            283278,
+            283306
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c02ce1ab712be76",
+      "name": "Edouard (chauffeur)",
+      "description": "Devanne’s chauffeur who waits with an automobile and is asked about instructions relating to the chapel rendezvous",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edouard",
+          "evidence": [
+            314937,
+            314944
+          ]
+        }
+      ]
+    }
+  ]
+}

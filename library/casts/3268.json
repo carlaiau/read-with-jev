@@ -1,0 +1,1461 @@
+{
+  "schema": 1,
+  "gutenbergId": 3268,
+  "sourceSha256": "5b5d82ce7c236781eadc1c9556c2caec499c70ba5ab222a5dc22473443a70a1c",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-12ef76da1fd5bdd8",
+      "name": "Monsieur St. Aubert",
+      "description": "Retired gentleman of Gascony; father of Emily, owner of La Vallée and its château.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Monsieur St. Aubert",
+          "evidence": [
+            2361,
+            2380
+          ]
+        },
+        {
+          "text": "M. St. Aubert",
+          "evidence": [
+            3291,
+            3304
+          ]
+        },
+        {
+          "text": "St. Aubert",
+          "evidence": [
+            2370,
+            2380
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ddfff86fbcb668a5",
+      "name": "Madame St. Aubert",
+      "description": "Wife of Monsieur St. Aubert; deceased mother of Emily whose death precipitates later events.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame St. Aubert",
+          "evidence": [
+            6413,
+            6430
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d8db6cb73c15e1d6",
+      "name": "Emily",
+      "description": "Only surviving daughter of Monsieur and Madame St. Aubert; protagonist who is educated, sensitive and affectionate.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Emily",
+          "evidence": [
+            8583,
+            8588
+          ]
+        },
+        {
+          "text": "Mademoiselle Emily",
+          "evidence": [
+            508204,
+            508222
+          ]
+        },
+        {
+          "text": "Emily St. Aubert",
+          "evidence": [
+            1241504,
+            1241520
+          ]
+        },
+        {
+          "text": "Mademoiselle St. Aubert",
+          "evidence": [
+            358671,
+            358694
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-93fcc15288836dbc",
+      "name": "Manchon",
+      "description": "Emily’s dog, faithful household animal at La Vallée.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Manchon",
+          "evidence": [
+            240338,
+            240345
+          ]
+        },
+        {
+          "text": "_Manchon_",
+          "evidence": [
+            664325,
+            664334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dea98833a9897021",
+      "name": "Theresa",
+      "description": "Old housekeeper of the St. Aubert household; devoted servant at La Vallée.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Theresa",
+          "evidence": [
+            64163,
+            64170
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b8ae2f2c34a2936",
+      "name": "Jacques",
+      "description": "Domestic servant dismissed by Monsieur St. Aubert before his journey.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jacques",
+          "evidence": [
+            64116,
+            64123
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f6c43c21f7471085",
+      "name": "Francis",
+      "description": "Domestic servant dismissed by Monsieur St. Aubert.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Francis",
+          "evidence": [
+            64126,
+            64133
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d4b077ad3eea20ef",
+      "name": "Mary",
+      "description": "Domestic servant dismissed by Monsieur St. Aubert.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mary",
+          "evidence": [
+            64139,
+            64143
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf71f8fbb9c63d23",
+      "name": "Michael",
+      "description": "Muleteer who drives St. Aubert and Emily on mountain roads.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Michael",
+          "evidence": [
+            74503,
+            74510
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-800e17f373d63922",
+      "name": "Monsieur Quesnel",
+      "description": "Mons. Quesnel, Madame St. Aubert’s brother; ambitious, worldly and instrumental in disposing of La Vallée.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Monsieur Quesnel",
+          "evidence": [
+            4757,
+            4773
+          ]
+        },
+        {
+          "text": "M. Quesnel",
+          "evidence": [
+            27950,
+            27960
+          ]
+        },
+        {
+          "text": "Mons. Quesnel",
+          "evidence": [
+            496055,
+            496068
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ed7f71d2a65580ec",
+      "name": "Madame Quesnel",
+      "description": "Wife of Monsieur Quesnel; a vain, Italian heiress by birth who appears in company at La Vallée.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Quesnel",
+          "evidence": [
+            27519,
+            27533
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-71f62bda279fbad6",
+      "name": "M. Motteville",
+      "description": "Agent/banker in Paris who holds some of St. Aubert’s property and whose affairs affect St. Aubert’s finances.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Motteville",
+          "evidence": [
+            151706,
+            151719
+          ]
+        },
+        {
+          "text": "Motteville",
+          "evidence": [
+            151709,
+            151719
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3b21ff7f9619d899",
+      "name": "M. Barreaux",
+      "description": "A retired gentleman, botanist and friend of St. Aubert who visits La Vallée and the travellers.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Barreaux",
+          "evidence": [
+            53570,
+            53581
+          ]
+        },
+        {
+          "text": "Barreaux",
+          "evidence": [
+            53573,
+            53581
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-72de50371bd86b1f",
+      "name": "La Voisin",
+      "description": "Old peasant (called La Voisin) who hospitably shelters Emily after her father’s death; owner of a cottage in the woods.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "La Voisin",
+          "evidence": [
+            171930,
+            171939
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7d5698ff049d8e6c",
+      "name": "Agnes",
+      "description": "Daughter of La Voisin; helps welcome Emily and her father at the cottage.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Agnes",
+          "evidence": [
+            173227,
+            173232
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9803fa126ce6e4b1",
+      "name": "Valancourt",
+      "description": "A young gentleman (Chevalier) from Gascony; Emily’s suitor and the principal romantic interest; ardent, generous and somewhat impulsive.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Valancourt",
+          "evidence": [
+            85730,
+            85740
+          ]
+        },
+        {
+          "text": "Chevalier Valancourt",
+          "evidence": [
+            340317,
+            340337
+          ]
+        },
+        {
+          "text": "Signor Valancourt",
+          "evidence": [
+            996299,
+            996316
+          ]
+        },
+        {
+          "text": "Mons. Valancourt",
+          "evidence": [
+            357790,
+            357806
+          ]
+        },
+        {
+          "text": "Monsieur Valancourt",
+          "evidence": [
+            322625,
+            322644
+          ]
+        },
+        {
+          "text": "M. Valancourt",
+          "evidence": [
+            332787,
+            332800
+          ]
+        },
+        {
+          "text": "the Chevalier",
+          "evidence": [
+            340313,
+            340326
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ec929fccd0fe1a33",
+      "name": "Signor Montoni",
+      "description": "Italian gentleman who marries Madame Cheron and later becomes central to Emily’s misfortunes; proud, secretive and potentially dangerous.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Montoni",
+          "evidence": [
+            59355,
+            59362
+          ]
+        },
+        {
+          "text": "Signor Montoni",
+          "evidence": [
+            60400,
+            60414
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7e0dba89c3fd4769",
+      "name": "Signor Cavigni",
+      "description": "Friend of Montoni; an insinuating, agreeable Italian who flatters and amuses society.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cavigni",
+          "evidence": [
+            59653,
+            59660
+          ]
+        },
+        {
+          "text": "Signor Cavigni",
+          "evidence": [
+            59646,
+            59660
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d657989b98e67dae",
+      "name": "Madame Cheron",
+      "description": "Emily’s aunt (sister of Monsieur St. Aubert) and appointed guardian; worldly, vain and often unsympathetic.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Cheron",
+          "evidence": [
+            58938,
+            58951
+          ]
+        },
+        {
+          "text": "Madame Montoni",
+          "evidence": [
+            367020,
+            367034
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cd8fe4c871cd33a2",
+      "name": "Count Morano",
+      "description": "A Venetian nobleman who presses an unwelcome suit to marry Emily; persistent and importunate.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Count Morano",
+          "evidence": [
+            468548,
+            468560
+          ]
+        },
+        {
+          "text": "the Count",
+          "evidence": [
+            301136,
+            301145
+          ]
+        },
+        {
+          "text": "Morano",
+          "evidence": [
+            468554,
+            468560
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-82707408e6466642",
+      "name": "Signora Clairval",
+      "description": "Madame Clairval (a widow of rank) who entertains at Venice and is related to other characters; her circle influences local alliances.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Clairval",
+          "evidence": [
+            335402,
+            335417
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-60a150693b75211d",
+      "name": "Signora Livona",
+      "description": "A fashionable Venetian lady introduced to Emily; admired for beauty and manner.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Signora Livona",
+          "evidence": [
+            468568,
+            468582
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-79e728f27f4763e8",
+      "name": "Signora Herminia",
+      "description": "Venetian lady and musician who sings and charms Emily in society.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Signora Herminia",
+          "evidence": [
+            480061,
+            480077
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b160a2eba93692ee",
+      "name": "Signora Laurentini",
+      "description": "A former lady of Udolpho (the castle) mentioned in local tradition as having mysteriously disappeared and been seen after death; figure of local legend.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Signora Laurentini",
+          "evidence": [
+            604846,
+            604864
+          ]
+        },
+        {
+          "text": "Lady Laurentini",
+          "evidence": [
+            740099,
+            740114
+          ]
+        },
+        {
+          "text": "Laurentini",
+          "evidence": [
+            604854,
+            604864
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ac00edc82fe20a9c",
+      "name": "Signor Bertolini",
+      "description": "Member of Montoni’s acquaintance; part of the circle that frequents the Montoni household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Signor Bertolini",
+          "evidence": [
+            689117,
+            689133
+          ]
+        },
+        {
+          "text": "Bertolini",
+          "evidence": [
+            467069,
+            467078
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ca6ce7143d08eccd",
+      "name": "Signor Orsino",
+      "description": "A reserved, haughty Italian associate of Montoni; later implicated in a violent incident and concealed by Montoni.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Orsino",
+          "evidence": [
+            467081,
+            467087
+          ]
+        },
+        {
+          "text": "Signor Orsino",
+          "evidence": [
+            489512,
+            489525
+          ]
+        },
+        {
+          "text": "Orsino, the assassin",
+          "evidence": [
+            1330751,
+            1330771
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fdc5610fefafb53f",
+      "name": "Signor Verezzi",
+      "description": "A volatile, imaginative Italian companion of Montoni; lively and adventurous but fickle.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Verezzi",
+          "evidence": [
+            467093,
+            467100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-70c6a313c1e315ae",
+      "name": "Utaldo",
+      "description": "Captain Utaldo, a military leader whose passing army is observed by the travellers.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Utaldo",
+          "evidence": [
+            445003,
+            445009
+          ]
+        },
+        {
+          "text": "captain Utaldo",
+          "evidence": [
+            444995,
+            445009
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d41c3b07502bb3f2",
+      "name": "Count Bauvillers",
+      "description": "A nobleman who attends company and comments on local fashions and people.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Count Bauvillers",
+          "evidence": [
+            338318,
+            338334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ebc5a5e06d8aa7b4",
+      "name": "Mademoiselle d’Emery",
+      "description": "A young woman of fortune mentioned in society gossip as a possible match for Valancourt.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mademoiselle d’Emery",
+          "evidence": [
+            352383,
+            352403
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-14d5089db439da8b",
+      "name": "Carlo",
+      "description": "Old steward/servant of the Udolpho castle (referred to as the old man Carlo) who manages the house and reports its condition.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Carlo",
+          "evidence": [
+            585383,
+            585388
+          ]
+        },
+        {
+          "text": "old Carlo",
+          "evidence": [
+            585379,
+            585388
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-80e0fe934efeed32",
+      "name": "Caterina",
+      "description": "Servant at Udolpho castle who assists Emily and Annette within the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Caterina",
+          "evidence": [
+            597779,
+            597787
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae1beb1bdf8901c3",
+      "name": "Annette",
+      "description": "Madame Montoni’s woman/maid who accompanies Emily, a talkative servant prone to superstitious tales.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Annette",
+          "evidence": [
+            436399,
+            436406
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-261b4a4f14543c0a",
+      "name": "Benedetto",
+      "description": "A local gondolier/peasant mentioned in conversation and tales told to Annette.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Benedetto",
+          "evidence": [
+            591095,
+            591104
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fb140ffc2e57abeb",
+      "name": "Ludovico",
+      "description": "A gondolier/lacquey figure mentioned by servants in relation to Venice and local regattas.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ludovico",
+          "evidence": [
+            567576,
+            567584
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-040714dd71d883b8",
+      "name": "Cesario",
+      "description": "Count Morano’s valet and attendant (servant mentioned in castle scenes)",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Cesario",
+          "evidence": [
+            677628,
+            677635
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5b3de55bf8376791",
+      "name": "Barnardine",
+      "description": "The porter of Udolpho; implicated in late conspiracies and privy to castle secrets",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Barnardine",
+          "evidence": [
+            706788,
+            706798
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9966184c0075d2dd",
+      "name": "Launcelot",
+      "description": "Trumpeter among the castle soldiers/watch; referenced as musician on the ramparts",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Launcelot",
+          "evidence": [
+            848584,
+            848593
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d84f7893dfd0435",
+      "name": "Monsieur Du Pont",
+      "description": "Frenchman rescued from imprisonment at Udolpho; mistakenly believed by Emily’s household to be Valancourt at one point",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Monsieur Du Pont",
+          "evidence": [
+            1144971,
+            1144987
+          ]
+        },
+        {
+          "text": "Du Pont",
+          "evidence": [
+            1144980,
+            1144987
+          ]
+        },
+        {
+          "text": "Mons. Du Pont",
+          "evidence": [
+            1147377,
+            1147390
+          ]
+        },
+        {
+          "text": "M. Du Pont",
+          "evidence": [
+            1435421,
+            1435431
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d244556d96fe4eda",
+      "name": "Dorothée",
+      "description": "Housekeeper at Château-le-Blanc (Count De Villefort’s estate); longtime servant who recalls the Marchioness",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Dorothée",
+          "evidence": [
+            1201069,
+            1201077
+          ]
+        },
+        {
+          "text": "old Dorothée",
+          "evidence": [
+            1265552,
+            1265564
+          ]
+        },
+        {
+          "text": "the housekeeper",
+          "evidence": [
+            1223278,
+            1223293
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-976b98a46c9d4ecf",
+      "name": "Maddelina",
+      "description": "Daughter of the peasant couple who host Emily in Tuscany; modest and kind",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Maddelina",
+          "evidence": [
+            1055562,
+            1055571
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c536684317b3aa3e",
+      "name": "Count De Villefort",
+      "description": "Count who inherits Château-le-Blanc (successor of the Marquis De Villeroi); hospitable Languedoc noble",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Count De Villefort",
+          "evidence": [
+            1184750,
+            1184768
+          ]
+        },
+        {
+          "text": "the Count",
+          "evidence": [
+            301136,
+            301145
+          ]
+        },
+        {
+          "text": "Count",
+          "evidence": [
+            301140,
+            301145
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cf1da0cde2b7527d",
+      "name": "Countess (De Villefort)",
+      "description": "Wife of Count De Villefort; elegant, capricious, and often discontented with rural life",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Countess",
+          "evidence": [
+            357055,
+            357063
+          ]
+        },
+        {
+          "text": "the Countess",
+          "evidence": [
+            357051,
+            357063
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-797f7296aea4326e",
+      "name": "Henri",
+      "description": "Son of Count De Villefort; young man in the French service",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Henri",
+          "evidence": [
+            1188535,
+            1188540
+          ]
+        },
+        {
+          "text": "Mons. Henri",
+          "evidence": [
+            1605302,
+            1605313
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18fdb73b546c8530",
+      "name": "Blanche",
+      "description": "Daughter of Count De Villefort (often called Lady Blanche); youthful, innocent, delighted by Languedoc scenery",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Blanche",
+          "evidence": [
+            1188605,
+            1188612
+          ]
+        },
+        {
+          "text": "Lady Blanche",
+          "evidence": [
+            1189248,
+            1189260
+          ]
+        },
+        {
+          "text": "the Lady Blanche",
+          "evidence": [
+            1189244,
+            1189260
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-15f1289f3c00ac9d",
+      "name": "Mademoiselle Bearn",
+      "description": "Friend and companion of the Countess De Villefort; accompanies her at Château-le-Blanc",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Mademoiselle Bearn",
+          "evidence": [
+            1192063,
+            1192081
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-22cadcd9709a3840",
+      "name": "Marquis De Villeroi",
+      "description": "Former owner of Château-le-Blanc; deceased relative whose estate passed to Count De Villefort",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Marquis De Villeroi",
+          "evidence": [
+            1184819,
+            1184838
+          ]
+        },
+        {
+          "text": "Marquis de Villeroi",
+          "evidence": [
+            178049,
+            178068
+          ]
+        },
+        {
+          "text": "the Marquis",
+          "evidence": [
+            33154,
+            33165
+          ]
+        },
+        {
+          "text": "my lord the Marquis",
+          "evidence": [
+            1334393,
+            1334412
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-15cc3b5b3e6508c9",
+      "name": "Friar (unnamed)",
+      "description": "A monk/friar from the neighbouring monastery who performed the funeral rites for Madame Montoni",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "the friar",
+          "evidence": [
+            202633,
+            202642
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-58669e81302423b4",
+      "name": "The Superior",
+      "description": "Superior of the neighbouring monastery (monastic official who interacts with Count De Villefort and travelers)",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "the Superior",
+          "evidence": [
+            1234958,
+            1234970
+          ]
+        },
+        {
+          "text": "Superior",
+          "evidence": [
+            963898,
+            963906
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c2132d064030354f",
+      "name": "The Lady Abbess",
+      "description": "Head of the convent of St. Claire; she receives Emily and her party hospitably at the monastery",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "the lady abbess",
+          "evidence": [
+            211651,
+            211666
+          ]
+        },
+        {
+          "text": "the abbess",
+          "evidence": [
+            216818,
+            216828
+          ]
+        },
+        {
+          "text": "abbess",
+          "evidence": [
+            211660,
+            211666
+          ]
+        },
+        {
+          "text": "lady abbess",
+          "evidence": [
+            211655,
+            211666
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0560d154c0378882",
+      "name": "Father Pierre",
+      "description": "One of the fathers (priests) named in accounts about celestial music heard at night",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Father Pierre",
+          "evidence": [
+            867193,
+            867206
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a9b190b0a1fd9977",
+      "name": "Father Antoine",
+      "description": "Another priest named alongside Father Pierre regarding reports of strange nocturnal music",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Father Antoine",
+          "evidence": [
+            867211,
+            867225
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-392ae8b85b349ddf",
+      "name": "Annette",
+      "description": "Female servant in the Count’s household; talkative, superstitious and deeply affected by the castle’s rumours",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Annette",
+          "evidence": [
+            436399,
+            436406
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fa10e9721f07ae9e",
+      "name": "Baron de Saint Foix",
+      "description": "Older nobleman, friend of Count De Villefort; father of the Chevalier St. Foix",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Baron de Saint Foix",
+          "evidence": [
+            1372773,
+            1372792
+          ]
+        },
+        {
+          "text": "Baron St. Foix",
+          "evidence": [
+            1431478,
+            1431492
+          ]
+        },
+        {
+          "text": "the Baron",
+          "evidence": [
+            1372769,
+            1372778
+          ]
+        },
+        {
+          "text": "Baron",
+          "evidence": [
+            1372773,
+            1372778
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b068048db1fe2109",
+      "name": "Chevalier (Mons.) St. Foix",
+      "description": "Young man, son of the Baron de Saint Foix; admirer and later husband of Lady Blanche; wounded in an encounter with banditti",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Chevalier St. Foix",
+          "evidence": [
+            1372840,
+            1372858
+          ]
+        },
+        {
+          "text": "Mons. St. Foix",
+          "evidence": [
+            1434790,
+            1434804
+          ]
+        },
+        {
+          "text": "the Chevalier St. Foix",
+          "evidence": [
+            1372836,
+            1372858
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3b3bb92dadc4135c",
+      "name": "Monsieur Bonnac",
+      "description": "Officer who appears at the convent; connected to Laurentini’s bequest and provides background on Valancourt’s aid to his family",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Mons. Bonnac",
+          "evidence": [
+            1652326,
+            1652338
+          ]
+        },
+        {
+          "text": "M. Bonnac",
+          "evidence": [
+            1652639,
+            1652648
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-90b958d1d4134582",
+      "name": "Sister Agnes",
+      "description": "Nun at the convent of St. Claire (formerly of gentle birth) who is tormented by remorse and madness and who dies; gives key dying statements",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "sister Agnes",
+          "evidence": [
+            1443547,
+            1443559
+          ]
+        },
+        {
+          "text": "Agnes",
+          "evidence": [
+            173227,
+            173232
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef09c93ba68689c1",
+      "name": "Sister Frances",
+      "description": "Nun at St. Claire who relates convent news and Agnes’s background; conversant with convent affairs",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "sister Frances",
+          "evidence": [
+            1443050,
+            1443064
+          ]
+        },
+        {
+          "text": "Frances",
+          "evidence": [
+            1442184,
+            1442191
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7929397b43bf63be",
+      "name": "Mademoiselle Feydeau",
+      "description": "Boarder at the convent; inquisitive about local scandals and convent stories",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Mademoiselle Feydeau",
+          "evidence": [
+            1442580,
+            1442600
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-78a82747e3983dfd",
+      "name": "Jean the gardener",
+      "description": "Gardener at Thoulouse/La Vallée; encounters a stranger in the garden and fires, prompting concern for Valancourt",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Jean",
+          "evidence": [
+            1495183,
+            1495187
+          ]
+        },
+        {
+          "text": "Jean the gardener",
+          "evidence": [
+            1495183,
+            1495200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-88c578bdf554e2a8",
+      "name": "Jacques",
+      "description": "One of the hunters/occupants of the ruined fortress encountered by the travellers in the Pyrenees",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Jacques",
+          "evidence": [
+            64116,
+            64123
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b0c89c6542809081",
+      "name": "Pierre",
+      "description": "Valet in the Count’s household who converses about the mysterious music and servants’ fears",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Pierre",
+          "evidence": [
+            867200,
+            867206
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a5861cd740f2a33c",
+      "name": "Gregoire",
+      "description": "Butler mentioned in accounts of household affairs at Estuvière; former servant reference",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Gregoire",
+          "evidence": [
+            1582155,
+            1582163
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-09ab9aaf4414d623",
+      "name": "Gabriel",
+      "description": "Servant in the Valancourt/Estuvière household quoted about Valancourt’s conduct and servants’ feelings",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Gabriel",
+          "evidence": [
+            1579983,
+            1579990
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b883ef54a40041cb",
+      "name": "Philip",
+      "description": "Butler/servant mentioned by Dorothée in an anecdote from the Marchioness’s time",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Philip",
+          "evidence": [
+            1334661,
+            1334667
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-32c857b64facccd3",
+      "name": "Richard",
+      "description": "Neighbour’s son and oboe player who performs by Theresa’s cottage; his music is noted in the narrative",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Richard",
+          "evidence": [
+            1579890,
+            1579897
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c75a6eff2c51fbea",
+      "name": "Marchioness de Villeroi",
+      "description": "Late Marchioness whose unhappy marriage and death are central backstory; related to Emily (St. Aubert’s sister)",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Marchioness de Villeroi",
+          "evidence": [
+            1268157,
+            1268180
+          ]
+        },
+        {
+          "text": "the Marchioness",
+          "evidence": [
+            187316,
+            187331
+          ]
+        },
+        {
+          "text": "my lady Marchioness",
+          "evidence": [
+            1333814,
+            1333833
+          ]
+        },
+        {
+          "text": "Madame Montoni",
+          "evidence": [
+            367020,
+            367034
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5cf95fa8d583663c",
+      "name": "Sir Bevys of Lancaster",
+      "description": "Character in the Provençal tale Ludovico reads; English knight whose body and story are recounted in the tale",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Sir Bevys of Lancaster",
+          "evidence": [
+            1410845,
+            1410867
+          ]
+        },
+        {
+          "text": "Sir Bevys",
+          "evidence": [
+            1410845,
+            1410854
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a5db547ec586e9c3",
+      "name": "Baron de Brunne",
+      "description": "Baron in the Provençal tale who entertains knights and minstrels; figure in Ludovico’s recited story",
+      "scope": "The Mysteries of Udolpho",
+      "aliases": [
+        {
+          "text": "Baron de Brunne",
+          "evidence": [
+            1417715,
+            1417730
+          ]
+        }
+      ]
+    }
+  ]
+}

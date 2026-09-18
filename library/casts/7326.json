@@ -1,0 +1,1525 @@
+{
+  "schema": 1,
+  "gutenbergId": 7326,
+  "sourceSha256": "eddaead236e1ed34d7e011c7315016b3000f5ddd8f1148a165e455e40746d5f2",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-4712362be554565e",
+      "name": "Oliver Wheatman",
+      "description": "Narrator and yeoman of the Hanyards; a country lad educated in Latin who becomes involved in the 1745 Jacobite campaign and later enters exile; central protagonist and first-person narrator.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Oliver Wheatman",
+          "evidence": [
+            23922,
+            23937
+          ]
+        },
+        {
+          "text": "Oliver",
+          "evidence": [
+            23922,
+            23928
+          ]
+        },
+        {
+          "text": "Noll",
+          "evidence": [
+            3958,
+            3962
+          ]
+        },
+        {
+          "text": "Master Noll",
+          "evidence": [
+            8041,
+            8052
+          ]
+        },
+        {
+          "text": "Master Wheatman",
+          "evidence": [
+            24284,
+            24299
+          ]
+        },
+        {
+          "text": "Wheatman of the Hanyards, Esquire",
+          "evidence": [
+            23951,
+            23984
+          ]
+        },
+        {
+          "text": "Captain Wheatman",
+          "evidence": [
+            534603,
+            534619
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e2ed4b2e6745d05",
+      "name": "Katherine (Kate) Wheatman",
+      "description": "Oliver's younger sister; red-headed, lively, good-hearted country girl who tends household duties and inspires much of Oliver's early action.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kate",
+          "evidence": [
+            2119,
+            2123
+          ]
+        },
+        {
+          "text": "KATHERINE WHEATMAN",
+          "evidence": [
+            5531,
+            5549
+          ]
+        },
+        {
+          "text": "our Kate",
+          "evidence": [
+            26930,
+            26938
+          ]
+        },
+        {
+          "text": "Kate Wheatman",
+          "evidence": [
+            121728,
+            121741
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-931c2a2603a37a63",
+      "name": "Mother (Wheatman)",
+      "description": "Oliver's widowed mother, kind, practical and a moral anchor of the Hanyards household; frequently comforts and counsels Oliver.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "mother",
+          "evidence": [
+            2520,
+            2526
+          ]
+        },
+        {
+          "text": "my mother",
+          "evidence": [
+            38698,
+            38707
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-acd498f1be0e93b3",
+      "name": "Jane (servant)",
+      "description": "Servant at the Hanyards (dairy-maid and house help); resourceful, practical and a comic presence who aids Margaret's disguise.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jane",
+          "evidence": [
+            6591,
+            6595
+          ]
+        },
+        {
+          "text": "Jin",
+          "evidence": [
+            7503,
+            7506
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fae020dc057a23b3",
+      "name": "Joe Braggs (book)",
+      "description": "Local farmhand and poacher at the Hanyards; a wag and faithful companion to Oliver who discovers the great pike and rows Margaret on the river.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Joe Braggs",
+          "evidence": [
+            2125,
+            2135
+          ]
+        },
+        {
+          "text": "Joe",
+          "evidence": [
+            2125,
+            2128
+          ]
+        },
+        {
+          "text": "Master Joe",
+          "evidence": [
+            17751,
+            17761
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2a35988f1854231d",
+      "name": "Jack Dobson (book)",
+      "description": "Young cornet in Lord Brocton's regiment of dragoons; schoolfriend and rival in affection for Kate; a brave, boyish officer.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jack Dobson",
+          "evidence": [
+            3342,
+            3353
+          ]
+        },
+        {
+          "text": "Master Jack Dobson",
+          "evidence": [
+            24851,
+            24869
+          ]
+        },
+        {
+          "text": "Jack",
+          "evidence": [
+            3342,
+            3346
+          ]
+        },
+        {
+          "text": "Cornet Dobson",
+          "evidence": [
+            32751,
+            32764
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5b30495eb38bef01",
+      "name": "Priscilla Dobson",
+      "description": "Jack Dobson's older sister; prim, formal and fashionable in manner.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Priscilla Dobson",
+          "evidence": [
+            79079,
+            79095
+          ]
+        },
+        {
+          "text": "Priscilla",
+          "evidence": [
+            37344,
+            37353
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c65bd65e669857ff",
+      "name": "Master Dobson (father, book)",
+      "description": "Jack and Priscilla's father, a self-important townsman who entertains officers and others in his 'Ancient High House'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Master Dobson",
+          "evidence": [
+            69462,
+            69475
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c91f284acd58d86c",
+      "name": "Lord Brocton (book)",
+      "description": "Ambitious, vain and predatory local noble; antagonist who arrests and maneuvers against Colonel Waynflete and his daughter.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lord Brocton",
+          "evidence": [
+            4172,
+            4184
+          ]
+        },
+        {
+          "text": "my Lord Brocton",
+          "evidence": [
+            4169,
+            4184
+          ]
+        },
+        {
+          "text": "Brocton",
+          "evidence": [
+            4177,
+            4184
+          ]
+        },
+        {
+          "text": "his lordship",
+          "evidence": [
+            32795,
+            32807
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f6b77f3b1153e8c0",
+      "name": "Earl of Ridgeley",
+      "description": "The Earl associated with Lord Brocton (his father); mentioned in connection with Colonel Waynflete and Brocton's connections.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Earl of Ridgeley",
+          "evidence": [
+            42642,
+            42658
+          ]
+        },
+        {
+          "text": "the Earl of Ridgeley",
+          "evidence": [
+            42638,
+            42658
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a589bd5ccdbc9ec1",
+      "name": "Major Tixall",
+      "description": "A petty, vindictive major often acting as Brocton's spy/agent; described as pimply and villainous.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Major Tixall",
+          "evidence": [
+            43902,
+            43914
+          ]
+        },
+        {
+          "text": "Tixall",
+          "evidence": [
+            43908,
+            43914
+          ]
+        },
+        {
+          "text": "the pimple-faced Major",
+          "evidence": [
+            89171,
+            89193
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-523acddd330dbdcd",
+      "name": "Sergeant Radford",
+      "description": "A drill-sergeant in Lord Brocton's regiment who conducts searches and questions at the Hanyards and later features in the dragoon party.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sergeant Radford",
+          "evidence": [
+            29514,
+            29530
+          ]
+        },
+        {
+          "text": "the sergeant",
+          "evidence": [
+            30126,
+            30138
+          ]
+        },
+        {
+          "text": "sergeant of dragoons",
+          "evidence": [
+            192503,
+            192523
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f521b716189852a4",
+      "name": "Mistress Margaret Waynflete (book)",
+      "description": "Daughter of Colonel Christopher Waynflete; beautiful, educated, courageous and proud woman who becomes Oliver's lady in distress and key focus of his devotion.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mistress Margaret Waynflete",
+          "evidence": [
+            39768,
+            39795
+          ]
+        },
+        {
+          "text": "Mistress Waynflete",
+          "evidence": [
+            40953,
+            40971
+          ]
+        },
+        {
+          "text": "Margaret",
+          "evidence": [
+            39777,
+            39785
+          ]
+        },
+        {
+          "text": "madam",
+          "evidence": [
+            13768,
+            13773
+          ]
+        },
+        {
+          "text": "Madam",
+          "evidence": [
+            17448,
+            17453
+          ]
+        },
+        {
+          "text": "Molly Brown",
+          "evidence": [
+            20541,
+            20552
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-52ad90fdb9f91431",
+      "name": "Colonel Christopher Waynflete (book)",
+      "description": "Soldier by profession and father of Margaret, formerly in Swedish service; arrested as a suspected Jacobite and central to Margaret's peril.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Colonel Waynflete",
+          "evidence": [
+            43704,
+            43721
+          ]
+        },
+        {
+          "text": "the Colonel",
+          "evidence": [
+            44912,
+            44923
+          ]
+        },
+        {
+          "text": "Colonel",
+          "evidence": [
+            42197,
+            42204
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cdfb47696f143279",
+      "name": "John Freake (Master Freake, book)",
+      "description": "A wealthy, shrewd London merchant with wide resources and influence; a key ally to Margaret and Oliver and possessor of crucial papers.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Master Freake",
+          "evidence": [
+            87795,
+            87808
+          ]
+        },
+        {
+          "text": "Mr. Freake",
+          "evidence": [
+            262342,
+            262352
+          ]
+        },
+        {
+          "text": "Plain John Freake",
+          "evidence": [
+            172431,
+            172448
+          ]
+        },
+        {
+          "text": "John Freake",
+          "evidence": [
+            172437,
+            172448
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b6b4e2f185a5ddcb",
+      "name": "Samuel Nixon (Swift Nicks, book)",
+      "description": "Notorious highwayman referenced and later encountered; called 'Swift Nicks' and also 'Samuel Nixon' in the text.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Swift Nicks",
+          "evidence": [
+            379050,
+            379061
+          ]
+        },
+        {
+          "text": "Samuel Nixon",
+          "evidence": [
+            379018,
+            379030
+          ]
+        },
+        {
+          "text": "Nicks",
+          "evidence": [
+            379056,
+            379061
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf0fc3ff109e7831",
+      "name": "Martha Tonks (\"Marry-me-quick\")",
+      "description": "Ancient back-street woman, called 'Marry-me-quick' (Martha Tonks); a shrewd, kindly old woman who shelters Margaret at the 'Ring of Bells'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marry-me-quick",
+          "evidence": [
+            53250,
+            53264
+          ]
+        },
+        {
+          "text": "Mistress Tonks",
+          "evidence": [
+            67416,
+            67430
+          ]
+        },
+        {
+          "text": "Martha Tonks",
+          "evidence": [
+            65213,
+            65225
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-de931741366ec5e7",
+      "name": "Sir Ralph Sneyd",
+      "description": "A local Staffordshire baronet mentioned among officers and gentry present at gatherings in the town.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Ralph Sneyd",
+          "evidence": [
+            38083,
+            38098
+          ]
+        },
+        {
+          "text": "Sir Ralph",
+          "evidence": [
+            38083,
+            38092
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5d69cedc33da82ec",
+      "name": "Sultan (horse, book)",
+      "description": "Colonel Waynflete's horse; called by name and fondly by Margaret and others.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sultan",
+          "evidence": [
+            190851,
+            190857
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-769d9e52fbfc7bb4",
+      "name": "Master Bloggs",
+      "description": "The old grammar-schoolmaster of Oliver's youth who teaches him Virgil and Latin; referred to as 'old Bloggs' or 'Master Bloggs'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Master Bloggs",
+          "evidence": [
+            110599,
+            110612
+          ]
+        },
+        {
+          "text": "old Bloggs",
+          "evidence": [
+            4342,
+            4352
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f68456950ddd7256",
+      "name": "Lord George Murray",
+      "description": "Lord George Murray, chief military adviser to Prince Charles; voices the main military argument for withdrawing north.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lord George Murray",
+          "evidence": [
+            318224,
+            318242
+          ]
+        },
+        {
+          "text": "Murray",
+          "evidence": [
+            251467,
+            251473
+          ]
+        },
+        {
+          "text": "Lord Murray",
+          "evidence": [
+            352506,
+            352517
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e5090f0ce930d83",
+      "name": "Prince Charles (Bonnie Prince Charlie)",
+      "description": "Charles Edward Stuart, the 'Prince' leading the Jacobite rising; charismatic but at times incautious and driven by hope.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Prince Charles",
+          "evidence": [
+            43270,
+            43284
+          ]
+        },
+        {
+          "text": "the Prince",
+          "evidence": [
+            44767,
+            44777
+          ]
+        },
+        {
+          "text": "His Royal Highness",
+          "evidence": [
+            370344,
+            370362
+          ]
+        },
+        {
+          "text": "Charles",
+          "evidence": [
+            1037,
+            1044
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7858a56d51f83302",
+      "name": "Sir James Blount (book)",
+      "description": "A gentleman with Jacobite sympathies who hosts in Exeter House; later reconciles private obligations with the political situation.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir James Blount",
+          "evidence": [
+            375668,
+            375684
+          ]
+        },
+        {
+          "text": "Sir James",
+          "evidence": [
+            375668,
+            375677
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3350a275d7b66cdc",
+      "name": "Lord Ogilvie (Davie Ogilvie)",
+      "description": "Young Scottish noble devoted to his wife Ishbel; amiable and active in the Jacobite court and campaigns.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lord Ogilvie",
+          "evidence": [
+            376309,
+            376321
+          ]
+        },
+        {
+          "text": "Davie",
+          "evidence": [
+            368851,
+            368856
+          ]
+        },
+        {
+          "text": "my Lord Ogilvie",
+          "evidence": [
+            376306,
+            376321
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6de72e70058ced7f",
+      "name": "Ishbel Ogilvie (Lady Ogilvie)",
+      "description": "Lady Ogilvie (Ishbel), a vivacious lady of fashion and friend to Margaret.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lady Ogilvie",
+          "evidence": [
+            368627,
+            368639
+          ]
+        },
+        {
+          "text": "Ishbel",
+          "evidence": [
+            380590,
+            380596
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-093bbe89ccb1fafd",
+      "name": "Maclachlan (Captain Maclachlan)",
+      "description": "A young Highland chief and officer attached to the Prince's forces; ardent, brave, and enamoured of Margaret.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Maclachlan",
+          "evidence": [
+            314628,
+            314638
+          ]
+        },
+        {
+          "text": "Captain Maclachlan",
+          "evidence": [
+            314620,
+            314638
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-31368f31814e26a6",
+      "name": "Donald (Maclachlan's foster-brother, book)",
+      "description": "Maclachlan's foster-brother and a fierce Highlander; brave, devoted, and tragic — pivotal after Maclachlan's death.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Donald",
+          "evidence": [
+            316417,
+            316423
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8c223f1a36fc381a",
+      "name": "Lochiel",
+      "description": "A Highland chief present among the leaders; outspoken and influential.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lochiel",
+          "evidence": [
+            516253,
+            516260
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-83ecc555002f506d",
+      "name": "Marquess of Tiverton (book)",
+      "description": "The Marquess (Lord Tiverton), a courtly aristocrat in the Prince's company; social and urbane, favored by the Prince.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marquess of Tiverton",
+          "evidence": [
+            436543,
+            436563
+          ]
+        },
+        {
+          "text": "Lord Tiverton",
+          "evidence": [
+            428890,
+            428903
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f09a602e6d740ca8",
+      "name": "Colonel Ker",
+      "description": "Colonel Ker, a Highland commander whose vanguard saved Margaret and Waynflete; a cooperating military leader.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Colonel Ker",
+          "evidence": [
+            314536,
+            314547
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-02e8f6ff617abe64",
+      "name": "Colonel O'Sullivan",
+      "description": "An Irish officer and adviser who supports pressing on to London and argues for continued action.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Colonel O'Sullivan",
+          "evidence": [
+            474075,
+            474093
+          ]
+        },
+        {
+          "text": "O'Sullivan",
+          "evidence": [
+            474083,
+            474093
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-acbd486741db0802",
+      "name": "Sir Thomas Sheridan",
+      "description": "An Irish gentleman present in counsel; witty and involved in debate over military plans.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Thomas Sheridan",
+          "evidence": [
+            474050,
+            474069
+          ]
+        },
+        {
+          "text": "Sir Thomas",
+          "evidence": [
+            474050,
+            474060
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4a949f1d28c6675f",
+      "name": "Dot Gibson",
+      "description": "An agent/operative in Master Freake's employ used for local inquiries and actions; practical and resourceful.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dot Gibson",
+          "evidence": [
+            440648,
+            440658
+          ]
+        },
+        {
+          "text": "Dot",
+          "evidence": [
+            440648,
+            440651
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-50cf83853081446b",
+      "name": "Jonadab Kilroot",
+      "description": "Master (captain) of the ship 'Merchant of London' that carries Oliver to America; a practical, blunt sea-captain.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jonadab Kilroot",
+          "evidence": [
+            626672,
+            626687
+          ]
+        },
+        {
+          "text": "Master Kilroot",
+          "evidence": [
+            632159,
+            632173
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-376907019f2f8b54",
+      "name": "Peter Faneuil",
+      "description": "A wealthy Boston merchant who assists Oliver during his American exile; hospitable and influential in Boston society.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Peter Faneuil",
+          "evidence": [
+            632240,
+            632253
+          ]
+        },
+        {
+          "text": "Mr. Peter Faneuil",
+          "evidence": [
+            632236,
+            632253
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-33688da12035ce65",
+      "name": "Oliver Wheatman (The Yeoman Adventurer)",
+      "description": "Narrator and protagonist; yeoman returned from America (called Noll); central figure of the story.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Oliver",
+          "evidence": [
+            23922,
+            23928
+          ]
+        },
+        {
+          "text": "Noll",
+          "evidence": [
+            3958,
+            3962
+          ]
+        },
+        {
+          "text": "Mr. Wheatman",
+          "evidence": [
+            417728,
+            417740
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-582cee7f964220c2",
+      "name": "Margaret Waynflete (The Yeoman Adventurer)",
+      "description": "Narrator's love and later wife; the heiress (Miss Waynflete) and central female figure.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Margaret",
+          "evidence": [
+            39777,
+            39785
+          ]
+        },
+        {
+          "text": "Miss Waynflete",
+          "evidence": [
+            641591,
+            641605
+          ]
+        },
+        {
+          "text": "my Margaret",
+          "evidence": [
+            231052,
+            231063
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0fb1ba11bf23fba5",
+      "name": "Marquess of Tiverton (The Yeoman Adventurer)",
+      "description": "A marquess who courts Margaret; companion of the narrator; gambler and dramatist in society scenes.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "the Marquess of Tiverton",
+          "evidence": [
+            436539,
+            436563
+          ]
+        },
+        {
+          "text": "Tiverton",
+          "evidence": [
+            428895,
+            428903
+          ]
+        },
+        {
+          "text": "My Lord Tiverton",
+          "evidence": [
+            428887,
+            428903
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c9768f5c63d1ed93",
+      "name": "Lord Brocton (The Yeoman Adventurer)",
+      "description": "A nobleman and rival suitor; antagonist in a threatened public quarrel at White's.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Brocton",
+          "evidence": [
+            4177,
+            4184
+          ]
+        },
+        {
+          "text": "My Lord Brocton",
+          "evidence": [
+            18897,
+            18912
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-36cec1abd9f700ed",
+      "name": "Sir Patrick Gee",
+      "description": "Coarse gambler and observer at White's who provokes and jeers during the challenge.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Sir Patrick Gee",
+          "evidence": [
+            648525,
+            648540
+          ]
+        },
+        {
+          "text": "Gee",
+          "evidence": [
+            648537,
+            648540
+          ]
+        },
+        {
+          "text": "Sir Patrick",
+          "evidence": [
+            648525,
+            648536
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-76b393880c0c5962",
+      "name": "Signor Zandra",
+      "description": "Italian teacher/assistant who aided the narrator in language matters.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Signor Zandra",
+          "evidence": [
+            635917,
+            635930
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-235216b254e5c3a9",
+      "name": "Master Freake (The Yeoman Adventurer)",
+      "description": "Wealthy nabob/merchant; father of the heiress and influential friend to the narrator; later partner in social ties.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Master Freake",
+          "evidence": [
+            87795,
+            87808
+          ]
+        },
+        {
+          "text": "Mr. Freake",
+          "evidence": [
+            262342,
+            262352
+          ]
+        },
+        {
+          "text": "Freake",
+          "evidence": [
+            87802,
+            87808
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-17f164c539602216",
+      "name": "the nabobess",
+      "description": "Wife/mother figure associated with Master Freake; wealthy nabob's wife who later marries the Marquess.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "the nabobess",
+          "evidence": [
+            655044,
+            655056
+          ]
+        },
+        {
+          "text": "nabobess",
+          "evidence": [
+            655048,
+            655056
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-793d7c8778fb59b0",
+      "name": "Sir James Blount (The Yeoman Adventurer)",
+      "description": "A baronet who brings news and features in household and social scenes.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Sir James Blount",
+          "evidence": [
+            375668,
+            375684
+          ]
+        },
+        {
+          "text": "Blount",
+          "evidence": [
+            375678,
+            375684
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3dba41161cdc9925",
+      "name": "Lady Blount",
+      "description": "Wife of Sir James Blount; hostess at whose home narrator encounters Margaret and baby Blount.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Lady Blount",
+          "evidence": [
+            657518,
+            657529
+          ]
+        },
+        {
+          "text": "the Blounts",
+          "evidence": [
+            439861,
+            439872
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9a57d2ed45174c91",
+      "name": "baby Blount",
+      "description": "Young child of the Blounts who playfully tugs at the narrator's hair.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "baby Blount",
+          "evidence": [
+            499050,
+            499061
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-02580055ede73120",
+      "name": "Jack Dobson (The Yeoman Adventurer)",
+      "description": "Friend of the narrator; formerly wounded soldier who recovers, marries Kate and later goes into business.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Jack",
+          "evidence": [
+            3342,
+            3346
+          ]
+        },
+        {
+          "text": "Jack Dobson",
+          "evidence": [
+            3342,
+            3353
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b776fc57f74d58bf",
+      "name": "Master Dobson (The Yeoman Adventurer)",
+      "description": "Father of Jack Dobson; business-minded and concerned with suitability for his son's marriage.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Master Dobson",
+          "evidence": [
+            69462,
+            69475
+          ]
+        },
+        {
+          "text": "Dobson",
+          "evidence": [
+            3347,
+            3353
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e47687a630531d6",
+      "name": "Kate (The Yeoman Adventurer)",
+      "description": "Narrator's sister (often called 'our Kate'); affectionate, practical; marries Jack Dobson.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Kate",
+          "evidence": [
+            2119,
+            2123
+          ]
+        },
+        {
+          "text": "our Kate",
+          "evidence": [
+            26930,
+            26938
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-80e83f987f3bc832",
+      "name": "Joe Braggs (The Yeoman Adventurer)",
+      "description": "Bailiff at the Hanyards; longtime servant and manager of the estate for the narrator; sometimes grumbling but loyal.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Joe Braggs",
+          "evidence": [
+            2125,
+            2135
+          ]
+        },
+        {
+          "text": "Master Joe Braggs",
+          "evidence": [
+            686563,
+            686580
+          ]
+        },
+        {
+          "text": "Joe",
+          "evidence": [
+            2125,
+            2128
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-09ed6fae1968e470",
+      "name": "Jane Braggs",
+      "description": "Wife of Joe Braggs or household woman; busy in the kitchen and part of family life.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Jane",
+          "evidence": [
+            6591,
+            6595
+          ]
+        },
+        {
+          "text": "Mistress Jane Braggs",
+          "evidence": [
+            686585,
+            686605
+          ]
+        },
+        {
+          "text": "Jane Braggs",
+          "evidence": [
+            686594,
+            686605
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fe076f29db8b94a9",
+      "name": "Mother (Wheatman family matriarch)",
+      "description": "Narrator's mother; matriarch present in household scenes and comforts the narrator.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "mother",
+          "evidence": [
+            2520,
+            2526
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dc29f818a273f74a",
+      "name": "Archdeacon of Lichfield",
+      "description": "Once the local vicar at the Hanyards; gentle, fatherly cleric who later holds the title Archdeacon of Lichfield.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "the vicar",
+          "evidence": [
+            2351,
+            2360
+          ]
+        },
+        {
+          "text": "Archdeacon of Lichfield",
+          "evidence": [
+            686806,
+            686829
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c892f9d35400ac16",
+      "name": "the Colonel (friend)",
+      "description": "A Colonel and family friend who gives hearty approval at the narrator's marriage.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "the Colonel",
+          "evidence": [
+            44912,
+            44923
+          ]
+        },
+        {
+          "text": "Colonel",
+          "evidence": [
+            42197,
+            42204
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5a1d59896df6f7fb",
+      "name": "Master Whatcot",
+      "description": "Craftsman who mounted the famous 'great jack' (taxidermied specimen); associated with angling lore in the house.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Master Whatcot",
+          "evidence": [
+            35638,
+            35652
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f84609f6fddbd1d5",
+      "name": "Sultan (horse, The Yeoman Adventurer)",
+      "description": "A horse referenced by the narrator (a mount he did not ride on one occasion).",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Sultan",
+          "evidence": [
+            190851,
+            190857
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5dbd50f320cb5bd",
+      "name": "Swift Nicks (The Yeoman Adventurer)",
+      "description": "Figure appearing in the narrator's memory connected with a dead man and a bag of guineas (associated with past violence/theft).",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Swift Nicks",
+          "evidence": [
+            379050,
+            379061
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a8184442ce8cc45a",
+      "name": "Donald (The Yeoman Adventurer)",
+      "description": "Companion mentioned among the dead (buried on Shap); part of narrator's wartime/earlier memories.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Donald",
+          "evidence": [
+            316417,
+            316423
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aee00d8962a1efa2",
+      "name": "Sim",
+      "description": "Acquaintance encountered on the couple's later journey; assisted to find a good match and business.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Sim",
+          "evidence": [
+            236088,
+            236091
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-71579e20ce99ef12",
+      "name": "Cherry-Cheeks",
+      "description": "Person met on the couple's journey (mentioned among those they visited).",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Cherry-Cheeks",
+          "evidence": [
+            236973,
+            236986
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4492a0f62585d8bc",
+      "name": "Nance Lousely",
+      "description": "A woman ('sweet Nance Lousely') whom the narrator and Margaret helped materially on their journey.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Nance Lousely",
+          "evidence": [
+            462831,
+            462844
+          ]
+        },
+        {
+          "text": "sweet Nance Lousely",
+          "evidence": [
+            685656,
+            685675
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0472146af106bf99",
+      "name": "Oliver (son of Oliver Wheatman)",
+      "description": "Narrator's son (a boy) who catches a 'little jack' fish in the household scene of the epilogue.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Oliver",
+          "evidence": [
+            23922,
+            23928
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cb7afa297278721f",
+      "name": "Margaret (daughter of Oliver Wheatman)",
+      "description": "Narrator's young daughter ('my other Margaret'); cherished child present in household scenes.",
+      "scope": "The Yeoman Adventurer",
+      "aliases": [
+        {
+          "text": "Margaret",
+          "evidence": [
+            39777,
+            39785
+          ]
+        }
+      ]
+    }
+  ]
+}

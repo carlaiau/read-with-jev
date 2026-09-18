@@ -1,0 +1,125 @@
+{
+  "chunks": [
+    {
+      "start": 1196,
+      "end": 651180,
+      "key": "711a890a9d1df7fbc5d78fa3eb1d1d0dbb644070891a051141e369d6e22ab2e4",
+      "usage": {
+        "input_tokens": 168651,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 9340,
+        "output_tokens_details": {
+          "reasoning_tokens": 5952
+        },
+        "total_tokens": 177991
+      }
+    },
+    {
+      "start": 651180,
+      "end": 777855,
+      "key": "3f9ff45dc1b43194c867f9f882a5d8bb24994bd72bed3e2f854bbeafe085a62e",
+      "usage": {
+        "input_tokens": 32342,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5322,
+        "output_tokens_details": {
+          "reasoning_tokens": 3904
+        },
+        "total_tokens": 37664
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "c24f5ddd1f6ad9e2b642ced0a416800458f30f248ba3af5952d0539b31f009f2",
+    "usage": {
+      "input_tokens": 4781,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 4510,
+      "output_tokens_details": {
+        "reasoning_tokens": 1088
+      },
+      "total_tokens": 9291
+    }
+  },
+  "rejected": [
+    {
+      "name": "Countess Winzerode",
+      "alias": "Countess de Winzerode",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Ezra",
+      "alias": "Ezra, the shrewd lawyer",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Curtin",
+      "alias": "Captain Curtin",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Dobbs",
+      "alias": "John Dobbs",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sergt. Edward Hancock",
+      "alias": "Sergt. Edward Hancock",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sergeant Hayden",
+      "alias": "Sergeant Hayden",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sergeant William Moss",
+      "alias": "Sgt. William Moss",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Captain (the little major) / Chatham Governor (unnamed)",
+      "alias": "a cocky little major",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Lord Mayor Waterlow",
+      "alias": "Sir Sidney Waterlow",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "my rat",
+      "alias": "pet member of a despised race of rodents",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "my rat",
+      "alias": "my rat",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Warder Newcombe",
+      "alias": "Warder Newcombe",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Captain Harris",
+      "alias": "Captain Harris",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Doctor Power",
+      "alias": "Doctor Power",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

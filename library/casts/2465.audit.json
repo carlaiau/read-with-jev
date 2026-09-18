@@ -1,0 +1,44 @@
+{
+  "chunks": [
+    {
+      "start": 881,
+      "end": 132693,
+      "key": "1365eac04e60d812c44c1e6a043b10eaf0d8c48c671449f82930628f57a23142",
+      "usage": {
+        "input_tokens": 36986,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6860,
+        "output_tokens_details": {
+          "reasoning_tokens": 5632
+        },
+        "total_tokens": 43846
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Corregidor",
+      "alias": "the Corregidor",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Father Martinez",
+      "alias": "the Dominican friend",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "_El Remendado_",
+      "alias": "_El Remendado_",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "_El Remendado_",
+      "alias": "El Remendado",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

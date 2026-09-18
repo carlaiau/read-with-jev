@@ -1,0 +1,1471 @@
+{
+  "schema": 1,
+  "gutenbergId": 1661,
+  "sourceSha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-0afb55f5cad26938",
+      "name": "Sherlock Holmes",
+      "description": "Consulting detective; brilliant reasoner and observer, central investigator in the narratives.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sherlock Holmes",
+          "evidence": [
+            976,
+            991
+          ]
+        },
+        {
+          "text": "Mr. Sherlock Holmes",
+          "evidence": [
+            44337,
+            44356
+          ]
+        },
+        {
+          "text": "Holmes",
+          "evidence": [
+            985,
+            991
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-77878840cd3d1265",
+      "name": "Dr. John H. Watson",
+      "description": "Medical doctor, narrator and Holmes’ friend and companion.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Watson",
+          "evidence": [
+            51918,
+            51928
+          ]
+        },
+        {
+          "text": "Watson",
+          "evidence": [
+            5436,
+            5442
+          ]
+        },
+        {
+          "text": "Doctor",
+          "evidence": [
+            11640,
+            11646
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-96e6a6a29d421492",
+      "name": "Irene Adler",
+      "description": "Operatic singer; the woman uniquely admired by Sherlock Holmes in 'A Scandal in Bohemia'.",
+      "scope": "A Scandal in Bohemia",
+      "aliases": [
+        {
+          "text": "Irene Adler",
+          "evidence": [
+            1789,
+            1800
+          ]
+        },
+        {
+          "text": "IRENE NORTON, _née_ ADLER",
+          "evidence": [
+            47306,
+            47331
+          ]
+        },
+        {
+          "text": "Madame",
+          "evidence": [
+            31179,
+            31185
+          ]
+        },
+        {
+          "text": "Mademoiselle",
+          "evidence": [
+            20607,
+            20619
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c0f35b8799f2e578",
+      "name": "Wilhelm Gottsreich Sigismond von Ormstein",
+      "description": "Reigning Grand Duke / hereditary King of Bohemia; Holmes’ client in 'A Scandal in Bohemia'.",
+      "scope": "A Scandal in Bohemia",
+      "aliases": [
+        {
+          "text": "Count Von Kramm",
+          "evidence": [
+            13677,
+            13692
+          ]
+        },
+        {
+          "text": "the Count Von Kramm",
+          "evidence": [
+            13673,
+            13692
+          ]
+        },
+        {
+          "text": "the King",
+          "evidence": [
+            15774,
+            15782
+          ]
+        },
+        {
+          "text": "Your Majesty",
+          "evidence": [
+            15857,
+            15869
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-adba9698fd31d225",
+      "name": "Godfrey Norton",
+      "description": "English lawyer; admirer and later husband of Irene Adler in 'A Scandal in Bohemia'.",
+      "scope": "A Scandal in Bohemia",
+      "aliases": [
+        {
+          "text": "Godfrey Norton",
+          "evidence": [
+            25343,
+            25357
+          ]
+        },
+        {
+          "text": "Mr. Godfrey Norton",
+          "evidence": [
+            34433,
+            34451
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c25f658f1b824524",
+      "name": "John (coachman)",
+      "description": "Coachman employed locally who watches and reports movements in 'A Scandal in Bohemia'.",
+      "scope": "A Scandal in Bohemia",
+      "aliases": [
+        {
+          "text": "John, the coachman",
+          "evidence": [
+            46269,
+            46287
+          ]
+        },
+        {
+          "text": "John",
+          "evidence": [
+            20686,
+            20690
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cd18131314082e89",
+      "name": "Mrs. Hudson",
+      "description": "Landlady of Holmes and Watson's Baker Street lodgings.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Hudson",
+          "evidence": [
+            325811,
+            325822
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0e04715d18f15fe2",
+      "name": "Mr. Jabez Wilson",
+      "description": "Portly pawnbroker; client in 'The Red-Headed League' whose odd employment leads to investigation.",
+      "scope": "The Red-Headed League",
+      "aliases": [
+        {
+          "text": "Mr. Jabez Wilson",
+          "evidence": [
+            53837,
+            53853
+          ]
+        },
+        {
+          "text": "Jabez Wilson",
+          "evidence": [
+            51156,
+            51168
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-56d65b144d58252f",
+      "name": "Vincent Spaulding",
+      "description": "Assistant to Jabez Wilson; key local figure whose employment triggers the Red-Headed League plot.",
+      "scope": "The Red-Headed League",
+      "aliases": [
+        {
+          "text": "Vincent Spaulding",
+          "evidence": [
+            57455,
+            57472
+          ]
+        },
+        {
+          "text": "Spaulding",
+          "evidence": [
+            57463,
+            57472
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19567be9c5d286a1",
+      "name": "Mr. Duncan Ross",
+      "description": "Manager figure presented as the Red-Headed League official; operator of the fake office in Fleet Street.",
+      "scope": "The Red-Headed League",
+      "aliases": [
+        {
+          "text": "Mr. Duncan Ross",
+          "evidence": [
+            65141,
+            65156
+          ]
+        },
+        {
+          "text": "Duncan Ross",
+          "evidence": [
+            56245,
+            56256
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-03a079e346d3940b",
+      "name": "William Morris",
+      "description": "Name given by landlord as having used a room (mentioned during the Red-Headed League investigation).",
+      "scope": "The Red-Headed League",
+      "aliases": [
+        {
+          "text": "William Morris",
+          "evidence": [
+            71662,
+            71676
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-373f6547a8e340c5",
+      "name": "John Clay",
+      "description": "Professional criminal, leader of the gang that attempt the bank robbery in 'The Red-Headed League'.",
+      "scope": "The Red-Headed League",
+      "aliases": [
+        {
+          "text": "John Clay",
+          "evidence": [
+            85098,
+            85107
+          ]
+        },
+        {
+          "text": "young John Clay",
+          "evidence": [
+            85333,
+            85348
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c9aa33b24b191d3d",
+      "name": "Archie",
+      "description": "Companion/accomplice involved in the Red-Headed League tunnelling attempt (appears assisting John Clay).",
+      "scope": "The Red-Headed League",
+      "aliases": [
+        {
+          "text": "Archie",
+          "evidence": [
+            93190,
+            93196
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5db7dce45cb8a76f",
+      "name": "Peter Jones",
+      "description": "Police agent of Scotland Yard who assists in 'The Red-Headed League' case.",
+      "scope": "The Red-Headed League",
+      "aliases": [
+        {
+          "text": "Mr. Jones",
+          "evidence": [
+            83687,
+            83696
+          ]
+        },
+        {
+          "text": "Jones",
+          "evidence": [
+            83389,
+            83394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-178176233530be5e",
+      "name": "Mr. Merryweather",
+      "description": "Chairman / bank director (City branch) who participates in the bank-robbery plot investigation in 'The Red-Headed League'.",
+      "scope": "The Red-Headed League",
+      "aliases": [
+        {
+          "text": "Mr. Merryweather",
+          "evidence": [
+            84104,
+            84120
+          ]
+        },
+        {
+          "text": "Merryweather",
+          "evidence": [
+            83745,
+            83757
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7c35b9a24ab71a13",
+      "name": "Miss Mary Sutherland",
+      "description": "Young woman who consults Holmes about the disappearance of Mr. Hosmer Angel in 'A Case of Identity'.",
+      "scope": "A Case of Identity",
+      "aliases": [
+        {
+          "text": "Miss Mary Sutherland",
+          "evidence": [
+            50706,
+            50726
+          ]
+        },
+        {
+          "text": "Mary Sutherland",
+          "evidence": [
+            50711,
+            50726
+          ]
+        },
+        {
+          "text": "Miss Mary",
+          "evidence": [
+            50706,
+            50715
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-af6e63721e77c909",
+      "name": "James Windibank",
+      "description": "Mary Sutherland's stepfather who is revealed to have impersonated 'Hosmer Angel' in 'A Case of Identity'.",
+      "scope": "A Case of Identity",
+      "aliases": [
+        {
+          "text": "Mr. James Windibank",
+          "evidence": [
+            127102,
+            127121
+          ]
+        },
+        {
+          "text": "Mr. Windibank",
+          "evidence": [
+            106909,
+            106922
+          ]
+        },
+        {
+          "text": "Windibank",
+          "evidence": [
+            106913,
+            106922
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-43e144bcd596fb5d",
+      "name": "Mr. Hosmer Angel",
+      "description": "Name of the man who courted Mary Sutherland and who turns out to be an impostor in 'A Case of Identity'.",
+      "scope": "A Case of Identity",
+      "aliases": [
+        {
+          "text": "Mr. Hosmer Angel",
+          "evidence": [
+            106564,
+            106580
+          ]
+        },
+        {
+          "text": "Hosmer Angel",
+          "evidence": [
+            106568,
+            106580
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-02e0361851914f61",
+      "name": "Mr. Lestrade",
+      "description": "Inspector from Scotland Yard; appears in several investigations (referred to or appearing).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lestrade",
+          "evidence": [
+            146039,
+            146047
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-54f4d076544e784c",
+      "name": "Mr. John Turner",
+      "description": "Large local landowner in Boscombe Valley; friend of McCarthy family; later confesses to killing Charles McCarthy in 'The Boscombe Valley Mystery'.",
+      "scope": "The Boscombe Valley Mystery",
+      "aliases": [
+        {
+          "text": "Mr. Turner",
+          "evidence": [
+            142932,
+            142942
+          ]
+        },
+        {
+          "text": "Turner",
+          "evidence": [
+            30884,
+            30890
+          ]
+        },
+        {
+          "text": "old Turner",
+          "evidence": [
+            183449,
+            183459
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1533bc8e7b2fc1b",
+      "name": "Charles McCarthy",
+      "description": "Tenant of Hatherley Farm; the murdered man in 'The Boscombe Valley Mystery'.",
+      "scope": "The Boscombe Valley Mystery",
+      "aliases": [
+        {
+          "text": "Mr. Charles McCarthy",
+          "evidence": [
+            141285,
+            141305
+          ]
+        },
+        {
+          "text": "Mr. McCarthy",
+          "evidence": [
+            142978,
+            142990
+          ]
+        },
+        {
+          "text": "McCarthy the elder",
+          "evidence": [
+            143931,
+            143949
+          ]
+        },
+        {
+          "text": "McCarthy senior",
+          "evidence": [
+            169435,
+            169450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-066d43d5aecd9065",
+      "name": "James McCarthy",
+      "description": "Son of Charles McCarthy and accused of his father's murder in 'The Boscombe Valley Mystery'.",
+      "scope": "The Boscombe Valley Mystery",
+      "aliases": [
+        {
+          "text": "Mr. James McCarthy",
+          "evidence": [
+            150450,
+            150468
+          ]
+        },
+        {
+          "text": "James McCarthy",
+          "evidence": [
+            143116,
+            143130
+          ]
+        },
+        {
+          "text": "young Mr. McCarthy",
+          "evidence": [
+            144322,
+            144340
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-520e081ae667fc3d",
+      "name": "William Crowder",
+      "description": "Game-keeper employed by Mr. Turner who witnesses movements near Boscombe Pool.",
+      "scope": "The Boscombe Valley Mystery",
+      "aliases": [
+        {
+          "text": "William Crowder",
+          "evidence": [
+            142883,
+            142898
+          ]
+        },
+        {
+          "text": "Crowder",
+          "evidence": [
+            142891,
+            142898
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ac600514a0089fea",
+      "name": "Patience Moran",
+      "description": "Daughter of the lodge-keeper of Boscombe Valley; eyewitness who hears quarrel beside the pool.",
+      "scope": "The Boscombe Valley Mystery",
+      "aliases": [
+        {
+          "text": "Patience Moran",
+          "evidence": [
+            143610,
+            143624
+          ]
+        },
+        {
+          "text": "Moran",
+          "evidence": [
+            143619,
+            143624
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2b3f3783498eb898",
+      "name": "Dr. Willows",
+      "description": "Local physician who attends in 'The Boscombe Valley Mystery' and comments on Turner's health.",
+      "scope": "The Boscombe Valley Mystery",
+      "aliases": [
+        {
+          "text": "Dr. Willows",
+          "evidence": [
+            160512,
+            160523
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18b45a1b7ff9b786",
+      "name": "John Openshaw",
+      "description": "Young man terrorized by warnings and orange pips; victim in 'The Five Orange Pips'.",
+      "scope": "The Five Orange Pips",
+      "aliases": [
+        {
+          "text": "John Openshaw",
+          "evidence": [
+            196615,
+            196628
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d4452840aeddfd06",
+      "name": "Captain James Calhoun",
+      "description": "Captain of the barque _Lone Star_, named in Holmes’ tracing of the Five Orange Pips senders.",
+      "scope": "The Five Orange Pips",
+      "aliases": [
+        {
+          "text": "Captain James Calhoun",
+          "evidence": [
+            227892,
+            227913
+          ]
+        },
+        {
+          "text": "Barque _Lone Star_",
+          "evidence": [
+            227916,
+            227934
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aaabee0f57b06a19",
+      "name": "Major Prendergast",
+      "description": "Acquaintance who recommended Holmes to John Openshaw in 'The Five Orange Pips'.",
+      "scope": "The Five Orange Pips",
+      "aliases": [
+        {
+          "text": "Major Prendergast",
+          "evidence": [
+            195439,
+            195456
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-00494f912c3e1022",
+      "name": "Isa Whitney",
+      "description": "Man addicted to opium; central to the opening of 'The Man with the Twisted Lip' (family name Whitney appears).",
+      "scope": "The Man with the Twisted Lip",
+      "aliases": [
+        {
+          "text": "Isa Whitney",
+          "evidence": [
+            230838,
+            230849
+          ]
+        },
+        {
+          "text": "Mr. Isa Whitney",
+          "evidence": [
+            236590,
+            236605
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-35709d3fe47ad50e",
+      "name": "Kate Whitney",
+      "description": "Wife of Isa Whitney who seeks Holmes’ help in 'The Man with the Twisted Lip'.",
+      "scope": "The Man with the Twisted Lip",
+      "aliases": [
+        {
+          "text": "Kate Whitney",
+          "evidence": [
+            232452,
+            232464
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-936a4b3c492f569e",
+      "name": "Neville St. Clair",
+      "description": "Respectable gentleman who is found to be living as the beggar 'Hugh Boone' in 'The Man with the Twisted Lip'.",
+      "scope": "The Man with the Twisted Lip",
+      "aliases": [
+        {
+          "text": "Neville St. Clair",
+          "evidence": [
+            241608,
+            241625
+          ]
+        },
+        {
+          "text": "Mr. Neville St. Clair",
+          "evidence": [
+            245561,
+            245582
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c5e5a5468bed0961",
+      "name": "Hugh Boone",
+      "description": "Well-known professional beggar with a twisted lip who is revealed to be Neville St. Clair in 'The Man with the Twisted Lip'.",
+      "scope": "The Man with the Twisted Lip",
+      "aliases": [
+        {
+          "text": "Hugh Boone",
+          "evidence": [
+            250597,
+            250607
+          ]
+        },
+        {
+          "text": "boon",
+          "evidence": [
+            334668,
+            334672
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-14cc3497f1e46bfa",
+      "name": "Lascar (opium den attendant)",
+      "description": "Lascar proprietor/attendant of the opium den where Holmes investigates 'The Man with the Twisted Lip'.",
+      "scope": "The Man with the Twisted Lip",
+      "aliases": [
+        {
+          "text": "the Lascar",
+          "evidence": [
+            248403,
+            248413
+          ]
+        },
+        {
+          "text": "Lascar",
+          "evidence": [
+            241142,
+            241148
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ff1ade52375c6845",
+      "name": "Peterson",
+      "description": "Commissionaire who finds Henry Baker’s hat and the goose in 'The Adventure of the Blue Carbuncle'.",
+      "scope": "The Adventure of the Blue Carbuncle",
+      "aliases": [
+        {
+          "text": "Peterson",
+          "evidence": [
+            283344,
+            283352
+          ]
+        },
+        {
+          "text": "Peterson, the commissionaire",
+          "evidence": [
+            292251,
+            292279
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e25be8ec2670f0f6",
+      "name": "Henry Baker",
+      "description": "Owner (finder) of the battered hat connected to the blue carbuncle mystery in 'The Adventure of the Blue Carbuncle'.",
+      "scope": "The Adventure of the Blue Carbuncle",
+      "aliases": [
+        {
+          "text": "Mr. Henry Baker",
+          "evidence": [
+            296544,
+            296559
+          ]
+        },
+        {
+          "text": "Henry Baker",
+          "evidence": [
+            285092,
+            285103
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f948bef449cd98f4",
+      "name": "Countess of Morcar",
+      "description": "Owner of the famous blue carbuncle jewel that drives the investigation in 'The Adventure of the Blue Carbuncle'.",
+      "scope": "The Adventure of the Blue Carbuncle",
+      "aliases": [
+        {
+          "text": "the Countess of Morcar",
+          "evidence": [
+            293230,
+            293252
+          ]
+        },
+        {
+          "text": "Countess of Morcar",
+          "evidence": [
+            293234,
+            293252
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47747dba8ceb3330",
+      "name": "John Horner",
+      "description": "Plumber accused of having stolen the blue carbuncle in 'The Adventure of the Blue Carbuncle'.",
+      "scope": "The Adventure of the Blue Carbuncle",
+      "aliases": [
+        {
+          "text": "John Horner",
+          "evidence": [
+            294065,
+            294076
+          ]
+        },
+        {
+          "text": "Horner",
+          "evidence": [
+            294070,
+            294076
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3375b68f2d4f12a7",
+      "name": "James Ryder",
+      "description": "Hotel upper-attendant who is the actual thief in 'The Adventure of the Blue Carbuncle'; confesses and is spared by Holmes.",
+      "scope": "The Adventure of the Blue Carbuncle",
+      "aliases": [
+        {
+          "text": "James Ryder",
+          "evidence": [
+            294674,
+            294685
+          ]
+        },
+        {
+          "text": "Ryder",
+          "evidence": [
+            294680,
+            294685
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ec16e6b3fad491ad",
+      "name": "Breckinridge",
+      "description": "Covent Garden poultry salesman involved in the trace of the goose in 'The Adventure of the Blue Carbuncle'.",
+      "scope": "The Adventure of the Blue Carbuncle",
+      "aliases": [
+        {
+          "text": "Breckinridge",
+          "evidence": [
+            305422,
+            305434
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fec863ed442ea9f1",
+      "name": "Mrs. Oakshott",
+      "description": "Brixton Road poultry supplier whose account appears in the stall ledger in 'The Adventure of the Blue Carbuncle'.",
+      "scope": "The Adventure of the Blue Carbuncle",
+      "aliases": [
+        {
+          "text": "Mrs. Oakshott",
+          "evidence": [
+            309401,
+            309414
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7ed3d35dfd0a94dc",
+      "name": "Dr. Grimesby Roylott",
+      "description": "Violent, eccentric doctor of Stoke Moran responsible for the speckled band and the death in 'The Adventure of the Speckled Band'.",
+      "scope": "The Adventure of the Speckled Band",
+      "aliases": [
+        {
+          "text": "Dr. Grimesby Roylott",
+          "evidence": [
+            325260,
+            325280
+          ]
+        },
+        {
+          "text": "Grimesby Roylott",
+          "evidence": [
+            325264,
+            325280
+          ]
+        },
+        {
+          "text": "Dr. Roylott",
+          "evidence": [
+            332347,
+            332358
+          ]
+        },
+        {
+          "text": "the Doctor",
+          "evidence": [
+            338160,
+            338170
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9c744c768d182daa",
+      "name": "Helen Stoner",
+      "description": "Visitor who seeks Holmes' help about her sister’s mysterious death in 'The Adventure of the Speckled Band'.",
+      "scope": "The Adventure of the Speckled Band",
+      "aliases": [
+        {
+          "text": "Helen Stoner",
+          "evidence": [
+            330917,
+            330929
+          ]
+        },
+        {
+          "text": "Miss Stoner",
+          "evidence": [
+            349281,
+            349292
+          ]
+        },
+        {
+          "text": "Miss Helen Stoner",
+          "evidence": [
+            346770,
+            346787
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-39ed0f14749b46a7",
+      "name": "Alice Turner",
+      "description": "Daughter of Mr. Turner (Boscombe Valley); involved in the Boscombe story (appears in The Boscombe Valley Mystery).",
+      "scope": "The Boscombe Valley Mystery",
+      "aliases": [
+        {
+          "text": "Miss Turner",
+          "evidence": [
+            145929,
+            145940
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8697939383d10061",
+      "name": "Victor Hatherley",
+      "description": "Hydraulic engineer, victim of maiming and narrator of 'The Adventure of the Engineer’s Thumb'.",
+      "scope": "The Adventure of the Engineer’s Thumb",
+      "aliases": [
+        {
+          "text": "Victor Hatherley",
+          "evidence": [
+            381872,
+            381888
+          ]
+        },
+        {
+          "text": "Mr. Victor Hatherley",
+          "evidence": [
+            381868,
+            381888
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e088c16670adda97",
+      "name": "Colonel Lysander Stark",
+      "description": "Thin, enigmatic American colonel who hires Hatherley and then attempts violence in 'The Adventure of the Engineer’s Thumb'.",
+      "scope": "The Adventure of the Engineer’s Thumb",
+      "aliases": [
+        {
+          "text": "Colonel Lysander Stark",
+          "evidence": [
+            398889,
+            398911
+          ]
+        },
+        {
+          "text": "Colonel Stark",
+          "evidence": [
+            400039,
+            400052
+          ]
+        },
+        {
+          "text": "Lysander Stark",
+          "evidence": [
+            388511,
+            388525
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2e26a6f8947ab9f6",
+      "name": "Mr. Ferguson",
+      "description": "Manager/associate of Colonel Stark mentioned during the hydraulic press episode in 'The Adventure of the Engineer’s Thumb'.",
+      "scope": "The Adventure of the Engineer’s Thumb",
+      "aliases": [
+        {
+          "text": "Mr. Ferguson",
+          "evidence": [
+            404009,
+            404021
+          ]
+        },
+        {
+          "text": "Ferguson",
+          "evidence": [
+            404013,
+            404021
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-547b2105a10b5491",
+      "name": "Dr. Becher",
+      "description": "Local doctor mentioned in aftermath of the hydraulic press fire in 'The Adventure of the Engineer’s Thumb'.",
+      "scope": "The Adventure of the Engineer’s Thumb",
+      "aliases": [
+        {
+          "text": "Dr. Becher",
+          "evidence": [
+            420115,
+            420125
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7bf0377d604f39bd",
+      "name": "Lord Robert Walsingham de Vere St. Simon",
+      "description": "Young nobleman whose bride disappears at their wedding in 'The Adventure of the Noble Bachelor'.",
+      "scope": "The Adventure of the Noble Bachelor",
+      "aliases": [
+        {
+          "text": "Lord Robert St. Simon",
+          "evidence": [
+            429466,
+            429487
+          ]
+        },
+        {
+          "text": "Lord St. Simon",
+          "evidence": [
+            423711,
+            423725
+          ]
+        },
+        {
+          "text": "Lord Robert Walsingham de Vere St. Simon",
+          "evidence": [
+            428168,
+            428208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47b13b36daee1b79",
+      "name": "Miss Hatty Doran",
+      "description": "Bride who vanishes during her wedding breakfast; daughter of Aloysius Doran in 'The Adventure of the Noble Bachelor'.",
+      "scope": "The Adventure of the Noble Bachelor",
+      "aliases": [
+        {
+          "text": "Miss Hatty Doran",
+          "evidence": [
+            429530,
+            429546
+          ]
+        },
+        {
+          "text": "Hatty Doran",
+          "evidence": [
+            429535,
+            429546
+          ]
+        },
+        {
+          "text": "Lady St. Simon",
+          "evidence": [
+            442388,
+            442402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-878b532317e7f218",
+      "name": "Aloysius Doran",
+      "description": "Father of Hatty Doran, American millionaire; present at the wedding in 'The Adventure of the Noble Bachelor'.",
+      "scope": "The Adventure of the Noble Bachelor",
+      "aliases": [
+        {
+          "text": "Aloysius Doran",
+          "evidence": [
+            429570,
+            429584
+          ]
+        },
+        {
+          "text": "Mr. Aloysius Doran",
+          "evidence": [
+            433347,
+            433365
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-178bc6febcbf4b9a",
+      "name": "Francis Hay Moulton",
+      "description": "American gentleman (Frank) who reveals the true cause of the bride’s disappearance in 'The Adventure of the Noble Bachelor'.",
+      "scope": "The Adventure of the Noble Bachelor",
+      "aliases": [
+        {
+          "text": "Frank",
+          "evidence": [
+            260321,
+            260326
+          ]
+        },
+        {
+          "text": "Francis Hay Moulton",
+          "evidence": [
+            456153,
+            456172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f1e147719d3ec4b5",
+      "name": "Mrs. Francis Hay Moulton",
+      "description": "Mrs. Moulton (American) who tells the story of her flight and secret marriage in 'The Adventure of the Noble Bachelor'.",
+      "scope": "The Adventure of the Noble Bachelor",
+      "aliases": [
+        {
+          "text": "Mrs. Moulton",
+          "evidence": [
+            457107,
+            457119
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-60c1b7c63690159e",
+      "name": "Flora Millar",
+      "description": "Dancer ('_danseuse_') who creates a disturbance at the wedding and is briefly suspected of involvement in the bride’s disappearance in 'The Adventure of the Noble Bachelor'.",
+      "scope": "The Adventure of the Noble Bachelor",
+      "aliases": [
+        {
+          "text": "Flora Millar",
+          "evidence": [
+            435422,
+            435434
+          ]
+        },
+        {
+          "text": "Miss Flora Millar",
+          "evidence": [
+            435417,
+            435434
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d9a6c1456d9c89d7",
+      "name": "Alexander Holder",
+      "description": "Senior partner in Holder & Stevenson; banker who takes custody of the Beryl Coronet and suffers its partial mutilation in 'The Adventure of the Beryl Coronet'.",
+      "scope": "The Adventure of the Beryl Coronet",
+      "aliases": [
+        {
+          "text": "Alexander Holder",
+          "evidence": [
+            472786,
+            472802
+          ]
+        },
+        {
+          "text": "Mr. Holder",
+          "evidence": [
+            474784,
+            474794
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8be03c50a3eced65",
+      "name": "Arthur Holder",
+      "description": "Alexander Holder’s son, initially suspected of mutilating and stealing three gems from the Beryl Coronet in 'The Adventure of the Beryl Coronet'.",
+      "scope": "The Adventure of the Beryl Coronet",
+      "aliases": [
+        {
+          "text": "Arthur",
+          "evidence": [
+            998,
+            1004
+          ]
+        },
+        {
+          "text": "the young man",
+          "evidence": [
+            144965,
+            144978
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9608da140f064942",
+      "name": "Mary Holder",
+      "description": "Alexander Holder’s niece; devoted to her uncle and central to family dynamics in 'The Adventure of the Beryl Coronet'.",
+      "scope": "The Adventure of the Beryl Coronet",
+      "aliases": [
+        {
+          "text": "Mary Holder",
+          "evidence": [
+            497672,
+            497683
+          ]
+        },
+        {
+          "text": "Miss Mary Holder",
+          "evidence": [
+            497667,
+            497683
+          ]
+        },
+        {
+          "text": "Mary",
+          "evidence": [
+            6178,
+            6182
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bb9ad5bc1e415313",
+      "name": "Sir George Burnwell",
+      "description": "Worldly, cynical man implicated as the person who obtains the stolen beryls in 'The Adventure of the Beryl Coronet'.",
+      "scope": "The Adventure of the Beryl Coronet",
+      "aliases": [
+        {
+          "text": "Sir George Burnwell",
+          "evidence": [
+            481068,
+            481087
+          ]
+        },
+        {
+          "text": "Burnwell",
+          "evidence": [
+            481079,
+            481087
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b6ed77ccccda91ac",
+      "name": "Jephro Rucastle",
+      "description": "Sullen countryman who keeps his stepdaughter imprisoned in 'The Adventure of the Copper Beeches'; owner of the Copper Beeches.",
+      "scope": "The Adventure of the Copper Beeches",
+      "aliases": [
+        {
+          "text": "Mr. Rucastle",
+          "evidence": [
+            536574,
+            536586
+          ]
+        },
+        {
+          "text": "Rucastle",
+          "evidence": [
+            536578,
+            536586
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3046c0c449c350db",
+      "name": "Mrs. Rucastle",
+      "description": "Young stepmother of Alice Rucastle; married to Jephro Rucastle and devoted to her son in 'The Adventure of the Copper Beeches'.",
+      "scope": "The Adventure of the Copper Beeches",
+      "aliases": [
+        {
+          "text": "Mrs. Rucastle",
+          "evidence": [
+            544463,
+            544476
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-00f217f48b48d97a",
+      "name": "Alice Rucastle",
+      "description": "Jephro Rucastle’s daughter held captive in an upstairs room at the Copper Beeches; later rescued/eloped in the narrative.",
+      "scope": "The Adventure of the Copper Beeches",
+      "aliases": [
+        {
+          "text": "Miss Alice",
+          "evidence": [
+            565146,
+            565156
+          ]
+        },
+        {
+          "text": "Alice Rucastle",
+          "evidence": [
+            565151,
+            565165
+          ]
+        },
+        {
+          "text": "Miss Alice Rucastle",
+          "evidence": [
+            565146,
+            565165
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-075b39b1c7b637bd",
+      "name": "Violet Hunter",
+      "description": "Young governess who is offered a mysterious position at the Copper Beeches and whose observations trigger the rescue in 'The Adventure of the Copper Beeches'.",
+      "scope": "The Adventure of the Copper Beeches",
+      "aliases": [
+        {
+          "text": "Miss Hunter",
+          "evidence": [
+            526620,
+            526631
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-420d3af013150620",
+      "name": "Toller",
+      "description": "Drunken groom/servant at the Copper Beeches, who tends the mastiff dog; his inebriation is part of the household's control of others.",
+      "scope": "The Adventure of the Copper Beeches",
+      "aliases": [
+        {
+          "text": "Toller",
+          "evidence": [
+            547958,
+            547964
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ada83085587250f9",
+      "name": "Mrs. Toller",
+      "description": "Toller’s wife, servant at the Copper Beeches, who knows details about the household and helps reveal the plot.",
+      "scope": "The Adventure of the Copper Beeches",
+      "aliases": [
+        {
+          "text": "Mrs. Toller",
+          "evidence": [
+            564656,
+            564667
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5e1f851b07d48574",
+      "name": "Carlo",
+      "description": "Large mastiff kept at the Copper Beeches used to intimidate and control intruders.",
+      "scope": "The Adventure of the Copper Beeches",
+      "aliases": [
+        {
+          "text": "Carlo",
+          "evidence": [
+            553755,
+            553760
+          ]
+        },
+        {
+          "text": "the mastiff",
+          "evidence": [
+            562178,
+            562189
+          ]
+        },
+        {
+          "text": "the dog",
+          "evidence": [
+            311377,
+            311384
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c22b031c1fee43db",
+      "name": "Miss Stoper",
+      "description": "Manageress of Westaway’s governess agency in London who refers Violet Hunter to the Copper Beeches post.",
+      "scope": "The Adventure of the Copper Beeches",
+      "aliases": [
+        {
+          "text": "Miss Stoper",
+          "evidence": [
+            528008,
+            528019
+          ]
+        },
+        {
+          "text": "Stoper",
+          "evidence": [
+            527681,
+            527687
+          ]
+        }
+      ]
+    }
+  ]
+}

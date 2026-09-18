@@ -1,0 +1,572 @@
+{
+  "schema": 1,
+  "gutenbergId": 40284,
+  "sourceSha256": "50916c89cd7fa5015229f1fa03763852b77b5a0858d708ca3ae69774324aed53",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-512a4f58b90516eb",
+      "name": "Nicholas Howard Danson",
+      "description": "Terran man found with amnesia; central figure who is believed to have crashed in a strange aircraft",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Nicholas Howard Danson",
+          "evidence": [
+            9725,
+            9747
+          ]
+        },
+        {
+          "text": "Nick Danson",
+          "evidence": [
+            14280,
+            14291
+          ]
+        },
+        {
+          "text": "Nick",
+          "evidence": [
+            10200,
+            10204
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-946c92fa11b20f2e",
+      "name": "Beth Danson",
+      "description": "Woman married to Nicholas Danson; helps and shelters the man who appears at her door",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Beth Danson",
+          "evidence": [
+            1363,
+            1374
+          ]
+        },
+        {
+          "text": "Beth",
+          "evidence": [
+            1363,
+            1367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b82d4fb37e18559d",
+      "name": "Detective Lieutenant Nolan Brice",
+      "description": "Everett police detective; friend of Beth Danson and investigator in the crash/missing-person events",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Detective Lieutenant Nolan Brice",
+          "evidence": [
+            17703,
+            17735
+          ]
+        },
+        {
+          "text": "Nolan Brice",
+          "evidence": [
+            17724,
+            17735
+          ]
+        },
+        {
+          "text": "Lieutenant Brice",
+          "evidence": [
+            22187,
+            22203
+          ]
+        },
+        {
+          "text": "Nolan",
+          "evidence": [
+            17724,
+            17729
+          ]
+        },
+        {
+          "text": "Brice",
+          "evidence": [
+            17730,
+            17735
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6753e821c34d309b",
+      "name": "Andy Hocum",
+      "description": "Service-station attendant who shelters the injured man and provides information about two visitors",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Andy Hocum",
+          "evidence": [
+            17020,
+            17030
+          ]
+        },
+        {
+          "text": "Andy",
+          "evidence": [
+            17020,
+            17024
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7a2ccd91a5661030",
+      "name": "Jean Renault",
+      "description": "Fisherman from Nova Scotia who witnesses the speeding craft in the foreword",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Jean Renault",
+          "evidence": [
+            5375,
+            5387
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f58834c12e520c1f",
+      "name": "Lt. Colonel Martin Griswold",
+      "description": "Military officer at CQ operations who reacts to reports of the unidentified craft",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Lt. Colonel Martin Griswold",
+          "evidence": [
+            6650,
+            6677
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7209e0ff7828f79e",
+      "name": "Colonel Delbert",
+      "description": "Officer mentioned sitting across from Lt. Colonel Griswold at CQ operations",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Colonel Delbert",
+          "evidence": [
+            6755,
+            6770
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-53233790e692557e",
+      "name": "Chief Daniels",
+      "description": "Police chief who participates in coordinating local assistance with federal agents",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Chief Daniels",
+          "evidence": [
+            22013,
+            22026
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-95aaf28915c57213",
+      "name": "John Cartwell",
+      "description": "Secret Service agent involved in investigating the wreck; later claims a spacer identity",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "John Cartwell",
+          "evidence": [
+            22213,
+            22226
+          ]
+        },
+        {
+          "text": "Cartwell",
+          "evidence": [
+            22218,
+            22226
+          ]
+        },
+        {
+          "text": "Firstspacer Nesso",
+          "evidence": [
+            179140,
+            179157
+          ]
+        },
+        {
+          "text": "Firstspacer Nesso of the 6th. Terran Command.",
+          "evidence": [
+            179140,
+            179185
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d41c99d6b869f1f",
+      "name": "Sam Morgan",
+      "description": "Secret Service agent working with Cartwell on the investigation",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Sam Morgan",
+          "evidence": [
+            22231,
+            22241
+          ]
+        },
+        {
+          "text": "Sam",
+          "evidence": [
+            22231,
+            22234
+          ]
+        },
+        {
+          "text": "Morgan",
+          "evidence": [
+            22235,
+            22241
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e4de8ba80d48da43",
+      "name": "Arron P. Dickson",
+      "description": "FAA investigator examining the wreckage and offering technical impressions",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Dickson",
+          "evidence": [
+            55865,
+            55872
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-65a5cd6bb8ba29a9",
+      "name": "Benjamin Talbot",
+      "description": "Boy Scout who discovers the mangled aircraft wreckage",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Benjamin Talbot",
+          "evidence": [
+            67231,
+            67246
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-27de188e9f27b14b",
+      "name": "Major Gilbert Donnoue",
+      "description": "Air Force officer (Experimental Wing) mentioned in press coverage of the crash",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Major Gilbert Donnoue",
+          "evidence": [
+            68769,
+            68790
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0128986f2fe81162",
+      "name": "Professor Nichols",
+      "description": "College linguist consulted about unfamiliar markings from the wreckage",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Professor Nichols",
+          "evidence": [
+            95687,
+            95704
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2b747319898ec9c0",
+      "name": "Doctor Zuloe",
+      "description": "Medical officer treating Nolan Brice aboard the spacer ship/hospital",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Doctor Zuloe",
+          "evidence": [
+            155561,
+            155573
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-600a08ae73c390c7",
+      "name": "Commander Imry",
+      "description": "Spacer commander whose plan and actions precipitate the novel's complications",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Commander Imry",
+          "evidence": [
+            44836,
+            44850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aec4087b6952297e",
+      "name": "Lieutenant Peters",
+      "description": "Military officer mentioned at the crash site in charge of troops/Weekend Warriors",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Lieutenant Peters",
+          "evidence": [
+            94761,
+            94778
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea383d105851f6e6",
+      "name": "Peters' kid",
+      "description": "Unnamed child referenced in a case resolution mentioned by Nolan Brice",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "the Peters' kid",
+          "evidence": [
+            18671,
+            18686
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-726e61678050034c",
+      "name": "Janet Holman",
+      "description": "Local model and artist's subject encountered at the cabin",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Janet Holman",
+          "evidence": [
+            79701,
+            79713
+          ]
+        },
+        {
+          "text": "Janet",
+          "evidence": [
+            1132,
+            1137
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b2a94322bf4b9e06",
+      "name": "Firstspacer Lors",
+      "description": "Spacer (Firstspacer Lors) who has been impersonating Nicholas Danson and becomes personally involved",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Firstspacer Lors",
+          "evidence": [
+            44913,
+            44929
+          ]
+        },
+        {
+          "text": "Lors",
+          "evidence": [
+            25864,
+            25868
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18532ac8fe06b0e1",
+      "name": "Firstspacer Narvi",
+      "description": "Spacer comrade of Lors who assists in rescue and operations",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Firstspacer Narvi",
+          "evidence": [
+            112840,
+            112857
+          ]
+        },
+        {
+          "text": "Narvi",
+          "evidence": [
+            112852,
+            112857
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-42022d7522c4f7b7",
+      "name": "Firstspacer Thesa",
+      "description": "Spacer who aids Lors and Narvi (provides quarters/uniforms)",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Firstspacer Thesa",
+          "evidence": [
+            132192,
+            132209
+          ]
+        },
+        {
+          "text": "Thesa",
+          "evidence": [
+            114300,
+            114305
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b0e0e07100dc3dc1",
+      "name": "Commander Zark",
+      "description": "High-ranking spacer commander; father of Jela and authority on spacer decisions",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Commander Zark",
+          "evidence": [
+            120238,
+            120252
+          ]
+        },
+        {
+          "text": "Zark",
+          "evidence": [
+            120047,
+            120051
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6da1a8d988200e25",
+      "name": "Jela",
+      "description": "Commander Zark's daughter; spacer woman with whom Lors has a relationship",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Jela",
+          "evidence": [
+            25984,
+            25988
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-085ead92f83428f1",
+      "name": "Everett farmwife",
+      "description": "Local farm woman who provides coffee and hospitality to investigators (unnamed in text)",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "The woman, whose name Nolan hadn't caught",
+          "evidence": [
+            61432,
+            61473
+          ]
+        },
+        {
+          "text": "the farmwife",
+          "evidence": [
+            62310,
+            62322
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-004d4f28d9c16ef0",
+      "name": "Jimmy Dilson",
+      "description": "Local resident briefly mentioned walking to Willer Creek",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "Jimmy Dilson",
+          "evidence": [
+            28472,
+            28484
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-90ff20738dbd396a",
+      "name": "Two men from Andy Hocum's gas station",
+      "description": "Two unnamed men who inquire about Nick at the gas station; described as a talkative blond and a quieter sandy-haired man and later pursue Beth/Nick",
+      "scope": "The Sex Life of the Gods",
+      "aliases": [
+        {
+          "text": "the two men",
+          "evidence": [
+            21823,
+            21834
+          ]
+        },
+        {
+          "text": "the two men from Andy Hocum's gas station",
+          "evidence": [
+            108067,
+            108108
+          ]
+        },
+        {
+          "text": "the blond giant",
+          "evidence": [
+            112926,
+            112941
+          ]
+        },
+        {
+          "text": "the sandy haired guy",
+          "evidence": [
+            108132,
+            108152
+          ]
+        }
+      ]
+    }
+  ]
+}

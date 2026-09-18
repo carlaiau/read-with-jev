@@ -1,0 +1,651 @@
+{
+  "schema": 1,
+  "gutenbergId": 21839,
+  "sourceSha256": "3c091e71db07bdf542d564c8dfa9b8f7c82baef37814755587cecc14ab76e5af",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-0c1bfcc57f26902b",
+      "name": "Elinor Dashwood",
+      "description": "Eldest Dashwood sister; sensible, calm, and the family's chief counsellor and central female protagonist.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Elinor",
+          "evidence": [
+            3803,
+            3809
+          ]
+        },
+        {
+          "text": "Miss Dashwood",
+          "evidence": [
+            6136,
+            6149
+          ]
+        },
+        {
+          "text": "Elinor's",
+          "evidence": [
+            26139,
+            26147
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-078723fc88c3c67f",
+      "name": "Marianne Dashwood",
+      "description": "Second Dashwood sister; passionate, romantic, and emotionally expressive.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Marianne",
+          "evidence": [
+            3814,
+            3822
+          ]
+        },
+        {
+          "text": "Miss Marianne",
+          "evidence": [
+            191536,
+            191549
+          ]
+        },
+        {
+          "text": "Marianne Dashwood",
+          "evidence": [
+            12591,
+            12608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ddedc903f8022a6",
+      "name": "Margaret Dashwood",
+      "description": "Youngest Dashwood sister (about thirteen); good-humoured and impressionable.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Margaret",
+          "evidence": [
+            27209,
+            27217
+          ]
+        },
+        {
+          "text": "Margaret, the other sister",
+          "evidence": [
+            27209,
+            27235
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e3f089aececc8cbf",
+      "name": "Mrs. Dashwood",
+      "description": "Widow of Mr. Henry Dashwood; mother of Elinor, Marianne, and Margaret and head of the household.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Dashwood",
+          "evidence": [
+            14522,
+            14535
+          ]
+        },
+        {
+          "text": "her mother",
+          "evidence": [
+            24236,
+            24246
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d58d9a22ff57f50",
+      "name": "Mr. Henry Dashwood",
+      "description": "Nephew of the late owner of Norland; father of the Dashwood daughters and of John Dashwood by a former marriage.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Henry Dashwood",
+          "evidence": [
+            19043,
+            19061
+          ]
+        },
+        {
+          "text": "Mr. Dashwood",
+          "evidence": [
+            1193,
+            1205
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e26ec13e82a1a1ed",
+      "name": "John Dashwood",
+      "description": "Son of Mr. Henry Dashwood by a previous marriage; Elinor's brother and husband of Fanny, appearing in correspondence and family decisions.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. John Dashwood",
+          "evidence": [
+            22420,
+            22437
+          ]
+        },
+        {
+          "text": "John Dashwood",
+          "evidence": [
+            14311,
+            14324
+          ]
+        },
+        {
+          "text": "John",
+          "evidence": [
+            13826,
+            13830
+          ]
+        },
+        {
+          "text": "Mr. Dashwood",
+          "evidence": [
+            1193,
+            1205
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea7d9052c5104f46",
+      "name": "Mrs. John Dashwood (Fanny)",
+      "description": "John Dashwood's wife; self-interested and narrow-minded sister-in-law to the Dashwood widow and her daughters.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. John Dashwood",
+          "evidence": [
+            23328,
+            23346
+          ]
+        },
+        {
+          "text": "Fanny",
+          "evidence": [
+            29715,
+            29720
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9adb998eb553cc1b",
+      "name": "Harry",
+      "description": "Son of Mr. and Mrs. John Dashwood; the young heir whose interests shape family decisions.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Harry",
+          "evidence": [
+            29237,
+            29242
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1b00f65555e8c4a",
+      "name": "Edward Ferrars",
+      "description": "Gentleman; friend of the Dashwoods—shy, diffident, affectionate, and in a difficult position regarding family expectations and marriage.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Edward Ferrars",
+          "evidence": [
+            12714,
+            12728
+          ]
+        },
+        {
+          "text": "Edward",
+          "evidence": [
+            12714,
+            12720
+          ]
+        },
+        {
+          "text": "Mr. Edward",
+          "evidence": [
+            247404,
+            247414
+          ]
+        },
+        {
+          "text": "Mrs. _Edward_ Ferrars",
+          "evidence": [
+            663204,
+            663225
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6c8813a4b644fba0",
+      "name": "Robert Ferrars",
+      "description": "Edward Ferrars's younger brother; vain and self-interested, whose marriage figures in the plot.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Robert Ferrars",
+          "evidence": [
+            14191,
+            14209
+          ]
+        },
+        {
+          "text": "Robert",
+          "evidence": [
+            14195,
+            14201
+          ]
+        },
+        {
+          "text": "Mrs. _Robert_ Ferrars",
+          "evidence": [
+            663451,
+            663472
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-911f1341b8be2fa0",
+      "name": "Mrs. Ferrars",
+      "description": "Matriarch of the Ferrars family; mother of Edward and Robert, influential in family finances and approvals.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Ferrars",
+          "evidence": [
+            17685,
+            17697
+          ]
+        },
+        {
+          "text": "my mother",
+          "evidence": [
+            33184,
+            33193
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e300dda896000f51",
+      "name": "John Willoughby",
+      "description": "A handsome, lively gentleman who becomes Marianne's romantic interest and later betrays her.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Willoughby",
+          "evidence": [
+            6155,
+            6165
+          ]
+        },
+        {
+          "text": "Mr. Willoughby",
+          "evidence": [
+            95223,
+            95237
+          ]
+        },
+        {
+          "text": "John Willoughby",
+          "evidence": [
+            366666,
+            366681
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e158e400f12492ae",
+      "name": "Eliza Williams (Mrs. Smith)",
+      "description": "Young woman seduced and abandoned (Eliza Williams) whose misfortune figures in Colonel Brandon's backstory; later known as Mrs. Smith.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Smith",
+          "evidence": [
+            136768,
+            136778
+          ]
+        },
+        {
+          "text": "Eliza",
+          "evidence": [
+            12368,
+            12373
+          ]
+        },
+        {
+          "text": "Miss Williams",
+          "evidence": [
+            133778,
+            133791
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ede6eeee46cec6b9",
+      "name": "Colonel Brandon",
+      "description": "A reserved, gentlemanlike, compassionate man (owner of Delaford) who quietly loves Marianne.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Colonel Brandon",
+          "evidence": [
+            12752,
+            12767
+          ]
+        },
+        {
+          "text": "the Colonel",
+          "evidence": [
+            133967,
+            133978
+          ]
+        },
+        {
+          "text": "Colonel Brandon's",
+          "evidence": [
+            83583,
+            83600
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7b61463d7b0c40d3",
+      "name": "Sir John Middleton",
+      "description": "Gregarious, hospitable squire and neighbor who delights in entertaining and matchmaking.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Sir John Middleton",
+          "evidence": [
+            57810,
+            57828
+          ]
+        },
+        {
+          "text": "Sir John",
+          "evidence": [
+            13822,
+            13830
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ecf276fc70b4a501",
+      "name": "Lady Middleton",
+      "description": "Sir John Middleton's wife; elegant in appearance but reserved in manner.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Lady Middleton",
+          "evidence": [
+            62274,
+            62288
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-69b7dcc61c2ee5e0",
+      "name": "Mrs. Jennings",
+      "description": "Lady Middleton's mother; good-humoured, talkative, fond of matchmaking and involved in others' affairs.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Jennings",
+          "evidence": [
+            13674,
+            13687
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87a2035b1582bfb7",
+      "name": "Mr. Palmer",
+      "description": "Charlotte Palmer's husband; a somewhat dry, self-important gentleman.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Palmer",
+          "evidence": [
+            13988,
+            13998
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-782cc3030457ea5c",
+      "name": "Mrs. Palmer (Charlotte)",
+      "description": "Mrs. Jennings's daughter; lively, good-humoured, and hospitable hostess at Cleveland.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Palmer",
+          "evidence": [
+            203868,
+            203879
+          ]
+        },
+        {
+          "text": "Charlotte",
+          "evidence": [
+            16447,
+            16456
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a18ffcd8f9b8b330",
+      "name": "Lucy Steele (Lucy Ferrars)",
+      "description": "A clever, artful young woman who is secretly engaged to Edward Ferrars and later marries a Ferrars brother, affecting household intrigues.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Lucy Steele",
+          "evidence": [
+            231496,
+            231507
+          ]
+        },
+        {
+          "text": "Miss Steele",
+          "evidence": [
+            14083,
+            14094
+          ]
+        },
+        {
+          "text": "Miss Lucy",
+          "evidence": [
+            231848,
+            231857
+          ]
+        },
+        {
+          "text": "Lucy",
+          "evidence": [
+            225949,
+            225953
+          ]
+        },
+        {
+          "text": "LUCY FERRARS.",
+          "evidence": [
+            674561,
+            674574
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fda908300d559bdc",
+      "name": "Anne Steele",
+      "description": "Lucy Steele's elder sister; talkative and socially forward.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Miss Steele",
+          "evidence": [
+            14083,
+            14094
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-688354ae6582f383",
+      "name": "Mr. Harris",
+      "description": "Apothecary/physician who attends Marianne during her illness.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Harris",
+          "evidence": [
+            565026,
+            565036
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7c81eee0247acf9e",
+      "name": "Mr. Pratt",
+      "description": "A gentleman mentioned as an acquaintance/neighbor near Plymouth, connected with Lucy Steele's background.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Pratt",
+          "evidence": [
+            246342,
+            246351
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-400b6525eb3f95c9",
+      "name": "Thomas",
+      "description": "The Dashwoods' man-servant who brings news from Exeter.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Thomas",
+          "evidence": [
+            12849,
+            12855
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3b2ad0b12aa64193",
+      "name": "Fanny",
+      "description": "A member of the extended Ferrars family mentioned in correspondence and family reaction (distinct from Mrs. John Dashwood, Fanny).",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Fanny",
+          "evidence": [
+            29715,
+            29720
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-832e94b1e66d3ed1",
+      "name": "Sally",
+      "description": "Sally 'at the Park' who sends messages via servants; referenced among local household networks.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Sally",
+          "evidence": [
+            653592,
+            653597
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b15ea23106979417",
+      "name": "Nancy",
+      "description": "A woman mentioned in Mrs. Jennings's letter who is distressed by Lucy's departure and assisted financially.",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Nancy",
+          "evidence": [
+            403437,
+            403442
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-35de68ae718f4a5a",
+      "name": "Mrs. Burgess",
+      "description": "Person at Exeter to whom Nancy thinks of going (mentioned in correspondence).",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Burgess",
+          "evidence": [
+            685505,
+            685517
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-055218ce95b88fce",
+      "name": "Miss Morton",
+      "description": "A woman mentioned as a potentially more eligible match (contrasted with Miss Dashwood).",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Miss Morton",
+          "evidence": [
+            414721,
+            414732
+          ]
+        }
+      ]
+    }
+  ]
+}

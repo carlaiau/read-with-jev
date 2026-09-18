@@ -1,0 +1,2493 @@
+{
+  "schema": 1,
+  "gutenbergId": 59828,
+  "sourceSha256": "b634c6e629fe67526193a3f21e7b393d6cde2a326bca62ae90a21f0acebee970",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-32503319b5f6e7f1",
+      "name": "Sweeney Todd",
+      "description": "Fleet Street barber and central antagonist who murders customers.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sweeney Todd",
+          "evidence": [
+            5079,
+            5091
+          ]
+        },
+        {
+          "text": "Mr. Todd",
+          "evidence": [
+            8138,
+            8146
+          ]
+        },
+        {
+          "text": "Todd",
+          "evidence": [
+            2437,
+            2441
+          ]
+        },
+        {
+          "text": "the barber",
+          "evidence": [
+            15185,
+            15195
+          ]
+        },
+        {
+          "text": "Sweeney",
+          "evidence": [
+            2428,
+            2435
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-924859095e510dec",
+      "name": "Tobias Ragg",
+      "description": "Young apprentice/protegé maltreated by Todd and later cared for by friends.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tobias Ragg",
+          "evidence": [
+            9975,
+            9986
+          ]
+        },
+        {
+          "text": "Tobias",
+          "evidence": [
+            3566,
+            3572
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4db146a3a1a856f8",
+      "name": "Mrs. Ragg",
+      "description": "Tobias Ragg's mother, a distressed laundress.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Ragg",
+          "evidence": [
+            10178,
+            10187
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9306eacff448bfcc",
+      "name": "Hector (dog, Thornhill's)",
+      "description": "Dog belonging to Lieutenant Thornhill; faithful animal tied to Thornhill's disappearance.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hector",
+          "evidence": [
+            12713,
+            12719
+          ]
+        },
+        {
+          "text": "the dog",
+          "evidence": [
+            14965,
+            14972
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-92466516b9462510",
+      "name": "Johanna Oakley",
+      "description": "Daughter of the spectacle-maker; Johanna, a sympathetic heroine seeking her lover.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Johanna Oakley",
+          "evidence": [
+            70669,
+            70683
+          ]
+        },
+        {
+          "text": "Johanna",
+          "evidence": [
+            13042,
+            13049
+          ]
+        },
+        {
+          "text": "Mrs. Ingestrie",
+          "evidence": [
+            1831615,
+            1831629
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-51d74c41e6a19e45",
+      "name": "John Oakley",
+      "description": "Spectacle-maker of Fore-street; Johanna's father.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John Oakley",
+          "evidence": [
+            16296,
+            16307
+          ]
+        },
+        {
+          "text": "Mr. Oakley",
+          "evidence": [
+            16199,
+            16209
+          ]
+        },
+        {
+          "text": "the spectacle-maker",
+          "evidence": [
+            16309,
+            16328
+          ]
+        },
+        {
+          "text": "old Mr. Oakley",
+          "evidence": [
+            757595,
+            757609
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b968327ca82ed4dc",
+      "name": "Mrs. Oakley",
+      "description": "Wife of the spectacle-maker; religious, querulous mother of Johanna.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Oakley",
+          "evidence": [
+            78520,
+            78531
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0a7b06f6dbab5da0",
+      "name": "Sam Bolt",
+      "description": "Shop-boy in Oakley's shop and a jealous suitor of Johanna.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sam",
+          "evidence": [
+            26676,
+            26679
+          ]
+        },
+        {
+          "text": "Sam Bolt",
+          "evidence": [
+            41767,
+            41775
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c73bbc74895281b8",
+      "name": "Mark Ingestrie",
+      "description": "Young man who sails on a speculative voyage; Johanna's lover.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mark Ingestrie",
+          "evidence": [
+            12987,
+            13001
+          ]
+        },
+        {
+          "text": "Mark",
+          "evidence": [
+            12987,
+            12991
+          ]
+        },
+        {
+          "text": "Ingestrie",
+          "evidence": [
+            12992,
+            13001
+          ]
+        },
+        {
+          "text": "Mr. Ingestrie",
+          "evidence": [
+            1677083,
+            1677096
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1f67963d680adc07",
+      "name": "Thornhill",
+      "description": "Lieutenant Thornhill, a shipwrecked/rescued figure associated with the pearls.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Thornhill",
+          "evidence": [
+            45102,
+            45111
+          ]
+        },
+        {
+          "text": "Mr. Thornhill",
+          "evidence": [
+            46392,
+            46405
+          ]
+        },
+        {
+          "text": "Lieutenant Thornhill",
+          "evidence": [
+            45091,
+            45111
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1269ac943dfb7ddb",
+      "name": "Colonel Jeffery",
+      "description": "Friend and guardian figure who aids Tobias and leads investigations.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Colonel Jeffery",
+          "evidence": [
+            48235,
+            48250
+          ]
+        },
+        {
+          "text": "Jeffery",
+          "evidence": [
+            48243,
+            48250
+          ]
+        },
+        {
+          "text": "Colonel Jeffrey",
+          "evidence": [
+            1239760,
+            1239775
+          ]
+        },
+        {
+          "text": "the colonel",
+          "evidence": [
+            52106,
+            52117
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-df7d8a70881ed30a",
+      "name": "the captain",
+      "description": "Captain of the merchantman/man-of-war convoy who assists early searches.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "captain",
+          "evidence": [
+            44771,
+            44778
+          ]
+        },
+        {
+          "text": "the captain",
+          "evidence": [
+            44767,
+            44778
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5f4609188049d4bc",
+      "name": "Captain Rathbone",
+      "description": "Retired army captain, ally of Colonel Jeffery.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Rathbone",
+          "evidence": [
+            185014,
+            185030
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6454326218e522fe",
+      "name": "Mr. Grant",
+      "description": "Relative of Mark Ingestrie and source of family conflict.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Grant",
+          "evidence": [
+            21310,
+            21319
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3bf8e047e950041d",
+      "name": "Josiah Lupin (Rev. Mr. Lupin)",
+      "description": "Evangelical clergyman/prisoner linked to fraudulent or violent deeds.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Lupin",
+          "evidence": [
+            27271,
+            27280
+          ]
+        },
+        {
+          "text": "Rev. Mr. Lupin",
+          "evidence": [
+            90732,
+            90746
+          ]
+        },
+        {
+          "text": "Mr. Tulip",
+          "evidence": [
+            163629,
+            163638
+          ]
+        },
+        {
+          "text": "Josiah Lupin",
+          "evidence": [
+            792235,
+            792247
+          ]
+        },
+        {
+          "text": "Lupin",
+          "evidence": [
+            24254,
+            24259
+          ]
+        },
+        {
+          "text": "the Reverend Josiah Lupin",
+          "evidence": [
+            1543914,
+            1543939
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b000b78c0c16acec",
+      "name": "Ben (the beef-eater)",
+      "description": "Big Ben, a boisterous but kindly beef-eater from the Tower and friend to the protagonists.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ben",
+          "evidence": [
+            161707,
+            161710
+          ]
+        },
+        {
+          "text": "Big Ben",
+          "evidence": [
+            162364,
+            162371
+          ]
+        },
+        {
+          "text": "Ben the beef-eater",
+          "evidence": [
+            223927,
+            223945
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c3a8f3580a09b08f",
+      "name": "Mrs. Lovett",
+      "description": "Owner of the pie-shop in Bell-yard and accomplice to Todd.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Lovett",
+          "evidence": [
+            66331,
+            66342
+          ]
+        },
+        {
+          "text": "Mistress Lovett",
+          "evidence": [
+            203970,
+            203985
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7d45b065ef234e4",
+      "name": "Jarvis Williams",
+      "description": "Stranger taken on as Mrs. Lovett's new cook.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jarvis Williams",
+          "evidence": [
+            205811,
+            205826
+          ]
+        },
+        {
+          "text": "Jarvis",
+          "evidence": [
+            205811,
+            205817
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1be7c39ed6545a7d",
+      "name": "Skinner",
+      "description": "Worker in Lovett's vaults, struck and killed in the bakehouse.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Skinner",
+          "evidence": [
+            210540,
+            210547
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-29ac5631d19c6884",
+      "name": "Mr. Fogg",
+      "description": "Keeper of a private madhouse; unscrupulous asylum proprietor.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Fogg",
+          "evidence": [
+            372945,
+            372953
+          ]
+        },
+        {
+          "text": "Fogg",
+          "evidence": [
+            372949,
+            372953
+          ]
+        },
+        {
+          "text": "O. D. FOGG",
+          "evidence": [
+            478699,
+            478709
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1fc4a335f06198f",
+      "name": "Watson (asylum attendant)",
+      "description": "Violent attendant/keeper linked with Fogg's madhouse.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Watson",
+          "evidence": [
+            384019,
+            384025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-78c1b8454142f993",
+      "name": "John Mundel",
+      "description": "Money-lender/usurer who deals in the pearls.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John Mundel",
+          "evidence": [
+            303500,
+            303511
+          ]
+        },
+        {
+          "text": "Mundel",
+          "evidence": [
+            303505,
+            303511
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a2d2e2cab2b609dd",
+      "name": "Little old lapidary",
+      "description": "An elderly jeweller/lapidary who examines pearls and becomes suspicious of Todd.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "lapidary",
+          "evidence": [
+            118592,
+            118600
+          ]
+        },
+        {
+          "text": "little old lapidary",
+          "evidence": [
+            119368,
+            119387
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-378bd3c7c74c6fc2",
+      "name": "Mr. Crotchet",
+      "description": "Rough subordinate/officer allied with the magistrate (Bow-Street operative).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Crotchet",
+          "evidence": [
+            489329,
+            489337
+          ]
+        },
+        {
+          "text": "Mr. Crotchet",
+          "evidence": [
+            489989,
+            490001
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-920825831bbd5dc4",
+      "name": "Sir Richard Blunt",
+      "description": "Magistrate who investigates Todd and organizes searches and prosecutions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Richard Blunt",
+          "evidence": [
+            461836,
+            461853
+          ]
+        },
+        {
+          "text": "Sir Richard",
+          "evidence": [
+            461836,
+            461847
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9ec926378d0c11c1",
+      "name": "Dr. Popplejoy",
+      "description": "An elderly physician called to inspect the asylum; easily flattered.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Popplejoy",
+          "evidence": [
+            476675,
+            476688
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d2b0cd41592413a7",
+      "name": "Mr. Chisolm",
+      "description": "Surgeon who attends Tobias and gives medical advice.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Chisolm",
+          "evidence": [
+            577706,
+            577717
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-756b20e664411cb4",
+      "name": "Major Bounce",
+      "description": "Swaggering, roguish gentleman and flamboyant suitor (foppish charlatan).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Major Bounce",
+          "evidence": [
+            621799,
+            621811
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-331142548c4d4d86",
+      "name": "Mrs. Flukes",
+      "description": "A poor woman who collapses outside Lovett's and reports domestic mistreatment.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Flukes",
+          "evidence": [
+            631126,
+            631137
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7ee2f3b9526d4f7f",
+      "name": "Whittle",
+      "description": "Shoemaker who lets an attic opposite Todd's shop and is used in investigations.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Whittle",
+          "evidence": [
+            646656,
+            646663
+          ]
+        },
+        {
+          "text": "the shoemaker",
+          "evidence": [
+            647646,
+            647659
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-676ba5a3d9e9c90e",
+      "name": "Sir Richard Blunt",
+      "description": "Magistrate who investigates the mysteries and organizes searches.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Sir Richard Blunt",
+          "evidence": [
+            461836,
+            461853
+          ]
+        },
+        {
+          "text": "Sir Richard",
+          "evidence": [
+            461836,
+            461847
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-302499cea7142450",
+      "name": "Mr. Crotchet",
+      "description": "Bow-Street officer; bold, eccentric subordinate of Sir Richard Blunt.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Crotchet",
+          "evidence": [
+            489989,
+            490001
+          ]
+        },
+        {
+          "text": "Crotchet",
+          "evidence": [
+            489329,
+            489337
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d07e607acbcf757c",
+      "name": "Sweeney Todd",
+      "description": "The barber of Fleet Street accused of murdering customers.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Sweeney Todd",
+          "evidence": [
+            5079,
+            5091
+          ]
+        },
+        {
+          "text": "Todd",
+          "evidence": [
+            2437,
+            2441
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-62cf87c6bb185136",
+      "name": "Tobias Ragg",
+      "description": "Young apprentice, victim of mistreatment who is later sheltered and aided.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Tobias Ragg",
+          "evidence": [
+            9975,
+            9986
+          ]
+        },
+        {
+          "text": "Tobias",
+          "evidence": [
+            3566,
+            3572
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5a102c78cfe3b4c0",
+      "name": "Mrs. Ragg",
+      "description": "Tobias's mother; distressed and garrulous.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mrs. Ragg",
+          "evidence": [
+            10178,
+            10187
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1bb4cab22069d5f6",
+      "name": "Colonel Jeffery",
+      "description": "Gentleman aiding in Tobias's recovery and pursuing Todd.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Colonel Jeffery",
+          "evidence": [
+            48235,
+            48250
+          ]
+        },
+        {
+          "text": "Jeffery",
+          "evidence": [
+            48243,
+            48250
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3c6389cd3b3764b1",
+      "name": "Captain Rathbone",
+      "description": "Military gentleman present during Tobias's recovery.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Captain Rathbone",
+          "evidence": [
+            185014,
+            185030
+          ]
+        },
+        {
+          "text": "the captain",
+          "evidence": [
+            44767,
+            44778
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f614d1de7e9c3851",
+      "name": "the surgeon",
+      "description": "Unnamed medical man attending Tobias and advising recovery methods.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "the surgeon",
+          "evidence": [
+            526002,
+            526013
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-533bbfb3450a38a9",
+      "name": "Fletcher",
+      "description": "Man who sounds the bugle as a signal outside Todd's shop; an observer/witness.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Fletcher",
+          "evidence": [
+            648280,
+            648288
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19e0c566afeeb52a",
+      "name": "Mr. Wheeler",
+      "description": "Shoemaker/landlord in Fleet Street who has an attic lodger.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Wheeler",
+          "evidence": [
+            657139,
+            657150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-63cb2d9719c0e127",
+      "name": "Mrs. Wheeler",
+      "description": "Wheeler's wife, a gossipy, fashionable woman involved in questioning their lodger.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mrs. Wheeler",
+          "evidence": [
+            659640,
+            659652
+          ]
+        },
+        {
+          "text": "Mrs. W.",
+          "evidence": [
+            656292,
+            656299
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e96954f61117688f",
+      "name": "Mr. Otton",
+      "description": "Beadle of St. Dunstan's; a blustering parish official.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Otton",
+          "evidence": [
+            689909,
+            689918
+          ]
+        },
+        {
+          "text": "the beadle",
+          "evidence": [
+            338299,
+            338309
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-885f427e0ea994ad",
+      "name": "King",
+      "description": "One of Sir Richard Blunt's subordinate officers assigned to watch Todd.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "King",
+          "evidence": [
+            75853,
+            75857
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-808315f5df01ee04",
+      "name": "Morgan",
+      "description": "One of Sir Richard Blunt's subordinate officers assigned to watch Todd.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Morgan",
+          "evidence": [
+            826127,
+            826133
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3438be4a3ff49956",
+      "name": "Godfrey",
+      "description": "One of Sir Richard Blunt's subordinate officers assigned to watch Todd.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Godfrey",
+          "evidence": [
+            826139,
+            826146
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-01ccfc73a69a2b27",
+      "name": "Foster",
+      "description": "Associate/officer who informs Sir Richard and Crotchet about shop activity.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Foster",
+          "evidence": [
+            846772,
+            846778
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e027c7e7d6e61ed0",
+      "name": "Mr. Vickley",
+      "description": "Churchwarden/overseer of St. Dunstan's parish assisting with vault investigations.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Vickley",
+          "evidence": [
+            810660,
+            810671
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-04d9f807d6189ccb",
+      "name": "Mr. Villimay",
+      "description": "Churchwarden who helps open the vaults of St. Dunstan's.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Villimay",
+          "evidence": [
+            1010976,
+            1010988
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e91fa72aa2ba50a3",
+      "name": "the Lord Mayor",
+      "description": "The Lord Mayor of London present at Sir Richard's midnight investigation.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "the Lord Mayor",
+          "evidence": [
+            1013491,
+            1013505
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e22e286b8f87e8fe",
+      "name": "Major Bounce",
+      "description": "Foppish suitor of Mrs. Lovett who visits Todd to have his moustache shaved.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Major Bounce",
+          "evidence": [
+            621799,
+            621811
+          ]
+        },
+        {
+          "text": "Flukes",
+          "evidence": [
+            628587,
+            628593
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2e4cd5ee40baed62",
+      "name": "Mr. Brown (silversmith)",
+      "description": "Silversmith who saved a child and interacted with Todd (distinct from the stock-broker).",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Brown",
+          "evidence": [
+            746801,
+            746810
+          ]
+        },
+        {
+          "text": "Brown",
+          "evidence": [
+            746805,
+            746810
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0731cd63c6cd6b1d",
+      "name": "Charley Green",
+      "description": "Name used by the boy-apprentice persona; role Johanna adopts in disguise.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Charley Green",
+          "evidence": [
+            1049225,
+            1049238
+          ]
+        },
+        {
+          "text": "Charley",
+          "evidence": [
+            746078,
+            746085
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-134655fd20478d5c",
+      "name": "Johanna Oakley",
+      "description": "Spectacle-maker's daughter who disguises herself as a boy to aid the investigation.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Johanna Oakley",
+          "evidence": [
+            70669,
+            70683
+          ]
+        },
+        {
+          "text": "Johanna",
+          "evidence": [
+            13042,
+            13049
+          ]
+        },
+        {
+          "text": "Charley",
+          "evidence": [
+            746078,
+            746085
+          ]
+        },
+        {
+          "text": "Charley Green",
+          "evidence": [
+            1049225,
+            1049238
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7cd70117eb63eb9a",
+      "name": "Arabella Wilmot",
+      "description": "Johanna's friend and confidante who assists in the plan and provides information.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Arabella Wilmot",
+          "evidence": [
+            230506,
+            230521
+          ]
+        },
+        {
+          "text": "Arabella",
+          "evidence": [
+            230506,
+            230514
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-86003f70dad78168",
+      "name": "Big Ben",
+      "description": "Ben, the beef-eater; boisterous, kind-hearted friend of Johanna.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Big Ben",
+          "evidence": [
+            162364,
+            162371
+          ]
+        },
+        {
+          "text": "Ben",
+          "evidence": [
+            161707,
+            161710
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e952b57e346fe0aa",
+      "name": "Mr. Oakley",
+      "description": "Johanna's father, the spectacle-maker in this scope.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Oakley",
+          "evidence": [
+            16199,
+            16209
+          ]
+        },
+        {
+          "text": "Oakley",
+          "evidence": [
+            16203,
+            16209
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-85ddb995396d7bd0",
+      "name": "Mrs. Oakley",
+      "description": "Mr. Oakley's wife; a religiously inclined woman implicated in neighborhood events.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mrs. Oakley",
+          "evidence": [
+            78520,
+            78531
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-40497740d940ad25",
+      "name": "Rev. Josiah Lupin",
+      "description": "Evangelical clergyman appearing in the neighbourhood (hypocritical preacher).",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Lupin",
+          "evidence": [
+            27271,
+            27280
+          ]
+        },
+        {
+          "text": "Josiah Lupin",
+          "evidence": [
+            792235,
+            792247
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5347dd3cedae6d16",
+      "name": "Donkin",
+      "description": "Friend/colleague of the Home Office secretary attending the vault search.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Donkin",
+          "evidence": [
+            1017557,
+            1017563
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-224e3f84ab26c622",
+      "name": "Secretary of State",
+      "description": "Unnamed government official authorizing Sir Richard's extraordinary powers.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "the Secretary of State",
+          "evidence": [
+            816127,
+            816149
+          ]
+        },
+        {
+          "text": "Secretary of State",
+          "evidence": [
+            816131,
+            816149
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8af17247678078ac",
+      "name": "John Mundell",
+      "description": "Usurer who accepted a string of pearls in pawn (appears in this scope).",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "John Mundell",
+          "evidence": [
+            851172,
+            851184
+          ]
+        },
+        {
+          "text": "Mundell",
+          "evidence": [
+            847390,
+            847397
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9217962ff74e3d22",
+      "name": "Peter",
+      "description": "Man formerly in Fogg's employ (turnkey/associate) whom Todd kills.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Peter",
+          "evidence": [
+            15455,
+            15460
+          ]
+        },
+        {
+          "text": "the turnkey",
+          "evidence": [
+            1713690,
+            1713701
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-40b256ac9c861c58",
+      "name": "Jacob B. Fogg",
+      "description": "Keeper of the madhouse (Fogg) associated with Tobias's placement.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "JACOB B. FOGG",
+          "evidence": [
+            703975,
+            703988
+          ]
+        },
+        {
+          "text": "Fogg",
+          "evidence": [
+            372949,
+            372953
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-10c79c45483a59f7",
+      "name": "Watson",
+      "description": "Associate mentioned with Fogg in connection to the madhouse.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Watson",
+          "evidence": [
+            384019,
+            384025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-09f3973c5a5fe534",
+      "name": "Mrs. Lovett",
+      "description": "Pie-shop owner in Bell Yard; partner in criminal enterprise with Todd in this scope.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mrs. Lovett",
+          "evidence": [
+            66331,
+            66342
+          ]
+        },
+        {
+          "text": "Sarah",
+          "evidence": [
+            718450,
+            718455
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7af2dd316bb7b2c1",
+      "name": "Hector (Pison)",
+      "description": "Large dog associated with Thornhill/Ingestrie's party (called Hector/Pison).",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Hector",
+          "evidence": [
+            12713,
+            12719
+          ]
+        },
+        {
+          "text": "Pison",
+          "evidence": [
+            240748,
+            240753
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-81ac8d68ac3a4be8",
+      "name": "Anthony Brown",
+      "description": "Stock-broker who handles money for Todd and Mrs. Lovett (distinct from the silversmith).",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Anthony Brown",
+          "evidence": [
+            1163963,
+            1163976
+          ]
+        },
+        {
+          "text": "Mr. Brown",
+          "evidence": [
+            746801,
+            746810
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-69cd5c3435b01c7d",
+      "name": "Mr. Black",
+      "description": "Broker mentioned as recipient of investments in Abchurch Lane.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Black",
+          "evidence": [
+            1184923,
+            1184932
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c5fb119874b14a1c",
+      "name": "Mr. Orton",
+      "description": "Fruiterer who shelters Johanna briefly; his household assists her.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Orton",
+          "evidence": [
+            1210723,
+            1210732
+          ]
+        },
+        {
+          "text": "Orton",
+          "evidence": [
+            1210727,
+            1210732
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4a095ab68006d645",
+      "name": "Ann Orton",
+      "description": "Mr. Orton's daughter who befriends Johanna.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Ann Orton",
+          "evidence": [
+            1212015,
+            1212024
+          ]
+        },
+        {
+          "text": "Ann",
+          "evidence": [
+            1210783,
+            1210786
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-344dd9d5c9b3a78f",
+      "name": "Mr. Simmons",
+      "description": "Householder briefly encountered when Todd appears at a landing.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mr. Simmons",
+          "evidence": [
+            1263879,
+            1263890
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9dbafbe310e9a09c",
+      "name": "Mrs. Simmons",
+      "description": "Mrs. Simmons, present alongside Mr. Simmons in a parlour scene.",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mrs. Simmons",
+          "evidence": [
+            1265274,
+            1265286
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fd790497c9267087",
+      "name": "Mrs. Whistlesides",
+      "description": "Neighbour mentioned in Mrs. Ragg's gossip (minor role).",
+      "scope": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+      "aliases": [
+        {
+          "text": "Mrs. Whistlesides",
+          "evidence": [
+            768991,
+            769008
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9badc59d80cfdcdf",
+      "name": "Mr. Lupin",
+      "description": "Evangelical preacher who acts as a hypocritical antagonist and later commits violent crimes.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Mr. Lupin",
+          "evidence": [
+            27271,
+            27280
+          ]
+        },
+        {
+          "text": "Lupin",
+          "evidence": [
+            24254,
+            24259
+          ]
+        },
+        {
+          "text": "the preacher",
+          "evidence": [
+            1303745,
+            1303757
+          ]
+        },
+        {
+          "text": "the Rev. gent",
+          "evidence": [
+            761798,
+            761811
+          ]
+        },
+        {
+          "text": "Reverend Mr. Lupin",
+          "evidence": [
+            93040,
+            93058
+          ]
+        },
+        {
+          "text": "the Reverend Josiah Lupin",
+          "evidence": [
+            1543914,
+            1543939
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a63b288976612eb3",
+      "name": "Old Oakley",
+      "description": "Spectacle-maker (old Mr. Oakley), father of Johanna.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Mr. Oakley",
+          "evidence": [
+            16199,
+            16209
+          ]
+        },
+        {
+          "text": "Old Oakley",
+          "evidence": [
+            993520,
+            993530
+          ]
+        },
+        {
+          "text": "the spectacle-maker",
+          "evidence": [
+            16309,
+            16328
+          ]
+        },
+        {
+          "text": "Oakley",
+          "evidence": [
+            16203,
+            16209
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dc4780fad949fd6c",
+      "name": "Johanna Oakley",
+      "description": "Mr. Oakley's daughter who disguises herself as a boy to work for Sweeney Todd and aid the investigation.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Johanna",
+          "evidence": [
+            13042,
+            13049
+          ]
+        },
+        {
+          "text": "Johanna Oakley",
+          "evidence": [
+            70669,
+            70683
+          ]
+        },
+        {
+          "text": "Charley",
+          "evidence": [
+            746078,
+            746085
+          ]
+        },
+        {
+          "text": "Charley Green",
+          "evidence": [
+            1049225,
+            1049238
+          ]
+        },
+        {
+          "text": "Miss Oakley",
+          "evidence": [
+            282877,
+            282888
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-74154242a9841357",
+      "name": "Mrs. Oakley",
+      "description": "Wife of the spectacle-maker; religiously inclined and later repentant.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Mrs. Oakley",
+          "evidence": [
+            78520,
+            78531
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-32328567bf5c09df",
+      "name": "Sweeney Todd",
+      "description": "Barber of Fleet Street accused of multiple murders; central antagonist.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Sweeney Todd",
+          "evidence": [
+            5079,
+            5091
+          ]
+        },
+        {
+          "text": "Todd",
+          "evidence": [
+            2437,
+            2441
+          ]
+        },
+        {
+          "text": "Mr. Todd",
+          "evidence": [
+            8138,
+            8146
+          ]
+        },
+        {
+          "text": "the barber",
+          "evidence": [
+            15185,
+            15195
+          ]
+        },
+        {
+          "text": "old Grampus",
+          "evidence": [
+            1349541,
+            1349552
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a47a96efa145624f",
+      "name": "Mrs. Lovett",
+      "description": "Owner of the Bell Yard pie-shop and partner in Todd's crimes.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Mrs. Lovett",
+          "evidence": [
+            66331,
+            66342
+          ]
+        },
+        {
+          "text": "Lovett",
+          "evidence": [
+            11107,
+            11113
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-790d885442102c00",
+      "name": "Mark Ingestrie",
+      "description": "Sailor who survives a wreck and is reunited with Johanna.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Mark Ingestrie",
+          "evidence": [
+            12987,
+            13001
+          ]
+        },
+        {
+          "text": "Mark",
+          "evidence": [
+            12987,
+            12991
+          ]
+        },
+        {
+          "text": "Mr. Ingestrie",
+          "evidence": [
+            1677083,
+            1677096
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-060619c66ea271fb",
+      "name": "Sir Richard Blunt",
+      "description": "Magistrate who investigates Todd's crimes and organizes arrests and prosecutions.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Sir Richard Blunt",
+          "evidence": [
+            461836,
+            461853
+          ]
+        },
+        {
+          "text": "Sir Richard",
+          "evidence": [
+            461836,
+            461847
+          ]
+        },
+        {
+          "text": "the magistrate",
+          "evidence": [
+            201592,
+            201606
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-07a93125ede9158b",
+      "name": "Colonel Jeffery",
+      "description": "Friend of the Ingestries who aids in Tobias's recovery and in the investigation.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Colonel Jeffery",
+          "evidence": [
+            48235,
+            48250
+          ]
+        },
+        {
+          "text": "the colonel",
+          "evidence": [
+            52106,
+            52117
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-75cc1bf19a4d79ac",
+      "name": "Arabella Wilmot",
+      "description": "Friend of Johanna who assists and provides information to Sir Richard.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Arabella Wilmot",
+          "evidence": [
+            230506,
+            230521
+          ]
+        },
+        {
+          "text": "Arabella",
+          "evidence": [
+            230506,
+            230514
+          ]
+        },
+        {
+          "text": "Miss Wilmot",
+          "evidence": [
+            597408,
+            597419
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e99ce448933ccef9",
+      "name": "Tobias Ragg",
+      "description": "Young servant/assistant whose mental state suffers after Todd's attack and who later recovers.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Tobias",
+          "evidence": [
+            3566,
+            3572
+          ]
+        },
+        {
+          "text": "Tobias Ragg",
+          "evidence": [
+            9975,
+            9986
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d7fa662827f36181",
+      "name": "Minna Gray",
+      "description": "Young woman attached to Colonel Jeffery's household and Tobias's love-interest.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Minna Gray",
+          "evidence": [
+            769704,
+            769714
+          ]
+        },
+        {
+          "text": "Minna",
+          "evidence": [
+            769704,
+            769709
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fb7119991ba633cb",
+      "name": "Crotchet",
+      "description": "Rough operative allied with Sir Richard who assists in operations at Todd's.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Crotchet",
+          "evidence": [
+            489329,
+            489337
+          ]
+        },
+        {
+          "text": "Mr. Crotchet",
+          "evidence": [
+            489989,
+            490001
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6ea663604c578a46",
+      "name": "The fruiterer",
+      "description": "Owner of the fruiter's shop opposite Todd's who shelters Johanna and cooperates with Sir Richard.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the fruiterer",
+          "evidence": [
+            1209032,
+            1209045
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1018078ccc04afb4",
+      "name": "Ostler (Crotchet's coachman)",
+      "description": "Ostler/coachman figure who befriends the dog Hector and later accompanies the party.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the ostler",
+          "evidence": [
+            741343,
+            741353
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf1d11949c1abe92",
+      "name": "Hector",
+      "description": "Large dog belonging to Thornhill and attached to Mark Ingestrie; helps identify items tied to Thornhill.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Hector",
+          "evidence": [
+            12713,
+            12719
+          ]
+        },
+        {
+          "text": "the dog",
+          "evidence": [
+            14965,
+            14972
+          ]
+        },
+        {
+          "text": "Pison",
+          "evidence": [
+            240748,
+            240753
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f240c01e9c4e19de",
+      "name": "Arthur Rose Fletcher",
+      "description": "Captain of the ship Star and witness testifying about Thornhill's disappearance.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Mr. Fletcher",
+          "evidence": [
+            1825898,
+            1825910
+          ]
+        },
+        {
+          "text": "the captain",
+          "evidence": [
+            44767,
+            44778
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0e4e8dcad9f80d38",
+      "name": "Francis Thornhill",
+      "description": "Man who disappears after leaving the ship with a string of pearls; central murder victim in the trial.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Francis Thornhill",
+          "evidence": [
+            1674564,
+            1674581
+          ]
+        },
+        {
+          "text": "Mr. Thornhill",
+          "evidence": [
+            46392,
+            46405
+          ]
+        },
+        {
+          "text": "Charles James Thornhill",
+          "evidence": [
+            1743667,
+            1743690
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b7213f6a3d65f48",
+      "name": "John Mundell",
+      "description": "Usurer who appears at Todd's and is murdered there (appears in this scope).",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "John Mundell",
+          "evidence": [
+            851172,
+            851184
+          ]
+        },
+        {
+          "text": "Mr. Mundell",
+          "evidence": [
+            847386,
+            847397
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-763576156efb3588",
+      "name": "Mr. Wrankley",
+      "description": "Tobacconist recovered in the vaults after being slid through Todd's trap.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Mr. Wrankley",
+          "evidence": [
+            1586589,
+            1586601
+          ]
+        },
+        {
+          "text": "Wrankley",
+          "evidence": [
+            1586593,
+            1586601
+          ]
+        },
+        {
+          "text": "the tobacconist",
+          "evidence": [
+            1586603,
+            1586618
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87c964c8cbd6cde6",
+      "name": "Sir Christopher Wren",
+      "description": "Architect consulted to assist subterranean investigations beneath St. Dunstan's.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Sir Christopher Wren",
+          "evidence": [
+            1378943,
+            1378963
+          ]
+        },
+        {
+          "text": "Sir Christopher",
+          "evidence": [
+            1375926,
+            1375941
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f412b366a7d44165",
+      "name": "Jervis",
+      "description": "Police officer who reports movements to Sir Richard and assists investigations.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Jervis",
+          "evidence": [
+            1397035,
+            1397041
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-66bb5c8d731d43f7",
+      "name": "John Figgs",
+      "description": "Groom who rescued Hector and testified about the dog and events at Todd's.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "John Figgs",
+          "evidence": [
+            1827437,
+            1827447
+          ]
+        },
+        {
+          "text": "Figgs",
+          "evidence": [
+            1827442,
+            1827447
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-454e03315388bede",
+      "name": "Cabbie/Coachman",
+      "description": "Drivers and minor transport figures appearing during escapes and coach incidents.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the coachman",
+          "evidence": [
+            320159,
+            320171
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1db3629f7b31953b",
+      "name": "Beadle",
+      "description": "Parish beadle of St. Dunstan's who encounters Sir Richard's party.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the beadle",
+          "evidence": [
+            338299,
+            338309
+          ]
+        },
+        {
+          "text": "Beadle",
+          "evidence": [
+            815972,
+            815978
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-514a915c02c8e722",
+      "name": "Governor of Newgate",
+      "description": "Warden/governor of Newgate Prison who manages Todd's custody and later Mrs. Lovett's cell.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the Governor",
+          "evidence": [
+            1718250,
+            1718262
+          ]
+        },
+        {
+          "text": "Governor",
+          "evidence": [
+            1108100,
+            1108108
+          ]
+        },
+        {
+          "text": "Governor of Newgate",
+          "evidence": [
+            1712677,
+            1712696
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9f2741fd47f942de",
+      "name": "The chaplain",
+      "description": "Newgate chaplain who visits prisoners and attempts spiritual consolation.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the chaplain",
+          "evidence": [
+            1775596,
+            1775608
+          ]
+        },
+        {
+          "text": "chaplain",
+          "evidence": [
+            1774753,
+            1774761
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5e3c460775e09ca1",
+      "name": "Attorney-General",
+      "description": "Government prosecutor who opens the Crown case against Todd at the Old Bailey.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Attorney-General",
+          "evidence": [
+            1743241,
+            1743257
+          ]
+        },
+        {
+          "text": "the Attorney-General",
+          "evidence": [
+            1743237,
+            1743257
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-079777f42a80995d",
+      "name": "Judge (Old Bailey)",
+      "description": "Presiding judge at Todd's trial who sums up and pronounces sentence.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the judge",
+          "evidence": [
+            1804598,
+            1804607
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cd796cbb1f3d1cf9",
+      "name": "The Recorder",
+      "description": "Court official who assists the judge (the recorder in the narrative).",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the recorder",
+          "evidence": [
+            1865798,
+            1865810
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5392e5c3efd03a33",
+      "name": "Sheriff",
+      "description": "Sheriff present at the trial and involved in custody matters.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the sheriff",
+          "evidence": [
+            1739711,
+            1739722
+          ]
+        },
+        {
+          "text": "Sheriff",
+          "evidence": [
+            1739740,
+            1739747
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-75208104b881245f",
+      "name": "Governor's clerk (victim)",
+      "description": "Clerk at the Governor's door attacked during Lupin and Todd's escape.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "the clerk",
+          "evidence": [
+            827665,
+            827674
+          ]
+        },
+        {
+          "text": "Governor's clerk",
+          "evidence": [
+            1914935,
+            1914951
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b296fc79ca16ca72",
+      "name": "Mrs. Stag",
+      "description": "Laundress who temporarily minds Mrs. Lovett's shop and is drugged by Todd.",
+      "scope": "The String of Pearls",
+      "aliases": [
+        {
+          "text": "Mrs. Stag",
+          "evidence": [
+            1457599,
+            1457608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6515ba52a565f413",
+      "name": "John Smith",
+      "description": "Secretary of Newgate who sends notice of the prisoners' escape.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "JOHN SMITH.",
+          "evidence": [
+            1981585,
+            1981596
+          ]
+        },
+        {
+          "text": "John Smith",
+          "evidence": [
+            1557690,
+            1557700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b8951a55786225a9",
+      "name": "Green",
+      "description": "City officer who brings witness information about Todd to Sir Richard Blunt.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Green",
+          "evidence": [
+            195822,
+            195827
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-10c1eef16efcb24c",
+      "name": "Hardman",
+      "description": "Officer involved in river searches; father of Julia Hardman.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hardman",
+          "evidence": [
+            2209537,
+            2209544
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06faed2f68f47cd3",
+      "name": "Julia Hardman",
+      "description": "Daughter of Officer Hardman; mentioned as Ben's romantic interest.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Julia Hardman",
+          "evidence": [
+            2209531,
+            2209544
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c15eb7c3308adc69",
+      "name": "Mrs. Hardman",
+      "description": "Wife/mother figure in the Hardman household; appears in lodging episodes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Hardman",
+          "evidence": [
+            2222627,
+            2222639
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b29c31baaf183fb2",
+      "name": "Martha",
+      "description": "Servant in the Hardman household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Martha",
+          "evidence": [
+            1195974,
+            1195980
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-58ee5ccfedb80811",
+      "name": "Anthony Strong",
+      "description": "Commander of a police-boat mentioned during the river chase.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Anthony Strong",
+          "evidence": [
+            2297346,
+            2297360
+          ]
+        },
+        {
+          "text": "Mr. Anthony Strong",
+          "evidence": [
+            2298530,
+            2298548
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7d180685862d036b",
+      "name": "Hector (Colonel Jeffery's dog)",
+      "description": "Colonel Jeffery's dog who pursues Todd during the final chase (distinct dog entry in this scope).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hector",
+          "evidence": [
+            12713,
+            12719
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1650 @@
+[
+  {
+    "id": "pride-and-prejudice",
+    "gutenbergId": 1342,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "characters": [
+      {
+        "id": "bc-0",
+        "name": "Mr Bennet",
+        "aliases": [
+          "Mr Bennet",
+          "Mr. Bennet"
+        ]
+      },
+      {
+        "id": "bc-1",
+        "name": "Mrs Bennet",
+        "aliases": [
+          "Mrs Bennet",
+          "Mrs. Bennet"
+        ]
+      },
+      {
+        "id": "bc-2",
+        "name": "Mr. Darcy",
+        "aliases": [
+          "Mr. Darcy",
+          "Darcy"
+        ]
+      },
+      {
+        "id": "bc-3",
+        "name": "George Wickham",
+        "aliases": [
+          "George Wickham",
+          "Wickham",
+          "Mr. Wickham"
+        ]
+      },
+      {
+        "id": "bc-4",
+        "name": "Mr William Collins",
+        "aliases": [
+          "Mr William Collins",
+          "Mr. Collins",
+          "William Collins"
+        ]
+      },
+      {
+        "id": "bc-5",
+        "name": "Mr Gardiner",
+        "aliases": [
+          "Mr Gardiner",
+          "Mr. Gardiner"
+        ]
+      },
+      {
+        "id": "bc-6",
+        "name": "Lady Lucas",
+        "aliases": [
+          "Lady Lucas"
+        ]
+      },
+      {
+        "id": "bc-7",
+        "name": "Charles Bingley",
+        "aliases": [
+          "Charles Bingley",
+          "Mr. Bingley",
+          "Charles",
+          "Bingley"
+        ]
+      },
+      {
+        "id": "bc-8",
+        "name": "Caroline Bingley",
+        "aliases": [
+          "Caroline Bingley",
+          "Miss Bingley",
+          "Caroline",
+          "Ms. Bingley"
+        ]
+      },
+      {
+        "id": "bc-9",
+        "name": "Mr Philips",
+        "aliases": [
+          "Mr Philips",
+          "Mr. Philips"
+        ]
+      },
+      {
+        "id": "bc-10",
+        "name": "Jane Bennet",
+        "aliases": [
+          "Jane Bennet",
+          "Jane",
+          "Miss Bennet",
+          "My Dear Jane"
+        ]
+      },
+      {
+        "id": "bc-11",
+        "name": "Georgiana Darcy",
+        "aliases": [
+          "Georgiana Darcy",
+          "Miss Darcy"
+        ]
+      },
+      {
+        "id": "bc-12",
+        "name": "Sir William Lucas",
+        "aliases": [
+          "Sir William Lucas",
+          "Sir William"
+        ]
+      },
+      {
+        "id": "bc-13",
+        "name": "Elizabeth Bennet",
+        "aliases": [
+          "Elizabeth Bennet",
+          "Elizabeth",
+          "My Dear Miss Eliza",
+          "Lizzy",
+          "My Dear Miss Elizabeth",
+          "Miss Elizabeth",
+          "Miss Eliza",
+          "Eliza",
+          "My Dearest Lizzy",
+          "Miss Lizzy"
+        ]
+      },
+      {
+        "id": "bc-14",
+        "name": "Charlotte Lucas",
+        "aliases": [
+          "Charlotte Lucas",
+          "Mrs. Collins",
+          "Miss Lucas",
+          "Charlotte"
+        ]
+      },
+      {
+        "id": "bc-15",
+        "name": "Mrs. Hurst",
+        "aliases": [
+          "Mrs. Hurst",
+          "Louisa"
+        ]
+      },
+      {
+        "id": "bc-16",
+        "name": "Mrs Gardiner",
+        "aliases": [
+          "Mrs Gardiner",
+          "Mrs. Gardiner"
+        ]
+      },
+      {
+        "id": "bc-17",
+        "name": "Lady Catherine de Bourgh",
+        "aliases": [
+          "Lady Catherine de Bourgh",
+          "Lady Catherine De Bourgh",
+          "Lady Catherine",
+          "Catherine"
+        ]
+      },
+      {
+        "id": "bc-18",
+        "name": "Miss de Bourgh",
+        "aliases": [
+          "Miss de Bourgh",
+          "Anne De Bourgh"
+        ]
+      },
+      {
+        "id": "bc-19",
+        "name": "Maria Lucas",
+        "aliases": [
+          "Maria Lucas",
+          "Maria"
+        ]
+      },
+      {
+        "id": "bc-20",
+        "name": "Colonel Fitzwilliam",
+        "aliases": [
+          "Colonel Fitzwilliam",
+          "Fitzwilliam"
+        ]
+      },
+      {
+        "id": "bc-21",
+        "name": "Lydia Bennet",
+        "aliases": [
+          "Lydia Bennet",
+          "Lydia",
+          "Mrs. Wickham"
+        ]
+      },
+      {
+        "id": "bc-22",
+        "name": "Mrs. Reynolds",
+        "aliases": [
+          "Mrs. Reynolds",
+          "Reynolds"
+        ]
+      },
+      {
+        "id": "bc-23",
+        "name": "Catherine Bennet",
+        "aliases": [
+          "Catherine Bennet",
+          "Kitty"
+        ]
+      },
+      {
+        "id": "bc-24",
+        "name": "Mrs. Forster",
+        "aliases": [
+          "Mrs. Forster"
+        ]
+      },
+      {
+        "id": "bc-25",
+        "name": "Mary King",
+        "aliases": [
+          "Mary King",
+          "Miss King"
+        ]
+      },
+      {
+        "id": "bc-26",
+        "name": "Mrs Philips",
+        "aliases": [
+          "Mrs Philips",
+          "Mrs. Philips"
+        ]
+      },
+      {
+        "id": "bc-27",
+        "name": "Mr. Hurst",
+        "aliases": [
+          "Mr. Hurst"
+        ]
+      },
+      {
+        "id": "bc-28",
+        "name": "Mary Bennet",
+        "aliases": [
+          "Mary Bennet",
+          "Mary"
+        ]
+      },
+      {
+        "id": "bc-29",
+        "name": "Colonel Forster",
+        "aliases": [
+          "Colonel Forster"
+        ]
+      },
+      {
+        "id": "bc-30",
+        "name": "Captain Carter",
+        "aliases": [
+          "Captain Carter"
+        ]
+      },
+      {
+        "id": "bc-31",
+        "name": "Mr. Jones",
+        "aliases": [
+          "Mr. Jones"
+        ]
+      },
+      {
+        "id": "bc-32",
+        "name": "Mr. Denny",
+        "aliases": [
+          "Mr. Denny",
+          "Mr. Denney"
+        ]
+      },
+      {
+        "id": "bc-33",
+        "name": "Mrs. Jenkinson",
+        "aliases": [
+          "Mrs. Jenkinson"
+        ]
+      },
+      {
+        "id": "bc-34",
+        "name": "Mrs. Younge",
+        "aliases": [
+          "Mrs. Younge"
+        ]
+      },
+      {
+        "id": "bc-35",
+        "name": "Mr. Dawson",
+        "aliases": [
+          "Mr. Dawson"
+        ]
+      },
+      {
+        "id": "bc-36",
+        "name": "Mrs. Hill",
+        "aliases": [
+          "Mrs. Hill",
+          "Hill"
+        ]
+      },
+      {
+        "id": "bc-37",
+        "name": "Haggerston",
+        "aliases": [
+          "Haggerston"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+    "sourcePage": "https://www.gutenberg.org/ebooks/1342",
+    "format": "gutenberg-text",
+    "registryNote": "Selected, editable character names and aliases. Coverage is not exhaustive; ambiguous names and generic descriptors may produce false matches."
+  },
+  {
+    "id": "siddhartha",
+    "gutenbergId": 2500,
+    "title": "Siddhartha",
+    "author": "Hermann Hesse",
+    "year": 1922,
+    "characters": [
+      {
+        "id": "bc-0",
+        "name": "Siddhartha",
+        "aliases": [
+          "Siddhartha"
+        ]
+      },
+      {
+        "id": "bc-1",
+        "name": "Govinda",
+        "aliases": [
+          "Govinda"
+        ]
+      },
+      {
+        "id": "bc-2",
+        "name": "Young Siddhartha",
+        "aliases": [
+          "Young Siddhartha"
+        ]
+      },
+      {
+        "id": "bc-3",
+        "name": "Gotama",
+        "aliases": [
+          "Gotama",
+          "Buddha"
+        ]
+      },
+      {
+        "id": "bc-4",
+        "name": "Kamala",
+        "aliases": [
+          "Kamala"
+        ]
+      },
+      {
+        "id": "bc-5",
+        "name": "Siddhartha's Father",
+        "aliases": [
+          "Siddhartha's Father"
+        ]
+      },
+      {
+        "id": "bc-6",
+        "name": "The Samanas",
+        "aliases": [
+          "The Samanas",
+          "Samanas"
+        ]
+      },
+      {
+        "id": "bc-7",
+        "name": "Kamaswami",
+        "aliases": [
+          "Kamaswami"
+        ]
+      },
+      {
+        "id": "bc-8",
+        "name": "Vasudeva",
+        "aliases": [
+          "Vasudeva"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2500/pg2500.txt",
+    "sourcePage": "https://www.gutenberg.org/ebooks/2500",
+    "format": "gutenberg-text",
+    "registryNote": "Selected, editable character names and aliases. Coverage is not exhaustive; ambiguous names and generic descriptors may produce false matches."
+  },
+  {
+    "id": "animal-farm",
+    "gutenbergId": null,
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "year": 1945,
+    "characters": [
+      {
+        "id": "bc-0",
+        "name": "Mr. Jones",
+        "aliases": [
+          "Mr. Jones"
+        ]
+      },
+      {
+        "id": "bc-1",
+        "name": "Mrs. Jones",
+        "aliases": [
+          "Mrs. Jones"
+        ]
+      },
+      {
+        "id": "bc-2",
+        "name": "Old Major",
+        "aliases": [
+          "Old Major",
+          "Major",
+          "Willingdon Beauty"
+        ]
+      },
+      {
+        "id": "bc-3",
+        "name": "The Dogs",
+        "aliases": [
+          "The Dogs",
+          "dogs"
+        ]
+      },
+      {
+        "id": "bc-4",
+        "name": "The Hens",
+        "aliases": [
+          "The Hens",
+          "hens"
+        ]
+      },
+      {
+        "id": "bc-5",
+        "name": "The Sheep",
+        "aliases": [
+          "The Sheep",
+          "sheep"
+        ]
+      },
+      {
+        "id": "bc-6",
+        "name": "Boxer",
+        "aliases": [
+          "Boxer"
+        ]
+      },
+      {
+        "id": "bc-7",
+        "name": "Clover",
+        "aliases": [
+          "Clover"
+        ]
+      },
+      {
+        "id": "bc-8",
+        "name": "Muriel",
+        "aliases": [
+          "Muriel"
+        ]
+      },
+      {
+        "id": "bc-9",
+        "name": "Benjamin",
+        "aliases": [
+          "Benjamin"
+        ]
+      },
+      {
+        "id": "bc-10",
+        "name": "Mollie",
+        "aliases": [
+          "Mollie"
+        ]
+      },
+      {
+        "id": "bc-11",
+        "name": "The Cat",
+        "aliases": [
+          "The Cat",
+          "cat"
+        ]
+      },
+      {
+        "id": "bc-12",
+        "name": "Moses",
+        "aliases": [
+          "Moses"
+        ]
+      },
+      {
+        "id": "bc-13",
+        "name": "Snowball",
+        "aliases": [
+          "Snowball"
+        ]
+      },
+      {
+        "id": "bc-14",
+        "name": "Napoleon",
+        "aliases": [
+          "Napoleon"
+        ]
+      },
+      {
+        "id": "bc-15",
+        "name": "Squealer",
+        "aliases": [
+          "Squealer"
+        ]
+      },
+      {
+        "id": "bc-16",
+        "name": "Mr. Pilkington",
+        "aliases": [
+          "Mr. Pilkington",
+          "Pilkington"
+        ]
+      },
+      {
+        "id": "bc-17",
+        "name": "Mr. Frederick",
+        "aliases": [
+          "Mr. Frederick",
+          "Frederick"
+        ]
+      },
+      {
+        "id": "bc-18",
+        "name": "Minimus",
+        "aliases": [
+          "Minimus"
+        ]
+      },
+      {
+        "id": "bc-19",
+        "name": "Mr. Whymper",
+        "aliases": [
+          "Mr. Whymper",
+          "Whymper"
+        ]
+      }
+    ],
+    "sourceUrl": "https://huggingface.co/datasets/sapienzanlp/bookcoref/resolve/2c2587aca956a4225712abdcf1af72b93f18a28f/bookcoref_annotations/full/test.jsonl",
+    "sourcePage": "https://huggingface.co/datasets/sapienzanlp/bookcoref",
+    "format": "bookcoref-text",
+    "registryNote": "Selected, editable character names and aliases. Coverage is not exhaustive; ambiguous names and generic descriptors may produce false matches."
+  },
+  {
+    "id": "moby-dick",
+    "gutenbergId": 2701,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "characters": [
+      {
+        "id": "moby-dick-0",
+        "name": "Ishmael",
+        "aliases": [
+          "Ishmael"
+        ]
+      },
+      {
+        "id": "moby-dick-1",
+        "name": "Captain Ahab",
+        "aliases": [
+          "Captain Ahab",
+          "Ahab"
+        ]
+      },
+      {
+        "id": "moby-dick-2",
+        "name": "Queequeg",
+        "aliases": [
+          "Queequeg"
+        ]
+      },
+      {
+        "id": "moby-dick-3",
+        "name": "Starbuck",
+        "aliases": [
+          "Starbuck"
+        ]
+      },
+      {
+        "id": "moby-dick-4",
+        "name": "Stubb",
+        "aliases": [
+          "Stubb"
+        ]
+      },
+      {
+        "id": "moby-dick-5",
+        "name": "Flask",
+        "aliases": [
+          "Flask"
+        ]
+      },
+      {
+        "id": "moby-dick-6",
+        "name": "Captain Peleg",
+        "aliases": [
+          "Captain Peleg",
+          "Peleg"
+        ]
+      },
+      {
+        "id": "moby-dick-7",
+        "name": "Captain Bildad",
+        "aliases": [
+          "Captain Bildad",
+          "Bildad"
+        ]
+      },
+      {
+        "id": "moby-dick-8",
+        "name": "Father Mapple",
+        "aliases": [
+          "Father Mapple",
+          "Mapple"
+        ]
+      },
+      {
+        "id": "moby-dick-9",
+        "name": "Elijah",
+        "aliases": [
+          "Elijah"
+        ]
+      },
+      {
+        "id": "moby-dick-10",
+        "name": "Pip",
+        "aliases": [
+          "Pip"
+        ]
+      },
+      {
+        "id": "moby-dick-11",
+        "name": "Fedallah",
+        "aliases": [
+          "Fedallah"
+        ]
+      },
+      {
+        "id": "moby-dick-12",
+        "name": "Tashtego",
+        "aliases": [
+          "Tashtego"
+        ]
+      },
+      {
+        "id": "moby-dick-13",
+        "name": "Daggoo",
+        "aliases": [
+          "Daggoo"
+        ]
+      },
+      {
+        "id": "moby-dick-14",
+        "name": "Moby Dick",
+        "aliases": [
+          "Moby Dick",
+          "Moby-Dick"
+        ]
+      },
+      {
+        "id": "moby-dick-15",
+        "name": "Captain Boomer",
+        "aliases": [
+          "Captain Boomer",
+          "Boomer"
+        ]
+      },
+      {
+        "id": "moby-dick-16",
+        "name": "Captain Gardiner",
+        "aliases": [
+          "Captain Gardiner",
+          "Gardiner"
+        ]
+      },
+      {
+        "id": "moby-dick-17",
+        "name": "Mrs. Hussey",
+        "aliases": [
+          "Mrs. Hussey",
+          "Mrs Hussey"
+        ]
+      },
+      {
+        "id": "moby-dick-18",
+        "name": "Peter Coffin",
+        "aliases": [
+          "Peter Coffin"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2701/pg2701.txt",
+    "sourcePage": "https://www.gutenberg.org/ebooks/2701",
+    "format": "gutenberg-text",
+    "registryNote": "Selected, editable character names and aliases. Coverage is not exhaustive; ambiguous names and generic descriptors may produce false matches."
+  },
+  {
+    "id": "frankenstein",
+    "gutenbergId": 84,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "characters": [
+      {
+        "id": "frankenstein-0",
+        "name": "Victor Frankenstein",
+        "aliases": [
+          "Victor Frankenstein",
+          "Victor"
+        ]
+      },
+      {
+        "id": "frankenstein-1",
+        "name": "The Creature",
+        "aliases": [
+          "The Creature",
+          "creature",
+          "monster",
+          "fiend"
+        ]
+      },
+      {
+        "id": "frankenstein-2",
+        "name": "Robert Walton",
+        "aliases": [
+          "Robert Walton",
+          "Walton"
+        ]
+      },
+      {
+        "id": "frankenstein-3",
+        "name": "Elizabeth Lavenza",
+        "aliases": [
+          "Elizabeth Lavenza",
+          "Elizabeth"
+        ]
+      },
+      {
+        "id": "frankenstein-4",
+        "name": "Henry Clerval",
+        "aliases": [
+          "Henry Clerval",
+          "Clerval"
+        ]
+      },
+      {
+        "id": "frankenstein-5",
+        "name": "Alphonse Frankenstein",
+        "aliases": [
+          "Alphonse Frankenstein",
+          "Alphonse"
+        ]
+      },
+      {
+        "id": "frankenstein-6",
+        "name": "Caroline Beaufort",
+        "aliases": [
+          "Caroline Beaufort",
+          "Caroline"
+        ]
+      },
+      {
+        "id": "frankenstein-7",
+        "name": "William Frankenstein",
+        "aliases": [
+          "William Frankenstein",
+          "William"
+        ]
+      },
+      {
+        "id": "frankenstein-8",
+        "name": "Ernest Frankenstein",
+        "aliases": [
+          "Ernest Frankenstein",
+          "Ernest"
+        ]
+      },
+      {
+        "id": "frankenstein-9",
+        "name": "Justine Moritz",
+        "aliases": [
+          "Justine Moritz",
+          "Justine"
+        ]
+      },
+      {
+        "id": "frankenstein-10",
+        "name": "Felix De Lacey",
+        "aliases": [
+          "Felix De Lacey",
+          "Felix"
+        ]
+      },
+      {
+        "id": "frankenstein-11",
+        "name": "Agatha De Lacey",
+        "aliases": [
+          "Agatha De Lacey",
+          "Agatha"
+        ]
+      },
+      {
+        "id": "frankenstein-12",
+        "name": "De Lacey",
+        "aliases": [
+          "De Lacey"
+        ]
+      },
+      {
+        "id": "frankenstein-13",
+        "name": "Safie",
+        "aliases": [
+          "Safie"
+        ]
+      },
+      {
+        "id": "frankenstein-14",
+        "name": "M. Waldman",
+        "aliases": [
+          "M. Waldman",
+          "Waldman"
+        ]
+      },
+      {
+        "id": "frankenstein-15",
+        "name": "M. Krempe",
+        "aliases": [
+          "M. Krempe",
+          "Krempe"
+        ]
+      },
+      {
+        "id": "frankenstein-16",
+        "name": "Mr. Kirwin",
+        "aliases": [
+          "Mr. Kirwin",
+          "Kirwin"
+        ]
+      },
+      {
+        "id": "frankenstein-17",
+        "name": "Margaret Saville",
+        "aliases": [
+          "Margaret Saville",
+          "Mrs. Saville"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/84/pg84.txt",
+    "sourcePage": "https://www.gutenberg.org/ebooks/84",
+    "format": "gutenberg-text",
+    "registryNote": "Selected, editable character names and aliases. Coverage is not exhaustive; ambiguous names and generic descriptors may produce false matches."
+  },
+  {
+    "id": "alice-in-wonderland",
+    "gutenbergId": 11,
+    "title": "Alice’s Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865,
+    "characters": [
+      {
+        "id": "alice-in-wonderland-0",
+        "name": "Alice",
+        "aliases": [
+          "Alice"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-1",
+        "name": "White Rabbit",
+        "aliases": [
+          "White Rabbit"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-2",
+        "name": "Cheshire Cat",
+        "aliases": [
+          "Cheshire Cat",
+          "Cheshire-Cat"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-3",
+        "name": "Mad Hatter",
+        "aliases": [
+          "Mad Hatter",
+          "Hatter"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-4",
+        "name": "March Hare",
+        "aliases": [
+          "March Hare"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-5",
+        "name": "Dormouse",
+        "aliases": [
+          "Dormouse"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-6",
+        "name": "Queen of Hearts",
+        "aliases": [
+          "Queen of Hearts"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-7",
+        "name": "King of Hearts",
+        "aliases": [
+          "King of Hearts"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-8",
+        "name": "Knave of Hearts",
+        "aliases": [
+          "Knave of Hearts",
+          "Knave"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-9",
+        "name": "Duchess",
+        "aliases": [
+          "Duchess"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-10",
+        "name": "Caterpillar",
+        "aliases": [
+          "Caterpillar"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-11",
+        "name": "Mock Turtle",
+        "aliases": [
+          "Mock Turtle"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-12",
+        "name": "Gryphon",
+        "aliases": [
+          "Gryphon"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-13",
+        "name": "Dodo",
+        "aliases": [
+          "Dodo"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-14",
+        "name": "Mouse",
+        "aliases": [
+          "Mouse"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-15",
+        "name": "Bill",
+        "aliases": [
+          "Bill",
+          "Lizard"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-16",
+        "name": "Pat",
+        "aliases": [
+          "Pat"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-17",
+        "name": "Lory",
+        "aliases": [
+          "Lory"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-18",
+        "name": "Eaglet",
+        "aliases": [
+          "Eaglet"
+        ]
+      },
+      {
+        "id": "alice-in-wonderland-19",
+        "name": "Duck",
+        "aliases": [
+          "Duck"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+    "sourcePage": "https://www.gutenberg.org/ebooks/11",
+    "format": "gutenberg-text",
+    "registryNote": "Selected, editable character names and aliases. Coverage is not exhaustive; ambiguous names and generic descriptors may produce false matches."
+  },
+  {
+    "id": "crime-and-punishment",
+    "gutenbergId": 2554,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoyevsky",
+    "year": 1866,
+    "characters": [
+      {
+        "id": "crime-and-punishment-0",
+        "name": "Rodion Raskolnikov",
+        "aliases": [
+          "Rodion Raskolnikov",
+          "Raskolnikov",
+          "Rodya",
+          "Rodion Romanovitch"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-1",
+        "name": "Sofya Marmeladova",
+        "aliases": [
+          "Sofya Marmeladova",
+          "Sonia",
+          "Sonya",
+          "Sofya Semyonovna"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-2",
+        "name": "Avdotya Raskolnikova",
+        "aliases": [
+          "Avdotya Raskolnikova",
+          "Dounia",
+          "Dunya",
+          "Avdotya Romanovna"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-3",
+        "name": "Dmitri Razumihin",
+        "aliases": [
+          "Dmitri Razumihin",
+          "Razumihin",
+          "Razumikhin"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-4",
+        "name": "Porfiry Petrovitch",
+        "aliases": [
+          "Porfiry Petrovitch",
+          "Porfiry"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-5",
+        "name": "Arkady Svidrigailov",
+        "aliases": [
+          "Arkady Svidrigailov",
+          "Svidrigailov"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-6",
+        "name": "Pyotr Luzhin",
+        "aliases": [
+          "Pyotr Luzhin",
+          "Luzhin",
+          "Pyotr Petrovitch"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-7",
+        "name": "Semyon Marmeladov",
+        "aliases": [
+          "Semyon Marmeladov",
+          "Marmeladov"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-8",
+        "name": "Katerina Ivanovna",
+        "aliases": [
+          "Katerina Ivanovna"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-9",
+        "name": "Pulcheria Alexandrovna",
+        "aliases": [
+          "Pulcheria Alexandrovna"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-10",
+        "name": "Alyona Ivanovna",
+        "aliases": [
+          "Alyona Ivanovna"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-11",
+        "name": "Lizaveta Ivanovna",
+        "aliases": [
+          "Lizaveta Ivanovna",
+          "Lizaveta"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-12",
+        "name": "Andrey Lebeziatnikov",
+        "aliases": [
+          "Andrey Lebeziatnikov",
+          "Lebeziatnikov"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-13",
+        "name": "Zossimov",
+        "aliases": [
+          "Zossimov",
+          "Zosimov"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-14",
+        "name": "Nastasya",
+        "aliases": [
+          "Nastasya"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-15",
+        "name": "Zametov",
+        "aliases": [
+          "Zametov",
+          "Zamyotov"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-16",
+        "name": "Ilya Petrovitch",
+        "aliases": [
+          "Ilya Petrovitch"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-17",
+        "name": "Nikodim Fomitch",
+        "aliases": [
+          "Nikodim Fomitch"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-18",
+        "name": "Nikolay",
+        "aliases": [
+          "Nikolay",
+          "Nikolai"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2554/pg2554.txt",
+    "sourcePage": "https://www.gutenberg.org/ebooks/2554",
+    "format": "gutenberg-text",
+    "registryNote": "Selected, editable character names and aliases. Coverage is not exhaustive; ambiguous names and generic descriptors may produce false matches."
+  },
+  {
+    "id": "sherlock-holmes",
+    "gutenbergId": 1661,
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892,
+    "characters": [
+      {
+        "id": "sherlock-holmes-0",
+        "name": "Sherlock Holmes",
+        "aliases": [
+          "Sherlock Holmes",
+          "Holmes"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-1",
+        "name": "Dr. Watson",
+        "aliases": [
+          "Dr. Watson",
+          "Watson"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-2",
+        "name": "Irene Adler",
+        "aliases": [
+          "Irene Adler"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-3",
+        "name": "King of Bohemia",
+        "aliases": [
+          "King of Bohemia"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-4",
+        "name": "Godfrey Norton",
+        "aliases": [
+          "Godfrey Norton"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-5",
+        "name": "Jabez Wilson",
+        "aliases": [
+          "Jabez Wilson"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-6",
+        "name": "John Clay",
+        "aliases": [
+          "John Clay"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-7",
+        "name": "Vincent Spaulding",
+        "aliases": [
+          "Vincent Spaulding"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-8",
+        "name": "Mary Sutherland",
+        "aliases": [
+          "Mary Sutherland"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-9",
+        "name": "Hosmer Angel",
+        "aliases": [
+          "Hosmer Angel"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-10",
+        "name": "James Windibank",
+        "aliases": [
+          "James Windibank",
+          "Windibank"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-11",
+        "name": "Lestrade",
+        "aliases": [
+          "Lestrade"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-12",
+        "name": "James McCarthy",
+        "aliases": [
+          "James McCarthy"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-13",
+        "name": "John Turner",
+        "aliases": [
+          "John Turner"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-14",
+        "name": "Alice Turner",
+        "aliases": [
+          "Alice Turner"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-15",
+        "name": "John Openshaw",
+        "aliases": [
+          "John Openshaw"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-16",
+        "name": "Elias Openshaw",
+        "aliases": [
+          "Elias Openshaw"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-17",
+        "name": "Neville St. Clair",
+        "aliases": [
+          "Neville St. Clair",
+          "St. Clair"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-18",
+        "name": "Hugh Boone",
+        "aliases": [
+          "Hugh Boone"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-19",
+        "name": "Henry Baker",
+        "aliases": [
+          "Henry Baker"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-20",
+        "name": "James Ryder",
+        "aliases": [
+          "James Ryder",
+          "Ryder"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-21",
+        "name": "Helen Stoner",
+        "aliases": [
+          "Helen Stoner"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-22",
+        "name": "Dr. Roylott",
+        "aliases": [
+          "Dr. Roylott",
+          "Roylott"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-23",
+        "name": "Julia Stoner",
+        "aliases": [
+          "Julia Stoner"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-24",
+        "name": "Victor Hatherley",
+        "aliases": [
+          "Victor Hatherley",
+          "Hatherley"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-25",
+        "name": "Colonel Lysander Stark",
+        "aliases": [
+          "Colonel Lysander Stark",
+          "Stark"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-26",
+        "name": "Lord St. Simon",
+        "aliases": [
+          "Lord St. Simon",
+          "St. Simon"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-27",
+        "name": "Hatty Doran",
+        "aliases": [
+          "Hatty Doran",
+          "Hatty"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-28",
+        "name": "Alexander Holder",
+        "aliases": [
+          "Alexander Holder",
+          "Holder"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-29",
+        "name": "Arthur Holder",
+        "aliases": [
+          "Arthur Holder"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-30",
+        "name": "Mary Holder",
+        "aliases": [
+          "Mary Holder"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-31",
+        "name": "George Burnwell",
+        "aliases": [
+          "George Burnwell",
+          "Burnwell"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-32",
+        "name": "Violet Hunter",
+        "aliases": [
+          "Violet Hunter"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-33",
+        "name": "Jephro Rucastle",
+        "aliases": [
+          "Jephro Rucastle",
+          "Rucastle"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-34",
+        "name": "Mrs. Toller",
+        "aliases": [
+          "Mrs. Toller"
+        ]
+      },
+      {
+        "id": "sherlock-holmes-35",
+        "name": "Toller",
+        "aliases": [
+          "Toller"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1661/pg1661.txt",
+    "sourcePage": "https://www.gutenberg.org/ebooks/1661",
+    "format": "gutenberg-text",
+    "registryNote": "Selected, editable character names and aliases. Coverage is not exhaustive; ambiguous names and generic descriptors may produce false matches."
+  },
+  {
+    "id": "romeo-and-juliet",
+    "gutenbergId": 1513,
+    "title": "Romeo and Juliet",
+    "author": "William Shakespeare",
+    "year": 1597,
+    "characters": [
+      {
+        "id": "romeo-and-juliet-0",
+        "name": "Romeo",
+        "aliases": [
+          "Romeo"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-1",
+        "name": "Juliet",
+        "aliases": [
+          "Juliet"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-2",
+        "name": "Mercutio",
+        "aliases": [
+          "Mercutio"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-3",
+        "name": "Tybalt",
+        "aliases": [
+          "Tybalt"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-4",
+        "name": "Benvolio",
+        "aliases": [
+          "Benvolio"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-5",
+        "name": "Friar Lawrence",
+        "aliases": [
+          "Friar Lawrence",
+          "Friar Laurence",
+          "Lawrence",
+          "Laurence"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-6",
+        "name": "Nurse",
+        "aliases": [
+          "Nurse"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-7",
+        "name": "Lady Capulet",
+        "aliases": [
+          "Lady Capulet"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-8",
+        "name": "Lord Capulet",
+        "aliases": [
+          "Lord Capulet",
+          "Capulet"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-9",
+        "name": "Lady Montague",
+        "aliases": [
+          "Lady Montague"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-10",
+        "name": "Lord Montague",
+        "aliases": [
+          "Lord Montague",
+          "Montague"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-11",
+        "name": "Paris",
+        "aliases": [
+          "Paris"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-12",
+        "name": "Prince Escalus",
+        "aliases": [
+          "Prince Escalus",
+          "Prince"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-13",
+        "name": "Balthasar",
+        "aliases": [
+          "Balthasar"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-14",
+        "name": "Sampson",
+        "aliases": [
+          "Sampson"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-15",
+        "name": "Gregory",
+        "aliases": [
+          "Gregory"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-16",
+        "name": "Peter",
+        "aliases": [
+          "Peter"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-17",
+        "name": "Friar John",
+        "aliases": [
+          "Friar John"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-18",
+        "name": "Apothecary",
+        "aliases": [
+          "Apothecary"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-19",
+        "name": "Abram",
+        "aliases": [
+          "Abram",
+          "Abraham"
+        ]
+      },
+      {
+        "id": "romeo-and-juliet-20",
+        "name": "Chorus",
+        "aliases": [
+          "Chorus"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1513/pg1513.txt",
+    "sourcePage": "https://www.gutenberg.org/ebooks/1513",
+    "format": "gutenberg-text",
+    "registryNote": "Selected, editable character names and aliases. Coverage is not exhaustive; ambiguous names and generic descriptors may produce false matches."
+  }
+]

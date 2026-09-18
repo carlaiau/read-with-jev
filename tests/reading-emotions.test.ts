@@ -27,3 +27,17 @@ test('reader scores require all eight probabilities and requests omit annotation
  assert.equal(Object.keys(request.questions).length,8);assert.deepEqual(Object.keys(request.state).sort(),['followingContext','precedingContext','target']);
  const valid=Object.fromEntries(readingEmotions.map(e=>[e,.5]));assert(validEmotionScores(valid));assert(!validEmotionScores({...valid,fear:NaN}));assert(!validEmotionScores({fear:.5}));assert(!validEmotionScores({...valid,extra:0}));
 });
+
+test('library display plans respect explicit plain and tokenized text formats',()=>{
+ for(const textFormat of ['plain','tokenized'] as const){
+  const plans=readingPlans({...book,id:'speaking',textFormat});
+  assert.equal(plans[0].text,readerSegments(book.text.slice(0,split),textFormat==='tokenized').map(s=>s.text).join(''));
+ }
+});
+
+test('library section headings stay outside sentence plans without modifying source offsets',()=>{
+ const fixture={...book,textFormat:'plain' as const,sections:[{index:1,title:'CHAPTER I. Ann is _afraid_ . She waits .'}]};
+ const before=JSON.stringify(fixture);const plans=readingPlans(fixture);
+ assert.equal(plans[0].text,'');assert.equal(JSON.stringify(fixture),before);
+ assert(!plans.flatMap(p=>p.sentences).some(s=>s.target.includes('CHAPTER I.')));
+});

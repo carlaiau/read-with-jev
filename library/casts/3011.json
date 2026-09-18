@@ -1,0 +1,702 @@
+{
+  "schema": 1,
+  "gutenbergId": 3011,
+  "sourceSha256": "11c3cd3a803278bf9b78115043dff2f064a984448f19ba14c53a72fdb556caaf",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-6d33006cd4ab7b84",
+      "name": "Ellen Douglas",
+      "description": "Young Highland lady; daughter of the Douglas and central female figure in the narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ellen",
+          "evidence": [
+            21794,
+            21799
+          ]
+        },
+        {
+          "text": "Ellen Douglas",
+          "evidence": [
+            48887,
+            48900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d0a552051460a2ba",
+      "name": "Douglas",
+      "description": "Ellen's father, an exiled Highland chieftain referred to as 'the Douglas'",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Douglas",
+          "evidence": [
+            37108,
+            37115
+          ]
+        },
+        {
+          "text": "the Douglas",
+          "evidence": [
+            37104,
+            37115
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2f5c11294394b997",
+      "name": "Dame Margaret",
+      "description": "Elderly lady who keeps the island-lodge; maternal/matronly guardian to Ellen",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dame Margaret",
+          "evidence": [
+            31984,
+            31997
+          ]
+        },
+        {
+          "text": "Lady Margaret",
+          "evidence": [
+            48506,
+            48519
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-da83d63409566c87",
+      "name": "James Fitz-James",
+      "description": "Knight introduced as the Knight of Snowdoun; later revealed as Scotland's king (King James)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "The Knight of Snowdoun",
+          "evidence": [
+            31008,
+            31030
+          ]
+        },
+        {
+          "text": "James Fitz-James",
+          "evidence": [
+            31032,
+            31048
+          ]
+        },
+        {
+          "text": "Snowdoun's Knight",
+          "evidence": [
+            125568,
+            125585
+          ]
+        },
+        {
+          "text": "Scotland's King",
+          "evidence": [
+            168935,
+            168950
+          ]
+        },
+        {
+          "text": "the King",
+          "evidence": [
+            45437,
+            45445
+          ]
+        },
+        {
+          "text": "King James",
+          "evidence": [
+            67384,
+            67394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba1ba39e2288b31a",
+      "name": "Sir Roderick Dhu",
+      "description": "Highland chieftain, leader of Clan-Alpine and principal antagonist",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Roderick Dhu",
+          "evidence": [
+            111648,
+            111664
+          ]
+        },
+        {
+          "text": "Sir Roderick",
+          "evidence": [
+            46872,
+            46884
+          ]
+        },
+        {
+          "text": "Black Sir Roderick",
+          "evidence": [
+            47230,
+            47248
+          ]
+        },
+        {
+          "text": "Roderick Vich Alpine",
+          "evidence": [
+            54752,
+            54772
+          ]
+        },
+        {
+          "text": "Roderigh Vich Alpine dhu",
+          "evidence": [
+            55345,
+            55369
+          ]
+        },
+        {
+          "text": "Roderigh Vich Alpine",
+          "evidence": [
+            55345,
+            55365
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1ecc7fe50d3682f1",
+      "name": "Allan-bane",
+      "description": "An elderly harper/minstrel attached to the Douglas household; prophetically gifted",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Allan-bane",
+          "evidence": [
+            25329,
+            25339
+          ]
+        },
+        {
+          "text": "Allan",
+          "evidence": [
+            25329,
+            25334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-451df6cdf84bc1b7",
+      "name": "Brian the Hermit",
+      "description": "Hermit/monk (prophetic seer) who performs the Taghairm and pronounces omens",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Brian the Hermit",
+          "evidence": [
+            78576,
+            78592
+          ]
+        },
+        {
+          "text": "Brian",
+          "evidence": [
+            52225,
+            52230
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c4d61e9218202f4d",
+      "name": "Malcolm Graeme",
+      "description": "A young Highland gentleman of the Graeme family; Ellen's suitor and Roderick's rival",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Malcolm Graeme",
+          "evidence": [
+            42604,
+            42618
+          ]
+        },
+        {
+          "text": "Malcolm",
+          "evidence": [
+            22612,
+            22619
+          ]
+        },
+        {
+          "text": "the Graeme",
+          "evidence": [
+            42444,
+            42454
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f2f9870569f567df",
+      "name": "Duncan",
+      "description": "A member of Clan-Alpine whose death sets off the Fiery Cross and funeral-muster",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Duncan",
+          "evidence": [
+            91330,
+            91336
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ce580732fc77d436",
+      "name": "Angus",
+      "description": "Duncan's son and heir who takes up the Fiery Cross as a youth",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Angus",
+          "evidence": [
+            93196,
+            93201
+          ]
+        },
+        {
+          "text": "Angus, the heir of Duncan's line",
+          "evidence": [
+            93196,
+            93228
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4cbb82cd3ff20c7e",
+      "name": "Red Murdoch",
+      "description": "A clansman (named Murdoch) referenced as a guide and scout for enemy movements",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Red Murdoch",
+          "evidence": [
+            115385,
+            115396
+          ]
+        },
+        {
+          "text": "Murdoch",
+          "evidence": [
+            115389,
+            115396
+          ]
+        },
+        {
+          "text": "Murdoch of Alpine",
+          "evidence": [
+            135910,
+            135927
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-76e15ac651f0e0fb",
+      "name": "Malise",
+      "description": "Roderick Dhu's henchman and swift messenger who bears the Fiery Cross",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Malise",
+          "evidence": [
+            72852,
+            72858
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ab7742937a844a05",
+      "name": "Norman (heir of Armandave)",
+      "description": "Young Lowland bridegroom; appears with a bride (Tombea's Mary) at Stirling festivities",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Norman, heir of Armandave",
+          "evidence": [
+            96249,
+            96274
+          ]
+        },
+        {
+          "text": "Norman",
+          "evidence": [
+            59426,
+            59432
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e35c68e5782c65a4",
+      "name": "Tombea's Mary",
+      "description": "Young woman betrothed to Norman (appears as bride in the Stirling festivities)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tombea's Mary",
+          "evidence": [
+            96221,
+            96234
+          ]
+        },
+        {
+          "text": "Mary",
+          "evidence": [
+            96230,
+            96234
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea16b908f239ffe8",
+      "name": "Blanche of Devan",
+      "description": "A Lowland maiden, crazed and wounded, whose death spurs Fitz-James to vengeance",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Blanche of Devan",
+          "evidence": [
+            132832,
+            132848
+          ]
+        },
+        {
+          "text": "Blanche",
+          "evidence": [
+            132832,
+            132839
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9bed1890f3dc27fd",
+      "name": "John of Brent",
+      "description": "A soldier of the Stirling guard (also called De Brent); quarrelsome but ultimately protective",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John of Brent",
+          "evidence": [
+            186167,
+            186180
+          ]
+        },
+        {
+          "text": "De Brent",
+          "evidence": [
+            190146,
+            190154
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae215a3af6f682e0",
+      "name": "Bertram",
+      "description": "A Flemish soldier/visitor who brings the harper and the mountain maid to Stirling",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bertram",
+          "evidence": [
+            187837,
+            187844
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f0ec7990d32c2a63",
+      "name": "Lewis",
+      "description": "Captain of the Stirling guard who escorts Ellen and accepts the signet-ring as warrant",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lewis",
+          "evidence": [
+            191241,
+            191246
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-efdd0e204c310f55",
+      "name": "Herbert",
+      "description": "One of the mounted squires who appear with Fitz-James at Stirling (minor participant)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Herbert",
+          "evidence": [
+            163720,
+            163727
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9b190307087a0127",
+      "name": "Luffness",
+      "description": "One of the mounted squires attending Fitz-James at Stirling (minor participant)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Luffness",
+          "evidence": [
+            163732,
+            163740
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-97d0f361c79695c4",
+      "name": "De Vaux",
+      "description": "Mounted attendant/squire of Fitz-James who speaks with him at Stirling",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "De Vaux",
+          "evidence": [
+            164133,
+            164140
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1f73e99e948d0b2f",
+      "name": "Herries",
+      "description": "Mounted attendant/squire of Fitz-James who rides with him toward Stirling",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Herries",
+          "evidence": [
+            164145,
+            164152
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-89e816b2b62d517f",
+      "name": "Bayard",
+      "description": "Fitz-James's war-horse, named and ridden in the poem",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bayard",
+          "evidence": [
+            164102,
+            164108
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e6dfa1b3fa1cea5d",
+      "name": "Lufra",
+      "description": "Douglas's favorite hound, singled out in the Stirling hunting incident",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lufra",
+          "evidence": [
+            174023,
+            174028
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-04c4e32c1cd40e86",
+      "name": "Stumah",
+      "description": "A hound (or hunt-dog) seen by the bier of Duncan, noted for fidelity",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Stumah",
+          "evidence": [
+            92502,
+            92508
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f785250289991831",
+      "name": "Braco",
+      "description": "Messenger/courier sent to carry the King's orders to Mar and Stirling (minor participant)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Braco",
+          "evidence": [
+            181367,
+            181372
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-39e32e7a606918cd",
+      "name": "Lord Moray",
+      "description": "Noble (Moray) whose banner and forces appear among the Saxon/royal troops",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lord Moray",
+          "evidence": [
+            31330,
+            31340
+          ]
+        },
+        {
+          "text": "Moray",
+          "evidence": [
+            31335,
+            31340
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-05fcbd345463b2ab",
+      "name": "Earl of Mar",
+      "description": "The Earl (Mar) who musters forces and communicates with the King during the crisis",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Earl of Mar",
+          "evidence": [
+            180409,
+            180420
+          ]
+        },
+        {
+          "text": "Mar",
+          "evidence": [
+            31989,
+            31992
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7b5eb1f8d5bf9e1c",
+      "name": "Sir John of Hyndford",
+      "description": "A royal officer at Stirling who is appealed to by the Douglas during the tumult",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir John of Hyndford",
+          "evidence": [
+            176981,
+            177001
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-822ecf68b5bf8e48",
+      "name": "Robin Hood (masquers)",
+      "description": "Leader-figure in the morrice/Robin Hood pageant performed at Stirling (pageant participants)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Robin Hood",
+          "evidence": [
+            170430,
+            170440
+          ]
+        },
+        {
+          "text": "Friar Tuck",
+          "evidence": [
+            170467,
+            170477
+          ]
+        },
+        {
+          "text": "Old Scathelocke",
+          "evidence": [
+            170512,
+            170527
+          ]
+        },
+        {
+          "text": "Maid Marian",
+          "evidence": [
+            170556,
+            170567
+          ]
+        },
+        {
+          "text": "Scarlet",
+          "evidence": [
+            170595,
+            170602
+          ]
+        },
+        {
+          "text": "Mutch",
+          "evidence": [
+            170608,
+            170613
+          ]
+        },
+        {
+          "text": "Little John",
+          "evidence": [
+            170619,
+            170630
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bbf0fbe846c13230",
+      "name": "Glentarkin",
+      "description": "A young soldier/retainer roused by the scouts (named minor participant)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Glentarkin",
+          "evidence": [
+            110415,
+            110425
+          ]
+        }
+      ]
+    }
+  ]
+}

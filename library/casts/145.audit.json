@@ -1,0 +1,142 @@
+{
+  "chunks": [
+    {
+      "start": 802,
+      "end": 650750,
+      "key": "1338a84dd3fafc3e6dc219b9cbc1e730ea10ead65b0e1f8f6ec4539fb222b599",
+      "usage": {
+        "input_tokens": 171714,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4730,
+        "output_tokens_details": {
+          "reasoning_tokens": 2880
+        },
+        "total_tokens": 176444
+      }
+    },
+    {
+      "start": 650750,
+      "end": 1300747,
+      "key": "7ded6c67dd68252493f6590ec395c743d0a76c7bff0abc4f801f0b02b0682eee",
+      "usage": {
+        "input_tokens": 172530,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6390,
+        "output_tokens_details": {
+          "reasoning_tokens": 3648
+        },
+        "total_tokens": 178920
+      }
+    },
+    {
+      "start": 1300747,
+      "end": 1814273,
+      "key": "d8196e7d239ce124145b3cca26b0379907ad0e274ef1f5f3a2b471bdd80919de",
+      "usage": {
+        "input_tokens": 135593,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5328,
+        "output_tokens_details": {
+          "reasoning_tokens": 3264
+        },
+        "total_tokens": 140921
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "c6f1fe1b572c3820ac4e5c8f1f06fa0a4a248196eb2fbfdae818e7db26dbc7fb",
+    "usage": {
+      "input_tokens": 8311,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 11822,
+      "output_tokens_details": {
+        "reasoning_tokens": 4864
+      },
+      "total_tokens": 20133
+    }
+  },
+  "rejected": [
+    {
+      "name": "Monk (Great St. Bernard dog)",
+      "alias": "Monk, the Great St. Bernard dog",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Tertius Lydgate",
+      "alias": "Tertius Lydgate",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Miss Winifred Farebrother",
+      "alias": "Miss Winifred Farebrother",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Fred Vincy",
+      "alias": "the fair young man",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Susan Garth",
+      "alias": "Susan Garth",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Tom Cranch",
+      "alias": "Tom Cranch",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Celia Brooke",
+      "alias": "Mrs. Brooke",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Garth’s bailiff and laborers",
+      "alias": "Timothy Cooper",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Garth’s bailiff and laborers",
+      "alias": "the men in smock-frocks",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Dr. Wrench",
+      "alias": "Dr. Wrench",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Protheroe",
+      "alias": "Mr. Protheroe",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Webbe",
+      "alias": "Mr. Webbe",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Hackbutt’s acquaintances",
+      "alias": "Mr. Bulstrode’s committee",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Spilkins",
+      "alias": "Mr. Spilkins",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

@@ -1,0 +1,1192 @@
+{
+  "schema": 1,
+  "gutenbergId": 76639,
+  "sourceSha256": "1131311fe3c5d69acfdc822630e13e6a73d37419fa421c460ed9c6c4d2152f34",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-fad67bf549d7b1d5",
+      "name": "Eloisa",
+      "description": "Central female correspondent and heroine of the letters; later Mrs. Wolmar, pious and maternal.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Eloisa",
+          "evidence": [
+            993,
+            999
+          ]
+        },
+        {
+          "text": "Eloisa Wolmar",
+          "evidence": [
+            52078,
+            52091
+          ]
+        },
+        {
+          "text": "Eloisa:",
+          "evidence": [
+            993,
+            1000
+          ]
+        },
+        {
+          "text": "Mrs. Wolmar",
+          "evidence": [
+            918658,
+            918669
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7bc8ff92b42daa1e",
+      "name": "Unidentified male correspondent",
+      "description": "Unnamed young man who writes to Eloisa (her lover/correspondent in the book entries).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Answer",
+          "evidence": [
+            76002,
+            76008
+          ]
+        },
+        {
+          "text": "Letter I. To Eloisa.",
+          "evidence": [
+            60081,
+            60101
+          ]
+        },
+        {
+          "text": "Letter II. To Eloisa.",
+          "evidence": [
+            68904,
+            68925
+          ]
+        },
+        {
+          "text": "Letter III. To Eloisa.",
+          "evidence": [
+            72512,
+            72534
+          ]
+        },
+        {
+          "text": "Letter IV. From Eloisa.",
+          "evidence": [
+            76827,
+            76850
+          ]
+        },
+        {
+          "text": "Letter V. To Eloisa.",
+          "evidence": [
+            82751,
+            82771
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1de596ef031fefcf",
+      "name": "Clara Orbe",
+      "description": "Eloisa’s cousin, intimate friend and companion; acts as housekeeper/governess and adviser.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Clara",
+          "evidence": [
+            54977,
+            54982
+          ]
+        },
+        {
+          "text": "Mrs. Orbe",
+          "evidence": [
+            426956,
+            426965
+          ]
+        },
+        {
+          "text": "Clara Orbe",
+          "evidence": [
+            960431,
+            960441
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8c22f421bcd4cb72",
+      "name": "Chaillot",
+      "description": "Woman associated with Eloisa’s early education (referred to as ‘poor Chaillot’).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Chaillot",
+          "evidence": [
+            86951,
+            86959
+          ]
+        },
+        {
+          "text": "poor Chaillot",
+          "evidence": [
+            86946,
+            86959
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4822e0b5aa49a561",
+      "name": "Baron D’Etange",
+      "description": "Eloisa’s father; head of the D’Etange household and an authoritative figure.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Baron D’Etange",
+          "evidence": [
+            2402,
+            2416
+          ]
+        },
+        {
+          "text": "Baron D'Etange",
+          "evidence": [
+            51746,
+            51760
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2236e764b14186d0",
+      "name": "Mr. Orbe",
+      "description": "Neighbour and family friend who appears in correspondence and household scenes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Orbe",
+          "evidence": [
+            2432,
+            2440
+          ]
+        },
+        {
+          "text": "Orbe",
+          "evidence": [
+            2436,
+            2440
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6329fe2cc38a70a6",
+      "name": "Lord B----",
+      "description": "English nobleman and friend/patron who intervenes in affairs and visits Clarens.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lord B----",
+          "evidence": [
+            2442,
+            2452
+          ]
+        },
+        {
+          "text": "Lord Bomston",
+          "evidence": [
+            6127,
+            6139
+          ]
+        },
+        {
+          "text": "his lordship",
+          "evidence": [
+            271933,
+            271945
+          ]
+        },
+        {
+          "text": "my lord",
+          "evidence": [
+            372934,
+            372941
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5dbbba5d5a5c29dd",
+      "name": "Mr. Wolmar",
+      "description": "Husband of Eloisa; prudent rural proprietor and practical educator of the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Wolmar",
+          "evidence": [
+            2457,
+            2467
+          ]
+        },
+        {
+          "text": "Wolmar",
+          "evidence": [
+            2461,
+            2467
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-368d94a277a801ee",
+      "name": "Fanny Regnard",
+      "description": "Young woman (ward) who seeks help in a subsidiary domestic episode.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Fanny Regnard",
+          "evidence": [
+            258681,
+            258694
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e7dbba61d3805c41",
+      "name": "Claud Anet",
+      "description": "Young man/servant connected to the household (husband of a domestic in the narrative).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Claud Anet",
+          "evidence": [
+            260108,
+            260118
+          ]
+        },
+        {
+          "text": "Claudius Anet",
+          "evidence": [
+            257365,
+            257378
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c369caead59e0358",
+      "name": "M. Merveilleux",
+      "description": "Officer (recruiting officer) involved in Claud Anet’s enlistment/discharge.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Merveilleux",
+          "evidence": [
+            262772,
+            262786
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-71fc246c2bf3f142",
+      "name": "Bab",
+      "description": "Domestic servant/attendant in Eloisa’s household (maid/governess figure).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bab",
+          "evidence": [
+            89635,
+            89638
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-be9ea60afcad73cb",
+      "name": "Hans",
+      "description": "Servant/boatman employed by the household for errands.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hans",
+          "evidence": [
+            198918,
+            198922
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d708b19fcf4d0cc",
+      "name": "Mrs. Belon",
+      "description": "Woman appearing in social scenes who interacts with Eloisa and visitors.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Belon",
+          "evidence": [
+            224586,
+            224596
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fb30409624ad7d95",
+      "name": "Regianino",
+      "description": "Musician/teacher (violinist) cited regarding music and continental opera.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Regianino",
+          "evidence": [
+            314250,
+            314259
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-beb8f94a10f7c2a0",
+      "name": "M. Roguin",
+      "description": "Gentleman who offers a military commission (mentioned by Eloisa).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Roguin",
+          "evidence": [
+            231734,
+            231743
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef3ddba4e59ef549",
+      "name": "M. Sylvester",
+      "description": "Agent/person mentioned as handling or forwarding correspondence.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Sylvester",
+          "evidence": [
+            600854,
+            600866
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3021024c7a18a3e8",
+      "name": "M. de Crouzas",
+      "description": "Author/critic referenced in conversation within the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. de Crouzas",
+          "evidence": [
+            594155,
+            594168
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b73bc529a7a1ae1",
+      "name": "J. J. Rousseau",
+      "description": "Editor/publisher who appears as a speaker in the prefatory Dialogue and signs the publication.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "J.J. Rousseau",
+          "evidence": [
+            1065,
+            1078
+          ]
+        },
+        {
+          "text": "Jean Jacques Rousseau",
+          "evidence": [
+            46038,
+            46059
+          ]
+        },
+        {
+          "text": "_Jean Jacques Rousseau_",
+          "evidence": [
+            46037,
+            46060
+          ]
+        },
+        {
+          "text": "Mr. J. J. Rousseau",
+          "evidence": [
+            10376,
+            10394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4f73cbe4b34b020c",
+      "name": "Man of Letters (N.)",
+      "description": "Participant in the prefatory Dialogue who critiques the work (a man of letters).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Man of Letters",
+          "evidence": [
+            10357,
+            10371
+          ]
+        },
+        {
+          "text": "N.",
+          "evidence": [
+            10400,
+            10402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1a1148327af3a532",
+      "name": "R. (Speaker)",
+      "description": "Participant in the prefatory Dialogue identified as the editor/author figure R.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "R.",
+          "evidence": [
+            1176,
+            1178
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bb6beadd93e80352",
+      "name": "Eloisa",
+      "description": "Central correspondent and heroine in the edition titled 'Eloisa or, A series of original letters'.",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Eloisa",
+          "evidence": [
+            993,
+            999
+          ]
+        },
+        {
+          "text": "Eloisa Etange",
+          "evidence": [
+            743645,
+            743658
+          ]
+        },
+        {
+          "text": "Eloisa Etange.",
+          "evidence": [
+            743645,
+            743659
+          ]
+        },
+        {
+          "text": "Eloisa Wolmar",
+          "evidence": [
+            52078,
+            52091
+          ]
+        },
+        {
+          "text": "Mrs. Wolmar",
+          "evidence": [
+            918658,
+            918669
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0e664de966cfeaa6",
+      "name": "St. Preux",
+      "description": "Male correspondent, former lover of Eloisa and narrator of parts of the correspondence/subplot.",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "St. Preux",
+          "evidence": [
+            54987,
+            54996
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-692af484c0d02f49",
+      "name": "Mr. Wolmar",
+      "description": "Husband of Eloisa; benevolent proprietor who manages Clarens and the household (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Mr. Wolmar",
+          "evidence": [
+            2457,
+            2467
+          ]
+        },
+        {
+          "text": "M. Wolmar",
+          "evidence": [
+            783514,
+            783523
+          ]
+        },
+        {
+          "text": "Wolmar",
+          "evidence": [
+            2461,
+            2467
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a7051480c95b98d7",
+      "name": "Mrs. Orbe (Clara)",
+      "description": "Eloisa’s cousin and close friend in this edition; adviser and household companion.",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Mrs. Orbe",
+          "evidence": [
+            426956,
+            426965
+          ]
+        },
+        {
+          "text": "Clara",
+          "evidence": [
+            54977,
+            54982
+          ]
+        },
+        {
+          "text": "Clara Orbe",
+          "evidence": [
+            960431,
+            960441
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b7158d203253c4f",
+      "name": "Mr. Orbe",
+      "description": "Husband/partner of Mrs. Orbe appearing in household and social scenes (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Mr. Orbe",
+          "evidence": [
+            2432,
+            2440
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2d9104bb1ecffd3c",
+      "name": "Lord B----",
+      "description": "English nobleman and correspondent of St. Preux; patron/friend appearing in letters (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Lord B----",
+          "evidence": [
+            2442,
+            2452
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-01d3479e982f1b29",
+      "name": "Baron D’Etange",
+      "description": "Eloisa’s father; involved in arranging her marriage and household affairs (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Baron D’Etange",
+          "evidence": [
+            2402,
+            2416
+          ]
+        },
+        {
+          "text": "the Baron D’Etange",
+          "evidence": [
+            743688,
+            743706
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-22bbdb39c74b4a37",
+      "name": "Baroness D’Etange",
+      "description": "Eloisa’s mother; her illness and death figure in the narrative (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Baroness D’Etange",
+          "evidence": [
+            712030,
+            712047
+          ]
+        },
+        {
+          "text": "the baroness D’Etange",
+          "evidence": [
+            706703,
+            706724
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4c721565edccd3b5",
+      "name": "Regianino",
+      "description": "Acquaintance cited about continental opera/music (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Regianino",
+          "evidence": [
+            314250,
+            314259
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ca64575766e66aed",
+      "name": "Chaillot",
+      "description": "Person who gave early instruction/advice to Eloisa (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Chaillot",
+          "evidence": [
+            86951,
+            86959
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d0264b4001681ccd",
+      "name": "Mr. Perret",
+      "description": "Official before whom Eloisa considered making a public declaration (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Mr. Perret",
+          "evidence": [
+            788821,
+            788831
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-226d9fe5b099649a",
+      "name": "Mr. George Anson",
+      "description": "Commodore named as commander of the squadron for the round-the-world voyage (St. Preux embarks under him).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Anson",
+          "evidence": [
+            915010,
+            915015
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-42d1fcfc1a95fda5",
+      "name": "Gustin",
+      "description": "Estate workman/overseer referenced in household economy and garden management (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Gustin",
+          "evidence": [
+            129705,
+            129711
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e069a3567b5902f1",
+      "name": "Fanny",
+      "description": "Female domestic in the Wolmar household (chamber-maid/governess figure in edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Fanny",
+          "evidence": [
+            256026,
+            256031
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-04e1b4d63c8d157c",
+      "name": "Bab",
+      "description": "Named servant/household attendant involved in events and confidences (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Bab",
+          "evidence": [
+            89635,
+            89638
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1d24a3674094ab4",
+      "name": "B----",
+      "description": "Named domestic (chambermaid) referenced in redacted form in the text (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "B----",
+          "evidence": [
+            2447,
+            2452
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ad786f6cd4340dd4",
+      "name": "Claud Anet",
+      "description": "Man referenced in the household backstory (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Claud Anet",
+          "evidence": [
+            260108,
+            260118
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06720c3a05d41633",
+      "name": "Marcellinus",
+      "description": "Named child in the Wolmar household (referred to as 'my little Marcellinus').",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Marcellinus",
+          "evidence": [
+            923028,
+            923039
+          ]
+        },
+        {
+          "text": "M----",
+          "evidence": [
+            1019309,
+            1019314
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-363767c87ec07ba7",
+      "name": "Harriot",
+      "description": "Named child appearing in household dialogue and nursery scenes (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Harriot",
+          "evidence": [
+            1020173,
+            1020180
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-afe9ec03e1ec5a31",
+      "name": "Henriette",
+      "description": "Named daughter in the household discussed in education/domestic plans (edition scope).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "Henriette",
+          "evidence": [
+            1021007,
+            1021016
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-09ecbde4faaacd44",
+      "name": "S. G.",
+      "description": "Signer/initials on a billet included in the narrative (identity unspecified in supplied text).",
+      "scope": "Eloisa or, A series of original letters",
+      "aliases": [
+        {
+          "text": "S. G.",
+          "evidence": [
+            747537,
+            747542
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b940d17042911b46",
+      "name": "Harriot",
+      "description": "Young daughter in Eloisa’s household frequently present in letters and household scenes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Harriot",
+          "evidence": [
+            1020173,
+            1020180
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b81b9639ac379779",
+      "name": "Marcellin",
+      "description": "Young child of Eloisa and Mr. Wolmar who appears in household scenes (book scope).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marcellin",
+          "evidence": [
+            923028,
+            923037
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cb4828807178ee28",
+      "name": "Fanny Anet",
+      "description": "Domestic servant in Eloisa’s household; nurse/assistant to the children and occasional correspondent.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Fanny",
+          "evidence": [
+            256026,
+            256031
+          ]
+        },
+        {
+          "text": "Fanny Anet",
+          "evidence": [
+            1645191,
+            1645201
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2fa4038b936a851e",
+      "name": "the baron",
+      "description": "An elderly local baron involved in neighbourhood affairs and reconciliations around Clarens.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the baron",
+          "evidence": [
+            706703,
+            706712
+          ]
+        },
+        {
+          "text": "old baron",
+          "evidence": [
+            1413376,
+            1413385
+          ]
+        },
+        {
+          "text": "Baron",
+          "evidence": [
+            2402,
+            2407
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-de78037578838898",
+      "name": "the baron’s adversary",
+      "description": "Unnamed litigant/opponent of the baron whose dispute is reconciled after meeting Eloisa.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the baron’s adversary",
+          "evidence": [
+            1395475,
+            1395496
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c6991fc7a943579a",
+      "name": "the bailiff",
+      "description": "Local official who helps organize the vintage and entertainments for the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the bailiff",
+          "evidence": [
+            1645848,
+            1645859
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c71cd8dffd09306a",
+      "name": "the courier from Italy",
+      "description": "Courier who carries letters and news from Italy to Clarens and elsewhere.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the courier",
+          "evidence": [
+            1490103,
+            1490114
+          ]
+        },
+        {
+          "text": "the courier from Italy",
+          "evidence": [
+            1491618,
+            1491640
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d7073a6c2b33097e",
+      "name": "Pernette",
+      "description": "Household servant/nanny mentioned by Harriot as present in the nursery.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pernette",
+          "evidence": [
+            1486027,
+            1486035
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8de962f591341dcd",
+      "name": "the Frenchwoman",
+      "description": "Unnamed French female servant in the household (called 'the little Frenchwoman' in the text).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Frenchwoman",
+          "evidence": [
+            1486040,
+            1486055
+          ]
+        },
+        {
+          "text": "the little Frenchwoman",
+          "evidence": [
+            1398787,
+            1398809
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-08104ce446a22b7a",
+      "name": "St. Preux",
+      "description": "Friend and former lover-figure in the correspondence; central to subplot involving Lord B---- and Laura (book scope).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "St. Preux",
+          "evidence": [
+            54987,
+            54996
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fb95e562972c6d96",
+      "name": "Laura",
+      "description": "Young woman (Lauretta Pisana) discussed as an object of Lord B----'s affection and prospective marriage partner.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Laura",
+          "evidence": [
+            1454480,
+            1454485
+          ]
+        },
+        {
+          "text": "Lauretta Pisana",
+          "evidence": [
+            1460086,
+            1460101
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dd97d846c299750b",
+      "name": "the marchioness",
+      "description": "A rival figure in Lord B----’s affairs whose illness and death are narrated.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the marchioness",
+          "evidence": [
+            1454140,
+            1454155
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cd100cbcdacc6ee3",
+      "name": "Mr. Miol",
+      "description": "Correspondent mentioned as a source of news about Lord B----'s marital situation.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Miol",
+          "evidence": [
+            1537784,
+            1537792
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae5a9cef98d1323d",
+      "name": "doctor Eswin",
+      "description": "Physician mentioned as having been sent to assist the marchioness.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "doctor Eswin",
+          "evidence": [
+            1525505,
+            1525517
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dbfad688863dcc40",
+      "name": "du Boffon",
+      "description": "Physician who attends Eloisa in her final illness (referred to as 'the physician' and 'du Boffon').",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "du Boffon",
+          "evidence": [
+            1694846,
+            1694855
+          ]
+        },
+        {
+          "text": "the physician",
+          "evidence": [
+            1647743,
+            1647756
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-91868c12e6acdc45",
+      "name": "postilion",
+      "description": "Coach rider/postilion mentioned in travel scenes (driver of the chaise).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "postilion",
+          "evidence": [
+            1442500,
+            1442509
+          ]
+        },
+        {
+          "text": "the postilion",
+          "evidence": [
+            1442496,
+            1442509
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cc3e1524e037cc5b",
+      "name": "Eloisa's eldest son",
+      "description": "Eloisa and Mr. Wolmar’s elder son (unnamed in the text), frequently referenced in household scenes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the eldest",
+          "evidence": [
+            1304927,
+            1304937
+          ]
+        },
+        {
+          "text": "the eldest boy",
+          "evidence": [
+            1351707,
+            1351721
+          ]
+        }
+      ]
+    }
+  ]
+}

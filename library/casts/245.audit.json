@@ -1,0 +1,85 @@
+{
+  "chunks": [
+    {
+      "start": 926,
+      "end": 650898,
+      "key": "016019c78531c4fc9b0868a8fc2f967f91323ad20b39513420c4bab28959585d",
+      "usage": {
+        "input_tokens": 173699,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4361,
+        "output_tokens_details": {
+          "reasoning_tokens": 3136
+        },
+        "total_tokens": 178060
+      }
+    },
+    {
+      "start": 650898,
+      "end": 824087,
+      "key": "eca31c7e7f00ab9ead6767060de029597ae639ae592c1d61633d64a128c55b24",
+      "usage": {
+        "input_tokens": 45424,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7301,
+        "output_tokens_details": {
+          "reasoning_tokens": 5120
+        },
+        "total_tokens": 52725
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "2219e9fc822c788c8471e5f2eee34067feb9a4e309fade9968d42016da1f665f",
+    "usage": {
+      "input_tokens": 5198,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3987,
+      "output_tokens_details": {
+        "reasoning_tokens": 3392
+      },
+      "total_tokens": 9185
+    }
+  },
+  "rejected": [
+    {
+      "name": "Lem S. Gray",
+      "alias": "Mr. Lem S. Gray",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Charles Williams",
+      "alias": "the burglar Williams",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "'Jack Hunt'",
+      "alias": "'Jack Hunt'",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Stavely",
+      "alias": "John Stavely",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. C. P. Ferguson",
+      "alias": "Mr. C. P. Ferguson",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Tom Hooper / T. S. Hooper",
+      "alias": "T. S. Hooper",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

@@ -1,0 +1,1381 @@
+{
+  "schema": 1,
+  "gutenbergId": 245,
+  "sourceSha256": "91388a58a49f9c321fc5b1611560b0302d043a7e955c2f3f6c619d91befc8f01",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-36386c0f7cd3f618",
+      "name": "Mark Twain",
+      "description": "First-person narrator and author of the book",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mark Twain",
+          "evidence": [
+            1044,
+            1054
+          ]
+        },
+        {
+          "text": "Smith",
+          "evidence": [
+            290101,
+            290106
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b52693f0646eb769",
+      "name": "Huck Finn",
+      "description": "Runaway village boy narrator's excerpted story character",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Huck Finn",
+          "evidence": [
+            41819,
+            41828
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-73cb257b77f82370",
+      "name": "Jim",
+      "description": "Slave who escapes with Huck Finn in the raft episode quoted",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jim",
+          "evidence": [
+            42803,
+            42806
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cc0cc83bcee30c92",
+      "name": "Dick Allbright",
+      "description": "Raftsman mentioned in the raft/keelboat anecdote",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dick Allbright",
+          "evidence": [
+            55952,
+            55966
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c92e9762b51515dd",
+      "name": "Charles William Allbright",
+      "description": "Name given in the raft story as a dead child placed in a barrel",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Charles William Allbright deceased",
+          "evidence": [
+            62349,
+            62383
+          ]
+        },
+        {
+          "text": "Charles William Allbright",
+          "evidence": [
+            62349,
+            62374
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c926d8b168e8d322",
+      "name": "Aleck Hopkins",
+      "description": "Boy who hid aboard a raft in the raft anecdote (also called Aleck James Hopkins)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aleck Hopkins",
+          "evidence": [
+            67368,
+            67381
+          ]
+        },
+        {
+          "text": "Aleck James Hopkins",
+          "evidence": [
+            67388,
+            67407
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1a4096426dd0ce1",
+      "name": "Bob",
+      "description": "Raft crewman/character in the raft anecdote",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bob",
+          "evidence": [
+            48679,
+            48682
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7dd56ad74e5f0c58",
+      "name": "Davy",
+      "description": "Raft crewman nicknamed Little Davy in the raft anecdote",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Davy",
+          "evidence": [
+            50528,
+            50532
+          ]
+        },
+        {
+          "text": "Little Davy",
+          "evidence": [
+            50651,
+            50662
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47990d95e804e6a6",
+      "name": "Ed / Edmund",
+      "description": "Raft crewman called Ed or Edmund in the raft anecdote",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ed",
+          "evidence": [
+            52233,
+            52235
+          ]
+        },
+        {
+          "text": "Edmund",
+          "evidence": [
+            64215,
+            64221
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c82262cfb8261e55",
+      "name": "Jimmy",
+      "description": "Raft crewman in the raft anecdote",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jimmy",
+          "evidence": [
+            64229,
+            64234
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d79b6e383130437d",
+      "name": "Bill",
+      "description": "Raft crewman in the raft anecdote",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bill",
+          "evidence": [
+            64160,
+            64164
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a238b082c47a11dd",
+      "name": "Child of Calamity",
+      "description": "Nickname of a boaster/rafter in the raft anecdote",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Child of Calamity",
+          "evidence": [
+            1960,
+            1977
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-383244e4766eb69a",
+      "name": "Horace Bixby",
+      "description": "Experienced river pilot and narrator's chief/teacher",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Bixby",
+          "evidence": [
+            89257,
+            89266
+          ]
+        },
+        {
+          "text": "Horace Bixby",
+          "evidence": [
+            314660,
+            314672
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-af3e2d9268cd65a4",
+      "name": "Mr. Brown (pilot)",
+      "description": "Pilot noted for his harsh manner toward cubs and for long memory",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Brown",
+          "evidence": [
+            4515,
+            4524
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c8ba747f09648f2d",
+      "name": "George Ealer",
+      "description": "Pilot who appears in several episodes and in the boiler-explosion narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "George Ealer",
+          "evidence": [
+            160864,
+            160876
+          ]
+        },
+        {
+          "text": "Ealer",
+          "evidence": [
+            160871,
+            160876
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a30fc5c89a0ff8dc",
+      "name": "Captain Klinefelter",
+      "description": "Captain of the 'Pennsylvania' in the boiler-explosion narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Klinefelter",
+          "evidence": [
+            279203,
+            279222
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cf2ad547633dd2dc",
+      "name": "George Black",
+      "description": "Chief clerk mentioned among those aboard the 'Pennsylvania'",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "George Black",
+          "evidence": [
+            279050,
+            279062
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-12687a0f6fe6febd",
+      "name": "Mr. Wood",
+      "description": "Clerk mentioned among those aboard the 'Pennsylvania'",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Wood",
+          "evidence": [
+            279064,
+            279072
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87a69981c7224925",
+      "name": "Henry",
+      "description": "Narrator's brother mentioned in the 'Pennsylvania' explosion account",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Henry",
+          "evidence": [
+            23228,
+            23233
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-39cc481ccd759f91",
+      "name": "Lem S. Gray",
+      "description": "Pilot named among casualties in the 'Gold Dust' explosion report",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lem S. Gray",
+          "evidence": [
+            486977,
+            486988
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4a4c7bd1542584e1",
+      "name": "Isaiah Sellers",
+      "description": "Early riverman whose diary and signature 'Mark Twain' are discussed",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Isaiah Sellers",
+          "evidence": [
+            607936,
+            607950
+          ]
+        },
+        {
+          "text": "I. Sellers",
+          "evidence": [
+            615393,
+            615403
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6eb4f9d4670a218d",
+      "name": "Jack Hunt",
+      "description": "Former thief whose revival letter (quoted) plays a role in narrative anecdotes",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jack Hunt",
+          "evidence": [
+            633688,
+            633697
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-321b167c9bf38942",
+      "name": "Charles Williams",
+      "description": "Burglar who forged and smuggled a conversion letter (portrayed as a Harvard graduate and son of a clergyman)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "C---- W----",
+          "evidence": [
+            643455,
+            643466
+          ]
+        },
+        {
+          "text": "Charles Williams",
+          "evidence": [
+            651336,
+            651352
+          ]
+        },
+        {
+          "text": "Williams",
+          "evidence": [
+            373275,
+            373283
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-852f5c28a174892c",
+      "name": "Mr. Parkman",
+      "description": "Historian (quoted) whose narrative is cited in exploration history",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Parkman",
+          "evidence": [
+            5950,
+            5961
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f9ab2864a77c95f0",
+      "name": "Captain Marryat",
+      "description": "Author/captain whose phrase and observations are quoted in the river's description",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Marryat",
+          "evidence": [
+            16868,
+            16883
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-63223b43b31e47f0",
+      "name": "De Soto",
+      "description": "Historical explorer credited with first European sighting of the Mississippi",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "De Soto",
+          "evidence": [
+            1356,
+            1363
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-238c1a6fe0fa9740",
+      "name": "La Salle",
+      "description": "French explorer who charted and took possession of the river region",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "La Salle",
+          "evidence": [
+            1439,
+            1447
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b03677dd94c7dda4",
+      "name": "Joliet",
+      "description": "Explorer who with Marquette reached the Mississippi in 1673",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Joliet",
+          "evidence": [
+            28087,
+            28093
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ec1ebc8342df6700",
+      "name": "Marquette",
+      "description": "Priest and explorer who accompanied Joliet to the Mississippi",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marquette",
+          "evidence": [
+            28113,
+            28122
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-20081614a3bd8632",
+      "name": "Henri de Tonty",
+      "description": "Lieutenant who accompanied La Salle (son of Lorenzo Tonty)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Henri de Tonty",
+          "evidence": [
+            33247,
+            33261
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-70c3b37aac1cb4a8",
+      "name": "Lorenzo Tonty",
+      "description": "Father of Henri de Tonty, inventor of the tontine (mentioned)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lorenzo Tonty",
+          "evidence": [
+            33270,
+            33283
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-989ce9159b047e98",
+      "name": "Captain Basil Hall",
+      "description": "Captain Basil Hall, author whose Travels in North America provoked strong reactions (discussed in Appendix C)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Hall",
+          "evidence": [
+            5802,
+            5814
+          ]
+        },
+        {
+          "text": "Captain Basil Hall",
+          "evidence": [
+            349154,
+            349172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e6d66b7a701bca93",
+      "name": "Mrs. Trollope",
+      "description": "Writer whose impressions of the river/cities are quoted",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Trollope",
+          "evidence": [
+            349643,
+            349656
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef4144f57a97cc97",
+      "name": "Hon. Charles Augustus Murray",
+      "description": "19th-century traveler quoted on river impressions",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hon. Charles Augustus Murray",
+          "evidence": [
+            5845,
+            5873
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-326f0af148e8c48c",
+      "name": "Alexander Mackay",
+      "description": "Traveler whose impressions are cited in the text",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Alexander Mackay",
+          "evidence": [
+            5920,
+            5936
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-31cada717cbd6147",
+      "name": "Karl Ritter",
+      "description": "Narrator of the 'Ritter's Narrative' section who recounts a personal tale",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ritter",
+          "evidence": [
+            7261,
+            7267
+          ]
+        },
+        {
+          "text": "Karl Ritter",
+          "evidence": [
+            414197,
+            414208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c5899d6d54b87bc3",
+      "name": "Bro. Page",
+      "description": "Recipient of a letter mentioned at the State's Prison chaplain's office",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bro. Page",
+          "evidence": [
+            650957,
+            650966
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d8dd4af397f0ad9",
+      "name": "Mr. Brown of St. Louis",
+      "description": "Fictitious benevolent correspondent invoked in the forged-letter scheme",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Brown of St. Louis",
+          "evidence": [
+            653820,
+            653842
+          ]
+        },
+        {
+          "text": "Mr. Brown",
+          "evidence": [
+            4515,
+            4524
+          ]
+        },
+        {
+          "text": "Brown",
+          "evidence": [
+            4362,
+            4367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c68155ef03c7c783",
+      "name": "Lem Hackett",
+      "description": "(fictitious name) Village boy who drowned; story used to illustrate childhood fears and superstition",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lem Hackett",
+          "evidence": [
+            664518,
+            664529
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea740dc1a167e57d",
+      "name": "Dutchy",
+      "description": "German Sunday-school lad famed for Scripture memory who drowned in a soaking-hole incident",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dutchy",
+          "evidence": [
+            670825,
+            670831
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18cf972cd81c6f85",
+      "name": "Model Boy",
+      "description": "Archetypal 'perfect' boy of the narrator's childhood (an idealized figure in local Sunday-school lore)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Model Boy",
+          "evidence": [
+            11364,
+            11373
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7f0197be3b326cd",
+      "name": "John Jones",
+      "description": "One of the boys named in the narrator's recollections of childhood peers",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John Jones",
+          "evidence": [
+            667581,
+            667591
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eeb62628501752ad",
+      "name": "Tom Holmes",
+      "description": "One of the boys named among the narrator's former schoolmates",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tom Holmes",
+          "evidence": [
+            667418,
+            667428
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a2866a3576f54281",
+      "name": "Jim Smith",
+      "description": "Example boy from the narrator's recollections (cited in the 'who broke a window' anecdote)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jim Smith",
+          "evidence": [
+            667323,
+            667332
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3ff7313ed8a7e011",
+      "name": "Ben Coontz",
+      "description": "Boy identified (via the narrator's brother) as the one who brought matches leading to a calaboose fire",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ben Coontz",
+          "evidence": [
+            698226,
+            698236
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-290d539d4c8d594b",
+      "name": "Jimmy Finn",
+      "description": "Town drunkard discussed in the account of a calaboose fire and its recollection",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jimmy Finn",
+          "evidence": [
+            690646,
+            690656
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-13b272e6a5cceb90",
+      "name": "Miss----",
+      "description": "Woman from the narrator's childhood who later died in an insane asylum (name redacted in text)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss----",
+          "evidence": [
+            662678,
+            662686
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c2be7ebe0ecb5bae",
+      "name": "Carpenter (unnamed Hannibal carpenter)",
+      "description": "Hannibal carpenter and local storyteller who professed to be the 'Mysterious Avenger' and recounted fabricated murders of Lynches",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the carpenter",
+          "evidence": [
+            279154,
+            279167
+          ]
+        },
+        {
+          "text": "Mysterious Avenger",
+          "evidence": [
+            685810,
+            685828
+          ]
+        },
+        {
+          "text": "the Mysterious Avenger",
+          "evidence": [
+            685806,
+            685828
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c117c633a63f00a1",
+      "name": "Archibald Lynch",
+      "description": "Named rival in the carpenter's invented vengeance-story (claimed murderer in that tale)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Archibald Lynch",
+          "evidence": [
+            684793,
+            684808
+          ]
+        },
+        {
+          "text": "Lynch",
+          "evidence": [
+            379504,
+            379509
+          ]
+        },
+        {
+          "text": "Mr. Lynch",
+          "evidence": [
+            687101,
+            687110
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4801cf43e2756446",
+      "name": "John Stavely",
+      "description": "Local saddler remembered for theatrically running down the street to 'expect' steamboats (namesake of 'Stavely's Landing')",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Stavely",
+          "evidence": [
+            681014,
+            681021
+          ]
+        },
+        {
+          "text": "the saddler",
+          "evidence": [
+            680851,
+            680862
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d3601794338e688",
+      "name": "Narrator's younger brother",
+      "description": "The narrator's younger brother who awakens him for revealing sleep-talk about the calaboose fire",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "my younger brother",
+          "evidence": [
+            694566,
+            694584
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-86800c19dac9ff12",
+      "name": "Henry Clay Dean",
+      "description": "Erratic orator and self-educated lecturer who amazed Keokuk audiences",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Henry Clay Dean",
+          "evidence": [
+            703483,
+            703498
+          ]
+        },
+        {
+          "text": "Dean",
+          "evidence": [
+            11867,
+            11871
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a4202666c44b7c96",
+      "name": "Mr. Claggett",
+      "description": "Son of a distinguished Keokuk citizen who related the anecdote about Henry Clay Dean",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Claggett",
+          "evidence": [
+            704965,
+            704977
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b19ab3c21de74823",
+      "name": "Burdette",
+      "description": "Referred to as 'the sparkling Burdette' (public figure/lecturer associated with Burlington)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Burdette",
+          "evidence": [
+            708473,
+            708481
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7f55e8137c192c56",
+      "name": "Pierre Parrant",
+      "description": "Canadian who purportedly built the first cabin at St. Paul and began selling whiskey (cited in pioneering anecdote)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pierre Parrant",
+          "evidence": [
+            743215,
+            743229
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4ed01ccaf29c55e6",
+      "name": "Black Hawk",
+      "description": "Native leader referenced in regional Indian history and burial customs",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Black Hawk",
+          "evidence": [
+            12062,
+            12072
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2d35708b8f6f3366",
+      "name": "Keokuk",
+      "description": "Native leader referenced in the regional history (name used as a person)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Keokuk",
+          "evidence": [
+            70257,
+            70263
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-84ff6c1248580150",
+      "name": "We-no-na / Winona",
+      "description": "Maiden of Indian legend associated with Maiden's Rock (her jump and story are recounted)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "We-no-na",
+          "evidence": [
+            730589,
+            730597
+          ]
+        },
+        {
+          "text": "Winona",
+          "evidence": [
+            713463,
+            713469
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3a2162376520a8a4",
+      "name": "Kis-se-me-pa",
+      "description": "Name appearing in White-bear Lake legend as one of the rescued lovers' children",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kis-se-me-pa",
+          "evidence": [
+            750877,
+            750889
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a94f1c411359b7de",
+      "name": "Ka-go-ka",
+      "description": "Name appearing in White-bear Lake legend as one of the rescued lovers' children",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ka-go-ka",
+          "evidence": [
+            750895,
+            750903
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7e740c0babe799b",
+      "name": "Peboan",
+      "description": "Figure in an Indian allegory ('Peboan and Seegwun') representing Winter",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Peboan",
+          "evidence": [
+            12274,
+            12280
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bcf5481c4775c6cb",
+      "name": "Seegwun",
+      "description": "Paired figure in the allegory 'Peboan and Seegwun' (name appears in title)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Seegwun",
+          "evidence": [
+            12285,
+            12292
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b6aa578dbd6e570e",
+      "name": "Iamo",
+      "description": "Protagonist of the legend 'The Undying Head' (man whose head is preserved and animated)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Iamo",
+          "evidence": [
+            793507,
+            793511
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9f9d03e634c6ab55",
+      "name": "Iamoqua",
+      "description": "Iamo's sister in 'The Undying Head' who tends and later helps restore him",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Iamoqua",
+          "evidence": [
+            824037,
+            824044
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-92c3d6c9b1ee10c9",
+      "name": "Mudjikewis",
+      "description": "Named member of the war party in 'The Undying Head' legend who performs notable deeds",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mudjikewis",
+          "evidence": [
+            798019,
+            798029
+          ]
+        },
+        {
+          "text": "Kebeyun",
+          "evidence": [
+            823478,
+            823485
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-98681a91086cbf35",
+      "name": "Nemesho",
+      "description": "Old man (manito) in 'The Undying Head' legend who aids the fleeing warriors",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Nemesho",
+          "evidence": [
+            803726,
+            803733
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-20f30031f5f099e8",
+      "name": "General York",
+      "description": "Official organizing relief and rescue described in Appendix A during inundation (leader of relief-boat operations)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "General York",
+          "evidence": [
+            764284,
+            764296
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d03d411236b3c59e",
+      "name": "Major Burke",
+      "description": "Major Burke of the Times-Democrat who chartered the relief boat 'Susie' (mentioned in Appendix A)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Major Burke",
+          "evidence": [
+            769308,
+            769319
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e517423ac1590afd",
+      "name": "Tom Hooper / T. S. Hooper",
+      "description": "Planter whose place is mentioned in flood-relief operations; text refers to 'Tom Hooper' and 'T. S. Hooper'",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tom Hooper",
+          "evidence": [
+            767908,
+            767918
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-41bb6ef70fd0a917",
+      "name": "Tom Ellis",
+      "description": "Planter whose family was rescued from a flooded house described in the relief-boat narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tom Ellis",
+          "evidence": [
+            769649,
+            769658
+          ]
+        },
+        {
+          "text": "Mr. Tom Ellis",
+          "evidence": [
+            769645,
+            769658
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-db3c30c9e24b6cb0",
+      "name": "Mrs. Ellis",
+      "description": "Wife of Tom Ellis described as in feeble health and rescued from flood waters",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Ellis",
+          "evidence": [
+            769830,
+            769840
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-11cfb76f279c16b2",
+      "name": "Widow Taylor / Mrs. Taylor",
+      "description": "Local resident (referred to as Widow Taylor and Mrs. Taylor) whose family and stock were aided during Black River relief operations",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Widow Taylor",
+          "evidence": [
+            768880,
+            768892
+          ]
+        },
+        {
+          "text": "Mrs. Taylor",
+          "evidence": [
+            769389,
+            769400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7264cdbb3abb1018",
+      "name": "Edward Atkinson",
+      "description": "Author of the Appendix essay on the Mississippi River Commission",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edward Atkinson",
+          "evidence": [
+            372703,
+            372718
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8a7a66c67c072f8f",
+      "name": "General Gilmore",
+      "description": "Member of the Mississippi River Commission (United States Engineers) mentioned in Appendix B",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "General Gilmore",
+          "evidence": [
+            778270,
+            778285
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-51d35507528b3e05",
+      "name": "General Comstock",
+      "description": "Member of the Mississippi River Commission (United States Engineers) mentioned in Appendix B",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "General Comstock",
+          "evidence": [
+            778288,
+            778304
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7f9306f68c365d39",
+      "name": "General Suter",
+      "description": "Member of the Mississippi River Commission (United States Engineers) mentioned in Appendix B",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "General Suter",
+          "evidence": [
+            778310,
+            778323
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8d8f265f84080c8d",
+      "name": "Professor Henry Mitchell",
+      "description": "Hydrography authority of the United States Coast Survey and commission member mentioned in Appendix B",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Professor Henry Mitchell",
+          "evidence": [
+            778358,
+            778382
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-69e8d60aa08ac970",
+      "name": "B. B. Harrod",
+      "description": "State Engineer of Louisiana and commission member mentioned in Appendix B",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "B. B. Harrod",
+          "evidence": [
+            778482,
+            778494
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18231ca980646d12",
+      "name": "Jas. B. Eads",
+      "description": "James B. Eads, engineer noted for success with jetties at New Orleans; member of commission (appears as 'Jas. B. Eads')",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jas. B. Eads",
+          "evidence": [
+            778530,
+            778542
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f32e7ba1e69c5277",
+      "name": "Judge Taylor",
+      "description": "Judge Taylor of Indiana, member of the Mississippi River Commission (mentioned in Appendix B)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Judge Taylor",
+          "evidence": [
+            778627,
+            778639
+          ]
+        }
+      ]
+    }
+  ]
+}

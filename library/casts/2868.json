@@ -1,0 +1,638 @@
+{
+  "schema": 1,
+  "gutenbergId": 2868,
+  "sourceSha256": "dc857e3fba033291f93fe582bd102520e41a0e3774332b210de3a83b566d3ea8",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-c8e546d6717ffc3c",
+      "name": "Lucy Kendal",
+      "description": "Young woman; step-daughter of Professor Braddock; engaged to Archibald Hope; principal female protagonist.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Lucy Kendal",
+          "evidence": [
+            16466,
+            16477
+          ]
+        },
+        {
+          "text": "Lucy",
+          "evidence": [
+            2568,
+            2572
+          ]
+        },
+        {
+          "text": "Miss Kendal",
+          "evidence": [
+            17583,
+            17594
+          ]
+        },
+        {
+          "text": "Miss Kendal pettishly",
+          "evidence": [
+            17583,
+            17604
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9c2cbfa71cae9e7e",
+      "name": "Archibald Hope",
+      "description": "Young artist; fiancé of Lucy Kendal; lender of money used to buy the Peruvian mummy; investigator in the mystery.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Archibald Hope",
+          "evidence": [
+            3624,
+            3638
+          ]
+        },
+        {
+          "text": "Archie Hope",
+          "evidence": [
+            10280,
+            10291
+          ]
+        },
+        {
+          "text": "Archie",
+          "evidence": [
+            3039,
+            3045
+          ]
+        },
+        {
+          "text": "Mr. Archibald Hope",
+          "evidence": [
+            3620,
+            3638
+          ]
+        },
+        {
+          "text": "Mr. Hope",
+          "evidence": [
+            55253,
+            55261
+          ]
+        },
+        {
+          "text": "Hope",
+          "evidence": [
+            3634,
+            3638
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e480b7057a49bdf",
+      "name": "Professor Braddock",
+      "description": "Archaeologist and tenant of the Pyramids; step‑father of Lucy Kendal; collector of antiquities whose actions drive much of the plot.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Professor Braddock",
+          "evidence": [
+            10978,
+            10996
+          ]
+        },
+        {
+          "text": "Braddock",
+          "evidence": [
+            10988,
+            10996
+          ]
+        },
+        {
+          "text": "Mr. Braddock",
+          "evidence": [
+            13917,
+            13929
+          ]
+        },
+        {
+          "text": "the Professor",
+          "evidence": [
+            11672,
+            11685
+          ]
+        },
+        {
+          "text": "Perfesser",
+          "evidence": [
+            19077,
+            19086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-81aaba823e477dc4",
+      "name": "Sir Frank Random",
+      "description": "Baronet and army captain; wealthy suitor of Lucy Kendal earlier in the story; later engaged to Donna Inez; implicated and then defended in the murder mystery.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Sir Frank Random",
+          "evidence": [
+            14232,
+            14248
+          ]
+        },
+        {
+          "text": "Sir Frank",
+          "evidence": [
+            14232,
+            14241
+          ]
+        },
+        {
+          "text": "Random",
+          "evidence": [
+            2751,
+            2757
+          ]
+        },
+        {
+          "text": "Frank Random",
+          "evidence": [
+            14236,
+            14248
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4605df221ec2e7a2",
+      "name": "Don Pedro de Gayangos",
+      "description": "Peruvian gentleman from Lima claiming descent from the Inca line; seeks recovery of the mummy of Inca Caxas and its emeralds.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Don Pedro de Gayangos",
+          "evidence": [
+            138476,
+            138497
+          ]
+        },
+        {
+          "text": "Don Pedro",
+          "evidence": [
+            138476,
+            138485
+          ]
+        },
+        {
+          "text": "De Gayangos",
+          "evidence": [
+            205521,
+            205532
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0af4a527f13dbeee",
+      "name": "Donna Inez de Gayangos",
+      "description": "Daughter of Don Pedro de Gayangos; proud, stately Peruvian woman; Sir Frank Random's love interest and later wife.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Donna Inez de Gayangos",
+          "evidence": [
+            165447,
+            165469
+          ]
+        },
+        {
+          "text": "Donna Inez",
+          "evidence": [
+            140041,
+            140051
+          ]
+        },
+        {
+          "text": "Inez",
+          "evidence": [
+            140047,
+            140051
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7077472242e0ec54",
+      "name": "Sidney Bolton",
+      "description": "Assistant to Professor Braddock; entrusted with fetching the green Peruvian mummy from Malta; murdered in connection with the mummy's theft.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Sidney Bolton",
+          "evidence": [
+            12041,
+            12054
+          ]
+        },
+        {
+          "text": "Sidney",
+          "evidence": [
+            12041,
+            12047
+          ]
+        },
+        {
+          "text": "Bolton",
+          "evidence": [
+            12048,
+            12054
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2f3498eee0bfdc4e",
+      "name": "Mrs. Bolton",
+      "description": "Widow Anne (Widow Anne / Mrs. Bolton), mother of Sidney Bolton; local washerwoman who provides testimony and has prophetic/dream episodes.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Widow Anne",
+          "evidence": [
+            16154,
+            16164
+          ]
+        },
+        {
+          "text": "Mrs. Bolton",
+          "evidence": [
+            74996,
+            75007
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2534bd07a1a0176b",
+      "name": "Mrs. Jasher",
+      "description": "Widow and local widow of the district; social, ambitious, seeks to marry Professor Braddock; central to the blackmail/confession subplot and later attacked.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Mrs. Jasher",
+          "evidence": [
+            21478,
+            21489
+          ]
+        },
+        {
+          "text": "the widow",
+          "evidence": [
+            19918,
+            19927
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-968d8b8b0ddb5be8",
+      "name": "Mr. Jasher",
+      "description": "The late Mr. Jasher, Mrs. Jasher's deceased husband; mentioned in backstory concerning Mrs. Jasher's fortunes.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Mr. Jasher",
+          "evidence": [
+            49163,
+            49173
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e28d2c7831654640",
+      "name": "Jane",
+      "description": "Mrs. Jasher's servant; attends the widow and is present during the attack; participates as witness/assistant.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Jane",
+          "evidence": [
+            163020,
+            163024
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c564f36258f1fcb6",
+      "name": "Cockatoo",
+      "description": "Dwarfish Polynesian body‑servant of Professor Braddock (a Kanaka); caretaker of the museum collection; becomes central to the crimes as the agent who commits murders.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Cockatoo",
+          "evidence": [
+            44505,
+            44513
+          ]
+        },
+        {
+          "text": "the Kanaka",
+          "evidence": [
+            46000,
+            46010
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fbd036e9e5af7882",
+      "name": "Captain Hiram Hervey",
+      "description": "Skipper of the tramp steamer The Diver; also referred to as Gustav Vasa in earlier incidents; involved in the mummy's history and accused during investigation.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Captain Hiram Hervey",
+          "evidence": [
+            275680,
+            275700
+          ]
+        },
+        {
+          "text": "Hiram Hervey",
+          "evidence": [
+            121361,
+            121373
+          ]
+        },
+        {
+          "text": "Hervey",
+          "evidence": [
+            72786,
+            72792
+          ]
+        },
+        {
+          "text": "Captain Hervey",
+          "evidence": [
+            72778,
+            72792
+          ]
+        },
+        {
+          "text": "Hiram",
+          "evidence": [
+            121361,
+            121366
+          ]
+        },
+        {
+          "text": "H.H.",
+          "evidence": [
+            121241,
+            121245
+          ]
+        },
+        {
+          "text": "Gustav Vasa",
+          "evidence": [
+            334455,
+            334466
+          ]
+        },
+        {
+          "text": "Vasa",
+          "evidence": [
+            202272,
+            202276
+          ]
+        },
+        {
+          "text": "Captain George Hervey",
+          "evidence": [
+            91604,
+            91625
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0644e2e6a85b4583",
+      "name": "Dr. Robinson",
+      "description": "Local Gartley physician who examines the dead, attends Mrs. Jasher, and assists in medical aspects of the inquests.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Dr. Robinson",
+          "evidence": [
+            83015,
+            83027
+          ]
+        },
+        {
+          "text": "Robinson",
+          "evidence": [
+            83019,
+            83027
+          ]
+        },
+        {
+          "text": "the doctor",
+          "evidence": [
+            83104,
+            83114
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c9c3338af1f27f51",
+      "name": "Inspector Date",
+      "description": "Pierside police inspector who investigates the murders and coordinates inquiries.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Inspector Date",
+          "evidence": [
+            90842,
+            90856
+          ]
+        },
+        {
+          "text": "Date",
+          "evidence": [
+            90852,
+            90856
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a718ec292a2bbca8",
+      "name": "Painter",
+      "description": "Village constable who assists in the local police work and attends inquests; referred to by surname.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Painter",
+          "evidence": [
+            86023,
+            86030
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5016ebcef8f9e7d6",
+      "name": "Samuel Quass",
+      "description": "Landlord of the Sailor's Rest public-house at Pierside; witnessed Bolton's last night ashore and testified at the inquest.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Samuel Quass",
+          "evidence": [
+            105420,
+            105432
+          ]
+        },
+        {
+          "text": "Quass",
+          "evidence": [
+            105427,
+            105432
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-54b5490f2f83c7ca",
+      "name": "Eliza Flight",
+      "description": "Barmaid/chambermaid at the Sailor's Rest; witness to a woman speaking to Bolton through his bedroom window; provides key testimony.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Eliza Flight",
+          "evidence": [
+            107254,
+            107266
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b92a551a5109e612",
+      "name": "Mrs. Kendal",
+      "description": "Lucy Kendal's deceased mother; widow who married Professor Braddock (appears in backstory); also referred to as Mrs. Braddock after marriage.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Mrs. Kendal",
+          "evidence": [
+            24691,
+            24702
+          ]
+        },
+        {
+          "text": "Mrs. Braddock",
+          "evidence": [
+            25857,
+            25870
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e235be19c79ad792",
+      "name": "Uncle Simon",
+      "description": "Archibald Hope's uncle whose financial changes affect Hope's ability to marry; referenced in the narrative.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Uncle Simon",
+          "evidence": [
+            214173,
+            214184
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0a966c89e6f17764",
+      "name": "Aaron",
+      "description": "Late husband referenced by Widow Anne in anecdotes; minor mentioned character.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Aaron",
+          "evidence": [
+            17368,
+            17373
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8d6812dfe4f00026",
+      "name": "Mrs. Humber",
+      "description": "Landlady of the Warrior Inn at Gartley / Pierside; provides local accommodation and features in social scenes.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Mrs. Humber",
+          "evidence": [
+            178525,
+            178536
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5173e3ac19a2dc4d",
+      "name": "Inca Caxas",
+      "description": "The embalmed royal corpse central to the plot (the 'green mummy'); object of theft, study, and desire.",
+      "scope": "The Green Mummy",
+      "aliases": [
+        {
+          "text": "Inca Caxas",
+          "evidence": [
+            54284,
+            54294
+          ]
+        },
+        {
+          "text": "the green mummy",
+          "evidence": [
+            55313,
+            55328
+          ]
+        },
+        {
+          "text": "the mummy of Inca Caxas",
+          "evidence": [
+            76903,
+            76926
+          ]
+        },
+        {
+          "text": "the mummy",
+          "evidence": [
+            13039,
+            13048
+          ]
+        }
+      ]
+    }
+  ]
+}

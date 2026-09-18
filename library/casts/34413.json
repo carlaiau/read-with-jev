@@ -1,0 +1,908 @@
+{
+  "schema": 1,
+  "gutenbergId": 34413,
+  "sourceSha256": "a40eca21085663178f45946c5bee44f20380d1ff888c4e2cac6265c86f926274",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-b015cb7fc8ba9506",
+      "name": "Mary Wollstonecraft",
+      "description": "English writer, author of the letters collected here; central narrator and correspondent",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mary Wollstonecraft",
+          "evidence": [
+            1239,
+            1258
+          ]
+        },
+        {
+          "text": "MARY WOLLSTONECRAFT",
+          "evidence": [
+            1486,
+            1505
+          ]
+        },
+        {
+          "text": "Mary",
+          "evidence": [
+            1239,
+            1243
+          ]
+        },
+        {
+          "text": "MARY.",
+          "evidence": [
+            44156,
+            44161
+          ]
+        },
+        {
+          "text": "Mary Imlay",
+          "evidence": [
+            28013,
+            28023
+          ]
+        },
+        {
+          "text": "MARY IMLAY",
+          "evidence": [
+            66300,
+            66310
+          ]
+        },
+        {
+          "text": "Mary Godwin",
+          "evidence": [
+            36575,
+            36586
+          ]
+        },
+        {
+          "text": "Mrs. Godwin",
+          "evidence": [
+            38061,
+            38072
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-847a92d9fae3c29b",
+      "name": "Gilbert Imlay",
+      "description": "American-born businessman and Mary's lover and correspondent",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gilbert Imlay",
+          "evidence": [
+            20069,
+            20082
+          ]
+        },
+        {
+          "text": "Imlay",
+          "evidence": [
+            17915,
+            17920
+          ]
+        },
+        {
+          "text": "G. Imlay",
+          "evidence": [
+            28309,
+            28317
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9f8ba63760fb89f8",
+      "name": "Frances (called Fanny) Imlay",
+      "description": "Daughter of Mary Wollstonecraft and Gilbert Imlay, often called Fanny or little Fanny",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Frances",
+          "evidence": [
+            25631,
+            25638
+          ]
+        },
+        {
+          "text": "Fanny",
+          "evidence": [
+            4176,
+            4181
+          ]
+        },
+        {
+          "text": "little Fanny",
+          "evidence": [
+            25869,
+            25881
+          ]
+        },
+        {
+          "text": "Fanny Imlay",
+          "evidence": [
+            38035,
+            38046
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d06e11d9562f67e6",
+      "name": "Fanny Blood",
+      "description": "Mary Wollstonecraft's close friend from youth and early correspondent; her death deeply affected Mary",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Fanny Blood",
+          "evidence": [
+            4176,
+            4187
+          ]
+        },
+        {
+          "text": "Fanny",
+          "evidence": [
+            4176,
+            4181
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-74f10916857ce7a4",
+      "name": "Edward John Wollstonecraft",
+      "description": "Mary Wollstonecraft's father, described as of unsettled habits and temper",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edward John Wollstonecraft",
+          "evidence": [
+            2225,
+            2251
+          ]
+        },
+        {
+          "text": "Mr. Wollstonecraft",
+          "evidence": [
+            2908,
+            2926
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-858f23756e3f1ba8",
+      "name": "Elizabeth Dixon (Mrs. Wollstonecraft)",
+      "description": "Mary Wollstonecraft's mother, referred to as Mrs. Wollstonecraft",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Elizabeth Dixon",
+          "evidence": [
+            2437,
+            2452
+          ]
+        },
+        {
+          "text": "Mrs. Wollstonecraft",
+          "evidence": [
+            3742,
+            3761
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c889979e9f739717",
+      "name": "Everina Wollstonecraft",
+      "description": "Mary Wollstonecraft's sister; accompanied family and featured in letters and biography",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Everina",
+          "evidence": [
+            2562,
+            2569
+          ]
+        },
+        {
+          "text": "Everina Wollstonecraft",
+          "evidence": [
+            12868,
+            12890
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-90351903e19a30a1",
+      "name": "Eliza Wollstonecraft (Mrs. Bishop)",
+      "description": "Mary Wollstonecraft's sister who married Mr. Bishop and endured an unhappy marriage",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Eliza",
+          "evidence": [
+            2437,
+            2442
+          ]
+        },
+        {
+          "text": "Mrs. Bishop",
+          "evidence": [
+            5901,
+            5912
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-10865d50bb8b679a",
+      "name": "Edward Wollstonecraft (brother)",
+      "description": "Mary Wollstonecraft's brother (listed among her siblings)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edward",
+          "evidence": [
+            2225,
+            2231
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cdd062c37a34e5a1",
+      "name": "James Wollstonecraft",
+      "description": "One of Mary Wollstonecraft's brothers mentioned in family list",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "James",
+          "evidence": [
+            2578,
+            2583
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b092e4097bb76606",
+      "name": "Charles Wollstonecraft",
+      "description": "One of Mary Wollstonecraft's brothers mentioned in family list",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Charles",
+          "evidence": [
+            2589,
+            2596
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-162b5911e79da184",
+      "name": "Mr. Bishop",
+      "description": "Husband of Eliza Wollstonecraft (Mrs. Bishop), whose violence is recounted",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Bishop",
+          "evidence": [
+            5518,
+            5528
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5bf1b066a5e156c",
+      "name": "Mr. Hugh Skeys",
+      "description": "Englishman engaged in business at Lisbon who sought to marry Fanny Blood",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Hugh Skeys",
+          "evidence": [
+            7462,
+            7476
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d9271cf730a8013d",
+      "name": "Mrs. Skeys",
+      "description": "Wife of Mr. Hugh Skeys (Fanny Blood became Mrs. Skeys)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Skeys",
+          "evidence": [
+            8357,
+            8367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-14472c5a446c448d",
+      "name": "Lord Kingsborough",
+      "description": "Aristocrat for whom Mary served as governess at Michaelstown",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lord Kingsborough",
+          "evidence": [
+            9258,
+            9275
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c205ea6fd795da7e",
+      "name": "Lady Kingsborough",
+      "description": "Mary's employer at Michaelstown; criticized in narrative for her conduct and pet dogs",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lady Kingsborough",
+          "evidence": [
+            9332,
+            9349
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b554151b5b829389",
+      "name": "Margaret King (Lady Mountcashel)",
+      "description": "Pupil of Mary Wollstonecraft at Michaelstown, later known as Lady Mountcashel",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Margaret King",
+          "evidence": [
+            10108,
+            10121
+          ]
+        },
+        {
+          "text": "Lady Mountcashel",
+          "evidence": [
+            10134,
+            10150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-030b6b44b75eb95f",
+      "name": "Joseph Johnson",
+      "description": "Publisher and bookseller who encouraged Mary's literary career and engaged her as reader",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Joseph Johnson",
+          "evidence": [
+            11034,
+            11048
+          ]
+        },
+        {
+          "text": "Mr. Johnson",
+          "evidence": [
+            11366,
+            11377
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cd835e4e4f27e2c7",
+      "name": "William Blake",
+      "description": "Artist and illustrator who supplied plates for Mary's children's book and other work",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "William Blake",
+          "evidence": [
+            11327,
+            11340
+          ]
+        },
+        {
+          "text": "Blake",
+          "evidence": [
+            11335,
+            11340
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f1003485057e4a77",
+      "name": "Henry Fuseli",
+      "description": "Painter and acquaintance of Mary Wollstonecraft (referred to as Fuseli)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Fuseli",
+          "evidence": [
+            11342,
+            11348
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2a0f2f4580654f93",
+      "name": "Tom Paine",
+      "description": "Political writer and acquaintance of Mary in London and Paris (referred to as Tom Paine)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tom Paine",
+          "evidence": [
+            11355,
+            11364
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-174fb246f49146e2",
+      "name": "Thomas Christie",
+      "description": "Mr. Thomas Christie, host in Paris where Mary met people including Imlay",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Thomas Christie",
+          "evidence": [
+            17968,
+            17983
+          ]
+        },
+        {
+          "text": "Mr. Christie",
+          "evidence": [
+            19864,
+            19876
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9d7ab278711969d6",
+      "name": "Madame Filiettaz",
+      "description": "Daughter of Madame Bregantz; Mary stayed at her house in Paris",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Filiettaz",
+          "evidence": [
+            17406,
+            17422
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9e476a2c2f11ea3e",
+      "name": "Madame Bregantz",
+      "description": "Mother of Madame Filiettaz; linked to the Paris household where Mary stayed",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Bregantz",
+          "evidence": [
+            17441,
+            17456
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ec71b7c0982074c3",
+      "name": "Mirabeau",
+      "description": "Prominent French revolutionary figure invoked in Mary's letters and reflections",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mirabeau",
+          "evidence": [
+            46302,
+            46310
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cc8348dbed996065",
+      "name": "Louis XVI.",
+      "description": "King of France whose trial and passage Mary witnessed in Paris",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Louis XVI.",
+          "evidence": [
+            16033,
+            16043
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9707dfc344d2f689",
+      "name": "Desize",
+      "description": "Advocate named in the narrative as pleading for Louis XVI. (appears as \"Desize\")",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Desize",
+          "evidence": [
+            16126,
+            16132
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-46cba2c2a56a7d30",
+      "name": "Tallien",
+      "description": "Political actor in the Revolution mentioned by Mary with approval for certain conduct",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tallien",
+          "evidence": [
+            79010,
+            79017
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-70396f302e93a7e7",
+      "name": "Robespierre",
+      "description": "Leader of the Terror in France; his actions are repeatedly referenced in Mary's narrative and letters",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Robespierre",
+          "evidence": [
+            25524,
+            25535
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-195a47a3013d3ff5",
+      "name": "M. Talleyrand de Périgord",
+      "description": "Bishop and public figure to whom Mary dedicated A Vindication of the Rights of Woman",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Talleyrand de Périgord",
+          "evidence": [
+            13577,
+            13602
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1741ee5bc50fd74",
+      "name": "John Opie, R.A.",
+      "description": "Painter whose portrait(s) of Mary are reproduced and discussed in the book",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John Opie",
+          "evidence": [
+            2075,
+            2084
+          ]
+        },
+        {
+          "text": "Opie",
+          "evidence": [
+            2080,
+            2084
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5e2d3f8809fe8c3",
+      "name": "Ridley",
+      "description": "Engraver (Ridley) after Opie's painting; credited in portrait captions",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ridley",
+          "evidence": [
+            19245,
+            19251
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a49bcb908a4e3601",
+      "name": "William Godwin",
+      "description": "Writer and philosopher who became Mary's husband and later edited her posthumous works",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "William Godwin",
+          "evidence": [
+            10263,
+            10277
+          ]
+        },
+        {
+          "text": "Godwin",
+          "evidence": [
+            7122,
+            7128
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8f65b5aa82817374",
+      "name": "Basil Montagu",
+      "description": "Friend of William Godwin mentioned as accompanying him on a journey",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Basil Montagu",
+          "evidence": [
+            34914,
+            34927
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-839078c79dabeccb",
+      "name": "Mrs. Inchbald",
+      "description": "Acquaintance whose reaction to Godwin's marriage is recorded",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Inchbald",
+          "evidence": [
+            34053,
+            34066
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d98dd76579b09beb",
+      "name": "Robert Southey",
+      "description": "Poet who is quoted in a letter to Cottle describing Mary (referred to as Southey)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Southey",
+          "evidence": [
+            31788,
+            31795
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-648ebdae85beef73",
+      "name": "Cottle",
+      "description": "Person addressed by Southey in quoted correspondence (Mr. Cottle)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cottle",
+          "evidence": [
+            31780,
+            31786
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-879a2e7a3c3fa886",
+      "name": "Northcote",
+      "description": "Artist (portrait painter) referenced in discussion of Godwin's portrait",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Northcote",
+          "evidence": [
+            31502,
+            31511
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-819c9cc1869887ab",
+      "name": "Pickersgill",
+      "description": "Artist (portrait painter) referenced as having produced another portrait of Godwin",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pickersgill",
+          "evidence": [
+            31681,
+            31692
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-86252ee9af3bd11d",
+      "name": "Wordsworth",
+      "description": "Poet mentioned among William Godwin's circle of friends",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Wordsworth",
+          "evidence": [
+            31097,
+            31107
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-89c70d6449944de5",
+      "name": "Charles Lamb",
+      "description": "Writer referenced (as Lamb) among Godwin's circle",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lamb",
+          "evidence": [
+            31109,
+            31113
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-24cf45532c76c9c5",
+      "name": "William Hazlitt",
+      "description": "Writer referenced (as Hazlitt) among Godwin's circle",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hazlitt",
+          "evidence": [
+            31116,
+            31123
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a385c5b74387b6aa",
+      "name": "Shelley",
+      "description": "Poet (Percy Bysshe Shelley) referred to in relation to Godwin's household and later events",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Shelley",
+          "evidence": [
+            10321,
+            10328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3da0dbe2139a921c",
+      "name": "Sir Percy Florence Shelley",
+      "description": "Descendant (Sir Percy Florence Shelley) who handled portraits and remains mentioned in narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Percy Florence Shelley",
+          "evidence": [
+            35377,
+            35399
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0978f8a1d20230f2",
+      "name": "Lady Shelley",
+      "description": "Widow of Sir Percy Florence Shelley who bequeathed a portrait to the nation (referred to as Lady Shelley)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lady Shelley",
+          "evidence": [
+            35459,
+            35471
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2548c125a1e7910c",
+      "name": "Claire Clairmont",
+      "description": "Member of Godwin household (Mrs. Clairmont's daughter) appearing in narrative of the Godwin family",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Claire Clairmont",
+          "evidence": [
+            38102,
+            38118
+          ]
+        },
+        {
+          "text": "Mrs. Clairmont",
+          "evidence": [
+            37935,
+            37949
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9f160568e2d6dbcd",
+      "name": "Charles Clairmont",
+      "description": "Member of the Godwin household (named Charles in the family list)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Charles",
+          "evidence": [
+            2589,
+            2596
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-82d5791acb18a21e",
+      "name": "Mr. Kegan Paul",
+      "description": "Later biographer/editor whose work on Mary and Godwin is referenced in the preface",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Kegan Paul",
+          "evidence": [
+            5533,
+            5547
+          ]
+        },
+        {
+          "text": "Kegan Paul",
+          "evidence": [
+            5537,
+            5547
+          ]
+        }
+      ]
+    }
+  ]
+}

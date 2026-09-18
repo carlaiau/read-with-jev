@@ -1,0 +1,90 @@
+{
+  "chunks": [
+    {
+      "start": 865,
+      "end": 650801,
+      "key": "a3d7611c564f3dda0481c174867fceae75772c531c3bf4363c5a083343768997",
+      "usage": {
+        "input_tokens": 178495,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5470,
+        "output_tokens_details": {
+          "reasoning_tokens": 4160
+        },
+        "total_tokens": 183965
+      }
+    },
+    {
+      "start": 650801,
+      "end": 862270,
+      "key": "1830e5831903fef3499d950ffba1217843056d337008bf0026928d420fd00bd4",
+      "usage": {
+        "input_tokens": 58206,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7476,
+        "output_tokens_details": {
+          "reasoning_tokens": 6464
+        },
+        "total_tokens": 65682
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "66f72485cb774743c300a8804833b48fe0a422907ee8363896d1c8f29cb083fa",
+    "usage": {
+      "input_tokens": 2914,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3855,
+      "output_tokens_details": {
+        "reasoning_tokens": 2368
+      },
+      "total_tokens": 6769
+    }
+  },
+  "rejected": [
+    {
+      "name": "Count Dracula",
+      "alias": "the strange driver",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Captain of the Demeter",
+      "alias": "captain of the Demeter",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Three Vampire Women (the Brides)",
+      "alias": "the fair girl",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Wolves",
+      "alias": "a pack of wolves",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Thomas Bilder",
+      "alias": "Tom Bilder",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Jack (Joseph) Smollet",
+      "alias": "Joseph Smollet",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Marquand",
+      "alias": "Mr. Marquand",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

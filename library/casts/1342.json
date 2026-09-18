@@ -1,0 +1,1244 @@
+{
+  "schema": 1,
+  "gutenbergId": 1342,
+  "sourceSha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-f985ed1dbc4fa2e7",
+      "name": "Elizabeth Bennet",
+      "description": "Second Bennet daughter; intelligent, witty heroine who narratively resists social pressures and later re-evaluates Mr. Darcy.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Elizabeth",
+          "evidence": [
+            7230,
+            7239
+          ]
+        },
+        {
+          "text": "Eliza",
+          "evidence": [
+            7230,
+            7235
+          ]
+        },
+        {
+          "text": "Lizzy",
+          "evidence": [
+            35210,
+            35215
+          ]
+        },
+        {
+          "text": "Miss Eliza",
+          "evidence": [
+            18304,
+            18314
+          ]
+        },
+        {
+          "text": "Miss Eliza Bennet",
+          "evidence": [
+            97197,
+            97214
+          ]
+        },
+        {
+          "text": "Eliza Bennet",
+          "evidence": [
+            97202,
+            97214
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4467b92cca3eb03e",
+      "name": "Jane Bennet",
+      "description": "Eldest Bennet daughter; gentle, reserved, and kind-hearted, admired by Mr. Bingley.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jane",
+          "evidence": [
+            1377,
+            1381
+          ]
+        },
+        {
+          "text": "Miss Bennet",
+          "evidence": [
+            29673,
+            29684
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0886a32789b17f37",
+      "name": "Mr. Bennet",
+      "description": "Owner of Longbourn; father of the Bennet sisters, sardonic and reserved.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Bennet",
+          "evidence": [
+            12063,
+            12073
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3e440cff1c48ff27",
+      "name": "Mrs. Bennet",
+      "description": "Mother of the Bennet sisters; chiefly concerned with marrying off her daughters.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Bennet",
+          "evidence": [
+            15393,
+            15404
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eca7527a870f0dbe",
+      "name": "Lydia Bennet",
+      "description": "Youngest Bennet sister; frivolous, flirtatious, impulsive and the one who elopes with Wickham.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lydia",
+          "evidence": [
+            6099,
+            6104
+          ]
+        },
+        {
+          "text": "Mrs. Wickham",
+          "evidence": [
+            590995,
+            591007
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8813a0379e60c3c6",
+      "name": "Catherine (Kitty) Bennet",
+      "description": "Third Bennet daughter commonly called Kitty; younger sister often influenced by Lydia.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Catherine",
+          "evidence": [
+            17554,
+            17563
+          ]
+        },
+        {
+          "text": "Kitty",
+          "evidence": [
+            20272,
+            20277
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7cb92e7363fcf52a",
+      "name": "Mary Bennet",
+      "description": "Middle Bennet daughter; bookish and moralizing.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mary",
+          "evidence": [
+            4044,
+            4048
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-712485d9eb8e8ccb",
+      "name": "Charles Bingley",
+      "description": "Wealthy, good-humoured gentleman who rents Netherfield; Jane’s principal suitor.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Bingley",
+          "evidence": [
+            28833,
+            28844
+          ]
+        },
+        {
+          "text": "Bingley",
+          "evidence": [
+            6373,
+            6380
+          ]
+        },
+        {
+          "text": "Charles",
+          "evidence": [
+            98537,
+            98544
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-31adb97b1bf921cb",
+      "name": "Caroline Bingley",
+      "description": "Mr. Bingley’s sister; fashionable, jealous of Elizabeth and disposed to promote Miss Darcy.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Bingley",
+          "evidence": [
+            49564,
+            49576
+          ]
+        },
+        {
+          "text": "Caroline Bingley",
+          "evidence": [
+            246989,
+            247005
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-71977987908b57cd",
+      "name": "Mr. Darcy",
+      "description": "Wealthy gentleman of Pemberley; reserved and proud but capable of deep feeling and decisive action.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Darcy",
+          "evidence": [
+            15441,
+            15450
+          ]
+        },
+        {
+          "text": "Darcy",
+          "evidence": [
+            7103,
+            7108
+          ]
+        },
+        {
+          "text": "Fitzwilliam Darcy",
+          "evidence": [
+            295541,
+            295558
+          ]
+        },
+        {
+          "text": "FITZWILLIAM DARCY",
+          "evidence": [
+            404580,
+            404597
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-64a063b2398ebfed",
+      "name": "Georgiana Darcy",
+      "description": "Mr. Darcy’s shy and accomplished younger sister.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Georgiana",
+          "evidence": [
+            250138,
+            250147
+          ]
+        },
+        {
+          "text": "Miss Darcy",
+          "evidence": [
+            21558,
+            21568
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5073c4536b06db8a",
+      "name": "Colonel Fitzwilliam",
+      "description": "Mr. Darcy’s amiable cousin; pleasant, well-bred officer.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Colonel Fitzwilliam",
+          "evidence": [
+            344488,
+            344507
+          ]
+        },
+        {
+          "text": "Fitzwilliam",
+          "evidence": [
+            295541,
+            295552
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6f12bd541f5203c3",
+      "name": "Mr. Wickham",
+      "description": "A militia officer whose agreeable manners hide improvidence and moral failings; elopes with Lydia.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Wickham",
+          "evidence": [
+            161416,
+            161427
+          ]
+        },
+        {
+          "text": "Wickham",
+          "evidence": [
+            6110,
+            6117
+          ]
+        },
+        {
+          "text": "George Wickham",
+          "evidence": [
+            204188,
+            204202
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8ba2145010207848",
+      "name": "Mr. Collins",
+      "description": "Obsequious clergyman and heir presumptive to Longbourn; officious, pompous, and self-important.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Collins",
+          "evidence": [
+            15279,
+            15290
+          ]
+        },
+        {
+          "text": "Collins",
+          "evidence": [
+            6401,
+            6408
+          ]
+        },
+        {
+          "text": "WILLIAM COLLINS",
+          "evidence": [
+            145153,
+            145168
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d339964a3337559",
+      "name": "Lady Catherine de Bourgh",
+      "description": "Proud, overbearing noblewoman; patroness of Mr. Collins and motherly guardian figure to Miss de Bourgh.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lady Catherine",
+          "evidence": [
+            17549,
+            17563
+          ]
+        },
+        {
+          "text": "Lady Catherine de Bourgh",
+          "evidence": [
+            17549,
+            17573
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-32e582264f4f4225",
+      "name": "Miss de Bourgh",
+      "description": "Lady Catherine’s sickly daughter (intended by Lady Catherine as Mr. Darcy’s match).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss de Bourgh",
+          "evidence": [
+            152165,
+            152179
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3306722da8801917",
+      "name": "Sir William Lucas",
+      "description": "Former tradesman turned local gentleman of Lucas Lodge; neighbor of the Bennets.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir William Lucas",
+          "evidence": [
+            61643,
+            61660
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6577494189977a23",
+      "name": "Lady Lucas",
+      "description": "Sir William Lucas’s wife; neighbor and friend of Mrs. Bennet.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lady Lucas",
+          "evidence": [
+            38654,
+            38664
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba7d0c3666381589",
+      "name": "Charlotte Lucas",
+      "description": "Friend of Elizabeth; sensible, pragmatic woman who marries Mr. Collins for security.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Charlotte",
+          "evidence": [
+            21684,
+            21693
+          ]
+        },
+        {
+          "text": "Miss Lucas",
+          "evidence": [
+            53699,
+            53709
+          ]
+        },
+        {
+          "text": "Charlotte Lucas",
+          "evidence": [
+            21684,
+            21699
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b008ecd3a049f740",
+      "name": "Mrs. Phillips",
+      "description": "Mrs. Bennet’s sister-in-law in Meryton who keeps the family informed of local news.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Philips",
+          "evidence": [
+            82073,
+            82085
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1c609fdbe99ab6ff",
+      "name": "Sir Lewis de Bourgh",
+      "description": "Deceased husband of Lady Catherine (referenced); part of Lady Catherine’s background, mentioned in narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Lewis de Bourgh",
+          "evidence": [
+            327949,
+            327968
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-924bffdb9b9fe1a7",
+      "name": "Mrs. Hurst",
+      "description": "Mrs. Bingley’s sister; fashionable and superficial woman.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Hurst",
+          "evidence": [
+            49539,
+            49549
+          ]
+        },
+        {
+          "text": "Louisa",
+          "evidence": [
+            85020,
+            85026
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7a4222dadf23fc6f",
+      "name": "Mr. Hurst",
+      "description": "Mrs. Hurst’s husband; idle gentleman.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Hurst",
+          "evidence": [
+            48369,
+            48378
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-edf6b4d90b9279fe",
+      "name": "Bingley party (Mr. Bingley’s sisters/relatives)",
+      "description": "The group of sisters and relatives who accompany Mr. Bingley (notably Caroline and Mrs. Hurst).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Hursts",
+          "evidence": [
+            85857,
+            85867
+          ]
+        },
+        {
+          "text": "the Bingleys",
+          "evidence": [
+            194229,
+            194241
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2cdf12a84abca202",
+      "name": "Mrs. Long",
+      "description": "Local acquaintance who provides neighborhood intelligence (mentioned as introducing Mr. Bingley).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Long",
+          "evidence": [
+            35134,
+            35143
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-886fbc49eff641c8",
+      "name": "Mr. Denny",
+      "description": "An officer of the ----shire regiment; acquaintance of Wickham and others.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Denny",
+          "evidence": [
+            155322,
+            155331
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-21bbd6c5994004cb",
+      "name": "Colonel Forster",
+      "description": "Colonel of the ----shire militia; acquaintance of the Bennets and Lydia’s commanding officer.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Colonel Forster",
+          "evidence": [
+            73302,
+            73317
+          ]
+        },
+        {
+          "text": "Forster",
+          "evidence": [
+            73310,
+            73317
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-801a99761a9035d8",
+      "name": "Captain Carter",
+      "description": "An officer in the militia mentioned as an object of Lydia’s early admiration.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Carter",
+          "evidence": [
+            83030,
+            83044
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6402a063a80ec772",
+      "name": "Pratt",
+      "description": "An officer mentioned among the militia and social circle in Meryton.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pratt",
+          "evidence": [
+            436602,
+            436607
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-93095e40ca6cd2a7",
+      "name": "Mrs. Gardiner",
+      "description": "Mrs. Bennet’s sister; sensible, kind, and a close friend to Jane and Elizabeth; travels with her husband.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Gardiner",
+          "evidence": [
+            287795,
+            287808
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3787ab9ee1f00eb5",
+      "name": "Mr. Gardiner",
+      "description": "Mrs. Gardiner’s husband; sensible, practical, and helpful in the search for Lydia.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Gardiner",
+          "evidence": [
+            287503,
+            287515
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-042c65e472ee5068",
+      "name": "Mrs. Gardiner's children",
+      "description": "The Gardiners’ four children (two girls and two younger boys) who travel with their aunt and uncle.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "their four children",
+          "evidence": [
+            470566,
+            470585
+          ]
+        },
+        {
+          "text": "two girls of six and eight years old",
+          "evidence": [
+            470637,
+            470673
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-04fa47d7293bb88c",
+      "name": "Mrs. Hill",
+      "description": "Servant/housemaid at Longbourn who brings news and assists the Bennet household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Hill",
+          "evidence": [
+            580548,
+            580557
+          ]
+        },
+        {
+          "text": "Hill",
+          "evidence": [
+            140815,
+            140819
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-daa533c98600c947",
+      "name": "Mrs. Reynolds",
+      "description": "Housekeeper at Pemberley who provides information about the Darcy household and its reputation.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Reynolds",
+          "evidence": [
+            477741,
+            477754
+          ]
+        },
+        {
+          "text": "the housekeeper",
+          "evidence": [
+            167603,
+            167618
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-694cbc0282a9c140",
+      "name": "Mrs. Jenkinson",
+      "description": "Lady Catherine’s companion and attendant at Rosings.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Jenkinson",
+          "evidence": [
+            227049,
+            227063
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a8b57caf6c50043a",
+      "name": "Mrs. Annesley",
+      "description": "A genteel woman connected to the Pemberley household who converses with visitors there.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Annesley",
+          "evidence": [
+            517418,
+            517431
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-611c317f5ee204c5",
+      "name": "Mr. Jones",
+      "description": "The apothecary called in to see Jane when she falls ill at Netherfield.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Jones",
+          "evidence": [
+            87328,
+            87337
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7fc3ad8a6a575e58",
+      "name": "Mr. Morris",
+      "description": "Agent/owner’s representative at Netherfield mentioned regarding the letting of the house.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Morris",
+          "evidence": [
+            37148,
+            37158
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-259ff00302e17835",
+      "name": "Mr. Robinson",
+      "description": "Neighbor who converses about the assembly and Mr. Bingley (appears in overheard remarks).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Robinson",
+          "evidence": [
+            63344,
+            63356
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c0a0c1b5f25da433",
+      "name": "Mr. Haggerston",
+      "description": "Solicitor or agent referenced by Mr. Gardiner as handling settlement details for Lydia (mentioned in correspondence).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Haggerston",
+          "evidence": [
+            583987,
+            583997
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5023934bfb4f869f",
+      "name": "Elizabeth Bennet",
+      "description": "Second Bennet daughter; principal protagonist who becomes Mr. Darcy’s wife; sister of Jane, Mary, Kitty (Catherine), and Lydia.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Elizabeth",
+          "evidence": [
+            7230,
+            7239
+          ]
+        },
+        {
+          "text": "Lizzy",
+          "evidence": [
+            35210,
+            35215
+          ]
+        },
+        {
+          "text": "Miss Bennet",
+          "evidence": [
+            29673,
+            29684
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bc23bb46cee0a0a7",
+      "name": "Jane Bennet",
+      "description": "Eldest Bennet daughter; amiable, engaged to Mr. Bingley.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Jane",
+          "evidence": [
+            1377,
+            1381
+          ]
+        },
+        {
+          "text": "Miss Bennet",
+          "evidence": [
+            29673,
+            29684
+          ]
+        },
+        {
+          "text": "Mrs. Bingley",
+          "evidence": [
+            736900,
+            736912
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ad2c22fb5e021d02",
+      "name": "Mr. Bingley",
+      "description": "A wealthy, amiable gentleman; close friend of Mr. Darcy and suitor/fiance of Jane Bennet.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Bingley",
+          "evidence": [
+            6373,
+            6380
+          ]
+        },
+        {
+          "text": "Mr. Bingley",
+          "evidence": [
+            28833,
+            28844
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4aa2b0bc3d6a54f9",
+      "name": "Mr. Darcy",
+      "description": "A wealthy gentleman of Pemberley; friend of Mr. Bingley; later Elizabeth’s husband.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Darcy",
+          "evidence": [
+            15441,
+            15450
+          ]
+        },
+        {
+          "text": "Darcy",
+          "evidence": [
+            7103,
+            7108
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5ba547f30dc3d563",
+      "name": "Mrs. Bennet",
+      "description": "Matron of Longbourn; mother of the Bennet daughters, eager to secure advantageous marriages for them.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Bennet",
+          "evidence": [
+            15393,
+            15404
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b8639976cf435f9b",
+      "name": "Mr. Bennet",
+      "description": "Owner of Longbourn; father of the Bennet daughters, noted for his dry humour.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Bennet",
+          "evidence": [
+            12063,
+            12073
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aaa8c2d6137919bb",
+      "name": "Kitty Bennet",
+      "description": "Catherine ‘Kitty’ Bennet; one of the middle Bennet daughters, sometimes called Catherine.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Kitty",
+          "evidence": [
+            20272,
+            20277
+          ]
+        },
+        {
+          "text": "Catherine",
+          "evidence": [
+            17554,
+            17563
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-76deb49a16070d3f",
+      "name": "Mary Bennet",
+      "description": "One of the Bennet daughters given to moralizing and accomplishments.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mary",
+          "evidence": [
+            4044,
+            4048
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7cca79398d51ef04",
+      "name": "Lydia Wickham",
+      "description": "Youngest Bennet daughter who marries Mr. Wickham; vivacious and imprudent.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Lydia",
+          "evidence": [
+            6099,
+            6104
+          ]
+        },
+        {
+          "text": "Mrs. Wickham",
+          "evidence": [
+            590995,
+            591007
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-08badb0b031134ef",
+      "name": "Mr. Wickham",
+      "description": "Officer in the militia; marries Lydia; previously involved in disputes with Mr. Darcy.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Wickham",
+          "evidence": [
+            6110,
+            6117
+          ]
+        },
+        {
+          "text": "Mr. Wickham",
+          "evidence": [
+            161416,
+            161427
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ad929efa19815a8d",
+      "name": "Lady Catherine de Bourgh",
+      "description": "A titled, imperious noblewoman of Rosings; aunt of Mr. Darcy and a principal antagonist to Elizabeth’s match with him.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Lady Catherine de Bourgh",
+          "evidence": [
+            17549,
+            17573
+          ]
+        },
+        {
+          "text": "Lady Catherine",
+          "evidence": [
+            17549,
+            17563
+          ]
+        },
+        {
+          "text": "her Ladyship",
+          "evidence": [
+            151736,
+            151748
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dcd6a946ff6cf28a",
+      "name": "Miss de Bourgh",
+      "description": "Lady Catherine’s daughter (referred to in Lady Catherine’s remarks as the expected match for Mr. Darcy).",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Miss de Bourgh",
+          "evidence": [
+            152165,
+            152179
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-863a514086e8f9b6",
+      "name": "Mr. Collins",
+      "description": "A clergyman and cousin to the Bennets; officious, the husband of Charlotte Collins.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Collins",
+          "evidence": [
+            15279,
+            15290
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6054f67b28ebd1b7",
+      "name": "Charlotte Collins",
+      "description": "Mrs. Collins (née Charlotte); friend of Elizabeth who married Mr. Collins.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Charlotte",
+          "evidence": [
+            21684,
+            21693
+          ]
+        },
+        {
+          "text": "Mrs. Collins",
+          "evidence": [
+            317509,
+            317521
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-978a01795334a3a3",
+      "name": "Sir William Lucas",
+      "description": "A local baronet and neighbour (head of the Lucas family).",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Sir William Lucas",
+          "evidence": [
+            61643,
+            61660
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d1e23ccb12c86b67",
+      "name": "Mrs. Long",
+      "description": "A local acquaintance mentioned among visitors and commentators on the Bennet family.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Long",
+          "evidence": [
+            35134,
+            35143
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1e882a28f458e5a6",
+      "name": "Mrs. Philips",
+      "description": "A neighbour and relation who visits the Bennets; noted for vulgarity in the narrative.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Philips",
+          "evidence": [
+            82073,
+            82085
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7e4c4fd887c576e",
+      "name": "Mrs. Gardiner",
+      "description": "Elizabeth’s aunt; attentive and practical relative.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Gardiner",
+          "evidence": [
+            287795,
+            287808
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06a7a4f275951c98",
+      "name": "Mr. Gardiner",
+      "description": "Elizabeth’s uncle; mentioned together as the Gardiners.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Gardiner",
+          "evidence": [
+            287503,
+            287515
+          ]
+        },
+        {
+          "text": "the Gardiners",
+          "evidence": [
+            21527,
+            21540
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b7db04d94559b0d1",
+      "name": "Georgiana Darcy",
+      "description": "Mr. Darcy’s shy younger sister, cultivated and residing at Pemberley.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Georgiana",
+          "evidence": [
+            250138,
+            250147
+          ]
+        },
+        {
+          "text": "Miss Darcy",
+          "evidence": [
+            21558,
+            21568
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-10f4b57e56291386",
+      "name": "Miss Bingley (Caroline Bingley)",
+      "description": "Caroline Bingley; sister of Mr. Bingley and a social rival to Elizabeth.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Miss Bingley",
+          "evidence": [
+            49564,
+            49576
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3f56845c7d9a7219",
+      "name": "Maria (Lucas niece)",
+      "description": "One of the Lucases’ nieces (a member of the Lucas household whom Kitty wishes to visit).",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Maria",
+          "evidence": [
+            54055,
+            54060
+          ]
+        }
+      ]
+    }
+  ]
+}

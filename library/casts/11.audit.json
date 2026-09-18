@@ -1,0 +1,44 @@
+{
+  "chunks": [
+    {
+      "start": 909,
+      "end": 148897,
+      "key": "142d1de62e04f0f414fefb781561bee2f8de2948a1e032885ab913a0c63245c1",
+      "usage": {
+        "input_tokens": 43168,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4595,
+        "output_tokens_details": {
+          "reasoning_tokens": 3136
+        },
+        "total_tokens": 47763
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Bill (the Lizard)",
+      "alias": "Bill the Lizard",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "King of Hearts",
+      "alias": "King of Hearts",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "King of Hearts",
+      "alias": "The King of Hearts",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "jurors",
+      "alias": "the twelve jurors",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

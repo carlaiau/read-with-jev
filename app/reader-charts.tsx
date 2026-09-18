@@ -2,10 +2,13 @@ import type { Book } from '../src/lib/model';
 
 /** Each sample is the fraction of chapter passages containing this identity. */
 export function chapterActivity(book: Book, ids: string[]): number[] {
-  return Array.from({ length: 61 }, (_, i) => {
-    const passages = book.passages.filter(p => p.chapter === i + 1);
-    return passages.length ? passages.filter(p => !ids.length || p.labels.some(id => ids.includes(id))).length / passages.length : 0;
-  });
+  const total = Array<number>(Math.max(0, ...book.passages.map(p => p.chapter))).fill(0);
+  const matching = [...total], selected = new Set(ids);
+  for (const passage of book.passages) {
+    total[passage.chapter - 1]++;
+    if (!selected.size || passage.labels.some(id => selected.has(id))) matching[passage.chapter - 1]++;
+  }
+  return total.map((count, i) => count ? matching[i] / count : 0);
 }
 
 export function Sparkline({ values, color }: { values: number[]; color: string }) {
@@ -38,8 +41,15 @@ export function CharacterRail({ book, selected, current, colorFor, jump }: {
   });
   const position = book.passages[current];
   const chapters = book.passages.filter((p, i) => i === 0 || p.chapter !== book.passages[i - 1].chapter);
-  return <div className="relative h-full"><svg viewBox="0 0 150 1000" preserveAspectRatio="none" className="minimap h-full w-full cursor-crosshair" role="img"
-    aria-label="Whole-book character map. Each selected character has a separate curve in their channel color. Use the book position slider or previous and next passage buttons for keyboard navigation."
+  return <div className="relative h-full focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-slate-600" role="slider" tabIndex={0}
+    aria-label="Book position" aria-orientation="vertical" aria-valuemin={0} aria-valuemax={book.passages.length - 1} aria-valuenow={current}
+    aria-valuetext={`Passage ${current + 1} of ${book.passages.length}`}
+    onKeyDown={event => {
+      const target = { ArrowDown: current + 1, ArrowRight: current + 1, ArrowUp: current - 1, ArrowLeft: current - 1,
+        PageDown: current + 10, PageUp: current - 10, Home: 0, End: book.passages.length - 1 }[event.key];
+      if (target !== undefined) { event.preventDefault(); jump(Math.max(0, Math.min(book.passages.length - 1, target))); }
+    }}><svg viewBox="0 0 150 1000" preserveAspectRatio="none" className="minimap h-full w-full cursor-crosshair" role="img"
+    aria-label="Whole-book character map. Each selected character has a separate curve in their channel color. Use arrow keys, Home, or End on the map, or the previous and next passage buttons for keyboard navigation."
     onClick={event => {
       const rect = event.currentTarget.getBoundingClientRect();
       const offset = Math.max(0, Math.min(1, (event.clientY - rect.top) / rect.height)) * book.text.length;

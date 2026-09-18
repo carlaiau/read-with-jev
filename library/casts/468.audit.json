@@ -1,0 +1,39 @@
+{
+  "chunks": [
+    {
+      "start": 810,
+      "end": 351334,
+      "key": "9c634bc26f6e563c50b7f11b04a1cd09ff2681d0f6edd944321aa71ec1d4abef",
+      "usage": {
+        "input_tokens": 92565,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5817,
+        "output_tokens_details": {
+          "reasoning_tokens": 4608
+        },
+        "total_tokens": 98382
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "M. de B----",
+      "alias": "M. de B----, the famous Fermier-general",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Archers / civic guard (escort)",
+      "alias": "an archer of the civic guard",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Narrator (unnamed)",
+      "alias": "(unnamed narrator)",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

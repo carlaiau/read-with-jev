@@ -1,0 +1,219 @@
+{
+  "schema": 1,
+  "gutenbergId": 22541,
+  "sourceSha256": "d80c08fe710a9fe72fb80f3c347978927eac431bf5e706b76a48908d7a3a399f",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-71c17ca30135c346",
+      "name": "Slippery Jim diGriz",
+      "description": "Narrator and Special Corps agent who investigates the construction and theft of a Warlord-class battleship; uses deceptive identities during the mission.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "Slippery Jim diGriz",
+          "evidence": [
+            5011,
+            5030
+          ]
+        },
+        {
+          "text": "diGriz",
+          "evidence": [
+            1949,
+            1955
+          ]
+        },
+        {
+          "text": "Admiral Thar",
+          "evidence": [
+            20515,
+            20527
+          ]
+        },
+        {
+          "text": "Grand Duke Sant' Angelo",
+          "evidence": [
+            15168,
+            15191
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-993de3d99e18e6c2",
+      "name": "Inskipp",
+      "description": "Head of the Special Corps; diGriz's superior who assigns and authorizes the investigation.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "Inskipp",
+          "evidence": [
+            1595,
+            1602
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9712249bfd93bc44",
+      "name": "President Ferraro",
+      "description": "President of Cittanuvo who is initially implicated by falsified plans and who assists diGriz's inquiry into the stolen ship.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "President Ferraro",
+          "evidence": [
+            19133,
+            19150
+          ]
+        },
+        {
+          "text": "Ferraro",
+          "evidence": [
+            19143,
+            19150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2e11ef3bb1bc737a",
+      "name": "Rocca",
+      "description": "Manager of the Cenerentola Spaceyards where the ship was constructed; provides records used in the investigation.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "Rocca",
+          "evidence": [
+            26041,
+            26046
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b4146818ef48ca9c",
+      "name": "Pepe Nero",
+      "description": "Mastermind criminal (or assumed name) who organizes the covert conversion and theft of the battleship; responsible for deadly raids.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "Pepe Nero",
+          "evidence": [
+            34840,
+            34849
+          ]
+        },
+        {
+          "text": "Pepe",
+          "evidence": [
+            34840,
+            34844
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-63e318d1171b8f7c",
+      "name": "Angelina",
+      "description": "Female assistant and co-conspirator in the battleship scheme; implicated as the originator of the plot and who escapes at the end.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "Angelina",
+          "evidence": [
+            34870,
+            34878
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dbadd4a63c4cc608",
+      "name": "Captain Steng",
+      "description": "Captain of the League cruiser assigned to diGriz's operation; skeptical of diGriz's unorthodox tactics.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "Captain Steng",
+          "evidence": [
+            46929,
+            46942
+          ]
+        },
+        {
+          "text": "Steng",
+          "evidence": [
+            46937,
+            46942
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b370588266ab3681",
+      "name": "psiman",
+      "description": "Ship communications/psionic operator who decodes and transmits classified psionic messages and coordinates long-distance contacts.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "psiman",
+          "evidence": [
+            36197,
+            36203
+          ]
+        },
+        {
+          "text": "psimen",
+          "evidence": [
+            36768,
+            36774
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ed237a25391ba7c1",
+      "name": "navigator",
+      "description": "Ship navigator who plots probable locations of the stolen battleship using the ship's tank and provides movement calculations.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "navigator",
+          "evidence": [
+            39586,
+            39595
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2f0f4716321e9c66",
+      "name": "M-3 robot",
+      "description": "A multifunctional Corps robot that accompanies diGriz, equipped with concealed compartments, detection devices and programmed roles in the investigation.",
+      "scope": "The Misplaced Battleship",
+      "aliases": [
+        {
+          "text": "M-3 robot",
+          "evidence": [
+            14611,
+            14620
+          ]
+        },
+        {
+          "text": "pseudo M-3 robot",
+          "evidence": [
+            18080,
+            18096
+          ]
+        }
+      ]
+    }
+  ]
+}

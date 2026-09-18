@@ -1,0 +1,85 @@
+{
+  "chunks": [
+    {
+      "start": 948,
+      "end": 650932,
+      "key": "4c5c50e96e1055d7680d2ee47392ba75d9885405797566eb75c6b8bf688f8896",
+      "usage": {
+        "input_tokens": 170953,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4203,
+        "output_tokens_details": {
+          "reasoning_tokens": 3072
+        },
+        "total_tokens": 175156
+      }
+    },
+    {
+      "start": 650932,
+      "end": 704283,
+      "key": "3bb60e1e988d4872023186fb09ee1b126a006375f8556730f866ec125531b428",
+      "usage": {
+        "input_tokens": 14054,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6643,
+        "output_tokens_details": {
+          "reasoning_tokens": 5312
+        },
+        "total_tokens": 20697
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "f0223e3f87462b0b9e6a242550c18d55469ef106e3f25f20bd3a2e0709d959ed",
+    "usage": {
+      "input_tokens": 2640,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3831,
+      "output_tokens_details": {
+        "reasoning_tokens": 2048
+      },
+      "total_tokens": 6471
+    }
+  },
+  "rejected": [
+    {
+      "name": "Mrs. John Dashwood (Fanny)",
+      "alias": "Mrs. John Dashwood (Fanny)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Harry",
+      "alias": "his son's son, a child of four years old",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Lady Middleton",
+      "alias": "Mrs. Middleton",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Palmer (Charlotte)",
+      "alias": "Charlotte Palmer",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Anne Steele",
+      "alias": "Anne Steele",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sally",
+      "alias": "Sally at the Park",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

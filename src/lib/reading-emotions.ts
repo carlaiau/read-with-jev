@@ -1,5 +1,5 @@
 import type {Book} from './model';
-import {readerSegments} from './reader-text';
+import {readerSegments,readerPassageText} from './reader-text';
 export const readingEmotions=['anger','anticipation','disgust','fear','joy','sadness','surprise','trust'] as const;
 export type ReadingEmotion=typeof readingEmotions[number];
 export type EmotionScores=Record<ReadingEmotion,number>;
@@ -9,10 +9,10 @@ export type ReadingSentence={id:string;start:number;end:number;target:string;pre
 export type ReadingPlan={id:string;text:string;emphasis:{start:number;end:number}[];sentences:ReadingSentence[]};
 export type EmotionMetadata={sourceKey:string;plans:ReadingPlan[];lexicon:Record<string,string[]>;jevAvailable:boolean;model:string;threshold:number};
 /** All ranges are in the displayed edition, never source annotation coordinates. */
-export function readingPlans(book:Book):ReadingPlan[]{
- const plans=book.passages.map(p=>{
+export function readingPlans(book:Book & {textFormat?:'plain'|'tokenized';sections?:{index:number;title:string}[]}):ReadingPlan[]{
+ const plans=book.passages.map((p,index)=>{
   let text='';const emphasis:{start:number;end:number}[]=[];
-  for(const part of readerSegments(book.text.slice(p.start,p.end),book.id==='mentions')){const start=text.length;text+=part.text;if(part.emphasis)emphasis.push({start,end:text.length});}
+  for(const part of readerSegments(readerPassageText(book,index),book.textFormat?book.textFormat==='tokenized':book.id==='mentions')){const start=text.length;text+=part.text;if(part.emphasis)emphasis.push({start,end:text.length});}
   const sentences=[...new Intl.Segmenter('en',{granularity:'sentence'}).segment(text)].map(s=>({id:`${p.id}:${s.index}`,start:s.index,end:s.index+s.segment.length,target:s.segment,precedingContext:'',followingContext:''}));
   return {id:p.id,text,emphasis,sentences};
  });

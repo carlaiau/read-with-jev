@@ -1,0 +1,80 @@
+{
+  "chunks": [
+    {
+      "start": 903,
+      "end": 650855,
+      "key": "9521a8f66fab8579e7995e8b2fcb9645f8ad90302687f3ebbdf45e81b375089c",
+      "usage": {
+        "input_tokens": 177176,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3868,
+        "output_tokens_details": {
+          "reasoning_tokens": 2752
+        },
+        "total_tokens": 181044
+      }
+    },
+    {
+      "start": 650855,
+      "end": 1241788,
+      "key": "4782c85e6f81b281445d14af70fc934059c54592d4b73da0d94a86c06e8b2c9e",
+      "usage": {
+        "input_tokens": 161664,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4299,
+        "output_tokens_details": {
+          "reasoning_tokens": 3008
+        },
+        "total_tokens": 165963
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "eb95b024b9af8c341e5a02bab09f1ba0092a1b88f4012949252bdf4af7357f27",
+    "usage": {
+      "input_tokens": 3093,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3106,
+      "output_tokens_details": {
+        "reasoning_tokens": 896
+      },
+      "total_tokens": 6199
+    }
+  },
+  "rejected": [
+    {
+      "name": "Hosea Hussey",
+      "alias": "Cousin Hosea Hussey",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Dough-Boy",
+      "alias": "Dough-Boy the steward",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Queequeg",
+      "alias": "harpooneer Queequeg",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Fleece",
+      "alias": "old Ebony",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Captain of the Bachelor",
+      "alias": "the Bachelor’s captain",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

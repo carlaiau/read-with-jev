@@ -1,0 +1,598 @@
+{
+  "schema": 1,
+  "gutenbergId": 2465,
+  "sourceSha256": "30d6649b7c85c3c0079143faa1863ba83261fd5244eff038df79df024cd23d49",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-80b8d878d526a05c",
+      "name": "Narrator",
+      "description": "First-person narrator; a French traveller and amateur archaeologist recounting events in Andalusia",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "I",
+          "evidence": [
+            969,
+            970
+          ]
+        },
+        {
+          "text": "myself",
+          "evidence": [
+            4975,
+            4981
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-673e3056ba631b7c",
+      "name": "Antonio",
+      "description": "The narrator’s hired guide who accompanies him through Andalusia",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Antonio",
+          "evidence": [
+            8820,
+            8827
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a4d114a32def60f1",
+      "name": "Don Jose Lizzarrabengoa",
+      "description": "Basque-born smuggler and brigand; known locally under other names; later imprisoned in Córdova",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Don Jose",
+          "evidence": [
+            13619,
+            13627
+          ]
+        },
+        {
+          "text": "Don Jose Lizzarrabengoa",
+          "evidence": [
+            42004,
+            42027
+          ]
+        },
+        {
+          "text": "Jose Navarro",
+          "evidence": [
+            18944,
+            18956
+          ]
+        },
+        {
+          "text": "Navarro",
+          "evidence": [
+            18949,
+            18956
+          ]
+        },
+        {
+          "text": "Jose",
+          "evidence": [
+            11629,
+            11633
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-84eab27f236f6b99",
+      "name": "Old woman (inn at the Venta del Cuervo)",
+      "description": "Elderly woman who keeps/works at the Venta del Cuervo where the narrator and Don Jose stop",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "old woman",
+          "evidence": [
+            13211,
+            13220
+          ]
+        },
+        {
+          "text": "old dame",
+          "evidence": [
+            13738,
+            13746
+          ]
+        },
+        {
+          "text": "old hag",
+          "evidence": [
+            21749,
+            21756
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4662d3d4c28d608e",
+      "name": "Little girl (servant at the Venta del Cuervo)",
+      "description": "Child attendant at the venta who waits on the travellers",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "little girl",
+          "evidence": [
+            13228,
+            13239
+          ]
+        },
+        {
+          "text": "child",
+          "evidence": [
+            14835,
+            14840
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a3051b9e5055ca8c",
+      "name": "Sergeant",
+      "description": "Officer who organizes the men sent to pursue Navarro/Don Jose",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "sergeant",
+          "evidence": [
+            23883,
+            23891
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3e41408261e52743",
+      "name": "Lancers (soldiers)",
+      "description": "Mounted soldiers/lancers who pursue the brigand; part of the arrest party",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "lancers",
+          "evidence": [
+            19258,
+            19265
+          ]
+        },
+        {
+          "text": "half a dozen horsemen",
+          "evidence": [
+            23676,
+            23697
+          ]
+        },
+        {
+          "text": "horsemen",
+          "evidence": [
+            23689,
+            23697
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef1729e9747c50f7",
+      "name": "Alcalde",
+      "description": "Local magistrate before whom the narrator signs a declaration",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Alcalde",
+          "evidence": [
+            24262,
+            24269
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d48d108b00e04989",
+      "name": "Corregidor",
+      "description": "Local governor/magistrate involved in the investigation that recovers the narrator’s watch",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Corregidor",
+          "evidence": [
+            36917,
+            36927
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a97518e2d69edc91",
+      "name": "Father Martinez",
+      "description": "Dominican monk (the narrator’s friend) who brings the narrator to see the prisoner",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Father Martinez",
+          "evidence": [
+            39720,
+            39735
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-394ac38acbceebe5",
+      "name": "Carmen",
+      "description": "Young gipsy (gitana); central female figure — alluring, deceptive, and linked to Don Jose’s downfall",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Carmen",
+          "evidence": [
+            29552,
+            29558
+          ]
+        },
+        {
+          "text": "Carmencita",
+          "evidence": [
+            29552,
+            29562
+          ]
+        },
+        {
+          "text": "Senorita Carmen",
+          "evidence": [
+            30789,
+            30804
+          ]
+        },
+        {
+          "text": "gitana",
+          "evidence": [
+            30630,
+            30636
+          ]
+        },
+        {
+          "text": "_gitana_",
+          "evidence": [
+            30629,
+            30637
+          ]
+        },
+        {
+          "text": "gipsy",
+          "evidence": [
+            29472,
+            29477
+          ]
+        },
+        {
+          "text": "gipsy girl",
+          "evidence": [
+            31361,
+            31371
+          ]
+        },
+        {
+          "text": "the gipsy",
+          "evidence": [
+            33175,
+            33184
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c81db9406240d131",
+      "name": "Lillas Pastia",
+      "description": "Fried-fish seller (gipsy) who hosts Carmen at Triana and is part of gipsy/rogue circles",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Lillas Pastia",
+          "evidence": [
+            61680,
+            61693
+          ]
+        },
+        {
+          "text": "Pastia",
+          "evidence": [
+            61687,
+            61693
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d6c6e87eaf33ce32",
+      "name": "Dorotea",
+      "description": "Old fried-fish seller/hostess who shelters gipsies and interacts with Don Jose",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Dorotea",
+          "evidence": [
+            72723,
+            72730
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c35704aec37e7a7c",
+      "name": "Garcia el Tuerto",
+      "description": "A one-eyed gipsy (Garcia, nicknamed _el Tuerto_) rescued from the presidio; described as ugly and vicious",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Garcia _el Tuerto_",
+          "evidence": [
+            83972,
+            83990
+          ]
+        },
+        {
+          "text": "Garcia",
+          "evidence": [
+            83972,
+            83978
+          ]
+        },
+        {
+          "text": "_El Tuerto_",
+          "evidence": [
+            90918,
+            90929
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7b220ed77f75933a",
+      "name": "_El Dancaire_",
+      "description": "Leader/captain of the smuggling gang who recruits Don Jose",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "_El Dancaire_",
+          "evidence": [
+            81340,
+            81353
+          ]
+        },
+        {
+          "text": "El Dancaire",
+          "evidence": [
+            81341,
+            81352
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-73b2435f68b4515b",
+      "name": "Lucas",
+      "description": "A skilled picador (bull-ring horseman) with whom Carmen is seen; object of jealousy in Don Jose’s account",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Lucas",
+          "evidence": [
+            107242,
+            107247
+          ]
+        },
+        {
+          "text": "picador",
+          "evidence": [
+            29264,
+            29271
+          ]
+        },
+        {
+          "text": "_picador_",
+          "evidence": [
+            29263,
+            29272
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4589de7da50da41d",
+      "name": "Juanito",
+      "description": "A surviving comrade of Don Jose who reports seeing Carmen with Lucas",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Juanito",
+          "evidence": [
+            107384,
+            107391
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e71d6c0e54325289",
+      "name": "Nathan Ben-Joseph",
+      "description": "Merchant at Gibraltar (referred to as a Jew) who does business supplying cotton stuffs to the smugglers",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Nathan Ben-Joseph",
+          "evidence": [
+            106779,
+            106796
+          ]
+        },
+        {
+          "text": "the Jew",
+          "evidence": [
+            108281,
+            108288
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-649c8f9611a3cab8",
+      "name": "Lieutenant (unnamed)",
+      "description": "Unnamed lieutenant of the regiment who quarrels and duels with Don Jose in Seville",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "lieutenant",
+          "evidence": [
+            75606,
+            75616
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bef835fe50d5552e",
+      "name": "Colonel (unnamed)",
+      "description": "Young colonel whose house is the scene of a party where Carmen dances; Don Jose guarded his door as a corporal",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "colonel",
+          "evidence": [
+            55744,
+            55751
+          ]
+        },
+        {
+          "text": "the colonel",
+          "evidence": [
+            59430,
+            59441
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-75e6001d293badfa",
+      "name": "Englishman (milord)",
+      "description": "Wealthy Englishman (called _milord_) seen in Gibraltar as Carmen’s companion/lover",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "Englishman",
+          "evidence": [
+            28585,
+            28595
+          ]
+        },
+        {
+          "text": "_milord_",
+          "evidence": [
+            93350,
+            93358
+          ]
+        },
+        {
+          "text": "milord",
+          "evidence": [
+            93351,
+            93357
+          ]
+        },
+        {
+          "text": "English lord",
+          "evidence": [
+            89028,
+            89040
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ba277167f09d5d5",
+      "name": "_La Rollona_",
+      "description": "Named chocolate-seller in Gibraltar mentioned as a possible contact for news of Carmen",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "_La Rollona_",
+          "evidence": [
+            91539,
+            91551
+          ]
+        },
+        {
+          "text": "La Rollona",
+          "evidence": [
+            91540,
+            91550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-803b0fab5ff74e20",
+      "name": "Hermit",
+      "description": "Hermit at a hermitage who says mass when Don Jose asks for it",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "hermit",
+          "evidence": [
+            111293,
+            111299
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b1ae4fe787cd2c40",
+      "name": "Jailer",
+      "description": "Prison official who brings food to Don Jose and handles prison matters",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "jailer",
+          "evidence": [
+            56896,
+            56902
+          ]
+        },
+        {
+          "text": "the jailer",
+          "evidence": [
+            56892,
+            56902
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1ea6f465fe67b5e7",
+      "name": "Innkeeper's son",
+      "description": "Son of an innkeeper who serves the mass mentioned by Don Jose",
+      "scope": "Carmen",
+      "aliases": [
+        {
+          "text": "son of the innkeeper",
+          "evidence": [
+            113523,
+            113543
+          ]
+        }
+      ]
+    }
+  ]
+}

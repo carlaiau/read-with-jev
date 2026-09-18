@@ -1,0 +1,1842 @@
+{
+  "schema": 1,
+  "gutenbergId": 1259,
+  "sourceSha256": "a0d263486d61d4f1e33964da3a136bbc5528e744dfcda02c4289203b3ff22c0e",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-d1c12995d0f0b764",
+      "name": "Cardinal Mazarin",
+      "description": "Italian-born cardinal and chief minister to the young Louis XIV, central political figure in Paris during the Fronde unrest.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Mazarin",
+          "evidence": [
+            3747,
+            3754
+          ]
+        },
+        {
+          "text": "Cardinal Mazarin",
+          "evidence": [
+            5543,
+            5559
+          ]
+        },
+        {
+          "text": "his eminence",
+          "evidence": [
+            81047,
+            81059
+          ]
+        },
+        {
+          "text": "the cardinal",
+          "evidence": [
+            10665,
+            10677
+          ]
+        },
+        {
+          "text": "monseigneur",
+          "evidence": [
+            304163,
+            304174
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f5dc31025e1c8ba7",
+      "name": "Cardinal Richelieu",
+      "description": "Deceased former chief minister of France; his memory and former authority are evoked in Parisian scenes.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Cardinal Richelieu",
+          "evidence": [
+            2006,
+            2024
+          ]
+        },
+        {
+          "text": "Richelieu",
+          "evidence": [
+            2015,
+            2024
+          ]
+        },
+        {
+          "text": "the late cardinal",
+          "evidence": [
+            58738,
+            58755
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-20c922450d09eb7e",
+      "name": "Bernouin",
+      "description": "Mazarin’s valet-de-chambre who attends and aides the cardinal in private movements and messages.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Bernouin",
+          "evidence": [
+            21265,
+            21273
+          ]
+        },
+        {
+          "text": "Maître Bernouin",
+          "evidence": [
+            1359142,
+            1359157
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bfd2103a4761e04d",
+      "name": "D’Artagnan",
+      "description": "Lieutenant of the king’s musketeers; a Gascon veteran and principal protagonist who undertakes missions for Mazarin and seeks his old friends.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "D’Artagnan",
+          "evidence": [
+            980,
+            990
+          ]
+        },
+        {
+          "text": "Monsieur d’Artagnan",
+          "evidence": [
+            22225,
+            22244
+          ]
+        },
+        {
+          "text": "the Gascon",
+          "evidence": [
+            38950,
+            38960
+          ]
+        },
+        {
+          "text": "the lieutenant",
+          "evidence": [
+            38871,
+            38885
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-127ce2f1dbca0a7c",
+      "name": "Athos",
+      "description": "Nobleman and former musketeer (Comte de la Fère / Comte de Bragelonne); reserved, honorable, guardian to Raoul and leader among the four friends.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Athos",
+          "evidence": [
+            2688,
+            2693
+          ]
+        },
+        {
+          "text": "Comte de la Fère",
+          "evidence": [
+            210836,
+            210852
+          ]
+        },
+        {
+          "text": "Comte de Bragelonne",
+          "evidence": [
+            210854,
+            210873
+          ]
+        },
+        {
+          "text": "Count de la Fère",
+          "evidence": [
+            98172,
+            98188
+          ]
+        },
+        {
+          "text": "the count",
+          "evidence": [
+            57639,
+            57648
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ca3b3d9ff2ec2316",
+      "name": "Porthos",
+      "description": "Former musketeer who has married well and acquired estates; ostentatious, strong, eager for a title (calls himself Du Vallon de Bracieux de Pierrefonds).",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Porthos",
+          "evidence": [
+            2431,
+            2438
+          ]
+        },
+        {
+          "text": "Monsieur du Vallon",
+          "evidence": [
+            98213,
+            98231
+          ]
+        },
+        {
+          "text": "Du Vallon de Bracieux de Pierrefonds",
+          "evidence": [
+            672599,
+            672635
+          ]
+        },
+        {
+          "text": "Du Vallon",
+          "evidence": [
+            186625,
+            186634
+          ]
+        },
+        {
+          "text": "Chevalier du Vallon",
+          "evidence": [
+            721649,
+            721668
+          ]
+        },
+        {
+          "text": "Baron du Vallon",
+          "evidence": [
+            1399504,
+            1399519
+          ]
+        },
+        {
+          "text": "Mouston",
+          "evidence": [
+            204732,
+            204739
+          ]
+        },
+        {
+          "text": "Mousqueton",
+          "evidence": [
+            5223,
+            5233
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-94cb6518e0f022b2",
+      "name": "Aramis (Abbé d’Herblay)",
+      "description": "Former musketeer now the Abbé d’Herblay (Aramis); equally cultured and scheming, moves between ecclesiastical and worldly intrigues.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Aramis",
+          "evidence": [
+            2367,
+            2373
+          ]
+        },
+        {
+          "text": "Abbé d’Herblay",
+          "evidence": [
+            131084,
+            131098
+          ]
+        },
+        {
+          "text": "Chevalier d’Herblay",
+          "evidence": [
+            98268,
+            98287
+          ]
+        },
+        {
+          "text": "D’Herblay",
+          "evidence": [
+            2398,
+            2407
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b3c55cebdd42509",
+      "name": "Planchet",
+      "description": "Former servant of D’Artagnan who becomes his confidential attendant and later a husband and confectioner; loyal and pragmatic.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Planchet",
+          "evidence": [
+            54200,
+            54208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fd53727cb895a60a",
+      "name": "Comte de Rochefort",
+      "description": "Former agent of Cardinal Richelieu, long imprisoned in the Bastile and later secretly important in political maneuvering.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Rochefort",
+          "evidence": [
+            42484,
+            42493
+          ]
+        },
+        {
+          "text": "Comte de Rochefort",
+          "evidence": [
+            42475,
+            42493
+          ]
+        },
+        {
+          "text": "M. de Rochefort",
+          "evidence": [
+            56093,
+            56108
+          ]
+        },
+        {
+          "text": "Count de Rochefort",
+          "evidence": [
+            207563,
+            207581
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3cd956b11b3170cc",
+      "name": "Monsieur du Tremblay",
+      "description": "Governor of the Bastile; brother of the Capuchin Joseph du Tremblay (the 'Gray Cardinal').",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Monsieur du Tremblay",
+          "evidence": [
+            44815,
+            44835
+          ]
+        },
+        {
+          "text": "Du Tremblay",
+          "evidence": [
+            45391,
+            45402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6eff1f0ee67419d5",
+      "name": "La Ramee",
+      "description": "Officer at Vincennes who serves as the duke’s jailer and is involved in the prisoner’s household management and plots.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "La Ramee",
+          "evidence": [
+            272454,
+            272462
+          ]
+        },
+        {
+          "text": "Monsieur la Ramee",
+          "evidence": [
+            274628,
+            274645
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b9900b18c9d27898",
+      "name": "Duc de Beaufort",
+      "description": "Prince of the blood, grandson of Henry IV.; imprisoned at Vincennes, bold and popular, central prisoner whose escape drives much of the plot.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Duc de Beaufort",
+          "evidence": [
+            2731,
+            2746
+          ]
+        },
+        {
+          "text": "Monsieur de Beaufort",
+          "evidence": [
+            69250,
+            69270
+          ]
+        },
+        {
+          "text": "Beaufort",
+          "evidence": [
+            2738,
+            2746
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-07a623356bb3618d",
+      "name": "Grimaud",
+      "description": "Taciturn, enigmatic servant (former man-of-arms and Athos’s mute servant) who becomes a pivotal keeper at Vincennes and aide in the duke’s escape.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Grimaud",
+          "evidence": [
+            2850,
+            2857
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3fd6fca3bf85448b",
+      "name": "Mousqueton",
+      "description": "Porthos’s faithful steward (later prefers the name 'Mouston'); devoted attendant who manages Porthos’s household.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Mousqueton",
+          "evidence": [
+            5223,
+            5233
+          ]
+        },
+        {
+          "text": "Mouston",
+          "evidence": [
+            204732,
+            204739
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c9a6819b852a48d5",
+      "name": "Madeleine",
+      "description": "Hostess of the Hotel de la Chevrette in Rue Tiquetonne; D’Artagnan’s landlady and romantic partner in the narrative.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Madeleine",
+          "evidence": [
+            111549,
+            111558
+          ]
+        },
+        {
+          "text": "the hostess",
+          "evidence": [
+            104270,
+            104281
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bca190e4a2c152e0",
+      "name": "Bazin",
+      "description": "Beadle of Notre Dame; formerly Aramis’s servant and a source of local intelligence (appears as a stalwart church beadle).",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Bazin",
+          "evidence": [
+            124481,
+            124486
+          ]
+        },
+        {
+          "text": "Monsieur Bazin",
+          "evidence": [
+            127364,
+            127378
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0c839752c2516387",
+      "name": "Monsieur de Tréville",
+      "description": "Captain of the king’s musketeers (referenced as commander of the company to which D’Artagnan belongs).",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Monsieur de Tréville",
+          "evidence": [
+            178901,
+            178921
+          ]
+        },
+        {
+          "text": "De Tréville",
+          "evidence": [
+            40544,
+            40555
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eedde096cee5fc81",
+      "name": "Comminges",
+      "description": "Lieutenant in the royal guards, wounded in an early street disturbance and part of the palace security detail.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Comminges",
+          "evidence": [
+            19132,
+            19141
+          ]
+        },
+        {
+          "text": "Monsieur de Comminges",
+          "evidence": [
+            25512,
+            25533
+          ]
+        },
+        {
+          "text": "De Comminges",
+          "evidence": [
+            1284708,
+            1284720
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ab1fb64b1e7fd4bf",
+      "name": "Guitant",
+      "description": "Veteran captain in the queen’s guards who patrols Paris and comments on civic unrest.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Guitant",
+          "evidence": [
+            29217,
+            29224
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b2197080dcf842d9",
+      "name": "Villequier",
+      "description": "Officer (captain) at the outposts near the Palais Royal who appears in guard conversations and disputes of honor.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Villequier",
+          "evidence": [
+            34977,
+            34987
+          ]
+        },
+        {
+          "text": "Monsieur de Villequier",
+          "evidence": [
+            35546,
+            35568
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fae267552d00e138",
+      "name": "Emery (Particelli)",
+      "description": "Superintendent of finance (introduced as Emery, originally Particelli), unpopular and a cause of civic unrest.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Emery",
+          "evidence": [
+            13469,
+            13474
+          ]
+        },
+        {
+          "text": "Particelli",
+          "evidence": [
+            13765,
+            13775
+          ]
+        },
+        {
+          "text": "Monsieur d’Emery",
+          "evidence": [
+            14162,
+            14178
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f32a72010176f58f",
+      "name": "Mathieu Molé",
+      "description": "Chief president of the parlement who remonstrates against new taxes and plays a role in the civic unrest.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Mathieu Molé",
+          "evidence": [
+            15557,
+            15569
+          ]
+        },
+        {
+          "text": "the chief president",
+          "evidence": [
+            15571,
+            15590
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a0a4ecc163676a3e",
+      "name": "President Blancmesnil",
+      "description": "Magistrate raised in the narrative as speaking against fresh taxes and popular with the people.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Blancmesnil",
+          "evidence": [
+            17690,
+            17701
+          ]
+        },
+        {
+          "text": "President Blancmesnil",
+          "evidence": [
+            17680,
+            17701
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-73ecebbb1641b88f",
+      "name": "Councillor Broussel",
+      "description": "Magistrate popular with the people and named by the populace during protests against Mazarin’s measures.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Broussel",
+          "evidence": [
+            17717,
+            17725
+          ]
+        },
+        {
+          "text": "Councillor Broussel",
+          "evidence": [
+            17706,
+            17725
+          ]
+        },
+        {
+          "text": "Master Broussel",
+          "evidence": [
+            691001,
+            691016
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e1b0ed83cd2ef849",
+      "name": "Mayor of Paris",
+      "description": "Municipal official who warns the Palais Royal of an impending armed uprising; consistently referenced without a personal name.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "the mayor",
+          "evidence": [
+            18859,
+            18868
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd3ec942a119e15e",
+      "name": "Madame de Beauvais",
+      "description": "Court attendant entrusted with preparing Queen Anne of Austria to receive Mazarin in the secret passage; appears in palace scenes.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Madame de Beauvais",
+          "evidence": [
+            73069,
+            73087
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-424d5bafbcd5b274",
+      "name": "Laporte",
+      "description": "Louis XIV’s valet (the boy Laporte) who appears in the juvenile-royal household scenes.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Laporte",
+          "evidence": [
+            75563,
+            75570
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1a834c3aa3de98f",
+      "name": "Mancini",
+      "description": "Nephew of Mazarin mentioned at court and disliked by the young king.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Mancini",
+          "evidence": [
+            76510,
+            76517
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1ee6a9ed13b0148c",
+      "name": "Milady (Anne de Bueil)",
+      "description": "Milady figure referenced in execution and past intrigue (referred to as the woman punished after secret crimes); also named as Anne de Bueil in confession.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Milady",
+          "evidence": [
+            240146,
+            240152
+          ]
+        },
+        {
+          "text": "Anne de Bueil",
+          "evidence": [
+            531127,
+            531140
+          ]
+        },
+        {
+          "text": "the woman",
+          "evidence": [
+            520584,
+            520593
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9f59a60f34f6470c",
+      "name": "Marie Michon",
+      "description": "Needlewoman who aided the queen in the ornament episode and figures in past rescue narratives.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Marie Michon",
+          "evidence": [
+            2977,
+            2989
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b8fc1793257907a8",
+      "name": "Kitty",
+      "description": "Follower/companion of Marie Michon who assisted in a flight and disguise episode.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Kitty",
+          "evidence": [
+            159766,
+            159771
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-341ef9e561a5a443",
+      "name": "Duchess de Chevreuse (Madame de Chevreuse)",
+      "description": "Prominent court lady and intriguer who appears as a patroness and plotter in Paris society scenes.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Madame de Chevreuse",
+          "evidence": [
+            78861,
+            78880
+          ]
+        },
+        {
+          "text": "Duchess de Chevreuse",
+          "evidence": [
+            160664,
+            160684
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-82d7056ba7feecdb",
+      "name": "Duchess de Longueville",
+      "description": "High-ranking lady of the court involved in political maneuvering (Madame de Longueville).",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Madame de Longueville",
+          "evidence": [
+            141428,
+            141449
+          ]
+        },
+        {
+          "text": "Duchess de Longueville",
+          "evidence": [
+            160692,
+            160714
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ab85e3fcd922bd5",
+      "name": "Prince de Marsillac",
+      "description": "Nobleman allied with Madame de Longueville and mentioned in court politics.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Prince de Marsillac",
+          "evidence": [
+            141785,
+            141804
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d3d8e5f9e7143f1b",
+      "name": "Prince de Conti",
+      "description": "Prince noted in salon and political references.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Prince de Conti",
+          "evidence": [
+            172277,
+            172292
+          ]
+        },
+        {
+          "text": "the prince",
+          "evidence": [
+            83990,
+            84000
+          ]
+        },
+        {
+          "text": "Monsieur de Conti",
+          "evidence": [
+            1260915,
+            1260932
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bfc21c186d7563bf",
+      "name": "Prince de Condé (Monsieur le Prince)",
+      "description": "Commander and celebrated general (the Prince de Condé) whose actions are central in the military episodes.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Prince de Condé",
+          "evidence": [
+            9491,
+            9506
+          ]
+        },
+        {
+          "text": "Monsieur le Prince",
+          "evidence": [
+            176859,
+            176877
+          ]
+        },
+        {
+          "text": "the prince",
+          "evidence": [
+            83990,
+            84000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-849088d239585da4",
+      "name": "Raoul, Vicomte de Bragelonne",
+      "description": "Young adopted son of Athos (often called Raoul); youthful soldier and participant in the Lens campaign.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Raoul",
+          "evidence": [
+            234127,
+            234132
+          ]
+        },
+        {
+          "text": "Vicomte de Bragelonne",
+          "evidence": [
+            1276,
+            1297
+          ]
+        },
+        {
+          "text": "the Vicomte de Bragelonne",
+          "evidence": [
+            327973,
+            327998
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7fe59b766d657cd0",
+      "name": "Abbé Scarron",
+      "description": "The little Abbé Scarron, salon host in Paris (host of wit and gatherings); a social hub in the narrative.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Scarron",
+          "evidence": [
+            3028,
+            3035
+          ]
+        },
+        {
+          "text": "Abbé Scarron",
+          "evidence": [
+            3023,
+            3035
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-372658bbc3a942be",
+      "name": "Mademoiselle Paulet (La Lionne)",
+      "description": "Prominent salon lady nicknamed 'La Lionne', fashionable and influential in society scenes.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Mademoiselle Paulet",
+          "evidence": [
+            357831,
+            357850
+          ]
+        },
+        {
+          "text": "La Lionne",
+          "evidence": [
+            358161,
+            358170
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d97c426843a47849",
+      "name": "Mademoiselle d’Aubigné (the 'fair Indian')",
+      "description": "Frances d’Aubigné (referred to as the 'fair Indian'), a young woman in the salon circle.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Mademoiselle d’Aubigné",
+          "evidence": [
+            365968,
+            365990
+          ]
+        },
+        {
+          "text": "the fair Indian",
+          "evidence": [
+            365062,
+            365077
+          ]
+        },
+        {
+          "text": "Frances d’Aubigné",
+          "evidence": [
+            365618,
+            365635
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cdcceada2cb544df",
+      "name": "Jean François Gondy (the coadjutor)",
+      "description": "The coadjutor (Monsieur de Gondy), a clerical politician and figure in salon/political maneuvering.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Gondy",
+          "evidence": [
+            129041,
+            129046
+          ]
+        },
+        {
+          "text": "Monsieur de Gondy",
+          "evidence": [
+            176110,
+            176127
+          ]
+        },
+        {
+          "text": "the coadjutor",
+          "evidence": [
+            80594,
+            80607
+          ]
+        },
+        {
+          "text": "Jean Francois Gondy",
+          "evidence": [
+            129027,
+            129046
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-00f78c38eec01b1c",
+      "name": "Lord (Lord) de Winter",
+      "description": "English noble (Lord de Winter) and friend of the king; conveys correspondence and appears in later salon scenes.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Lord de Winter",
+          "evidence": [
+            218430,
+            218444
+          ]
+        },
+        {
+          "text": "De Winter",
+          "evidence": [
+            573775,
+            573784
+          ]
+        },
+        {
+          "text": "Lord Winter",
+          "evidence": [
+            897569,
+            897580
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae0682a5af150682",
+      "name": "Oliver Cromwell",
+      "description": "Leader of the English parliamentary forces; author of a confidential letter to Mazarin and referenced as a foreign political actor.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Oliver Cromwell",
+          "evidence": [
+            4606,
+            4621
+          ]
+        },
+        {
+          "text": "General Oliver Cromwell",
+          "evidence": [
+            589066,
+            589089
+          ]
+        },
+        {
+          "text": "Cromwell",
+          "evidence": [
+            3689,
+            3697
+          ]
+        },
+        {
+          "text": "General Cromwell",
+          "evidence": [
+            599751,
+            599767
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9d462b8ed8fc428d",
+      "name": "Mordaunt",
+      "description": "Envoy/bearer sent by Oliver Cromwell to Mazarin (acts as Cromwell’s messenger in Paris).",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Mordaunt",
+          "evidence": [
+            590498,
+            590506
+          ]
+        },
+        {
+          "text": "Mr. Mordaunt",
+          "evidence": [
+            590494,
+            590506
+          ]
+        },
+        {
+          "text": "Milady’s son",
+          "evidence": [
+            575586,
+            575598
+          ]
+        },
+        {
+          "text": "the nephew",
+          "evidence": [
+            683733,
+            683743
+          ]
+        },
+        {
+          "text": "the monk",
+          "evidence": [
+            509399,
+            509407
+          ]
+        },
+        {
+          "text": "the son of Milady",
+          "evidence": [
+            683281,
+            683298
+          ]
+        },
+        {
+          "text": "the nephew, the monk",
+          "evidence": [
+            683733,
+            683753
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-535a2007a6796fcf",
+      "name": "Pistache",
+      "description": "Duc de Beaufort’s dog, trained to perform tricks and who figures in the Vincennes scenes prior to its poisoning.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Pistache",
+          "evidence": [
+            282122,
+            282130
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8d9e4b1081488bf6",
+      "name": "Vulcan",
+      "description": "One of Porthos’s named horses mentioned in the narrative.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Vulcan",
+          "evidence": [
+            219702,
+            219708
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9a07e07bd41532bd",
+      "name": "Bayard",
+      "description": "One of Porthos’s named horses mentioned in the narrative.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Bayard",
+          "evidence": [
+            219739,
+            219745
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7e053db65d1875c5",
+      "name": "Phœbus",
+      "description": "A horse’s name used in the narrative (one of the mounts).",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Phœbus",
+          "evidence": [
+            409512,
+            409518
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f93af6ed91581a90",
+      "name": "Rustaud",
+      "description": "Name of a horse mentioned as Mouston's preference.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Rustaud",
+          "evidence": [
+            219805,
+            219812
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ca1276a0ed5336f5",
+      "name": "Noirmont",
+      "description": "Confectioner who succeeded Father Marteau and whose pie is used in the Duc de Beaufort escape plot.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Noirmont",
+          "evidence": [
+            313845,
+            313853
+          ]
+        },
+        {
+          "text": "the successor of Father Marteau",
+          "evidence": [
+            310917,
+            310948
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba998071561c45cc",
+      "name": "Father Marteau",
+      "description": "Former famous pâtissier referenced in culinary anecdotes (predecessor whose sign and recipes are famed).",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Father Marteau",
+          "evidence": [
+            2926,
+            2940
+          ]
+        },
+        {
+          "text": "Père Marteau",
+          "evidence": [
+            388189,
+            388201
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-58b53f13afc285f1",
+      "name": "Duc de Bassompierre",
+      "description": "Mentioned historical prisoner once at Bastile; appears in reminiscences about the Bastile.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Duc de Bassompierre",
+          "evidence": [
+            44994,
+            45013
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-26b428441f6e19df",
+      "name": "Henrietta Maria",
+      "description": "Queen of England (wife of King Charles I), seeking aid and intervention; also called the Queen of England in the text.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Henrietta Maria",
+          "evidence": [
+            3727,
+            3742
+          ]
+        },
+        {
+          "text": "Her Majesty the Queen of England",
+          "evidence": [
+            639655,
+            639687
+          ]
+        },
+        {
+          "text": "the Queen of England",
+          "evidence": [
+            639667,
+            639687
+          ]
+        },
+        {
+          "text": "the queen",
+          "evidence": [
+            12903,
+            12912
+          ]
+        },
+        {
+          "text": "Madame Henrietta",
+          "evidence": [
+            241672,
+            241688
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-67900391a6670f14",
+      "name": "Princess Henrietta",
+      "description": "Daughter of King Charles I; addresses a letter mentioned in the narrative.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Princess Henrietta",
+          "evidence": [
+            661974,
+            661992
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3cb4d3c21126f869",
+      "name": "Anne of Austria",
+      "description": "Queen of France and mother of the king; active in court politics in this portion of the narrative.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Anne of Austria",
+          "evidence": [
+            2105,
+            2120
+          ]
+        },
+        {
+          "text": "the queen",
+          "evidence": [
+            12903,
+            12912
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-218f1a7b40393dbb",
+      "name": "King Charles",
+      "description": "King Charles I of England; central to the English episodes—his trial, execution, and attempted rescues appear in this text.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "King Charles",
+          "evidence": [
+            577984,
+            577996
+          ]
+        },
+        {
+          "text": "the king",
+          "evidence": [
+            14478,
+            14486
+          ]
+        },
+        {
+          "text": "Charles",
+          "evidence": [
+            3652,
+            3659
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf50f23d234e4033",
+      "name": "Lord Leven",
+      "description": "Scottish commander allied with Charles’s forces in the north; prominent in the Newcastle/Durham episodes.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Lord Leven",
+          "evidence": [
+            896329,
+            896339
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-755f82c9f40e49c8",
+      "name": "Lord Winter (dead)",
+      "description": "Lord Winter (the uncle of Mordaunt) — a loyal commander killed during the English actions in the north; distinct entry to reflect his narrative role.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Lord Winter",
+          "evidence": [
+            897569,
+            897580
+          ]
+        },
+        {
+          "text": "Winter",
+          "evidence": [
+            218438,
+            218444
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-630ad7a7ac24d254",
+      "name": "Colonel Tomlison",
+      "description": "Parliamentary colonel (Colonel Tomlison) who figures in proceedings after Charles's capture.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Colonel Tomlison",
+          "evidence": [
+            926031,
+            926047
+          ]
+        },
+        {
+          "text": "Tomlison",
+          "evidence": [
+            926039,
+            926047
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2e7f16b84280f1d7",
+      "name": "Colonel Harrison",
+      "description": "Colonel in Parliamentary service; involved in escorting and later with Charles's custody (appears in the trial/capture episodes).",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Colonel Harrison",
+          "evidence": [
+            964457,
+            964473
+          ]
+        },
+        {
+          "text": "Harrison",
+          "evidence": [
+            964465,
+            964473
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3c8c5d9aedf32552",
+      "name": "Maillard",
+      "description": "Beggar at St. Eustache (a syndic among the mendicants) recruited by Gondy to organize popular forces; also called the mendicant.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Maillard",
+          "evidence": [
+            732930,
+            732938
+          ]
+        },
+        {
+          "text": "the mendicant",
+          "evidence": [
+            734730,
+            734743
+          ]
+        },
+        {
+          "text": "Monsieur Maillard",
+          "evidence": [
+            1396153,
+            1396170
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea541e20273bb7e7",
+      "name": "Blaisois",
+      "description": "Serving-man in Athos's service, present during Paris and travel scenes.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Blaisois",
+          "evidence": [
+            513153,
+            513161
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0f809b5ee3013fac",
+      "name": "Friquet",
+      "description": "Young street urchin/chorister (gamin) involved in popular commotions around Broussel's arrest.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Friquet",
+          "evidence": [
+            138516,
+            138523
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8fc662aade70a171",
+      "name": "Dame Nanette",
+      "description": "Broussel's servant, a vociferous defender of her master during his arrest.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Dame Nanette",
+          "evidence": [
+            692363,
+            692375
+          ]
+        },
+        {
+          "text": "Mother Nanette",
+          "evidence": [
+            1398570,
+            1398584
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6fdb4f3084c7436e",
+      "name": "Louvières",
+      "description": "Louvières, son of Broussel; active in defending his father during the arrest and the street disturbances.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Louvières",
+          "evidence": [
+            696907,
+            696916
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9073beabba197e3e",
+      "name": "Nogent-Beautin",
+      "description": "The fool of the court (Nogent-Beautin), who satirizes the coadjutor at court.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Nogent-Beautin",
+          "evidence": [
+            723774,
+            723788
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2929cab59200b26b",
+      "name": "Count de Villeroy",
+      "description": "Count de Villeroy (referred to in court jests), a courtier among Anne of Austria's circle.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Count de Villeroy",
+          "evidence": [
+            723954,
+            723971
+          ]
+        },
+        {
+          "text": "de Villeroy",
+          "evidence": [
+            723960,
+            723971
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d2f4d3e87f71e3ac",
+      "name": "Maréchal de la Meilleraie",
+      "description": "Marshal de la Meilleraie, a senior military officer at court who attempts to act during the Paris riots.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Maréchal de la Meilleraie",
+          "evidence": [
+            724250,
+            724275
+          ]
+        },
+        {
+          "text": "La Meilleraie",
+          "evidence": [
+            760247,
+            760260
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae607839489ebad5",
+      "name": "Duc de Châtillon",
+      "description": "Military commander who reports to the queen and later fights at Charenton.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Duc de Châtillon",
+          "evidence": [
+            560435,
+            560451
+          ]
+        },
+        {
+          "text": "Châtillon",
+          "evidence": [
+            560442,
+            560451
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d9516117897b7fe4",
+      "name": "Chevalier d'Humières",
+      "description": "Chevalier d'Humières, referenced as a recruit-providing ally of Rochefort.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Chevalier d’Humières",
+          "evidence": [
+            753298,
+            753318
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a33328965bc96529",
+      "name": "Captain Groslow",
+      "description": "Captain Groslow, an English officer/sailor who appears in the episodes around the felucca and Mordaunt.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Groslow",
+          "evidence": [
+            987429,
+            987436
+          ]
+        },
+        {
+          "text": "Captain Groslow",
+          "evidence": [
+            1003232,
+            1003247
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4a3a4fe823dd161b",
+      "name": "Parry",
+      "description": "A servant of the king (Parry), present with Charles and implicated in rescue attempts; his brother also appears wounded.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Parry",
+          "evidence": [
+            978743,
+            978748
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8c0318a548e46c52",
+      "name": "Lord Montrose",
+      "description": "Scottish royalist (Lord Montrose) referenced as an ally the king might join.",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Lord Montrose",
+          "evidence": [
+            583034,
+            583047
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b0b84360760ab785",
+      "name": "La Bruyère",
+      "description": "Name/identity called for a sentry (used as an assumed guard-name in the orangery)",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "La Bruyère",
+          "evidence": [
+            1314439,
+            1314449
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c5e988596bc1ee77",
+      "name": "Du Barthois",
+      "description": "Name/identity called for a sentry (used as an assumed guard-name in the orangery)",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Du Barthois",
+          "evidence": [
+            1314454,
+            1314465
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-13f2daee0a1ccf20",
+      "name": "Bonacieux",
+      "description": "Named person later identified by Porthos as the beggar he killed (recollected by Porthos)",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Bonacieux",
+          "evidence": [
+            1403863,
+            1403872
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-92606ba0628c7263",
+      "name": "Duc de Bouillon",
+      "description": "Noble (the Duc de Bouillon) granted domains and title in the settlement",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Duc de Bouillon",
+          "evidence": [
+            1195353,
+            1195368
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3f39297ffb1ac9b0",
+      "name": "Duc de Longueville",
+      "description": "Noble (the Duc de Longueville) whose family gains government and money in the treaty; his wife is Madame de Longueville",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Duc de Longueville",
+          "evidence": [
+            1187522,
+            1187540
+          ]
+        },
+        {
+          "text": "Madame de Longueville",
+          "evidence": [
+            141428,
+            141449
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bec8568ec4ba4e3b",
+      "name": "Duc d’Elbeuf",
+      "description": "Noble (the Duc d’Elbeuf) who obtains financial settlements for his family",
+      "scope": "Twenty years after",
+      "aliases": [
+        {
+          "text": "Duc d’Elbeuf",
+          "evidence": [
+            1235372,
+            1235384
+          ]
+        }
+      ]
+    }
+  ]
+}

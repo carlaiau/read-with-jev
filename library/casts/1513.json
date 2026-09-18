@@ -1,0 +1,811 @@
+{
+  "schema": 1,
+  "gutenbergId": 1513,
+  "sourceSha256": "5a2037a19e60cccb67b3f5fc93a12cb65c58694ce6a1dc61d0d67d0d2502b3b4",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-0ac2da6bed7057de",
+      "name": "Escalus (Prince of Verona)",
+      "description": "Ruler of Verona who enforces the peace between the houses",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "ESCALUS, Prince of Verona.",
+          "evidence": [
+            1975,
+            2001
+          ]
+        },
+        {
+          "text": "PRINCE.",
+          "evidence": [
+            7586,
+            7593
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ff324951e067ca2",
+      "name": "Mercutio",
+      "description": "Kinsman to the Prince and close friend of Romeo; witty, quarrelsome",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "MERCUTIO.",
+          "evidence": [
+            25849,
+            25858
+          ]
+        },
+        {
+          "text": "Mercutio",
+          "evidence": [
+            18424,
+            18432
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-154728b89acc8421",
+      "name": "Paris",
+      "description": "A young nobleman, kinsman to the Prince, suitor to Juliet",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "PARIS.",
+          "evidence": [
+            15310,
+            15316
+          ]
+        },
+        {
+          "text": "Paris",
+          "evidence": [
+            2115,
+            2120
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-11005276b05fc92e",
+      "name": "Page (to Paris)",
+      "description": "Unnamed page serving Paris (appears bearing flowers, acting as a watcher)",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "Page",
+          "evidence": [
+            2107,
+            2111
+          ]
+        },
+        {
+          "text": "PAGE.",
+          "evidence": [
+            133763,
+            133768
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-045e1cde9de80c05",
+      "name": "Montague",
+      "description": "Head of the Montague family, Romeo’s father",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "MONTAGUE.",
+          "evidence": [
+            7420,
+            7429
+          ]
+        },
+        {
+          "text": "Montague",
+          "evidence": [
+            2212,
+            2220
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fdd9e024b35f5c42",
+      "name": "Lady Montague",
+      "description": "Wife of Montague, Romeo’s mother",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "LADY MONTAGUE.",
+          "evidence": [
+            7480,
+            7494
+          ]
+        },
+        {
+          "text": "Lady Montague",
+          "evidence": [
+            7402,
+            7415
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0503b66c0c95bd8f",
+      "name": "Romeo",
+      "description": "Son of Montague; one of the two title lovers",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "ROMEO.",
+          "evidence": [
+            11354,
+            11360
+          ]
+        },
+        {
+          "text": "Romeo",
+          "evidence": [
+            2050,
+            2055
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9da63e48e399f21d",
+      "name": "Benvolio",
+      "description": "Nephew to Montague and friend/cousin to Romeo; peacemaker",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "BENVOLIO.",
+          "evidence": [
+            6474,
+            6483
+          ]
+        },
+        {
+          "text": "Benvolio",
+          "evidence": [
+            6256,
+            6264
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8eda9ae957d39397",
+      "name": "Abram",
+      "description": "Servant of the Montague household who appears in the opening brawl",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "ABRAM.",
+          "evidence": [
+            5779,
+            5785
+          ]
+        },
+        {
+          "text": "Abram",
+          "evidence": [
+            5343,
+            5348
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-56f1d3427ef3346b",
+      "name": "Balthasar",
+      "description": "Romeo’s servant and messenger who brings news from Verona",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "BALTHASAR.",
+          "evidence": [
+            128472,
+            128482
+          ]
+        },
+        {
+          "text": "Balthasar",
+          "evidence": [
+            5353,
+            5362
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-181289db4861a14e",
+      "name": "Capulet",
+      "description": "Head of the Capulet family, Juliet’s father",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "CAPULET.",
+          "evidence": [
+            7160,
+            7168
+          ]
+        },
+        {
+          "text": "Capulet",
+          "evidence": [
+            1100,
+            1107
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cb80ac527ffeefbc",
+      "name": "Lady Capulet",
+      "description": "Wife of Capulet, Juliet’s mother",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "LADY CAPULET.",
+          "evidence": [
+            7220,
+            7233
+          ]
+        },
+        {
+          "text": "Lady Capulet",
+          "evidence": [
+            2505,
+            2517
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c470d3e371fbe38f",
+      "name": "Juliet",
+      "description": "Daughter of the Capulets; one of the two title lovers",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "JULIET.",
+          "evidence": [
+            20326,
+            20333
+          ]
+        },
+        {
+          "text": "Juliet",
+          "evidence": [
+            1570,
+            1576
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eddfc8af0676d998",
+      "name": "Tybalt",
+      "description": "Nephew to Lady Capulet, hot-headed Capulet kinsman",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "TYBALT.",
+          "evidence": [
+            6598,
+            6605
+          ]
+        },
+        {
+          "text": "Tybalt",
+          "evidence": [
+            6587,
+            6593
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-86a5bc386ad76512",
+      "name": "Capulet’s Cousin",
+      "description": "An elderly relative of Lord Capulet who speaks of past masks",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "CAPULET’S COUSIN.",
+          "evidence": [
+            32405,
+            32422
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bccb3f57c241b958",
+      "name": "Nurse",
+      "description": "Juliet’s nurse and longtime caretaker; intimate and talkative confidante",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "NURSE.",
+          "evidence": [
+            20163,
+            20169
+          ]
+        },
+        {
+          "text": "Nurse",
+          "evidence": [
+            2596,
+            2601
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1ec15659e82f2d62",
+      "name": "Peter",
+      "description": "Servant to Juliet’s Nurse",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "PETER.",
+          "evidence": [
+            59150,
+            59156
+          ]
+        },
+        {
+          "text": "Peter",
+          "evidence": [
+            59029,
+            59034
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c6b432afa3d1db97",
+      "name": "Sampson",
+      "description": "Capulet household servant who quarrels with Montague’s servants",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "SAMPSON.",
+          "evidence": [
+            3825,
+            3833
+          ]
+        },
+        {
+          "text": "Sampson",
+          "evidence": [
+            3770,
+            3777
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d14dfd14780acb4",
+      "name": "Gregory",
+      "description": "Capulet household servant and companion to Sampson",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "GREGORY.",
+          "evidence": [
+            3882,
+            3890
+          ]
+        },
+        {
+          "text": "Gregory",
+          "evidence": [
+            3782,
+            3789
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-949cde1022005efd",
+      "name": "Friar Lawrence",
+      "description": "Franciscan friar; confidant to Romeo and Juliet and facilitator of their marriage",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "FRIAR LAWRENCE.",
+          "evidence": [
+            49918,
+            49933
+          ]
+        },
+        {
+          "text": "Friar Lawrence",
+          "evidence": [
+            1287,
+            1301
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-17882b843af6ccbe",
+      "name": "Friar John",
+      "description": "Franciscan friar entrusted to carry a letter to Romeo (whose mission is thwarted)",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "FRIAR JOHN.",
+          "evidence": [
+            131818,
+            131829
+          ]
+        },
+        {
+          "text": "Friar John",
+          "evidence": [
+            131803,
+            131813
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fa3b0672b44b2335",
+      "name": "Apothecary",
+      "description": "Poor apothecary in Mantua who sells poison to Romeo",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "An Apothecary.",
+          "evidence": [
+            2740,
+            2754
+          ]
+        },
+        {
+          "text": "APOTHECARY.",
+          "evidence": [
+            130337,
+            130348
+          ]
+        },
+        {
+          "text": "apothecary",
+          "evidence": [
+            129463,
+            129473
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-07932d4fd0af52bf",
+      "name": "Chorus",
+      "description": "Narrator-figure who opens Acts and summarizes action (prologue and Act II chorus)",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "CHORUS.",
+          "evidence": [
+            1186,
+            1193
+          ]
+        },
+        {
+          "text": "Chorus",
+          "evidence": [
+            3035,
+            3041
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-52daaafd60a3617f",
+      "name": "First Servant",
+      "description": "One of Capulet’s household servants with speaking lines during preparations",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "FIRST SERVANT.",
+          "evidence": [
+            30750,
+            30764
+          ]
+        },
+        {
+          "text": "First Servant",
+          "evidence": [
+            120144,
+            120157
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0613c210e8164fd1",
+      "name": "Second Servant",
+      "description": "Another of Capulet’s household servants who speaks in the preparations",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "SECOND SERVANT.",
+          "evidence": [
+            30861,
+            30876
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-606f283707ab1922",
+      "name": "Servant (Capulet’s)",
+      "description": "Unnamed servant who delivers invitations and interacts with Romeo and Benvolio",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "SERVANT.",
+          "evidence": [
+            16895,
+            16903
+          ]
+        },
+        {
+          "text": "Servant",
+          "evidence": [
+            2664,
+            2671
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c6c6a5241875c66d",
+      "name": "First Citizen",
+      "description": "Citizen of Verona who participates in the street brawl and calls for action",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "FIRST CITIZEN.",
+          "evidence": [
+            6990,
+            7004
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-597e344f79e5588e",
+      "name": "Three Musicians / First Musician",
+      "description": "Musicians present at Capulet’s feast and later at funeral preparations (individually labelled in stage action)",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "Three Musicians.",
+          "evidence": [
+            2765,
+            2781
+          ]
+        },
+        {
+          "text": "FIRST MUSICIAN.",
+          "evidence": [
+            125456,
+            125471
+          ]
+        },
+        {
+          "text": "FIRST MUSICIAN",
+          "evidence": [
+            125456,
+            125470
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-05a449452434a396",
+      "name": "Second Musician",
+      "description": "Musician appearing in the funeral scene sketches",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "SECOND MUSICIAN.",
+          "evidence": [
+            126533,
+            126549
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-23290df97bfbde6c",
+      "name": "Third Musician",
+      "description": "Musician appearing alongside the others in the stage business",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "THIRD MUSICIAN.",
+          "evidence": [
+            127194,
+            127209
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-be1d2deacf47386a",
+      "name": "Officer",
+      "description": "Unnamed officer referred to in the dramatis personae (represents law enforcement/attendants of the Prince)",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "An Officer.",
+          "evidence": [
+            2783,
+            2794
+          ]
+        },
+        {
+          "text": "Officer",
+          "evidence": [
+            2786,
+            2793
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a54b34492495c03b",
+      "name": "Citizens (various)",
+      "description": "Various Verona citizens who appear in crowd scenes, brawls and watch duties (several named as watch/citizens)",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "Citizens of Verona",
+          "evidence": [
+            2796,
+            2814
+          ]
+        },
+        {
+          "text": "Citizens",
+          "evidence": [
+            2796,
+            2804
+          ]
+        },
+        {
+          "text": "FIRST CITIZEN.",
+          "evidence": [
+            6990,
+            7004
+          ]
+        },
+        {
+          "text": "FIRST WATCH.",
+          "evidence": [
+            141590,
+            141602
+          ]
+        },
+        {
+          "text": "SECOND WATCH.",
+          "evidence": [
+            142529,
+            142542
+          ]
+        },
+        {
+          "text": "THIRD WATCH.",
+          "evidence": [
+            142718,
+            142730
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9a793562c0ddd1cd",
+      "name": "Maskers / Guards / Attendants",
+      "description": "Masked revellers, guards and attendants present at feasts and public scenes (named collectively in dramatis personae and stage action)",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "Maskers",
+          "evidence": [
+            2866,
+            2873
+          ]
+        },
+        {
+          "text": "Guards",
+          "evidence": [
+            2875,
+            2881
+          ]
+        },
+        {
+          "text": "Attendants",
+          "evidence": [
+            2896,
+            2906
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8d930571e5186069",
+      "name": "Watchmen / First Watch",
+      "description": "Members of the night watch who discover the bodies in the churchyard",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "Watchmen",
+          "evidence": [
+            2883,
+            2891
+          ]
+        },
+        {
+          "text": "FIRST WATCH.",
+          "evidence": [
+            141590,
+            141602
+          ]
+        },
+        {
+          "text": "SECOND WATCH.",
+          "evidence": [
+            142529,
+            142542
+          ]
+        },
+        {
+          "text": "THIRD WATCH.",
+          "evidence": [
+            142718,
+            142730
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6ebe174e7cc175a1",
+      "name": "Balthasar (listed separately in dramatis personae)",
+      "description": "(duplicate listing avoided) See Balthasar above",
+      "scope": "Romeo and Juliet",
+      "aliases": [
+        {
+          "text": "BALTHASAR.",
+          "evidence": [
+            128472,
+            128482
+          ]
+        },
+        {
+          "text": "Balthasar",
+          "evidence": [
+            5353,
+            5362
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1565 @@
+{
+  "schema": 1,
+  "gutenbergId": 601,
+  "sourceSha256": "9b139e3492be456112e578f4f7c220951ea9a561a52e7b0283622e33d85d34db",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-3be02a29c68012b7",
+      "name": "Antonia",
+      "description": "Young woman of Murcia; daughter of Elvira Dalfa and central young female figure whose fate is pursued in the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Antonia",
+          "evidence": [
+            12697,
+            12704
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-730d60fe94e5136d",
+      "name": "Donna Elvira Dalfa",
+      "description": "Mother of Antonia; widow returned from the Indies; lodges in Madrid and seeks protection for her daughter.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Elvira",
+          "evidence": [
+            15016,
+            15022
+          ]
+        },
+        {
+          "text": "Donna Elvira Dalfa",
+          "evidence": [
+            357029,
+            357047
+          ]
+        },
+        {
+          "text": "Donna Elvira",
+          "evidence": [
+            357029,
+            357041
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f36858a47036df33",
+      "name": "Leonella",
+      "description": "Sister of Elvira; talkative aunt of Antonia who brings the family to Madrid.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Leonella",
+          "evidence": [
+            8142,
+            8150
+          ]
+        },
+        {
+          "text": "Donna Leonella",
+          "evidence": [
+            24859,
+            24873
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0ba1e2e7d77c3283",
+      "name": "Don Lorenzo / Lorenzo de Medina",
+      "description": "Young cavalier; suitor of Antonia; nephew of the Duke de Medina; one of the principal male interlocutors.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Don Lorenzo",
+          "evidence": [
+            9859,
+            9870
+          ]
+        },
+        {
+          "text": "Lorenzo",
+          "evidence": [
+            9863,
+            9870
+          ]
+        },
+        {
+          "text": "Lorenzo de Medina",
+          "evidence": [
+            34389,
+            34406
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-546ff723b6a77aea",
+      "name": "Don Christoval / Condé d’Ossorio",
+      "description": "Friend and companion to Lorenzo who courts Leonella; named as Condé d’Ossorio in the text.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Don Christoval",
+          "evidence": [
+            14759,
+            14773
+          ]
+        },
+        {
+          "text": "Condé d’Ossorio",
+          "evidence": [
+            34362,
+            34377
+          ]
+        },
+        {
+          "text": "the Condé d’Ossorio",
+          "evidence": [
+            34358,
+            34377
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47c5d6eadd80e20d",
+      "name": "Don Raymond, Marquis de las Cisternas",
+      "description": "Marquis who figures as a principal suitor and relation; travels incognito as Alphonso d’Alvarada during part of the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Don Raymond",
+          "evidence": [
+            154503,
+            154514
+          ]
+        },
+        {
+          "text": "Marquis de las Cisternas",
+          "evidence": [
+            19857,
+            19881
+          ]
+        },
+        {
+          "text": "Raymond de las Cisternas",
+          "evidence": [
+            37368,
+            37392
+          ]
+        },
+        {
+          "text": "Alphonso d’Alvarada",
+          "evidence": [
+            155836,
+            155855
+          ]
+        },
+        {
+          "text": "Alphonso",
+          "evidence": [
+            52578,
+            52586
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c5f3a9c6eca23b04",
+      "name": "Duke de Medina",
+      "description": "Lorenzo’s uncle, a duke who figures in Lorenzo’s marriage negotiations.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Duke de Medina",
+          "evidence": [
+            36557,
+            36571
+          ]
+        },
+        {
+          "text": "the Duke de Medina",
+          "evidence": [
+            36553,
+            36571
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9f92e1deec0c6d84",
+      "name": "Cardinal-Duke of Lerma",
+      "description": "High church official consulted about ecclesiastical dispensations and orders; aids Raymond.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cardinal-Duke of Lerma",
+          "evidence": [
+            326998,
+            327020
+          ]
+        },
+        {
+          "text": "the Cardinal",
+          "evidence": [
+            312419,
+            312431
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-639dfed10b41b5c2",
+      "name": "Ambrosio",
+      "description": "Abbot of the Capuchins, famed orator called “the Man of Holiness,” whose conduct becomes central to the plot.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ambrosio",
+          "evidence": [
+            21441,
+            21449
+          ]
+        },
+        {
+          "text": "the Abbot",
+          "evidence": [
+            65529,
+            65538
+          ]
+        },
+        {
+          "text": "Abbot of the Capuchins",
+          "evidence": [
+            25695,
+            25717
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d03124d7316e79c",
+      "name": "Matilda de Villanegas / Rosario",
+      "description": "Young woman secretly admitted to the monastery disguised as a male novice; known in the convent as Rosario until revealed as Matilda.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rosario",
+          "evidence": [
+            65651,
+            65658
+          ]
+        },
+        {
+          "text": "the Novice",
+          "evidence": [
+            69640,
+            69650
+          ]
+        },
+        {
+          "text": "Matilda",
+          "evidence": [
+            90991,
+            90998
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6ad98cea7bd1e318",
+      "name": "Father Pablos",
+      "description": "Monastery surgeon and physician who attends Ambrosio and others.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Father Pablos",
+          "evidence": [
+            120880,
+            120893
+          ]
+        },
+        {
+          "text": "Pablos",
+          "evidence": [
+            120887,
+            120893
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3ac1a21e5f5f1f2c",
+      "name": "Mother St. Agatha (Prioress of St. Clare)",
+      "description": "Domina / Prioress of St. Clare’s Convent who presides over the nuns and whose severity drives key events.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Prioress",
+          "evidence": [
+            48172,
+            48184
+          ]
+        },
+        {
+          "text": "Mother St. Agatha",
+          "evidence": [
+            76875,
+            76892
+          ]
+        },
+        {
+          "text": "the Domina",
+          "evidence": [
+            49138,
+            49148
+          ]
+        },
+        {
+          "text": "Prioress of St. Clare",
+          "evidence": [
+            48176,
+            48197
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9110367b2371bd3b",
+      "name": "Mother St. Ursula",
+      "description": "Nun of St. Clare who becomes an accuser and reveals the secret of Agnes’s death.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mother St. Ursula",
+          "evidence": [
+            407420,
+            407437
+          ]
+        },
+        {
+          "text": "St. Ursula",
+          "evidence": [
+            407427,
+            407437
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7d5698ff049d8e6c",
+      "name": "Agnes",
+      "description": "Donna Agnes, Lorenzo’s sister; novice at St. Clare whose fate (death) catalyses much of the plot.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Agnes",
+          "evidence": [
+            38577,
+            38582
+          ]
+        },
+        {
+          "text": "Donna Agnes",
+          "evidence": [
+            38571,
+            38582
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-25d862bf800cf6c7",
+      "name": "Dame Cunegonda",
+      "description": "Agnes’s governess / duenna; figures in secret-keeping and plot incidents.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dame Cunegonda",
+          "evidence": [
+            228095,
+            228109
+          ]
+        },
+        {
+          "text": "Cunegonda",
+          "evidence": [
+            228100,
+            228109
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e092925f5958afde",
+      "name": "Dame Jacintha (Jacintha Zuniga)",
+      "description": "Antonia’s landlady and hostess in Madrid; assists and later reports mysterious events.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dame Jacintha",
+          "evidence": [
+            547313,
+            547326
+          ]
+        },
+        {
+          "text": "Jacintha",
+          "evidence": [
+            547318,
+            547326
+          ]
+        },
+        {
+          "text": "Jacintha Zuniga",
+          "evidence": [
+            569757,
+            569772
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6977ef087300a3c0",
+      "name": "Flora",
+      "description": "Antonia’s waiting-woman (maid) and constant attendant; vigilant and protective.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Flora",
+          "evidence": [
+            459630,
+            459635
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf7122734ab1a02f",
+      "name": "Mother Camilla",
+      "description": "Nun at St. Clare who pleads for moderation in Agnes’s punishment.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mother Camilla",
+          "evidence": [
+            407990,
+            408004
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-965c243e3acb6aa8",
+      "name": "Sister Helena",
+      "description": "A nun mentioned among the community; vocal about terrors of the sepulchre.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sister Helena",
+          "evidence": [
+            508212,
+            508225
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8361984d262c2110",
+      "name": "Sister Rachael",
+      "description": "A nun mentioned in the procession and listening at the grate.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sister Rachael",
+          "evidence": [
+            508320,
+            508334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c77d1beb501eb034",
+      "name": "Violante",
+      "description": "Named nun accused as accomplice in St. Ursula’s accusation.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Violante",
+          "evidence": [
+            636456,
+            636464
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-188d87e259cecd5c",
+      "name": "Alix",
+      "description": "Named nun accused as accomplice in St. Ursula’s accusation.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Alix",
+          "evidence": [
+            636475,
+            636479
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bb340610369134f8",
+      "name": "Mariana",
+      "description": "Named nun accused as accomplice in St. Ursula’s accusation.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mariana",
+          "evidence": [
+            636485,
+            636492
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9ef07fc4dceff8e3",
+      "name": "Virginia de Villa-Franca",
+      "description": "Young pensioner of St. Clare who represents St. Clare in the procession and takes refuge in the sepulchre.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Virginia de Villa-Franca",
+          "evidence": [
+            623522,
+            623546
+          ]
+        },
+        {
+          "text": "Virginia",
+          "evidence": [
+            623522,
+            623530
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3cca75f6e91c2cd0",
+      "name": "Baron Lindenberg",
+      "description": "German baron whose household intersects Alphonso/Don Raymond during travels.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Baron Lindenberg",
+          "evidence": [
+            206496,
+            206512
+          ]
+        },
+        {
+          "text": "the Baron Lindenberg",
+          "evidence": [
+            206492,
+            206512
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-12efed32c66baa61",
+      "name": "Baroness Lindenberg",
+      "description": "Baron Lindenberg’s wife who is rescued in the robbery episode and later hospitable to Alphonso.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Baroness Lindenberg",
+          "evidence": [
+            176287,
+            176306
+          ]
+        },
+        {
+          "text": "the Baroness Lindenberg",
+          "evidence": [
+            230824,
+            230847
+          ]
+        },
+        {
+          "text": "the Baroness",
+          "evidence": [
+            177582,
+            177594
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ac8a1d79fb0fa9d5",
+      "name": "Baptiste",
+      "description": "Wood-cutter who conspires in an attempted robbery of a Spanish traveller; head of the robber household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Baptiste",
+          "evidence": [
+            166878,
+            166886
+          ]
+        },
+        {
+          "text": "the Wood-man",
+          "evidence": [
+            171295,
+            171307
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ac37fbe0158fb300",
+      "name": "Marguerite",
+      "description": "Wife of Baptiste who is involuntarily embroiled in the robberies; mother of two sons.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marguerite",
+          "evidence": [
+            169593,
+            169603
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b8ae2f2c34a2936",
+      "name": "Jacques",
+      "description": "Eldest son of Baptiste; involved with the robber band.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jacques",
+          "evidence": [
+            173603,
+            173610
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9119c6174115bd4b",
+      "name": "Robert",
+      "description": "Second son of Baptiste who participates in robber band actions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Robert",
+          "evidence": [
+            173615,
+            173621
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3ec777d454e4afd0",
+      "name": "Claude",
+      "description": "Postillion (driver) involved in the Woodman/robber episode.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Claude",
+          "evidence": [
+            168228,
+            168234
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8ab26d904e86289e",
+      "name": "Stephano",
+      "description": "Servant of Alphonso/Don Raymond who is slain by robbers in a raid.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Stephano",
+          "evidence": [
+            165831,
+            165839
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1e501b8c35fd463",
+      "name": "Lucas",
+      "description": "French servant of Don Raymond who accompanies him on travels.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lucas",
+          "evidence": [
+            254715,
+            254720
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-83778f34c0be0072",
+      "name": "Theodore",
+      "description": "Youth (page) who follows Alphonso/Don Raymond loyally and aids in many stratagems.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Theodore",
+          "evidence": [
+            215713,
+            215721
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-37d3b8d8dca6cbfb",
+      "name": "Conrad",
+      "description": "Porter of Lindenberg Castle, a minor local character in that subplot.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Conrad",
+          "evidence": [
+            269879,
+            269885
+          ]
+        },
+        {
+          "text": "the Porter",
+          "evidence": [
+            52972,
+            52982
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-27b7a9a623ac814e",
+      "name": "Beatrice de las Cisternas (the Bleeding Nun)",
+      "description": "Historic ancestor of the las Cisternas family; the ‘Bleeding Nun’ apparition and haunted figure at Lindenberg.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Beatrice",
+          "evidence": [
+            301575,
+            301583
+          ]
+        },
+        {
+          "text": "Beatrice de las Cisternas",
+          "evidence": [
+            304556,
+            304581
+          ]
+        },
+        {
+          "text": "the Bleeding Nun",
+          "evidence": [
+            240765,
+            240781
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a2f562e4457417a8",
+      "name": "Otto von Lindenberg",
+      "description": "Otto, brother of the Baron of Lindenberg; central to the murder of Beatrice in the castle legend.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Otto",
+          "evidence": [
+            305981,
+            305985
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a825dd5c191503fe",
+      "name": "Durandarte",
+      "description": "Character in the included ballad \"Durandarte and Belerma\" (ballad figure).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Durandarte",
+          "evidence": [
+            4049,
+            4059
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2e0e22fb636a9fa2",
+      "name": "Belerma",
+      "description": "Female figure in the ballad “Durandarte and Belerma” included in the text.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Belerma",
+          "evidence": [
+            4037,
+            4044
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c31858bb4d68880c",
+      "name": "Montesinos",
+      "description": "Character (cousin) in the Durandarte ballad.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Montesinos",
+          "evidence": [
+            127457,
+            127467
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b84b886fdadc7cc7",
+      "name": "The Gypsy",
+      "description": "Street prophetess/fortune-teller who sings a song and reads palms in Madrid.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "THE GYPSY",
+          "evidence": [
+            55650,
+            55659
+          ]
+        },
+        {
+          "text": "The Gypsy",
+          "evidence": [
+            61012,
+            61021
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b8cf107950e6e2e",
+      "name": "The Water-King",
+      "description": "Figure in an included Danish fragment/ballad recited in the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Water-King",
+          "evidence": [
+            512498,
+            512512
+          ]
+        },
+        {
+          "text": "Water-King",
+          "evidence": [
+            3934,
+            3944
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-17c4b24b563acaf9",
+      "name": "Lorenzo",
+      "description": "Young nobleman (nephew of the Duke de Medina); leads rescue in the vaults and suitor to Virginia.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Lorenzo",
+          "evidence": [
+            9863,
+            9870
+          ]
+        },
+        {
+          "text": "Lorenzo de Medina",
+          "evidence": [
+            34389,
+            34406
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-207d60ed2e13a0ea",
+      "name": "Virginia",
+      "description": "Niece of the Duke de Medina; compassionate young woman who tends the rescued captive and later marries Lorenzo.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Virginia",
+          "evidence": [
+            623522,
+            623530
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9b7c3bf1c644d6d6",
+      "name": "Helena",
+      "description": "One of the nuns present in the vaults who relates the legend of the statue and warns Lorenzo.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Helena",
+          "evidence": [
+            508219,
+            508225
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1a27fa541176f18c",
+      "name": "The Nuns (of St. Clare’s vault)",
+      "description": "Group of nuns present in the vaults and involved in events surrounding the statue, the rescue, and Agnes’s confinement.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Nuns",
+          "evidence": [
+            48013,
+            48021
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f10cecd7301d88de",
+      "name": "St. Clare (Statue)",
+      "description": "The statue/shrine of St. Clare in the vaults whose groans and concealed mechanism figure in the mystery.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "St. Clare",
+          "evidence": [
+            48188,
+            48197
+          ]
+        },
+        {
+          "text": "the Statue",
+          "evidence": [
+            47518,
+            47528
+          ]
+        },
+        {
+          "text": "the Saint",
+          "evidence": [
+            48854,
+            48863
+          ]
+        },
+        {
+          "text": "St. Clare’s Statue",
+          "evidence": [
+            646052,
+            646070
+          ]
+        },
+        {
+          "text": "shrine of St. Clare",
+          "evidence": [
+            653164,
+            653183
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5fe8aa881682af37",
+      "name": "Agnes de Medina",
+      "description": "Lorenzo’s sister; formerly believed dead and later revealed as the captive rescued from the dungeon (central to the ‘History of Agnes de Medina’).",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Agnes",
+          "evidence": [
+            38577,
+            38582
+          ]
+        },
+        {
+          "text": "Agnes de Medina",
+          "evidence": [
+            627592,
+            627607
+          ]
+        },
+        {
+          "text": "the Unknown",
+          "evidence": [
+            50651,
+            50662
+          ]
+        },
+        {
+          "text": "the Captive",
+          "evidence": [
+            528615,
+            528626
+          ]
+        },
+        {
+          "text": "the Prisoner",
+          "evidence": [
+            666902,
+            666914
+          ]
+        },
+        {
+          "text": "the Stranger",
+          "evidence": [
+            56819,
+            56831
+          ]
+        },
+        {
+          "text": "this Unfortunate",
+          "evidence": [
+            79751,
+            79767
+          ]
+        },
+        {
+          "text": "the Sufferer",
+          "evidence": [
+            121135,
+            121147
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e1749e5b6701f74e",
+      "name": "Antonia",
+      "description": "Young woman drugged, placed in a vault and later raped and murdered in the Sepulchre; object of Ambrosio’s assault and Lorenzo’s mourning.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Antonia",
+          "evidence": [
+            12697,
+            12704
+          ]
+        },
+        {
+          "text": "the sleeping Beauty",
+          "evidence": [
+            532655,
+            532674
+          ]
+        },
+        {
+          "text": "the Victim",
+          "evidence": [
+            117656,
+            117666
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d8dc9ab20fb2ac22",
+      "name": "Ambrosio",
+      "description": "A friar/Abbot whose designs result in rape, murder and eventual fall into sorcery and doom.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Ambrosio",
+          "evidence": [
+            21441,
+            21449
+          ]
+        },
+        {
+          "text": "the Monk",
+          "evidence": [
+            23081,
+            23089
+          ]
+        },
+        {
+          "text": "the Abbot",
+          "evidence": [
+            65529,
+            65538
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1301a92df42f5972",
+      "name": "Matilda",
+      "description": "Woman in the guise of a novice; accomplice to Ambrosio, versed in sorcery, later convicted and sentenced to the Auto da Fe.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Matilda",
+          "evidence": [
+            90991,
+            90998
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-71923f2192be6632",
+      "name": "Don Ramirez",
+      "description": "Nobleman and leader of archers who assists Lorenzo in the vault searches and apprehension of culprits.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Don Ramirez",
+          "evidence": [
+            524865,
+            524876
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-be300d7655de6625",
+      "name": "Duke de Medina",
+      "description": "Nobleman, Lorenzo’s uncle, who aids the nuns and encourages Lorenzo’s recovery and marriage prospects.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Duke",
+          "evidence": [
+            36553,
+            36561
+          ]
+        },
+        {
+          "text": "the Duke de Medina",
+          "evidence": [
+            36553,
+            36571
+          ]
+        },
+        {
+          "text": "Duke",
+          "evidence": [
+            36557,
+            36561
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-777f7a8328adffc5",
+      "name": "Don Raymond",
+      "description": "Nobleman in love with Agnes; later her husband (also called Raymond).",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Don Raymond",
+          "evidence": [
+            154503,
+            154514
+          ]
+        },
+        {
+          "text": "Raymond",
+          "evidence": [
+            37368,
+            37375
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6bf19320cb92a1e3",
+      "name": "Marquis de Villa-Franca",
+      "description": "Virginia’s father, concerned for his daughter’s safety and supportive of marriages arranged for advantage and security.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Marquis de Villa-Franca",
+          "evidence": [
+            712130,
+            712157
+          ]
+        },
+        {
+          "text": "the Marquis",
+          "evidence": [
+            19835,
+            19846
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-769fbf38e39421ba",
+      "name": "Marchioness de Villa-Franca",
+      "description": "Virginia’s mother, who participates in nursing and social arrangements around Lorenzo and Virginia.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Marchioness",
+          "evidence": [
+            441622,
+            441637
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-44fd8bd30a770ea5",
+      "name": "Theodore",
+      "description": "Retainer/servant of Lorenzo who accompanies and rejoices at his master’s marriage.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Theodore",
+          "evidence": [
+            215713,
+            215721
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8802a8dbcfc09291",
+      "name": "Camilla",
+      "description": "Nun who attends Agnes in the dungeon, brings her food daily and later becomes ill and dies in the convent fire.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Camilla",
+          "evidence": [
+            407997,
+            408004
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-72d0ebcf8e64e0ee",
+      "name": "Mariana",
+      "description": "Nun who participates in Agnes’s condemnation and confinement to the dungeon.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Mariana",
+          "evidence": [
+            636485,
+            636492
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e49360af062d3043",
+      "name": "Alix",
+      "description": "Nun who assists in Agnes’s punishment and confinement.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Alix",
+          "evidence": [
+            636475,
+            636479
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0c5d359f2518a20d",
+      "name": "Violante",
+      "description": "Nun who assists the Prioress and takes part in Agnes’s sentencing and confinement.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Violante",
+          "evidence": [
+            636456,
+            636464
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-648a225bce67e2ea",
+      "name": "The Prioress / the Domina",
+      "description": "Superior of St. Clare’s Convent (referred to as Domina/Prioress) who orders Agnes’s apparent burial and secret confinement; later falls victim to the mob.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Prioress",
+          "evidence": [
+            48172,
+            48184
+          ]
+        },
+        {
+          "text": "the Domina",
+          "evidence": [
+            49138,
+            49148
+          ]
+        },
+        {
+          "text": "Domina",
+          "evidence": [
+            49142,
+            49148
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d7c48f1521918a1e",
+      "name": "Mother St. Ursula",
+      "description": "Nun who aids Agnes; identified as Mother St. Ursula and involved in later appointments (helps secure Agnes’s release).",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "St. Ursula",
+          "evidence": [
+            407427,
+            407437
+          ]
+        },
+        {
+          "text": "Mother St. Ursula",
+          "evidence": [
+            407420,
+            407437
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-73db19df229d9217",
+      "name": "Camilla’s replacement (Lay-Sister)",
+      "description": "Unnamed lay-sister appointed to nurse during Camilla’s illness (consistently identified but unnamed).",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Lay-Sister",
+          "evidence": [
+            504745,
+            504759
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-022b4f93c16a16ab",
+      "name": "Flora",
+      "description": "Woman associated with Antonia (warns her); later allowed to return to Cuba and rewarded.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Flora",
+          "evidence": [
+            459630,
+            459635
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-61b74f0a0896a8de",
+      "name": "Elvira",
+      "description": "Woman murdered earlier by Ambrosio; her ghost and memory appear in Ambrosio’s remorse and visions.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Elvira",
+          "evidence": [
+            15016,
+            15022
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d8a7f076799de9b",
+      "name": "Leonella",
+      "description": "Woman who, with Jacintha, rendered services to Elvira and receives thanks and presents from nobles.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Leonella",
+          "evidence": [
+            8142,
+            8150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e4688bee8887c571",
+      "name": "Jacintha",
+      "description": "Companion of Leonella who aided Elvira and is rewarded later.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Jacintha",
+          "evidence": [
+            547318,
+            547326
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a49e11fafef9f3e7",
+      "name": "Bertha",
+      "description": "One of Agnes’s convent acquaintances later appointed to a charge in the Ladies of Charity.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Bertha",
+          "evidence": [
+            630074,
+            630080
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c93c93629727c9e",
+      "name": "Cornelia",
+      "description": "One of Agnes’s convent acquaintances later appointed to a charge in the Ladies of Charity.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "Cornelia",
+          "evidence": [
+            630085,
+            630093
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7aa072e5037a53a8",
+      "name": "Grand Inquisitor",
+      "description": "Head official of the Inquisition who presides over Ambrosio’s trial.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Grand Inquisitor",
+          "evidence": [
+            614544,
+            614564
+          ]
+        },
+        {
+          "text": "Grand Inquisitor",
+          "evidence": [
+            614548,
+            614564
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-590fb606050cc89d",
+      "name": "Secretary (of the Inquisition)",
+      "description": "Clerk/secretary present at Ambrosio’s trial who records proceedings.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Secretary",
+          "evidence": [
+            763777,
+            763790
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-61af4fbd936b30ce",
+      "name": "Gaoler",
+      "description": "Prison gaoler who escorts Ambrosio and reports his disappearance; unnamed but consistently identified.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Gaoler",
+          "evidence": [
+            793412,
+            793422
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f5ae7f9b7fa52e6b",
+      "name": "The Archers",
+      "description": "Group of archers who search the vaults, protect the nuns, pursue fugitives and assist Don Ramirez and Lorenzo.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Archers",
+          "evidence": [
+            624590,
+            624601
+          ]
+        },
+        {
+          "text": "Archers",
+          "evidence": [
+            525176,
+            525183
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d8642761bbd5b0aa",
+      "name": "Officer (unnamed)",
+      "description": "Single officer who appears in the Hall of Trial to escort Matilda and accompany proceedings; consistently identified but unnamed.",
+      "scope": "The Monk: A Romance",
+      "aliases": [
+        {
+          "text": "the Officer",
+          "evidence": [
+            209393,
+            209404
+          ]
+        }
+      ]
+    }
+  ]
+}

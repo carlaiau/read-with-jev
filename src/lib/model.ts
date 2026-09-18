@@ -1,5 +1,5 @@
 export type Span = [number, number]; // Half-open UTF-16 offsets into this dataset's text.
-export type Character = { id: string; name: string; aliases: string[] };
+export type Character = { id: string; name: string; aliases: string[]; description?: string; scope?: string };
 export type Passage = {
   id: string; chapter: number; start: number; end: number;
   contextStart: number; contextEnd: number; split: 'dev' | 'test';

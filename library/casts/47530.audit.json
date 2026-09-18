@@ -1,0 +1,44 @@
+{
+  "chunks": [
+    {
+      "start": 1090,
+      "end": 294335,
+      "key": "9836c9bfaf51cdaebd22a62193d5359be78242fc36a435261693e0e2dcadff57",
+      "usage": {
+        "input_tokens": 81328,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7629,
+        "output_tokens_details": {
+          "reasoning_tokens": 5888
+        },
+        "total_tokens": 88957
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Bill Sikes",
+      "alias": "Mr. William Sikes",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Losberne",
+      "alias": "Dr. Losberne",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Duff",
+      "alias": "Mr. Duff",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Sowerberry",
+      "alias": "Mr. Sowerberry",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

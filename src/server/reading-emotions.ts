@@ -8,14 +8,21 @@ import {passageInstructions} from './affect-passage-request';
 export const readingModel='jev-1.13.0';
 const books=new Map<string,Promise<Awaited<ReturnType<typeof load>>>>();
 async function load(layer:string){
- const raw=await readFile(`data/processed/${layer}.json`,'utf8'),book=JSON.parse(raw) as Book;
+ let path=`data/processed/${layer}.json`;
+ if(layer.startsWith('document:')){
+  const id=layer.slice(9),catalog=await readJson<{documents:{documentId:string}[]}>('data/library/catalog.json');
+  if(!catalog.documents.some(d=>d.documentId===id))throw new ReadingError('Unknown document.',404);
+  path=`data/library/${id}.json`;
+ }
+ const raw=await readFile(path,'utf8'),book=JSON.parse(raw) as Book;
  const affect=await readJson<{lexicon:Record<string,string[]>}>('data/processed/affect.json');
  const plans=readingPlans(book),words=new Set(plans.flatMap(p=>[...p.text.matchAll(/[a-z]+(?:'[a-z]+)?/gi)].map(m=>m[0].toLowerCase())));
  const lexicon=Object.fromEntries(Object.entries(affect.lexicon).filter(([word])=>words.has(word)));
- return {sourceKey:digest(JSON.stringify({raw,displayVersion:1,icu:process.versions.icu,model:readingModel,instructions:passageInstructions,lexicon})),plans,lexicon,model:readingModel,threshold:readingThreshold};
+ return {sourceKey:digest(JSON.stringify({raw,displayVersion:2,icu:process.versions.icu,model:readingModel,instructions:passageInstructions,lexicon})),plans,lexicon,model:readingModel,threshold:readingThreshold};
 }
+export function validReadingSource(value:unknown):value is string {return typeof value==='string'&&(['mentions','speaking'].includes(value)||/^document:[a-z0-9-]{1,80}$/.test(value));}
 export function readingData(layer:string){
- if(!['mentions','speaking'].includes(layer))throw new Error('Invalid edition');
+ if(!validReadingSource(layer))throw new Error('Invalid edition');
  let promise=books.get(layer);if(!promise){promise=load(layer);books.set(layer,promise);promise.catch(()=>books.delete(layer));}return promise;
 }
 export function readingRequest(s:ReadingSentence){return {model:readingModel,state:{precedingContext:s.precedingContext,target:s.target,followingContext:s.followingContext},questions:Object.fromEntries(readingEmotions.map((e,i)=>[`q${i}`,noul(`Emotion: ${e}.\n${passageInstructions}`)]))};}

@@ -1,0 +1,49 @@
+{
+  "chunks": [
+    {
+      "start": 923,
+      "end": 148670,
+      "key": "120a753d4d2df56b2b28379bc81e614b194bb49458c29eaad19badb364e91188",
+      "usage": {
+        "input_tokens": 49358,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4142,
+        "output_tokens_details": {
+          "reasoning_tokens": 2624
+        },
+        "total_tokens": 53500
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Capulet’s Cousin",
+      "alias": "Capulet’s cousin",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Second Servant",
+      "alias": "Second Servant",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "First Citizen",
+      "alias": "First Citizen",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Second Musician",
+      "alias": "Second Musician",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Third Musician",
+      "alias": "Third Musician",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

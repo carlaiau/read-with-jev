@@ -34,10 +34,12 @@ try{
  await page.getByRole('checkbox',{name:'JEV highlights',exact:true}).uncheck();const paused=calls.length;await page.locator('#passage-15').scrollIntoViewIfNeeded();await page.waitForTimeout(450);assert.equal(calls.length,paused);assert.equal(await page.locator('[data-jev-highlight]').count(),0);
  await page.getByRole('checkbox',{name:'JEV highlights',exact:true}).check();await expect.poll(()=>calls.length).toBeGreaterThan(paused);await expect(page.locator('.emotion-status')).toContainText('JEV analyses as you scroll.');
  await page.getByRole('checkbox',{name:'NRC underlines',exact:true}).uncheck();assert.equal(await page.locator('.emotion-underline').count(),0);await page.getByRole('checkbox',{name:'NRC underlines',exact:true}).check();assert(await page.locator('.emotion-underline').count()>0);
- await page.getByLabel('Explore by').selectOption('speaking');await expect(page.locator('.passage')).toHaveCount(319);await expect.poll(()=>calls.some(c=>c.layer==='speaking')).toBe(true);
+ await page.getByLabel('Document',{exact:true}).selectOption('alice-in-wonderland');await expect(page.locator('.passage')).toHaveCount(75);await expect.poll(()=>calls.some(c=>c.layer==='document:alice-in-wonderland')).toBe(true);
  await page.setViewportSize({width:390,height:844});await page.goto(base);await page.locator('[data-emotion-id]').last().waitFor();await expect(page.locator('[data-jev-highlight]').first()).toBeVisible();
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'/tmp/affect-reader-mobile.png'});
  await page.setViewportSize({width:320,height:740});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ assert.equal((await page.request.post(`${base}/api/emotions`,{headers:{Origin:base},data:{}})).status(),400);
+ assert.equal((await page.request.post(`${base}/api/emotions`,{headers:{Origin:'https://foreign.example'},data:{}})).status(),403);
  assert.equal((await page.request.get(`${base}/api/emotions?layer=../../.env`)).status(),400);
  assert.equal((await page.request.post(`${base}/api/emotions`,{data:{layer:'mentions',sourceKey:'stale',sentenceId:'bad'}})).status(),409);
  assert.deepEqual(errors,[]);console.log(JSON.stringify({status:'passed',mockedJev:true,calls:calls.length,maxConcurrent:maxActive,checks:'viewport queue, retry, reuse, pause, NRC toggle, feedback, editions, desktop/mobile, API validation'}));

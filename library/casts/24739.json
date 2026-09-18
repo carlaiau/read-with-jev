@@ -1,0 +1,1661 @@
+{
+  "schema": 1,
+  "gutenbergId": 24739,
+  "sourceSha256": "3dba1d8b300a22603c4a1e2176b38f953c4ca364296bb6b88d50d88a6c0585b8",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-4ec25f9f261daa92",
+      "name": "George Bidwell",
+      "description": "Narrator and principal protagonist; American who rises in Wall Street, becomes involved with stolen bonds and later is tried and imprisoned in England",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "GEORGE BIDWELL.",
+          "evidence": [
+            24751,
+            24766
+          ]
+        },
+        {
+          "text": "George Bidwell",
+          "evidence": [
+            4048,
+            4062
+          ]
+        },
+        {
+          "text": "George",
+          "evidence": [
+            4048,
+            4054
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6fc40e5968fce7fd",
+      "name": "Ed Weed",
+      "description": "Friend and early business partner of the narrator; introduced narrator to theatre, fashion and speculative life",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ed Weed",
+          "evidence": [
+            35989,
+            35996
+          ]
+        },
+        {
+          "text": "E. Weed & Co.",
+          "evidence": [
+            37433,
+            37446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-31cdd8d1b1ffaad6",
+      "name": "Harry",
+      "description": "A scapegrace young man in the narrator's circle who fires his imagination for Wall Street and worldly pleasures",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Harry",
+          "evidence": [
+            34176,
+            34181
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d6ac680add39c5e",
+      "name": "Waterbury",
+      "description": "Sugar broker who first employed the narrator",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Waterbury",
+          "evidence": [
+            33688,
+            33697
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7e52e5b7ff79a2c4",
+      "name": "Mr. Ambler",
+      "description": "Chief clerk and early benefactor who helps the narrator obtain a brokerage position",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Ambler",
+          "evidence": [
+            33863,
+            33873
+          ]
+        },
+        {
+          "text": "Ambler",
+          "evidence": [
+            33867,
+            33873
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d27c86daa03262c8",
+      "name": "John Morrissey",
+      "description": "Famous gambler and proprietor of faro banks and supper rooms frequented by Wall Street men",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "The Hon. John Morrissey",
+          "evidence": [
+            6885,
+            6908
+          ]
+        },
+        {
+          "text": "John Morrissey",
+          "evidence": [
+            6894,
+            6908
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c0877c1fe13b7ff6",
+      "name": "Mike Murray",
+      "description": "Proprietor of an uptown gambling place mentioned among the gambling haunts",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mike Murray",
+          "evidence": [
+            65365,
+            65376
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c4b856c11d6fe6ed",
+      "name": "James Irving",
+      "description": "Chief of the New York Detective Force (corrupt); cultivates and recruits the narrator into negotiating stolen bonds",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "James Irving",
+          "evidence": [
+            41644,
+            41656
+          ]
+        },
+        {
+          "text": "Jimmy Irving",
+          "evidence": [
+            41677,
+            41689
+          ]
+        },
+        {
+          "text": "Capt. Jim Irving",
+          "evidence": [
+            45408,
+            45424
+          ]
+        },
+        {
+          "text": "Chief Irving",
+          "evidence": [
+            8238,
+            8250
+          ]
+        },
+        {
+          "text": "Irving & Co.",
+          "evidence": [
+            8105,
+            8117
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-00f9e4ea49736431",
+      "name": "Stanley",
+      "description": "Detective associated with Chief Irving who participates in schemes described by the narrator",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Stanley",
+          "evidence": [
+            47158,
+            47165
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d9bfb56f24335e38",
+      "name": "White",
+      "description": "Detective associated with Chief Irving who makes business propositions to the narrator",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "White",
+          "evidence": [
+            7761,
+            7766
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b2fad88c4321fdea",
+      "name": "Hod Ennis",
+      "description": "Member of a gang who stumble upon the Lord bonds robbery",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hod Ennis",
+          "evidence": [
+            57448,
+            57457
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a7b5930446e75343",
+      "name": "Charley Rose",
+      "description": "Burglar and member of the gang that stole Lord's bonds",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Charley Rose",
+          "evidence": [
+            57459,
+            57471
+          ]
+        },
+        {
+          "text": "Rose",
+          "evidence": [
+            21811,
+            21815
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3f13921cd5951d3c",
+      "name": "Bullard",
+      "description": "Member of the gang involved in the Lord bonds theft; later goes to Europe and figures in other robberies",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bullard",
+          "evidence": [
+            7815,
+            7822
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4abef7bf38ec7005",
+      "name": "Lord",
+      "description": "Wealthy investor (owner of the seven-thirties) whose office is burgled in the famed Lord Bond robbery",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lord",
+          "evidence": [
+            7628,
+            7632
+          ]
+        },
+        {
+          "text": "Mr. Lord",
+          "evidence": [
+            56769,
+            56777
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4af3411e29a3cc3d",
+      "name": "Max Shinburne",
+      "description": "Educated German burglar who becomes 'Count Shinburne' in Europe after negotiating stolen bonds",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Max Shinburne",
+          "evidence": [
+            91609,
+            91622
+          ]
+        },
+        {
+          "text": "Count Shinburne",
+          "evidence": [
+            8491,
+            8506
+          ]
+        },
+        {
+          "text": "the count",
+          "evidence": [
+            28135,
+            28144
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3f6a1967c790e89b",
+      "name": "Francoise Blanc",
+      "description": "Gambling impresario (Blanc) associated with Homburg, Monte Carlo and Wiesbaden casinos",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Francoise Blanc",
+          "evidence": [
+            8967,
+            8982
+          ]
+        },
+        {
+          "text": "Blanc",
+          "evidence": [
+            8977,
+            8982
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cedb2fac618739a9",
+      "name": "Amstel",
+      "description": "Antwerp chief of police who investigates the Countess Winzerode affair",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Amstel",
+          "evidence": [
+            111410,
+            111416
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-993a054fef161089",
+      "name": "Countess Winzerode",
+      "description": "Adventuress and gambler who marries Van Tromp and later reforms; central figure in a Paris/Antwerp intrigue",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Countess Winzerode",
+          "evidence": [
+            105360,
+            105378
+          ]
+        },
+        {
+          "text": "the Countess",
+          "evidence": [
+            8755,
+            8767
+          ]
+        },
+        {
+          "text": "Elizabeth",
+          "evidence": [
+            110345,
+            110354
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3fe227e289445a2e",
+      "name": "Van Tromp",
+      "description": "Wealthy Antwerp gentleman (descendant of Admiral Van Tromp) whose marriage to the Countess produces scandal",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Van Tromp",
+          "evidence": [
+            8741,
+            8750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-35c56d102b6521fa",
+      "name": "Edwin James",
+      "description": "Famous English Queen's Counsel (Q.C.) who forges post-obits and later falls from legal eminence",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edwin James",
+          "evidence": [
+            9670,
+            9681
+          ]
+        },
+        {
+          "text": "Edwin James, Q.C.",
+          "evidence": [
+            9670,
+            9687
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-949f09af96e48171",
+      "name": "Brea",
+      "description": "Associate who conspires with Edwin James in a forged will scheme for a large inheritance",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Brea",
+          "evidence": [
+            9868,
+            9872
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7cac4f13757b6f95",
+      "name": "Sarah",
+      "description": "Mrs. Brea; daughter named in the forged will (referred to as 'Brea's wife')",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sarah",
+          "evidence": [
+            187815,
+            187820
+          ]
+        },
+        {
+          "text": "Brea's wife",
+          "evidence": [
+            163682,
+            163693
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7c1bcd36996a01e",
+      "name": "Ezra",
+      "description": "Shrewd lawyer who marries into the family and discovers a counter will; key figure in the Brea episode",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ezra",
+          "evidence": [
+            10178,
+            10182
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cad6808b061590eb",
+      "name": "Eagan (will contestant)",
+      "description": "A nephew/relative who contests a will (appears in the forged-will narrative)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Eagan",
+          "evidence": [
+            189784,
+            189789
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8766257c2600ece6",
+      "name": "F. A. Warren",
+      "description": "Alias/persona (Frederic Albert Warren / F. A. Warren) used by the narrator to negotiate with European bankers (central to the Bank of England operations)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "F. A. WARREN",
+          "evidence": [
+            314133,
+            314145
+          ]
+        },
+        {
+          "text": "Frederic Albert Warren",
+          "evidence": [
+            241204,
+            241226
+          ]
+        },
+        {
+          "text": "F. A. Warren",
+          "evidence": [
+            240552,
+            240564
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-384eb48d9ccd01bf",
+      "name": "Lionel Rothschild",
+      "description": "Member of the Rothschild banking family; appears as accepting/handling bills in Paris/London",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lionel Rothschild",
+          "evidence": [
+            345120,
+            345137
+          ]
+        },
+        {
+          "text": "Baron Alfonse de Rothschild",
+          "evidence": [
+            13355,
+            13382
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b8951a55786225a9",
+      "name": "Green",
+      "description": "Tailor (Green & Son) who introduces the narrator to the Bank of England and helps create the 'F. A. Warren' impression",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Green & Son",
+          "evidence": [
+            238227,
+            238238
+          ]
+        },
+        {
+          "text": "Green",
+          "evidence": [
+            11103,
+            11108
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-75b0cb51514b896c",
+      "name": "Mike Hurley",
+      "description": "Professional burglar enlisted by Irving for bank robberies in the Tweed era",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mike Hurley",
+          "evidence": [
+            81312,
+            81323
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-964a5b755dd3494e",
+      "name": "Patsey Conroy",
+      "description": "Professional burglar named among Irving's men",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Patsey Conroy",
+          "evidence": [
+            81326,
+            81339
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dfa33a2dfddd5b49",
+      "name": "Detective George Elder",
+      "description": "Detective who uncovers clues (memoranda) that foil one of the conspiracies in New York",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "George Elder",
+          "evidence": [
+            10017,
+            10029
+          ]
+        },
+        {
+          "text": "Detective George Elder",
+          "evidence": [
+            10007,
+            10029
+          ]
+        },
+        {
+          "text": "Elder",
+          "evidence": [
+            10024,
+            10029
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d9d8da91dbb2450",
+      "name": "John Curtin",
+      "description": "Captain John Curtin of the Pinkertons; American detective who pursues and ultimately assists in capturing the narrator in the Caribbean",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Capt. John Curtin",
+          "evidence": [
+            516024,
+            516041
+          ]
+        },
+        {
+          "text": "John Curtin",
+          "evidence": [
+            17108,
+            17119
+          ]
+        },
+        {
+          "text": "Curtin",
+          "evidence": [
+            17113,
+            17119
+          ]
+        },
+        {
+          "text": "John Curtin of the Pinkertons",
+          "evidence": [
+            17108,
+            17137
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87b6d4c846176f84",
+      "name": "Robert A. Pinkerton",
+      "description": "Member of the Pinkerton private detective organization engaged by bank agents to investigate in America",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Robert A. Pinkerton",
+          "evidence": [
+            382874,
+            382893
+          ]
+        },
+        {
+          "text": "Pinkerton",
+          "evidence": [
+            14334,
+            14343
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-23eeb8da06097fbd",
+      "name": "William A. Pinkerton",
+      "description": "Variant reference to a Pinkerton agent (appears in dispatches/accounts); Pinkerton agency detective involved in the inquiry",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "William Pinkerton",
+          "evidence": [
+            606679,
+            606696
+          ]
+        },
+        {
+          "text": "William A. Pinkerton",
+          "evidence": [
+            549479,
+            549499
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6da217b1e77f72c3",
+      "name": "John Dobbs",
+      "description": "Burglar associate used by Irving in an attempted interception (appears in capture narrative)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Johnny Dobbs",
+          "evidence": [
+            392898,
+            392910
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b516e0c5b43d7c70",
+      "name": "Edwin Noyes",
+      "description": "Clerk/messenger engaged as 'Warren's' agent; arrested in London and whose detention triggers wider events",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Noyes",
+          "evidence": [
+            13523,
+            13528
+          ]
+        },
+        {
+          "text": "Edwin Noyes",
+          "evidence": [
+            346041,
+            346052
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-36cf67b39a7342dc",
+      "name": "Major J. P. Roy",
+      "description": "Military officer at Governor's Island who receives custody of an extradited prisoner during U.S. transfer",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Major J. P. Roy",
+          "evidence": [
+            398065,
+            398080
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d980f0affea95292",
+      "name": "United States Marshal Fiske",
+      "description": "U.S. Marshal engaged in extradition proceedings and transfer of the prisoner to England",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "United States Marshal Fiske",
+          "evidence": [
+            398146,
+            398173
+          ]
+        },
+        {
+          "text": "Fiske",
+          "evidence": [
+            398168,
+            398173
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a54a4ee01c1541e9",
+      "name": "Deputy Robinson",
+      "description": "Deputy marshal involved in escorting a prisoner for extradition",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Robinson",
+          "evidence": [
+            397723,
+            397731
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e18b510247295185",
+      "name": "Deputy Crowley",
+      "description": "Deputy marshal involved in escorting the prisoner to the steamer",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Crowley",
+          "evidence": [
+            397736,
+            397743
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-993b8aaeb6b7ea12",
+      "name": "Deputy Colfax",
+      "description": "Deputy marshal mentioned as escort during removal of prisoner",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Colfax",
+          "evidence": [
+            398323,
+            398329
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3dbfbe5bb1b1feca",
+      "name": "Deputy Purvis",
+      "description": "Deputy marshal present on the police boat escorting prisoners",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Purvis",
+          "evidence": [
+            398202,
+            398208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a9ba078522af0522",
+      "name": "Chief Deputy Marshal Kennedy",
+      "description": "Chief deputy marshal involved in transferring the prisoner to the Battery and embarkation",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kennedy",
+          "evidence": [
+            397702,
+            397709
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-32b5d46f8a42a3ee",
+      "name": "Peter Williams",
+      "description": "Solicitor for the Bank of England in New York who accompanies extradition activities",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Peter Williams",
+          "evidence": [
+            398214,
+            398228
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0cdbc328b46645b1",
+      "name": "Sergt. Edward Hancock",
+      "description": "London detective who assists in transatlantic transfer and investigation",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edward Hancock",
+          "evidence": [
+            398272,
+            398286
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3a433ab04947269b",
+      "name": "Sergeant Hayden",
+      "description": "Bow Street detective involved in pursuit and identification work (appears in transfer/extradition account)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hayden",
+          "evidence": [
+            610665,
+            610671
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-984f1382b7d6514d",
+      "name": "William Green (escort)",
+      "description": "Detective or official mentioned among those escorting the narrator (Green appears as an escorting officer)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Green",
+          "evidence": [
+            11103,
+            11108
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9be6cc9bcb8ff601",
+      "name": "Inspector Wallace",
+      "description": "Police inspector who joins in meeting the arriving prisoner at Plymouth",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Inspector Wallace",
+          "evidence": [
+            613760,
+            613777
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-217903bfbc7be13b",
+      "name": "Sergeant William Moss",
+      "description": "Detective who is present during embarkation / escort events",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "William Moss",
+          "evidence": [
+            613807,
+            613819
+          ]
+        },
+        {
+          "text": "Moss",
+          "evidence": [
+            613815,
+            613819
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ab484945d320b33f",
+      "name": "Captain (the little major) / Chatham Governor (unnamed)",
+      "description": "Prison governor / officer at Chatham encountered by narrator on arrival (portrayed as 'a cocky little major')",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Governor",
+          "evidence": [
+            233417,
+            233429
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e3328f4397836f0",
+      "name": "Judge Archibald",
+      "description": "Judge who sentences the narrator and his associates to penal servitude for life at their Old Bailey trial",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Judge Archibald",
+          "evidence": [
+            628814,
+            628829
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-22c28f19e2d6a456",
+      "name": "Lord Mayor Waterlow",
+      "description": "Lord Mayor (Waterlow) who presides at public preliminary proceedings mentioned in the trial narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lord Mayor Waterlow",
+          "evidence": [
+            18505,
+            18524
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-826e5c64de25a191",
+      "name": "David Howell",
+      "description": "Solicitor retained by the narrator and companions for their London defense (criticized in narrative)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "David Howell",
+          "evidence": [
+            623309,
+            623321
+          ]
+        },
+        {
+          "text": "Mr. David Howell",
+          "evidence": [
+            623305,
+            623321
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-247f5f32da1bd050",
+      "name": "Mac",
+      "description": "Associate and co-conspirator who helps execute the forged-bills operations; frequently called 'Mac' throughout the narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mac",
+          "evidence": [
+            10735,
+            10738
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d0988bdc6735c0f7",
+      "name": "Maloy",
+      "description": "Irish local who helps the narrator during flight in Ireland, providing a jaunting car and assistance",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Maloy",
+          "evidence": [
+            15138,
+            15143
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-786c1e8b3a132994",
+      "name": "Austin Bidwell",
+      "description": "Narrator and author; prisoner at Chatham who spent nearly twenty years in penal servitude and petitions for release",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "AUSTIN BIDWELL.",
+          "evidence": [
+            763841,
+            763856
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-40fba2da90ab7f8f",
+      "name": "Heep",
+      "description": "Prisoner in adjacent cell to narrator; skilled artisan and repeated asylum/prison inmate with a turbulent past",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Heep",
+          "evidence": [
+            19502,
+            19506
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b3e8b763df2282bf",
+      "name": "Joseph Matthews",
+      "description": "Assistant warder mentioned as having been in service twenty years and discharged in 1886",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Joseph Matthews",
+          "evidence": [
+            662334,
+            662349
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9f0d2978ea45c04d",
+      "name": "my rat",
+      "description": "A young pet rat given to the narrator, tamed and taught acrobatic tricks; frequent companion in prison",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "young rat",
+          "evidence": [
+            669002,
+            669011
+          ]
+        },
+        {
+          "text": "rat",
+          "evidence": [
+            2202,
+            2205
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-22013dbb936e2822",
+      "name": "mouse / mice",
+      "description": "Small tame rodents kept by the narrator as pets and trained to perform tricks",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "mouse",
+          "evidence": [
+            334032,
+            334037
+          ]
+        },
+        {
+          "text": "mice",
+          "evidence": [
+            668838,
+            668842
+          ]
+        },
+        {
+          "text": "my mouse",
+          "evidence": [
+            673302,
+            673310
+          ]
+        },
+        {
+          "text": "one mouse",
+          "evidence": [
+            672492,
+            672501
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-84a80ab8e30cfcdf",
+      "name": "flies / fly",
+      "description": "Insects the narrator observed and tamed in the cell; described with observed behaviours",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "flies",
+          "evidence": [
+            121055,
+            121060
+          ]
+        },
+        {
+          "text": "fly",
+          "evidence": [
+            71925,
+            71928
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dc3d0a69cb423722",
+      "name": "Ross",
+      "description": "Principal officer at Chatham who delivers the news of the narrator's release and escorts him out",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ross",
+          "evidence": [
+            775974,
+            775978
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8960c4c90bff2060",
+      "name": "Frederick Barton",
+      "description": "Young prisoner sentenced ten years for forgery; subject of a fabricated inheritance petition that led to his release",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Frederick Barton",
+          "evidence": [
+            751572,
+            751588
+          ]
+        },
+        {
+          "text": "Barton",
+          "evidence": [
+            22098,
+            22104
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d11eba0d0cab12cf",
+      "name": "George Smith",
+      "description": "Former clerk to auctioneers, prisoner who presents the forged petition at the Home Office and is instrumental in Barton’s release",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "George Smith",
+          "evidence": [
+            754790,
+            754802
+          ]
+        },
+        {
+          "text": "Smith",
+          "evidence": [
+            22472,
+            22477
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2cc5fddb78d5b6d1",
+      "name": "Niblo Clark",
+      "description": "Prisoner who composes a long, idiosyncratic petition detailing grievances and ill-treatment",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Niblo Clark",
+          "evidence": [
+            23106,
+            23117
+          ]
+        },
+        {
+          "text": "Niblo",
+          "evidence": [
+            23106,
+            23111
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-be57aee37e6333ff",
+      "name": "Foster",
+      "description": "Prisoner from Chicago who joins narrator's bricklaying party; former protege of the Christian Aid Society",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Foster",
+          "evidence": [
+            20213,
+            20219
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-be436917ed0c7b6b",
+      "name": "Turtle",
+      "description": "Former partner and confederate of Foster in criminal and corrupt political schemes in Chicago",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Turtle",
+          "evidence": [
+            17019,
+            17025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2178b8977217776e",
+      "name": "Stoneman",
+      "description": "American convict who became an accomplished burglar/express robber and was eventually sentenced in England",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Stoneman",
+          "evidence": [
+            718580,
+            718588
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1ad7342dee9f38e9",
+      "name": "Riley",
+      "description": "Confederate of Stoneman who is arrested and whose case helps bring Stoneman to trial",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Riley",
+          "evidence": [
+            719473,
+            719478
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-14974a85eaab3bf1",
+      "name": "Mrs. Riley",
+      "description": "Wife of Riley who participates in events surrounding Stuart and the lost money",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Riley",
+          "evidence": [
+            720246,
+            720256
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-baa5804c22c04e3d",
+      "name": "Stuart",
+      "description": "Well-known New York criminal lawyer who appears in the Stoneman/Riley episode",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Stuart",
+          "evidence": [
+            687748,
+            687754
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2d74e106d8bcad29",
+      "name": "Sergeant McCarty",
+      "description": "Former sergeant in the British army who joined the Fenian cause; sentenced to penal servitude for life",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "McCarty",
+          "evidence": [
+            20957,
+            20964
+          ]
+        },
+        {
+          "text": "Sergeant McCarty",
+          "evidence": [
+            725669,
+            725685
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7762d63579e3507",
+      "name": "William O'Brien",
+      "description": "Young Fenian recruit who was imprisoned and befriended the narrator; later opened a tobacco store in Dublin",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "O'Brien",
+          "evidence": [
+            20966,
+            20973
+          ]
+        },
+        {
+          "text": "William O'Brien",
+          "evidence": [
+            725690,
+            725705
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c06e86490367af39",
+      "name": "Curtin (dynamiter)",
+      "description": "Named among the dynamiters known to the narrator",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Curtin",
+          "evidence": [
+            17113,
+            17119
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f1fe2f395c4a6cab",
+      "name": "Daily",
+      "description": "Named among the dynamiters known to the narrator",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Daily",
+          "evidence": [
+            6167,
+            6172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ed214cd7dd066c28",
+      "name": "Dr. Gallagher",
+      "description": "Named among the dynamiters known to the narrator; described as having broken down under pressure",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Gallagher",
+          "evidence": [
+            20942,
+            20955
+          ]
+        },
+        {
+          "text": "Gallagher",
+          "evidence": [
+            20946,
+            20955
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-842be636d9cc8346",
+      "name": "Eagan (dynamiter)",
+      "description": "Named among the dynamiters known to the narrator",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Eagan",
+          "evidence": [
+            189784,
+            189789
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47c51e3e8ef8fb06",
+      "name": "Rev. Mr. Whitely",
+      "description": "Secretary of the Christian Aid Society who organized sending discharged prisoners to sea",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Whitely",
+          "evidence": [
+            699597,
+            699608
+          ]
+        },
+        {
+          "text": "Rev. Mr. Whitely",
+          "evidence": [
+            699592,
+            699608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f1d9bdd9e62c1518",
+      "name": "Sir William Vernon Harcourt",
+      "description": "Home Secretary referred to in petitions and correspondence regarding prisoners' releases",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir William V. Harcourt",
+          "evidence": [
+            759199,
+            759222
+          ]
+        },
+        {
+          "text": "Sir William Vernon Harcourt",
+          "evidence": [
+            763870,
+            763897
+          ]
+        },
+        {
+          "text": "the Home Secretary",
+          "evidence": [
+            22717,
+            22735
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5a7f41264bb8188a",
+      "name": "Henry Mathews",
+      "description": "Named as \"Her Majesty's Principal Secretary of State for the Home Department\" in a petition included in the narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Henry Mathews",
+          "evidence": [
+            766473,
+            766486
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-732bff84a8cfe2d8",
+      "name": "James Russell Lowell",
+      "description": "American public figure who the narrator's supporters contacted on his behalf",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "James Russell Lowell",
+          "evidence": [
+            773589,
+            773609
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-48ad779408efba74",
+      "name": "Mr. Blaine",
+      "description": "Secretary of State (U.S.) whose intervention on the narrator's behalf is mentioned",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Blaine",
+          "evidence": [
+            773717,
+            773727
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c4b5da2e6833cf34",
+      "name": "Minister Lincoln",
+      "description": "U.S. Minister in London referenced as conveying representations to the English Government",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Minister Lincoln",
+          "evidence": [
+            773788,
+            773804
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7d2c03f4fd77ec39",
+      "name": "Lady Henry Somerset",
+      "description": "Supporter who took an interest in the narrator's case and helped press for his release",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lady Henry Somerset",
+          "evidence": [
+            774393,
+            774412
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-21e7c9becc93b212",
+      "name": "Mrs. Helen Densmore",
+      "description": "Supporter living in London who aided efforts to secure narrator's release",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Helen Densmore",
+          "evidence": [
+            774414,
+            774433
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2dfa9bf7562201cd",
+      "name": "the Duke of Norfolk",
+      "description": "Prominent noble mentioned among those whose representations helped secure the narrator's release",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Duke of Norfolk",
+          "evidence": [
+            774465,
+            774484
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a2b3aeebc2bf9546",
+      "name": "George Bidwell (relative)",
+      "description": "Relative/comrade of the narrator who was bedridden, campaigned persistently for the narrator's release",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "George",
+          "evidence": [
+            4048,
+            4054
+          ]
+        },
+        {
+          "text": "George Bidwell",
+          "evidence": [
+            4048,
+            4062
+          ]
+        },
+        {
+          "text": "Geo. Bidwell",
+          "evidence": [
+            672915,
+            672927
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c44bac1de44d0b1",
+      "name": "Doctor Harrison",
+      "description": "Named in a petition as a medical authority who could confirm the petitioner's statements",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Doctor Harrison",
+          "evidence": [
+            769517,
+            769532
+          ]
+        }
+      ]
+    }
+  ]
+}

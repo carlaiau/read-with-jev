@@ -1,0 +1,44 @@
+{
+  "chunks": [
+    {
+      "start": 973,
+      "end": 182043,
+      "key": "c420607bb983be73f0a338985e06f3e62ec59b29a0f4118fea90181f9eb6ade3",
+      "usage": {
+        "input_tokens": 50715,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4779,
+        "output_tokens_details": {
+          "reasoning_tokens": 3520
+        },
+        "total_tokens": 55494
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Arron P. Dickson",
+      "alias": "Arron P. Dickson",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Arron P. Dickson",
+      "alias": "FAA investigator Arron P. Dickson",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Benjamin Talbot",
+      "alias": "the Boy Scout Benjamin Talbot",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Everett farmwife",
+      "alias": "the heavy set woman",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

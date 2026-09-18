@@ -1,0 +1,676 @@
+{
+  "schema": 1,
+  "gutenbergId": 11,
+  "sourceSha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-8c9065b42ab0ff8f",
+      "name": "Alice",
+      "description": "A young girl and the story’s protagonist who follows the White Rabbit into Wonderland",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Alice",
+          "evidence": [
+            935,
+            940
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea59293c7f64dedf",
+      "name": "Alice's sister",
+      "description": "Alice’s unnamed older sister who appears at the opening and closing of the narrative",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "her sister",
+          "evidence": [
+            1614,
+            1624
+          ]
+        },
+        {
+          "text": "sister",
+          "evidence": [
+            1618,
+            1624
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2bef9fdec8bee7d2",
+      "name": "White Rabbit",
+      "description": "A hurried, anthropomorphic rabbit who first leads Alice into Wonderland; acts as herald in the trial",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "White Rabbit",
+          "evidence": [
+            2119,
+            2131
+          ]
+        },
+        {
+          "text": "the White Rabbit",
+          "evidence": [
+            6832,
+            6848
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f02b414f6bd543fa",
+      "name": "Dinah",
+      "description": "Alice’s cat, mentioned frequently and referenced by Alice as her pet",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Dinah",
+          "evidence": [
+            5759,
+            5764
+          ]
+        },
+        {
+          "text": "Dinah my dear",
+          "evidence": [
+            5893,
+            5906
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f07dedde16055c53",
+      "name": "Mouse",
+      "description": "A mouse who swims in Alice’s pool of tears and (later) presides, at least verbally, over the meeting by telling its history",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Mouse",
+          "evidence": [
+            20946,
+            20951
+          ]
+        },
+        {
+          "text": "the Mouse",
+          "evidence": [
+            21985,
+            21994
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c8707645491273ed",
+      "name": "Dodo",
+      "description": "A bird who organizes the Caucus-race and presides over prize distribution",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Dodo",
+          "evidence": [
+            24329,
+            24333
+          ]
+        },
+        {
+          "text": "the Dodo",
+          "evidence": [
+            27079,
+            27087
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b9408f1c1b04c418",
+      "name": "Lory",
+      "description": "A bird present among the pool party; argues with Alice about age",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Lory",
+          "evidence": [
+            24337,
+            24341
+          ]
+        },
+        {
+          "text": "the Lory",
+          "evidence": [
+            24996,
+            25004
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-93ef665512e0f4ea",
+      "name": "Eaglet",
+      "description": "A young eagle present among the pool party who takes part in the discussion",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Eaglet",
+          "evidence": [
+            24349,
+            24355
+          ]
+        },
+        {
+          "text": "the Eaglet",
+          "evidence": [
+            27235,
+            27245
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0756ed90547b2445",
+      "name": "Duck",
+      "description": "A duck present among the pool party and participant in the discussion",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Duck",
+          "evidence": [
+            24317,
+            24321
+          ]
+        },
+        {
+          "text": "the Duck",
+          "evidence": [
+            26384,
+            26392
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7dfe8b91ccb23e03",
+      "name": "Fish-Footman",
+      "description": "A footman who delivers an invitation and speaks to the Frog-Footman at the Duchess’s house",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Fish-Footman",
+          "evidence": [
+            61061,
+            61073
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cd93737e0da1af2f",
+      "name": "Frog-Footman",
+      "description": "A footman who opens the Duchess’s door and appears with powdered hair and round face",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Frog-Footman",
+          "evidence": [
+            61292,
+            61304
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aa4802d6f9d1da53",
+      "name": "Bill (the Lizard)",
+      "description": "A small lizard named Bill who is employed as a chimney-sweeper and juryman (the Lizard)",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Bill",
+          "evidence": [
+            1206,
+            1210
+          ]
+        },
+        {
+          "text": "the Lizard",
+          "evidence": [
+            129168,
+            129178
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d500c62a636bfb17",
+      "name": "Pat",
+      "description": "A servant (heard digging and answering the Rabbit) who appears when the Rabbit seeks help",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Pat",
+          "evidence": [
+            40120,
+            40123
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1d0d654b6e1696fe",
+      "name": "The Hatter",
+      "description": "A mad hatter who hosts the tea-party and is called as a witness at the trial",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "the Hatter",
+          "evidence": [
+            74552,
+            74562
+          ]
+        },
+        {
+          "text": "Hatter",
+          "evidence": [
+            71579,
+            71585
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-22c0d759b198824a",
+      "name": "March Hare",
+      "description": "The Hatter’s companion at the Mad Tea-Party, described as mad and argumentative",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "March Hare",
+          "evidence": [
+            71645,
+            71655
+          ]
+        },
+        {
+          "text": "the March Hare",
+          "evidence": [
+            73200,
+            73214
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f9694d1463d63149",
+      "name": "Dormouse",
+      "description": "A sleepy mouse who sits between the Hatter and the March Hare at the tea-party and tells a story",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Dormouse",
+          "evidence": [
+            74739,
+            74747
+          ]
+        },
+        {
+          "text": "the Dormouse",
+          "evidence": [
+            74915,
+            74927
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-318e2c6deaa15eed",
+      "name": "Cheshire Cat",
+      "description": "A grinning cat capable of appearing and disappearing, gives Alice cryptic advice",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Cheshire Cat",
+          "evidence": [
+            70537,
+            70549
+          ]
+        },
+        {
+          "text": "Cheshire Puss",
+          "evidence": [
+            70792,
+            70805
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-69ccd34f9050a695",
+      "name": "The Duchess",
+      "description": "A woman Alice encounters in the kitchen who is rude, peppery, and connected to the pig-baby",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "the Duchess",
+          "evidence": [
+            15455,
+            15466
+          ]
+        },
+        {
+          "text": "Duchess",
+          "evidence": [
+            15459,
+            15466
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b76aef147cb22da2",
+      "name": "the cook",
+      "description": "The Duchess’s cook who seasons the kitchen excessively with pepper",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "the cook",
+          "evidence": [
+            64096,
+            64104
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-345bcf1c43638991",
+      "name": "King of Hearts",
+      "description": "The monarch who presides over the trial and sometimes acts as judge",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "King",
+          "evidence": [
+            89981,
+            89985
+          ]
+        },
+        {
+          "text": "the King",
+          "evidence": [
+            90212,
+            90220
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b6f377e9658ea401",
+      "name": "Queen of Hearts",
+      "description": "A quick-tempered monarch who rules by fiat (notably 'Off with his/her head!') and organizes the croquet game",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Queen of Hearts",
+          "evidence": [
+            80639,
+            80654
+          ]
+        },
+        {
+          "text": "The Queen of Hearts",
+          "evidence": [
+            129577,
+            129596
+          ]
+        },
+        {
+          "text": "Queen",
+          "evidence": [
+            1340,
+            1345
+          ]
+        },
+        {
+          "text": "the Queen",
+          "evidence": [
+            61394,
+            61403
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b52ca3c7386d2992",
+      "name": "Knave of Hearts",
+      "description": "Accused of stealing the Queen’s tarts and tried before the King and Queen",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Knave of Hearts",
+          "evidence": [
+            90185,
+            90200
+          ]
+        },
+        {
+          "text": "the Knave of Hearts",
+          "evidence": [
+            90181,
+            90200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e33ff974d0fe600d",
+      "name": "Gryphon",
+      "description": "A mythical creature who escorts Alice to the Mock Turtle and narrates aspects of Wonderland lore",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Gryphon",
+          "evidence": [
+            108263,
+            108270
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fd4febfea59ccc03",
+      "name": "Mock Turtle",
+      "description": "A melancholic creature who tells Alice about his (mock) education and sings songs",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Mock Turtle",
+          "evidence": [
+            1384,
+            1395
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-28663aecf037086b",
+      "name": "Five",
+      "description": "One of the three gardeners painting white roses red; identified by the number Five",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Five",
+          "evidence": [
+            87993,
+            87997
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19ad95bd93011239",
+      "name": "Seven",
+      "description": "One of the three gardeners painting white roses red; identified by the number Seven",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Seven",
+          "evidence": [
+            88099,
+            88104
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0bd0c0aa1cd379c5",
+      "name": "Two",
+      "description": "One of the three gardeners painting white roses red; identified by the number Two",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Two",
+          "evidence": [
+            77522,
+            77525
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6b7e082a3000584c",
+      "name": "guinea-pigs",
+      "description": "Two guinea-pigs that act as servants (hold Bill) and appear in the trial scene",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "guinea-pigs",
+          "evidence": [
+            44635,
+            44646
+          ]
+        },
+        {
+          "text": "two guinea-pigs",
+          "evidence": [
+            44631,
+            44646
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bb1f3f94532ca1f5",
+      "name": "Magpie",
+      "description": "An old magpie who, alarmed by Alice’s talk of Dinah, wraps itself up and leaves",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "old Magpie",
+          "evidence": [
+            33071,
+            33081
+          ]
+        },
+        {
+          "text": "Magpie",
+          "evidence": [
+            33075,
+            33081
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-207ecd9430436ae7",
+      "name": "Canary",
+      "description": "A canary who calls its children away when Alice mentions Dinah",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "Canary",
+          "evidence": [
+            33213,
+            33219
+          ]
+        },
+        {
+          "text": "a Canary",
+          "evidence": [
+            33211,
+            33219
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6430dac74f6e5874",
+      "name": "ten soldiers",
+      "description": "Card-soldiers in the royal procession and later executioners/arches in the croquet game",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "ten soldiers",
+          "evidence": [
+            89522,
+            89534
+          ]
+        },
+        {
+          "text": "soldiers",
+          "evidence": [
+            89526,
+            89534
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-166e70ef8905ec95",
+      "name": "executioner",
+      "description": "The officer charged with carrying out executions (discussed and fetched during the trial)",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "executioner",
+          "evidence": [
+            98850,
+            98861
+          ]
+        },
+        {
+          "text": "the executioner",
+          "evidence": [
+            98846,
+            98861
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b3a6ddf730848128",
+      "name": "jurors",
+      "description": "The twelve jurors who sit in the trial and take notes on slates",
+      "scope": "Alice’s Adventures in Wonderland",
+      "aliases": [
+        {
+          "text": "jurors",
+          "evidence": [
+            127740,
+            127746
+          ]
+        }
+      ]
+    }
+  ]
+}

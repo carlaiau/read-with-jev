@@ -1,0 +1,396 @@
+{
+  "schema": 1,
+  "gutenbergId": 468,
+  "sourceSha256": "6ccd3dbaee257596161408dd0822d21f6937e674db63b4c3c80735c61d9d47f0",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-5cf23352e334fb15",
+      "name": "Chevalier des Grieux",
+      "description": "Young gentleman who falls passionately in love with Manon Lescaut; central male protagonist of the narrative recounted to the narrator",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "Chevalier des Grieux",
+          "evidence": [
+            1071,
+            1091
+          ]
+        },
+        {
+          "text": "the Chevalier des Grieux",
+          "evidence": [
+            13873,
+            13897
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a94ea3c8ef0392a2",
+      "name": "Manon Lescaut",
+      "description": "Beautiful young woman whose beauty and caprice drive the events of the tale; lover/mistress of the Chevalier des Grieux",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "Manon Lescaut",
+          "evidence": [
+            20502,
+            20515
+          ]
+        },
+        {
+          "text": "Manon",
+          "evidence": [
+            20502,
+            20507
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-16f906eb75b5b79d",
+      "name": "Tiberge",
+      "description": "Friend and moral counsellor of des Grieux who repeatedly seeks to reclaim him to a virtuous life",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "Tiberge",
+          "evidence": [
+            15399,
+            15406
+          ]
+        },
+        {
+          "text": "my friend Tiberge",
+          "evidence": [
+            19664,
+            19681
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-65e2d0826b09812a",
+      "name": "M. Lescaut",
+      "description": "Manon's brother; opportunistic, provides advice and connections that affect des Grieux and Manon's fortunes",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "M. Lescaut",
+          "evidence": [
+            79970,
+            79980
+          ]
+        },
+        {
+          "text": "Lescaut",
+          "evidence": [
+            20508,
+            20515
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ab116a3b2db5d4c",
+      "name": "Marcel",
+      "description": "Servant (Manon's servant) who participates in the elopement plot and later reports events; small but recurrent role",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "Marcel",
+          "evidence": [
+            223166,
+            223172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d89fb53c7233a328",
+      "name": "M. de B----",
+      "description": "Wealthy Fermier-général connected to Manon's first removal from des Grieux (figures in early Paris intrigues)",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "M. de B----",
+          "evidence": [
+            27787,
+            27798
+          ]
+        },
+        {
+          "text": "B----",
+          "evidence": [
+            27793,
+            27798
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ee455f925d86fa1b",
+      "name": "M. de T----",
+      "description": "Gentleman who aids des Grieux in gaining access to Manon at the Magdalen and who befriends the couple in Paris; later assists plotting to rescue Manon",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "M. de T----",
+          "evidence": [
+            159188,
+            159199
+          ]
+        },
+        {
+          "text": "de T----",
+          "evidence": [
+            159191,
+            159199
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4c5149e4879970b2",
+      "name": "G---- M---- (old)",
+      "description": "Older libertine and father (referred to as an old voluptuary) whose influence leads to Manon's incarceration and later punishment",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "old G---- M----",
+          "evidence": [
+            138033,
+            138048
+          ]
+        },
+        {
+          "text": "M. G---- M----",
+          "evidence": [
+            117087,
+            117101
+          ]
+        },
+        {
+          "text": "G---- M----",
+          "evidence": [
+            102310,
+            102321
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a888f915599217c3",
+      "name": "G---- M---- (young)",
+      "description": "Son of the older G---- M----; becomes infatuated with Manon and plays a direct role in events and confrontations",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "G---- M----",
+          "evidence": [
+            102310,
+            102321
+          ]
+        },
+        {
+          "text": "M. G---- M----",
+          "evidence": [
+            117087,
+            117101
+          ]
+        },
+        {
+          "text": "young G---- M----",
+          "evidence": [
+            207845,
+            207862
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ec04f3357bc5cd7",
+      "name": "Synnelet",
+      "description": "Nephew of the colonial governor of New Orleans; becomes passionately in love with Manon and engages in the fatal duel with des Grieux",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "Synnelet",
+          "evidence": [
+            329341,
+            329349
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-69bed180e49b36a3",
+      "name": "Governor (New Orleans)",
+      "description": "Colonial governor in New Orleans who controls dispositions of transported women and arranges social placements (befriends and later threatens des Grieux and Manon)",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "the governor",
+          "evidence": [
+            123732,
+            123744
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0417617865d95012",
+      "name": "Governor (St. Lazare)",
+      "description": "Official (governor) at St. Lazare prison who treats des Grieux during his confinement there",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "the governor",
+          "evidence": [
+            123732,
+            123744
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-178b0b48d0c6e9eb",
+      "name": "Superior (St. Lazare)",
+      "description": "Religious superior at St. Lazare who supervises des Grieux's confinement and intervenes with authorities",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "the Superior",
+          "evidence": [
+            137441,
+            137453
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6bfafdfe934edeaa",
+      "name": "Lieutenant-General of Police",
+      "description": "Senior police official whose orders result in Manon's removal to the Magdalen and whose office carries influence over prisoners' fates",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "lieutenant-general of police",
+          "evidence": [
+            4385,
+            4413
+          ]
+        },
+        {
+          "text": "the lieutenant-general of police",
+          "evidence": [
+            136091,
+            136123
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e163204f8edb5906",
+      "name": "Archers / civic guard (escort)",
+      "description": "Members of the civic guard who escort the convoy of women and act as guards/archers (also referred to as gendarmes/the guards)",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "the archers",
+          "evidence": [
+            260693,
+            260704
+          ]
+        },
+        {
+          "text": "archers of the guard",
+          "evidence": [
+            121380,
+            121400
+          ]
+        },
+        {
+          "text": "the guards",
+          "evidence": [
+            6067,
+            6077
+          ]
+        },
+        {
+          "text": "the gendarmes",
+          "evidence": [
+            311617,
+            311630
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ccfff69a15da3eeb",
+      "name": "Porter (prison / St. Lazare/Chatelet)",
+      "description": "Porter(s) who appear in prison contexts (St. Lazare / Le Chatelet), assist or inform des Grieux and later help/relate Manon's fate",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "the porter",
+          "evidence": [
+            68423,
+            68433
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f5b28625db9ca466",
+      "name": "Captain (of the ship to America)",
+      "description": "Ship's captain who conveys des Grieux, Manon and other convicts/emigrants to America and shows kindness aboard",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "the captain",
+          "evidence": [
+            316337,
+            316348
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-48023cf0db9e329a",
+      "name": "Chaplain (colony)",
+      "description": "Clergyman/chaplain in the New Orleans settlement who conveys the governor's views and religious administration in the colony",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "the chaplain",
+          "evidence": [
+            330545,
+            330557
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dc51ca76c2f09d62",
+      "name": "Prince of R----",
+      "description": "Proprietor/host of the Hotel of Transylvania where card games are played and where des Grieux gains experience at the gaming-table",
+      "scope": "Manon Lescaut",
+      "aliases": [
+        {
+          "text": "Prince of R----",
+          "evidence": [
+            95263,
+            95278
+          ]
+        }
+      ]
+    }
+  ]
+}

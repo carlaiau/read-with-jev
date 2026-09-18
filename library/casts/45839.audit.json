@@ -1,0 +1,105 @@
+{
+  "chunks": [
+    {
+      "start": 947,
+      "end": 650879,
+      "key": "a83120f389082ac1639b48294b2766085260017b023dffad7de62ba5f597cc5c",
+      "usage": {
+        "input_tokens": 178116,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4334,
+        "output_tokens_details": {
+          "reasoning_tokens": 2560
+        },
+        "total_tokens": 182450
+      }
+    },
+    {
+      "start": 650879,
+      "end": 858561,
+      "key": "ac65c4f0994e6796dd74c8434f2806c898a9f7dbe5020eec5512abf13de1dc9c",
+      "usage": {
+        "input_tokens": 57026,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4856,
+        "output_tokens_details": {
+          "reasoning_tokens": 3776
+        },
+        "total_tokens": 61882
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "932cc0d9e853e470efee5ff78ba80ebfb7b49d7ff5b807237f2e27c34b22f0cf",
+    "usage": {
+      "input_tokens": 2934,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2646,
+      "output_tokens_details": {
+        "reasoning_tokens": 1216
+      },
+      "total_tokens": 5580
+    }
+  },
+  "rejected": [
+    {
+      "name": "Captain (of the Demeter)",
+      "alias": "the Captain",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Demeter's Dog (mastiff)",
+      "alias": "a large dog, a half-bred mastiff",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Pack of Wolves",
+      "alias": "pack of wolves",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Three Vampire Women",
+      "alias": "the three women",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Three Vampire Women",
+      "alias": "the fair girl",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Three Vampire Women",
+      "alias": "three sisters",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Three Vampire Women",
+      "alias": "three Un-Dead",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Three Vampire Women",
+      "alias": "those three women",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "a thick-set working man with his rush-woven basket of tools",
+      "alias": "the workman",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "a clerk (Vice-Consul’s office)",
+      "alias": "the clerk",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

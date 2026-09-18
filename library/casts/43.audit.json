@@ -1,0 +1,74 @@
+{
+  "chunks": [
+    {
+      "start": 930,
+      "end": 142306,
+      "key": "e8d4ddcf32e66151930cdaf966e62724bdd2fe66b5016600e5e4bb9cddfe766a",
+      "usage": {
+        "input_tokens": 38760,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5102,
+        "output_tokens_details": {
+          "reasoning_tokens": 3904
+        },
+        "total_tokens": 43862
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Gabriel John Utterson",
+      "alias": "Gabriel John Utterson",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sir Danvers Carew",
+      "alias": "Sir Danvers Carew",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Inspector Newcomen",
+      "alias": "Inspector Newcomen of Scotland Yard",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "maid servant (witness to Carew murder)",
+      "alias": "a maid servant",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the child (girl trampled by Hyde)",
+      "alias": "a girl of maybe eight or ten",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the Sawbones (apothecary present at child incident)",
+      "alias": "the apothecary",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "housekeeper (Hyde’s, ivory-faced woman)",
+      "alias": "an ivory-faced and silvery-haired old woman",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "cook (Jekyll household)",
+      "alias": "the cook",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "hansom/cab driver",
+      "alias": "a passing hansom",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "hansom/cab driver",
+      "alias": "the cab driver",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

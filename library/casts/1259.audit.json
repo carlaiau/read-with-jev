@@ -1,0 +1,132 @@
+{
+  "chunks": [
+    {
+      "start": 907,
+      "end": 650897,
+      "key": "ac98a55b84e1efa8b5bdc9c87bc837349201f2f2c6e751f6932a8e5e8ed4edf1",
+      "usage": {
+        "input_tokens": 188269,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7203,
+        "output_tokens_details": {
+          "reasoning_tokens": 4224
+        },
+        "total_tokens": 195472
+      }
+    },
+    {
+      "start": 650897,
+      "end": 1300858,
+      "key": "53740a85070793656c3a37210caa5bbb132fc8fe2e45c66e814c23c4ab2b1b2f",
+      "usage": {
+        "input_tokens": 190526,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8511,
+        "output_tokens_details": {
+          "reasoning_tokens": 5120
+        },
+        "total_tokens": 199037
+      }
+    },
+    {
+      "start": 1300858,
+      "end": 1404413,
+      "key": "67dcf76512fc859ea1c84aecaf6996c2ded118014b360676c3cf36874e65cd75",
+      "usage": {
+        "input_tokens": 30909,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6562,
+        "output_tokens_details": {
+          "reasoning_tokens": 5184
+        },
+        "total_tokens": 37471
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "5d1228826aae839bc29ec3ffda2b43dab80a2005a1e9d556e5e3574f3ba04939",
+    "usage": {
+      "input_tokens": 9475,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3785,
+      "output_tokens_details": {
+        "reasoning_tokens": 2944
+      },
+      "total_tokens": 13260
+    }
+  },
+  "rejected": [
+    {
+      "name": "Porthos",
+      "alias": "monsieur du Vallon",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Monsieur du Tremblay",
+      "alias": "the governor of the Bastile",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Duc de Beaufort",
+      "alias": "the Duke de Beaufort",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Villequier",
+      "alias": "Marquis de Villequier",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Nicholas de Camus",
+      "alias": "Nicholas de Camus",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Nicholas de Camus",
+      "alias": "de Camus",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mayor of Paris",
+      "alias": "the mayor of Paris",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Madame Bonancieux",
+      "alias": "Madame Bonancieux",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Milady (Anne de Bueil)",
+      "alias": "Milady de Winter",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "The Gray Cardinal (Joseph du Tremblay)",
+      "alias": "Joseph du Tremblay",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "The Gray Cardinal (Joseph du Tremblay)",
+      "alias": "the Gray Cardinal",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Maillard",
+      "alias": "the beggar of St. Eustache",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

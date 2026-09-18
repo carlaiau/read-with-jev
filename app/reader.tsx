@@ -1,7 +1,9 @@
 'use client';
-import { useEffect, useMemo, useState } from 'react';
 import {EmotionComparison,EmotionText} from './emotion-comparison';
-import { readerSegments } from '../src/lib/reader-text';
+import { useEffect, useMemo, useState } from 'react';
+import { loadLibraryDocument } from '../src/lib/library-transport';
+import { readerSegments,readerPassageText } from '../src/lib/reader-text';
+import type { DocumentSummary, LibraryDocument } from '../src/lib/library-model';
 import type { Book } from '../src/lib/model';
 import { Button } from '../src/catalyst/typescript/button';
 import { Checkbox, CheckboxField } from '../src/catalyst/typescript/checkbox';
@@ -12,24 +14,41 @@ import { CharacterRail, chapterActivity, Sparkline } from './reader-charts';
 
 const colors = ['#b64c68', '#27818d', '#7a65a4', '#ac7b1b', '#577b64', '#bd7047'];
 export default function Reader() {
-  const [layer, setLayer] = useState('mentions');
-  const [book, setBook] = useState<Book | null>(null);
+  const [book, setBook] = useState<(Book & Partial<LibraryDocument>) | null>(null);
+  const [documents, setDocuments] = useState<DocumentSummary[]>([]);
+  const [documentId, setDocumentId] = useState('pride-and-prejudice');
+  const [retry, setRetry] = useState(0);
+  const baseline = true;
+  const mentionLayer = true;
+  const documentInfo = documents.find(d => d.documentId === documentId);
+  const title = book?.title ?? documentInfo?.title ?? 'Document library';
+  const sectionTitle = (chapter: number) => book?.sections?.find(s => s.index === chapter)?.title ?? `Chapter ${chapter}`;
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch('/.netlify/functions/library', { signal: controller.signal }).then(async response => {
+      const data = await response.json(); if (!response.ok) throw new Error(data.error);
+      setDocuments((data.documents as DocumentSummary[]).toSorted((a, b) =>
+        a.title.localeCompare(b.title, 'en', { sensitivity: 'base', numeric: true }) ||
+        a.source.localeCompare(b.source, 'en', { numeric: true }) ||
+        a.documentId.localeCompare(b.documentId, 'en', { numeric: true })));
+    }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
+    return () => controller.abort();
+  }, [retry]);
   const [error, setError] = useState('');
   const [selected, setSelected] = useState<string[]>([]);
   const [matchMode, setMatchMode] = useState('any');
   const [current, setCurrent] = useState(0);
   const [mobileOpen, setMobileOpen] = useState(false);
   useEffect(() => {
-    const controller = new AbortController(); setBook(null); setError(''); setCurrent(0);
-    fetch(`/api/book?layer=${layer}`, { signal: controller.signal }).then(async response => {
-      const data = await response.json(); if (!response.ok) throw new Error(data.error); return data as Book;
-    }).then(data => {
+    const controller = new AbortController(); setBook(null); setError(''); setCurrent(0); setSelected([]);
+    loadLibraryDocument<Book & Partial<LibraryDocument>>(`/.netlify/functions/library?document=${encodeURIComponent(documentId)}`, controller.signal).then(data => {
+      if (controller.signal.aborted) return;
       setBook(data);
       const first = data.characters.find(c => c.name.startsWith('Elizabeth'));
-      setSelected(first ? [first.id] : [data.characters[0].id]);
+      setSelected(first ? [first.id] : data.characters.length ? [data.characters[0].id] : []);
     }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
     return () => controller.abort();
-  }, [layer]);
+  }, [documentId, retry]);
   useEffect(() => {
     if (!book) return;
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -56,8 +75,6 @@ export default function Reader() {
   })).sort((a, b) => b.count - a.count) : [], [book]);
   const colorFor = (id: string) => colors[Math.max(0, cast.findIndex(c => c.id === id)) % colors.length];
   const activeColor = selected.length ? colorFor(selected[0]) : '#536171';
-  const activeNames = cast.filter(c => selected.includes(c.id)).map(c => c.name);
-  const focusName = activeNames.length === 1 ? activeNames[0] : activeNames.length ? `${activeNames.length} characters` : 'The whole book';
   const requireAll = matchMode === 'all' && selected.length > 1;
   const matches = book?.passages.map((p, i) => !selected.length || (requireAll ? selected.every(id => p.labels.includes(id)) : selected.some(id => p.labels.includes(id))) ? i : -1).filter(i => i >= 0) ?? [];
   function jump(index: number | undefined) {
@@ -70,24 +87,25 @@ export default function Reader() {
 
   return <div className="min-h-screen bg-paper text-ink">
     <a href="#reading-text" className="sr-only z-50 rounded bg-white p-3 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Skip to book</a>
-    <header className="fixed inset-x-0 top-0 z-40 flex h-16 items-center justify-between border-b border-rule bg-panel px-5 lg:hidden">
-      <span className="font-serif text-lg">Pride and Prejudice</span>
-      <Button outline aria-expanded={mobileOpen} aria-controls="channels" onClick={() => setMobileOpen(!mobileOpen)}>{mobileOpen ? 'Close channels' : 'Channels'}</Button>
+    <header className="fixed left-0 right-10 top-0 z-40 flex h-16 items-center justify-between border-b border-rule bg-panel px-5 lg:hidden">
+      <span className="min-w-0 truncate pr-3 font-serif text-lg">{title}</span>
+      <Button outline aria-expanded={mobileOpen} aria-controls="channels" onClick={() => setMobileOpen(!mobileOpen)}>{mobileOpen ? 'Close characters' : 'Characters'}</Button>
     </header>
     <aside id="channels" className={`${mobileOpen ? 'block' : 'hidden'} fixed inset-x-0 top-16 bottom-0 z-30 border-r border-rule bg-panel lg:inset-x-auto lg:top-0 lg:left-0 lg:block lg:w-[290px] xl:w-[320px]`}>
-      <Sidebar aria-label="Reading channels">
+      <Sidebar aria-label="Characters">
         <SidebarHeader className="px-6! pt-7! pb-5! lg:pt-10!">
-          <a href="/" className="font-serif text-[27px] leading-tight tracking-tight">Pride and Prejudice</a>
-          <p className="mt-2 font-serif text-lg italic text-muted">Jane Austen · 1813</p>
-          <Field className="mt-6">
-            <Label className="text-muted!">Explore by</Label>
-            <Select value={layer} onChange={e => setLayer(e.target.value)} className="mt-2">
-              <option value="mentions">Mentioned in the text</option><option value="speaking">Speaking in dialogue</option>
+          <a href="/" className="font-serif text-[27px] leading-tight tracking-tight">{title}</a>
+          <p className="mt-2 font-serif text-lg italic text-muted">{documentInfo?.author ?? 'Unknown author'}{documentInfo?.year ? ` · ${documentInfo.year}` : ''}</p>
+          <Field className="mt-4">
+            <Label>Document</Label>
+            <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => { setDocumentId(e.target.value); setMatchMode('any'); }} className="mt-2">
+              {!documents.length && <option value="pride-and-prejudice">Loading library…</option>}
+              {documents.map(d => <option key={d.documentId} value={d.documentId}>{d.title}{documents.filter(other => other.title === d.title).length > 1 ? ` · Gutenberg ${d.source.split("/").at(-1)}` : ""}</option>)}
             </Select>
           </Field>
         </SidebarHeader>
         <SidebarBody className="gap-2 px-5! pt-4!">
-          <div className="flex items-center justify-between px-2"><h2 className="text-sm font-semibold text-muted">Channels</h2><Button plain className="text-xs! text-muted!" onClick={() => setSelected([])}>Clear</Button></div>
+          <div className="flex items-center justify-between px-2"><h2 className="text-sm font-semibold text-muted">Characters</h2><Button plain className="text-xs! text-muted!" onClick={() => setSelected([])}>Clear</Button></div>
           {book && <>
             <button className={`channel-card w-full cursor-pointer rounded-lg border p-3 text-left ${!selected.length ? 'border-rule bg-ink/5' : 'border-transparent hover:bg-ink/3'}`} onClick={() => setSelected([])} aria-pressed={!selected.length}>
               <span className="flex items-baseline justify-between gap-2"><strong className="text-base font-medium">The book</strong><span className="text-xs text-muted">all {book.passages.length} passages</span></span>
@@ -107,56 +125,53 @@ export default function Reader() {
               <option value="any">Any selected character</option>
               <option value="all">All selected characters</option>
             </Select>
-            <p className="mt-2 text-xs leading-4 text-muted">{layer === 'mentions' ? 'Shared mentions, not necessarily a conversation.' : 'All selected characters speak in the passage; they may not address each other.'}</p>
+            <p className="mt-2 text-xs leading-4 text-muted">{mentionLayer ? 'Shared mentions, not necessarily a conversation.' : 'All selected characters speak in the passage; they may not address each other.'}</p>
           </Field>}
           {requireAll && matches.length === 0 && <p role="status" className="text-sm text-muted">No passages include all selected characters. Try fewer characters or another layer.</p>}
           <div className="flex items-baseline justify-between gap-3"><h2 className="text-sm font-semibold">{requireAll ? 'Shared passages' : selected.length ? 'Selected thread' : 'Whole book'}</h2><span className="text-xs text-muted">{matches.length} passages</span></div>
-          <div className="flex items-center gap-3 text-sm text-muted"><span className="h-3 w-7 rounded-xs" style={{ background: activeColor }} />{layer === 'mentions' ? 'Annotated references' : 'Spoken aloud'}</div>
+          <div className="flex items-center gap-3 text-sm text-muted"><span className="h-3 w-7 rounded-xs" style={{ background: activeColor }} />{baseline ? 'Name matches' : mentionLayer ? 'Annotated references' : 'Spoken aloud'}</div>
           <div className="grid grid-cols-2 gap-2">
             <Button outline disabled={previous === undefined} onClick={() => jump(previous)} className="px-2! text-xs!">← Previous passage</Button>
             <Button outline disabled={next === undefined} onClick={() => jump(next)} className="px-2! text-xs!">Next passage →</Button>
           </div>
-          <div className="border-t border-rule pt-4"><p className="font-serif text-lg">Chapter {book?.passages[current]?.chapter ?? 1}</p><p className="mt-1 text-xs text-muted">Passage {current + 1} of {book?.passages.length ?? '—'} · {book ? Math.round((book.passages[current]?.start ?? 0) / book.text.length * 100) : 0}% through</p></div>
+          <div className="border-t border-rule pt-4"><p className="font-serif text-lg">{sectionTitle(book?.passages[current]?.chapter ?? 1)}</p><p className="mt-1 text-xs text-muted">Passage {current + 1} of {book?.passages.length ?? '—'} · {book ? Math.round((book.passages[current]?.start ?? 0) / book.text.length * 100) : 0}% through</p></div>
         </SidebarFooter>
       </Sidebar>
     </aside>
 
     <main id="reading-text" className="reading-column mr-12 min-w-0 px-6 pt-28 pb-24 sm:px-10 lg:ml-[290px] lg:mr-[155px] lg:px-12 lg:pt-9 xl:ml-[320px] xl:mr-[185px] xl:px-20">
       <div className="mx-auto max-w-[860px]">
-        <h1 className="font-serif text-3xl leading-tight tracking-tight sm:text-4xl">Pride and Prejudice</h1>
-        <p className="mt-3 mb-5 text-sm leading-6 text-muted">Select characters to inspect their {layer === 'mentions' ? 'mentions' : 'dialogue'}. Use the map to jump to a passage.</p>
-        <EmotionComparison key={layer} layer={layer} ready={!!book}>
+        <h1 className="font-serif text-3xl leading-tight tracking-tight sm:text-4xl">{title}</h1>
+        <p className="mt-3 mb-5 text-sm leading-6 text-muted">Select characters to inspect their {mentionLayer ? 'mentions' : 'dialogue'}. Use the map to jump to a passage.</p>
+        <EmotionComparison key={documentId} layer={`document:${documentId}`} ready={!!book}>
         <div className="research-state mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-y border-rule bg-paper py-3 text-xs" aria-label="Annotation source">
-          <strong className="font-semibold">Gold annotations · {layer === 'mentions' ? 'BookCoref · Mentions' : 'PDNC · Speakers'}</strong>
+          <strong className="font-semibold">{baseline ? 'Baseline · name matches' : `Gold annotations · ${mentionLayer ? 'BookCoref · Mentions' : 'PDNC · Speakers'}`}</strong>
           <span className="text-muted">Full-book spoilers</span>
         </div>
-        {error && <p role="alert" className="mt-10 rounded border border-red-200 bg-red-50 p-5 text-red-800">{error}</p>}
-        {!book && !error && <p role="status" className="mt-16 font-serif text-xl text-muted">Opening the annotated edition…</p>}
+        {error && <p role="alert" className="mt-10 rounded border border-red-200 bg-red-50 p-5 text-red-800">{error} <button className="underline underline-offset-4" onClick={() => setRetry(n => n + 1)}>Try again</button></p>}
+        {!book && !error && <p role="status" className="mt-16 font-serif text-xl text-muted">Opening the document…</p>}
         {book && <>
           <div className="book-text">{book.passages.map((p, index) => {
             const matching = selected.filter(id => p.labels.includes(id));
             const newChapter = index === 0 || book.passages[index - 1].chapter !== p.chapter;
+            const passageText = readerPassageText(book,index);
             return <section key={p.id} id={`passage-${index}`} data-index={index} data-focused={matches.includes(index)} data-shared={selected.length > 1 && matching.length === selected.length}
               className={`passage relative mb-12 scroll-mt-24 lg:scroll-mt-16 ${selected.length && matches.includes(index) ? 'matched' : ''}`}>
               <div className="passage-threads" aria-hidden="true">
                 {matching.map(id => <span key={id} className="passage-thread" data-character-id={id} style={{ backgroundColor: colorFor(id) }} />)}
               </div>
-              {newChapter && <h2 className="mb-7 pt-5 font-serif text-2xl text-ink">Chapter {p.chapter}</h2>}
-              <div className="passage-meta mb-3 flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted"><span>{String(index + 1).padStart(3, '0')}</span>{matching.map(id => <span key={id} style={{ color: colorFor(id) }}>{cast.find(c => c.id === id)?.name}</span>)}{selected.length > 1 && matching.length === selected.length && <span className="font-semibold text-ink">{layer === 'mentions' ? 'All selected mentioned' : 'All selected speak'}</span>}</div>
-              <p className="font-serif text-[21px] leading-[1.95] whitespace-pre-line sm:text-[23px]"><EmotionText passageId={p.id} fallback={readerSegments(book.text.slice(p.start, p.end), layer === 'mentions').map((part, i) => part.emphasis ? <em key={i}>{part.text}</em> : part.text)} /></p>
+              {newChapter && <h2 className="mb-7 pt-5 font-serif text-2xl text-ink">{sectionTitle(p.chapter)}</h2>}
+              <div className="passage-meta mb-3 flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted"><span>{String(index + 1).padStart(3, '0')}</span>{matching.map(id => <span key={id} style={{ color: colorFor(id) }}>{cast.find(c => c.id === id)?.name}</span>)}{selected.length > 1 && matching.length === selected.length && <span className="font-semibold text-ink">{mentionLayer ? 'All selected mentioned' : 'All selected speak'}</span>}</div>
+              <p className="font-serif text-[21px] leading-[1.95] whitespace-pre-line sm:text-[23px]"><EmotionText passageId={p.id} fallback={readerSegments(passageText, baseline ? book.textFormat === 'tokenized' : mentionLayer).map((part, i) => part.emphasis ? <em key={i}>{part.text}</em> : part.text)} /></p>
             </section>;
           })}</div>
-          <footer className="border-t border-rule pt-7 text-sm leading-7 text-muted">Character tracks use reference annotations. Emotion backgrounds are experimental JEV sentence suggestions; underlines are NRC word associations. Each layer keeps its own source edition; switching layers resets the reading position. <a className="underline underline-offset-4" href={book.source} target="_blank" rel="noreferrer">Dataset source</a></footer>
+          <footer className="border-t border-rule pt-7 text-sm leading-7 text-muted">{baseline ? 'Name and alias matches for a selected cast. These do not resolve pronouns or establish physical presence. Generic aliases may be ambiguous; an unmarked passage does not prove a character is absent.' : 'Human reference annotations, not JEV predictions or physical-presence labels. Each layer keeps its own source edition.'} Switching documents resets the reading position. <a className="underline underline-offset-4" href={book.source} target="_blank" rel="noreferrer">Source edition</a></footer>
         </>}
         </EmotionComparison>
       </div>
     </main>
-    <aside className="fixed top-20 right-1 bottom-5 w-10 lg:top-0 lg:right-0 lg:bottom-0 lg:w-[155px] lg:border-l lg:border-rule lg:bg-panel xl:w-[185px]" aria-label="Whole-book character map">
-      <div className="hidden h-36 px-4 pt-6 lg:block"><p className="truncate text-sm text-muted" title={focusName}>{focusName}</p><p className="mt-1 text-[11px] text-muted">{layer === 'mentions' ? 'Mention' : 'Speaker'} frequency</p><p className="mt-1 text-[11px] leading-4 text-muted">Share of matching passages<br />5-passage window</p></div>
-      {book && <>
-        <div className="h-full lg:h-[calc(100%-253px)]"><CharacterRail book={book} selected={selected} current={current} colorFor={colorFor} jump={jump} /></div>
-        <div className="hidden space-y-2 px-5 pt-4 lg:block"><label htmlFor="book-position" className="text-xs text-muted">Book position</label><input id="book-position" type="range" className="w-full accent-slate-600" min={0} max={book.passages.length - 1} value={current} onChange={e => jump(Number(e.target.value))} aria-valuetext={`Chapter ${book.passages[current].chapter}, passage ${current + 1}`} /><p className="text-[11px] leading-4 text-muted">{selected.length > 1 ? 'Dark marks: all selected in the same passage. Bands: chapters.' : 'Bands mark chapters. Click the map to navigate.'}</p></div>
-      </>}
+    <aside className="fixed inset-y-0 right-0 w-10 lg:w-[155px] lg:border-l lg:border-rule lg:bg-panel xl:w-[185px]" aria-label="Whole-book character map">
+      {book && <CharacterRail book={book} selected={selected} current={current} colorFor={colorFor} jump={jump} />}
     </aside>
   </div>;
 }
