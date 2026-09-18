@@ -25,7 +25,11 @@ export default function Reader() {
   useEffect(() => {
     const controller = new AbortController();
     fetch('/.netlify/functions/library', { signal: controller.signal }).then(async response => {
-      const data = await response.json(); if (!response.ok) throw new Error(data.error); setDocuments(data.documents);
+      const data = await response.json(); if (!response.ok) throw new Error(data.error);
+      setDocuments((data.documents as DocumentSummary[]).toSorted((a, b) =>
+        a.title.localeCompare(b.title, 'en', { sensitivity: 'base', numeric: true }) ||
+        a.source.localeCompare(b.source, 'en', { numeric: true }) ||
+        a.documentId.localeCompare(b.documentId, 'en', { numeric: true })));
     }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
     return () => controller.abort();
   }, [retry]);
@@ -137,7 +141,7 @@ export default function Reader() {
       <div className="mx-auto max-w-[860px]">
         <h1 className="font-serif text-3xl leading-tight tracking-tight sm:text-4xl">{title}</h1>
         <p className="mt-3 mb-5 text-sm leading-6 text-muted">Select characters to inspect their {mentionLayer ? 'mentions' : 'dialogue'}. Use the map to jump to a passage.</p>
-        <div className="research-state sticky top-16 z-20 mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-y border-rule bg-paper py-3 text-xs lg:top-0" aria-label="Annotation source">
+        <div className="research-state mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-y border-rule bg-paper py-3 text-xs" aria-label="Annotation source">
           <strong className="font-semibold">{baseline ? 'Baseline · name matches' : `Gold annotations · ${mentionLayer ? 'BookCoref · Mentions' : 'PDNC · Speakers'}`}</strong>
           <span className="text-muted">Full-book spoilers</span>
         </div>
