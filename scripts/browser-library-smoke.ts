@@ -37,6 +37,7 @@ try {
   await page.getByRole('button',{name:'Characters',exact:true}).click();
   await page.getByLabel('Document',{exact:true}).selectOption('frankenstein');
   await page.waitForFunction(()=>document.querySelectorAll('.passage').length===191);
+  await page.getByRole('button',{name:'Characters',exact:true}).click();
   await page.screenshot({path:'/tmp/jev-library-mobile-channels.png'});
   await page.getByRole('button',{name:'Close characters'}).click();
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));

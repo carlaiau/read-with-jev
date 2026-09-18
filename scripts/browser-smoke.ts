@@ -12,16 +12,18 @@ try {
   await page.locator('.passage').last().waitFor();
   const book = await (await page.request.get(`${baseURL}/.netlify/functions/library?document=pride-and-prejudice`)).json();
   assert.equal(await page.locator('.passage').count(), book.passages.length);
+  assert.equal(await page.locator('#channels').getByRole('checkbox', { checked: true }).count(), 0);
+  await page.getByRole('checkbox', { name: 'Elizabeth Bennet', exact: false }).check();
   assert(await page.locator('.matched').count() > 0);
   await page.getByRole('checkbox', { name: 'Mr. Darcy', exact: false }).check();
   assert.equal(await page.locator('.rail-curve').count(), 2);
   const sharedCount = await page.locator('.passage[data-shared="true"]').count();
   assert(sharedCount > 0);
   assert.equal(await page.locator('.rail-shared').count(), sharedCount);
-  await page.getByLabel('Match passages').selectOption('all');
+  await page.getByRole('radio', { name: 'Both', exact: true }).check();
   assert.equal(await page.locator('.passage[data-focused="true"]').count(), sharedCount);
   assert.equal(await page.locator('.passage[data-focused="true"][data-shared="false"]').count(), 0);
-  await page.getByLabel('Match passages').selectOption('any');
+  await page.getByRole('radio', { name: 'Any', exact: true }).check();
   assert(await page.locator('.passage[data-focused="true"]').count() > sharedCount);
   for (const curve of await page.locator('.rail-curve').all()) {
     const id = await curve.getAttribute('data-character-id');

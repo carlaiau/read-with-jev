@@ -56,6 +56,14 @@ Connect this repository to Netlify using the committed `netlify.toml`: it runs `
 
 Responses larger than 4.5 MB use revision-pinned JSON parts; the client reassembles them before rendering. Preparation rejects logical documents at 30 MB. All catalog files are bundled together, so reconsider bundle size as the collection grows.
 
+## Book links and selection state
+
+Each Gutenberg edition has a permalink such as `/1342-pride-and-prejudice`. The ID distinguishes editions with the same title; an outdated title slug redirects to the current one. Documents without a Gutenberg ID use their stable library ID, such as `/animal-farm`. Unknown links return 404. The home page redirects to Pride and Prejudice.
+
+Changing books navigates to its permalink and starts with no selected characters, the default match mode, and the first passage. Reloading and browser Back/Forward use the document in the URL. Book-specific reader state is isolated by document identity, and abandoned requests are aborted.
+
+Run `READER_URL=http://127.0.0.1:3000 node --import tsx scripts/browser-document-state.ts` to check selection isolation, history, reloads, rapid switching, and edition links.
+
 ## Sources and adding documents
 
 `library/documents.json` owns metadata and cast aliases. `library/sources.lock.json` pins raw-source URL/checksum pairs. Ignored `data/library-sources/` holds downloaded source text; ignored `data/library/` holds generated responses. Ordinary preparation verifies source checksums and fails if an upstream edition changes.
