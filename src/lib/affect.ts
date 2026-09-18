@@ -34,11 +34,12 @@ export function baseline(pair: Pair, document: AffectDocument, engine: string, l
   }
   assert.equal(engine, 'nearest'); return 1;
 }
-export function evaluatePairs(pairs: Pair[], scores: Record<string, number>, threshold = 0.5) {
+export type EvaluationPair = { id: string; gold: boolean; emotion: {type: string} };
+export function evaluatePairs(pairs: EvaluationPair[], scores: Record<string, number>, threshold = 0.5) {
   assert(Number.isFinite(threshold) && threshold >= 0 && threshold <= 1, 'Invalid threshold');
   assert.equal(new Set(pairs.map(p => p.id)).size, pairs.length, 'Duplicate pair IDs');
   assert.deepEqual(Object.keys(scores).sort(), pairs.map(p => p.id).sort(), 'Incomplete or unexpected predictions');
-  const count = (subset: Pair[]) => {
+  const count = (subset: EvaluationPair[]) => {
     let tp = 0, fp = 0, fn = 0, tn = 0, brier = 0;
     for (const p of subset) {
       const score = scores[p.id]; assert(Number.isFinite(score) && score >= 0 && score <= 1, 'Invalid probability');

@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {readJson,digest} from '../src/lib/io';
+import {evaluatePairs,type AffectData} from '../src/lib/affect';
+import {highlightPairs} from '../src/lib/affect-highlights';
+const path=process.argv[2];assert(path,'Pass one completed development JEV highlight run');
+const run=await readJson<{task:string;split:string;engine:string;status:string;datasetHash:string;documentIds:string[];scores:Record<string,number>}>(path);
+assert(run.split==='dev'&&run.engine==='jev'&&run.status==='complete'&&run.task.startsWith('REMAN character-mention by eight emotions'),'Only completed development JEV highlight runs may select thresholds');
+const raw=await readFile('data/processed/affect.json','utf8'),data=JSON.parse(raw) as AffectData;assert.equal(run.datasetHash,digest(raw));
+const docs=run.documentIds.map(id=>{const d=data.documents.find(d=>d.doc_id===id);assert(d&&d.split==='dev');return d;});
+const pairs=docs.flatMap(highlightPairs);
+const candidates=Array.from({length:19},(_,i)=>{const threshold=(i+1)/20;return {threshold,...evaluatePairs(pairs,run.scores,threshold).micro};});
+const selected=[...candidates].sort((a,b)=>b.f1-a.f1||b.threshold-a.threshold)[0];
+console.log(JSON.stringify({datasetHash:run.datasetHash,documentIds:run.documentIds,sourceRun:path,selectionRule:'Maximize micro F1 on 0.05..0.95 in steps of .05; ties prefer higher threshold. This is a development selection, not probability calibration.',selectedThreshold:selected.threshold,candidates},null,2));

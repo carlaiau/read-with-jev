@@ -17,7 +17,8 @@
     "typecheck": "tsc --noEmit",
     "test:browser": "node --import tsx scripts/browser-smoke.ts",
     "affect:prepare": "python3 scripts/prepare-affect.py",
-    "affect:benchmark": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx scripts/benchmark-affect.ts"
+    "affect:benchmark": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx scripts/benchmark-affect.ts",
+    "affect:highlights": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx scripts/benchmark-affect-highlights.ts"
   },
   "dependencies": {
     "@headlessui/react": "2.2.10",

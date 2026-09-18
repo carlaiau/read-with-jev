@@ -139,3 +139,7 @@ for the compact marker ablation. [Exact prompts and state](docs/affect-prompts.m
 [iteration 2 results](docs/affect-iteration-2.md) document the experiment.
 Pin `--model jev-1.13.0` when reproducing iteration 2. The new dry run may have a different
 request payload/cache identity from the original pilot even when the sample IDs match.
+
+The next [passage-highlight experiment](docs/affect-iteration-3.md) uses `npm run affect:highlights`
+to predict eight emotion associations per supplied character, without supplied emotion spans.
+It is a separate, harder task with development-only evaluation and a frozen-threshold follow-up.
