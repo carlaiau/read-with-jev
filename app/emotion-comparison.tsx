@@ -8,6 +8,9 @@ import {Button} from '../src/catalyst/typescript/button';
 type Result={status:'pending'|'complete'|'error';scores?:EmotionScores;error?:string};
 type Context={metadata:EmotionMetadata|null;emotions:ReadingEmotion[];nrc:boolean;jev:boolean;results:Map<string,Result>;inspect:(s:ReadingSentence,trigger:HTMLElement)=>void};
 const Comparison=createContext<Context|null>(null);
+const Controls=createContext<ReactNode>(null),Inspection=createContext<ReactNode>(null);
+export function EmotionControls(){return useContext(Controls);}
+export function EmotionInspection(){return useContext(Inspection);}
 const label=(s:string)=>s[0].toUpperCase()+s.slice(1);
 const verdicts=['Supported','Wrong emotion','Wrong span','Unclear'] as const;
 export function EmotionComparison({layer,children,ready}:{layer:string;children:ReactNode;ready:boolean}){
@@ -38,8 +41,7 @@ export function EmotionComparison({layer,children,ready}:{layer:string;children:
  const value=useMemo(()=>({metadata,emotions,nrc,jev,results:cache.current,inspect:(s:ReadingSentence,element:HTMLElement)=>{trigger.current=element;setSelected(s);setFeedback({});requestAnimationFrame(()=>inspector.current?.focus({preventScroll:true}));}}),[metadata,emotions,nrc,jev,revision]);
  function closeInspector(){setSelected(null);requestAnimationFrame(()=>trigger.current?.focus({preventScroll:true}));}
  function saveFeedback(emotion:ReadingEmotion,verdict:string){if(!selected||!metadata)return;try{localStorage.setItem(`emotion-review:${metadata.sourceKey}:${selected.id}:${emotion}`,JSON.stringify({verdict,unit:'sentence',model:metadata.model,threshold:metadata.threshold,at:new Date().toISOString()}));setFeedback(f=>({...f,[emotion]:`${verdict} · saved on this device`}));}catch{setFeedback(f=>({...f,[emotion]:`${verdict} · could not save on this device`}));}}
- return <Comparison.Provider value={value}>
-  <div className="emotion-controls">
+ const controls=<div className="emotion-controls">
    <div className="emotion-controls-row">
     <CheckboxField><Checkbox checked={nrc} onChange={setNrc} aria-label="NRC underlines"/><Label><span className="nrc-legend">NRC underlines</span></Label></CheckboxField>
     <CheckboxField><Checkbox checked={jev} onChange={setJev} disabled={!!metadata&&!metadata.jevAvailable} aria-label="JEV highlights"/><Label><span className="jev-legend">JEV highlights</span></Label></CheckboxField>
@@ -49,7 +51,8 @@ export function EmotionComparison({layer,children,ready}:{layer:string;children:
    <div className="emotion-note">Dictionary words · JEV sentence suggestions · No character attribution</div>
    <div className="emotion-status" role="status" aria-live="polite">{loadError||(!metadata?'Loading emotion vocabulary…':!metadata.jevAvailable?'JEV is not configured on this server. NRC is available.':!jev?'JEV paused.':'')}{metadata&&jev&&metadata.jevAvailable&&(pending?'Analysing nearby sentences…':'JEV analyses as you scroll. Click a marked sentence to inspect.')}</div>
    {errors.length>0&&jev&&<div className="emotion-error"><span>{errors[0].error}</span><Button plain onClick={()=>{for(const [id,r] of cache.current)if(r.status==='error')cache.current.delete(id);setRetry(v=>v+1);setRevision(v=>v+1);}}>Retry analysis</Button></div>}
-   {selected&&metadata&&<div className="emotion-inspector" role="region" ref={inspector} tabIndex={-1} aria-label="Emotion inspection" onKeyDown={e=>{if(e.key==='Escape'){e.preventDefault();closeInspector();}}}>
+  </div>;
+ const inspection=selected&&metadata&&<div className="emotion-inspector" role="region" ref={inspector} tabIndex={-1} aria-label="Emotion inspection" onKeyDown={e=>{if(e.key==='Escape'){e.preventDefault();closeInspector();}}}>
     <div className="flex items-center justify-between gap-3"><strong>Selected sentence</strong><button aria-label="Close emotion inspection" onClick={closeInspector} className="underline underline-offset-4">Close</button></div>
     {emotions.map(emotion=>{const words=lexicalRanges(selected.target,metadata.lexicon,emotion).map(r=>selected.target.slice(r.start,r.end));const suggested=!!selectionResult?.scores&&selectionResult.scores[emotion]>=metadata.threshold;return <div key={emotion} className="emotion-inspection-row">
      <strong style={{color:emotionColors[emotion]}}>{label(emotion)}</strong>
@@ -57,10 +60,8 @@ export function EmotionComparison({layer,children,ready}:{layer:string;children:
      <p>JEV: {selectionResult?.status==='error'?'Analysis failed.':selectionResult?.status==='pending'?'Analysing…':selectionResult?.status==='complete'?(suggested?'Sentence-level suggestion; not extracted evidence.':'No suggestion at the current threshold; this does not establish absence.'):'Not analysed yet.'}</p>
      {suggested&&<><div className="emotion-feedback">{verdicts.map(v=><button key={v} aria-label={`${v}: ${label(emotion)}`} onClick={()=>saveFeedback(emotion,v)}>{v}</button>)}</div><p role="status">{feedback[emotion]||'Feedback is saved only on this device.'}</p></>}
     </div>;})}
-   </div>}
-  </div>
-  {children}
- </Comparison.Provider>;
+   </div>;
+ return <Comparison.Provider value={value}><Controls.Provider value={controls}><Inspection.Provider value={inspection}>{children}</Inspection.Provider></Controls.Provider></Comparison.Provider>;
 }
 export function EmotionText({passageId,fallback}:{passageId:string;fallback:ReactNode}){
  const ctx=useContext(Comparison),plan=ctx?.metadata?.plans.find(p=>p.id===passageId);

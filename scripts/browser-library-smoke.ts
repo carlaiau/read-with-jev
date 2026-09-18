@@ -16,9 +16,9 @@ try {
     await page.getByLabel('Document',{exact:true}).selectOption(doc.documentId);
     await page.waitForFunction(({title,count})=>document.querySelector('h1')?.textContent===title && document.querySelectorAll('.passage').length===count,{title:doc.title,count:doc.passages});
     assert.equal(await page.getByLabel('Explore by').count(),0);
-    assert.equal(await page.locator('#channels').getByRole('checkbox').count(),doc.characters);
+    assert.equal(await page.locator('#channels .channel-card').getByRole('checkbox').count(),doc.characters);
     assert((await page.locator('.research-state').innerText()).includes('Baseline'));
-    const first=page.locator('#channels').getByRole('checkbox').first();await first.check();
+    const first=page.locator('#channels .channel-card').getByRole('checkbox').first();await first.check();
     assert((await page.locator('.rail-curve').count())>0);
   }
   await page.getByLabel('Document',{exact:true}).selectOption('moby-dick');

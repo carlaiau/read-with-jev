@@ -12,7 +12,7 @@ try {
   await page.locator('.passage').last().waitFor();
   const book = await (await page.request.get(`${baseURL}/.netlify/functions/library?document=pride-and-prejudice`)).json();
   assert.equal(await page.locator('.passage').count(), book.passages.length);
-  assert.equal(await page.locator('#channels').getByRole('checkbox', { checked: true }).count(), 0);
+  assert.equal(await page.locator('#channels .channel-card').getByRole('checkbox', { checked: true }).count(), 0);
   await page.getByRole('checkbox', { name: 'Elizabeth Bennet', exact: false }).check();
   assert(await page.locator('.matched').count() > 0);
   await page.getByRole('checkbox', { name: 'Mr. Darcy', exact: false }).check();

@@ -1,6 +1,6 @@
 # NRC and JEV reader comparison
 
-The existing reader now has independent NRC-underlining and JEV-background toggles, with all eight
+The sidebar, above the document selector, contains independent NRC-underlining and JEV-background toggles, with all eight
 emotions enabled initially: anger, anticipation, disgust, fear, joy, sadness, surprise and trust.
 Colours are shared across both layers; text and the underline/background distinction carry meaning
 without relying on colour alone. Filled circles are enabled; hollow circles are hidden. Hover or
@@ -46,9 +46,16 @@ text and gold offsets are never modified. Sentence contexts stay within chapter 
 server supplies sentence boundaries to the client, avoiding browser/server segmentation mismatch.
 Live reader outputs use their own cache namespace and are not benchmark gold or held-out scores.
 
+## Known segmentation limitation
+
+The current `Intl.Segmenter` boundaries can split Gutenberg hard-wrapped lines and titles such
+as “Mr.” into fragments. Consequently, a short JEV background can look like extracted phrase
+evidence even though it covers an entire supplied segment. This needs correction before treating
+all units as grammatical sentences; the model does not return evidence offsets.
+
 ## Inspection
 
-Click or keyboard-activate a marked sentence to inspect the enabled categories, NRC words, and
+The sentence inspector stays in the reading column, including when the mobile sidebar is closed. Click or keyboard-activate a marked sentence to inspect the enabled categories, NRC words, and
 JEV sentence-level status. Focus moves into the inspector and returns to the sentence on Close
 or Escape. Suggested sentences offer Supported, Wrong emotion, Wrong span, and Unclear feedback.
 These choices are saved only in this browser's localStorage, keyed by edition/text, sentence and

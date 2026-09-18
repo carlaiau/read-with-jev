@@ -1,5 +1,5 @@
 'use client';
-import {EmotionComparison,EmotionText} from './emotion-comparison';
+import {EmotionComparison,EmotionControls,EmotionInspection,EmotionText} from './emotion-comparison';
 import { useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { documentPath } from '../src/lib/document-url';
@@ -88,7 +88,7 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
   const previous = matches.filter(i => i < current).at(-1), next = matches.find(i => i > current);
   const toggle = (id: string) => setSelected(ids => ids.includes(id) ? ids.filter(v => v !== id) : [...ids, id]);
 
-  return <div className="min-h-screen bg-paper text-ink">
+  return <EmotionComparison key={documentId} layer={`document:${documentId}`} ready={!!book}><div className="min-h-screen bg-paper text-ink">
     <a href="#reading-text" className="sr-only z-50 rounded bg-white p-3 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Skip to book</a>
     <header className="fixed left-0 right-10 top-0 z-40 flex h-16 items-center justify-between border-b border-rule bg-panel px-5 lg:hidden">
       <span className="min-w-0 truncate pr-3 font-serif text-lg">{title}</span>
@@ -99,6 +99,7 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
         <SidebarHeader className="px-6! pt-7! pb-5! lg:pt-10!">
           <a href={documentPath(documentInfo)} className="font-serif text-[27px] leading-tight tracking-tight">{title}</a>
           <p className="mt-2 font-serif text-lg italic text-muted">{documentInfo?.author ?? 'Unknown author'}{documentInfo?.year ? ` · ${documentInfo.year}` : ''}</p>
+          <EmotionControls />
           <Field className="mt-4">
             <Label>Document</Label>
             <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => {
@@ -154,7 +155,7 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
       <div className="mx-auto max-w-[860px]">
         <h1 className="font-serif text-3xl leading-tight tracking-tight sm:text-4xl">{title}</h1>
         <p className="mt-3 mb-5 text-sm leading-6 text-muted">Select characters to inspect their {mentionLayer ? 'mentions' : 'dialogue'}. Use the map to jump to a passage.</p>
-        <EmotionComparison key={documentId} layer={`document:${documentId}`} ready={!!book}>
+        <EmotionInspection />
         <div className="research-state mb-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-y border-rule bg-paper py-3 text-xs" aria-label="Annotation source">
           <strong className="font-semibold">{baseline ? 'Baseline · name matches' : `Gold annotations · ${mentionLayer ? 'BookCoref · Mentions' : 'PDNC · Speakers'}`}</strong>
           <span className="text-muted">Full-book spoilers</span>
@@ -178,11 +179,10 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
           })}</div>
           <footer className="border-t border-rule pt-7 text-sm leading-7 text-muted">{baseline ? 'Name and alias matches for a selected cast. These do not resolve pronouns or establish physical presence. Generic aliases may be ambiguous; an unmarked passage does not prove a character is absent.' : 'Human reference annotations, not JEV predictions or physical-presence labels. Each layer keeps its own source edition.'} Switching documents resets the reading position. <a className="underline underline-offset-4" href={book.source} target="_blank" rel="noreferrer">Source edition</a></footer>
         </>}
-        </EmotionComparison>
       </div>
     </main>
     <aside className="fixed inset-y-0 right-0 w-10 lg:w-[155px] lg:border-l lg:border-rule lg:bg-panel xl:w-[185px]" aria-label="Whole-book character map">
       {book && <CharacterRail book={book} selected={selected} current={current} colorFor={colorFor} jump={jump} />}
     </aside>
-  </div>;
+  </div></EmotionComparison>;
 }

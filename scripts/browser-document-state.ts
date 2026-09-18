@@ -11,7 +11,7 @@ try {
     console.log(`Checking ${id}`);
     await page.waitForFunction(id => (document.querySelector('select[aria-label="Document"]') as HTMLSelectElement)?.value===id && document.querySelectorAll('.passage').length>0, id);
     await page.getByLabel('Document',{exact:true}).waitFor();
-    assert.equal(await page.locator('#channels').getByRole('checkbox',{checked:true}).count(),0);
+    assert.equal(await page.locator('#channels .channel-card').getByRole('checkbox',{checked:true}).count(),0);
     assert.equal(await page.locator('.matched, .passage-thread').count(),0);
   };
   await page.route('**/api/emotions?*',route=>route.fulfill({json:{sourceKey:'navigation-fixture',plans:[],lexicon:{},jevAvailable:false,model:'fixture',threshold:.75}}));
@@ -25,7 +25,7 @@ try {
   await page.getByLabel('Document',{exact:true}).selectOption('moby-dick');
   await waitBook('moby-dick');
   assert.equal(new URL(page.url()).pathname,'/2701-moby-dick');
-  await page.locator('#channels').getByRole('checkbox').nth(2).check();
+  await page.locator('#channels .channel-card').getByRole('checkbox').nth(2).check();
   await page.reload();
   await waitBook('moby-dick');
   await page.goBack();

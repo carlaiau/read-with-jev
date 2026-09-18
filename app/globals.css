@@ -26,7 +26,7 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .channel-card { transition: background-color 150ms, border-color 150ms; }
 @media (prefers-reduced-motion: reduce) { .passage p, .channel-card { transition: none; } }
 
-.emotion-controls { --emotion-color: var(--color-muted); margin-bottom: 1.5rem; border-block: 1px solid var(--color-rule); padding: .85rem 0; font-size: .8125rem; line-height: 1.55; }
+.emotion-controls { --emotion-color: var(--color-muted); margin-top: 1rem; border-block: 1px solid var(--color-rule); padding: .85rem 0; font-size: .8125rem; line-height: 1.55; }
 .emotion-controls-row { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.25rem; }
 .emotion-picker { display: flex; flex-wrap: wrap; max-width: 100%; gap: 2px; }
 .emotion-note, .emotion-status { color: var(--color-muted); margin-top: .4rem; }
@@ -41,9 +41,9 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .emotion-feedback { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .65rem; }
 .emotion-feedback button { border: 1px solid var(--color-rule); border-radius: 5px; background: var(--color-panel); padding: .3rem .55rem; }
 .emotion-feedback button:hover { background: var(--color-paper); }
-.emotion-controls { position: sticky; top: 4rem; z-index: 20; background: var(--color-paper); }
-.passage { scroll-margin-top: 18rem; }
-@media (min-width: 1024px) { .emotion-controls { top: 0; } .passage { scroll-margin-top: 12rem; } }
+
+.passage { scroll-margin-top: 6rem; }
+@media (min-width: 1024px) { .passage { scroll-margin-top: 4rem; } }
 @media (max-width: 639px) {
   .emotion-controls-row { gap: .65rem .75rem; }
   .emotion-controls-row > [data-slot=field] { column-gap: .5rem; }
@@ -60,3 +60,17 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .emotion-underline { background-size: 100% 2px; background-position: left bottom; background-repeat: no-repeat; padding-bottom: 3px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .emotion-inspector { max-height: 45vh; overflow-y: auto; }
 .emotion-inspection-row { padding-block: .65rem; border-bottom: 1px solid var(--color-rule); }
+
+.emotion-controls-row { gap: .6rem; }
+.emotion-controls-row > [data-slot=field] { width: 100%; column-gap: .5rem; }
+.emotion-controls-row [data-slot=label] { font-size: .8125rem; }
+.emotion-picker { width: 100%; display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 0; }
+.emotion-toggle { width: 100%; min-height: 32px; }
+.emotion-controls .emotion-note, .emotion-controls .emotion-status { font-size: .75rem; }
+.emotion-inspector { position: sticky; top: 4rem; z-index: 20; background: var(--color-paper); margin-bottom: 1.25rem; padding: .75rem; border: 1px solid var(--color-rule); }
+@media (min-width: 1024px) { .emotion-inspector { top: 0; } }
+/* Keep every sidebar section reachable on short screens. */
+@media (max-height: 800px) {
+  #channels > nav { overflow-y: auto; }
+  #channels > nav > div { flex: none; overflow: visible; }
+}
