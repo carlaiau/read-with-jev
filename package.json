@@ -15,7 +15,10 @@
     "benchmark": "node --env-file-if-exists=.env --env-file-if-exists=.env.local --import tsx scripts/benchmark.ts",
     "test": "node --import tsx --test tests/*.test.ts",
     "typecheck": "tsc --noEmit",
-    "test:browser": "node --import tsx scripts/browser-smoke.ts"
+    "test:browser": "node --import tsx scripts/browser-smoke.ts",
+    "library:prepare": "node --import tsx scripts/prepare-library.ts",
+    "build:netlify": "npm run library:prepare && npm run build",
+    "test:library:browser": "node --import tsx scripts/browser-library-smoke.ts"
   },
   "dependencies": {
     "@headlessui/react": "2.2.10",

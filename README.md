@@ -1,15 +1,17 @@
 # Read with JEV
 
-A Next.js / TypeScript research prototype for a novel reader with a character minimap. The first book is **Pride and Prejudice**.
+A Next.js / TypeScript research prototype for a novel reader with a character minimap. The library includes nine documents, with **Pride and Prejudice** selected initially.
 
-The reader currently displays **human annotations**, not model predictions:
+The reader defaults to **deterministic name/alias baseline classifications** across nine documents. A document selector loads one book at a time from a Netlify function. See [the library and hosting guide](docs/document-library.md).
+
+Local research layers for *Pride and Prejudice* retain **human annotations**:
 
 - **Mentioned:** BookCoref Gold, 38 character identities, 16,419 mention spans, 406 passages.
 - **Speaking:** PDNC, 74 registry entries, 1,270 quotations / 1,708 subquotation spans, 319 passages.
 
 Select characters to highlight passages, click the minimap to navigate, or use previous/next match. The two datasets retain their own editions and offsets. This is a full-book research view with spoilers.
 
-The UI uses **Tailwind CSS v4 and the supplied Catalyst kit** in `src/catalyst/typescript`: sidebar, field/label, select, checkbox, and button components. Its three-column layout follows the supplied reading-instrument reference, with chapter-coverage sparklines on the left and a full-book activity rail on the right. The curve is a five-passage average of annotated matches, not emotional tone or model confidence. On mobile, channels collapse behind a button while the narrow book rail remains visible. The bundled Catalyst demo is excluded from the application typecheck and Tailwind scan.
+The UI uses **Tailwind CSS v4 and the supplied Catalyst kit** in `src/catalyst/typescript`: sidebar, field/label, select, checkbox, and button components. Its three-column layout follows the supplied reading-instrument reference, with chapter-coverage sparklines on the left and a full-book activity rail on the right. The curve is a five-passage average of passage matches, not emotional tone or model confidence. On mobile, channels collapse behind a button while the narrow book rail remains visible. The bundled Catalyst demo is excluded from the application typecheck and Tailwind scan.
 
 ## Start locally
 
@@ -19,6 +21,7 @@ Dependencies use exact versions and a committed lockfile. Use npm 11.13+ to enfo
 
 ```sh
 npm ci
+npm run library:prepare
 npm run data:fetch
 npm run data:prepare
 npm run dev
@@ -65,7 +68,7 @@ Add `--execute --max-requests 60` to execute this 12-passage mention run. Omit `
 ## Checks and production build
 
 ```sh
-npm test                  # Requires prepared datasets
+npm test                  # Requires prepared research datasets and library
 npm run typecheck
 npm run build
 npm run start
@@ -75,11 +78,12 @@ With a local server running and Google Chrome installed:
 
 ```sh
 npm run test:browser
+npm run test:library:browser
 ```
 
 The browser check covers selection, clearing, navigation, layer switching, mobile overflow, and invalid API inputs. It saves desktop/mobile screenshots under `/tmp`.
 
-Next is configured for standalone output and explicitly includes both prepared JSON artifacts. Prepare the data before building on a deployment machine. This prototype has no long-running inference endpoint: book processing remains an offline job, which avoids server request timeouts. A hosted worker/job queue and durable cache are later work.
+For Netlify, the committed `netlify.toml` runs `npm run build:netlify`, prepares the checksum-locked library, and bundles its JSON in the native `library` function. Research-only selectors are hidden in this build. No inference credentials are needed. Next is also configured for standalone output with prepared-data tracing. See [the hosting guide](docs/document-library.md). This prototype has no long-running inference endpoint: book processing remains an offline job, which avoids server request timeouts. A hosted worker/job queue and durable cache are later work.
 
 ## Research status
 
@@ -93,13 +97,14 @@ The initial 12-passage development smoke run gave the name-matching mention base
 - [Dataset provenance and limitations](docs/datasets.md)
 - [Original MVP design and future presence layer](docs/mvp-design.md)
 - [Research grounding](docs/research.md)
+- [Proposed character-affect and plot-unit investigation](docs/affect-investigation.md)
 
 BookCoref annotations are described by their authors as **CC BY-NC-SA 4.0**. Keep research-data licensing separate from a future commercial reader. Dataset files are not committed or publicly deployed here. See the dataset notes for attribution and PDNC licensing status.
 
 
 ## Cross-book transfer evaluation
 
-`npm run data:prepare` also imports the pinned BookCoref gold editions of *Siddhartha* and *Animal Farm*, checking matching released token arrays, gold span bounds, chapter boundaries, and full text coverage. They are benchmark inputs; the reader UI remains on *Pride and Prejudice*.
+`npm run data:prepare` also imports the pinned BookCoref gold editions of *Siddhartha* and *Animal Farm*, checking matching released token arrays, gold span bounds, chapter boundaries, and full text coverage. They remain benchmark inputs. The reader also offers separate baseline library documents; Gutenberg editions can differ from the benchmark editions and passage counts.
 
 ```sh
 npm run benchmark -- --book siddhartha --split all --limit 1000 --engine jev --prompt explicit-mentions --concurrency 8 --execute --max-requests 266

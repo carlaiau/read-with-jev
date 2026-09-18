@@ -1,12 +1,15 @@
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
+const baseURL = process.env.READER_URL ?? 'http://127.0.0.1:3000';
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
-  await page.goto('http://127.0.0.1:3000');
+  await page.goto(baseURL);
   await page.locator('.passage').last().waitFor();
+  await page.getByLabel('Explore by').selectOption('mentions');
+  await page.waitForFunction(() => document.querySelectorAll('.passage').length === 406);
   assert.equal(await page.locator('.passage').count(), 406);
   assert(await page.locator('.matched').count() > 0);
   await page.getByRole('checkbox', { name: 'Mr. Darcy', exact: false }).check();
@@ -68,7 +71,7 @@ try {
   await page.waitForFunction(() => document.querySelectorAll('.passage').length === 319);
   assert.equal(await page.getByRole('checkbox').count(), 74);
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto('http://127.0.0.1:3000');
+  await page.goto(baseURL);
   await page.locator('.passage').last().waitFor();
   await page.getByRole('button', { name: 'Channels', exact: true }).click();
   await page.getByLabel('Explore by').selectOption('speaking');
@@ -76,7 +79,7 @@ try {
   await page.getByRole('button', { name: 'Close channels' }).click();
   assert(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth));
   await page.screenshot({ path: '/tmp/read-with-jev-mobile.png' });
-  const invalid = await page.request.get('http://127.0.0.1:3000/api/book?layer=../../.env');
+  const invalid = await page.request.get(`${baseURL}/api/book?layer=../../.env`);
   assert.equal(invalid.status(), 400);
   assert.deepEqual(errors, []);
   console.log('Reader checks passed: Catalyst selection, clear, passage navigation, keyboard position slider, rail click, layer switching, mobile channels, mobile width, invalid layer, and no browser errors.');

@@ -12,8 +12,8 @@ import { chapterActivity } from '../app/reader-charts';
 test('character sparklines measure actual chapter coverage', () => {
   const book = { passages: [{ chapter: 1, labels: ['a'] }, { chapter: 1, labels: ['b'] }, { chapter: 2, labels: ['b'] }] } as unknown as Book;
   const values = chapterActivity(book, ['a']);
-  assert.equal(values.length, 61);
-  assert.equal(values[0], 0.5); assert.equal(values[1], 0); assert.equal(values[60], 0);
+  assert.equal(values.length, 2);
+  assert.equal(values[0], 0.5); assert.equal(values[1], 0);
 });
 
 test('PDNC literals parse nested lists, sets, apostrophes and escapes without executing code', () => {
