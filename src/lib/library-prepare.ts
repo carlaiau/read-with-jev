@@ -44,10 +44,12 @@ export function prepareLibraryDocument(spec: DocumentSpec, raw: string, sha256: 
       'sherlock-holmes': /^I\. A SCANDAL IN BOHEMIA\s*$/gm,
       'romeo-and-juliet': /^THE PROLOGUE\.?[ \t]*$/gm,
     };
-    const expression = anchors[spec.id]; assert(expression, 'Document needs a verified body anchor');
-    const matches = [...text.matchAll(new RegExp(expression.source, 'gm'))]; assert(matches.length, `No body anchor for ${spec.id}`);
-    text = text.slice(matches.at(-1)!.index).trim();
-    if (spec.id === 'pride-and-prejudice') text = 'CHAPTER I.\n\n' + text;
+    if (spec.segmentation !== 'automatic') {
+      const expression = anchors[spec.id]; assert(expression, 'Document needs a verified body anchor');
+      const matches = [...text.matchAll(new RegExp(expression.source, 'gm'))]; assert(matches.length, `No body anchor for ${spec.id}`);
+      text = text.slice(matches.at(-1)!.index).trim();
+      if (spec.id === 'pride-and-prejudice') text = 'CHAPTER I.\n\n' + text;
+    } else text = text.trim();
     text = removeIllustrations(text).replace(/\n{4,}/g, '\n\n\n');
   }
   const headingPatterns: Record<string, RegExp> = {
@@ -61,7 +63,7 @@ export function prepareLibraryDocument(spec: DocumentSpec, raw: string, sha256: 
     'sherlock-holmes': /^[IVXLCDM]+\. [A-Z][A-Z’'\- ]+\s*$/gm,
     'romeo-and-juliet': /^(?:THE PROLOGUE\.?|ACT [IVX]+|SCENE [IVX]+\.[^\n]*|Scene [IVX]+\.[^\n]*)\s*$/gm,
   };
-  const headings = [...text.matchAll(headingPatterns[spec.id])].map(m => ({ start: m.index!, title: m[0].trim().replace(/\s+/g, ' ') }));
+  const headings = spec.segmentation === 'automatic' ? automaticSections(text) : [...text.matchAll(headingPatterns[spec.id])].map(m => ({ start: m.index!, title: m[0].trim().replace(/\s+/g, ' ') }));
   assert(headings.length && headings[0].start === 0, `Body must begin at a section: ${spec.id}`);
   const expected: Record<string, number> = { 'pride-and-prejudice': 61, siddhartha: 12, 'animal-farm': 10, frankenstein: 28, 'alice-in-wonderland': 12, 'sherlock-holmes': 12 };
   if (expected[spec.id]) assert.equal(headings.length, expected[spec.id], `Unexpected section count: ${spec.id}`);
@@ -76,5 +78,15 @@ export function prepareLibraryDocument(spec: DocumentSpec, raw: string, sha256: 
   return { schema: 1, id: 'mentions', documentId: spec.id, title: spec.title, author: spec.author, year: spec.year, textFormat, layer: 'Baseline · name matches', source: spec.sourcePage,
     text, characters: spec.characters, passages, sections, evidence: [],
     classification: { kind: 'baseline', method: 'literal-name-matching', version: 1, registryHash: digest(JSON.stringify(spec.characters)), coverage: spec.registryNote },
-    provenance: { sourceUrl: spec.sourceUrl, sourceSha256: sha256, textSha256: digest(text), offsets: 'Half-open UTF-16 in this normalized edition', transformation: 'Normalize newlines, strip Gutenberg wrapper and front matter using verified body anchors; remove illustration captions. Animal Farm uses released tokens only.', annotationStatus: 'No gold labels used. Passage labels are deterministic name/alias matches, not physical presence or resolved pronouns.', rights: spec.format === 'bookcoref-text' ? 'BookCoref release: CC BY-NC-SA 4.0; research use. Underlying text rights depend on jurisdiction.' : 'Project Gutenberg edition; retain source attribution and consult its terms.' } };
+    provenance: { sourceUrl: spec.sourceUrl, sourceSha256: sha256, textSha256: digest(text), offsets: 'Half-open UTF-16 in this normalized edition', transformation: spec.segmentation === 'automatic' ? 'Normalize newlines, strip Gutenberg wrapper, remove illustration captions; retain body front matter and divide into automatic reading sections.' : 'Normalize newlines, strip Gutenberg wrapper and front matter using verified body anchors; remove illustration captions. Animal Farm uses released tokens only.', segmentation: spec.segmentation ?? 'verified-headings', castSource: spec.castSource ?? 'library/documents.json', annotationStatus: 'No gold labels used. Passage labels are deterministic name/alias matches, not physical presence or resolved pronouns.', rights: spec.format === 'bookcoref-text' ? 'BookCoref release: CC BY-NC-SA 4.0; research use. Underlying text rights depend on jurisdiction.' : 'Project Gutenberg edition; retain source attribution and consult its terms.' } };
+}
+
+/** Bounded reading sections for uncurated editions; these are not inferred chapters/scenes. */
+export function automaticSections(text: string): {start: number; title: string}[] {
+  const sections = [{start: 0, title: 'Reading section 1'}];
+  for (const m of text.matchAll(/\n[ \t]*\n(?=\S)/g)) {
+    const start = m.index! + m[0].length;
+    if (start - sections.at(-1)!.start >= 16000) sections.push({start, title: `Reading section ${sections.length + 1}`});
+  }
+  return sections;
 }

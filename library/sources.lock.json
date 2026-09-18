@@ -34,5 +34,193 @@
   "romeo-and-juliet": {
     "url": "https://www.gutenberg.org/cache/epub/1513/pg1513.txt",
     "sha256": "5a2037a19e60cccb67b3f5fc93a12cb65c58694ce6a1dc61d0d67d0d2502b3b4"
+  },
+  "gutenberg-1727": {
+    "url": "https://www.gutenberg.org/cache/epub/1727/pg1727.txt",
+    "sha256": "ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9"
+  },
+  "gutenberg-2641": {
+    "url": "https://www.gutenberg.org/cache/epub/2641/pg2641.txt",
+    "sha256": "3dce58eb1786b10b79f8688968d293a1990dfed4a1f83a5c04a6a2a10381db36"
+  },
+  "gutenberg-65238": {
+    "url": "https://www.gutenberg.org/cache/epub/65238/pg65238.txt",
+    "sha256": "9c471327b71e137bdb9fd93a25adcd02c3c5f4383ea20f1dbf82b4056c2ca392"
+  },
+  "gutenberg-3268": {
+    "url": "https://www.gutenberg.org/cache/epub/3268/pg3268.txt",
+    "sha256": "5b5d82ce7c236781eadc1c9556c2caec499c70ba5ab222a5dc22473443a70a1c"
+  },
+  "gutenberg-2465": {
+    "url": "https://www.gutenberg.org/cache/epub/2465/pg2465.txt",
+    "sha256": "30d6649b7c85c3c0079143faa1863ba83261fd5244eff038df79df024cd23d49"
+  },
+  "gutenberg-67979": {
+    "url": "https://www.gutenberg.org/cache/epub/67979/pg67979.txt",
+    "sha256": "b418e6dae92794a0a79cb160f29d88c5e7169d342f9128f005d91905e9023636"
+  },
+  "gutenberg-2868": {
+    "url": "https://www.gutenberg.org/cache/epub/2868/pg2868.txt",
+    "sha256": "dc857e3fba033291f93fe582bd102520e41a0e3774332b210de3a83b566d3ea8"
+  },
+  "gutenberg-34413": {
+    "url": "https://www.gutenberg.org/cache/epub/34413/pg34413.txt",
+    "sha256": "a40eca21085663178f45946c5bee44f20380d1ff888c4e2cac6265c86f926274"
+  },
+  "gutenberg-1260": {
+    "url": "https://www.gutenberg.org/cache/epub/1260/pg1260.txt",
+    "sha256": "13414dee2951c3ee731d76d2ffd822016b2479c892162760c5d0eb2aa5fa7631"
+  },
+  "gutenberg-5197": {
+    "url": "https://www.gutenberg.org/cache/epub/5197/pg5197.txt",
+    "sha256": "91177a06a0be117eee0a0a4f1a543bb64a5c6d958dbd711d010d6f513b0a3bda"
+  },
+  "gutenberg-59828": {
+    "url": "https://www.gutenberg.org/cache/epub/59828/pg59828.txt",
+    "sha256": "b634c6e629fe67526193a3f21e7b393d6cde2a326bca62ae90a21f0acebee970"
+  },
+  "gutenberg-345": {
+    "url": "https://www.gutenberg.org/cache/epub/345/pg345.txt",
+    "sha256": "96cd16eacdbfebae8fdda5591f66e0cc8ee76be18e0cd1aca02bc00615782d28"
+  },
+  "gutenberg-3011": {
+    "url": "https://www.gutenberg.org/cache/epub/3011/pg3011.txt",
+    "sha256": "11c3cd3a803278bf9b78115043dff2f064a984448f19ba14c53a72fdb556caaf"
+  },
+  "gutenberg-1695": {
+    "url": "https://www.gutenberg.org/cache/epub/1695/pg1695.txt",
+    "sha256": "16fde29acf764ba5742fd5db8833f424b6b89c0f6e282d518f6c626006faf6e1"
+  },
+  "gutenberg-6133": {
+    "url": "https://www.gutenberg.org/cache/epub/6133/pg6133.txt",
+    "sha256": "1b8fcfb078007a2fd0d33371563741aa821694149efed2f4dd368a9f67bd2ff8"
+  },
+  "gutenberg-21839": {
+    "url": "https://www.gutenberg.org/cache/epub/21839/pg21839.txt",
+    "sha256": "3c091e71db07bdf542d564c8dfa9b8f7c82baef37814755587cecc14ab76e5af"
+  },
+  "gutenberg-2680": {
+    "url": "https://www.gutenberg.org/cache/epub/2680/pg2680.txt",
+    "sha256": "6977474f82a39dd88a4af31a59504821658174d33c177732c54357e4d680b96c"
+  },
+  "gutenberg-24739": {
+    "url": "https://www.gutenberg.org/cache/epub/24739/pg24739.txt",
+    "sha256": "3dba1d8b300a22603c4a1e2176b38f953c4ca364296bb6b88d50d88a6c0585b8"
+  },
+  "gutenberg-51252": {
+    "url": "https://www.gutenberg.org/cache/epub/51252/pg51252.txt",
+    "sha256": "1508927f53c7a409d69ac13ec38226547dc904b901fc492403d34dffcd2e7117"
+  },
+  "gutenberg-601": {
+    "url": "https://www.gutenberg.org/cache/epub/601/pg601.txt",
+    "sha256": "9b139e3492be456112e578f4f7c220951ea9a561a52e7b0283622e33d85d34db"
+  },
+  "gutenberg-831": {
+    "url": "https://www.gutenberg.org/cache/epub/831/pg831.txt",
+    "sha256": "53f968fb28496c8def6642da6e7c8d40249faac4a5ddabebe3bfb99a1e6b52dd"
+  },
+  "gutenberg-145": {
+    "url": "https://www.gutenberg.org/cache/epub/145/pg145.txt",
+    "sha256": "dc2e0107e6ae07e8e33da934b2ec4e8e600826a2e0cd48df265119cd02e5fb50"
+  },
+  "gutenberg-76639": {
+    "url": "https://www.gutenberg.org/cache/epub/76639/pg76639.txt",
+    "sha256": "1131311fe3c5d69acfdc822630e13e6a73d37419fa421c460ed9c6c4d2152f34"
+  },
+  "gutenberg-72": {
+    "url": "https://www.gutenberg.org/cache/epub/72/pg72.txt",
+    "sha256": "5ad6732dba9d385518aaccabd775fce28e28e9d90b6046b9cd2d011e96684ae0"
+  },
+  "gutenberg-19476": {
+    "url": "https://www.gutenberg.org/cache/epub/19476/pg19476.txt",
+    "sha256": "c7092738a5f1a6ae00497e8eaedf45a9bfa6fb5f92c2c74a75013f75a94b6e2c"
+  },
+  "gutenberg-7326": {
+    "url": "https://www.gutenberg.org/cache/epub/7326/pg7326.txt",
+    "sha256": "eddaead236e1ed34d7e011c7315016b3000f5ddd8f1148a165e455e40746d5f2"
+  },
+  "gutenberg-468": {
+    "url": "https://www.gutenberg.org/cache/epub/468/pg468.txt",
+    "sha256": "6ccd3dbaee257596161408dd0822d21f6937e674db63b4c3c80735c61d9d47f0"
+  },
+  "gutenberg-75201": {
+    "url": "https://www.gutenberg.org/cache/epub/75201/pg75201.txt",
+    "sha256": "e33b8eea4483cbd5cff9cfe759a7440b358cfa586f30e584813777b712d0bd1f"
+  },
+  "gutenberg-22541": {
+    "url": "https://www.gutenberg.org/cache/epub/22541/pg22541.txt",
+    "sha256": "d80c08fe710a9fe72fb80f3c347978927eac431bf5e706b76a48908d7a3a399f"
+  },
+  "gutenberg-43": {
+    "url": "https://www.gutenberg.org/cache/epub/43/pg43.txt",
+    "sha256": "b43448a88391591f9cf82b25553df00faf47a2752a873185fcdd1156eebdb990"
+  },
+  "gutenberg-42671": {
+    "url": "https://www.gutenberg.org/cache/epub/42671/pg42671.txt",
+    "sha256": "3d2d320092e4b501cd0075bbc4fccac2c322d925710a9df05172e9cef86b5863"
+  },
+  "gutenberg-45839": {
+    "url": "https://www.gutenberg.org/cache/epub/45839/pg45839.txt",
+    "sha256": "49d64e0bf224fc98525b5516914f8ce67d797f66de977fa242d000226127e765"
+  },
+  "gutenberg-8492": {
+    "url": "https://www.gutenberg.org/cache/epub/8492/pg8492.txt",
+    "sha256": "a1fe8503649b13bc46c6b98c49000eb8a9da59f9d3bd7aa8f94fc1b258c53096"
+  },
+  "gutenberg-42": {
+    "url": "https://www.gutenberg.org/cache/epub/42/pg42.txt",
+    "sha256": "6f5ebfb79a24bb24e88c8f7e5f35515321e545bf4f137fce6e406c9da0bb2b59"
+  },
+  "gutenberg-37106": {
+    "url": "https://www.gutenberg.org/cache/epub/37106/pg37106.txt",
+    "sha256": "494309c7c4b1a750f19bb69258760a602032ebb0a52955f5153818b3508d5fe0"
+  },
+  "gutenberg-564": {
+    "url": "https://www.gutenberg.org/cache/epub/564/pg564.txt",
+    "sha256": "a4cf4c82590e2d803695f5ed6fc7199eb2da33d848c452945def288f64163cfa"
+  },
+  "gutenberg-47530": {
+    "url": "https://www.gutenberg.org/cache/epub/47530/pg47530.txt",
+    "sha256": "cf02dfcd155e076f3abfef15b62845b7072f342d57b21b903ae4143e14a58560"
+  },
+  "gutenberg-3296": {
+    "url": "https://www.gutenberg.org/cache/epub/3296/pg3296.txt",
+    "sha256": "ef3fa6267968c875def9091a1882d14b525a85bbf6996a3e2f130a775b2e22d2"
+  },
+  "gutenberg-36462": {
+    "url": "https://www.gutenberg.org/cache/epub/36462/pg36462.txt",
+    "sha256": "d1fcc621f85b2c249061c4849ba269de1e10d7caa6184c1e4ee9ee3d272534cf"
+  },
+  "gutenberg-40284": {
+    "url": "https://www.gutenberg.org/cache/epub/40284/pg40284.txt",
+    "sha256": "50916c89cd7fa5015229f1fa03763852b77b5a0858d708ca3ae69774324aed53"
+  },
+  "gutenberg-393": {
+    "url": "https://www.gutenberg.org/cache/epub/393/pg393.txt",
+    "sha256": "845a998cab58fb388aa28b836b83ce49a1de49ba0701c591682122cfb1e5e64c"
+  },
+  "gutenberg-100": {
+    "url": "https://www.gutenberg.org/cache/epub/100/pg100.txt",
+    "sha256": "3cf4b3d44ee14cff4e14e78e2ad3318eff76f3f7f2afc3cee6bb925879110a37"
+  },
+  "gutenberg-1184": {
+    "url": "https://www.gutenberg.org/cache/epub/1184/pg1184.txt",
+    "sha256": "64f8d5cfa51fcecb904abf7312d395d512a71817e7359b91288beb50517c3836"
+  },
+  "gutenberg-1259": {
+    "url": "https://www.gutenberg.org/cache/epub/1259/pg1259.txt",
+    "sha256": "a0d263486d61d4f1e33964da3a136bbc5528e744dfcda02c4289203b3ff22c0e"
+  },
+  "gutenberg-245": {
+    "url": "https://www.gutenberg.org/cache/epub/245/pg245.txt",
+    "sha256": "91388a58a49f9c321fc5b1611560b0302d043a7e955c2f3f6c619d91befc8f01"
+  },
+  "gutenberg-71046": {
+    "url": "https://www.gutenberg.org/cache/epub/71046/pg71046.txt",
+    "sha256": "3d68a04c18cd1437bf0ef32129edff7acdc14cacabdfed07ef21be6f3e205227"
+  },
+  "gutenberg-31100": {
+    "url": "https://www.gutenberg.org/cache/epub/31100/pg31100.txt",
+    "sha256": "c9bbfcf8abae1d740cdd4c10a1a1b701a140a1687d20f48fea0d871782695e9b"
   }
 }

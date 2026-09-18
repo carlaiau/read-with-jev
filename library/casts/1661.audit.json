@@ -1,0 +1,104 @@
+{
+  "chunks": [
+    {
+      "start": 950,
+      "end": 575095,
+      "key": "c323c52f5070e83f8ec85dfca17e8297065ed6984eb1cf009be19af06506a3d1",
+      "usage": {
+        "input_tokens": 157780,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 11629,
+        "output_tokens_details": {
+          "reasoning_tokens": 6400
+        },
+        "total_tokens": 169409
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Irene Adler",
+      "alias": "Irene Norton",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Wilhelm Gottsreich Sigismond von Ormstein",
+      "alias": "Wilhelm Gottsreich Sigismond von Ormstein, Grand Duke of Cassel-Felstein, and hereditary King of Bohemia",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Peter Jones",
+      "alias": "Peter Jones",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Lestrade",
+      "alias": "Inspector Lestrade",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Cobb",
+      "alias": "John Cobb",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Openshaw",
+      "alias": "Mr. John Openshaw",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Hugh Boone",
+      "alias": "the crippled wretch",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Oakshott",
+      "alias": "Mrs Oakshott",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Julia Stoner",
+      "alias": "Julia Stoner",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Julia Stoner",
+      "alias": "my sister Julia",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Alice Turner",
+      "alias": "Alice Turner",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Francis Hay Moulton",
+      "alias": "Mr. Francis Hay Moulton",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Francis Hay Moulton",
+      "alias": "Mrs. Francis Hay Moulton",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Arthur Holder",
+      "alias": "Arthur Holder",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Jephro Rucastle",
+      "alias": "Jephro Rucastle",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Violet Hunter",
+      "alias": "Violet Hunter",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

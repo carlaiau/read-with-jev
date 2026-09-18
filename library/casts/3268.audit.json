@@ -1,0 +1,107 @@
+{
+  "chunks": [
+    {
+      "start": 896,
+      "end": 650866,
+      "key": "f06d82e89b0e7c5a8a9343b8dbc5e06c85c88a57ddbeeec721b3579d37a15562",
+      "usage": {
+        "input_tokens": 168336,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4980,
+        "output_tokens_details": {
+          "reasoning_tokens": 3392
+        },
+        "total_tokens": 173316
+      }
+    },
+    {
+      "start": 650866,
+      "end": 1300817,
+      "key": "054257150632f8ab0f7d7c1d36c705ed35f5801c3843ff21aa376f8b4d41d9b8",
+      "usage": {
+        "input_tokens": 171192,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7730,
+        "output_tokens_details": {
+          "reasoning_tokens": 5184
+        },
+        "total_tokens": 178922
+      }
+    },
+    {
+      "start": 1300817,
+      "end": 1711270,
+      "key": "154d2d0c0a6f02483133060fb117d874739850057734cb9228da0c777f730f1d",
+      "usage": {
+        "input_tokens": 107633,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5095,
+        "output_tokens_details": {
+          "reasoning_tokens": 3072
+        },
+        "total_tokens": 112728
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "4bceebed2f37d194d14c825eb6d688f135e958a839dfd9f00d671ec126825104",
+    "usage": {
+      "input_tokens": 7610,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 4613,
+      "output_tokens_details": {
+        "reasoning_tokens": 3904
+      },
+      "total_tokens": 12223
+    }
+  },
+  "rejected": [
+    {
+      "name": "Emily",
+      "alias": "Ma'amselle St. Aubert",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Emily",
+      "alias": "Signora St. Aubert",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "M. Barreaux",
+      "alias": "Mons. Barreaux",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Henri",
+      "alias": "Chevalier Henri",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Monsieur Bonnac",
+      "alias": "Monsieur Bonnac",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Gregoire",
+      "alias": "Gregoire the butler",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Philip",
+      "alias": "Philip the butler",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

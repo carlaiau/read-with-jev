@@ -1,0 +1,49 @@
+{
+  "chunks": [
+    {
+      "start": 934,
+      "end": 329587,
+      "key": "c07d953e585a8b9073a4bdd95f6d8f9c6265d264b1039d80afff58af5f1a4cad",
+      "usage": {
+        "input_tokens": 88585,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7130,
+        "output_tokens_details": {
+          "reasoning_tokens": 5568
+        },
+        "total_tokens": 95715
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Sunday (the President)",
+      "alias": "the President of the Central Anarchist Council",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the red-haired detective",
+      "alias": "the red-haired detective",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the innkeeper (Le Soleil d'Or)",
+      "alias": "Le Soleil d'Or",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the peasant (wood‑cutter / cart driver)",
+      "alias": "the French peasant",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the Scotland Yard chief in the dark room",
+      "alias": "the chief of one of our departments",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

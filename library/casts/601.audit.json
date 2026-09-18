@@ -1,0 +1,110 @@
+{
+  "chunks": [
+    {
+      "start": 880,
+      "end": 650831,
+      "key": "e9afc0b7a7358cad51e6e47efc8913c9ed9d0b1e8ff3b723ca7f1439ee391a81",
+      "usage": {
+        "input_tokens": 169546,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7101,
+        "output_tokens_details": {
+          "reasoning_tokens": 5120
+        },
+        "total_tokens": 176647
+      }
+    },
+    {
+      "start": 650831,
+      "end": 802520,
+      "key": "6c2517edd73abe1ce911074bd7213c305654ff65bc6d1fa25d11a643428da225",
+      "usage": {
+        "input_tokens": 39316,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5630,
+        "output_tokens_details": {
+          "reasoning_tokens": 3968
+        },
+        "total_tokens": 44946
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "cca09de8b1be3d1b2de157ddbe04944fe2258e5515b86e3bbf3f60dd7a84c48e",
+    "usage": {
+      "input_tokens": 4588,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 4300,
+      "output_tokens_details": {
+        "reasoning_tokens": 1088
+      },
+      "total_tokens": 8888
+    }
+  },
+  "rejected": [
+    {
+      "name": "Ambrosio",
+      "alias": "the Man of Holiness",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Matilda de Villanegas / Rosario",
+      "alias": "Matilda de Villanegas",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mother Bertha",
+      "alias": "Mother Bertha",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mother Cornelia",
+      "alias": "Mother Cornelia",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Otto von Lindenberg",
+      "alias": "Otto von Lindenberg",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Agnes de Medina",
+      "alias": "the Unknown (the Unknown)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Agnes de Medina",
+      "alias": "the rescued Prisoner",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Ambrosio",
+      "alias": "the Man of Holiness",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Matilda",
+      "alias": "the supposed Novice",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Marchioness de Villa-Franca",
+      "alias": "the Marchioness de Villa-Franca",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Officer (unnamed)",
+      "alias": "an Officer",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

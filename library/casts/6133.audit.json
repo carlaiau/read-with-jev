@@ -1,0 +1,64 @@
+{
+  "chunks": [
+    {
+      "start": 1008,
+      "end": 318158,
+      "key": "b4db8b4f3bce6b5395b1e5fc023f4abf6367000cea90e42613592b5cc5ef7423",
+      "usage": {
+        "input_tokens": 88053,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 10826,
+        "output_tokens_details": {
+          "reasoning_tokens": 8576
+        },
+        "total_tokens": 98879
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Arsène Lupin",
+      "alias": "Arsène Lupin, gentleman-burglar",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Miss Nelly Underdown",
+      "alias": "Miss Nelly Underdown",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Baron Nathan Cahorn (Baron Satan)",
+      "alias": "Baron Nathan Cahorn",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Countess de Dreux-Soubise",
+      "alias": "The Countess de Dreux-Soubise",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Count de Dreux-Soubise",
+      "alias": "Count de Dreux-Soubise",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "President of Essaville",
+      "alias": "the president of Essaville",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Léotine Zalti (Countess d’Andillot)",
+      "alias": "Léotine Zalti",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Monsieur and Madame d’Androl",
+      "alias": "Mon. and Madame d’Androl",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

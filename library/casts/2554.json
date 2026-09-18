@@ -1,0 +1,854 @@
+{
+  "schema": 1,
+  "gutenbergId": 2554,
+  "sourceSha256": "d139120965c81f10e3f747d891a49babdb49d986b25f7ab25299b1bbf4731146",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-54c247a7f8f5da34",
+      "name": "Rodion Romanovitch Raskolnikov",
+      "description": "A destitute former student living in a Petersburg garret; central protagonist who struggles with poverty, theory, and conscience and confesses to the murders.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Raskolnikov",
+          "evidence": [
+            15067,
+            15078
+          ]
+        },
+        {
+          "text": "Rodya",
+          "evidence": [
+            70773,
+            70778
+          ]
+        },
+        {
+          "text": "Rodion Romanovitch Raskolnikov",
+          "evidence": [
+            316628,
+            316658
+          ]
+        },
+        {
+          "text": "Rodion",
+          "evidence": [
+            103910,
+            103916
+          ]
+        },
+        {
+          "text": "Rodion Romanovitch",
+          "evidence": [
+            103910,
+            103928
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7f5e02a0eca1ed4a",
+      "name": "Sofya Semyonovna Marmeladov (Sonia)",
+      "description": "A young woman forced into prostitution to support her stepfamily; compassionate, religious, and Raskolnikov’s confidante.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sonia",
+          "evidence": [
+            39873,
+            39878
+          ]
+        },
+        {
+          "text": "Sofya Semyonovna",
+          "evidence": [
+            43744,
+            43760
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1737a5a24ebb635a",
+      "name": "Semyon Zakharovitch Marmeladov",
+      "description": "An indebted, alcoholic titular counsellor whose tragic life and death affect his family; father of Sonia.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marmeladov",
+          "evidence": [
+            27937,
+            27947
+          ]
+        },
+        {
+          "text": "Semyon Zaharovitch",
+          "evidence": [
+            48167,
+            48185
+          ]
+        },
+        {
+          "text": "Mr. Marmeladov",
+          "evidence": [
+            510094,
+            510108
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-92b72116009f7ed8",
+      "name": "Katerina Ivanovna Marmeladov",
+      "description": "Marmeladov’s consumptive, proud, and suffering wife who struggles to care for her children.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Katerina Ivanovna",
+          "evidence": [
+            33649,
+            33666
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-13f538e0f3dedc53",
+      "name": "Pulcheria Alexandrovna Raskolnikov",
+      "description": "Raskolnikov’s devoted, anxious mother who travels to Petersburg and suffers from worry and illness.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pulcheria Alexandrovna",
+          "evidence": [
+            422490,
+            422512
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3ab91c4b8e291034",
+      "name": "Avdotya Romanovna Raskolnikov (Dounia)",
+      "description": "Raskolnikov’s proud, strong-willed sister whose proposed marriage and moral integrity shape key plot events.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Avdotya Romanovna",
+          "evidence": [
+            96199,
+            96216
+          ]
+        },
+        {
+          "text": "Dounia",
+          "evidence": [
+            71050,
+            71056
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b241238c778fd586",
+      "name": "Dmitri Prokofitch Razumihin",
+      "description": "An open-hearted, energetic former student and loyal friend who befriends the Raskolnikov family and helps Rodion.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Razumihin",
+          "evidence": [
+            120315,
+            120324
+          ]
+        },
+        {
+          "text": "Dmitri Prokofitch",
+          "evidence": [
+            461540,
+            461557
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1dc45a85667139f7",
+      "name": "Nastasya",
+      "description": "Servant/cook in Raskolnikov’s lodging-house who cares for him and attends the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Nastasya",
+          "evidence": [
+            66580,
+            66588
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b05f103926557fd",
+      "name": "Alyona Ivanovna",
+      "description": "A cruel, miserly old pawnbroker whose murder sets the central crime in motion.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Alyona Ivanovna",
+          "evidence": [
+            17879,
+            17894
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-09d4b5dd80532701",
+      "name": "Lizaveta Ivanovna",
+      "description": "The pawnbroker’s meek, submissive sister and secondary murder victim.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lizaveta Ivanovna",
+          "evidence": [
+            143589,
+            143606
+          ]
+        },
+        {
+          "text": "Lizaveta",
+          "evidence": [
+            16796,
+            16804
+          ]
+        },
+        {
+          "text": "Lizaveta, the pedlar",
+          "evidence": [
+            678039,
+            678059
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-76da7c98a6287b13",
+      "name": "Amalia Lippevechsel",
+      "description": "The German widow landlady of the lodging-house block who houses many tenants and presides over household affairs.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Amalia Lippevechsel",
+          "evidence": [
+            58500,
+            58519
+          ]
+        },
+        {
+          "text": "Amalia Fyodorovna Lippevechsel",
+          "evidence": [
+            39329,
+            39359
+          ]
+        },
+        {
+          "text": "Amalia Ludwigovna",
+          "evidence": [
+            394402,
+            394419
+          ]
+        },
+        {
+          "text": "Amalia Ivanovna",
+          "evidence": [
+            394759,
+            394774
+          ]
+        },
+        {
+          "text": "Madame Lippevechsel",
+          "evidence": [
+            325187,
+            325206
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-80682652421ff3ce",
+      "name": "Praskovya Pavlovna",
+      "description": "A landlady who appears in the lodging-house domestic scenes and interacts with Raskolnikov and others.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Praskovya Pavlovna",
+          "evidence": [
+            67923,
+            67941
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1fe9b9cdcc4b34a4",
+      "name": "Pyotr Petrovitch Luzhin",
+      "description": "A stilted, self-important, moneyed suitor of Avdotya whose proposed marriage raises moral tensions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pyotr Petrovitch Luzhin",
+          "evidence": [
+            318071,
+            318094
+          ]
+        },
+        {
+          "text": "Luzhin",
+          "evidence": [
+            81936,
+            81942
+          ]
+        },
+        {
+          "text": "Pyotr Petrovitch",
+          "evidence": [
+            86535,
+            86551
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d0e0881671f3e0c4",
+      "name": "Porfiry Petrovitch",
+      "description": "The investigating magistrate handling the pawnbroker murder; thoughtful, clever, and psychologically probing.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Porfiry Petrovitch",
+          "evidence": [
+            295479,
+            295497
+          ]
+        },
+        {
+          "text": "Porfiry",
+          "evidence": [
+            295479,
+            295486
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a5346240cf8c5cf7",
+      "name": "Zossimov",
+      "description": "A young physician who examines and treats Raskolnikov; practical and observant about mental and physical conditions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Zossimov",
+          "evidence": [
+            266161,
+            266169
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d23da82811a6d1f",
+      "name": "Alexandr Grigorievitch Zametov",
+      "description": "A junior official/clerical acquaintance who appears in investigation-related and social scenes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Zametov",
+          "evidence": [
+            274537,
+            274544
+          ]
+        },
+        {
+          "text": "Alexandr Grigorievitch",
+          "evidence": [
+            274546,
+            274568
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9226e8c7818e1db8",
+      "name": "Ilya Petrovitch",
+      "description": "An assistant superintendent at the police office who questions locals in the murder inquiry.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ilya Petrovitch",
+          "evidence": [
+            224228,
+            224243
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e2827db523fb00e5",
+      "name": "Koch",
+      "description": "A witness/suspect connected with the pawnbroker murder case; appears in accounts of events at the building.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Koch",
+          "evidence": [
+            192769,
+            192773
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8c2b5a85abdfa6bb",
+      "name": "Pestryakov",
+      "description": "A man initially suspected or questioned in connection with events at the pawnbroker’s building.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pestryakov",
+          "evidence": [
+            236139,
+            236149
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-43333637cfd6015f",
+      "name": "Nikolay Dementyev",
+      "description": "A journeyman house-painter and workman who becomes implicated and at one point falsely confesses to the murders.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Nikolay",
+          "evidence": [
+            301164,
+            301171
+          ]
+        },
+        {
+          "text": "Nikolay Dementyev",
+          "evidence": [
+            302134,
+            302151
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b0535afdf2164fe",
+      "name": "Dmitri (painter)",
+      "description": "A colleague/journeyman painter who worked with Nikolay at the house where the murder occurred.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dmitri",
+          "evidence": [
+            302358,
+            302364
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-665af9dd6e5254ad",
+      "name": "Dushkin",
+      "description": "A dram-shop keeper who finds a jewel case and gives testimony that influences the investigation.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dushkin",
+          "evidence": [
+            300893,
+            300900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b69ba06b4839d049",
+      "name": "Kapernaumov",
+      "description": "A tailor/householder who provides lodging for Sonia and whose household figures in key scenes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kapernaumov",
+          "evidence": [
+            44512,
+            44523
+          ]
+        },
+        {
+          "text": "the Kapernaumovs",
+          "evidence": [
+            44508,
+            44524
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-46d2e357533b988c",
+      "name": "Kozel",
+      "description": "A German cabinet-maker whose rooms house Katerina Ivanovna’s family and scenes of domestic life.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kozel",
+          "evidence": [
+            56079,
+            56084
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aa3a0a00430d051d",
+      "name": "Polenka",
+      "description": "One of Katerina Ivanovna’s young daughters who runs errands and appears at the funeral and household scenes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Polenka",
+          "evidence": [
+            386307,
+            386314
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c64eaba559a9826f",
+      "name": "Lida",
+      "description": "One of Katerina Ivanovna’s young daughters who participates in family and street scenes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lida",
+          "evidence": [
+            388856,
+            388860
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1f67576f2feb7a57",
+      "name": "Kolya",
+      "description": "One of Katerina Ivanovna’s young sons who appears in family rituals and performances.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kolya",
+          "evidence": [
+            410106,
+            410111
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a1818d604bbd29fa",
+      "name": "Arkady Ivanovitch Svidrigaïlov",
+      "description": "A wealthy, morally ambiguous landowner connected to Dounia’s past who intervenes in several characters’ affairs.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Svidrigaïlov",
+          "evidence": [
+            72418,
+            72430
+          ]
+        },
+        {
+          "text": "Arkady Ivanovitch Svidrigaïlov",
+          "evidence": [
+            596047,
+            596077
+          ]
+        },
+        {
+          "text": "Mr. Svidrigaïlov",
+          "evidence": [
+            73643,
+            73659
+          ]
+        },
+        {
+          "text": "Arkady Ivanovitch",
+          "evidence": [
+            596047,
+            596064
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5d78d14b15cfb147",
+      "name": "Marfa Petrovna",
+      "description": "Svidrigaïlov’s late wife whose death and legacy influence his behavior and Dounia’s history.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marfa Petrovna",
+          "evidence": [
+            73924,
+            73938
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e07b70e501a43c9a",
+      "name": "Andrey Semyonovitch Lebeziatnikov",
+      "description": "A progressive-minded lodger/clerk whose talkativeness and meddling affect social incidents and testimony.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lebeziatnikov",
+          "evidence": [
+            29664,
+            29677
+          ]
+        },
+        {
+          "text": "Andrey Semyonovitch Lebeziatnikov",
+          "evidence": [
+            325342,
+            325375
+          ]
+        },
+        {
+          "text": "Andrey Semyonovitch",
+          "evidence": [
+            325136,
+            325155
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a7177f0bf19115bf",
+      "name": "Tchebarov",
+      "description": "A businessman mentioned in connection with pawnshop debts and transactions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tchebarov",
+          "evidence": [
+            222270,
+            222279
+          ]
+        },
+        {
+          "text": "Mr. Tchebarov",
+          "evidence": [
+            222266,
+            222279
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f87c81b2c480bc09",
+      "name": "Vassily Ivanovitch Vahrushin",
+      "description": "A merchant referenced as having aided Pulcheria Alexandrovna and the family in the provinces.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Vassily Ivanovitch Vahrushin",
+          "evidence": [
+            71477,
+            71505
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-62d543184237aaac",
+      "name": "Ivan Afanasyvitch",
+      "description": "An official mentioned by Marmeladov as having helped him obtain a position.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ivan Afanasyvitch",
+          "evidence": [
+            44951,
+            44968
+          ]
+        },
+        {
+          "text": "Afanasy Ivanovitch",
+          "evidence": [
+            92007,
+            92025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd679795293ec7ef",
+      "name": "Pokorev",
+      "description": "A student acquaintance who once gave Raskolnikov the pawnbroker’s address.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pokorev",
+          "evidence": [
+            147687,
+            147694
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e86755f6e761e702",
+      "name": "Darya Frantsovna",
+      "description": "A woman of ill repute mentioned in Marmeladov’s account and local slanders around Sonia.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Darya Frantsovna",
+          "evidence": [
+            41809,
+            41825
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a3250fc1faa3f042",
+      "name": "Nikodim Fomitch",
+      "description": "A named official referenced in conversation about investigative contacts.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Nikodim Fomitch",
+          "evidence": [
+            228030,
+            228045
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4105ac65375601f8",
+      "name": "Madame Resslich",
+      "description": "A landlady mentioned as Svidrigaïlov’s neighbour or host in Petersburg.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Resslich",
+          "evidence": [
+            524997,
+            525012
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47c1c4ce05ca106d",
+      "name": "Philip",
+      "description": "A waiter at a tavern encountered by Svidrigaïlov; a minor participant in listening scenes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Philip",
+          "evidence": [
+            634345,
+            634351
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-736e6f32f2d7acb7",
+      "name": "Katia",
+      "description": "A young singer/performer in tavern scenes who receives small sums from Svidrigaïlov.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Katia",
+          "evidence": [
+            980440,
+            980445
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87eadf4081440243",
+      "name": "Achilles",
+      "description": "A small man in a helmet standing by hotel gates who appears briefly near Svidrigaïlov’s stops.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Achilles",
+          "evidence": [
+            1079389,
+            1079397
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8d0734039b2fed2e",
+      "name": "Fedosya",
+      "description": "A cook mentioned in Svidrigaïlov’s household who helps secure presents and domestic arrangements.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Fedosya",
+          "evidence": [
+            1059856,
+            1059863
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c122f42d578f1dc3",
+      "name": "the commissariat clerk",
+      "description": "An unnamed, drunken lodger who attends the memorial dinner and instigates conflict.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the commissariat clerk",
+          "evidence": [
+            811937,
+            811959
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2bd0ac6f5f35bebf",
+      "name": "the Pole (unnamed)",
+      "description": "Unnamed Polish lodgers/visitors who attend the memorial dinner and interact with Katerina Ivanovna.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Pole",
+          "evidence": [
+            800017,
+            800025
+          ]
+        }
+      ]
+    }
+  ]
+}

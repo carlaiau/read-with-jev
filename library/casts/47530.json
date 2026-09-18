@@ -1,0 +1,863 @@
+{
+  "schema": 1,
+  "gutenbergId": 47530,
+  "sourceSha256": "cf02dfcd155e076f3abfef15b62845b7072f342d57b21b903ae4143e14a58560",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-96add0e6569e5df1",
+      "name": "Oliver",
+      "description": "Orphaned boy and protagonist rescued by Mrs. Maylie and Rose; suffers abuse, then cared for and educated",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Oliver",
+          "evidence": [
+            1569,
+            1575
+          ]
+        },
+        {
+          "text": "Oliver Twist",
+          "evidence": [
+            20629,
+            20641
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b6fa4084693fc8f3",
+      "name": "Fagin",
+      "description": "Old criminal who leads a gang of young thieves and instructs them in pickpocketing",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Fagin",
+          "evidence": [
+            2864,
+            2869
+          ]
+        },
+        {
+          "text": "the Jew",
+          "evidence": [
+            1944,
+            1951
+          ]
+        },
+        {
+          "text": "Mr. Fagin",
+          "evidence": [
+            72602,
+            72611
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c08df05d3e399d0f",
+      "name": "Nancy",
+      "description": "Young woman associated with Fagin's gang who shows compassion toward Oliver",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Nancy",
+          "evidence": [
+            7467,
+            7472
+          ]
+        },
+        {
+          "text": "Nolly",
+          "evidence": [
+            8564,
+            8569
+          ]
+        },
+        {
+          "text": "Nance",
+          "evidence": [
+            97289,
+            97294
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6c814ddee7f5d7a6",
+      "name": "Bill Sikes",
+      "description": "Violent professional burglar and associate of Fagin; uses coercion and threats",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Bill Sikes",
+          "evidence": [
+            2061,
+            2071
+          ]
+        },
+        {
+          "text": "Mr. Sikes",
+          "evidence": [
+            12579,
+            12588
+          ]
+        },
+        {
+          "text": "Sikes",
+          "evidence": [
+            2066,
+            2071
+          ]
+        },
+        {
+          "text": "Bill",
+          "evidence": [
+            2061,
+            2065
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b7ab16753a67192",
+      "name": "Toby Crackit",
+      "description": "Housebreaker and associate of Sikes; participates in the burglary expedition",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Toby Crackit",
+          "evidence": [
+            33745,
+            33757
+          ]
+        },
+        {
+          "text": "Mr. Toby Crackit",
+          "evidence": [
+            33741,
+            33757
+          ]
+        },
+        {
+          "text": "Toby",
+          "evidence": [
+            31185,
+            31189
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3cc63f0b61419294",
+      "name": "Barney",
+      "description": "Assistant/waiter at the Cripples public-house and helper to the burglars",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Barney",
+          "evidence": [
+            31241,
+            31247
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-efd5becbaee9bbce",
+      "name": "Artful Dodger",
+      "description": "Young skilled pickpocket in Fagin's gang, clever and confident",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Artful Dodger",
+          "evidence": [
+            73042,
+            73055
+          ]
+        },
+        {
+          "text": "the Artful Dodger",
+          "evidence": [
+            73038,
+            73055
+          ]
+        },
+        {
+          "text": "Dodger",
+          "evidence": [
+            35583,
+            35589
+          ]
+        },
+        {
+          "text": "Mr. Dawkins",
+          "evidence": [
+            76331,
+            76342
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5ab6be1c93dd97ab",
+      "name": "Charles (Charley) Bates",
+      "description": "Member of Fagin's gang; light-hearted, often laughs and drinks",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Master Charles Bates",
+          "evidence": [
+            73057,
+            73077
+          ]
+        },
+        {
+          "text": "Charley Bates",
+          "evidence": [
+            75404,
+            75417
+          ]
+        },
+        {
+          "text": "Master Bates",
+          "evidence": [
+            73164,
+            73176
+          ]
+        },
+        {
+          "text": "Charley",
+          "evidence": [
+            75274,
+            75281
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fe36cf68d06c44dd",
+      "name": "Mr. Chitling (Tommy Chitling)",
+      "description": "Member of Fagin’s circle; portrayed as vain and easily upset",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mr. Chitling",
+          "evidence": [
+            73084,
+            73096
+          ]
+        },
+        {
+          "text": "Tommy Chitling",
+          "evidence": [
+            77470,
+            77484
+          ]
+        },
+        {
+          "text": "Tommy",
+          "evidence": [
+            75615,
+            75620
+          ]
+        },
+        {
+          "text": "Tom",
+          "evidence": [
+            12699,
+            12702
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06c756dcb7ee7ba3",
+      "name": "Tom",
+      "description": "Named associate mentioned in gang contexts (appears as companion in gang references)",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Tom",
+          "evidence": [
+            12699,
+            12702
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c710694504325d6",
+      "name": "Mr. Lively",
+      "description": "Small-statured dealer in second-hand goods who frequents Field Lane and knows Fagin",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mr. Lively",
+          "evidence": [
+            89386,
+            89396
+          ]
+        },
+        {
+          "text": "Lively",
+          "evidence": [
+            88131,
+            88137
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-57fa34610c0ec448",
+      "name": "Monks",
+      "description": "Mysterious, hostile man associated with Fagin; consults Fagin about Oliver-related matters",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Monks",
+          "evidence": [
+            94082,
+            94087
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d66f18cb35a93d61",
+      "name": "Mr. Brownlow",
+      "description": "Gentleman previously connected to Oliver and referenced by Oliver as a benefactor",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mr. Brownlow",
+          "evidence": [
+            199608,
+            199620
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e8e21b3a64aa158d",
+      "name": "Mr. Losberne",
+      "description": "Local surgeon/doctor who tends Oliver and Rose and advocates for Oliver’s care",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mr. Losberne",
+          "evidence": [
+            152117,
+            152129
+          ]
+        },
+        {
+          "text": "the doctor",
+          "evidence": [
+            65489,
+            65499
+          ]
+        },
+        {
+          "text": "Doctor Losberne",
+          "evidence": [
+            153379,
+            153394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f9ee1eaa77a590c5",
+      "name": "Mrs. Maylie",
+      "description": "Elder lady who shelters Oliver; benevolent and protective",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mrs. Maylie",
+          "evidence": [
+            142275,
+            142286
+          ]
+        },
+        {
+          "text": "the elder lady",
+          "evidence": [
+            148563,
+            148577
+          ]
+        },
+        {
+          "text": "the old lady",
+          "evidence": [
+            132506,
+            132518
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7370b54610e7d55b",
+      "name": "Rose (Rose Maylie)",
+      "description": "Young gentlewoman; niece of Mrs. Maylie, becomes Oliver’s caregiver and friend",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Rose",
+          "evidence": [
+            150901,
+            150905
+          ]
+        },
+        {
+          "text": "Miss Maylie",
+          "evidence": [
+            192667,
+            192678
+          ]
+        },
+        {
+          "text": "Rose Maylie",
+          "evidence": [
+            222899,
+            222910
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2e86243b39fab24b",
+      "name": "Harry Maylie",
+      "description": "Mrs. Maylie’s son; suitor of Rose who confesses his love",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Harry Maylie",
+          "evidence": [
+            218699,
+            218711
+          ]
+        },
+        {
+          "text": "Mr. Maylie",
+          "evidence": [
+            233691,
+            233701
+          ]
+        },
+        {
+          "text": "Harry",
+          "evidence": [
+            218699,
+            218704
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b6c755fe48346018",
+      "name": "Mr. Giles",
+      "description": "Butler/steward to Mrs. Maylie’s household; discovers Oliver and alerts others",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mr. Giles",
+          "evidence": [
+            129302,
+            129311
+          ]
+        },
+        {
+          "text": "Giles",
+          "evidence": [
+            129306,
+            129311
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-762ddac29cb191b0",
+      "name": "Brittles",
+      "description": "Long-serving lad of all-work in the household; nervous and contradictory under questioning",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Brittles",
+          "evidence": [
+            129978,
+            129986
+          ]
+        },
+        {
+          "text": "Mr. Brittles",
+          "evidence": [
+            163114,
+            163126
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e03d3369b7b39aa6",
+      "name": "the tinker",
+      "description": "Travelling tinker who is roused to pursue the burglars and assists in the search",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "the tinker",
+          "evidence": [
+            137633,
+            137643
+          ]
+        },
+        {
+          "text": "tinker",
+          "evidence": [
+            132308,
+            132314
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-db4b207a9f250bbc",
+      "name": "Chertsey constable",
+      "description": "Local constable involved in the initial handling of Oliver and the burglary aftermath",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "the Chertsey constable",
+          "evidence": [
+            188935,
+            188957
+          ]
+        },
+        {
+          "text": "the constable",
+          "evidence": [
+            163278,
+            163291
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4ba85d4cbcb06fab",
+      "name": "Mr. Blathers",
+      "description": "Bow Street officer who investigates the burglary (one of the runners)",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mr. Blathers",
+          "evidence": [
+            169738,
+            169750
+          ]
+        },
+        {
+          "text": "Blathers",
+          "evidence": [
+            169264,
+            169272
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6063851bb7542929",
+      "name": "Mr. Duff",
+      "description": "Bow Street officer and colleague of Blathers who assists the inquiry",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Duff",
+          "evidence": [
+            169277,
+            169281
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2de27bd8c8dfdc8d",
+      "name": "Mrs. Sowerberry",
+      "description": "Mrs. Sowerberry, associated with the undertaker’s household",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mrs. Sowerberry",
+          "evidence": [
+            122156,
+            122171
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-99a052c6dc27ca0c",
+      "name": "Noah Claypole",
+      "description": "Apprentice to the undertaker; awkward, given to eating and boasting",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Noah Claypole",
+          "evidence": [
+            122212,
+            122225
+          ]
+        },
+        {
+          "text": "Noah",
+          "evidence": [
+            122212,
+            122216
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba9b4ae93cfcb7ef",
+      "name": "Charlotte",
+      "description": "Assistant/maid in Sowerberry’s who interacts with Noah Claypole",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Charlotte",
+          "evidence": [
+            123187,
+            123196
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cdc466ab1923c0e9",
+      "name": "Mr. Bumble",
+      "description": "Former beadle turned workhouse master; officious, later married Mrs. Corney",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mr. Bumble",
+          "evidence": [
+            48963,
+            48973
+          ]
+        },
+        {
+          "text": "Bumble",
+          "evidence": [
+            48920,
+            48926
+          ]
+        },
+        {
+          "text": "the beadle",
+          "evidence": [
+            49527,
+            49537
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3f06453d4fea15d4",
+      "name": "Mrs. Corney (later Mrs. Bumble)",
+      "description": "Matron of the workhouse who later marries Mr. Bumble; knows a key secret about Oliver’s origins",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Mrs. Corney",
+          "evidence": [
+            46261,
+            46272
+          ]
+        },
+        {
+          "text": "the matron",
+          "evidence": [
+            46977,
+            46987
+          ]
+        },
+        {
+          "text": "Mrs. Bumble",
+          "evidence": [
+            275261,
+            275272
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-220b965ee2b6785f",
+      "name": "Old Sally",
+      "description": "Dying old woman in the workhouse who confesses to stealing a mother’s gold and reveals part of Oliver’s origin story",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Old Sally",
+          "evidence": [
+            59566,
+            59575
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea055dbdfaa5f79a",
+      "name": "Anny",
+      "description": "Old crone and attendant who brings news about the sick; converses with Martha",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Anny",
+          "evidence": [
+            65124,
+            65128
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-64111f1a00916fb0",
+      "name": "Martha",
+      "description": "Old crone and companion of Anny; one of the women attending the dying",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Martha",
+          "evidence": [
+            67024,
+            67030
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b6e9cbc2c4dc456",
+      "name": "Conkey Chickweed",
+      "description": "Figure in an anecdote told by officers (licensed victualler used as example in Blathers’ story)",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Conkey Chickweed",
+          "evidence": [
+            179239,
+            179255
+          ]
+        },
+        {
+          "text": "Conkey",
+          "evidence": [
+            179239,
+            179245
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f81e8e53ac1f318e",
+      "name": "Jem Spyers",
+      "description": "Officer mentioned in anecdote relating to Conkey Chickweed (example from Blathers’ tale)",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Jem Spyers",
+          "evidence": [
+            181665,
+            181675
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e7ff407d16cbcb65",
+      "name": "Phil Barker",
+      "description": "Local man mentioned as being drunk at the Cripples; observed by Fagin’s circle",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Phil Barker",
+          "evidence": [
+            94920,
+            94931
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a8f395f92f72b732",
+      "name": "Landlord of the Cripples",
+      "description": "Landlord/chairman at the Three Cripples public-house where Fagin and associates meet",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "the chairman",
+          "evidence": [
+            91563,
+            91575
+          ]
+        },
+        {
+          "text": "the landlord of the Cripples",
+          "evidence": [
+            93650,
+            93678
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1ac905fcca3eff8",
+      "name": "Bullseye",
+      "description": "Named dog associated with Bill Sikes",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Bullseye",
+          "evidence": [
+            12673,
+            12681
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f47faac795a0a116",
+      "name": "Pincher",
+      "description": "One of the dogs called in the chase after the burglars",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Pincher",
+          "evidence": [
+            128799,
+            128806
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3cc227f3c49346a2",
+      "name": "Neptune",
+      "description": "One of the dogs called in the chase after the burglars",
+      "scope": "Vol. II",
+      "aliases": [
+        {
+          "text": "Neptune",
+          "evidence": [
+            128809,
+            128816
+          ]
+        }
+      ]
+    }
+  ]
+}

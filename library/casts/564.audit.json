@@ -1,0 +1,44 @@
+{
+  "chunks": [
+    {
+      "start": 850,
+      "end": 552457,
+      "key": "4044942cbbffe324769a1049b752950f33a25cfed9c767cce3273e7f278fe1e1",
+      "usage": {
+        "input_tokens": 154905,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5035,
+        "output_tokens_details": {
+          "reasoning_tokens": 2624
+        },
+        "total_tokens": 159940
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Mrs. Tope",
+      "alias": "Mrs Tope",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Thomas Sapsea",
+      "alias": "Mr. Thomas Sapsea",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Thomas Sapsea",
+      "alias": "Mr. Sapsea (Mayor)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Luke Honeythunder",
+      "alias": "Luke Honeythunder",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

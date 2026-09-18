@@ -1,0 +1,39 @@
+{
+  "chunks": [
+    {
+      "start": 862,
+      "end": 405925,
+      "key": "9436aa98c1ea54c8e58c1174dee9141742419f55c7ecb970b475da977c3d9463",
+      "usage": {
+        "input_tokens": 107046,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6677,
+        "output_tokens_details": {
+          "reasoning_tokens": 3840
+        },
+        "total_tokens": 113723
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Great-grandfather (of Marcus Aurelius)",
+      "alias": "my great-grandfather",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Annia Galeria Faustina (aunt)",
+      "alias": "Annia Galeria Faustina",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Epictetus",
+      "alias": "Epictetus his _Hypomnemata_",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "chunks": [
+    {
+      "start": 950,
+      "end": 439561,
+      "key": "6ecbfab5c6d018d796d5473f5f4f9a666921581fa496ade3987a01acac30fece",
+      "usage": {
+        "input_tokens": 125751,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6324,
+        "output_tokens_details": {
+          "reasoning_tokens": 4224
+        },
+        "total_tokens": 132075
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Lord Caterham",
+      "alias": "the ninth Marquis of Caterham",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Baron Lolopretjzyl",
+      "alias": "Baron _Lolopretjzyl_.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Constable Johnson",
+      "alias": "Constable Johnson",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

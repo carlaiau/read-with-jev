@@ -1,0 +1,97 @@
+{
+  "chunks": [
+    {
+      "start": 983,
+      "end": 650919,
+      "key": "5e696b802c4e46fa02ae358154b68cc316e4d8d324f303730512cb82fb2995c1",
+      "usage": {
+        "input_tokens": 166751,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6742,
+        "output_tokens_details": {
+          "reasoning_tokens": 5696
+        },
+        "total_tokens": 173493
+      }
+    },
+    {
+      "start": 650919,
+      "end": 1300917,
+      "key": "81fa709fac1ff4785694b769d363ad3c804be6654e6615d2512ce310157b10c1",
+      "usage": {
+        "input_tokens": 165170,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5019,
+        "output_tokens_details": {
+          "reasoning_tokens": 3840
+        },
+        "total_tokens": 170189
+      }
+    },
+    {
+      "start": 1300917,
+      "end": 1790315,
+      "key": "eb4511b4083821cf67c52a31e0d42622f8b8ad316f4594934c528dacb2574d48",
+      "usage": {
+        "input_tokens": 125629,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6336,
+        "output_tokens_details": {
+          "reasoning_tokens": 5312
+        },
+        "total_tokens": 131965
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "aeef17679fbeb9be7356f9144eed97ce15fd0267cc0d10b246cb5180d2c54879",
+    "usage": {
+      "input_tokens": 4032,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 6125,
+      "output_tokens_details": {
+        "reasoning_tokens": 3584
+      },
+      "total_tokens": 10157
+    }
+  },
+  "rejected": [
+    {
+      "name": "Gustin (gardener’s son)",
+      "alias": "Gustin the gardener’s son",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. George Anson",
+      "alias": "Mr. George Anson",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the baron’s adversary",
+      "alias": "that old litigant",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the bailiff's lady",
+      "alias": "the bailiff's lady",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Eloisa's eldest son",
+      "alias": "the eldest son",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

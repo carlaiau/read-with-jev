@@ -1,0 +1,29 @@
+{
+  "chunks": [
+    {
+      "start": 939,
+      "end": 613251,
+      "key": "7fab71b6d08fe25a4eb0329c81a00081ee20c92ef56955d56d3c9bfe75ecee4f",
+      "usage": {
+        "input_tokens": 163130,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6740,
+        "output_tokens_details": {
+          "reasoning_tokens": 3840
+        },
+        "total_tokens": 169870
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Augustine's mother",
+      "alias": "Thy handmaid my mother",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

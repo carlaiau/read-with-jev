@@ -1,0 +1,1000 @@
+{
+  "schema": 1,
+  "gutenbergId": 2701,
+  "sourceSha256": "907420db6c4b68c70e2988cd2ad9c8cf79138667a01b63376d18dd17fef1a18b",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-18f5756f41b4ddc1",
+      "name": "Ishmael",
+      "description": "Narrator and young sailor who signs on for a whaling voyage; first-person protagonist.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ishmael",
+          "evidence": [
+            28907,
+            28914
+          ]
+        },
+        {
+          "text": "Call me Ishmael",
+          "evidence": [
+            28899,
+            28914
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-41bee46601e50ddb",
+      "name": "Queequeg",
+      "description": "A tattooed South Sea islander and skilled harpooneer who becomes Ishmael’s close friend and shipmate.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Queequeg",
+          "evidence": [
+            4741,
+            4749
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c875ddfdd4ca544b",
+      "name": "Yojo",
+      "description": "Queequeg’s personal idol (a small carved figure) and object of his religious devotion.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Yojo",
+          "evidence": [
+            170512,
+            170516
+          ]
+        },
+        {
+          "text": "Yojo—the name of his black little god",
+          "evidence": [
+            170512,
+            170549
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5034837953c4e934",
+      "name": "Peter Coffin",
+      "description": "Landlord of the Spouter-Inn in New Bedford; proprietor of the inn where Ishmael first lodges.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Peter Coffin",
+          "evidence": [
+            46133,
+            46145
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-05ffb895d3922ed2",
+      "name": "Hosea Hussey",
+      "description": "Owner/proprietor of the Try Pots inn in Nantucket recommended to Ishmael and Queequeg.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hosea Hussey",
+          "evidence": [
+            163878,
+            163890
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5bc61ab22409ab1f",
+      "name": "Mrs. Hussey",
+      "description": "Wife of Hosea Hussey who runs the Try Pots and takes Ishmael and Queequeg as boarders.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Hussey",
+          "evidence": [
+            166186,
+            166197
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-90621161190d43b5",
+      "name": "Dough-Boy",
+      "description": "The Pequod’s steward (sometimes called Dough-Boy) who attends the cabin and mess.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dough-Boy",
+          "evidence": [
+            293439,
+            293448
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5dd32b41a094736e",
+      "name": "Father Mapple",
+      "description": "Former harpooneer turned chaplain who delivers the sermon on Jonah at the Whaleman’s Chapel.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Father Mapple",
+          "evidence": [
+            106210,
+            106223
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-042dca5974015a5a",
+      "name": "Jonah",
+      "description": "Biblical prophet whose story is read and preached about by Father Mapple and used as a moral exemplar in the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jonah",
+          "evidence": [
+            3767,
+            3772
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a4aad43ffc9c2861",
+      "name": "Captain Peleg",
+      "description": "Part-owner and outfitting agent of the Pequod; veteran Nantucket whaleman who signs Ishmael to the ship.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Peleg",
+          "evidence": [
+            174173,
+            174186
+          ]
+        },
+        {
+          "text": "Peleg",
+          "evidence": [
+            174181,
+            174186
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-265b57e1611d5d05",
+      "name": "Captain Bildad",
+      "description": "Part-owner and agent of the Pequod, a pious retired whaleman of Quaker background.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Bildad",
+          "evidence": [
+            179237,
+            179251
+          ]
+        },
+        {
+          "text": "Bildad",
+          "evidence": [
+            179245,
+            179251
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-350795a199a65263",
+      "name": "Charity (Aunt Charity)",
+      "description": "Captain Bildad’s sister—nicknamed Aunt Charity—active in provisioning the Pequod.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Charity",
+          "evidence": [
+            232027,
+            232034
+          ]
+        },
+        {
+          "text": "Aunt Charity",
+          "evidence": [
+            232125,
+            232137
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4421e0f639089c80",
+      "name": "Captain Ahab",
+      "description": "Monomaniacal captain of the Pequod, bent on hunting the white sperm whale that maimed him.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Ahab",
+          "evidence": [
+            178943,
+            178955
+          ]
+        },
+        {
+          "text": "Ahab",
+          "evidence": [
+            1814,
+            1818
+          ]
+        },
+        {
+          "text": "Old Ahab",
+          "evidence": [
+            279912,
+            279920
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e66d2fb4a01eb7d8",
+      "name": "Starbuck",
+      "description": "Chief mate of the Pequod; a conscientious, experienced Nantucketer who doubts Ahab’s purpose.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Starbuck",
+          "evidence": [
+            4702,
+            4710
+          ]
+        },
+        {
+          "text": "Mr. Starbuck",
+          "evidence": [
+            240934,
+            240946
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-84afec131fd56b8b",
+      "name": "Stubb",
+      "description": "Second mate of the Pequod; easygoing, humorous, and fearless in the whale-boat.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Stubb",
+          "evidence": [
+            1855,
+            1860
+          ]
+        },
+        {
+          "text": "Mr. Stubb",
+          "evidence": [
+            248248,
+            248257
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-97cf1916acf9c5c1",
+      "name": "Flask",
+      "description": "Third mate of the Pequod; short, stout, aggressive about whales and nicknamed \"King-Post.\"",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Flask",
+          "evidence": [
+            3329,
+            3334
+          ]
+        },
+        {
+          "text": "King-Post",
+          "evidence": [
+            274742,
+            274751
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-feefcb2912aad64a",
+      "name": "Tashtego",
+      "description": "Gay Head Indian harpooneer; Tashtego serves as one of the ship’s principal harpooneers.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tashtego",
+          "evidence": [
+            276167,
+            276175
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3470fd31d06374b3",
+      "name": "Daggoo",
+      "description": "A large West African (or Polynesian) harpooneer aboard the Pequod, notable for his size.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Daggoo",
+          "evidence": [
+            277420,
+            277426
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d832c48f19bf8ac",
+      "name": "Fedallah",
+      "description": "Mysterious harpooneer and leader of a small strange crew employed by Ahab; associated with eastern origin.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Fedallah",
+          "evidence": [
+            2479,
+            2487
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-26754d4ddd1ad8c1",
+      "name": "Bulkington",
+      "description": "Tall mariner briefly encountered in New Bedford who later sails aboard the Pequod.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bulkington",
+          "evidence": [
+            59900,
+            59910
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-254567eee42d2a39",
+      "name": "Elijah",
+      "description": "Ragged, prophetic stranger met near the wharves who utters mysterious warnings about Ahab.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Elijah",
+          "evidence": [
+            227333,
+            227339
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bc2d6354bd55a9d2",
+      "name": "Moby Dick",
+      "description": "The white sperm whale; famed, individual whale and object of Ahab’s vengeful pursuit.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Moby Dick",
+          "evidence": [
+            2195,
+            2204
+          ]
+        },
+        {
+          "text": "the White Whale",
+          "evidence": [
+            399977,
+            399992
+          ]
+        },
+        {
+          "text": "the white whale",
+          "evidence": [
+            371017,
+            371032
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-109b07126122daa8",
+      "name": "Pip",
+      "description": "Young black cabin-boy (often called Pip or Little Pip) who later features in the Pequod’s story.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pip",
+          "evidence": [
+            1881,
+            1884
+          ]
+        },
+        {
+          "text": "Black Little Pip",
+          "evidence": [
+            280031,
+            280047
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0548eb949e90be9f",
+      "name": "Steelkilt",
+      "description": "Leader of the mutiny recounted in \"The Town-Ho's Story,\" a Lakeman who instigates revolt aboard the Town-Ho.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Steelkilt",
+          "evidence": [
+            547674,
+            547683
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-836b556e5774345c",
+      "name": "Radney",
+      "description": "Mate of the Town-Ho whose violent clash with Steelkilt figures in that ship’s narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Radney",
+          "evidence": [
+            547602,
+            547608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9c3f183c239a8b70",
+      "name": "Ahab",
+      "description": "Captain of the Pequod; monomaniacal whaleman obsessively pursuing Moby Dick",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Ahab",
+          "evidence": [
+            1814,
+            1818
+          ]
+        },
+        {
+          "text": "Captain Ahab",
+          "evidence": [
+            178943,
+            178955
+          ]
+        },
+        {
+          "text": "old Ahab",
+          "evidence": [
+            300307,
+            300315
+          ]
+        },
+        {
+          "text": "Ahab, he",
+          "evidence": [
+            1078814,
+            1078822
+          ]
+        },
+        {
+          "text": "the old man",
+          "evidence": [
+            293506,
+            293517
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e25ba3cd9fef273c",
+      "name": "Stubb",
+      "description": "Second mate of the Pequod; good-natured, humorous whaleman",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Stubb",
+          "evidence": [
+            1855,
+            1860
+          ]
+        },
+        {
+          "text": "his second mate",
+          "evidence": [
+            654122,
+            654137
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8360e456a2e7ab36",
+      "name": "Starbuck",
+      "description": "First mate of the Pequod; sober, religious, and cautious officer",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Starbuck",
+          "evidence": [
+            4702,
+            4710
+          ]
+        },
+        {
+          "text": "the mate",
+          "evidence": [
+            28340,
+            28348
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-470b5d73b16f3b6a",
+      "name": "Flask",
+      "description": "Third mate of the Pequod; short, jovial, and punchy whaleman",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Flask",
+          "evidence": [
+            3329,
+            3334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d4448bfe1eb03606",
+      "name": "Queequeg",
+      "description": "A Polynesian harpooneer; friend and shipmate of the narrator",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Queequeg",
+          "evidence": [
+            4741,
+            4749
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5b3e05305886f5f1",
+      "name": "Tashtego",
+      "description": "A Gay-Header (harpooneer) from Nantucket, one of the Pequod’s harpooneers",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Tashtego",
+          "evidence": [
+            276167,
+            276175
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-68b2b6fd377d8d2f",
+      "name": "Daggoo",
+      "description": "A large African harpooneer aboard the Pequod",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Daggoo",
+          "evidence": [
+            277420,
+            277426
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-248f5d9177994153",
+      "name": "Pip",
+      "description": "A young ship’s boy (forecastle seaman) who falls from a boat and is later traumatized",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Pip",
+          "evidence": [
+            1881,
+            1884
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef7e34202c805394",
+      "name": "Fedallah",
+      "description": "A Parsee harpooneer associated with Ahab (mysterious, prophetic figure)",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Fedallah",
+          "evidence": [
+            2479,
+            2487
+          ]
+        },
+        {
+          "text": "Parsee",
+          "evidence": [
+            730285,
+            730291
+          ]
+        },
+        {
+          "text": "the Parsee",
+          "evidence": [
+            730281,
+            730291
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c674620d44078e19",
+      "name": "Fleece",
+      "description": "The Pequod’s cook, an old black seaman; called 'old Fleece' by others",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Fleece",
+          "evidence": [
+            657933,
+            657939
+          ]
+        },
+        {
+          "text": "old Fleece",
+          "evidence": [
+            657929,
+            657939
+          ]
+        },
+        {
+          "text": "the old black",
+          "evidence": [
+            663243,
+            663256
+          ]
+        },
+        {
+          "text": "Cook",
+          "evidence": [
+            17377,
+            17381
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-503656c79cc5df5e",
+      "name": "Dough-Boy",
+      "description": "The Pequod’s steward who interacts with crew over provisions and temperance",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Dough-Boy",
+          "evidence": [
+            293439,
+            293448
+          ]
+        },
+        {
+          "text": "the steward",
+          "evidence": [
+            231781,
+            231792
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fb99c27a52bed80e",
+      "name": "Aunt Charity",
+      "description": "Named crew-relative aboard (brings ginger-jub); mentioned in the Pequod’s galley context",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Aunt Charity",
+          "evidence": [
+            232125,
+            232137
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e281b39b365cd0dc",
+      "name": "Yojo",
+      "description": "Queequeg’s little carved god/idol",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Yojo",
+          "evidence": [
+            170512,
+            170516
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5f9ae36bc74b97c6",
+      "name": "Perth",
+      "description": "The Pequod’s carpenter (also undertakes coffin/life-buoy work)",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Perth",
+          "evidence": [
+            1058947,
+            1058952
+          ]
+        },
+        {
+          "text": "the carpenter",
+          "evidence": [
+            797878,
+            797891
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b7f337a6aa3716f8",
+      "name": "Stubb’s sharks",
+      "description": "Numerous sharks that follow and feast around dead whales and sometimes the ship—recurring animal presence",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "sharks",
+          "evidence": [
+            20304,
+            20310
+          ]
+        },
+        {
+          "text": "Sharks",
+          "evidence": [
+            326258,
+            326264
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bc51986f60d7618a",
+      "name": "Moby Dick",
+      "description": "The White Whale (a great albino sperm whale), primary object of Ahab’s pursuit",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Moby Dick",
+          "evidence": [
+            2195,
+            2204
+          ]
+        },
+        {
+          "text": "the White Whale",
+          "evidence": [
+            399977,
+            399992
+          ]
+        },
+        {
+          "text": "White Whale",
+          "evidence": [
+            398061,
+            398072
+          ]
+        },
+        {
+          "text": "the whale",
+          "evidence": [
+            11913,
+            11922
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-91f302fe0a240b42",
+      "name": "Captain Mayhew",
+      "description": "Captain of the whaler Jeroboam who relates an encounter/story involving Moby Dick and Gabriel",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Mayhew",
+          "evidence": [
+            697169,
+            697175
+          ]
+        },
+        {
+          "text": "Captain Mayhew",
+          "evidence": [
+            702480,
+            702494
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-709255cb63b33f46",
+      "name": "Gabriel",
+      "description": "A fanatic aboard the Jeroboam who claims to be an archangel and influences the crew",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Gabriel",
+          "evidence": [
+            9233,
+            9240
+          ]
+        },
+        {
+          "text": "the archangel",
+          "evidence": [
+            36824,
+            36837
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d93272fec09c12d6",
+      "name": "Macey",
+      "description": "Macey (Harry Macey), the mate on the Jeroboam who is killed in an encounter; recipient of a letter",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Macey",
+          "evidence": [
+            307811,
+            307816
+          ]
+        },
+        {
+          "text": "Mr. Harry Macey",
+          "evidence": [
+            708072,
+            708087
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-29a9d497d3e87d23",
+      "name": "Captain Derick De Deer",
+      "description": "Master of the ship Jungfrau who appears briefly when the Pequod encounters the Jungfrau",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Derick De Deer",
+          "evidence": [
+            776033,
+            776047
+          ]
+        },
+        {
+          "text": "Captain Derick De Deer",
+          "evidence": [
+            777297,
+            777319
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3eec47736fcbffec",
+      "name": "Captain Boomer",
+      "description": "An English whaler’s captain mentioned in a tale of past encounters with Moby Dick",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Captain Boomer",
+          "evidence": [
+            968595,
+            968609
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-52508bc6f0128b20",
+      "name": "Dr. Bunger",
+      "description": "Surgeon aboard an English whaler (Samuel Enderby); attends to wounds and relates medical detail",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Dr. Bunger",
+          "evidence": [
+            967763,
+            967773
+          ]
+        },
+        {
+          "text": "Bunger",
+          "evidence": [
+            967767,
+            967773
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8dc338b6e32c8a7a",
+      "name": "Captain of the Samuel Enderby",
+      "description": "Captain of the English ship Samuel Enderby (narrates an encounter and loss of limb)",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Samuel Enderby",
+          "evidence": [
+            960001,
+            960015
+          ]
+        },
+        {
+          "text": "the Englishman",
+          "evidence": [
+            963935,
+            963949
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a575abf6b49daf39",
+      "name": "Captain Gardiner",
+      "description": "Captain of the ship Rachel who beseeches Ahab to help search for his missing son",
+      "scope": "Moby Dick; Or, The Whale",
+      "aliases": [
+        {
+          "text": "Captain Gardiner",
+          "evidence": [
+            1149264,
+            1149280
+          ]
+        }
+      ]
+    }
+  ]
+}

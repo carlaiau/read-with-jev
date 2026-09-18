@@ -1,0 +1,64 @@
+{
+  "chunks": [
+    {
+      "start": 1104,
+      "end": 536179,
+      "key": "dcaf4938ceef4130ac846c546db26594dba64d385687823e452b7819922c3eb7",
+      "usage": {
+        "input_tokens": 150931,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8287,
+        "output_tokens_details": {
+          "reasoning_tokens": 2560
+        },
+        "total_tokens": 159218
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "King Arthur",
+      "alias": "the sovereign king",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sir Lucas the butler",
+      "alias": "Sir Lucas the butler",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Belisent",
+      "alias": "the Lady Belisent",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "The Questing Beast",
+      "alias": "the Questing Beast",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "La Belle Isault",
+      "alias": "the queen's daughter La Belle Isault",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Elaine of Astolat (The Maid of Astolat)",
+      "alias": "the Fair Maid of Astolat",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Elaine of Astolat (The Maid of Astolat)",
+      "alias": "Fair Elaine",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sir Bagdemagus",
+      "alias": "Sir Bagdemagus",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

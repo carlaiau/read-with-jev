@@ -1,0 +1,89 @@
+{
+  "chunks": [
+    {
+      "start": 907,
+      "end": 142749,
+      "key": "c5b93081f39e90ad3fa10b1c4d6166ebe951c6c236bc26ad7bfab3b3709d266c",
+      "usage": {
+        "input_tokens": 38982,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5428,
+        "output_tokens_details": {
+          "reasoning_tokens": 4160
+        },
+        "total_tokens": 44410
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Hastie Lanyon",
+      "alias": "Hastie Lanyon",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sir Danvers Carew",
+      "alias": "Sir Danvers Carew",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Inspector Newcomen",
+      "alias": "Inspector Newcomen of Scotland Yard",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "a maid servant (Carew murder witness)",
+      "alias": "a maid servant",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "a maid servant (Carew murder witness)",
+      "alias": "the maid servant",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "a girl of maybe eight or ten",
+      "alias": "a girl of maybe eight or ten",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the apothecary (Sawbones)",
+      "alias": "the apothecary",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the old woman (Hyde’s housekeeper)",
+      "alias": "an ivory-faced and silvery-haired old woman",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the cook (Jekyll’s household)",
+      "alias": "the cook",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Bradshaw",
+      "alias": "the footman",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "a policeman",
+      "alias": "the policeman",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the hansom driver / driver",
+      "alias": "a hansom driver",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the waiter",
+      "alias": "the waiter",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

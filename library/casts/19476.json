@@ -1,0 +1,341 @@
+{
+  "schema": 1,
+  "gutenbergId": 19476,
+  "sourceSha256": "c7092738a5f1a6ae00497e8eaedf45a9bfa6fb5f92c2c74a75013f75a94b6e2c",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-f73026a2514ceec4",
+      "name": "Rollo Lenox Smeaton Aubrey, Earl of Redgrave, Baron Smeaton in the Peerage of England, and Viscount Aubrey in the Peerage of Ireland",
+      "description": "English nobleman, financier and creator/owner/commander of the air-ship _Astronef_; principal male protagonist who pilots the voyage through the Solar System",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Lord Redgrave",
+          "evidence": [
+            13106,
+            13119
+          ]
+        },
+        {
+          "text": "Earl of Redgrave",
+          "evidence": [
+            12052,
+            12068
+          ]
+        },
+        {
+          "text": "Redgrave",
+          "evidence": [
+            12060,
+            12068
+          ]
+        },
+        {
+          "text": "Lenox",
+          "evidence": [
+            12029,
+            12034
+          ]
+        },
+        {
+          "text": "his lordship",
+          "evidence": [
+            14854,
+            14866
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e793607627ffcb32",
+      "name": "Lilla Zaidie Rennick",
+      "description": "Daughter of Professor Rennick, American heiress; bride of Lord Redgrave and principal female protagonist of the voyage",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Miss Rennick",
+          "evidence": [
+            10631,
+            10643
+          ]
+        },
+        {
+          "text": "Miss Zaidie",
+          "evidence": [
+            25544,
+            25555
+          ]
+        },
+        {
+          "text": "Zaidie",
+          "evidence": [
+            13413,
+            13419
+          ]
+        },
+        {
+          "text": "Zaidie Rennick",
+          "evidence": [
+            23709,
+            23723
+          ]
+        },
+        {
+          "text": "Lady Redgrave",
+          "evidence": [
+            78574,
+            78587
+          ]
+        },
+        {
+          "text": "Countess of Redgrave",
+          "evidence": [
+            77509,
+            77529
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-802efe2e3371d58b",
+      "name": "Mrs. Van Stuyler",
+      "description": "American chaperon hired to accompany Miss Rennick on her voyage to Europe; accompanies Zaidie on the _Astronef_",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Mrs. Van Stuyler",
+          "evidence": [
+            13884,
+            13900
+          ]
+        },
+        {
+          "text": "Mrs. Van",
+          "evidence": [
+            13884,
+            13892
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ff24ad9209fcacee",
+      "name": "Professor Rennick",
+      "description": "Inventor and scientist; father of Lilla Zaidie Rennick and originator of the ideas realized in the _Astronef_; deceased by the voyage but repeatedly referenced",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Professor Rennick",
+          "evidence": [
+            74992,
+            75009
+          ]
+        },
+        {
+          "text": "Pop",
+          "evidence": [
+            37533,
+            37536
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3c6e02c93c2ba8d8",
+      "name": "Russell Rennick",
+      "description": "Uncle and wealthy benefactor/guardian of Lilla Zaidie Rennick, New York capitalist who provides fortune for marriage arrangements",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Russell Rennick",
+          "evidence": [
+            20644,
+            20659
+          ]
+        },
+        {
+          "text": "Uncle Russell",
+          "evidence": [
+            35156,
+            35169
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b5221fe1dd3e427",
+      "name": "Captain Hawkins",
+      "description": "Captain of the American liner S.S. _St. Louis_; encounters the _Astronef_ and its owner at sea",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Captain Hawkins",
+          "evidence": [
+            12358,
+            12373
+          ]
+        },
+        {
+          "text": "Skipper",
+          "evidence": [
+            5593,
+            5600
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7d9df5e161da43b5",
+      "name": "Mr. Charteris",
+      "description": "Second Officer on the S.S. _St. Louis_ (bridge officer who first notices the object ahead)",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Mr. Charteris",
+          "evidence": [
+            5548,
+            5561
+          ]
+        },
+        {
+          "text": "the Second",
+          "evidence": [
+            4979,
+            4989
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-89a37915e536ccb4",
+      "name": "Norton",
+      "description": "Fourth Officer on the S.S. _St. Louis_ (the Fourth Officer whom the Second addresses)",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Norton",
+          "evidence": [
+            4044,
+            4050
+          ]
+        },
+        {
+          "text": "the Fourth",
+          "evidence": [
+            3758,
+            3768
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9e7d631e6fd342b8",
+      "name": "Andrew Murgatroyd",
+      "description": "Chief engineer of the _Astronef_; hereditary retainer of the House of Redgrave, Yorkshire-born, responsible for engines and technical operation",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Andrew Murgatroyd",
+          "evidence": [
+            91737,
+            91754
+          ]
+        },
+        {
+          "text": "Murgatroyd",
+          "evidence": [
+            57246,
+            57256
+          ]
+        },
+        {
+          "text": "Andrew",
+          "evidence": [
+            66485,
+            66491
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-301161c8719538fa",
+      "name": "Marquis of Byfleet",
+      "description": "Intended husband arranged to marry Miss Rennick before Lord Redgrave's intervention; son of the Duke of Duncaster",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Marquis of Byfleet",
+          "evidence": [
+            19407,
+            19425
+          ]
+        },
+        {
+          "text": "Byfleet",
+          "evidence": [
+            19418,
+            19425
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-780a3ae967f22e3a",
+      "name": "Duke of Duncaster",
+      "description": "Father of the Marquis of Byfleet (mentioned as the duke whose son is the arranged match)",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Duke of Duncaster",
+          "evidence": [
+            19438,
+            19455
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5b708941079eab01",
+      "name": "the President",
+      "description": "President of the United States (unnamed) who meets Lord and Lady Redgrave and takes official interest in the _Astronef_'s voyage",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "the President",
+          "evidence": [
+            70600,
+            70613
+          ]
+        },
+        {
+          "text": "President",
+          "evidence": [
+            70363,
+            70372
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b32ee12b5668cdec",
+      "name": "Lord Pauncefote",
+      "description": "British Ambassador to the United States who visits the _Astronef_ and participates in diplomatic reception",
+      "scope": "A Honeymoon in Space",
+      "aliases": [
+        {
+          "text": "Lord Pauncefote",
+          "evidence": [
+            70463,
+            70478
+          ]
+        }
+      ]
+    }
+  ]
+}

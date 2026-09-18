@@ -1,0 +1,75 @@
+{
+  "chunks": [
+    {
+      "start": 1038,
+      "end": 650995,
+      "key": "f558b137cc3e22075bef62c724988ee0cb2d1a40481992a56c20f1d29239171f",
+      "usage": {
+        "input_tokens": 179677,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7453,
+        "output_tokens_details": {
+          "reasoning_tokens": 4352
+        },
+        "total_tokens": 187130
+      }
+    },
+    {
+      "start": 650995,
+      "end": 1094452,
+      "key": "b079421b1c852ebf850136f21a130be291b6c25c415f95336a444126f85aae1a",
+      "usage": {
+        "input_tokens": 121847,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8140,
+        "output_tokens_details": {
+          "reasoning_tokens": 5696
+        },
+        "total_tokens": 129987
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "9ad78896b7a62900b432ae1317769894613b60c168f29c3e10db2203cddf4be4",
+    "usage": {
+      "input_tokens": 5628,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3058,
+      "output_tokens_details": {
+        "reasoning_tokens": 2496
+      },
+      "total_tokens": 8686
+    }
+  },
+  "rejected": [
+    {
+      "name": "Mrs. Snowball Pat Paw",
+      "alias": "Mrs. Snowball Pat Paw",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Estelle / Esther Valnor",
+      "alias": "Estelle Valnor",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Lennox",
+      "alias": "Mr. Lennox",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Moffatt",
+      "alias": "Mrs. Moffatt",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

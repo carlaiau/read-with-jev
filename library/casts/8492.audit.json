@@ -1,0 +1,79 @@
+{
+  "chunks": [
+    {
+      "start": 993,
+      "end": 412410,
+      "key": "cbd0879df09582ba2481e621a69d969b5a901803a20a8cec47e051d01b8b306c",
+      "usage": {
+        "input_tokens": 113932,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 13175,
+        "output_tokens_details": {
+          "reasoning_tokens": 7872
+        },
+        "total_tokens": 127107
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Senator Wyse",
+      "alias": "Senator Wyse",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Senator Franklin",
+      "alias": "Senator Franklin",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Wilde's cat",
+      "alias": "Mr. Wilde's cat",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Narrator (unnamed)",
+      "alias": "the narrator",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Suisse",
+      "alias": "a Suisse",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the watchman",
+      "alias": "the church watchman",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Demoiselle Jeanne d’Ys",
+      "alias": "Demoiselle Jeanne d’Ys",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Jack Trent",
+      "alias": "Mr. Trent",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Père Cottard",
+      "alias": "The old concierge (Père Cottard)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Richard Osborne Elliott",
+      "alias": "Richard Osborne ELLIOTT",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Richard Osborne Elliott",
+      "alias": "Richard Osborne Elliott",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

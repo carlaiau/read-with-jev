@@ -1,0 +1,29 @@
+{
+  "chunks": [
+    {
+      "start": 1021,
+      "end": 397672,
+      "key": "c946dfada05c550a6eb673f1cc2c4be7db37945fdb3525c2a0c7e177f35926c6",
+      "usage": {
+        "input_tokens": 110211,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8018,
+        "output_tokens_details": {
+          "reasoning_tokens": 4352
+        },
+        "total_tokens": 118229
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Christine Stickles",
+      "alias": "Amelia's companion",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

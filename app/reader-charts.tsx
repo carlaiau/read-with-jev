@@ -2,10 +2,13 @@ import type { Book } from '../src/lib/model';
 
 /** Each sample is the fraction of chapter passages containing this identity. */
 export function chapterActivity(book: Book, ids: string[]): number[] {
-  return Array.from({ length: Math.max(0, ...book.passages.map(p => p.chapter)) }, (_, i) => {
-    const passages = book.passages.filter(p => p.chapter === i + 1);
-    return passages.length ? passages.filter(p => !ids.length || p.labels.some(id => ids.includes(id))).length / passages.length : 0;
-  });
+  const total = Array<number>(Math.max(0, ...book.passages.map(p => p.chapter))).fill(0);
+  const matching = [...total], selected = new Set(ids);
+  for (const passage of book.passages) {
+    total[passage.chapter - 1]++;
+    if (!selected.size || passage.labels.some(id => selected.has(id))) matching[passage.chapter - 1]++;
+  }
+  return total.map((count, i) => count ? matching[i] / count : 0);
 }
 
 export function Sparkline({ values, color }: { values: number[]; color: string }) {

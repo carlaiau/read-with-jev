@@ -1,0 +1,59 @@
+{
+  "chunks": [
+    {
+      "start": 930,
+      "end": 362795,
+      "key": "ef867d004ce5d40b9bf4086cc3eef2a540c799dc3e7139b33ac35a3bb131eb4a",
+      "usage": {
+        "input_tokens": 101550,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7223,
+        "output_tokens_details": {
+          "reasoning_tokens": 5952
+        },
+        "total_tokens": 108773
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Dick (Lestrange’s son)",
+      "alias": "Dicky (Lestrange’s little son)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Captain Le Farge",
+      "alias": "Captain Le Farges’",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Captain Le Farge",
+      "alias": "'Old Man'",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Captain Le Farge",
+      "alias": "the 'Old Man'",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Con Cogan",
+      "alias": "Con Cogan",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Captain (of the Raratonga) / Stannistreet crew (unnamed)",
+      "alias": "the crew of the Raratonga",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Captain (of the Raratonga) / Stannistreet crew (unnamed)",
+      "alias": "the schooner crew",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

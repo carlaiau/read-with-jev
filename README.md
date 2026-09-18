@@ -1,8 +1,8 @@
 # Read with JEV
 
-A Next.js / TypeScript research prototype for a novel reader with a character minimap. The library includes nine documents, with **Pride and Prejudice** selected initially.
+A Next.js / TypeScript research prototype for a novel reader with a character minimap. The library supports multiple documents, with **Pride and Prejudice** selected initially.
 
-The reader defaults to **deterministic name/alias baseline classifications** across nine documents. A document selector loads one book at a time from a Netlify function. See [the library and hosting guide](docs/document-library.md).
+The reader defaults to **deterministic name/alias baseline classifications** across the prepared library. A document selector loads one book at a time from a Netlify function. See [the library and hosting guide](docs/document-library.md).
 
 Research datasets and the research API for *Pride and Prejudice* retain **human annotations**:
 
@@ -28,6 +28,10 @@ npm run dev
 ```
 
 Open http://127.0.0.1:3000. Downloads are pinned to exact revisions, checksummed, and kept in ignored `data/raw/`. Preparation verifies sources and writes `data/processed/`. No Python is required.
+
+## Expand the library
+
+The Gutenberg top-100 import currently selects the first 50 English editions, with resumable GPT-5 mini character and alias extraction before baseline classification. See [the import and cast-discovery guide](docs/top100-library.md) for commands, source checks, and model provenance.
 
 ## Evaluate
 

@@ -1,0 +1,491 @@
+{
+  "schema": 1,
+  "gutenbergId": 2641,
+  "sourceSha256": "3dce58eb1786b10b79f8688968d293a1990dfed4a1f83a5c04a6a2a10381db36",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-d62375035d765fe8",
+      "name": "Miss Charlotte Bartlett",
+      "description": "Lucy Honeychurch’s older cousin and chaperon; a prim, well-meaning, sometimes meddlesome English lady",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Miss Bartlett",
+          "evidence": [
+            1598,
+            1611
+          ]
+        },
+        {
+          "text": "Charlotte",
+          "evidence": [
+            1258,
+            1267
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0cc6fb78c12106b6",
+      "name": "Lucy Honeychurch",
+      "description": "Young Englishwoman, protagonist; thoughtful, musical, travels in Italy and faces a moral/emotional choice",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Miss Honeychurch",
+          "evidence": [
+            7785,
+            7801
+          ]
+        },
+        {
+          "text": "Lucy",
+          "evidence": [
+            1287,
+            1291
+          ]
+        },
+        {
+          "text": "Miss Lucy",
+          "evidence": [
+            1282,
+            1291
+          ]
+        },
+        {
+          "text": "Lucia",
+          "evidence": [
+            15187,
+            15192
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ed3bf3a442189638",
+      "name": "Mrs. Honeychurch",
+      "description": "Lucy's mother; a practical, respectable woman of Windy Corner",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Mrs. Honeychurch",
+          "evidence": [
+            1831,
+            1847
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cf424708d10c2b3d",
+      "name": "Freddy Honeychurch",
+      "description": "Lucy’s younger brother; athletic, plainspoken, often comic",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Freddy",
+          "evidence": [
+            1849,
+            1855
+          ]
+        },
+        {
+          "text": "Freddy Honeychurch",
+          "evidence": [
+            166243,
+            166261
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5a3beda063243803",
+      "name": "Cecil Vyse",
+      "description": "A cultured, fastidious man engaged to Lucy for a time; later jilted by her",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Cecil",
+          "evidence": [
+            1477,
+            1482
+          ]
+        },
+        {
+          "text": "Mr. Vyse",
+          "evidence": [
+            153681,
+            153689
+          ]
+        },
+        {
+          "text": "Fiasco",
+          "evidence": [
+            173923,
+            173929
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-063bb99abbc7fc7f",
+      "name": "Reverend Arthur Beebe",
+      "description": "A cheerful, tolerant clergyman and friend to the Honeychurch family",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Mr. Beebe",
+          "evidence": [
+            1820,
+            1829
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-deb37abc4b17146e",
+      "name": "Reverend Cuthbert Eager",
+      "description": "An English chaplain in Florence; cultured, censorious and socially observant",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Rev. Cuthbert Eager",
+          "evidence": [
+            2706,
+            2725
+          ]
+        },
+        {
+          "text": "Mr. Eager",
+          "evidence": [
+            68093,
+            68102
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c754203e5e1fb5cf",
+      "name": "Mr. Emerson",
+      "description": "An older English tourist at the Pension Bertolini; outspoken, eccentric and kind",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Mr. Emerson",
+          "evidence": [
+            1199,
+            1210
+          ]
+        },
+        {
+          "text": "old Mr. Emerson",
+          "evidence": [
+            17833,
+            17848
+          ]
+        },
+        {
+          "text": "Emerson",
+          "evidence": [
+            1203,
+            1210
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b8fffcccbb5fa071",
+      "name": "George Emerson",
+      "description": "Mr. Emerson’s son; serious, sometimes melancholy, emotionally intense and a central romantic interest for Lucy",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "George",
+          "evidence": [
+            1216,
+            1222
+          ]
+        },
+        {
+          "text": "young Mr. Emerson",
+          "evidence": [
+            23629,
+            23646
+          ]
+        },
+        {
+          "text": "George Emerson",
+          "evidence": [
+            1216,
+            1230
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4e5b22162aadcac6",
+      "name": "Miss Eleanor Lavish",
+      "description": "An outspoken, literary Englishwoman (a writer) who travels in Italy and offers opinionated local colour",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Miss Lavish",
+          "evidence": [
+            28097,
+            28108
+          ]
+        },
+        {
+          "text": "Miss Eleanor Lavish",
+          "evidence": [
+            1232,
+            1251
+          ]
+        },
+        {
+          "text": "Eleanor",
+          "evidence": [
+            1237,
+            1244
+          ]
+        },
+        {
+          "text": "E. L.",
+          "evidence": [
+            62403,
+            62408
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f82e6f9978a7b7fa",
+      "name": "Signora Bertolini",
+      "description": "Proprietor of the Pension Bertolini in Florence",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "the Signora",
+          "evidence": [
+            2320,
+            2331
+          ]
+        },
+        {
+          "text": "Signora Bertolini",
+          "evidence": [
+            17119,
+            17136
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0aa3e8647dcaf244",
+      "name": "’Enery",
+      "description": "Signora Bertolini’s little boy (a child at the pension)",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "’Enery",
+          "evidence": [
+            11312,
+            11318
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5edb40c36257544",
+      "name": "Victorier",
+      "description": "Signora Bertolini’s daughter (a child at the pension)",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Victorier",
+          "evidence": [
+            11341,
+            11350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-988ab4ba50119b0b",
+      "name": "Miss Catharine Alan",
+      "description": "One of two elderly English sisters (the Miss Alans) who vacation in Italy; genteel and talkative",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Miss Catharine Alan",
+          "evidence": [
+            58640,
+            58659
+          ]
+        },
+        {
+          "text": "Miss Alan",
+          "evidence": [
+            51217,
+            51226
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-296fc0247ea5a75f",
+      "name": "Miss Teresa Alan",
+      "description": "One of the two Miss Alans, sister to Miss Catharine; an elderly English lady who travels with her sister",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Miss Teresa",
+          "evidence": [
+            43548,
+            43559
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7393250f0ce7771b",
+      "name": "Miss Pole",
+      "description": "A fellow pensioner noted for her yellow hair; appears in Pension Bertolini society",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Miss Pole",
+          "evidence": [
+            63611,
+            63620
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-950592ce13d9190e",
+      "name": "Mrs. Vyse",
+      "description": "Cecil Vyse’s mother; socially active hostess in London",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Mrs. Vyse",
+          "evidence": [
+            1515,
+            1524
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e6113078c44e9645",
+      "name": "Mrs. Butterworth",
+      "description": "A neighbouring landowner and philanthropist mentioned in the Windy Corner circle",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Mrs. Butterworth",
+          "evidence": [
+            30448,
+            30464
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0f9eacb83892c9c3",
+      "name": "Sir Harry Otway",
+      "description": "Local landowner and neighbour involved in lettings and local affairs",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Sir Harry",
+          "evidence": [
+            30366,
+            30375
+          ]
+        },
+        {
+          "text": "Sir Harry Otway",
+          "evidence": [
+            30366,
+            30381
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3495298d5d01544e",
+      "name": "Mr. Flack",
+      "description": "Local builder who develops villas in the neighbourhood (owner/agent figure)",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Mr. Flack",
+          "evidence": [
+            164374,
+            164383
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf0e3ebed88190b8",
+      "name": "Mrs. Flack",
+      "description": "Relative (aunt) placed in one of Mr. Flack’s villas; a tenant example",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Mrs. Flack",
+          "evidence": [
+            185364,
+            185374
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-098fb31adb7d943c",
+      "name": "Minnie Beebe",
+      "description": "Miss Beebe (Mr. Beebe’s niece), a lively young girl in Summer Street society",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Minnie",
+          "evidence": [
+            202003,
+            202009
+          ]
+        },
+        {
+          "text": "Minnie Beebe",
+          "evidence": [
+            202003,
+            202015
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-17fce805f248a4b1",
+      "name": "Mr. Floyd",
+      "description": "A friend of Freddy Honeychurch; a young male acquaintance who appears in the Summer Street set",
+      "scope": "A Room With a View",
+      "aliases": [
+        {
+          "text": "Mr. Floyd",
+          "evidence": [
+            253777,
+            253786
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "chunks": [
+    {
+      "start": 923,
+      "end": 650873,
+      "key": "989568ce0560a9895a7e2beff7b1ad8e4605f96edffe67384f7c0ed7386da901",
+      "usage": {
+        "input_tokens": 179739,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8223,
+        "output_tokens_details": {
+          "reasoning_tokens": 5632
+        },
+        "total_tokens": 187962
+      }
+    },
+    {
+      "start": 650873,
+      "end": 1158108,
+      "key": "90fb3f5d2a89f1d1ae18cb4f29a396792f676fd4ff7aaa4173f1a641716a8ba7",
+      "usage": {
+        "input_tokens": 139728,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6124,
+        "output_tokens_details": {
+          "reasoning_tokens": 4672
+        },
+        "total_tokens": 145852
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "6466ce94cb6b61e5cfac941872d478e8461063fb44a6a32ad1f0fad01af041dc",
+    "usage": {
+      "input_tokens": 4199,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 4679,
+      "output_tokens_details": {
+        "reasoning_tokens": 2752
+      },
+      "total_tokens": 8878
+    }
+  },
+  "rejected": [
+    {
+      "name": "Pulcheria Alexandrovna Raskolnikov",
+      "alias": "Pulcheria Raskolnikov",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Nikolay Dementyev",
+      "alias": "the prisoner Nikolay",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Arkady Ivanovitch Svidrigaïlov",
+      "alias": "Svidrigaïlov, Arkady Ivanovitch",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the Pole (unnamed)",
+      "alias": "the Poles",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

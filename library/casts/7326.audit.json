@@ -1,0 +1,100 @@
+{
+  "chunks": [
+    {
+      "start": 989,
+      "end": 650922,
+      "key": "2e1898d40fb761a522f1b03231a014252e450dbad3fd310d83610c1cfde2e5dc",
+      "usage": {
+        "input_tokens": 183333,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6004,
+        "output_tokens_details": {
+          "reasoning_tokens": 3136
+        },
+        "total_tokens": 189337
+      }
+    },
+    {
+      "start": 650922,
+      "end": 689689,
+      "key": "302fbad4d0a4d06db7cd4813d4d3738fc8ceedcae1d17bef16a738680abae4c3",
+      "usage": {
+        "input_tokens": 11273,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7529,
+        "output_tokens_details": {
+          "reasoning_tokens": 5504
+        },
+        "total_tokens": 18802
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "d7fdf73ee81c6ec0d1cb08633460eddf99889861d2501aa783d4dd64acac0ae7",
+    "usage": {
+      "input_tokens": 4402,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 4166,
+      "output_tokens_details": {
+        "reasoning_tokens": 1088
+      },
+      "total_tokens": 8568
+    }
+  },
+  "rejected": [
+    {
+      "name": "Katherine (Kate) Wheatman",
+      "alias": "Katherine WHEATMAN, her book",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Jack Dobson (book)",
+      "alias": "Master Dobson's son",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Colonel Christopher Waynflete (book)",
+      "alias": "Colonel Christopher Waynflete",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Freake (Master Freake, book)",
+      "alias": "Master Freake (Mr. Freake)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Master Bloggs",
+      "alias": "the vicar's old scholar (Master Bloggs)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Prince Charles (Bonnie Prince Charlie)",
+      "alias": "Bonnie Prince Charlie",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Ishbel Ogilvie (Lady Ogilvie)",
+      "alias": "Ishbel Ogilvie",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Archdeacon of Lichfield",
+      "alias": "the Archdeacon of Lichfield",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Margaret (daughter of Oliver Wheatman)",
+      "alias": "my other Margaret",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "schema": 1,
+  "gutenbergId": 43,
+  "sourceSha256": "b43448a88391591f9cf82b25553df00faf47a2752a873185fcdd1156eebdb990",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-21e04a12ca7764cf",
+      "name": "Gabriel John Utterson",
+      "description": "London lawyer; friend, trustee and confidant of Dr. Henry Jekyll; central investigator of the Hyde/Jekyll mystery.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Utterson",
+          "evidence": [
+            1325,
+            1337
+          ]
+        },
+        {
+          "text": "Utterson",
+          "evidence": [
+            1329,
+            1337
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-02439907b6fe8968",
+      "name": "Richard Enfield",
+      "description": "Distant kinsman and Sunday-walking friend of Mr. Utterson; man about town who relates the story of the door and the trampling incident.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Enfield",
+          "evidence": [
+            5339,
+            5350
+          ]
+        },
+        {
+          "text": "Enfield",
+          "evidence": [
+            3133,
+            3140
+          ]
+        },
+        {
+          "text": "Richard",
+          "evidence": [
+            3125,
+            3132
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b49885c6d49e549",
+      "name": "Dr. Henry Jekyll",
+      "description": "Prominent physician and scientist; friend of Utterson and Lanyon; author of the will and central figure of the narrative confession.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Jekyll",
+          "evidence": [
+            952,
+            962
+          ]
+        },
+        {
+          "text": "Henry Jekyll",
+          "evidence": [
+            15179,
+            15191
+          ]
+        },
+        {
+          "text": "HENRY JEKYLL.",
+          "evidence": [
+            87982,
+            87995
+          ]
+        },
+        {
+          "text": "Harry Jekyll",
+          "evidence": [
+            26507,
+            26519
+          ]
+        },
+        {
+          "text": "Jekyll",
+          "evidence": [
+            956,
+            962
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8ad7f639b757ccec",
+      "name": "Edward Hyde",
+      "description": "Violent, repulsive man connected to Dr. Jekyll by will and conduct; perpetrator of the Carew murder and key figure in Jekyll’s experiments.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Hyde",
+          "evidence": [
+            967,
+            975
+          ]
+        },
+        {
+          "text": "Edward Hyde",
+          "evidence": [
+            15309,
+            15320
+          ]
+        },
+        {
+          "text": "Hyde",
+          "evidence": [
+            971,
+            975
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c4f581db2ff002de",
+      "name": "Dr. Hastie Lanyon",
+      "description": "Physician, old friend and former colleague of Jekyll and Utterson; eyewitness to a shocking transformation and author of a sealed narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Lanyon",
+          "evidence": [
+            16569,
+            16579
+          ]
+        },
+        {
+          "text": "Lanyon",
+          "evidence": [
+            16573,
+            16579
+          ]
+        },
+        {
+          "text": "HASTIE LANYON.",
+          "evidence": [
+            103967,
+            103981
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a6a21b103468369d",
+      "name": "Sir Danvers Carew",
+      "description": "Elderly, respected gentleman and Member of Parliament who is brutally murdered; victim in the Carew murder case.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Danvers",
+          "evidence": [
+            51644,
+            51655
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-490efb85e2c61b7b",
+      "name": "Poole",
+      "description": "Long-serving, solemn butler and head servant in Dr. Jekyll’s household; brings concerns about the cabinet and helps force the door.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Poole",
+          "evidence": [
+            27213,
+            27218
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2b24d3220e297ed5",
+      "name": "Mr. Guest",
+      "description": "Mr. Utterson’s head clerk; skilled handwriting analyst who compares Jekyll’s and Hyde’s writing.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Guest",
+          "evidence": [
+            50102,
+            50111
+          ]
+        },
+        {
+          "text": "Guest",
+          "evidence": [
+            50106,
+            50111
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5eb783f0c6afa4ad",
+      "name": "Inspector Newcomen",
+      "description": "Scotland Yard inspector investigating the murder of Sir Danvers Carew and searching Mr. Hyde’s rooms.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Inspector Newcomen",
+          "evidence": [
+            42074,
+            42092
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-50bfc2a03ae84109",
+      "name": "Bradshaw",
+      "description": "Footman in Dr. Jekyll’s household; summoned to take post at the laboratory door during the forced entry.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bradshaw",
+          "evidence": [
+            78160,
+            78168
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f13cf4d3ad4abe8a",
+      "name": "maid servant (witness to Carew murder)",
+      "description": "Unnamed maid servant living alone who witnesses the murder of Sir Danvers Carew and reports the events to police and others.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the maid",
+          "evidence": [
+            35439,
+            35447
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-99b0c03280e16684",
+      "name": "the child (girl trampled by Hyde)",
+      "description": "A young girl (about eight or ten) who is trampled and left screaming in Enfield’s recounted incident.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the child",
+          "evidence": [
+            6617,
+            6626
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-68eb8a2304a15904",
+      "name": "the Sawbones (apothecary present at child incident)",
+      "description": "The apothecary/doctor called for the injured child in Enfield’s tale; described as an Edinburgh-accented, unemotional 'Sawbones'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the doctor",
+          "evidence": [
+            7143,
+            7153
+          ]
+        },
+        {
+          "text": "Sawbones",
+          "evidence": [
+            7282,
+            7290
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b5424750cbaf4dfc",
+      "name": "locksmith (called by Dr. Lanyon)",
+      "description": "Tradesman summoned by Dr. Lanyon to force the strong door of Jekyll’s cabinet; helps remove the specified drawer.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "a locksmith",
+          "evidence": [
+            93308,
+            93319
+          ]
+        },
+        {
+          "text": "the locksmith",
+          "evidence": [
+            93698,
+            93711
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2b0096ed67524225",
+      "name": "carpenter (called by Dr. Lanyon)",
+      "description": "Tradesman engaged alongside the locksmith to assist in forcing the door of the cabinet.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "a carpenter",
+          "evidence": [
+            93324,
+            93335
+          ]
+        },
+        {
+          "text": "the carpenter",
+          "evidence": [
+            93590,
+            93603
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0247b0ef314ea740",
+      "name": "housekeeper (Hyde’s, ivory-faced woman)",
+      "description": "Hyde’s housekeeper at the Soho rooms; described as an ivory-faced, silvery-haired old woman who answers Hyde’s lodgings.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the woman",
+          "evidence": [
+            41964,
+            41973
+          ]
+        },
+        {
+          "text": "housekeeper",
+          "evidence": [
+            115520,
+            115531
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-652a20fdba028a6c",
+      "name": "housemaid (Jekyll household)",
+      "description": "Housemaid in Dr. Jekyll’s household who reacts hysterically when servants gather in the hall.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the housemaid",
+          "evidence": [
+            68312,
+            68325
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-073088f71d6e7ab7",
+      "name": "knife-boy",
+      "description": "Young servant in Jekyll’s household who is asked by Poole to fetch a candle during the forced entry.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the knife-boy",
+          "evidence": [
+            69060,
+            69073
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f4e5bec67dbdbaf5",
+      "name": "the waiter (Portland Street hotel)",
+      "description": "Attendant at the Portland Street inn where Hyde/Hyde’s agent composes letters; visibly intimidated by the visitor.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the waiter",
+          "evidence": [
+            134473,
+            134483
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8ea795bbab7e137e",
+      "name": "hansom/cab driver",
+      "description": "Driver of a hansom/cab encountered when Hyde/Jekyll moves about the city; reacts to the visitor’s appearance.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the driver",
+          "evidence": [
+            133422,
+            133432
+          ]
+        }
+      ]
+    }
+  ]
+}

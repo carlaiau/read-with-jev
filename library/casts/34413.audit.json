@@ -1,0 +1,59 @@
+{
+  "chunks": [
+    {
+      "start": 1203,
+      "end": 193861,
+      "key": "0064d84b55f341cd9d08ca8e1c21d8b6072222f00fefe9dda8f9a06469b84411",
+      "usage": {
+        "input_tokens": 52893,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8292,
+        "output_tokens_details": {
+          "reasoning_tokens": 6272
+        },
+        "total_tokens": 61185
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Eliza Wollstonecraft (Mrs. Bishop)",
+      "alias": "Eliza Wollstonecraft",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Hugh Skeys",
+      "alias": "Mr. Skeys",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "George Blood",
+      "alias": "George Blood",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Helen Maria Williams",
+      "alias": "Helen Maria Williams",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Reveley",
+      "alias": "Mrs. Reveley",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sir Percy Florence Shelley",
+      "alias": "Sir Percy Florence Shelley",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Charles Clairmont",
+      "alias": "Charles Clairmont",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
+import { loadLibraryDocument } from '../src/lib/library-transport';
 import { readerSegments } from '../src/lib/reader-text';
 import type { DocumentSummary, LibraryDocument } from '../src/lib/library-model';
 import type { Book } from '../src/lib/model';
@@ -35,9 +36,7 @@ export default function Reader() {
   const [mobileOpen, setMobileOpen] = useState(false);
   useEffect(() => {
     const controller = new AbortController(); setBook(null); setError(''); setCurrent(0); setSelected([]);
-    fetch(`/.netlify/functions/library?document=${encodeURIComponent(documentId)}`, { signal: controller.signal }).then(async response => {
-      const data = await response.json(); if (!response.ok) throw new Error(data.error); return data as Book & Partial<LibraryDocument>;
-    }).then(data => {
+    loadLibraryDocument<Book & Partial<LibraryDocument>>(`/.netlify/functions/library?document=${encodeURIComponent(documentId)}`, controller.signal).then(data => {
       if (controller.signal.aborted) return;
       setBook(data);
       const first = data.characters.find(c => c.name.startsWith('Elizabeth'));
@@ -90,12 +89,12 @@ export default function Reader() {
       <Sidebar aria-label="Characters">
         <SidebarHeader className="px-6! pt-7! pb-5! lg:pt-10!">
           <a href="/" className="font-serif text-[27px] leading-tight tracking-tight">{title}</a>
-          <p className="mt-2 font-serif text-lg italic text-muted">{documentInfo?.author ?? 'Jane Austen'} · {documentInfo?.year ?? 1813}</p>
+          <p className="mt-2 font-serif text-lg italic text-muted">{documentInfo?.author ?? 'Unknown author'}{documentInfo?.year ? ` · ${documentInfo.year}` : ''}</p>
           <Field className="mt-4">
             <Label>Document</Label>
             <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => { setDocumentId(e.target.value); setMatchMode('any'); }} className="mt-2">
               {!documents.length && <option value="pride-and-prejudice">Loading library…</option>}
-              {documents.map(d => <option key={d.documentId} value={d.documentId}>{d.title}</option>)}
+              {documents.map(d => <option key={d.documentId} value={d.documentId}>{d.title}{documents.filter(other => other.title === d.title).length > 1 ? ` · Gutenberg ${d.source.split("/").at(-1)}` : ""}</option>)}
             </Select>
           </Field>
         </SidebarHeader>

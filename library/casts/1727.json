@@ -1,0 +1,1766 @@
+{
+  "schema": 1,
+  "gutenbergId": 1727,
+  "sourceSha256": "ffbdb29c3dda284b65c11243db1a98167826a70c81bca2ed4b6232f86c905fb9",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-f73c0fa95c4e8f18",
+      "name": "Ulysses",
+      "description": "Ithacan king and the poem's protagonist; veteran of the Trojan War, long-absent husband of Penelope and father of Telemachus",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Ulysses",
+          "evidence": [
+            2218,
+            2225
+          ]
+        },
+        {
+          "text": "Ulysses son of Laertes",
+          "evidence": [
+            221405,
+            221427
+          ]
+        },
+        {
+          "text": "Odysseus",
+          "evidence": [
+            5807,
+            5815
+          ]
+        },
+        {
+          "text": "godlike Odysseus",
+          "evidence": [
+            6279,
+            6295
+          ]
+        },
+        {
+          "text": "noble son of Laertes",
+          "evidence": [
+            139263,
+            139283
+          ]
+        },
+        {
+          "text": "renowned Ulysses",
+          "evidence": [
+            321462,
+            321478
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-09f8dbdcfd545e25",
+      "name": "Penelope",
+      "description": "Wife of Ulysses, queen of Ithaca; central figure enduring suitors and awaiting her husband's return",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Penelope",
+          "evidence": [
+            11967,
+            11975
+          ]
+        },
+        {
+          "text": "Penelope, daughter of Icarius",
+          "evidence": [
+            33609,
+            33638
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cee8acdb5c7b0d53",
+      "name": "Telemachus",
+      "description": "Son of Ulysses and Penelope, who undertakes a journey to seek news of his father and later helps him reclaim the house",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Telemachus",
+          "evidence": [
+            12014,
+            12024
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a26013d75cfd0ca7",
+      "name": "Laertes",
+      "description": "Father of Ulysses, elderly inhabitant of the Ithacan farm who is reunited with his son",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Laertes",
+          "evidence": [
+            26596,
+            26603
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5e478f5659a119b9",
+      "name": "Minerva",
+      "description": "Goddess (Athena) who aids and disguises Ulysses and Telemachus; takes multiple forms in the narrative",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Minerva",
+          "evidence": [
+            19609,
+            19616
+          ]
+        },
+        {
+          "text": "grey-eyed Athene",
+          "evidence": [
+            7829,
+            7845
+          ]
+        },
+        {
+          "text": "Athene",
+          "evidence": [
+            7839,
+            7845
+          ]
+        },
+        {
+          "text": "daughter of Jove",
+          "evidence": [
+            17970,
+            17986
+          ]
+        },
+        {
+          "text": "Trito-born",
+          "evidence": [
+            80819,
+            80829
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a29455c65c6883ff",
+      "name": "Jove",
+      "description": "King of the gods (Zeus), presides over divine council and acts as arbiter in the narrative",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Jove",
+          "evidence": [
+            17982,
+            17986
+          ]
+        },
+        {
+          "text": "Zeus",
+          "evidence": [
+            5613,
+            5617
+          ]
+        },
+        {
+          "text": "father of men and gods",
+          "evidence": [
+            6736,
+            6758
+          ]
+        },
+        {
+          "text": "son of Saturn",
+          "evidence": [
+            19632,
+            19645
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ca725cc9a80a08ed",
+      "name": "Neptune",
+      "description": "Sea-god (Poseidon) who persecutes Ulysses because his son Polyphemus was blinded",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Neptune",
+          "evidence": [
+            18533,
+            18540
+          ]
+        },
+        {
+          "text": "Poseidon",
+          "evidence": [
+            6234,
+            6242
+          ]
+        },
+        {
+          "text": "lord of the Earthquake",
+          "evidence": [
+            61747,
+            61769
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3ef83c97e1644af0",
+      "name": "Mercury",
+      "description": "Messenger god (Hermes) who conveys divine orders and appears to mortals",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Mercury",
+          "evidence": [
+            19337,
+            19344
+          ]
+        },
+        {
+          "text": "Hermes",
+          "evidence": [
+            7411,
+            7417
+          ]
+        },
+        {
+          "text": "slayer of Argos",
+          "evidence": [
+            7445,
+            7460
+          ]
+        },
+        {
+          "text": "guide and guardian",
+          "evidence": [
+            131910,
+            131928
+          ]
+        },
+        {
+          "text": "messenger",
+          "evidence": [
+            131230,
+            131239
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-402386ea18e26e38",
+      "name": "Calypso",
+      "description": "Nymph who keeps Ulysses on her island (Ogygia) and offers him immortality",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Calypso",
+          "evidence": [
+            5890,
+            5897
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-950387af3724e504",
+      "name": "Circe",
+      "description": "Powerful Aeaean enchantress who turns some of Ulysses' men into pigs and later hosts and advises him",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Circe",
+          "evidence": [
+            212882,
+            212887
+          ]
+        },
+        {
+          "text": "Aeaean goddess",
+          "evidence": [
+            222072,
+            222086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0fa0180cf09c7a53",
+      "name": "Teiresias",
+      "description": "Blind Theban prophet consulted in Hades who gives Ulysses prophecies about his return",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Teiresias",
+          "evidence": [
+            275755,
+            275764
+          ]
+        },
+        {
+          "text": "Theban Teiresias",
+          "evidence": [
+            284542,
+            284558
+          ]
+        },
+        {
+          "text": "the blind Theban prophet",
+          "evidence": [
+            275730,
+            275754
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-af2cde91488f5e78",
+      "name": "Nestor",
+      "description": "King of Pylos, an elder Achaean who receives Telemachus and recounts aspects of the return of the Greeks",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Nestor",
+          "evidence": [
+            31415,
+            31421
+          ]
+        },
+        {
+          "text": "knight of Gerene",
+          "evidence": [
+            65083,
+            65099
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1779f4fbcafa7c64",
+      "name": "Menelaus",
+      "description": "King of Sparta (Lacedaemon), host to Telemachus who relates his own wanderings and what he learned of Ulysses",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Menelaus",
+          "evidence": [
+            31457,
+            31465
+          ]
+        },
+        {
+          "text": "son of Atreus",
+          "evidence": [
+            7267,
+            7280
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-99fb73ec3f6f6585",
+      "name": "Helen",
+      "description": "Helen of Troy; Menelaus' wife, whose actions and gifts play a role in Telemachus' reception",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Helen",
+          "evidence": [
+            87792,
+            87797
+          ]
+        },
+        {
+          "text": "Priam’s daughter",
+          "evidence": [
+            300733,
+            300749
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-03b3829a8904277a",
+      "name": "Alcinous",
+      "description": "King of the Phaeacians who hospitably receives Ulysses and ultimately provides him a ship and escort home",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Alcinous",
+          "evidence": [
+            154727,
+            154735
+          ]
+        },
+        {
+          "text": "king Alcinous",
+          "evidence": [
+            173424,
+            173437
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0adb490d3d43d165",
+      "name": "Arete",
+      "description": "Queen of the Phaeacians, wife of Alcinous, influential in deciding how Ulysses is treated",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Arete",
+          "evidence": [
+            174792,
+            174797
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf5920730f10693a",
+      "name": "Nausicaa",
+      "description": "Daughter of Alcinous, Phaeacian princess who finds Ulysses washed ashore and aids him",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Nausicaa",
+          "evidence": [
+            2609,
+            2617
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f4504d234257f6f1",
+      "name": "Demodocus",
+      "description": "The bard of the Phaeacians whose songs move Ulysses to tears",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Demodocus",
+          "evidence": [
+            192484,
+            192493
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ab0b5e3ca513bbf4",
+      "name": "Argos",
+      "description": "Ulysses’ old dog, who recognizes him on his return and then dies",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Argos",
+          "evidence": [
+            7455,
+            7460
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-471dca62178f1aad",
+      "name": "Euryclea",
+      "description": "Loyal old nurse of Ulysses and Telemachus who recognizes Ulysses by his scar while washing his feet",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Euryclea",
+          "evidence": [
+            38098,
+            38106
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bea4af9073ee7e1c",
+      "name": "Eumaeus",
+      "description": "The swineherd of Ulysses; faithful servant who shelters the disguised hero and helps reclaim the house",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Eumaeus",
+          "evidence": [
+            361078,
+            361085
+          ]
+        },
+        {
+          "text": "the swineherd",
+          "evidence": [
+            356247,
+            356260
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-823d7d3584021735",
+      "name": "Philoetius",
+      "description": "Cowherd/stockman loyal to Ulysses who assists in retaking the house",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Philoetius",
+          "evidence": [
+            533605,
+            533615
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3f189ed42d0be290",
+      "name": "Melanthius",
+      "description": "Goatherd who betrays Ulysses and supplies the suitors with arms; severely punished",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Melanthius",
+          "evidence": [
+            448820,
+            448830
+          ]
+        },
+        {
+          "text": "Melanthius son of Dolius",
+          "evidence": [
+            448820,
+            448844
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2259254190e09972",
+      "name": "Antinous",
+      "description": "Leading and most aggressive of Penelope's suitors; first killed by Ulysses",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Antinous",
+          "evidence": [
+            36122,
+            36130
+          ]
+        },
+        {
+          "text": "Antinous son of Eupeithes",
+          "evidence": [
+            120268,
+            120293
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e6051c25382eb888",
+      "name": "Eurymachus",
+      "description": "One of the principal suitors; attempts to negotiate after Antinous' death",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Eurymachus",
+          "evidence": [
+            36775,
+            36785
+          ]
+        },
+        {
+          "text": "Eurymachus son of Polybus",
+          "evidence": [
+            48150,
+            48175
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c90219917d3f6459",
+      "name": "Amphinomus",
+      "description": "A suitor of Penelope noted for being comparatively decent; nevertheless killed among the suitors",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Amphinomus",
+          "evidence": [
+            431880,
+            431890
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d6404539d9773011",
+      "name": "Antiphus",
+      "description": "Named son of Aegyptius who was killed by the Cyclops Polyphemus (recounted in Ulysses’ tale)",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Antiphus",
+          "evidence": [
+            40081,
+            40089
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-90d710bd96d69d9b",
+      "name": "Aegisthus",
+      "description": "Man who murdered Agamemnon (in the tale recounted by Nestor and Menelaus); foil in parallel story",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Aegisthus",
+          "evidence": [
+            6823,
+            6832
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d64d8913315e4411",
+      "name": "Agamemnon",
+      "description": "King of the Achaeans whose murder and its consequences are discussed and whose ghost appears in Hades",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Agamemnon",
+          "evidence": [
+            6850,
+            6859
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-af703265fa316c97",
+      "name": "Ajax",
+      "description": "Achaean warrior mentioned among the fallen and appearing in the underworld; prominent hero",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Ajax",
+          "evidence": [
+            66960,
+            66964
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-327ac2e0b516a269",
+      "name": "Achilles",
+      "description": "Great Achaean hero, appears in Hades and speaks with Ulysses' ghostly compatriots",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Achilles",
+          "evidence": [
+            66858,
+            66866
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-314b00f110bde01f",
+      "name": "Argive Herald Medon",
+      "description": "Household herald who overhears the suitors' plots and is spared by Telemachus",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Medon",
+          "evidence": [
+            121074,
+            121079
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fdd79d6c76d6ba68",
+      "name": "Phemius",
+      "description": "Household bard forced to sing for the suitors; spared during the slaughter",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Phemius",
+          "evidence": [
+            24890,
+            24897
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e129cae04e62137b",
+      "name": "Leiodes",
+      "description": "Sacrificial priest among the suitors who protests and is killed by Ulysses",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Leiodes",
+          "evidence": [
+            551780,
+            551787
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cbd253e00072998e",
+      "name": "Ctesippus",
+      "description": "A wealthy, boorish suitor from Same who throws an ox's foot at the disguised Ulysses and is later killed",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Ctesippus",
+          "evidence": [
+            538609,
+            538618
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-56c1994c2e60bb7f",
+      "name": "Echephron",
+      "description": "One of Nestor's sons (appears helping with sacrifice at Pylos)",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Echephron",
+          "evidence": [
+            82454,
+            82463
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f48ae8a85a7d2a66",
+      "name": "Pisistratus",
+      "description": "Young son of Nestor who accompanies Telemachus from Pylos to Sparta and back",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Pisistratus",
+          "evidence": [
+            63406,
+            63417
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fa3b0df8231afeff",
+      "name": "Polycaste",
+      "description": "Youngest daughter of Nestor who washes Telemachus at Pylos",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Polycaste",
+          "evidence": [
+            85210,
+            85219
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fe42d645cfcc200c",
+      "name": "Polyphemus",
+      "description": "One-eyed Cyclops who eats some of Ulysses' men; blinded by Ulysses",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Polyphemus",
+          "evidence": [
+            20904,
+            20914
+          ]
+        },
+        {
+          "text": "king of the Cyclopes",
+          "evidence": [
+            20915,
+            20935
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d37b9c72f06ec099",
+      "name": "Ino (Leucothea)",
+      "description": "Sea-nymph (formerly mortal Ino) who aids Ulysses with a veil when he is shipwrecked",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Ino",
+          "evidence": [
+            145691,
+            145694
+          ]
+        },
+        {
+          "text": "Leucothea",
+          "evidence": [
+            145728,
+            145737
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-544385bbb1b17c8d",
+      "name": "Proteus",
+      "description": "Old man of the sea in Egypt who tells Menelaus of other heroes' fates",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Proteus",
+          "evidence": [
+            104824,
+            104831
+          ]
+        },
+        {
+          "text": "old man of the sea",
+          "evidence": [
+            104118,
+            104136
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c2be35c53229af9",
+      "name": "Idothea",
+      "description": "Daughter of Proteus who aids Menelaus (appears in Menelaus' account)",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Idothea",
+          "evidence": [
+            104803,
+            104810
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f6e0b08e5fd93292",
+      "name": "Polydamna",
+      "description": "Egyptian woman who gave Helen an herb that banishes sorrow (mentioned)",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Polydamna",
+          "evidence": [
+            98423,
+            98432
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-21e73c42720c5aed",
+      "name": "Aeolus",
+      "description": "Ruler of winds who gives Ulysses a bag containing adverse winds",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Aeolus",
+          "evidence": [
+            250574,
+            250580
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a60133e1fcf619e3",
+      "name": "Laestrygonians / Antiphates",
+      "description": "Giant cannibal people encountered by Ulysses; Antiphates is one named Laestrygonian chief",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Laestrygonians",
+          "evidence": [
+            254677,
+            254691
+          ]
+        },
+        {
+          "text": "Antiphates",
+          "evidence": [
+            255909,
+            255919
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-447896979005d69d",
+      "name": "Elpenor",
+      "description": "Companion of Ulysses who dies accidentally at Circe's house and whose shade Ulysses meets in Hades",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Elpenor",
+          "evidence": [
+            278907,
+            278914
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-af07b2a1b10e668d",
+      "name": "Theoclymenus",
+      "description": "Seer from Argos who joins Telemachus and foretells doom to the suitors",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Theoclymenus",
+          "evidence": [
+            398748,
+            398760
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d09395389263b74b",
+      "name": "Autolycus",
+      "description": "Maternal grandfather of Ulysses; famed trickster, connected with Ulysses' childhood and the scar token",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Autolycus",
+          "evidence": [
+            284297,
+            284306
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aba5608a1b6a1081",
+      "name": "Iphthime",
+      "description": "Sister of Penelope who appears as a comforting vision sent by Minerva",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Iphthime daughter of Icarius",
+          "evidence": [
+            127159,
+            127187
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3fc7852f62927884",
+      "name": "Polyphemes/Polydamas/Phaedimus (named gifts)",
+      "description": "Various minor named figures appearing as gift-givers or referenced persons in hosts' accounts (e.g. Phaedimus, giver of a mixing bowl)",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Phaedimus",
+          "evidence": [
+            118077,
+            118086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-38fbe81c0a9dcacb",
+      "name": "Rhadamanthus",
+      "description": "Figure noted as reigning in the Elysian plain; mentioned in Menelaus' account",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Rhadamanthus",
+          "evidence": [
+            115320,
+            115332
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-874b84082deaa651",
+      "name": "Eurylochus",
+      "description": "Companion of Ulysses who often opposes him and leads the men who taste Circe's food; also leads men to Circe",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Eurylochus",
+          "evidence": [
+            260871,
+            260881
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-43f96a2ffdedae5a",
+      "name": "Dolius",
+      "description": "Old servant/gardener associated with Penelope's household; father of Melanthius and other sons",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Dolius",
+          "evidence": [
+            123966,
+            123972
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d172b22a7abd461",
+      "name": "Antiphates (Laestrygon)",
+      "description": "Named Laestrygonian king who kills some of Ulysses' men (distinct from Antiphus noted earlier)",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Antiphates",
+          "evidence": [
+            255909,
+            255919
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae296199f758836c",
+      "name": "Philoctetes",
+      "description": "Archer mentioned as having excelled Ulysses in shooting during the Trojan war (referenced)",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Philoctetes",
+          "evidence": [
+            71020,
+            71031
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0f86638efc2a1715",
+      "name": "Polyphemus' kin (Thoosa/Phorcys)",
+      "description": "Relatives mentioned in genealogical context (Thoosa mother of Polyphemus; Phorcys ancestor), appearing in narrative references",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Thoosa",
+          "evidence": [
+            20980,
+            20986
+          ]
+        },
+        {
+          "text": "Phorcys",
+          "evidence": [
+            21013,
+            21020
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7153ff358730ab45",
+      "name": "Melantho",
+      "description": "Maid in Penelope's household who behaves insolently toward the beggar (Ulysses in disguise) and is later punished",
+      "scope": "The Odyssey",
+      "aliases": [
+        {
+          "text": "Melantho",
+          "evidence": [
+            486335,
+            486343
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-57b761f9f2677fea",
+      "name": "Nausicaa",
+      "description": "Phaeacian princess who encounters and aids Ulysses",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Nausicaa",
+          "evidence": [
+            2609,
+            2617
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-20091a03b3193305",
+      "name": "Nausithous",
+      "description": "Mythical figure mentioned in kinship with Polyphemus and Alcinous",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Nausithous",
+          "evidence": [
+            154479,
+            154489
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c26765e2b55d42d2",
+      "name": "Alcinous",
+      "description": "King of the Phaeacians who hosts Ulysses",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Alcinous",
+          "evidence": [
+            154722,
+            154735
+          ]
+        },
+        {
+          "text": "Alcinous",
+          "evidence": [
+            154727,
+            154735
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a429fd6fb8cf0113",
+      "name": "Echeneus",
+      "description": "Phaeacian elder mentioned in council and ritual contexts",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Echeneus",
+          "evidence": [
+            180290,
+            180298
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-62d5b2375e36dda9",
+      "name": "Ulysses",
+      "description": "Protagonist of the narrative (Greek hero, also called Odysseus)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ulysses",
+          "evidence": [
+            2218,
+            2225
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1e05be1aa4f9e19c",
+      "name": "Telemachus",
+      "description": "Son of Ulysses, central to several episodes in the story",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Telemachus",
+          "evidence": [
+            12014,
+            12024
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d0502ace8f604315",
+      "name": "Penelope",
+      "description": "Wife of Ulysses, central figure in the homeward plotline",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Penelope",
+          "evidence": [
+            11967,
+            11975
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a4a74def94125bb5",
+      "name": "Polyphemus",
+      "description": "A Cyclops who is son of the sea god and appears in Ulysses' wanderings",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Polyphemus",
+          "evidence": [
+            20904,
+            20914
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-28464e512fc11ea1",
+      "name": "Neptune",
+      "description": "Sea god (father of Polyphemus) who acts as divine antagonist",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Neptune",
+          "evidence": [
+            18533,
+            18540
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2432c0d27f13ccc6",
+      "name": "Jove",
+      "description": "Sky god (Roman name for Zeus) invoked in the narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jove",
+          "evidence": [
+            17982,
+            17986
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3e9a5b7c53a6e61b",
+      "name": "Mercury",
+      "description": "Divine messenger (Roman name for Hermes) appearing in the text",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mercury",
+          "evidence": [
+            19337,
+            19344
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cf78593e6a8cd002",
+      "name": "Minerva",
+      "description": "Goddess who aids Ulysses (Roman name for Athena)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Minerva",
+          "evidence": [
+            19609,
+            19616
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-46a876d2b027666a",
+      "name": "Cyclopes",
+      "description": "Mythical one-eyed people encountered in the narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cyclopes",
+          "evidence": [
+            20927,
+            20935
+          ]
+        },
+        {
+          "text": "the Cyclopes",
+          "evidence": [
+            20923,
+            20935
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8ad7e452ec1961b6",
+      "name": "the giants",
+      "description": "Term used interchangeably with the Cyclopes in the text",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the giants",
+          "evidence": [
+            657307,
+            657317
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d04f17ea3d12877b",
+      "name": "the Sirens",
+      "description": "Mythical singing creatures who tempt sailors (appears as a pair)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Sirens",
+          "evidence": [
+            313801,
+            313811
+          ]
+        },
+        {
+          "text": "the two Sirens",
+          "evidence": [
+            320595,
+            320609
+          ]
+        },
+        {
+          "text": "two Sirens",
+          "evidence": [
+            320599,
+            320609
+          ]
+        },
+        {
+          "text": "Sirens",
+          "evidence": [
+            313805,
+            313811
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c455096f3d650609",
+      "name": "Planctae / the Wanderers",
+      "description": "Perilous wandering rocks/sea‑features (Planctae), personified as the Wanderers",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Planctae",
+          "evidence": [
+            668473,
+            668481
+          ]
+        },
+        {
+          "text": "the Wanderers",
+          "evidence": [
+            314973,
+            314986
+          ]
+        },
+        {
+          "text": "Wanderers",
+          "evidence": [
+            314977,
+            314986
+          ]
+        },
+        {
+          "text": "the Planctae",
+          "evidence": [
+            669235,
+            669247
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eaec225cc584491d",
+      "name": "Scylla",
+      "description": "Sea‑monster encountered by sailors in the narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Scylla",
+          "evidence": [
+            316151,
+            316157
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-234f1592f9e061cc",
+      "name": "Charybdis",
+      "description": "Sea‑monster/whirlpool encountered opposite Scylla",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Charybdis",
+          "evidence": [
+            317180,
+            317189
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d39571439c70f24",
+      "name": "Circe",
+      "description": "Enchantress who interacts with Ulysses and his men",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Circe",
+          "evidence": [
+            212882,
+            212887
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5f2d14d87cecd03c",
+      "name": "Aeolus",
+      "description": "Ruler associated with winds (Aeolus, here distinct from Aeolus king of the winds mention)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aeolus",
+          "evidence": [
+            250574,
+            250580
+          ]
+        },
+        {
+          "text": "Aeolus king of the winds",
+          "evidence": [
+            666720,
+            666744
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2844461ae0c88f31",
+      "name": "Teiresias",
+      "description": "Seer in the underworld whose prophecy is referenced",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Teiresias",
+          "evidence": [
+            275755,
+            275764
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b833d43e1a4d6add",
+      "name": "Eumaeus",
+      "description": "Swineherd and loyal servant of Ulysses",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Eumaeus",
+          "evidence": [
+            361078,
+            361085
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4fc8a800db21b709",
+      "name": "Eurymedusa",
+      "description": "Named individual mentioned in a story allusion (brought from Apeira)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Eurymedusa",
+          "evidence": [
+            172637,
+            172647
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5917d8f15b406e3a",
+      "name": "Melampus",
+      "description": "Named figure (seer) referenced in the narrative commentary",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Melampus",
+          "evidence": [
+            397280,
+            397288
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fb0fce0f7217a515",
+      "name": "Euryclea",
+      "description": "Old nurse of Ulysses' household (identified with 'the nurse' in the text)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Euryclea",
+          "evidence": [
+            38098,
+            38106
+          ]
+        },
+        {
+          "text": "the nurse",
+          "evidence": [
+            606340,
+            606349
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fd6a7f5c27d6a304",
+      "name": "Eurynome",
+      "description": "Alternate name appearing for the household nurse in the text",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Eurynome",
+          "evidence": [
+            463738,
+            463746
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d044f2fc5c8b2ecb",
+      "name": "Melanthius",
+      "description": "Servant/goatherd who appears in the household episodes",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Melanthius",
+          "evidence": [
+            448820,
+            448830
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-01ca7a01e533d1a0",
+      "name": "Melantho",
+      "description": "Maid of the household implicated in the narrative's punishments",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Melantho",
+          "evidence": [
+            486335,
+            486343
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba04d0c047967fa9",
+      "name": "Dolius",
+      "description": "Named servant who is father of some household attendants",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dolius",
+          "evidence": [
+            123966,
+            123972
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cbb667e66d5ab00c",
+      "name": "Phemius",
+      "description": "Household bard whose fate is recounted",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Phemius",
+          "evidence": [
+            24890,
+            24897
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b0caa4132a7fa615",
+      "name": "Medon",
+      "description": "Herald of the house mentioned in the narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Medon",
+          "evidence": [
+            121074,
+            121079
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a406cda0acb20f90",
+      "name": "Hermione",
+      "description": "Named daughter referenced in comparative or genealogical remarks",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hermione",
+          "evidence": [
+            87835,
+            87843
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e9bf1ea350a1575e",
+      "name": "Megapenthes",
+      "description": "Named figure referenced in family/marriage context",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Megapenthes",
+          "evidence": [
+            87724,
+            87735
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5748c2232b5a8e34",
+      "name": "Helen of Troy",
+      "description": "Helen (of Troy), whose presence is sought within parts of the narrative",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Helen of Troy",
+          "evidence": [
+            676217,
+            676230
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5ad00e8c49417b72",
+      "name": "the Suitors",
+      "description": "Collective group of named antagonists courting Penelope and occupying the house",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Suitors",
+          "evidence": [
+            12869,
+            12876
+          ]
+        },
+        {
+          "text": "the suitors",
+          "evidence": [
+            11980,
+            11991
+          ]
+        },
+        {
+          "text": "the Suitors",
+          "evidence": [
+            12865,
+            12876
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d5c1e82e90c8f4e2",
+      "name": "the maids",
+      "description": "Collective group of household maids, including those punished/hanged",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the maids",
+          "evidence": [
+            101813,
+            101822
+          ]
+        },
+        {
+          "text": "the erring maids",
+          "evidence": [
+            690406,
+            690422
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-03d080497c66a552",
+      "name": "sun-god",
+      "description": "The unnamed sun‑god whose cattle are referenced in the narrative (cattle of the sun‑god)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "sun-god",
+          "evidence": [
+            318464,
+            318471
+          ]
+        },
+        {
+          "text": "the cattle of the sun-god",
+          "evidence": [
+            608416,
+            608441
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "chunks": [
+    {
+      "start": 948,
+      "end": 484035,
+      "key": "201a622f17adfeddcfc9f2614edf0cdc8dfb90c701d0adc5dd07328f14a3d383",
+      "usage": {
+        "input_tokens": 142694,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7491,
+        "output_tokens_details": {
+          "reasoning_tokens": 5056
+        },
+        "total_tokens": 150185
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "Rinaldi",
+      "alias": "Lieutenant Rinaldi",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "George",
+      "alias": "George (head-waiter)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Greffi's niece",
+      "alias": "Greffi's niece",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the hospital porter",
+      "alias": "porter's wife",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

@@ -1,0 +1,5337 @@
+{
+  "schema": 1,
+  "gutenbergId": 31100,
+  "sourceSha256": "c9bbfcf8abae1d740cdd4c10a1a1b701a140a1687d20f48fea0d871782695e9b",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-6329ea181ac64964",
+      "name": "Sir Walter Elliot",
+      "description": "The proud baronet of Kellynch Hall; vain about rank and appearance, father of Elizabeth, Anne, and Mary.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Sir Walter Elliot, of Kellynch Hall",
+          "evidence": [
+            1607,
+            1642
+          ]
+        },
+        {
+          "text": "Sir Walter Elliot",
+          "evidence": [
+            1607,
+            1624
+          ]
+        },
+        {
+          "text": "Sir Walter",
+          "evidence": [
+            1607,
+            1617
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5f77afb3ed3efec4",
+      "name": "Elizabeth Elliot",
+      "description": "Eldest daughter of Sir Walter Elliot; socially ambitious and influential in the family.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Elizabeth Elliot",
+          "evidence": [
+            13771,
+            13787
+          ]
+        },
+        {
+          "text": "Elizabeth",
+          "evidence": [
+            2408,
+            2417
+          ]
+        },
+        {
+          "text": "Miss Elliot",
+          "evidence": [
+            8479,
+            8490
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dd226b4a49f49d59",
+      "name": "Anne Elliot",
+      "description": "Sir Walter's middle daughter; gentle, sensible, close friend and god-daughter of Lady Russell; central heroine of the narrative.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Anne Elliot",
+          "evidence": [
+            7488,
+            7499
+          ]
+        },
+        {
+          "text": "Anne",
+          "evidence": [
+            2573,
+            2577
+          ]
+        },
+        {
+          "text": "Miss Elliot",
+          "evidence": [
+            8479,
+            8490
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a1fd3bc082dfef02",
+      "name": "Lady Russell",
+      "description": "Steady, sensible widow and close friend and adviser to Lady Elliot and godmother/mentor to Anne; advocates propriety and family interests.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Lady Russell",
+          "evidence": [
+            5958,
+            5970
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-43b7b07b9306a356",
+      "name": "Mary Musgrove",
+      "description": "Youngest Elliot daughter who has married into the Musgrove family; often called Mary and Mrs Charles Musgrove.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mary",
+          "evidence": [
+            2637,
+            2641
+          ]
+        },
+        {
+          "text": "Mrs Charles Musgrove",
+          "evidence": [
+            214054,
+            214074
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cdd72b43757b52ca",
+      "name": "Charles Musgrove",
+      "description": "Elder son of the Musgrove family; Mary Musgrove's husband; country gentleman connected to the Elliots' neighbourhood.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Charles Musgrove",
+          "evidence": [
+            2939,
+            2955
+          ]
+        },
+        {
+          "text": "Charles",
+          "evidence": [
+            2914,
+            2921
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3e411e131e37e720",
+      "name": "Mr Musgrove",
+      "description": "Head of the Musgrove family, squire in the neighbourhood of Uppercross.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mr Musgrove",
+          "evidence": [
+            67692,
+            67703
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d89de8f5b06dd882",
+      "name": "Henrietta Musgrove",
+      "description": "One of the Musgrove daughters; lively young woman, sought after in local society.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Henrietta",
+          "evidence": [
+            70312,
+            70321
+          ]
+        },
+        {
+          "text": "Miss Musgrove",
+          "evidence": [
+            67893,
+            67906
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5796bc7c3ba65022",
+      "name": "Louisa Musgrove",
+      "description": "Another Musgrove daughter; vivacious and impulsive; involved in the Lyme accident and subsequent engagement plotline.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Louisa",
+          "evidence": [
+            72707,
+            72713
+          ]
+        },
+        {
+          "text": "Louisa Musgrove",
+          "evidence": [
+            162711,
+            162726
+          ]
+        },
+        {
+          "text": "Miss Musgrove",
+          "evidence": [
+            67893,
+            67906
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d2cad60c94e6a66b",
+      "name": "Mrs Musgrove",
+      "description": "Mrs. Musgrove, mother of Charles, Henrietta, Louisa and others; hospitable country matron.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mrs Musgrove",
+          "evidence": [
+            70120,
+            70132
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7f5aac27742fe723",
+      "name": "Admiral Croft",
+      "description": "Naval officer who becomes tenant of Kellynch Hall; amiable, generous, and of local importance.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Admiral Croft",
+          "evidence": [
+            37041,
+            37054
+          ]
+        },
+        {
+          "text": "the Admiral",
+          "evidence": [
+            37192,
+            37203
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8fae9f5c3e51ade0",
+      "name": "Mrs Croft",
+      "description": "Admiral Croft's wife; sensible, energetic, and a former shipboard companion; sister of a local curate (Mr Wentworth of Monkford).",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mrs Croft",
+          "evidence": [
+            39950,
+            39959
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-48286e6c949cda52",
+      "name": "Captain Frederick Wentworth",
+      "description": "Naval officer; formerly engaged to Anne Elliot; returns wealthy and successful and is central to Anne's renewed emotional plot.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Captain Frederick Wentworth",
+          "evidence": [
+            44659,
+            44686
+          ]
+        },
+        {
+          "text": "Captain Wentworth",
+          "evidence": [
+            46888,
+            46905
+          ]
+        },
+        {
+          "text": "Frederick Wentworth",
+          "evidence": [
+            44667,
+            44686
+          ]
+        },
+        {
+          "text": "Frederick",
+          "evidence": [
+            44667,
+            44676
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d93d37c9edea53b",
+      "name": "Mr Wentworth (curate of Monkford)",
+      "description": "The former curate of Monkford (brother of Captain Frederick Wentworth); referenced in local connections and letters.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mr Wentworth",
+          "evidence": [
+            41526,
+            41538
+          ]
+        },
+        {
+          "text": "Mr Wentworth of Monkford",
+          "evidence": [
+            351266,
+            351290
+          ]
+        },
+        {
+          "text": "Mr Wentworth, the curate of Monkford",
+          "evidence": [
+            41859,
+            41895
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-137a10c8313734e1",
+      "name": "Captain Harville",
+      "description": "Naval officer and friend of Captain Wentworth; hosts Captain Benwick after Fanny Harville's death.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Captain Harville",
+          "evidence": [
+            173759,
+            173775
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d22d37ffc0f9d434",
+      "name": "Mrs Harville",
+      "description": "Wife of Captain Harville; her family and sister Fanny are part of the Lyme subplot.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mrs Harville",
+          "evidence": [
+            127132,
+            127144
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19162968cfba2129",
+      "name": "Fanny Harville",
+      "description": "Deceased sister of Mrs Harville; former fiancée of Captain Benwick whose death affects Benwick deeply.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Fanny Harville",
+          "evidence": [
+            179640,
+            179654
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c9ad7c07d04053fa",
+      "name": "Captain Benwick",
+      "description": "Officer and friend of Captain Wentworth; mourns Fanny Harville and, later, becomes Louisa Musgrove's suitor.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Captain Benwick",
+          "evidence": [
+            178887,
+            178902
+          ]
+        },
+        {
+          "text": "Benwick",
+          "evidence": [
+            178895,
+            178902
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19a667a4c8eab820",
+      "name": "Charles Hayter",
+      "description": "Cousin in the neighbourhood (curate family); his attentions to Henrietta form a subplot.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Charles Hayter",
+          "evidence": [
+            134686,
+            134700
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19f0b7a7c3f386b0",
+      "name": "Mr Shepherd",
+      "description": "Local lawyer/agent (John Shepherd) who handles business for Sir Walter and others and facilitates letting Kellynch Hall.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mr Shepherd",
+          "evidence": [
+            16661,
+            16672
+          ]
+        },
+        {
+          "text": "John Shepherd",
+          "evidence": [
+            32855,
+            32868
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5794a58f9d15fa1b",
+      "name": "Mrs Clay",
+      "description": "A young woman (formerly Mrs Clay) who befriends Elizabeth Elliot and becomes socially intimate with the Elliots; viewed with suspicion by Lady Russell.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mrs Clay",
+          "evidence": [
+            28234,
+            28242
+          ]
+        },
+        {
+          "text": "Penelope",
+          "evidence": [
+            40679,
+            40687
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-95da83df4e1a6ec6",
+      "name": "William Walter Elliot, Esq.",
+      "description": "Heir-presumptive to the Elliot baronetcy (the Mr. Elliot discussed early on) whose marriage and behaviour cause family tension.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "William Walter Elliot, Esq.",
+          "evidence": [
+            3714,
+            3741
+          ]
+        },
+        {
+          "text": "Mr Elliot",
+          "evidence": [
+            12497,
+            12506
+          ]
+        },
+        {
+          "text": "William Walter Elliot",
+          "evidence": [
+            3714,
+            3735
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-29b645619b6d2bb0",
+      "name": "Mr Robinson",
+      "description": "The local apothecary who attends the Musgrove household in the children's accident.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mr Robinson",
+          "evidence": [
+            97771,
+            97782
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2096d03355e72be2",
+      "name": "Jemima",
+      "description": "The trustworthy nursery maid in the Musgrove household mentioned in domestic discussions.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Jemima",
+          "evidence": [
+            81099,
+            81105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dcd08be46e713de2",
+      "name": "Dr Shirley",
+      "description": "The long-serving rector of Uppercross whose health and possible relief by a curate are discussed.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Dr Shirley",
+          "evidence": [
+            143443,
+            143453
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e6d14f9e10c36dad",
+      "name": "Colonel Wallis",
+      "description": "Friend of Mr Elliot in Bath; introduced socially and used as an exponent of Elliot's present respectability.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Colonel Wallis",
+          "evidence": [
+            255384,
+            255398
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-987f1c400ef2ddcd",
+      "name": "Mrs Wallis",
+      "description": "Colonel Wallis's wife; mentioned in Bath social contexts and childbirth news.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Mrs Wallis",
+          "evidence": [
+            260116,
+            260126
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fa34dc26bd0751ee",
+      "name": "Lady Dalrymple (Dowager Viscountess Dalrymple)",
+      "description": "A titled relative whose presence in Bath affects Sir Walter's social ambitions.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Dowager Viscountess Dalrymple",
+          "evidence": [
+            273850,
+            273879
+          ]
+        },
+        {
+          "text": "Lady Dalrymple",
+          "evidence": [
+            274475,
+            274489
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4042231aa2f4b68d",
+      "name": "Miss Carteret",
+      "description": "The Honourable Miss Carteret, daughter/companion of Lady Dalrymple; part of Bath society.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Miss Carteret",
+          "evidence": [
+            273915,
+            273928
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5a7baa58997c8f3e",
+      "name": "Admiral Baldwin",
+      "description": "Named by Sir Walter as an example of a weather-beaten naval officer in an anecdote; mentioned in conversation.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Admiral Baldwin",
+          "evidence": [
+            34385,
+            34400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-86ed951101b906b1",
+      "name": "Lord St Ives",
+      "description": "Named by Sir Walter in an anecdote contrasting social origins; mentioned in conversation.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Lord St Ives",
+          "evidence": [
+            34240,
+            34252
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1a529dbf733a4408",
+      "name": "Sir Basil Morley",
+      "description": "Named in Sir Walter's anecdote as a gentleman who corrected his age estimate; brief mention.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Sir Basil Morley",
+          "evidence": [
+            34724,
+            34740
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aa5e7fa2c0d180a1",
+      "name": "Little Charles (the child)",
+      "description": "Young son of Charles and Mary Musgrove (referred to as 'little Charles'); involved in the nursery/accident subplot.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "little Charles",
+          "evidence": [
+            99115,
+            99129
+          ]
+        },
+        {
+          "text": "Charles",
+          "evidence": [
+            2914,
+            2921
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-203190e11fef0ade",
+      "name": "Walter (the child)",
+      "description": "Young son of the Musgroves (named Walter), a lively child appearing in household scenes.",
+      "scope": "Persuasion",
+      "aliases": [
+        {
+          "text": "Walter",
+          "evidence": [
+            1611,
+            1617
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cb51bea6476010a4",
+      "name": "Mrs Smith (formerly Miss Hamilton)",
+      "description": "Former governess (Miss Hamilton) who becomes Mrs Smith, a widowed and impoverished friend of Anne in Bath; a figure of resilience.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Mrs Smith",
+          "evidence": [
+            281228,
+            281237
+          ]
+        },
+        {
+          "text": "Miss Hamilton",
+          "evidence": [
+            281208,
+            281221
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7e6cc54832183799",
+      "name": "Mr Smith / Charles Smith",
+      "description": "Mrs Smith's deceased husband (addressed in preserved letters as 'Charles Smith'); his papers and debts shape Mrs Smith's difficulties.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Mr Smith",
+          "evidence": [
+            291917,
+            291925
+          ]
+        },
+        {
+          "text": "Charles Smith, Esq.",
+          "evidence": [
+            379585,
+            379604
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-068f25c88211ad7b",
+      "name": "Catherine Morland",
+      "description": "Protagonist of Northanger Abbey; an ingenuous young woman from a clergyman's family who comes to Bath and loves novels.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Catherine Morland",
+          "evidence": [
+            477684,
+            477701
+          ]
+        },
+        {
+          "text": "Catherine",
+          "evidence": [
+            477684,
+            477693
+          ]
+        },
+        {
+          "text": "Miss Morland",
+          "evidence": [
+            485546,
+            485558
+          ]
+        },
+        {
+          "text": "Miss Morland,",
+          "evidence": [
+            485546,
+            485559
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-397f5c05d17e9b86",
+      "name": "Richard Morland",
+      "description": "Catherine's father; a respectable country clergyman (referred to as Richard).",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Richard",
+          "evidence": [
+            90964,
+            90971
+          ]
+        },
+        {
+          "text": "Mr. Morland",
+          "evidence": [
+            533597,
+            533608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ecddae1cd946c4b2",
+      "name": "Mrs Morland",
+      "description": "Catherine's mother; practical, healthy, and affectionate.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Mrs. Morland",
+          "evidence": [
+            482119,
+            482131
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1256c732a0016e0f",
+      "name": "Sarah Morland (\"Sally\")",
+      "description": "Catherine's sister (called Sally or Sarah); part of the family circle.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Sally",
+          "evidence": [
+            479783,
+            479788
+          ]
+        },
+        {
+          "text": "Sarah",
+          "evidence": [
+            223021,
+            223026
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-860077e6c4e9aeca",
+      "name": "Mr Allen",
+      "description": "Friend to the Morlands who brings Catherine to Bath; hospitable and sensible.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Mr. Allen",
+          "evidence": [
+            485322,
+            485331
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-34ab0f286bd5cafa",
+      "name": "Mrs Allen",
+      "description": "Mrs. Allen, Catherine's Bath chaperone; fond of dress and shopping and a good-humoured companion.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Mrs. Allen",
+          "evidence": [
+            489005,
+            489015
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-514c65d4f58998a9",
+      "name": "John Thorpe",
+      "description": "Cocky, boastful young man from the Thorpe family; brags about horses and exploits and pursues local acquaintance.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "John Thorpe",
+          "evidence": [
+            534613,
+            534624
+          ]
+        },
+        {
+          "text": "Mr. Thorpe",
+          "evidence": [
+            541314,
+            541324
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a1bdaceddf0d5650",
+      "name": "Isabella Thorpe",
+      "description": "Mr. Thorpe's sister; attractive, forward, and quickly friendly with Catherine.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Isabella Thorpe",
+          "evidence": [
+            546388,
+            546403
+          ]
+        },
+        {
+          "text": "Miss Thorpe",
+          "evidence": [
+            511473,
+            511484
+          ]
+        },
+        {
+          "text": "Isabella",
+          "evidence": [
+            511331,
+            511339
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-16391a2b201d6025",
+      "name": "Miss Thorpe (other sisters)",
+      "description": "Younger Thorpe sisters (unnamed individually in supplied text); part of the social set.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Miss Thorpe",
+          "evidence": [
+            511473,
+            511484
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f2be6b3e1b550349",
+      "name": "Henry Tilney",
+      "description": "Young clergyman (Mr. Tilney/Henry Tilney), witty, intelligent, and amiable; becomes Catherine's acquaintance and walking companion.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Henry Tilney",
+          "evidence": [
+            623590,
+            623602
+          ]
+        },
+        {
+          "text": "Mr. Tilney",
+          "evidence": [
+            504221,
+            504231
+          ]
+        },
+        {
+          "text": "Henry",
+          "evidence": [
+            217644,
+            217649
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-66ca157e63d737f5",
+      "name": "Miss Tilney",
+      "description": "Sister of Henry Tilney (referred to as Miss Tilney); polite and a friend of Catherine.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Miss Tilney",
+          "evidence": [
+            553673,
+            553684
+          ]
+        },
+        {
+          "text": "Eleanor",
+          "evidence": [
+            627129,
+            627136
+          ]
+        },
+        {
+          "text": "Eleanor Tilney",
+          "evidence": [
+            913968,
+            913982
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b3e79a680806312",
+      "name": "General Tilney",
+      "description": "Father of Henry and Miss Tilney; a commanding military gentleman who interacts with Catherine and her party.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "General Tilney",
+          "evidence": [
+            601967,
+            601981
+          ]
+        },
+        {
+          "text": "the general",
+          "evidence": [
+            54043,
+            54054
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9c979463ad2515d2",
+      "name": "Mrs Hughes",
+      "description": "Acquaintance in Bath who escorts Miss Tilney; appears in the pump-room scene.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Mrs. Hughes",
+          "evidence": [
+            553657,
+            553668
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-155b97ef09a416da",
+      "name": "Mrs Rooke (Nurse Rooke)",
+      "description": "Professional nurse and acquaintance of Mrs Smith who assists socially and in trade for Mrs Smith.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Nurse Rooke",
+          "evidence": [
+            287985,
+            287996
+          ]
+        },
+        {
+          "text": "Mrs Rooke",
+          "evidence": [
+            290382,
+            290391
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9355203e901bf715",
+      "name": "Miss Andrews",
+      "description": "A friend mentioned by Mrs Smith who has read many gothic novels and is used as a conversational reference.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Miss Andrews",
+          "evidence": [
+            525563,
+            525575
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f5371b7161360a74",
+      "name": "Captain Frederick Tilney",
+      "description": "Elder brother of Henry and Eleanor; a military man (Captain Tilney) who visits Bath; object of some attention from women in the neighbourhood.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Captain Tilney",
+          "evidence": [
+            690369,
+            690383
+          ]
+        },
+        {
+          "text": "Frederick Tilney",
+          "evidence": [
+            663608,
+            663624
+          ]
+        },
+        {
+          "text": "Captain Frederick Tilney",
+          "evidence": [
+            663600,
+            663624
+          ]
+        },
+        {
+          "text": "the Captain",
+          "evidence": [
+            355625,
+            355636
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-25bd1bb90570ded1",
+      "name": "Mr. and Mrs. Allen",
+      "description": "Mr. Allen and Mrs. Allen, neighbors and friends of the Morlands in Bath; hosts who introduce Catherine to Bath society.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Mr. Allen",
+          "evidence": [
+            485322,
+            485331
+          ]
+        },
+        {
+          "text": "Mrs. Allen",
+          "evidence": [
+            489005,
+            489015
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3288f5eb86bd0791",
+      "name": "Maria Thorpe",
+      "description": "One of the Thorpe sisters (sister to Isabella and John); accompanies Bath parties and excursions.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Maria",
+          "evidence": [
+            667031,
+            667036
+          ]
+        },
+        {
+          "text": "Miss Thorpe",
+          "evidence": [
+            511473,
+            511484
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3ee4f6ea49528a0d",
+      "name": "Anne Thorpe",
+      "description": "Younger Miss Thorpe (Anne); sister in the Thorpe family; appears among Bath acquaintances.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Anne",
+          "evidence": [
+            2573,
+            2577
+          ]
+        },
+        {
+          "text": "Miss Anne",
+          "evidence": [
+            33188,
+            33197
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fc5a928ee0a0a356",
+      "name": "James Morland",
+      "description": "Catherine's brother; briefly engaged to Isabella Thorpe; later jilted and expresses his disappointment in letters.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "James",
+          "evidence": [
+            2432,
+            2437
+          ]
+        },
+        {
+          "text": "Mr. Morland",
+          "evidence": [
+            533597,
+            533608
+          ]
+        },
+        {
+          "text": "James Morland",
+          "evidence": [
+            512076,
+            512089
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-53ab206cd230e640",
+      "name": "Dorothy (housekeeper)",
+      "description": "Ancient housekeeper at Northanger Abbey (named Dorothy in the text); part of household tradition and story about secret rooms.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "Dorothy",
+          "evidence": [
+            738840,
+            738847
+          ]
+        },
+        {
+          "text": "Dorothy, the ancient housekeeper",
+          "evidence": [
+            738840,
+            738872
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d6024625b328c863",
+      "name": "Butler (Northanger Abbey)",
+      "description": "Unamed butler in the Tilney household; appears in domestic references (lighting candles, serving).",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "butler",
+          "evidence": [
+            233633,
+            233639
+          ]
+        },
+        {
+          "text": "the butler",
+          "evidence": [
+            796130,
+            796140
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-26a58c36a3bfebc1",
+      "name": "Housemaid (Northanger Abbey)",
+      "description": "Unnamed housemaid(s) at Northanger who attend rooms and shutters and are mentioned in household scenes.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "housemaid",
+          "evidence": [
+            765471,
+            765480
+          ]
+        },
+        {
+          "text": "the housemaid",
+          "evidence": [
+            1161133,
+            1161146
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b4a3f37891b11c88",
+      "name": "Coachman (Northanger Abbey)",
+      "description": "Unnamed coachman associated with the Tilneys' carriages and travel; appears in the travel scenes.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "coachman",
+          "evidence": [
+            533292,
+            533300
+          ]
+        },
+        {
+          "text": "the coachman",
+          "evidence": [
+            1271807,
+            1271819
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1d01ef2d4b43356e",
+      "name": "Steward (Northanger Abbey)",
+      "description": "Unnamed steward mentioned in relation to estate affairs and letters for General Tilney.",
+      "scope": "Northanger Abbey",
+      "aliases": [
+        {
+          "text": "steward",
+          "evidence": [
+            704472,
+            704479
+          ]
+        },
+        {
+          "text": "my steward",
+          "evidence": [
+            704469,
+            704479
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-44023f84163d60fb",
+      "name": "Fanny Price",
+      "description": "Frances 'Fanny' Price; young girl from a poor branch of the family taken in by the Bertrams; timid, kind, central figure in Mansfield Park early chapters.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Fanny",
+          "evidence": [
+            179640,
+            179645
+          ]
+        },
+        {
+          "text": "Fanny Price",
+          "evidence": [
+            935678,
+            935689
+          ]
+        },
+        {
+          "text": "Frances",
+          "evidence": [
+            918696,
+            918703
+          ]
+        },
+        {
+          "text": "Miss Price",
+          "evidence": [
+            1005856,
+            1005866
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e6e328c728b9f97f",
+      "name": "Sir Thomas Bertram",
+      "description": "Baronet of Mansfield Park; head of the Bertram family; paternal, authoritative, practical landowner.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Sir Thomas Bertram",
+          "evidence": [
+            918192,
+            918210
+          ]
+        },
+        {
+          "text": "Sir Thomas",
+          "evidence": [
+            918192,
+            918202
+          ]
+        },
+        {
+          "text": "Sir Thomas Bertram,",
+          "evidence": [
+            918192,
+            918211
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f1e8f65f931f053a",
+      "name": "Lady Bertram",
+      "description": "Wife of Sir Thomas Bertram; indolent, indulgent, fond of needlework and her pug; mother of Maria, Julia and the sons.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Lady Bertram",
+          "evidence": [
+            919903,
+            919915
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3bfe7bb9b5457d7c",
+      "name": "Maria Bertram",
+      "description": "Eldest daughter of Sir Thomas; beautiful and accomplished; engaged to and marries Mr. Rushworth.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Maria",
+          "evidence": [
+            667031,
+            667036
+          ]
+        },
+        {
+          "text": "Maria Bertram",
+          "evidence": [
+            1199654,
+            1199667
+          ]
+        },
+        {
+          "text": "Mrs. Rushworth",
+          "evidence": [
+            1032717,
+            1032731
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f6ea48cde406b074",
+      "name": "Julia Bertram",
+      "description": "Younger daughter of Sir Thomas; lively, spirited; sister to Maria; experiences jealousy and romantic disappointment.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Julia",
+          "evidence": [
+            651805,
+            651810
+          ]
+        },
+        {
+          "text": "Julia Bertram",
+          "evidence": [
+            1171085,
+            1171098
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c7eb25e7bfb91771",
+      "name": "Thomas 'Tom' Bertram",
+      "description": "Eldest son of Sir Thomas (often called Tom); spirited, extravagant eldest son, returns from Antigua; enthusiastic about theatre amusements.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Tom Bertram",
+          "evidence": [
+            976565,
+            976576
+          ]
+        },
+        {
+          "text": "Tom",
+          "evidence": [
+            541624,
+            541627
+          ]
+        },
+        {
+          "text": "Thomas Bertram",
+          "evidence": [
+            918196,
+            918210
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-197475de94019061",
+      "name": "Edmund Bertram",
+      "description": "Younger son of Sir Thomas; thoughtful, steady, destined for the Church; friend and protector to Fanny Price.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Edmund",
+          "evidence": [
+            926004,
+            926010
+          ]
+        },
+        {
+          "text": "Edmund Bertram",
+          "evidence": [
+            1188272,
+            1188286
+          ]
+        },
+        {
+          "text": "Mr. Bertram",
+          "evidence": [
+            959001,
+            959012
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-959a349a4f07ee13",
+      "name": "Mrs. Norris",
+      "description": "Lady Bertram's sister (Mrs. Norris); meddling, economical, eager to manage and direct nieces' prospects.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mrs. Norris",
+          "evidence": [
+            919312,
+            919323
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-601b194cb0f508ba",
+      "name": "Mrs. Price",
+      "description": "Fanny's mother (Mrs. Price); of the poorer branch of the family; later reconciles with Lady Bertram's household.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mrs. Price",
+          "evidence": [
+            920283,
+            920293
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cb1b802a6375d5fa",
+      "name": "Mr. Price / William Price",
+      "description": "William Price, Fanny's brother (a seafaring man); mentioned in letters and reminiscence; also family members in Price household referenced.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "William",
+          "evidence": [
+            3714,
+            3721
+          ]
+        },
+        {
+          "text": "William Price",
+          "evidence": [
+            1358660,
+            1358673
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-82a918f7a74ea240",
+      "name": "Miss Lee",
+      "description": "Former governess at Mansfield Park; taught the Bertram girls and instructed Fanny in early years.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Miss Lee",
+          "evidence": [
+            931757,
+            931765
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-11794433b4a63674",
+      "name": "Dr. Grant",
+      "description": "Local clergyman (Dr. Grant) of the parish; married to Mrs. Grant; tolerant and sociable neighbour.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Dr. Grant",
+          "evidence": [
+            958865,
+            958874
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1e00b3e47469a6e8",
+      "name": "Mrs. Grant",
+      "description": "Sister-in-law to Dr. Grant; hospitable, sociable lady who receives the Crawfords and encourages social life.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mrs. Grant",
+          "evidence": [
+            972145,
+            972155
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d17a34fb61787798",
+      "name": "Henry Crawford",
+      "description": "Visitor at Mansfield; lively, charming gentleman; admired by the Bertram sisters; a central romantic interest and actor in the private theatricals.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Henry Crawford",
+          "evidence": [
+            1075517,
+            1075531
+          ]
+        },
+        {
+          "text": "Mr. Crawford",
+          "evidence": [
+            998113,
+            998125
+          ]
+        },
+        {
+          "text": "Henry",
+          "evidence": [
+            217644,
+            217649
+          ]
+        },
+        {
+          "text": "Crawford",
+          "evidence": [
+            989935,
+            989943
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c36e5d98fd187944",
+      "name": "Mary Crawford",
+      "description": "Henry Crawford's sister; pretty, lively, with a fortune; forms acquaintance at Mansfield and encourages Henry's company.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mary Crawford",
+          "evidence": [
+            992835,
+            992848
+          ]
+        },
+        {
+          "text": "Miss Crawford",
+          "evidence": [
+            991780,
+            991793
+          ]
+        },
+        {
+          "text": "Mary",
+          "evidence": [
+            2637,
+            2641
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1e9b26244048b78b",
+      "name": "Admiral Crawford",
+      "description": "Father/relative of the Crawfords mentioned as Admiral; his domestic arrangements influence Mary's situation.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Admiral Crawford",
+          "evidence": [
+            990896,
+            990912
+          ]
+        },
+        {
+          "text": "the Admiral",
+          "evidence": [
+            37192,
+            37203
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-24272d3109ad1e6c",
+      "name": "Mr. Rushworth",
+      "description": "Mr. Rushworth (John Rushworth); gentleman of Sotherton with a large estate; suitor and husband of Maria Bertram—amiable but regarded as somewhat dull.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mr. Rushworth",
+          "evidence": [
+            986046,
+            986059
+          ]
+        },
+        {
+          "text": "Rushworth",
+          "evidence": [
+            986050,
+            986059
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ca93f0fe2f86de8",
+      "name": "Mrs. Rushworth",
+      "description": "Mother of Mr. Rushworth; hosts and receives visits; social, heedful of propriety and local manners.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mrs. Rushworth",
+          "evidence": [
+            1032717,
+            1032731
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-172d8557d8fd21ae",
+      "name": "The Honourable John Yates",
+      "description": "Younger gentleman visitor (the Hon. John Yates); theatrical enthusiast who brings tales of private theatricals and performs at Mansfield.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mr. Yates",
+          "evidence": [
+            1144276,
+            1144285
+          ]
+        },
+        {
+          "text": "Yates",
+          "evidence": [
+            1140368,
+            1140373
+          ]
+        },
+        {
+          "text": "The Honourable John Yates",
+          "evidence": [
+            1142823,
+            1142848
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d9e7f09407b59427",
+      "name": "Charles Maddox",
+      "description": "Local young man considered for an acting role (Anhalt); resident in neighbourhood; suggested as additional player for private theatricals.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Charles Maddox",
+          "evidence": [
+            1195592,
+            1195606
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3a841ee88c3fc9fa",
+      "name": "Charles Anderson",
+      "description": "Mr. Anderson (referred to in anecdote about a sister not being 'out'); cited among acquaintances used to compare behaviour.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Anderson",
+          "evidence": [
+            1007531,
+            1007539
+          ]
+        },
+        {
+          "text": "Charles Anderson",
+          "evidence": [
+            1008056,
+            1008072
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd8dfda6a990db5f",
+      "name": "Christopher Jackson",
+      "description": "Carpenter (Christopher Jackson) who performs joiner's work for the house; employed on theatre carpentry.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Christopher Jackson",
+          "evidence": [
+            1156580,
+            1156599
+          ]
+        },
+        {
+          "text": "Jackson",
+          "evidence": [
+            539183,
+            539190
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-439cfbb2ad876d5d",
+      "name": "Dick Jackson",
+      "description": "Young lad (Dick Jackson) of the Jackson family; interacts with Mrs. Norris in a servant-related anecdote.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Dick Jackson",
+          "evidence": [
+            1183043,
+            1183055
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-af3e4c53c9575fce",
+      "name": "Mrs. Whitaker",
+      "description": "Housekeeper/innkeeper figure associated with Sotherton; provides pheasants' eggs and local produce mentioned in the Sotherton visit.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mrs. Whitaker",
+          "evidence": [
+            1115045,
+            1115058
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b15783492cda3958",
+      "name": "Gardener (Sotherton)",
+      "description": "Unnamed gardener at Sotherton who interacts with visitors and offers plants/pheasants information.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "gardener",
+          "evidence": [
+            1087445,
+            1087453
+          ]
+        },
+        {
+          "text": "the gardener",
+          "evidence": [
+            1087441,
+            1087453
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7fdc35af1b5a5327",
+      "name": "Coachman (Mansfield / Sotherton)",
+      "description": "Unnamed coachman(s) who drive and complain about roads; referenced during journeys to Sotherton and social visits.",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "coachman",
+          "evidence": [
+            533292,
+            533300
+          ]
+        },
+        {
+          "text": "our coachman",
+          "evidence": [
+            2044443,
+            2044455
+          ]
+        },
+        {
+          "text": "the coachman",
+          "evidence": [
+            1271807,
+            1271819
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b11cf2056d57d4a7",
+      "name": "Mr. Price",
+      "description": "Fanny and William's father; Portsmouth resident",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mr. Price",
+          "evidence": [
+            1386111,
+            1386120
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c034bd0bd635a465",
+      "name": "Susan Price",
+      "description": "One of Fanny's sisters (teenage daughter at home in Portsmouth)",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Susan",
+          "evidence": [
+            1617267,
+            1617272
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6dc89b6ecd905912",
+      "name": "Betsey (Price)",
+      "description": "Youngest Price daughter; child of the Price household",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Betsey",
+          "evidence": [
+            1617293,
+            1617299
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d48822109de849ef",
+      "name": "Tom (Price)",
+      "description": "One of the Price sons (boy who appears in Portsmouth scenes)",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Tom",
+          "evidence": [
+            541624,
+            541627
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1ab38691968760a3",
+      "name": "Sam (Price)",
+      "description": "A Price son (young man, goes to sea as described)",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Sam",
+          "evidence": [
+            593964,
+            593967
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-68534a899c3a0705",
+      "name": "Charles (Price)",
+      "description": "A younger Price son (boy)",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Charles",
+          "evidence": [
+            2914,
+            2921
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d0ec7c8344b9e96",
+      "name": "Mr. Campbell",
+      "description": "Surgeon of the sloop Thrush (appears in Portsmouth scenes)",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "Mr. Campbell",
+          "evidence": [
+            1626973,
+            1626985
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-478d18aa238f8abd",
+      "name": "Mrs. Grant (sister Mary reference)",
+      "description": "Mrs. Grant's sister (mentioned among visitors and confidantes)",
+      "scope": "Mansfield Park",
+      "aliases": [
+        {
+          "text": "my sister",
+          "evidence": [
+            71250,
+            71259
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-363583c2d3c0533e",
+      "name": "Mr. Weston",
+      "description": "Friend of the Woodhouses who marries Miss Taylor (becomes Mrs. Weston); formerly Captain Weston",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Weston",
+          "evidence": [
+            1818928,
+            1818938
+          ]
+        },
+        {
+          "text": "Captain Weston",
+          "evidence": [
+            1835380,
+            1835394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c7e1bda78bcd75bb",
+      "name": "Anne (Miss) Taylor / Mrs. Weston",
+      "description": "Former governess to the Woodhouse family who marries Mr. Weston; called Miss Taylor then Mrs. Weston",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Miss Taylor",
+          "evidence": [
+            1817373,
+            1817384
+          ]
+        },
+        {
+          "text": "Mrs. Weston",
+          "evidence": [
+            1820358,
+            1820369
+          ]
+        },
+        {
+          "text": "A. W.",
+          "evidence": [
+            2623446,
+            2623451
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f5a6ed61d1b11a81",
+      "name": "Emma Woodhouse",
+      "description": "Young, wealthy woman of Hartfield; clever, self-confident, and central to the Emma portion",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Emma",
+          "evidence": [
+            217627,
+            217631
+          ]
+        },
+        {
+          "text": "Miss Woodhouse",
+          "evidence": [
+            1827374,
+            1827388
+          ]
+        },
+        {
+          "text": "Emma Woodhouse",
+          "evidence": [
+            1816690,
+            1816704
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d59203542ae4c44",
+      "name": "Mr. Woodhouse",
+      "description": "Emma's hypochondriac father, cautious about health and comforts",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Woodhouse",
+          "evidence": [
+            1817393,
+            1817406
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2dfe249773f71bac",
+      "name": "Mr. Knightley",
+      "description": "Neighbor (owner of Donwell Abbey), sensible and morally authoritative friend of Emma's family",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Knightley",
+          "evidence": [
+            1825658,
+            1825671
+          ]
+        },
+        {
+          "text": "John Knightley",
+          "evidence": [
+            1884472,
+            1884486
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fedb977f1832031d",
+      "name": "Isabella Knightley",
+      "description": "Emma's elder sister (Mrs. John Knightley); married and living in London",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Isabella",
+          "evidence": [
+            511331,
+            511339
+          ]
+        },
+        {
+          "text": "Mrs. John Knightley",
+          "evidence": [
+            1884467,
+            1884486
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-75b9c92ffb37fd4f",
+      "name": "Mr. Elton",
+      "description": "The local vicar of Highbury; urbane, handsome, and socially ambitious",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Elton",
+          "evidence": [
+            1833714,
+            1833723
+          ]
+        },
+        {
+          "text": "Mr. E.",
+          "evidence": [
+            2321127,
+            2321133
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5ce8a99af2b7eb7e",
+      "name": "Harriet Smith",
+      "description": "A young, pretty pupil-turned-parlour-boarder; gentle, naive, and the focus of Emma's patronage",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Harriet",
+          "evidence": [
+            881054,
+            881061
+          ]
+        },
+        {
+          "text": "Miss Smith",
+          "evidence": [
+            587876,
+            587886
+          ]
+        },
+        {
+          "text": "Harriet Smith",
+          "evidence": [
+            1850737,
+            1850750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d3b833edab9b8c69",
+      "name": "Mrs. Goddard",
+      "description": "Mistress of the local boarding school who keeps Harriet as a parlour-boarder",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Goddard",
+          "evidence": [
+            1846449,
+            1846461
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a05470b03b06023f",
+      "name": "Mrs. Bates",
+      "description": "Widow of a former vicar of Highbury; chatty and amiable older lady",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Bates",
+          "evidence": [
+            1846736,
+            1846746
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5a902bfc001dc005",
+      "name": "Miss Bates",
+      "description": "Mrs. Bates's unmarried daughter; talkative, sociable, and good-natured",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Miss Bates",
+          "evidence": [
+            1840820,
+            1840830
+          ]
+        },
+        {
+          "text": "Mrs. Bates",
+          "evidence": [
+            1846736,
+            1846746
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-51c1a48aa627f99e",
+      "name": "Mrs. Perry",
+      "description": "Local resident mentioned among Highbury acquaintances; wife of Mr. Perry",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Perry",
+          "evidence": [
+            1840784,
+            1840794
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea602201eb3729dd",
+      "name": "Mr. Perry",
+      "description": "Highbury apothecary; neighbor who provides local news and practical advice",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Perry",
+          "evidence": [
+            1844163,
+            1844172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2eab9edbf3342989",
+      "name": "Miss Nash",
+      "description": "A teacher at Mrs. Goddard's school; acquaintance in local female networks",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Miss Nash",
+          "evidence": [
+            1861681,
+            1861690
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c3749622a7d2a58a",
+      "name": "Miss Prince",
+      "description": "Teacher at Mrs. Goddard's school; appears among local visitors",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Miss Prince",
+          "evidence": [
+            1861696,
+            1861707
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-08e641a49a4dbbd2",
+      "name": "Miss Richardson",
+      "description": "Teacher at Mrs. Goddard's school; present among visitors at the school",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Miss Richardson",
+          "evidence": [
+            1861713,
+            1861728
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c0876efb1c8f8727",
+      "name": "Robert Martin",
+      "description": "A respectable local farmer of Abbey-Mill; honest, sensible, and suitor to Harriet",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Martin",
+          "evidence": [
+            1859746,
+            1859756
+          ]
+        },
+        {
+          "text": "Robert Martin",
+          "evidence": [
+            1867585,
+            1867598
+          ]
+        },
+        {
+          "text": "young Martin",
+          "evidence": [
+            2065824,
+            2065836
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7cd9763d43bff2e5",
+      "name": "Elizabeth Martin",
+      "description": "One of the Martin family who hosted Harriet; associated with Abbey-Mill",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Elizabeth",
+          "evidence": [
+            2408,
+            2417
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2332cff3d50bab01",
+      "name": "Mr. Frank Churchill",
+      "description": "Young man of fashion (Frank Churchill), lightly mentioned as a desirable figure in town",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Frank Churchill",
+          "evidence": [
+            1840324,
+            1840343
+          ]
+        },
+        {
+          "text": "Frank Churchill",
+          "evidence": [
+            1840328,
+            1840343
+          ]
+        },
+        {
+          "text": "Frank",
+          "evidence": [
+            335069,
+            335074
+          ]
+        },
+        {
+          "text": "F. C. WESTON CHURCHILL",
+          "evidence": [
+            2638599,
+            2638621
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0676e02a2ad07ef8",
+      "name": "Mrs. Fraser",
+      "description": "An acquaintance in London mentioned in letters and discussions; friend of Mary Crawford",
+      "scope": "Mansfield Park / Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Fraser",
+          "evidence": [
+            1592077,
+            1592088
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-549c4864b03d17fd",
+      "name": "Lady Stornaway",
+      "description": "Friend in London of Mary Crawford; mentioned as a host for Mary",
+      "scope": "Mansfield Park / Emma",
+      "aliases": [
+        {
+          "text": "Lady Stornaway",
+          "evidence": [
+            1592689,
+            1592703
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf265642c5f25528",
+      "name": "Lord Stornaway",
+      "description": "Husband of Lady Stornaway, mentioned in correspondence",
+      "scope": "Mansfield Park / Emma",
+      "aliases": [
+        {
+          "text": "Lord Stornaway",
+          "evidence": [
+            1596767,
+            1596781
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5e65509faa9f24b",
+      "name": "Baron Wildenheim",
+      "description": "A fashionable gentleman referenced in letters about social connections",
+      "scope": "Mansfield Park / Emma",
+      "aliases": [
+        {
+          "text": "Baron Wildenheim",
+          "evidence": [
+            1165425,
+            1165441
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6376902d5ffe2b6b",
+      "name": "Mr. John Knightley",
+      "description": "John Knightley, brother of Mr. Knightley; husband of Isabella; father of children",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. John Knightley",
+          "evidence": [
+            1895267,
+            1895285
+          ]
+        },
+        {
+          "text": "John Knightley",
+          "evidence": [
+            1884472,
+            1884486
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-252412f4816306d6",
+      "name": "Mrs. Elton",
+      "description": "Augusta Hawkins Elton, Mr. Elton's wife; fashionable, self-important",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Elton",
+          "evidence": [
+            2307954,
+            2307964
+          ]
+        },
+        {
+          "text": "Augusta Hawkins",
+          "evidence": [
+            2144297,
+            2144312
+          ]
+        },
+        {
+          "text": "Selina",
+          "evidence": [
+            2317361,
+            2317367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c2f604038dc2b88d",
+      "name": "Jane Fairfax",
+      "description": "Elegant, accomplished orphan raised by the Campbells; reserved and accomplished musician",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Jane Fairfax",
+          "evidence": [
+            1971839,
+            1971851
+          ]
+        },
+        {
+          "text": "Miss Fairfax",
+          "evidence": [
+            2095714,
+            2095726
+          ]
+        },
+        {
+          "text": "Jane",
+          "evidence": [
+            1131,
+            1135
+          ]
+        },
+        {
+          "text": "Miss F--",
+          "evidence": [
+            2629198,
+            2629206
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-84e21160b57f9b7e",
+      "name": "Mr. Cole",
+      "description": "Local gentleman (friend of Mr. Elton); host of some local entertainments",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Cole",
+          "evidence": [
+            1951733,
+            1951741
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eac2096243d7414b",
+      "name": "Mrs. Cole",
+      "description": "Mrs. Cole, local hostess and acquaintance in Highbury",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Cole",
+          "evidence": [
+            2093386,
+            2093395
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-179910b6bef1fc75",
+      "name": "Mr. Suckling",
+      "description": "Mr. Suckling, referenced as Mrs. Elton's brother (owner of Maple Grove)",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Suckling",
+          "evidence": [
+            2313113,
+            2313125
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5084a7aee3b7a013",
+      "name": "Selina",
+      "description": "Selina (Mrs. Suckling), sister of Mrs. Elton, mentioned in conversation",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Selina",
+          "evidence": [
+            2317361,
+            2317367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19860e66c6811fa8",
+      "name": "Colonel Campbell",
+      "description": "Friend and patron of the Fairfax family; benefactor to Jane Fairfax",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Colonel Campbell",
+          "evidence": [
+            2108525,
+            2108541
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-76f59f27f791ad34",
+      "name": "Mrs. Campbell",
+      "description": "Mrs. Campbell, Colonel Campbell's wife; friend of Jane Fairfax",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Campbell",
+          "evidence": [
+            2101423,
+            2101436
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f8030092217eb649",
+      "name": "Mr. Dixon",
+      "description": "Mr. Dixon, associated with the Campbells and Ireland; mentioned as an admirer in Jane's circle",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Dixon",
+          "evidence": [
+            2100892,
+            2100901
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2b12c830e9dc6a31",
+      "name": "Mrs. Dixon",
+      "description": "Mrs. Dixon (mentioned), connected to the Campbells and Irish visits",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Dixon",
+          "evidence": [
+            2100352,
+            2100362
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd78308ba15f3fa7",
+      "name": "Mr. Churchill",
+      "description": "Mr. Churchill of Enscombe, husband of the late Mrs. Churchill",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Churchill",
+          "evidence": [
+            2121433,
+            2121446
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c378a6a65a71090d",
+      "name": "Mrs. Churchill",
+      "description": "Mrs. Churchill of Enscombe (deceased during the supplied narrative)",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Churchill",
+          "evidence": [
+            1835981,
+            1835995
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3b8cec69be79129c",
+      "name": "Mrs. Smallridge",
+      "description": "Mrs. Smallridge, prospective employer who offers Jane Fairfax a governess post",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Smallridge",
+          "evidence": [
+            2516561,
+            2516576
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8bc10890bbe46838",
+      "name": "Mr. Cox",
+      "description": "Highbury lawyer mentioned among local families",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Cox",
+          "evidence": [
+            2206079,
+            2206086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e94e792596c5d810",
+      "name": "Anne Cox",
+      "description": "One of the Cox sisters of Highbury (mentioned)",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Anne Cox",
+          "evidence": [
+            2240799,
+            2240807
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-63b35b72ebda7363",
+      "name": "William Larkins",
+      "description": "Local laborer (delivered apples for the Bateses) mentioned by Miss Bates",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "William Larkins",
+          "evidence": [
+            2252393,
+            2252408
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5869532f9fabc16a",
+      "name": "Mrs. Hodges",
+      "description": "Housekeeper (mentioned) at a farm referenced by Miss Bates",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Hodges",
+          "evidence": [
+            2253859,
+            2253870
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4e041bcf5f6b44c5",
+      "name": "Mrs. Wallis",
+      "description": "Neighbor who brought baked apples (mentioned)",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Wallis",
+          "evidence": [
+            2248635,
+            2248646
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6d390a338ec9eae0",
+      "name": "Dr. Hughes",
+      "description": "Dr. Hughes (mentioned briefly among visitors)",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Dr. Hughes",
+          "evidence": [
+            2407454,
+            2407464
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1c183ddeb1f6653b",
+      "name": "Mrs. Hughes",
+      "description": "Mrs. Hughes (mentioned alongside Dr. Hughes)",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mrs. Hughes",
+          "evidence": [
+            553657,
+            553668
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dab7fdfe85f94eda",
+      "name": "Mr. Otway",
+      "description": "Member of the Otway family referenced among local visitors",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. Otway",
+          "evidence": [
+            2407871,
+            2407880
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-112b887e9a877a9f",
+      "name": "Miss Otway",
+      "description": "Miss Otway, local young woman mentioned among visitors",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Miss Otway",
+          "evidence": [
+            2407886,
+            2407896
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-efff5efe33c501a6",
+      "name": "Mr. George",
+      "description": "Mr. George (mentioned among gentlemen in the party)",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Mr. George",
+          "evidence": [
+            2407947,
+            2407957
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-464be4de778f2526",
+      "name": "John Abdy",
+      "description": "Referenced as 'John Abdy's son' in a charitable appeal; local elder (mentioned)",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "John Abdy",
+          "evidence": [
+            2521767,
+            2521776
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-57493af291e8c07d",
+      "name": "Patty",
+      "description": "Patty, a domestic servant mentioned in Miss Bates's account",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Patty",
+          "evidence": [
+            2127885,
+            2127890
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-76d8c335b837b9f2",
+      "name": "Anna Weston",
+      "description": "Mrs. Weston's daughter; mentioned in Emma (child references)",
+      "scope": "Emma",
+      "aliases": [
+        {
+          "text": "Anna Weston",
+          "evidence": [
+            2673409,
+            2673420
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c86a51c10d797c6f",
+      "name": "Lady Susan Vernon",
+      "description": "Widowed, worldly, manipulative heroine/anti-heroine of the novella; correspondent in letters",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "LADY SUSAN VERNON",
+          "evidence": [
+            2715956,
+            2715973
+          ]
+        },
+        {
+          "text": "Lady Susan",
+          "evidence": [
+            2721646,
+            2721656
+          ]
+        },
+        {
+          "text": "S. VERNON",
+          "evidence": [
+            2717522,
+            2717531
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4ca1da4c0acc9033",
+      "name": "Mr. Vernon (Charles Vernon)",
+      "description": "Lady Susan's brother-in-law, host at Churchhill",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "MR. VERNON",
+          "evidence": [
+            2715977,
+            2715987
+          ]
+        },
+        {
+          "text": "Charles Vernon",
+          "evidence": [
+            2720800,
+            2720814
+          ]
+        },
+        {
+          "text": "Mr. Vernon",
+          "evidence": [
+            2722374,
+            2722384
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-259a8714e91f7270",
+      "name": "Mrs. John (Alicia) Johnson",
+      "description": "Lady Susan's London friend and correspondent (Mrs. John Johnson)",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "MRS. JOHNSON",
+          "evidence": [
+            2717573,
+            2717585
+          ]
+        },
+        {
+          "text": "Alicia",
+          "evidence": [
+            335053,
+            335059
+          ]
+        },
+        {
+          "text": "ALICIA.",
+          "evidence": [
+            2741715,
+            2741722
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-df662c096d97d4c6",
+      "name": "Frederica Vernon",
+      "description": "Lady Susan's daughter; young woman at risk of her mother's neglect and schemes",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "Frederica",
+          "evidence": [
+            2719021,
+            2719030
+          ]
+        },
+        {
+          "text": "Frederica Vernon",
+          "evidence": [
+            2757602,
+            2757618
+          ]
+        },
+        {
+          "text": "F. S. V.",
+          "evidence": [
+            2784072,
+            2784080
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-40d73e63c7ee958b",
+      "name": "Sir James Martin",
+      "description": "An eligiblebut somewhat foolish suitor pursued for Frederica",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "Sir James Martin",
+          "evidence": [
+            2718546,
+            2718562
+          ]
+        },
+        {
+          "text": "Sir James",
+          "evidence": [
+            2718546,
+            2718555
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-13d0c898c9a27104",
+      "name": "Mr. Mainwaring",
+      "description": "Local gentleman at Langford, admired by Lady Susan",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "Mainwaring",
+          "evidence": [
+            2718001,
+            2718011
+          ]
+        },
+        {
+          "text": "Mr. Mainwaring",
+          "evidence": [
+            2722140,
+            2722154
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7fd57edeedf24427",
+      "name": "Mrs. Mainwaring",
+      "description": "Sister/hostess at Langford; jealous of Lady Susan's attentions",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "Mrs. Mainwaring",
+          "evidence": [
+            2719533,
+            2719548
+          ]
+        },
+        {
+          "text": "Maria Mainwaring",
+          "evidence": [
+            2741515,
+            2741531
+          ]
+        },
+        {
+          "text": "Miss Mainwaring",
+          "evidence": [
+            2718629,
+            2718644
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-199e058777580974",
+      "name": "Mrs. Vernon (Catherine Vernon)",
+      "description": "Sister-in-law of Lady Susan; hostess at Churchhill, correspondent",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "MRS. VERNON",
+          "evidence": [
+            2721360,
+            2721371
+          ]
+        },
+        {
+          "text": "CATHERINE VERNON",
+          "evidence": [
+            2724440,
+            2724456
+          ]
+        },
+        {
+          "text": "C. VERNON",
+          "evidence": [
+            2772008,
+            2772017
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-12c0124ca1f39816",
+      "name": "Reginald De Courcy",
+      "description": "Young man of fashion who becomes entangled with Lady Susan; nephew/son in the De Courcy family",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "R. DE COURCY",
+          "evidence": [
+            2724478,
+            2724490
+          ]
+        },
+        {
+          "text": "Reginald",
+          "evidence": [
+            2724233,
+            2724241
+          ]
+        },
+        {
+          "text": "Mr. De Courcy",
+          "evidence": [
+            2740613,
+            2740626
+          ]
+        },
+        {
+          "text": "MR. DE COURCY",
+          "evidence": [
+            2724477,
+            2724490
+          ]
+        },
+        {
+          "text": "SIR REGINALD DE COURCY",
+          "evidence": [
+            2746899,
+            2746921
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-83a0cccec8641a71",
+      "name": "Lady De Courcy (Mrs. De Courcy)",
+      "description": "Reginald's mother; correspondent and hostess at Parklands",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "LADY DE COURCY",
+          "evidence": [
+            2721375,
+            2721389
+          ]
+        },
+        {
+          "text": "C. DE COURCY",
+          "evidence": [
+            2752930,
+            2752942
+          ]
+        },
+        {
+          "text": "C. DE COURCY.",
+          "evidence": [
+            2752930,
+            2752943
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-72d2885684db3a57",
+      "name": "Sir Reginald De Courcy (Sir Reginald)",
+      "description": "Reginald's father, elderly baronet at Parklands",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "SIR REGINALD DE COURCY",
+          "evidence": [
+            2746899,
+            2746921
+          ]
+        },
+        {
+          "text": "Sir Reginald",
+          "evidence": [
+            2740765,
+            2740777
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-51d0c59dd088e23c",
+      "name": "Miss Summers",
+      "description": "Schoolmistress in Wigmore Street who educates Frederica for a time",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "Miss Summers",
+          "evidence": [
+            2721021,
+            2721033
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-645e15c38af8588f",
+      "name": "Mr. Smith",
+      "description": "Gentleman providing gossipary intelligence about Lady Susan at Langford",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "Mr. Smith",
+          "evidence": [
+            2725259,
+            2725268
+          ]
+        },
+        {
+          "text": "Charles Smith",
+          "evidence": [
+            379585,
+            379598
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-607fa8b300ae8507",
+      "name": "Janetta",
+      "description": "Daughter of Macdonald (in the Lady Susan concluding material); young woman who elopes",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "Janetta",
+          "evidence": [
+            2875586,
+            2875593
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-16e3190a70894836",
+      "name": "Macdonald",
+      "description": "Local gentleman who keeps a house in the Janetta story; ungenerous father",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "Macdonald",
+          "evidence": [
+            2874816,
+            2874825
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4a0ed48fe92102a3",
+      "name": "Graham",
+      "description": "Suitor chosen by Macdonald for his daughter Janetta; objectionable match",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "Graham",
+          "evidence": [
+            2003764,
+            2003770
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-44af2342a0328ea4",
+      "name": "M'Kenrie",
+      "description": "Capt. M'Kenrie, Janetta's beloved; clandestine elopement to Gretna Green",
+      "scope": "LADY SUSAN",
+      "aliases": [
+        {
+          "text": "M'Kenrie",
+          "evidence": [
+            2877920,
+            2877928
+          ]
+        },
+        {
+          "text": "Captain M'Kenrie",
+          "evidence": [
+            2877912,
+            2877928
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b4d714db4dda3854",
+      "name": "Lord St. Clair",
+      "description": "Venerable peer who unexpectedly recognizes multiple grandchildren",
+      "scope": "LESLEY CASTLE / LADY SUSAN conclusion",
+      "aliases": [
+        {
+          "text": "Lord St. Clair",
+          "evidence": [
+            2873322,
+            2873336
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d6fc386c3cb8f343",
+      "name": "Philander",
+      "description": "One of Lord St. Clair's grandchildren (actor character), theatrical performer",
+      "scope": "LESLEY CASTLE",
+      "aliases": [
+        {
+          "text": "Philander",
+          "evidence": [
+            2873556,
+            2873565
+          ]
+        },
+        {
+          "text": "LUVIS",
+          "evidence": [
+            2907395,
+            2907400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7c3243a70423b559",
+      "name": "Gustavus",
+      "description": "Another of Lord St. Clair's grandchildren; performer",
+      "scope": "LESLEY CASTLE",
+      "aliases": [
+        {
+          "text": "Gustavus",
+          "evidence": [
+            2873655,
+            2873663
+          ]
+        },
+        {
+          "text": "QUICK",
+          "evidence": [
+            2907406,
+            2907411
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d1604cdf7aef87d",
+      "name": "Sophia",
+      "description": "Friend/hostess at M----; wife of Augustus in Lesley Castle story",
+      "scope": "LESLEY CASTLE",
+      "aliases": [
+        {
+          "text": "Sophia",
+          "evidence": [
+            113640,
+            113646
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a49386f55a246d3a",
+      "name": "Augustus",
+      "description": "Friend of Edward; married Sophia; imprisoned briefly and rescued in Lesley Castle story",
+      "scope": "LESLEY CASTLE",
+      "aliases": [
+        {
+          "text": "Augustus",
+          "evidence": [
+            2862428,
+            2862436
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f101523b58a208a2",
+      "name": "Philippa",
+      "description": "Friend of Laura in Lesley Castle; married imprudently; later deceased",
+      "scope": "LESLEY CASTLE",
+      "aliases": [
+        {
+          "text": "Philippa",
+          "evidence": [
+            2855935,
+            2855943
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-64cca1ea512303d9",
+      "name": "Edward (Wilhelminus/Edward)",
+      "description": "Young gentleman (Talbot/Lindsay context) who marries Laura; in Lesley Castle named Edward",
+      "scope": "LESLEY CASTLE / LOVE AND FREINDSHIP",
+      "aliases": [
+        {
+          "text": "Edward",
+          "evidence": [
+            89235,
+            89241
+          ]
+        },
+        {
+          "text": "Talbot",
+          "evidence": [
+            2853038,
+            2853044
+          ]
+        },
+        {
+          "text": "Lindsay",
+          "evidence": [
+            2852964,
+            2852971
+          ]
+        },
+        {
+          "text": "Wilhelminus",
+          "evidence": [
+            3031651,
+            3031662
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-225c2280da407a15",
+      "name": "Talbot",
+      "description": "Name used for a young gentleman (alias Lindsay) in Love and Freindship",
+      "scope": "LOVE AND FREINDSHIP",
+      "aliases": [
+        {
+          "text": "Talbot",
+          "evidence": [
+            2853038,
+            2853044
+          ]
+        },
+        {
+          "text": "Lindsay",
+          "evidence": [
+            2852964,
+            2852971
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0b3bcbfff994c771",
+      "name": "Isabel",
+      "description": "Narrator/letter-writer in Love and Freindship; correspondent and mother figure",
+      "scope": "LOVE AND FREINDSHIP",
+      "aliases": [
+        {
+          "text": "ISABEL",
+          "evidence": [
+            2846497,
+            2846503
+          ]
+        },
+        {
+          "text": "Isabel",
+          "evidence": [
+            511331,
+            511337
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1c88b02cc1223993",
+      "name": "Laura",
+      "description": "Narrator/letter-writer in Love and Freindship; recounts misfortunes and adventures",
+      "scope": "LOVE AND FREINDSHIP",
+      "aliases": [
+        {
+          "text": "LAURA",
+          "evidence": [
+            2846507,
+            2846512
+          ]
+        },
+        {
+          "text": "Laura",
+          "evidence": [
+            275672,
+            275677
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-138e4a3aa73e3eb2",
+      "name": "Marianne",
+      "description": "Daughter addressee (in Love and Freindship letters)",
+      "scope": "LOVE AND FREINDSHIP",
+      "aliases": [
+        {
+          "text": "MARIANNE",
+          "evidence": [
+            2847567,
+            2847575
+          ]
+        },
+        {
+          "text": "Marianne",
+          "evidence": [
+            2860194,
+            2860202
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8c2380c9a3ca1c41",
+      "name": "Laurina",
+      "description": "Opera-girl ancestor referenced in Lesley Castle genealogy (ancestor of Lord St. Clair's grand-children)",
+      "scope": "LESLEY CASTLE",
+      "aliases": [
+        {
+          "text": "Laurina",
+          "evidence": [
+            2872395,
+            2872402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-07cd8fd18d4aee37",
+      "name": "Bertha",
+      "description": "One of Laurina's daughters; mother of Philander (in Lesley Castle conclusion)",
+      "scope": "LESLEY CASTLE",
+      "aliases": [
+        {
+          "text": "Bertha",
+          "evidence": [
+            2873610,
+            2873616
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2a535b9570eb8ae9",
+      "name": "Agatha",
+      "description": "Another daughter of Laurina; mother of Gustavus",
+      "scope": "LESLEY CASTLE",
+      "aliases": [
+        {
+          "text": "Agatha",
+          "evidence": [
+            1145832,
+            1145838
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d76cfbd24d1a847",
+      "name": "Lord St. Clair's Grand-children (group)",
+      "description": "Group of young men claiming descent from Laurina in Lesley Castle/Conclusion",
+      "scope": "LESLEY CASTLE",
+      "aliases": [
+        {
+          "text": "Philander",
+          "evidence": [
+            2873556,
+            2873565
+          ]
+        },
+        {
+          "text": "Gustavus",
+          "evidence": [
+            2873655,
+            2873663
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8685bd926bb2e7d8",
+      "name": "Henry VIII",
+      "description": "King of England; monarch discussed in 'The History of England' sketch",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "HENRY the 8th",
+          "evidence": [
+            2968917,
+            2968930
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d3e2c3ba12b6e237",
+      "name": "Henry IV",
+      "description": "King of England; reign summarized in 'The History of England'",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "HENRY the 4th",
+          "evidence": [
+            2963685,
+            2963698
+          ]
+        },
+        {
+          "text": "Henry the 4th",
+          "evidence": [
+            2963702,
+            2963715
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47bc79709243d3bd",
+      "name": "Henry V",
+      "description": "King of England; noted for Agincourt in the sketch",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "HENRY the 5th",
+          "evidence": [
+            2964525,
+            2964538
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-582b8412f28f9f46",
+      "name": "Henry VI",
+      "description": "King of England; Lancastrian monarch discussed",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "HENRY the 6th",
+          "evidence": [
+            2965061,
+            2965074
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-902285157816a268",
+      "name": "Edward IV",
+      "description": "Yorkist king, historical sketch subject",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "EDWARD the 4th",
+          "evidence": [
+            2966063,
+            2966077
+          ]
+        },
+        {
+          "text": "Edward the 4th",
+          "evidence": [
+            2966022,
+            2966036
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-24c2eb3b0155f9d7",
+      "name": "Edward V",
+      "description": "Briefly-reigned king, noted as murdered in the sketch",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "EDWARD the 5th",
+          "evidence": [
+            2966684,
+            2966698
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ce3eea7e9de7f2c1",
+      "name": "Richard III",
+      "description": "King accused in history; discussed in sketch",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "RICHARD the 3rd",
+          "evidence": [
+            2966874,
+            2966889
+          ]
+        },
+        {
+          "text": "Richard the 3rd",
+          "evidence": [
+            2966852,
+            2966867
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d0753df1960c4f1",
+      "name": "Henry VII",
+      "description": "King whose marriage to Elizabeth of York is noted",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "HENRY the 7th",
+          "evidence": [
+            2967692,
+            2967705
+          ]
+        },
+        {
+          "text": "Henry the 7th",
+          "evidence": [
+            2966437,
+            2966450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-977ae656510224fa",
+      "name": "Edward VI",
+      "description": "King of England during Protestant reforms",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "EDWARD the 6th",
+          "evidence": [
+            2971364,
+            2971378
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8740312ad31f15cd",
+      "name": "Mary I",
+      "description": "Queen (referred as 'Mary') who persecuted Protestants; in sketch as 'Mary'",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "MARY",
+          "evidence": [
+            2973024,
+            2973028
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-100f2d2124d9bee9",
+      "name": "Elizabeth I",
+      "description": "Queen Elizabeth, discussed at length in the sketch",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "ELIZABETH",
+          "evidence": [
+            2973995,
+            2974004
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1d0a23d857ae77c8",
+      "name": "James I",
+      "description": "James the 1st, Stuart monarch; discussed",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "JAMES the 1st",
+          "evidence": [
+            2978498,
+            2978511
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a6d7fca9984f6392",
+      "name": "Charles I",
+      "description": "Charles the 1st, Stuart king; named at end of sketch",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "CHARLES the 1st",
+          "evidence": [
+            2980782,
+            2980797
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-83175b4ace05b720",
+      "name": "Mary Queen of Scots",
+      "description": "Mary Stuart; executed at Fotheringay Castle; defended in sketch",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "Queen of Scots",
+          "evidence": [
+            2968387,
+            2968401
+          ]
+        },
+        {
+          "text": "Mary",
+          "evidence": [
+            2637,
+            2641
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f76c032bc2f0b1ed",
+      "name": "Sir Francis Drake",
+      "description": "Elizabethan navigator mentioned",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "Drake",
+          "evidence": [
+            2977137,
+            2977142
+          ]
+        },
+        {
+          "text": "Sir Francis Drake",
+          "evidence": [
+            2977125,
+            2977142
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a610b87e4ca2bbb2",
+      "name": "Lord Essex (Robert Devereux)",
+      "description": "Robert Devereux, Earl of Essex; condemned and executed",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "Lord Essex",
+          "evidence": [
+            2977822,
+            2977832
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-877194a579f519c4",
+      "name": "Lady Jane Grey",
+      "description": "Nine-days' queen mentioned; reader is referred to her reading Greek",
+      "scope": "The History of England",
+      "aliases": [
+        {
+          "text": "Lady Jane Grey",
+          "evidence": [
+            2968327,
+            2968341
+          ]
+        },
+        {
+          "text": "Jane Grey",
+          "evidence": [
+            2968332,
+            2968341
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7059873586741fd",
+      "name": "Popgun",
+      "description": "Character in short comic play/act appearing as a named role",
+      "scope": "SCRAPS",
+      "aliases": [
+        {
+          "text": "Popgun",
+          "evidence": [
+            3025479,
+            3025485
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ad0c90a841a6e830",
+      "name": "Pistoletta",
+      "description": "Character in short comic act; companion of Popgun",
+      "scope": "SCRAPS",
+      "aliases": [
+        {
+          "text": "Pistoletta",
+          "evidence": [
+            3026090,
+            3026100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d54693f3efbc6718",
+      "name": "Strephon",
+      "description": "Character who appears in the brief comic act",
+      "scope": "SCRAPS",
+      "aliases": [
+        {
+          "text": "Strephon",
+          "evidence": [
+            3025587,
+            3025595
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-af8c775442184ccf",
+      "name": "Chloe",
+      "description": "Female character in brief comic act (songful role)",
+      "scope": "SCRAPS",
+      "aliases": [
+        {
+          "text": "Chloe",
+          "evidence": [
+            3025596,
+            3025601
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5db828cd8722dc00",
+      "name": "Hostess",
+      "description": "Inn hostess character in short playlet",
+      "scope": "SCRAPS",
+      "aliases": [
+        {
+          "text": "Hostess",
+          "evidence": [
+            3025522,
+            3025529
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-10271f03b40bf56b",
+      "name": "Cook",
+      "description": "Inn cook in short act",
+      "scope": "SCRAPS",
+      "aliases": [
+        {
+          "text": "Cook",
+          "evidence": [
+            3025552,
+            3025556
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cd8f6b092e892bf2",
+      "name": "Postilion",
+      "description": "Messenger/driver in short act",
+      "scope": "SCRAPS",
+      "aliases": [
+        {
+          "text": "Postilion",
+          "evidence": [
+            2861398,
+            2861407
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-89f83d52849089ac",
+      "name": "Maria (short act)",
+      "description": "Female role in the comic fragment (also appears in other works)",
+      "scope": "SCRAPS",
+      "aliases": [
+        {
+          "text": "Maria",
+          "evidence": [
+            667031,
+            667036
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bc23bb46cee0a0a7",
+      "name": "Jane Bennet",
+      "description": "Eldest Bennet sister; gentle, amiable, increasingly attached to Mr. Bingley",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Jane",
+          "evidence": [
+            1131,
+            1135
+          ]
+        },
+        {
+          "text": "Jane Bennet",
+          "evidence": [
+            3092321,
+            3092332
+          ]
+        },
+        {
+          "text": "Miss Bennet",
+          "evidence": [
+            3048822,
+            3048833
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5023934bfb4f869f",
+      "name": "Elizabeth Bennet",
+      "description": "Second Bennet daughter; intelligent, spirited protagonist",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Elizabeth",
+          "evidence": [
+            2408,
+            2417
+          ]
+        },
+        {
+          "text": "Eliza",
+          "evidence": [
+            2408,
+            2413
+          ]
+        },
+        {
+          "text": "Miss Bennet",
+          "evidence": [
+            3048822,
+            3048833
+          ]
+        },
+        {
+          "text": "Miss Eliza",
+          "evidence": [
+            3074678,
+            3074688
+          ]
+        },
+        {
+          "text": "Lizzy",
+          "evidence": [
+            3037216,
+            3037221
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b8639976cf435f9b",
+      "name": "Mr. Bennet",
+      "description": "Gentleman of Longbourn; sarcastic, intelligent father of the Bennet girls",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Bennet",
+          "evidence": [
+            3034558,
+            3034568
+          ]
+        },
+        {
+          "text": "Bennet",
+          "evidence": [
+            3034562,
+            3034568
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5ba547f30dc3d563",
+      "name": "Mrs. Bennet",
+      "description": "Anxious mother determined to marry off her daughters",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Bennet",
+          "evidence": [
+            3039738,
+            3039749
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ad2c22fb5e021d02",
+      "name": "Mr. Bingley",
+      "description": "Young, wealthy, amiable gentleman who leases Netherfield and admires Jane",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Bingley",
+          "evidence": [
+            3036160,
+            3036171
+          ]
+        },
+        {
+          "text": "Bingley",
+          "evidence": [
+            3035430,
+            3035437
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b5fef1dab61bbb5",
+      "name": "Caroline Bingley",
+      "description": "Mr. Bingley's sister; socially ambitious, dislikes Elizabeth",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Caroline Bingley",
+          "evidence": [
+            3241727,
+            3241743
+          ]
+        },
+        {
+          "text": "Miss Bingley",
+          "evidence": [
+            3047244,
+            3047256
+          ]
+        },
+        {
+          "text": "Caroline",
+          "evidence": [
+            2407907,
+            2407915
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06a0be2cfa3550a5",
+      "name": "Mrs. Hurst",
+      "description": "Mrs. Bingley's sister, married; fashionable and languid",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Hurst",
+          "evidence": [
+            3047219,
+            3047229
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ce219236ae0e9846",
+      "name": "Mr. Hurst",
+      "description": "Mrs. Hurst's husband; idle gentleman",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Hurst",
+          "evidence": [
+            3046045,
+            3046054
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-978a01795334a3a3",
+      "name": "Sir William Lucas",
+      "description": "Formerly a mercer of Meryton, now knight; neighbor and friend of Bennets",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Sir William Lucas",
+          "evidence": [
+            3059076,
+            3059093
+          ]
+        },
+        {
+          "text": "Sir William",
+          "evidence": [
+            473484,
+            473495
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-054eea63e12bd08c",
+      "name": "Lady Lucas",
+      "description": "Sir William's wife; neighbor and friend to Mrs. Bennet",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Lady Lucas",
+          "evidence": [
+            3036758,
+            3036768
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5861a099acefba76",
+      "name": "Charlotte Lucas",
+      "description": "Elizabeth's sensible friend and neighbor; later accepts Collins",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Charlotte Lucas",
+          "evidence": [
+            3105734,
+            3105749
+          ]
+        },
+        {
+          "text": "Miss Lucas",
+          "evidence": [
+            3051284,
+            3051294
+          ]
+        },
+        {
+          "text": "Charlotte",
+          "evidence": [
+            849461,
+            849470
+          ]
+        },
+        {
+          "text": "Mrs. Collins",
+          "evidence": [
+            3311072,
+            3311084
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-76deb49a16070d3f",
+      "name": "Mary Bennet",
+      "description": "Middle Bennet sister who prides herself on moral reflections and accomplishments",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mary",
+          "evidence": [
+            2637,
+            2641
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d93039bc5e606d6",
+      "name": "Catherine (Kitty) Bennet",
+      "description": "Fourth Bennet daughter; lively but impressionable",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Catherine",
+          "evidence": [
+            477684,
+            477693
+          ]
+        },
+        {
+          "text": "Kitty",
+          "evidence": [
+            1941271,
+            1941276
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-59255a2735d96623",
+      "name": "Lydia Bennet",
+      "description": "Youngest Bennet daughter; foolish, vivacious, loves officers",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Lydia",
+          "evidence": [
+            3037389,
+            3037394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-863a514086e8f9b6",
+      "name": "Mr. Collins",
+      "description": "Obsequious clergyman and Longbourn's heir presumptive who offers to marry Elizabeth",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Collins",
+          "evidence": [
+            3137472,
+            3137483
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ad929efa19815a8d",
+      "name": "Lady Catherine de Bourgh",
+      "description": "Proud, high-ranking lady and patroness of Mr. Collins; owner of Rosings",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Lady Catherine de Bourgh",
+          "evidence": [
+            3178694,
+            3178718
+          ]
+        },
+        {
+          "text": "Lady Catherine",
+          "evidence": [
+            3139518,
+            3139532
+          ]
+        },
+        {
+          "text": "her ladyship",
+          "evidence": [
+            294290,
+            294302
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9af33d08c73237dd",
+      "name": "George Wickham",
+      "description": "Charming militia officer with a contentious history with Mr. Darcy",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Wickham",
+          "evidence": [
+            3157135,
+            3157146
+          ]
+        },
+        {
+          "text": "Wickham",
+          "evidence": [
+            3157139,
+            3157146
+          ]
+        },
+        {
+          "text": "George Wickham",
+          "evidence": [
+            3199364,
+            3199378
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a432374c6e3986c2",
+      "name": "Mr. Denny",
+      "description": "Officer in the militia; acquaintance of the Bennet sisters and Wickham",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Denny",
+          "evidence": [
+            3151091,
+            3151100
+          ]
+        },
+        {
+          "text": "Denny",
+          "evidence": [
+            3151095,
+            3151100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d61c5cdc54151dd2",
+      "name": "Colonel Forster",
+      "description": "Commanding officer of the local militia regiment",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Colonel Forster",
+          "evidence": [
+            3070581,
+            3070596
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a3aad8c0475f526c",
+      "name": "Mr. Robinson",
+      "description": "Acquaintance mentioned in assembly conversation (Meryton)",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Robinson",
+          "evidence": [
+            3060776,
+            3060788
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-60700f6fd8fcc831",
+      "name": "Miss King",
+      "description": "Young woman briefly named among dance partners at Netherfield",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Miss King",
+          "evidence": [
+            3051603,
+            3051612
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6f27736cf81541c3",
+      "name": "Mrs. Phillips",
+      "description": "Mrs. Bennet's sister living in Meryton; source of local gossip",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Phillips",
+          "evidence": [
+            3079121,
+            3079134
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-401588deb05fb0e8",
+      "name": "Mr. Phillips",
+      "description": "Mrs. Phillips's husband and Bennet relation; clerk (mentioned)",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Phillips",
+          "evidence": [
+            3078086,
+            3078098
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d4e442ed6ca4a4dc",
+      "name": "Captain Carter",
+      "description": "Officer of the militia briefly mentioned as admired by the youngest Bennet girls",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Captain Carter",
+          "evidence": [
+            3080077,
+            3080091
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ff0c7f184de5c83c",
+      "name": "Mr. Boulanger (reference)",
+      "description": "Dance partner name mentioned in assembly list (contextual reference)",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "_Boulanger_",
+          "evidence": [
+            3051726,
+            3051737
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d1e23ccb12c86b67",
+      "name": "Mrs. Long",
+      "description": "Local acquaintance who brings news; talks of introductions",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Long",
+          "evidence": [
+            3034731,
+            3034740
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dcaf2639da380e3c",
+      "name": "Nicholls",
+      "description": "House staff at Netherfield responsible for kitchen (white soup reference)",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Nicholls",
+          "evidence": [
+            3126416,
+            3126424
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7fe3049853ca4010",
+      "name": "Mrs. Jenkinson",
+      "description": "Companion to Lady Catherine who arranges household items (footstool)",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Jenkinson",
+          "evidence": [
+            3222096,
+            3222110
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dcd6a946ff6cf28a",
+      "name": "Miss de Bourgh",
+      "description": "Daughter of Lady Catherine de Bourgh, presented as delicate and reserved",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Miss de Bourgh",
+          "evidence": [
+            3148019,
+            3148033
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4aa2b0bc3d6a54f9",
+      "name": "Mr. Darcy",
+      "description": "Fitzwilliam Darcy; reserved, wealthy gentleman of Pemberley; central male figure in courtship with Elizabeth",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Darcy",
+          "evidence": [
+            3046101,
+            3046110
+          ]
+        },
+        {
+          "text": "FITZWILLIAM DARCY",
+          "evidence": [
+            3397131,
+            3397148
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fe835c9c3c89e10f",
+      "name": "Miss Darcy",
+      "description": "Mr. Darcy's sister (resident at Pemberley when noted)",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Miss Darcy",
+          "evidence": [
+            3096068,
+            3096078
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18fe6ca77c6d8ce0",
+      "name": "Colonel Fitzwilliam",
+      "description": "Colonel Fitzwilliam; Mr. Darcy's cousin and companion during his stay in the neighbourhood",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Colonel Fitzwilliam",
+          "evidence": [
+            3337590,
+            3337609
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06a7a4f275951c98",
+      "name": "Mr. Gardiner",
+      "description": "Mrs. Bennet's brother; sensible, gentlemanlike man who assists the Bennet family",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Gardiner",
+          "evidence": [
+            3281676,
+            3281688
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7e4c4fd887c576e",
+      "name": "Mrs. Gardiner",
+      "description": "Mrs. Bennet's sister; amiable, intelligent woman and friend to Jane and Elizabeth",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Gardiner",
+          "evidence": [
+            3281968,
+            3281981
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-688232470eb3fe33",
+      "name": "Mrs. Younge",
+      "description": "Woman associated with Wickham and the Darcys in town; connected to events at Ramsgate",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Younge",
+          "evidence": [
+            3394633,
+            3394644
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1714be2114552d45",
+      "name": "Mrs. Forster",
+      "description": "Wife of Colonel Forster; connected with Lydia's acquaintance of the regiment",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Forster",
+          "evidence": [
+            3427950,
+            3427962
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7cfb19d320164bee",
+      "name": "Pratt",
+      "description": "An officer of the militia mentioned among Lydia's acquaintances",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Pratt",
+          "evidence": [
+            3428522,
+            3428527
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0a75650c7d697a64",
+      "name": "Chamberlayne",
+      "description": "Individual (disguised in a prank) mentioned among the officers known to Lydia",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Chamberlayne",
+          "evidence": [
+            3428228,
+            3428240
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-033fbc2d91b70993",
+      "name": "Mr. Henry Dashwood",
+      "description": "Patriarch in Sense and Sensibility; owner of Norland; dies early in the narrative",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Dashwood",
+          "evidence": [
+            3732834,
+            3732846
+          ]
+        },
+        {
+          "text": "Mr. Henry Dashwood",
+          "evidence": [
+            3750000,
+            3750018
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a8c482675637c6cd",
+      "name": "Mrs. Dashwood",
+      "description": "Widow who must relocate with her three daughters after the elder son's succession",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Dashwood",
+          "evidence": [
+            3745479,
+            3745492
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d6ac98915d75dc4",
+      "name": "Elinor Dashwood",
+      "description": "Eldest Dashwood daughter; sensible, calm, and the family's counselor",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Elinor",
+          "evidence": [
+            3734760,
+            3734766
+          ]
+        },
+        {
+          "text": "Miss Dashwood",
+          "evidence": [
+            3737093,
+            3737106
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eafada2195462cad",
+      "name": "Marianne Dashwood",
+      "description": "Younger Dashwood daughter; ardent, romantic, and emotionally open",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Marianne",
+          "evidence": [
+            2860194,
+            2860202
+          ]
+        },
+        {
+          "text": "M.D.",
+          "evidence": [
+            4074784,
+            4074788
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2b131ee8ba4372df",
+      "name": "Margaret Dashwood",
+      "description": "Youngest Dashwood daughter; good-humored and impressionable child",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Margaret",
+          "evidence": [
+            1594824,
+            1594832
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fdb3893047828c68",
+      "name": "Mr. John Dashwood",
+      "description": "Half-brother of Mrs. Dashwood and inheritor of Norland under the entail; husband of Mrs. John Dashwood",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. John Dashwood",
+          "evidence": [
+            3753377,
+            3753394
+          ]
+        },
+        {
+          "text": "John",
+          "evidence": [
+            30030,
+            30034
+          ]
+        },
+        {
+          "text": "Mr. Dashwood",
+          "evidence": [
+            3732834,
+            3732846
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87e22a0bd22920f5",
+      "name": "Mrs. John Dashwood",
+      "description": "Wife of John Dashwood (referred to familiarly as Fanny); concerned for her husband's child's interests",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. John Dashwood",
+          "evidence": [
+            3754285,
+            3754303
+          ]
+        },
+        {
+          "text": "Fanny",
+          "evidence": [
+            179640,
+            179645
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b52c5216ec9c9d1a",
+      "name": "Harry",
+      "description": "Young son of Mr. John Dashwood (referred to by given name in the text)",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Harry",
+          "evidence": [
+            222734,
+            222739
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0b7bfc72b4e51f91",
+      "name": "Sir John Middleton",
+      "description": "Neighbouring squire who invites the Dashwoods to Barton Park and hosts entertainments",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Sir John Middleton",
+          "evidence": [
+            3788767,
+            3788785
+          ]
+        },
+        {
+          "text": "Sir John",
+          "evidence": [
+            2985263,
+            2985271
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-063bfc8d4a4e47a1",
+      "name": "Lady Middleton",
+      "description": "Wife of Sir John Middleton; of genteel manners and social taste",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Lady Middleton",
+          "evidence": [
+            3793231,
+            3793245
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-52c3dad49ff5e230",
+      "name": "Mrs. Jennings",
+      "description": "Lady Middleton's mother; outspoken, sociable, and fond of matchmaking",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Jennings",
+          "evidence": [
+            3744631,
+            3744644
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eff73289d2ecf5de",
+      "name": "Colonel Brandon",
+      "description": "Neighbour and older gentleman; grave, reserved, and emotionally attached to Marianne",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Colonel Brandon",
+          "evidence": [
+            3743709,
+            3743724
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9fb1011299769cd9",
+      "name": "Edward Ferrars",
+      "description": "Friend/acquaintance in the neighbourhood; steady, reserved young man and a potential match for Elinor",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Edward Ferrars",
+          "evidence": [
+            3743671,
+            3743685
+          ]
+        },
+        {
+          "text": "Edward",
+          "evidence": [
+            89235,
+            89241
+          ]
+        },
+        {
+          "text": "Mr. Ferrars",
+          "evidence": [
+            3749177,
+            3749188
+          ]
+        },
+        {
+          "text": "Mr. Edward Ferrars",
+          "evidence": [
+            3978621,
+            3978639
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9d9b19698a720d71",
+      "name": "Mrs. Ferrars",
+      "description": "Mrs. Ferrars; mother of Edward Ferrars, influential in prospects for her sons",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Ferrars",
+          "evidence": [
+            3748642,
+            3748654
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2377757e11352d8a",
+      "name": "Mr. Willoughby",
+      "description": "Young gentleman associated with Allenham; lively, charming, and the object of Marianne's affection",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Willoughby",
+          "evidence": [
+            3826180,
+            3826194
+          ]
+        },
+        {
+          "text": "Willoughby",
+          "evidence": [
+            2988188,
+            2988198
+          ]
+        },
+        {
+          "text": "John Willoughby",
+          "evidence": [
+            4097620,
+            4097635
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ab190d33347c009f",
+      "name": "Mrs. Smith",
+      "description": "Resident at Allenham; elderly woman visited by Willoughby, connected with Allenham Court",
+      "scope": "Sense & Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Smith",
+          "evidence": [
+            3867726,
+            3867736
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6c8813a4b644fba0",
+      "name": "Robert Ferrars",
+      "description": "Elder son of Mrs. Ferrars; described as vain and frivolous; marries Lucy Steele",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Robert",
+          "evidence": [
+            655371,
+            655377
+          ]
+        },
+        {
+          "text": "Mr. Robert Ferrars",
+          "evidence": [
+            3745148,
+            3745166
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d732a8cda3493378",
+      "name": "Lucy Steele",
+      "description": "Conniving, socially ambitious young woman who first keeps an engagement to Edward and later marries Robert Ferrars",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Lucy",
+          "evidence": [
+            1383670,
+            1383674
+          ]
+        },
+        {
+          "text": "Miss Steele",
+          "evidence": [
+            3745040,
+            3745051
+          ]
+        },
+        {
+          "text": "Lucy Steele",
+          "evidence": [
+            3962454,
+            3962465
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-58cadfd43657ee12",
+      "name": "Mrs. Palmer",
+      "description": "Charlotte Palmer, Mrs. Jennings's daughter; genial, good-humoured, social visitor at the Park and Cleveland",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Palmer",
+          "evidence": [
+            3934826,
+            3934837
+          ]
+        },
+        {
+          "text": "Charlotte",
+          "evidence": [
+            849461,
+            849470
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87a2035b1582bfb7",
+      "name": "Mr. Palmer",
+      "description": "Charlotte Palmer's husband; droll, cynical, and often ill-natured in manner",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Palmer",
+          "evidence": [
+            3744945,
+            3744955
+          ]
+        },
+        {
+          "text": "Thomas Palmer",
+          "evidence": [
+            4182912,
+            4182925
+          ]
+        },
+        {
+          "text": "Thomas Palmer, Esq.",
+          "evidence": [
+            4182912,
+            4182931
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d536584bd90d975e",
+      "name": "Fanny Dashwood",
+      "description": "Mrs. John Dashwood (Fanny), John’s wife; self-interested and attentive to social position",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Fanny",
+          "evidence": [
+            179640,
+            179645
+          ]
+        },
+        {
+          "text": "Mrs. John Dashwood",
+          "evidence": [
+            3754285,
+            3754303
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-688354ae6582f383",
+      "name": "Mr. Harris",
+      "description": "Local apothecary/physician who attends Marianne during her illness",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Harris",
+          "evidence": [
+            4295980,
+            4295990
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dfd360c6bf9deba0",
+      "name": "Eliza",
+      "description": "Eliza (the relation of Brandon’s family) — unhappy woman in Colonel Brandon’s past whose fate is recounted",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Eliza",
+          "evidence": [
+            2408,
+            2413
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7c81eee0247acf9e",
+      "name": "Mr. Pratt",
+      "description": "Tutor/guardian figure associated with Edward and with Lucy’s connections (Longstaple/Plymouth area)",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Pratt",
+          "evidence": [
+            3977300,
+            3977309
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-865d23eaef985ec4",
+      "name": "Mr. Donavan",
+      "description": "A physician/apothecary called in at Cleveland (attends the Palmers)",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mr. Donavan",
+          "evidence": [
+            4201746,
+            4201757
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b15ea23106979417",
+      "name": "Nancy",
+      "description": "Named servant/maid mentioned in reports of Lucy and household gossip",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Nancy",
+          "evidence": [
+            4134391,
+            4134396
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eadf1c4cbe4c4160",
+      "name": "Mrs. Richardson",
+      "description": "Named acquaintance mentioned among visitors and local society",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Richardson",
+          "evidence": [
+            4234024,
+            4234039
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b84c35b7b7c09d04",
+      "name": "Mrs. Clarke",
+      "description": "Named acquaintance referenced in conversation",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Clarke",
+          "evidence": [
+            4228951,
+            4228962
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-35de68ae718f4a5a",
+      "name": "Mrs. Burgess",
+      "description": "Named acquaintance (hostess in Exeter) who shelters Nancy in the narrative",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "Mrs. Burgess",
+          "evidence": [
+            4416452,
+            4416464
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4f6ddb88dcd4a2e2",
+      "name": "William (Middleton)",
+      "description": "Child of the Middletons (William) mentioned in comparisons of height among children",
+      "scope": "Sense and Sensibility",
+      "aliases": [
+        {
+          "text": "William",
+          "evidence": [
+            3714,
+            3721
+          ]
+        }
+      ]
+    }
+  ]
+}

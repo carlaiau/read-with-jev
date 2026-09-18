@@ -1,0 +1,2163 @@
+{
+  "schema": 1,
+  "gutenbergId": 1184,
+  "sourceSha256": "64f8d5cfa51fcecb904abf7312d395d512a71817e7359b91288beb50517c3836",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-fb392e4c8391718b",
+      "name": "Edmond Dantès",
+      "description": "Young sailor, mate of the Pharaon; later imprisoned, escapes and later acquires wealth",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edmond Dantès",
+          "evidence": [
+            10341,
+            10354
+          ]
+        },
+        {
+          "text": "Edmond",
+          "evidence": [
+            8742,
+            8748
+          ]
+        },
+        {
+          "text": "Dantès",
+          "evidence": [
+            6910,
+            6916
+          ]
+        },
+        {
+          "text": "the Maltese",
+          "evidence": [
+            458001,
+            458012
+          ]
+        },
+        {
+          "text": "Sinbad the Sailor",
+          "evidence": [
+            2059,
+            2076
+          ]
+        },
+        {
+          "text": "Lord Wilmore",
+          "evidence": [
+            507505,
+            507517
+          ]
+        },
+        {
+          "text": "Count of Monte Cristo",
+          "evidence": [
+            756962,
+            756983
+          ]
+        },
+        {
+          "text": "the Count of Monte Cristo",
+          "evidence": [
+            756958,
+            756983
+          ]
+        },
+        {
+          "text": "Count",
+          "evidence": [
+            111581,
+            111586
+          ]
+        },
+        {
+          "text": "the Count",
+          "evidence": [
+            111577,
+            111586
+          ]
+        },
+        {
+          "text": "Signor Sinbad",
+          "evidence": [
+            674359,
+            674372
+          ]
+        },
+        {
+          "text": "Sinbad",
+          "evidence": [
+            2059,
+            2065
+          ]
+        },
+        {
+          "text": "Monte Cristo",
+          "evidence": [
+            1792,
+            1804
+          ]
+        },
+        {
+          "text": "the count",
+          "evidence": [
+            38072,
+            38081
+          ]
+        },
+        {
+          "text": "M. Zaccone",
+          "evidence": [
+            1671888,
+            1671898
+          ]
+        },
+        {
+          "text": "M. de Monte Cristo",
+          "evidence": [
+            1037942,
+            1037960
+          ]
+        },
+        {
+          "text": "Abbé Busoni",
+          "evidence": [
+            1061291,
+            1061302
+          ]
+        },
+        {
+          "text": "The Abbé Busoni",
+          "evidence": [
+            1061287,
+            1061302
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-13ec1b264d029370",
+      "name": "M. Morrel",
+      "description": "Shipowner of Morrel & Son, employer and patron of Edmond Dantès",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Morrel",
+          "evidence": [
+            7041,
+            7050
+          ]
+        },
+        {
+          "text": "Morrel",
+          "evidence": [
+            1990,
+            1996
+          ]
+        },
+        {
+          "text": "Pierre Morrel",
+          "evidence": [
+            2156711,
+            2156724
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-612d3892091d6e38",
+      "name": "Policar Morrel",
+      "description": "Policar Morrel, referenced as M. Morrel’s uncle and a soldier of earlier times",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Policar Morrel",
+          "evidence": [
+            14018,
+            14032
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-306572e202ea6b26",
+      "name": "Mercédès",
+      "description": "Young Catalan woman, Edmond Dantès’ fiancée who later marries Fernand",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mercédès",
+          "evidence": [
+            17569,
+            17577
+          ]
+        },
+        {
+          "text": "Madame Dantès",
+          "evidence": [
+            56277,
+            56290
+          ]
+        },
+        {
+          "text": "Madame de Morcerf",
+          "evidence": [
+            566356,
+            566373
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b98eb48927fa606e",
+      "name": "Fernand",
+      "description": "Catalan fisherman who courts Mercédès and later rises in rank and fortune",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Fernand",
+          "evidence": [
+            39262,
+            39269
+          ]
+        },
+        {
+          "text": "Comte de Morcerf",
+          "evidence": [
+            560370,
+            560386
+          ]
+        },
+        {
+          "text": "Fernand Mondego",
+          "evidence": [
+            1627118,
+            1627133
+          ]
+        },
+        {
+          "text": "Count of Morcerf",
+          "evidence": [
+            968538,
+            968554
+          ]
+        },
+        {
+          "text": "M. de Morcerf",
+          "evidence": [
+            862488,
+            862501
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-62c3092f97a42ab0",
+      "name": "Danglars",
+      "description": "Supercargo on the Pharaon who harbors jealousy and later becomes wealthy and ennobled",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Danglars",
+          "evidence": [
+            4247,
+            4255
+          ]
+        },
+        {
+          "text": "Baron Danglars",
+          "evidence": [
+            557004,
+            557018
+          ]
+        },
+        {
+          "text": "M. Danglars",
+          "evidence": [
+            9576,
+            9587
+          ]
+        },
+        {
+          "text": "the banker",
+          "evidence": [
+            1159380,
+            1159390
+          ]
+        },
+        {
+          "text": "baron",
+          "evidence": [
+            182592,
+            182597
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a43a47f899d389e2",
+      "name": "Gaspard Caderousse",
+      "description": "Tailor turned innkeeper; neighbor of the Dantès family; envies and later regrets",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Caderousse",
+          "evidence": [
+            26089,
+            26099
+          ]
+        },
+        {
+          "text": "Gaspard Caderousse",
+          "evidence": [
+            512837,
+            512855
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-30403711554bc695",
+      "name": "Captain Leclere",
+      "description": "Captain of the Pharaon who dies during the voyage",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Leclere",
+          "evidence": [
+            7155,
+            7170
+          ]
+        },
+        {
+          "text": "Leclere",
+          "evidence": [
+            7163,
+            7170
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2f23491ced68cb79",
+      "name": "Captain Gaumard",
+      "description": "Captain of the Pharaon on a later voyage who survives the shipwreck",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Gaumard",
+          "evidence": [
+            599936,
+            599951
+          ]
+        },
+        {
+          "text": "Gaumard",
+          "evidence": [
+            599944,
+            599951
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6ad159d195e513b7",
+      "name": "Penelon",
+      "description": "Sailor of the Pharaon who narrates the shipwreck account",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Penelon",
+          "evidence": [
+            598937,
+            598944
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-954f0a0a96e3a10a",
+      "name": "Jacopo",
+      "description": "Corsican seaman, loyal comrade who rescues and serves Edmond",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jacopo",
+          "evidence": [
+            435438,
+            435444
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1bafe5c72c512f48",
+      "name": "old Dantès",
+      "description": "Edmond Dantès’ elderly father, impoverished and devoted to his son",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "old Dantès",
+          "evidence": [
+            27224,
+            27234
+          ]
+        },
+        {
+          "text": "elder Dantès",
+          "evidence": [
+            81247,
+            81259
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8d9c9bd497c3cb6a",
+      "name": "Gaspard Caderousse's dog",
+      "description": "Named dog belonging to Caderousse, present at the inn",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Margotin",
+          "evidence": [
+            518782,
+            518790
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6b2ded86b8fb436d",
+      "name": "Germain (servant)",
+      "description": "Servant of Villefort who appears briefly in the hotel",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Germain",
+          "evidence": [
+            211391,
+            211398
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-03195885b461e31c",
+      "name": "Gérard de Villefort",
+      "description": "Deputy procureur (public prosecutor) whose actions affect Dantès' fate",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. de Villefort",
+          "evidence": [
+            98150,
+            98165
+          ]
+        },
+        {
+          "text": "Villefort",
+          "evidence": [
+            2885,
+            2894
+          ]
+        },
+        {
+          "text": "Gérard de Villefort",
+          "evidence": [
+            129732,
+            129751
+          ]
+        },
+        {
+          "text": "the procureur",
+          "evidence": [
+            148720,
+            148733
+          ]
+        },
+        {
+          "text": "the king’s attorney",
+          "evidence": [
+            68017,
+            68036
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-914480ae3fbd0816",
+      "name": "M. Noirtier",
+      "description": "Noirtier, senior political figure referenced in Villefort’s family (Villefort’s father)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Noirtier",
+          "evidence": [
+            2870,
+            2881
+          ]
+        },
+        {
+          "text": "Noirtier",
+          "evidence": [
+            2873,
+            2881
+          ]
+        },
+        {
+          "text": "Noirtier the Girondin",
+          "evidence": [
+            188558,
+            188579
+          ]
+        },
+        {
+          "text": "Noirtier de Villefort",
+          "evidence": [
+            2873,
+            2894
+          ]
+        },
+        {
+          "text": "grandpapa Noirtier",
+          "evidence": [
+            1292339,
+            1292357
+          ]
+        },
+        {
+          "text": "Monsieur Noirtier",
+          "evidence": [
+            144200,
+            144217
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-129e1f644000face",
+      "name": "Abbé Faria",
+      "description": "Learned Italian priest imprisoned at Château d'If (No. 27); teaches Edmond and reveals treasure",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Abbé Faria",
+          "evidence": [
+            249254,
+            249264
+          ]
+        },
+        {
+          "text": "Faria",
+          "evidence": [
+            249259,
+            249264
+          ]
+        },
+        {
+          "text": "No. 27",
+          "evidence": [
+            249271,
+            249277
+          ]
+        },
+        {
+          "text": "the mad abbé",
+          "evidence": [
+            260438,
+            260450
+          ]
+        },
+        {
+          "text": "the abbé",
+          "evidence": [
+            250183,
+            250191
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c608d32af2e231d0",
+      "name": "Governor of the Château d'If",
+      "description": "Governor of the Château d'If, oversees the prison and decisions about inmates",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "governor",
+          "evidence": [
+            157750,
+            157758
+          ]
+        },
+        {
+          "text": "the governor",
+          "evidence": [
+            162511,
+            162523
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-170d87a18c0fb38a",
+      "name": "Antoine",
+      "description": "Turnkey/jailer at the Château d'If who tends prisoners and carries orders",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Antoine",
+          "evidence": [
+            242899,
+            242906
+          ]
+        },
+        {
+          "text": "the jailer",
+          "evidence": [
+            161572,
+            161582
+          ]
+        },
+        {
+          "text": "turnkey",
+          "evidence": [
+            157772,
+            157779
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4316272a8b55c965",
+      "name": "Magistrate (arresting officer)",
+      "description": "Magistrate/commissary who presents the order of arrest to Edmond Dantès",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "magistrate",
+          "evidence": [
+            87395,
+            87405
+          ]
+        },
+        {
+          "text": "the magistrate",
+          "evidence": [
+            87672,
+            87686
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-972e12e9c9c7c694",
+      "name": "M. de Boville",
+      "description": "Inspector of prisons in Marseilles, holds prison registers and related information",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. de Boville",
+          "evidence": [
+            572613,
+            572626
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9cf3ec0f90ed7941",
+      "name": "Baron (M.) Dandré",
+      "description": "Minister / prefect of police who reports intelligence to the king",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Dandré",
+          "evidence": [
+            181855,
+            181864
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-de76f0f410798d5e",
+      "name": "Duc de Blacas",
+      "description": "Duc de Blacas, courtier who counsels the king on southern affairs",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. de Blacas",
+          "evidence": [
+            179707,
+            179719
+          ]
+        },
+        {
+          "text": "Duc de Blacas",
+          "evidence": [
+            190229,
+            190242
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3ab777e7370d021d",
+      "name": "Louis XVIII.",
+      "description": "King Louis XVIII of France, appears in court scenes receiving reports",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Louis XVIII.",
+          "evidence": [
+            106380,
+            106392
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ed0595ffca00cba0",
+      "name": "Marquis de Saint-Méran",
+      "description": "Royalist nobleman at whose house social and political discussions occur",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marquis de Saint-Méran",
+          "evidence": [
+            1063105,
+            1063127
+          ]
+        },
+        {
+          "text": "M. de Saint-Méran",
+          "evidence": [
+            174946,
+            174963
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-555f23a9ad9dcebc",
+      "name": "Marquise de Saint-Méran",
+      "description": "Marquise de Saint-Méran, political hostess and mother of Renée",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marquise de Saint-Méran",
+          "evidence": [
+            106788,
+            106811
+          ]
+        },
+        {
+          "text": "Madame de Saint-Méran",
+          "evidence": [
+            3293,
+            3314
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b21280d830c7f5b3",
+      "name": "Renée de Saint-Méran",
+      "description": "Mademoiselle Renée, daughter of the Marquise and bride-to-be of Villefort",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Renée",
+          "evidence": [
+            108474,
+            108479
+          ]
+        },
+        {
+          "text": "Mademoiselle Renée",
+          "evidence": [
+            171069,
+            171087
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d43e196d770d9cb7",
+      "name": "Comte de Salvieux",
+      "description": "Comte de Salvieux, chamberlain and courtier who appears at the Marquise’s gathering",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Comte de Salvieux",
+          "evidence": [
+            114372,
+            114389
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-15262ac46ce2dfe1",
+      "name": "General Quesnel",
+      "description": "General mentioned in relation to a suspected Bonapartist meeting and possible assassination",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "General Quesnel",
+          "evidence": [
+            204473,
+            204488
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-df99282bdb552444",
+      "name": "Cocles",
+      "description": "Old one-eyed cashier (keeper of accounts) at Morrel & Son, devoted and exact",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cocles",
+          "evidence": [
+            585787,
+            585793
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9c606e6443e1ac6d",
+      "name": "Emmanuel",
+      "description": "Clerk in the house of Morrel & Son (M. Morrel’s confidential clerk)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Emmanuel",
+          "evidence": [
+            589178,
+            589186
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-acdcb23469d23ebd",
+      "name": "Julie Morrel",
+      "description": "Julie, daughter of M. Morrel, compassionate and loyal",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Julie",
+          "evidence": [
+            589942,
+            589947
+          ]
+        },
+        {
+          "text": "Julie Morrel",
+          "evidence": [
+            623783,
+            623795
+          ]
+        },
+        {
+          "text": "Mademoiselle Julie",
+          "evidence": [
+            589929,
+            589947
+          ]
+        },
+        {
+          "text": "my sister Julie",
+          "evidence": [
+            2665234,
+            2665249
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-59492ed56acc534a",
+      "name": "Madame Morrel",
+      "description": "Wife of M. Morrel, distressed by the family’s financial peril",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Morrel",
+          "evidence": [
+            598308,
+            598321
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-712bca0791369973",
+      "name": "Maximilian Morrel",
+      "description": "Maximilian (Maximilian’s Avowal), son of M. Morrel and a young lieutenant",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Maximilian",
+          "evidence": [
+            3939,
+            3949
+          ]
+        },
+        {
+          "text": "Maximilian Morrel",
+          "evidence": [
+            616696,
+            616713
+          ]
+        },
+        {
+          "text": "M. Maximilian Morrel",
+          "evidence": [
+            969877,
+            969897
+          ]
+        },
+        {
+          "text": "Morrel",
+          "evidence": [
+            1990,
+            1996
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-04ab17da1dd22e05",
+      "name": "Père Pamphile",
+      "description": "Old local referenced as watching events at La Réserve",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Père Pamphile",
+          "evidence": [
+            36343,
+            36356
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ffba96ee4c71eb3",
+      "name": "Franz d’Épinay",
+      "description": "Young French traveller and friend of Albert de Morcerf; visits Monte Cristo and Rome; narrator-participant in multiple episodes",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Franz",
+          "evidence": [
+            642046,
+            642051
+          ]
+        },
+        {
+          "text": "Franz d’Épinay",
+          "evidence": [
+            642046,
+            642060
+          ]
+        },
+        {
+          "text": "Baron Franz d’Épinay",
+          "evidence": [
+            904766,
+            904786
+          ]
+        },
+        {
+          "text": "M. d’Épinay",
+          "evidence": [
+            1273046,
+            1273057
+          ]
+        },
+        {
+          "text": "Baron d’Épinay",
+          "evidence": [
+            1464444,
+            1464458
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c5fca605a55be584",
+      "name": "Gaetano",
+      "description": "Italian boat captain/patron who guides Franz and deals with smugglers and local pilots",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gaetano",
+          "evidence": [
+            646309,
+            646316
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-130c379a436c2ba2",
+      "name": "Giovanni",
+      "description": "Sailor in Gaetano’s crew; helps with boats and torches",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Giovanni",
+          "evidence": [
+            367065,
+            367073
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9e08206ef5f85b8f",
+      "name": "Cama",
+      "description": "Pilot of the Saint Ferdinand mentioned as having visited Monte Cristo’s grotto",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cama",
+          "evidence": [
+            513242,
+            513246
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d65243f217c27ee1",
+      "name": "Ali",
+      "description": "Mute Nubian servant in the Count of Monte Cristo’s household; devoted personal attendant",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ali",
+          "evidence": [
+            456568,
+            456571
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3cee127b08242bb9",
+      "name": "Monsieur Bertuccio",
+      "description": "Steward to the Count of Monte Cristo; formerly a smuggler/soldier with a troubled past",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Monsieur Bertuccio",
+          "evidence": [
+            2384,
+            2402
+          ]
+        },
+        {
+          "text": "Bertuccio",
+          "evidence": [
+            2393,
+            2402
+          ]
+        },
+        {
+          "text": "M. Bertuccio",
+          "evidence": [
+            834623,
+            834635
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4ab39f53b2b01daa",
+      "name": "Luigi Vampa",
+      "description": "Notorious Roman bandit chief who leads a band active around Rome and the countryside",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Luigi Vampa",
+          "evidence": [
+            4566,
+            4577
+          ]
+        },
+        {
+          "text": "Vampa",
+          "evidence": [
+            4572,
+            4577
+          ]
+        },
+        {
+          "text": "Signor Vampa",
+          "evidence": [
+            713170,
+            713182
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-79c798e41b958eaf",
+      "name": "Peppino",
+      "description": "Young man convicted of complicity with Vampa’s band; threatened with execution (also referred to in notices)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Peppino",
+          "evidence": [
+            4544,
+            4551
+          ]
+        },
+        {
+          "text": "Peppino, otherwise called Rocca Priori",
+          "evidence": [
+            826188,
+            826226
+          ]
+        },
+        {
+          "text": "Rocca Priori",
+          "evidence": [
+            826214,
+            826226
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-085098677968054e",
+      "name": "Andrea Rondolo",
+      "description": "Man convicted of murdering a priest; condemned to be mazzolato",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Andrea Rondolo",
+          "evidence": [
+            826168,
+            826182
+          ]
+        },
+        {
+          "text": "Andrea",
+          "evidence": [
+            2806,
+            2812
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8437ec00dba51c32",
+      "name": "Cucumetto",
+      "description": "Brigand chief in the Lepini mountains who abducts and mistreats women; later killed by Luigi Vampa",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cucumetto",
+          "evidence": [
+            726514,
+            726523
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a08a28b2446a000c",
+      "name": "Carlini",
+      "description": "Member of Cucumetto’s band who falls in love with Rita and ultimately kills her to spare her to the band; later killed",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Carlini",
+          "evidence": [
+            727774,
+            727781
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-56af4f8fda179a8b",
+      "name": "Diavolaccio",
+      "description": "Brigand in Cucumetto’s troop who draws the lot and takes Rita before Carlini kills her",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Diavolaccio",
+          "evidence": [
+            733016,
+            733027
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eb158771ca2ee104",
+      "name": "Rita",
+      "description": "Young woman carried off by Cucumetto whose tragic fate figures in the bandit narratives",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rita",
+          "evidence": [
+            728896,
+            728900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-39e5250971370aa7",
+      "name": "Teresa",
+      "description": "Young peasant girl (Luigi Vampa’s betrothed) involved in the story of Cucumetto and Vampa’s rise",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Teresa",
+          "evidence": [
+            721340,
+            721346
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c5c8207487b5965e",
+      "name": "La Carconte",
+      "description": "Caderousse’s wife involved in the episode with the jeweller and the stolen diamond",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "La Carconte",
+          "evidence": [
+            513769,
+            513780
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ab45dbf03ba78a81",
+      "name": "Joannes",
+      "description": "Jeweller (referred to as Joannes) who examines the diamond and later is found murdered",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Joannes",
+          "evidence": [
+            1109158,
+            1109165
+          ]
+        },
+        {
+          "text": "Johannes",
+          "evidence": [
+            2021576,
+            2021584
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-db57068a4991e176",
+      "name": "Abbé Busoni",
+      "description": "Italian abbé who hears Bertuccio’s confession and acts on his behalf",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Abbé Busoni",
+          "evidence": [
+            1061291,
+            1061302
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c21f60bd4e058e66",
+      "name": "Assunta",
+      "description": "Bertuccio’s sister-in-law who reclaims and raises the infant found in the box",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Assunta",
+          "evidence": [
+            1068705,
+            1068712
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-261b4a4f14543c0a",
+      "name": "Benedetto",
+      "description": "Infant found in a box and raised by Assunta; later a problematic, delinquent youth",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Benedetto",
+          "evidence": [
+            1084116,
+            1084125
+          ]
+        },
+        {
+          "text": "Count Andrea Cavalcanti",
+          "evidence": [
+            1408579,
+            1408602
+          ]
+        },
+        {
+          "text": "Andrea Cavalcanti",
+          "evidence": [
+            2806,
+            2823
+          ]
+        },
+        {
+          "text": "Andrea",
+          "evidence": [
+            2806,
+            2812
+          ]
+        },
+        {
+          "text": "M. Andrea Cavalcanti",
+          "evidence": [
+            1415910,
+            1415930
+          ]
+        },
+        {
+          "text": "No. 59",
+          "evidence": [
+            2027167,
+            2027173
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6f3b2aaae40430ad",
+      "name": "Wasilio",
+      "description": "Neighbour in Rogliano mentioned in the Bertuccio narrative (wife also appears)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Wasilio",
+          "evidence": [
+            1090490,
+            1090497
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f705f5b8e2e14c49",
+      "name": "Albert de Morcerf",
+      "description": "Vicomte (Viscount) visiting Italy with Franz; young French nobleman, prospective husband in Parisian marriage plans",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Albert de Morcerf",
+          "evidence": [
+            642013,
+            642030
+          ]
+        },
+        {
+          "text": "Albert",
+          "evidence": [
+            565028,
+            565034
+          ]
+        },
+        {
+          "text": "Vicomte Albert de Morcerf",
+          "evidence": [
+            1839895,
+            1839920
+          ]
+        },
+        {
+          "text": "the Viscount of Morcerf",
+          "evidence": [
+            798292,
+            798315
+          ]
+        },
+        {
+          "text": "Viscount",
+          "evidence": [
+            642004,
+            642012
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8f54b588f5b95172",
+      "name": "Comte de Morcerf",
+      "description": "Albert’s father, the Count of Morcerf (French nobleman referenced in narrative)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Comte de Morcerf",
+          "evidence": [
+            560370,
+            560386
+          ]
+        },
+        {
+          "text": "Count of Morcerf",
+          "evidence": [
+            968538,
+            968554
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e88cb416fa14dd2",
+      "name": "Countess G——",
+      "description": "Aristocratic lady, acquaintance of Franz and Albert; present at the Argentina (named in text with redaction)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Countess G——",
+          "evidence": [
+            794799,
+            794811
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-68266acec7022aa1",
+      "name": "Signor Pastrini",
+      "description": "Innkeeper of the Hôtel de Londres in Rome who hosts Franz and Albert",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Signor Pastrini",
+          "evidence": [
+            642429,
+            642444
+          ]
+        },
+        {
+          "text": "the host",
+          "evidence": [
+            518620,
+            518628
+          ]
+        },
+        {
+          "text": "Old Pastrini",
+          "evidence": [
+            2615033,
+            2615045
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4c5fe86260ee03de",
+      "name": "Madame Danglars",
+      "description": "Wife of Baron Danglars (referred to also as the baroness), social hostess",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Danglars",
+          "evidence": [
+            957792,
+            957807
+          ]
+        },
+        {
+          "text": "Baroness Danglars",
+          "evidence": [
+            1172215,
+            1172232
+          ]
+        },
+        {
+          "text": "the baroness",
+          "evidence": [
+            1172474,
+            1172486
+          ]
+        },
+        {
+          "text": "Hermine de Servieux",
+          "evidence": [
+            1363763,
+            1363782
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-847968355d65a930",
+      "name": "Eugénie Danglars",
+      "description": "Daughter of Baron Danglars (mentioned in marriage plans)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Eugénie Danglars",
+          "evidence": [
+            968197,
+            968213
+          ]
+        },
+        {
+          "text": "Mademoiselle Eugénie",
+          "evidence": [
+            1004183,
+            1004203
+          ]
+        },
+        {
+          "text": "Mademoiselle Danglars",
+          "evidence": [
+            1283838,
+            1283859
+          ]
+        },
+        {
+          "text": "Eugénie",
+          "evidence": [
+            968197,
+            968204
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5881bdebbeda887f",
+      "name": "Lucien Debray",
+      "description": "Private secretary to the Minister of the Interior, political and salon figure",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lucien Debray",
+          "evidence": [
+            959343,
+            959356
+          ]
+        },
+        {
+          "text": "Debray",
+          "evidence": [
+            958317,
+            958323
+          ]
+        },
+        {
+          "text": "Lucien",
+          "evidence": [
+            959343,
+            959349
+          ]
+        },
+        {
+          "text": "Franz Debray",
+          "evidence": [
+            2118093,
+            2118105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8c8c218e0e3ae607",
+      "name": "Beauchamp",
+      "description": "Journalist/editorial figure referenced in Parisian salon politics",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Beauchamp",
+          "evidence": [
+            3693,
+            3702
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ebf2842a2d44c40e",
+      "name": "M. de Château-Renaud",
+      "description": "Young aristocrat and acquaintance of Albert and Morrel; raconteur of adventures",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. de Château-Renaud",
+          "evidence": [
+            969856,
+            969876
+          ]
+        },
+        {
+          "text": "Château-Renaud",
+          "evidence": [
+            963381,
+            963395
+          ]
+        },
+        {
+          "text": "Baron de Château-Renaud",
+          "evidence": [
+            1014284,
+            1014307
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-23bd9083a8467b16",
+      "name": "Emmanuel Herbaut",
+      "description": "Julie’s husband (Emmanuel Herbaut), partner in the Morrel household; honest, industrious merchant",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Emmanuel Herbaut",
+          "evidence": [
+            1007606,
+            1007622
+          ]
+        },
+        {
+          "text": "Emmanuel",
+          "evidence": [
+            589178,
+            589186
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ed7f2dfeda8d3f8c",
+      "name": "Baptistin",
+      "description": "Valet de chambre in the Count of Monte Cristo’s service",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Baptistin",
+          "evidence": [
+            1151337,
+            1151346
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-64e867af82fe015b",
+      "name": "Madame de Villefort",
+      "description": "Wife of M. de Villefort; mother (stepmother) of Valentine and mother of Edward",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame de Villefort",
+          "evidence": [
+            1181170,
+            1181189
+          ]
+        },
+        {
+          "text": "Héloïse de Villefort",
+          "evidence": [
+            1194262,
+            1194282
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f6ced96b97294dfa",
+      "name": "Valentine (Mademoiselle de Villefort)",
+      "description": "Daughter of M. de Villefort by his first marriage; gentle, melancholic young woman loved by Maximilian",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Valentine",
+          "evidence": [
+            3916,
+            3925
+          ]
+        },
+        {
+          "text": "Mademoiselle de Villefort",
+          "evidence": [
+            1293835,
+            1293860
+          ]
+        },
+        {
+          "text": "Mademoiselle Valentine",
+          "evidence": [
+            1488618,
+            1488640
+          ]
+        },
+        {
+          "text": "Valentine de Villefort",
+          "evidence": [
+            1488631,
+            1488653
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a9f5866f12ef551a",
+      "name": "Edward",
+      "description": "Young son of M. and Madame de Villefort (the child saved when the carriage ran away)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edward",
+          "evidence": [
+            1192179,
+            1192185
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7272244929f42faa",
+      "name": "Haydée",
+      "description": "Greek slave/companion of the Count of Monte Cristo; presented as his faithful charge",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Haydée",
+          "evidence": [
+            2607,
+            2613
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a4fdb8510f6b1242",
+      "name": "Barrois",
+      "description": "Long-serving domestic of the Villefort household; familiar with family secrets and routines; acts as Noirtier’s faithful servant.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Barrois",
+          "evidence": [
+            1458267,
+            1458274
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2b7c57f0c44771fe",
+      "name": "Vasiliki",
+      "description": "Haydée’s mother, described in Haydée’s recollection as a Christian woman who prayed and cared for prisoners; dies during capture/flight.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Vasiliki",
+          "evidence": [
+            1858287,
+            1858295
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9a2ef8e06ed28161",
+      "name": "Ali Tepelini",
+      "description": "Ali Tepelini (Ali Pasha of Yanina), powerful Albanian ruler and Haydée’s father; his assault and death are recounted in Haydée’s history.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Ali Tepelini",
+          "evidence": [
+            1360371,
+            1360383
+          ]
+        },
+        {
+          "text": "Ali Pasha",
+          "evidence": [
+            560443,
+            560452
+          ]
+        },
+        {
+          "text": "the Vizier Ali",
+          "evidence": [
+            1886341,
+            1886355
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f599e986113d02f6",
+      "name": "Selim",
+      "description": "Selim, the pasha’s favorite soldier/guardian who stands watch over the magazine and is mortally wounded during the attack described by Haydée.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Selim",
+          "evidence": [
+            1872209,
+            1872214
+          ]
+        },
+        {
+          "text": "Selim, the fire-keeper",
+          "evidence": [
+            2098948,
+            2098970
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-710ffd604c27ef82",
+      "name": "Kourchid",
+      "description": "Seraskier Kourchid (an Ottoman commander mentioned as sent by the Sultan), involved in the attack on Ali Tepelini.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Kourchid",
+          "evidence": [
+            1875100,
+            1875108
+          ]
+        },
+        {
+          "text": "the Seraskier Kourchid",
+          "evidence": [
+            1888992,
+            1889014
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eb7e84714a5776d2",
+      "name": "Abbé Adelmonte",
+      "description": "Sicilian abbot and chemist whom Monte Cristo cites in toxicology and antidote discussions; mentioned as acquaintance and source of specifics.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Abbé Adelmonte",
+          "evidence": [
+            1312907,
+            1312921
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-63dea87bbdb6c7e5",
+      "name": "Major Bartolomeo Cavalcanti",
+      "description": "An Italian nobleman (Major Bartolomeo Cavalcanti) who believes his son has been restored to him; a proud, ceremonious figure.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Major Bartolomeo Cavalcanti",
+          "evidence": [
+            1380675,
+            1380702
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6fe412505addeb0e",
+      "name": "M. Deschamps",
+      "description": "Family notary for the Villeforts; responsible for preparing and registering wills and marriage contracts.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "M. Deschamps",
+          "evidence": [
+            1495036,
+            1495048
+          ]
+        },
+        {
+          "text": "the notary",
+          "evidence": [
+            1045270,
+            1045280
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e372acda6295a74a",
+      "name": "M. d'Avrigny",
+      "description": "Doctor called to attend Madame de Saint-Méran and other members of the Villefort household; provides medical assessment and warns of poisoning possibility.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "M. d’Avrigny",
+          "evidence": [
+            1730194,
+            1730206
+          ]
+        },
+        {
+          "text": "Doctor d’Avrigny",
+          "evidence": [
+            1760710,
+            1760726
+          ]
+        },
+        {
+          "text": "d’Avrigny",
+          "evidence": [
+            1730197,
+            1730206
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c86269278e7611ae",
+      "name": "Lord Ruthven",
+      "description": "Figure mentioned in society gossip as 'the Vampire of the Salle Argentina' and connected with the Jockey Club anecdote; referenced by characters.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Lord Ruthven",
+          "evidence": [
+            808303,
+            808315
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fc33336d27e480a7",
+      "name": "Beaurepaire",
+      "description": "Signer of the report describing the events at the Bonapartist meeting in Yanina mentioned in a manuscript fragment; one of three eyewitnesses.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Beaurepaire",
+          "evidence": [
+            1811399,
+            1811410
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-108ae8776c6dad46",
+      "name": "Duchampy",
+      "description": "Signer (Étienne Duchampy) of the Yanina meeting report; one of the three witnesses who documented the episode read aloud in the narrative.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Duchampy",
+          "evidence": [
+            1811454,
+            1811462
+          ]
+        },
+        {
+          "text": "Étienne Duchampy",
+          "evidence": [
+            1811446,
+            1811462
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-254f41ee55c11c02",
+      "name": "Lecharpal",
+      "description": "Keeper of woods and forests named as Claude Lecharpal, signer of the Yanina meeting report; listed among the eyewitnesses.",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Lecharpal",
+          "evidence": [
+            1811495,
+            1811504
+          ]
+        },
+        {
+          "text": "Claude Lecharpal",
+          "evidence": [
+            1811488,
+            1811504
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5d28bfe3f09d23ae",
+      "name": "M. Cavalcanti (senior)",
+      "description": "Man presented as Andrea Cavalcanti’s 'father' (part of the imposture); correspondent in Italy",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "M. Cavalcanti",
+          "evidence": [
+            1405178,
+            1405191
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5e2aecc72ec0954a",
+      "name": "Leonora Corsinari",
+      "description": "Named by Andrea as his mother in the fiction of his identity",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Leonora Corsinari",
+          "evidence": [
+            1976143,
+            1976160
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d4b50aae8046bc0",
+      "name": "El-Kobbir",
+      "description": "Armenian slave‑merchant named in the sale-document of Haydée (documentary witness cited in court)",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "El-Kobbir",
+          "evidence": [
+            2093996,
+            2094005
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cbdef5f3022e7853",
+      "name": "Emmanuel Morrel",
+      "description": "Brother-in-law of Maximilian; member of the Morrel family of Marseilles (appears as Emmanuel)",
+      "scope": "The Count of Monte Cristo",
+      "aliases": [
+        {
+          "text": "Emmanuel",
+          "evidence": [
+            589178,
+            589186
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-716f86ab739aa013",
+      "name": "Guide / Concierge (Château d'If)",
+      "description": "Concierge/guide who shows the Count the dungeon, uncovers hidden strips of cloth, and interacts with him at the prison.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the guide",
+          "evidence": [
+            771122,
+            771131
+          ]
+        },
+        {
+          "text": "the concierge",
+          "evidence": [
+            1049392,
+            1049405
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-707ca66b44874a86",
+      "name": "young bandit (servant of Vampa)",
+      "description": "Unnamed young bandit/servant in Vampa's band who brings provisions (the fowl) and waits on Danglars.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the youth",
+          "evidence": [
+            441391,
+            441400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0fe2298dcc3b25cf",
+      "name": "Thomson & French clerk/attendant",
+      "description": "Bank clerk/attendant at the house of Thomson & French who interacts with Danglars and with Peppino.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the clerk",
+          "evidence": [
+            590776,
+            590785
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e7a2f2999f2599ce",
+      "name": "_cicerone_ (guide)",
+      "description": "Local guide/cicerone who accompanies Danglars and interacts with him and the crowd outside the hotel.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "_cicerone_",
+          "evidence": [
+            642225,
+            642235
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c90febdab08a8798",
+      "name": "Mademoiselle d’Armilly",
+      "description": "Named in Danglars' thoughts as accompanying his daughter; referenced but not present in the scene.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mademoiselle d’Armilly",
+          "evidence": [
+            1834367,
+            1834389
+          ]
+        }
+      ]
+    }
+  ]
+}

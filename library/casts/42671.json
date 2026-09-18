@@ -1,0 +1,807 @@
+{
+  "schema": 1,
+  "gutenbergId": 42671,
+  "sourceSha256": "3d2d320092e4b501cd0075bbc4fccac2c322d925710a9df05172e9cef86b5863",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-5023934bfb4f869f",
+      "name": "Elizabeth Bennet",
+      "description": "Second Bennet daughter; intelligent, witty, and the novel's protagonist.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Elizabeth",
+          "evidence": [
+            7251,
+            7260
+          ]
+        },
+        {
+          "text": "Eliza",
+          "evidence": [
+            7251,
+            7256
+          ]
+        },
+        {
+          "text": "Lizzy",
+          "evidence": [
+            5102,
+            5107
+          ]
+        },
+        {
+          "text": "Miss Eliza",
+          "evidence": [
+            42609,
+            42619
+          ]
+        },
+        {
+          "text": "Miss Eliza Bennet",
+          "evidence": [
+            61993,
+            62010
+          ]
+        },
+        {
+          "text": "Miss Elizabeth Bennet",
+          "evidence": [
+            44804,
+            44825
+          ]
+        },
+        {
+          "text": "Eliza Bennet",
+          "evidence": [
+            61998,
+            62010
+          ]
+        },
+        {
+          "text": "Mrs. Darcy",
+          "evidence": [
+            698865,
+            698875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bc23bb46cee0a0a7",
+      "name": "Jane Bennet",
+      "description": "Eldest Bennet daughter; gentle and amiable, ultimately marries Mr. Bingley.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Jane",
+          "evidence": [
+            5239,
+            5243
+          ]
+        },
+        {
+          "text": "Miss Bennet",
+          "evidence": [
+            16720,
+            16731
+          ]
+        },
+        {
+          "text": "Mrs. Bingley",
+          "evidence": [
+            698838,
+            698850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-76deb49a16070d3f",
+      "name": "Mary Bennet",
+      "description": "Third Bennet daughter; studious and moralizing.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mary",
+          "evidence": [
+            9149,
+            9153
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d93039bc5e606d6",
+      "name": "Catherine (Kitty) Bennet",
+      "description": "Fourth Bennet daughter, commonly called Kitty; impressionable and flirtatious.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Catherine",
+          "evidence": [
+            18092,
+            18101
+          ]
+        },
+        {
+          "text": "Kitty",
+          "evidence": [
+            7763,
+            7768
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-59255a2735d96623",
+      "name": "Lydia Bennet",
+      "description": "Youngest Bennet daughter; lively, reckless, and later marries Mr. Wickham.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Lydia",
+          "evidence": [
+            5275,
+            5280
+          ]
+        },
+        {
+          "text": "Miss Lydia Bennet",
+          "evidence": [
+            558724,
+            558741
+          ]
+        },
+        {
+          "text": "Mrs. Wickham",
+          "evidence": [
+            553533,
+            553545
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b8639976cf435f9b",
+      "name": "Mr. Bennet",
+      "description": "Patriarch of the Bennet family; witty, sarcastic, and fond of books.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Bennet",
+          "evidence": [
+            2442,
+            2452
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5ba547f30dc3d563",
+      "name": "Mrs. Bennet",
+      "description": "Matriarch of the Bennet family; anxious to see her daughters married.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Bennet",
+          "evidence": [
+            7623,
+            7634
+          ]
+        },
+        {
+          "text": "his lady",
+          "evidence": [
+            2460,
+            2468
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3bd09569f40cbecf",
+      "name": "Charles Bingley",
+      "description": "Young, wealthy gentleman; amiable and attracted to Jane Bennet.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Bingley",
+          "evidence": [
+            4043,
+            4054
+          ]
+        },
+        {
+          "text": "Bingley",
+          "evidence": [
+            3313,
+            3320
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b5fef1dab61bbb5",
+      "name": "Caroline Bingley",
+      "description": "Mr. Bingley's sister; fashionable, socially ambitious, and an admirer of Mr. Darcy.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Miss Bingley",
+          "evidence": [
+            15136,
+            15148
+          ]
+        },
+        {
+          "text": "Caroline Bingley",
+          "evidence": [
+            210405,
+            210421
+          ]
+        },
+        {
+          "text": "CAROLINE BINGLEY",
+          "evidence": [
+            50304,
+            50320
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-99c5bcfa4e624d53",
+      "name": "Fitzwilliam Darcy",
+      "description": "Wealthy gentleman of Pemberley; proud by manner but generous in action and Elizabeth's eventual husband.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Darcy",
+          "evidence": [
+            13993,
+            14002
+          ]
+        },
+        {
+          "text": "Darcy",
+          "evidence": [
+            13997,
+            14002
+          ]
+        },
+        {
+          "text": "FITZWILLIAM DARCY",
+          "evidence": [
+            367985,
+            368002
+          ]
+        },
+        {
+          "text": "Mr. Fitzwilliam Darcy",
+          "evidence": [
+            258728,
+            258749
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b7db04d94559b0d1",
+      "name": "Georgiana Darcy",
+      "description": "Mr. Darcy's shy younger sister; gentle and accomplished.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Miss Darcy",
+          "evidence": [
+            64108,
+            64118
+          ]
+        },
+        {
+          "text": "Georgiana",
+          "evidence": [
+            213561,
+            213570
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ad929efa19815a8d",
+      "name": "Lady Catherine de Bourgh",
+      "description": "Aristocratic, domineering aunt of Mr. Darcy who interferes in others' affairs.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Lady Catherine de Bourgh",
+          "evidence": [
+            107819,
+            107843
+          ]
+        },
+        {
+          "text": "Lady Catherine",
+          "evidence": [
+            107819,
+            107833
+          ]
+        },
+        {
+          "text": "lady Catherine",
+          "evidence": [
+            536111,
+            536125
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dcd6a946ff6cf28a",
+      "name": "Miss de Bourgh",
+      "description": "Lady Catherine's daughter/ward, presented as delicate and sickly.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Miss De Bourgh",
+          "evidence": [
+            116472,
+            116486
+          ]
+        },
+        {
+          "text": "Miss de Bourgh",
+          "evidence": [
+            147738,
+            147752
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-44d8759db55d54c6",
+      "name": "William Collins",
+      "description": "Obsequious clergyman, heir to the Bennet estate and cousin to the Bennets; marries Charlotte.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Collins",
+          "evidence": [
+            105707,
+            105718
+          ]
+        },
+        {
+          "text": "WILLIAM COLLINS",
+          "evidence": [
+            109507,
+            109522
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5861a099acefba76",
+      "name": "Charlotte Lucas",
+      "description": "Friend of Elizabeth; sensible and pragmatic, marries Mr. Collins for security.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Miss Lucas",
+          "evidence": [
+            19191,
+            19201
+          ]
+        },
+        {
+          "text": "Charlotte Lucas",
+          "evidence": [
+            73795,
+            73810
+          ]
+        },
+        {
+          "text": "Mrs. Collins",
+          "evidence": [
+            280476,
+            280488
+          ]
+        },
+        {
+          "text": "Charlotte",
+          "evidence": [
+            1892,
+            1901
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-978a01795334a3a3",
+      "name": "Sir William Lucas",
+      "description": "Formerly of trade, now a country gentleman and neighbour; father in the Lucas family.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Sir William",
+          "evidence": [
+            4629,
+            4640
+          ]
+        },
+        {
+          "text": "Sir William Lucas",
+          "evidence": [
+            26999,
+            27016
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-054eea63e12bd08c",
+      "name": "Lady Lucas",
+      "description": "Wife of Sir William Lucas; neighbour and friend of Mrs. Bennet.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Lady Lucas",
+          "evidence": [
+            4645,
+            4655
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06a0be2cfa3550a5",
+      "name": "Mrs. Hurst",
+      "description": "Mrs. Bingley's sister; fashionable and critical.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Hurst",
+          "evidence": [
+            15111,
+            15121
+          ]
+        },
+        {
+          "text": "Louisa",
+          "evidence": [
+            49979,
+            49985
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ce219236ae0e9846",
+      "name": "Mr. Hurst",
+      "description": "Brother-in-law to Mr. Bingley; a gentleman of leisure.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Hurst",
+          "evidence": [
+            13937,
+            13946
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9af33d08c73237dd",
+      "name": "George Wickham",
+      "description": "Officer who befriends Elizabeth but is later revealed to have a disreputable past; marries Lydia.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Wickham",
+          "evidence": [
+            125596,
+            125607
+          ]
+        },
+        {
+          "text": "Wickham",
+          "evidence": [
+            125600,
+            125607
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d61c5cdc54151dd2",
+      "name": "Colonel Forster",
+      "description": "Commanding officer of the local militia regiment.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Colonel Forster",
+          "evidence": [
+            38500,
+            38515
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18fe6ca77c6d8ce0",
+      "name": "Colonel Fitzwilliam",
+      "description": "Mr. Darcy's amiable cousin, the younger son of an earl.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Colonel Fitzwilliam",
+          "evidence": [
+            307040,
+            307059
+          ]
+        },
+        {
+          "text": "Fitzwilliam",
+          "evidence": [
+            258732,
+            258743
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06a7a4f275951c98",
+      "name": "Mr. Gardiner",
+      "description": "Mrs. Bennet's sensible brother (Elizabeth's uncle); assists with Lydia's situation.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Gardiner",
+          "evidence": [
+            250796,
+            250808
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7e4c4fd887c576e",
+      "name": "Mrs. Gardiner",
+      "description": "Mrs. Bennet's sister (Elizabeth's aunt); intelligent and kind.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Gardiner",
+          "evidence": [
+            251089,
+            251102
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1e882a28f458e5a6",
+      "name": "Mrs. Philips",
+      "description": "Mrs. Bennet's sister living in Meryton; frequented by the Bennet girls.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Philips",
+          "evidence": [
+            47051,
+            47063
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae847bba90a4767c",
+      "name": "Mr. Philips",
+      "description": "Husband of Mrs. Philips; formerly clerk to Mrs. Bennet's father.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Philips",
+          "evidence": [
+            46015,
+            46026
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d1e23ccb12c86b67",
+      "name": "Mrs. Long",
+      "description": "Neighbour who brings news; a local social figure.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Long",
+          "evidence": [
+            2615,
+            2624
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d87f3ae3c9559a9b",
+      "name": "Mrs. Reynolds",
+      "description": "Housekeeper at Pemberley who knows the Darcy household and praises her master.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Reynolds",
+          "evidence": [
+            440488,
+            440501
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7fe3049853ca4010",
+      "name": "Mrs. Jenkinson",
+      "description": "Companion/attendant to Miss de Bourgh at Rosings Park.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Jenkinson",
+          "evidence": [
+            190726,
+            190740
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-688232470eb3fe33",
+      "name": "Mrs. Younge",
+      "description": "Former governess to Miss Darcy who later associates with Wickham.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Younge",
+          "evidence": [
+            366250,
+            366261
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b37beeb55b278b49",
+      "name": "Mary King",
+      "description": "Young woman mentioned as a possible match for Wickham; later leaves town.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mary King",
+          "evidence": [
+            396970,
+            396979
+          ]
+        },
+        {
+          "text": "Miss King",
+          "evidence": [
+            271371,
+            271380
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a432374c6e3986c2",
+      "name": "Mr. Denny",
+      "description": "Officer and acquaintance connected to the militia and Wickham.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Denny",
+          "evidence": [
+            119545,
+            119554
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a3aad8c0475f526c",
+      "name": "Mr. Robinson",
+      "description": "A gentleman mentioned in overheard conversation introducing Mr. Bingley.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Robinson",
+          "evidence": [
+            28695,
+            28707
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-707eadb878f2c825",
+      "name": "Mr. Morris",
+      "description": "Owner/agent associated with Netherfield’s letting.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mr. Morris",
+          "evidence": [
+            3137,
+            3147
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e1de6a0db0d34f89",
+      "name": "Mrs. Annesley",
+      "description": "Lady's companion to Miss Darcy who lives with her in London.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Mrs. Annesley",
+          "evidence": [
+            479979,
+            479992
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-842a336c851f780b",
+      "name": "Mr. Nicholls",
+      "description": "Cooking/household servant referenced in conversation about provisioning.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Nicholls",
+          "evidence": [
+            94566,
+            94574
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-edf03ce6220578ab",
+      "name": "Hill",
+      "description": "Named house-servant at Longbourn who delivers messages and news.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Hill",
+          "evidence": [
+            105182,
+            105186
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-592ddef5cd364f66",
+      "name": "Maria",
+      "description": "Member of the Lucas household (called Maria in the text), visited by Kitty.",
+      "scope": "Pride and Prejudice",
+      "aliases": [
+        {
+          "text": "Maria",
+          "evidence": [
+            19548,
+            19553
+          ]
+        }
+      ]
+    }
+  ]
+}

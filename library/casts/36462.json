@@ -1,0 +1,1692 @@
+{
+  "schema": 1,
+  "gutenbergId": 36462,
+  "sourceSha256": "d1fcc621f85b2c249061c4849ba269de1e10d7caa6184c1e4ee9ee3d272534cf",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-9267cdcaa1c4ddf1",
+      "name": "King Arthur",
+      "description": "The central king, sovereign of Britain and leader of the Round Table; conducts wars, holds courts and quests, later wounded in final battle.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Arthur",
+          "evidence": [
+            1776,
+            1787
+          ]
+        },
+        {
+          "text": "the king",
+          "evidence": [
+            2105,
+            2113
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0130dabf85d0a4b0",
+      "name": "Merlin",
+      "description": "A powerful wizard and prophet who advises kings (foretells Arthur's coming, arranges events, later trapped by Vivien).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Merlin",
+          "evidence": [
+            1927,
+            1933
+          ]
+        },
+        {
+          "text": "Merlin the Wizard",
+          "evidence": [
+            64298,
+            64315
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-97f2f9ba46be8e1a",
+      "name": "Vortigern",
+      "description": "The usurper king in London whose tower fails until Merlin reveals the cause.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Vortigern",
+          "evidence": [
+            19420,
+            19429
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-50f5b6e5fa67945d",
+      "name": "Ambrosius",
+      "description": "One of the opponents of Vortigern mentioned among the northern challenge to the usurper (appears as a name in Merlin's prophecy); associated with Aurelius Ambrosius.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ambrosius",
+          "evidence": [
+            19610,
+            19619
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-db24ab1e60d24a18",
+      "name": "Aurelius Ambrosius",
+      "description": "Called Aurelius or Aurelius Ambrosius; a rightful king who defeats Vortigern and whose actions bring Merlin into play (linked to Stonehenge episode).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aurelius",
+          "evidence": [
+            25574,
+            25582
+          ]
+        },
+        {
+          "text": "Aurelius Ambrosius",
+          "evidence": [
+            31004,
+            31022
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1739bfb8e8ddcef4",
+      "name": "Uther Pendragon",
+      "description": "Father of Arthur; king who takes Igerna as wife, aided by Merlin, and fathered Arthur by Merlin's device; called Uther Pendragon after making dragon banners.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Uther",
+          "evidence": [
+            19624,
+            19629
+          ]
+        },
+        {
+          "text": "Uther Pendragon",
+          "evidence": [
+            31764,
+            31779
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5fdcb41f15c0cc7a",
+      "name": "Gillomanius",
+      "description": "King in Ireland who resists the taking of the Giants' Dance (Stonehenge stones).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gillomanius",
+          "evidence": [
+            29404,
+            29415
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-72c82dcd66226a20",
+      "name": "Gorlois",
+      "description": "Duke of Cornwall whose wife Igerna is desired by Uther; slain in battle.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gorlois",
+          "evidence": [
+            32174,
+            32181
+          ]
+        },
+        {
+          "text": "Gorlois, Duke of Cornwall",
+          "evidence": [
+            32174,
+            32199
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-215b8f7e70768130",
+      "name": "Igerna",
+      "description": "Wife of Gorlois, later married to Uther; mother of Arthur (unnamed as mother in narrative but referred to as Igerna).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Igerna",
+          "evidence": [
+            32214,
+            32220
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6795b38d941041c4",
+      "name": "Merlin's master Blaise",
+      "description": "Hermit named Blaise who nourished Merlin in youth and records Merlin's accounts at his direction.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Blaise",
+          "evidence": [
+            65622,
+            65628
+          ]
+        },
+        {
+          "text": "Blaise, a holy hermit",
+          "evidence": [
+            65622,
+            65643
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2b40a29effebf8ba",
+      "name": "Lady of the Lake",
+      "description": "Mysterious lady who presents Excalibur (and its scabbard) by means of an arm out of the lake; multiple lake-ladies act in story.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the lady of the lake",
+          "evidence": [
+            51738,
+            51758
+          ]
+        },
+        {
+          "text": "the damsel",
+          "evidence": [
+            51529,
+            51539
+          ]
+        },
+        {
+          "text": "Vivien",
+          "evidence": [
+            14347,
+            14353
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d56b1fc0a9e56131",
+      "name": "Sir Ector",
+      "description": "Arthur's foster-father who raises Arthur as his son and appears at Arthur's drawing of the sword; father of Sir Key.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Ector",
+          "evidence": [
+            33213,
+            33222
+          ]
+        },
+        {
+          "text": "Ector",
+          "evidence": [
+            33217,
+            33222
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0511514f1ebc5366",
+      "name": "Sir Key",
+      "description": "Foster-brother of Arthur (Sir Ector's son), later High Steward of England in Arthur's reign; also called Sir Key the seneschal.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Key",
+          "evidence": [
+            40934,
+            40941
+          ]
+        },
+        {
+          "text": "Key",
+          "evidence": [
+            40938,
+            40941
+          ]
+        },
+        {
+          "text": "the seneschal",
+          "evidence": [
+            383444,
+            383457
+          ]
+        },
+        {
+          "text": "High Steward of England",
+          "evidence": [
+            47710,
+            47733
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1b42d5bc48662b31",
+      "name": "Brice, Archbishop of Canterbury",
+      "description": "Archbishop who convenes the nobles before the stone and sword and presides at Arthur's coronation ceremonies.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Brice, the Archbishop of Canterbury",
+          "evidence": [
+            38718,
+            38753
+          ]
+        },
+        {
+          "text": "the archbishop",
+          "evidence": [
+            27850,
+            27864
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b31449d22e134d4a",
+      "name": "Sir Ulfius",
+      "description": "A loyal knight and adviser to Arthur, participating in early battles and offices (chamberlain role earlier).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Ulfius",
+          "evidence": [
+            47781,
+            47791
+          ]
+        },
+        {
+          "text": "Ulfius",
+          "evidence": [
+            47785,
+            47791
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0f221395343cd091",
+      "name": "Sir Brastias",
+      "description": "A knight and companion of Arthur in early battles (named participant in fights).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Brastias",
+          "evidence": [
+            50166,
+            50178
+          ]
+        },
+        {
+          "text": "Brastias",
+          "evidence": [
+            50170,
+            50178
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a6ceb490585e111e",
+      "name": "Sir Griflet",
+      "description": "Young squire-turned-knight who serves Arthur and is involved in early combats and rescues (also wounded and healed).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Griflet",
+          "evidence": [
+            57418,
+            57429
+          ]
+        },
+        {
+          "text": "Griflet",
+          "evidence": [
+            57422,
+            57429
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-119e83abc7c8a294",
+      "name": "Sir Lucas the butler",
+      "description": "A knight identified as 'Sir Lucas the butler' who appears as participant in battles.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Lucas",
+          "evidence": [
+            57434,
+            57443
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-457e8e4829696b37",
+      "name": "The white dragon",
+      "description": "A symbolic dragon seen beneath the pool in Merlin's prophecy, representing the Saxon invaders in the vision.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the white dragon",
+          "evidence": [
+            24048,
+            24064
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cc33f67d04dc08cc",
+      "name": "The red dragon",
+      "description": "The opposing dragon in Merlin's vision, representing the British (or vice versa in prophecy); seen fighting the white dragon.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the red dragon",
+          "evidence": [
+            24264,
+            24278
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dd78973be01a2250",
+      "name": "Sir Balin le Savage",
+      "description": "A knight who obtains a magical sword and, through the Dolorous Stroke, causes grievous harm (kills and later mortally wounds his brother Sir Balan).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Balin",
+          "evidence": [
+            107266,
+            107275
+          ]
+        },
+        {
+          "text": "Sir Balin le Savage",
+          "evidence": [
+            130635,
+            130654
+          ]
+        },
+        {
+          "text": "Balin",
+          "evidence": [
+            14422,
+            14427
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-52f6875d9d991def",
+      "name": "Sir Balan",
+      "description": "Brother of Sir Balin who fights and tragically mortally wounds his brother in mistaken encounter; later dies beside him.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Balan",
+          "evidence": [
+            115720,
+            115729
+          ]
+        },
+        {
+          "text": "Balan",
+          "evidence": [
+            14432,
+            14437
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9335bf88fcb7783d",
+      "name": "King Lot",
+      "description": "A king of Orkney and a frequent antagonist of Arthur; father of Gawain and his brothers.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Lot",
+          "evidence": [
+            49889,
+            49897
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-24773cf972576ce9",
+      "name": "Belisent",
+      "description": "Half-sister of Arthur who visits and later is mother of Gawain and his brothers (called King's half-sister Belisent).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Belisent",
+          "evidence": [
+            67562,
+            67570
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9eb9a0e4761cb8ef",
+      "name": "Sir Gawain",
+      "description": "Arthur's nephew and one of his chief knights; central in many adventures and later in conflict with Lancelot; leading judge and avenger.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Gawain",
+          "evidence": [
+            8828,
+            8838
+          ]
+        },
+        {
+          "text": "Gawain",
+          "evidence": [
+            8832,
+            8838
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-80f738f557d8ec45",
+      "name": "Gawain's brothers (Gaheris, Agravaine, Gareth)",
+      "description": "Sons of King Lot and Belisent; Gaheris and Agravaine figure in plots and deeds (Gareth also known as Beaumains).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Gaheris",
+          "evidence": [
+            316032,
+            316043
+          ]
+        },
+        {
+          "text": "Sir Agravaine",
+          "evidence": [
+            476600,
+            476613
+          ]
+        },
+        {
+          "text": "Sir Gareth",
+          "evidence": [
+            296939,
+            296949
+          ]
+        },
+        {
+          "text": "Beaumains",
+          "evidence": [
+            273626,
+            273635
+          ]
+        },
+        {
+          "text": "Sir Beaumains",
+          "evidence": [
+            278469,
+            278482
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-46f5b4987484dfd9",
+      "name": "Sir Mador de la Port",
+      "description": "Knight whose kinsman Sir Patrice is killed by a poisoned apple; he accuses Guinevere and demands trial by combat.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Mador de la Port",
+          "evidence": [
+            240674,
+            240694
+          ]
+        },
+        {
+          "text": "Sir Mador",
+          "evidence": [
+            240674,
+            240683
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-977f50c74f9359d8",
+      "name": "Sir Patrice (Patrice)",
+      "description": "The knight who dies from a poisoned apple at Guinevere's banquet; his death sparks the accusation against the queen.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Patrice",
+          "evidence": [
+            476776,
+            476787
+          ]
+        },
+        {
+          "text": "Patrice",
+          "evidence": [
+            476780,
+            476787
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c6b7f1679b694d9a",
+      "name": "Sir Pinell le Savage",
+      "description": "The knight who actually poisons the apple that kills Sir Patrice (later identified by the Lady of the Lake).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Pinell le Savage",
+          "evidence": [
+            476810,
+            476830
+          ]
+        },
+        {
+          "text": "Sir Pinell",
+          "evidence": [
+            476810,
+            476820
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-719428916e99a948",
+      "name": "Queen Guinevere",
+      "description": "Arthur's queen whose alleged betrayal and later rescue by Lancelot precipitate the realm's schism and final wars.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Guinevere",
+          "evidence": [
+            6252,
+            6261
+          ]
+        },
+        {
+          "text": "Queen Guinevere",
+          "evidence": [
+            6845,
+            6860
+          ]
+        },
+        {
+          "text": "the queen",
+          "evidence": [
+            139517,
+            139526
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9ff3d9fd5e8bb6b1",
+      "name": "Sir Lancelot",
+      "description": "Preeminent knight of the Round Table; Arthur's greatest warrior and Guinevere's favorite; central to many adventures and to the kingdom's downfall.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Lancelot",
+          "evidence": [
+            15295,
+            15307
+          ]
+        },
+        {
+          "text": "Lancelot",
+          "evidence": [
+            1961,
+            1969
+          ]
+        },
+        {
+          "text": "Sir Lancelot du Lake",
+          "evidence": [
+            236825,
+            236845
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eae9a3d57e131bc6",
+      "name": "Sir Bors",
+      "description": "A kinsman and faithful companion of Lancelot; acts as Lancelot's intermediary and later participates in quests and combats.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Bors",
+          "evidence": [
+            192368,
+            192376
+          ]
+        },
+        {
+          "text": "Bors",
+          "evidence": [
+            54652,
+            54656
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-94d3559d708cd3e5",
+      "name": "Sir Lionel",
+      "description": "A kinsman of Lancelot (also son of Ban) and participant in many adventures; fights alongside Lancelot.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Lionel",
+          "evidence": [
+            192378,
+            192388
+          ]
+        },
+        {
+          "text": "Lionel",
+          "evidence": [
+            192382,
+            192388
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9500bfc7c0dea9fd",
+      "name": "Sir Pellinore",
+      "description": "A chivalric but sometimes quarrelsome knight who follows the Questing Beast; father of Sir Tor and others.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Pellinore",
+          "evidence": [
+            70647,
+            70661
+          ]
+        },
+        {
+          "text": "Sir Pellinore",
+          "evidence": [
+            382552,
+            382565
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cab3d546534c6443",
+      "name": "The Questing Beast",
+      "description": "A strange mythical creature pursued by Pellinore and others; described with a leopard's body, serpent head and lion's tail.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the questing beast",
+          "evidence": [
+            70688,
+            70706
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-637c811b1bb503b6",
+      "name": "Sir Tor",
+      "description": "A youth raised as a cowherd's son but revealed as King Pellinore's son; proves himself and is later admitted to the Round Table.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Tor",
+          "evidence": [
+            142569,
+            142576
+          ]
+        },
+        {
+          "text": "Tor",
+          "evidence": [
+            141982,
+            141985
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e1897d68dd1d494c",
+      "name": "Sir Griflet (young Griflet)",
+      "description": "A youth who petitions for knighthood, is knighted by Arthur and performs early service and adventures.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Griflet",
+          "evidence": [
+            57422,
+            57429
+          ]
+        },
+        {
+          "text": "Sir Griflet",
+          "evidence": [
+            57418,
+            57429
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5928709a4a989a86",
+      "name": "Sir Tristram (Tristram)",
+      "description": "Tristram of Lyonesse (also Tristan/Tristram), famed lover and knight; central in the tragic tale of La Belle Isault (Isolde).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Tristram",
+          "evidence": [
+            289282,
+            289294
+          ]
+        },
+        {
+          "text": "Tristram",
+          "evidence": [
+            5880,
+            5888
+          ]
+        },
+        {
+          "text": "Tramtrist",
+          "evidence": [
+            343829,
+            343838
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4f3a47ea0a69a8ca",
+      "name": "La Belle Isault",
+      "description": "Also called Isault or Isolde; the Irish princess healed and loved by Tristram; central to Tristram's personal storyline.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "La Belle Isault",
+          "evidence": [
+            344524,
+            344539
+          ]
+        },
+        {
+          "text": "Isault",
+          "evidence": [
+            344533,
+            344539
+          ]
+        },
+        {
+          "text": "Isolde",
+          "evidence": [
+            13681,
+            13687
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-db1a773203f63316",
+      "name": "King Mark",
+      "description": "King of Cornwall; uncle of Tristram and later husband of La Belle Isault; often jealous and at odds with Tristram.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Mark",
+          "evidence": [
+            116140,
+            116149
+          ]
+        },
+        {
+          "text": "Mark",
+          "evidence": [
+            116145,
+            116149
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7e45bc6a6dcd6ce6",
+      "name": "King Ban of Benwick",
+      "description": "Father of Lancelot (King Ban) mentioned as ancestor; his realm provides part of Lancelot's origin.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Ban",
+          "evidence": [
+            54622,
+            54630
+          ]
+        },
+        {
+          "text": "King Ban of Benwick",
+          "evidence": [
+            54622,
+            54641
+          ]
+        },
+        {
+          "text": "Ban",
+          "evidence": [
+            54627,
+            54630
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-62a19bf889ea8e7a",
+      "name": "King Bors of Gaul",
+      "description": "Ally of Arthur who aids in battles; father or kin to Lancelot's supporters (named King Bors of Gaul).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Bors",
+          "evidence": [
+            54647,
+            54656
+          ]
+        },
+        {
+          "text": "King Bors of Gaul",
+          "evidence": [
+            54647,
+            54664
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd7036c5000f3dcc",
+      "name": "Sir Palomedes",
+      "description": "A valiant, unchristened knight who fights in many tournaments and tournaments against Arthur's men and Tristram.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Palomedes",
+          "evidence": [
+            315531,
+            315544
+          ]
+        },
+        {
+          "text": "Palomedes",
+          "evidence": [
+            315535,
+            315544
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4e2c2a656f989639",
+      "name": "Sir Bleoberis de Ganis",
+      "description": "A knight cousin to Lancelot who participates in tournaments and deeds; aids Tristram and others.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Bleoberis de Ganis",
+          "evidence": [
+            359238,
+            359260
+          ]
+        },
+        {
+          "text": "Sir Bleoberis",
+          "evidence": [
+            318066,
+            318079
+          ]
+        },
+        {
+          "text": "Bleoberis",
+          "evidence": [
+            318070,
+            318079
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7e00dd9465d67753",
+      "name": "Sir Dinadan",
+      "description": "A Knight of the Round Table known for wit and occasional reluctance to rash deeds; companion of Tristram in adventures.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Dinadan",
+          "evidence": [
+            377556,
+            377567
+          ]
+        },
+        {
+          "text": "Dinadan",
+          "evidence": [
+            376490,
+            376497
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-33bb0678f3b478f9",
+      "name": "Sir Lamoracke",
+      "description": "A renowned knight introduced in the narrative; noted for prowess and later associated with the Grail tales and other adventures.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lamoracke",
+          "evidence": [
+            90329,
+            90338
+          ]
+        },
+        {
+          "text": "Sir Lamoracke",
+          "evidence": [
+            296453,
+            296466
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-edd11778e0ca88df",
+      "name": "King Pelles",
+      "description": "The maimed or wounded king (kinsman of Joseph of Arimathea) whose pain results from Balin's Dolorous Stroke and who is healed only by the Grail knights.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Pelles",
+          "evidence": [
+            123550,
+            123561
+          ]
+        },
+        {
+          "text": "Pelles",
+          "evidence": [
+            123555,
+            123561
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b7547cd0633ac5ef",
+      "name": "Joseph of Arimathea",
+      "description": "Biblical figure credited with bringing the Holy Grail to Britain and whose lineage and treasures feature in the Grail lore.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Joseph of Arimathea",
+          "evidence": [
+            7153,
+            7172
+          ]
+        },
+        {
+          "text": "Joseph",
+          "evidence": [
+            7153,
+            7159
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0a720f6a5a8849e2",
+      "name": "King Evelake",
+      "description": "An ancient king associated with Joseph of Arimathea's missions; later appears maimed and healed in Grail narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Evelake",
+          "evidence": [
+            416617,
+            416629
+          ]
+        },
+        {
+          "text": "Evelake",
+          "evidence": [
+            416622,
+            416629
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-be801a171462b2d5",
+      "name": "Sir Galahad",
+      "description": "The pure knight created/introduced at the court; sits in the Siege Perilous and succeeds in the Quest for the Holy Grail, achieving its fulfillment and dying in grace.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Galahad",
+          "evidence": [
+            17038,
+            17049
+          ]
+        },
+        {
+          "text": "Galahad",
+          "evidence": [
+            1988,
+            1995
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f4ae215443454908",
+      "name": "Sir Percival",
+      "description": "A Grail knight whose adventures include healing and quests; meets Galahad and Bors in Grail narrative and later becomes a hermit.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Percival",
+          "evidence": [
+            403463,
+            403475
+          ]
+        },
+        {
+          "text": "Perceval",
+          "evidence": [
+            1974,
+            1982
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c3ad057901abfba",
+      "name": "Sir Bors the Younger (the Grail knight)",
+      "description": "One of the three knights (with Galahad and Percival) who successfully see the Grail; later returns and survives to tell of events.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Bors",
+          "evidence": [
+            192368,
+            192376
+          ]
+        },
+        {
+          "text": "Bors",
+          "evidence": [
+            54652,
+            54656
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5867806b80931f2b",
+      "name": "Nacien the hermit",
+      "description": "A holy hermit who counsels ladies and knights and gives instruction about the Grail quest (issues counsel to avoid ladies on Grail quest).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Nacien",
+          "evidence": [
+            407832,
+            407838
+          ]
+        },
+        {
+          "text": "Nacien the hermit",
+          "evidence": [
+            407832,
+            407849
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b83820a511b1d10c",
+      "name": "The maiden (Percival's sister)",
+      "description": "Sister of Sir Percival who helps and dies for others in Grail episodes; identified as 'Sir Percival's sister' in the text.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Percival's sister",
+          "evidence": [
+            452311,
+            452332
+          ]
+        },
+        {
+          "text": "the damsel",
+          "evidence": [
+            51529,
+            51539
+          ]
+        },
+        {
+          "text": "the maiden",
+          "evidence": [
+            210012,
+            210022
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d85d806edc4e7356",
+      "name": "Sir Bedivere",
+      "description": "Arthur's loyal knight who survives to return Excalibur to the water and bears witness to Arthur's last acts.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Bedivere",
+          "evidence": [
+            192394,
+            192406
+          ]
+        },
+        {
+          "text": "Bedivere",
+          "evidence": [
+            192398,
+            192406
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c7d96239c4ef95ce",
+      "name": "Sir Lucan",
+      "description": "One of Arthur's household knights who helps bear Arthur after the final battle and dies of his wounds at Arthur's side.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Lucan",
+          "evidence": [
+            531339,
+            531348
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19d563f37944ee36",
+      "name": "Sir Modred",
+      "description": "Arthur's nephew/illegitimate son who seizes authority in Arthur's absence, incites rebellion, and fatally wounds Arthur in final conflict.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Modred",
+          "evidence": [
+            240696,
+            240706
+          ]
+        },
+        {
+          "text": "Modred",
+          "evidence": [
+            240700,
+            240706
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aaeffd4a27778a1b",
+      "name": "Sir Bernard of Astolat",
+      "description": "Baron of Astolat who shelters Lancelot; father of the Maid of Astolat (Elaine).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Bernard",
+          "evidence": [
+            487258,
+            487269
+          ]
+        },
+        {
+          "text": "Sir Bernard of Astolat",
+          "evidence": [
+            487258,
+            487280
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef7bd655eef0915f",
+      "name": "Elaine of Astolat (The Maid of Astolat)",
+      "description": "Also called the Fair Maid of Astolat; falls hopelessly in love with Lancelot, nurses him, and dies of a broken heart; sent to court in a funerary barge.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Elaine",
+          "evidence": [
+            14370,
+            14376
+          ]
+        },
+        {
+          "text": "the Maid of Astolat",
+          "evidence": [
+            506546,
+            506565
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-950e48fec0d8067a",
+      "name": "Sir Lavaine",
+      "description": "A young knight of Astolat who serves Lancelot in tournaments and aids him; son of Sir Bernard.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Lavaine",
+          "evidence": [
+            488309,
+            488320
+          ]
+        },
+        {
+          "text": "Lavaine",
+          "evidence": [
+            488313,
+            488320
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4ef9486146fd1c8a",
+      "name": "Sir Melerance / Meliance of Lis",
+      "description": "A knight mentioned among tourneying knights whom the Maid with Narrow Sleeves admires; appears in that episode.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Meliance of Lis",
+          "evidence": [
+            208988,
+            209003
+          ]
+        },
+        {
+          "text": "Meliance",
+          "evidence": [
+            208988,
+            208996
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a68b8f5c20bcb2d1",
+      "name": "The Maid with the Narrow Sleeves",
+      "description": "A young unnamed damsel who challenges Sir Gawain and the company with her 'narrow sleeves' token—central to the chapter 'Sir Gawain and the Maid with the Narrow Sleeves.'",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Maid with the Narrow Sleeves",
+          "evidence": [
+            16746,
+            16778
+          ]
+        },
+        {
+          "text": "the little girl",
+          "evidence": [
+            214692,
+            214707
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-549f40cd07e5dc78",
+      "name": "Sir Percival's hermit aunt (the recluse)",
+      "description": "A pious recluse and aunt to Percival who informs him of his kin and guides him toward Grail-related quests.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the recluse",
+          "evidence": [
+            423644,
+            423655
+          ]
+        },
+        {
+          "text": "his aunt",
+          "evidence": [
+            429261,
+            429269
+          ]
+        },
+        {
+          "text": "the hermit",
+          "evidence": [
+            121942,
+            121952
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae5287745eb67f99",
+      "name": "Sir Gahalatine",
+      "description": "A knight of the lists that opposes Bagdemagus; mentioned in Bagdemagus' tournament adventures.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Gahalatine",
+          "evidence": [
+            240712,
+            240726
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1f1f6c2c4506a4f9",
+      "name": "King Anguish of Ireland",
+      "description": "King of Ireland who sends Marhaus to demand tribute and later interacts with Tristram and Isault; called King Anguish.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Anguish",
+          "evidence": [
+            188706,
+            188718
+          ]
+        },
+        {
+          "text": "Anguish",
+          "evidence": [
+            188711,
+            188718
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-881f343eecad9c62",
+      "name": "Sir Marhaus",
+      "description": "Irish champion sent to secure tribute who fights Tristram and is mortally wounded (piece of blade found in his head).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Marhaus",
+          "evidence": [
+            248417,
+            248428
+          ]
+        },
+        {
+          "text": "Marhaus",
+          "evidence": [
+            248421,
+            248428
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-df58231543ecc669",
+      "name": "Sir Palomedes (duplicate entry check)",
+      "description": "Included earlier; valiant tournament knight who later fights Tristram and others.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Palomedes",
+          "evidence": [
+            315531,
+            315544
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e204ae4c3126e60c",
+      "name": "Sir Perin de Mountbelgard",
+      "description": "A knight allied in the quests who is slain by magic abuse in one episode (companion of others).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Perin de Mountbelgard",
+          "evidence": [
+            121475,
+            121496
+          ]
+        },
+        {
+          "text": "Sir Perin",
+          "evidence": [
+            121702,
+            121711
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-14a383b433d7a345",
+      "name": "Sir Herleus",
+      "description": "A knight mentioned as slain in ambush (companion to Balin); pleads his steward to pursue revenge.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Herleus",
+          "evidence": [
+            120837,
+            120848
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-075145018bb404fb",
+      "name": "Sir Garlon",
+      "description": "A treacherous invisible knight who kills by witchcraft; slain by Balin; name appears in Perceval-derived episode.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Garlon",
+          "evidence": [
+            120945,
+            120951
+          ]
+        },
+        {
+          "text": "Sir Garlon",
+          "evidence": [
+            121839,
+            121849
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6b968b6c2a51d048",
+      "name": "Sir Bagdemagus",
+      "description": "A king and knight who is aided by Lancelot in a tournament and who later features in adventures connected to Lancelot's imprisonment by queens.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Bagdemagus",
+          "evidence": [
+            239007,
+            239022
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-95952253ae7dd5e9",
+      "name": "Sir Tor (duplicate entry check)",
+      "description": "Included earlier; son of Pellinore and Cornish-raised youth made knight by Arthur.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Tor",
+          "evidence": [
+            142569,
+            142576
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c47fd9e918246ea",
+      "name": "King Claudas",
+      "description": "Mentioned as adversary in Gaul who works mischief against Ban and Bors; appears as background antagonist.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "King Claudas",
+          "evidence": [
+            54759,
+            54771
+          ]
+        },
+        {
+          "text": "Claudas",
+          "evidence": [
+            54764,
+            54771
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b3501d3a153a6752",
+      "name": "Sir Accolon of Gaul",
+      "description": "Knight tricked by Morgan le Fay into fighting Arthur with Excalibur (secretly given to Accolon); later dies, confessing the treason.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Accolon",
+          "evidence": [
+            165809,
+            165820
+          ]
+        },
+        {
+          "text": "Accolon of Gaul",
+          "evidence": [
+            165813,
+            165828
+          ]
+        },
+        {
+          "text": "Sir Accolon of Gaul",
+          "evidence": [
+            165809,
+            165828
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f9153b53674d91e2",
+      "name": "Queen Morgan le Fay",
+      "description": "Arthur's half-sister, a sorceress who enchants and plots (steals Excalibur, schemes against Arthur, traps Merlin).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Queen Morgan le Fay",
+          "evidence": [
+            85342,
+            85361
+          ]
+        },
+        {
+          "text": "Morgan le Fay",
+          "evidence": [
+            85348,
+            85361
+          ]
+        },
+        {
+          "text": "Morgan",
+          "evidence": [
+            1145,
+            1151
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3767e216f0b6d8ef",
+      "name": "Sir Modred (duplicate check)",
+      "description": "Included earlier; appears as the traitor who claims kingship and whose rebellion brings about Arthur's final battle.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Modred",
+          "evidence": [
+            240696,
+            240706
+          ]
+        },
+        {
+          "text": "Modred",
+          "evidence": [
+            240700,
+            240706
+          ]
+        }
+      ]
+    }
+  ]
+}

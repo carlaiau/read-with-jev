@@ -1,0 +1,190 @@
+{
+  "chunks": [
+    {
+      "start": 1220,
+      "end": 651163,
+      "key": "691bc699b48bb5a44b2c226ddb6b06e0313cbe6e4b86f4107effbb1c98ea2f3d",
+      "usage": {
+        "input_tokens": 178796,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8767,
+        "output_tokens_details": {
+          "reasoning_tokens": 5568
+        },
+        "total_tokens": 187563
+      }
+    },
+    {
+      "start": 651163,
+      "end": 1020430,
+      "key": "a2efdc2c67b58e005ab4c0ce82ca55ad33959a1e0fe6147d1f077355aa73fddf",
+      "usage": {
+        "input_tokens": 105764,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8341,
+        "output_tokens_details": {
+          "reasoning_tokens": 5632
+        },
+        "total_tokens": 114105
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "4b2056e231948a766d1473244fb3b9b5f2aeac8cee9da9e8b1bc0a9b34f0243e",
+    "usage": {
+      "input_tokens": 7057,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 6966,
+      "output_tokens_details": {
+        "reasoning_tokens": 1792
+      },
+      "total_tokens": 14023
+    }
+  },
+  "rejected": [
+    {
+      "name": "Second Shaykh (owner of two greyhounds)",
+      "alias": "owner of the two greyhounds",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Two greyhounds",
+      "alias": "the hounds",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Wazir (of King Yunan)",
+      "alias": "Wazir (of King Yunan)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Young Turk (lover)",
+      "alias": "young Turk",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Young Turk (lover)",
+      "alias": "the young Turk",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Ghúlah (the Ogress)",
+      "alias": "the Ghúlah",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Eldest Lady",
+      "alias": "Eldest Lady",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "First Kalandar",
+      "alias": "the first Kalandar",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Second Kalandar",
+      "alias": "Second Kalandar",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Second Kalandar",
+      "alias": "the second Kalandar",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Third Kalandar",
+      "alias": "Third Kalandar",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Ja'afar",
+      "alias": "the Wazir Ja'afar",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Masrur",
+      "alias": "Masrur his Sworder of Vengeance",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sitt al‑Husn (Lady of Beauty)",
+      "alias": "the damsel of beauty",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Wazir (of Bassorah)",
+      "alias": "Wazir (of Bassorah)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the Cook (Hasan of Bassorah)",
+      "alias": "Hasan (the cook)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mother of Badr al-Din Hasan",
+      "alias": "his brother's widow, the mother of Badr al-Din Hasan",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the Nazarene broker",
+      "alias": "the Broker (Nazarene)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the watchman of the bazar",
+      "alias": "the watchman of the bazar",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the Chamberlain-in-waiting",
+      "alias": "the Chamberlain-in-waiting",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the young merchant / youth (in the Nazarene's tale)",
+      "alias": "the young merchant",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Badr al-Din al-Bostáni (the Gardener)",
+      "alias": "Badr al-Din al-Bostáni",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the sickly youth (patient of the Jewish doctor)",
+      "alias": "the sickly youth",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the sickly youth (patient of the Jewish doctor)",
+      "alias": "the young man (patient)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Al-Haddár",
+      "alias": "Al-Haddar",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Al-Fakík",
+      "alias": "the blind brother",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Al-Nashshár",
+      "alias": "the sawyer",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

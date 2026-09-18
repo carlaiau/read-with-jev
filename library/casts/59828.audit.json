@@ -1,0 +1,144 @@
+{
+  "chunks": [
+    {
+      "start": 1237,
+      "end": 651184,
+      "key": "bc245eb510257730cd7573b9758ef38a572a2dc78dc523b57ccdffdcc89741f0",
+      "usage": {
+        "input_tokens": 180713,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4643,
+        "output_tokens_details": {
+          "reasoning_tokens": 3264
+        },
+        "total_tokens": 185356
+      }
+    },
+    {
+      "start": 651184,
+      "end": 1301153,
+      "key": "e6bcf55d9ef7f5873cd8f3de7f64da6375e6536396258de0a3cb057fead09b4c",
+      "usage": {
+        "input_tokens": 190191,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6246,
+        "output_tokens_details": {
+          "reasoning_tokens": 3776
+        },
+        "total_tokens": 196437
+      }
+    },
+    {
+      "start": 1301153,
+      "end": 1951136,
+      "key": "e170ba7e257626de3708ce3ac277e16b2132af184bc16e1bec24df8f4a43d2e9",
+      "usage": {
+        "input_tokens": 185738,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6918,
+        "output_tokens_details": {
+          "reasoning_tokens": 4352
+        },
+        "total_tokens": 192656
+      }
+    },
+    {
+      "start": 1951136,
+      "end": 2414665,
+      "key": "8f46fabae5df5d1433fd49c4de6bcd66bdcc7f7edfb2b358806fe5c943783e17",
+      "usage": {
+        "input_tokens": 133705,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3278,
+        "output_tokens_details": {
+          "reasoning_tokens": 2368
+        },
+        "total_tokens": 136983
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "d3b82cb6937f1b608a40dd33b7f96303eac00228f5ef9950bccb00c336a77a77",
+    "usage": {
+      "input_tokens": 8007,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 12188,
+      "output_tokens_details": {
+        "reasoning_tokens": 7168
+      },
+      "total_tokens": 20195
+    }
+  },
+  "rejected": [
+    {
+      "name": "Ben (the beef-eater)",
+      "alias": "Big Ben the beef-eater",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Jacob B. Fogg",
+      "alias": "Jacob B. FOGG",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Macconikie",
+      "alias": "Mrs. Macconikie",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "The fruiterer",
+      "alias": "Fruiterrer (unnamed)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Fruiterer's daughter",
+      "alias": "the fruiter's daughter",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Fruiterer's daughter",
+      "alias": "Fruiterer’s daughter",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Ostler (Crotchet's coachman)",
+      "alias": "Ostler (unnamed)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Arthur Rose Fletcher",
+      "alias": "Arthur Rose Fletcher",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sir Christopher Wren",
+      "alias": "Sir Christopher W.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Jobbing cabinet-maker",
+      "alias": "a kind of jobbing cabinet-maker",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Jobbing cabinet-maker",
+      "alias": "jobbing cabinet-maker (unnamed)",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

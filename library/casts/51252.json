@@ -1,0 +1,2023 @@
+{
+  "schema": 1,
+  "gutenbergId": 51252,
+  "sourceSha256": "1508927f53c7a409d69ac13ec38226547dc904b901fc492403d34dffcd2e7117",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-f15fe53f70a63119",
+      "name": "King Shahryar",
+      "description": "Ruler of the sons of Sásán who, betrayed by his wife, marries and kills a new bride each morning; central narrator-frame monarch",
+      "scope": "STORY OF KING SHAHRYAR AND HIS BROTHER",
+      "aliases": [
+        {
+          "text": "King Shahryár",
+          "evidence": [
+            46212,
+            46225
+          ]
+        },
+        {
+          "text": "Shahryar",
+          "evidence": [
+            47755,
+            47763
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8486179155541cb1",
+      "name": "Shah Zaman",
+      "description": "Younger brother of King Shahryar, King of Samarcand; witnesses his wife's infidelity and recovers his health",
+      "scope": "STORY OF KING SHAHRYAR AND HIS BROTHER",
+      "aliases": [
+        {
+          "text": "Shah Zamán",
+          "evidence": [
+            46265,
+            46275
+          ]
+        },
+        {
+          "text": "Shah Zaman",
+          "evidence": [
+            47279,
+            47289
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ffcd6766d29d819f",
+      "name": "Wazir (Shahryar's minister)",
+      "description": "Chief minister who conveys Shahryar's invitation, executes the King's orders and brings Shahrazad to the Sultan",
+      "scope": "STORY OF KING SHAHRYAR AND HIS BROTHER",
+      "aliases": [
+        {
+          "text": "Wazir",
+          "evidence": [
+            46790,
+            46795
+          ]
+        },
+        {
+          "text": "the Wazir",
+          "evidence": [
+            47809,
+            47818
+          ]
+        },
+        {
+          "text": "Minister",
+          "evidence": [
+            46829,
+            46837
+          ]
+        },
+        {
+          "text": "Chief Wazir",
+          "evidence": [
+            73388,
+            73399
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5533209d4d16648d",
+      "name": "the Queen",
+      "description": "Shahryar's wife whose infidelity triggers Shahryar's murderous vow",
+      "scope": "STORY OF KING SHAHRYAR AND HIS BROTHER",
+      "aliases": [
+        {
+          "text": "the Queen",
+          "evidence": [
+            50696,
+            50705
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-96fb0205e7bcd3b5",
+      "name": "Shahrazad (Shahrázád)",
+      "description": "Elder daughter of the Wazir who volunteers to marry the king and tells nightly tales to save other women",
+      "scope": "STORY OF KING SHAHRYAR AND HIS BROTHER",
+      "aliases": [
+        {
+          "text": "Shahrázád",
+          "evidence": [
+            73655,
+            73664
+          ]
+        },
+        {
+          "text": "Shahrazad",
+          "evidence": [
+            7714,
+            7723
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-09fa5bc6de529460",
+      "name": "Dunyazad",
+      "description": "Younger sister of Shahrazad who asks her to tell the nightly stories",
+      "scope": "STORY OF KING SHAHRYAR AND HIS BROTHER",
+      "aliases": [
+        {
+          "text": "Dunyázád",
+          "evidence": [
+            73669,
+            73677
+          ]
+        },
+        {
+          "text": "Dunyazad",
+          "evidence": [
+            94192,
+            94200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-041141fd31f51f86",
+      "name": "Merchant (Trader)",
+      "description": "Unnamed merchant who appears in the \"Tale of the Merchant and the Jinni\" and in the Bull & Ass tale; protagonist of several embedded stories",
+      "scope": "TALE OF THE TRADER AND THE JINNI; TALE OF THE BULL AND THE ASS",
+      "aliases": [
+        {
+          "text": "the Merchant",
+          "evidence": [
+            39829,
+            39841
+          ]
+        },
+        {
+          "text": "a merchant",
+          "evidence": [
+            76209,
+            76219
+          ]
+        },
+        {
+          "text": "the trader",
+          "evidence": [
+            86118,
+            86128
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c558fa5f153db8fd",
+      "name": "the Ifrit / Jinni (from the pitcher)",
+      "description": "Supernatural being released from a sealed jar who threatens and bargains with the Fisherman and other characters",
+      "scope": "TALE OF THE TRADER AND THE JINNI; THE FISHERMAN AND THE JINNI",
+      "aliases": [
+        {
+          "text": "Ifrit",
+          "evidence": [
+            67327,
+            67332
+          ]
+        },
+        {
+          "text": "Jinni",
+          "evidence": [
+            64975,
+            64980
+          ]
+        },
+        {
+          "text": "the Ifrit",
+          "evidence": [
+            68502,
+            68511
+          ]
+        },
+        {
+          "text": "Marid",
+          "evidence": [
+            192462,
+            192467
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f8734bd999409f25",
+      "name": "First Shaykh (owner of the gazelle)",
+      "description": "Old man who tells a tale about his cousin (the gazelle) and a bewitched son",
+      "scope": "TALE OF THE TRADER AND THE JINNI / THE FIRST SHAYKH'S STORY",
+      "aliases": [
+        {
+          "text": "THE FIRST SHAYKH",
+          "evidence": [
+            39880,
+            39896
+          ]
+        },
+        {
+          "text": "first old man",
+          "evidence": [
+            113845,
+            113858
+          ]
+        },
+        {
+          "text": "owner of the gazelle",
+          "evidence": [
+            111994,
+            112014
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dfcde3a3f7829d28",
+      "name": "Gazelle (the cousin)",
+      "description": "Woman transformed into a gazelle in the First Shaykh's story; consistently identified as the Shaykh's cousin",
+      "scope": "TALE OF THE TRADER AND THE JINNI / THE FIRST SHAYKH'S STORY",
+      "aliases": [
+        {
+          "text": "the gazelle",
+          "evidence": [
+            112003,
+            112014
+          ]
+        },
+        {
+          "text": "my cousin (this gazelle)",
+          "evidence": [
+            116712,
+            116736
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e9260a226356d7f3",
+      "name": "Second Shaykh (owner of two greyhounds)",
+      "description": "Old man who tells a tale about his two brothers and the fate of their wealth",
+      "scope": "TALE OF THE TRADER AND THE JINNI / THE SECOND SHAYKH'S STORY",
+      "aliases": [
+        {
+          "text": "THE SECOND SHAYKH",
+          "evidence": [
+            40018,
+            40035
+          ]
+        },
+        {
+          "text": "second old man",
+          "evidence": [
+            112747,
+            112761
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d02c244b3be828d2",
+      "name": "Two greyhounds",
+      "description": "Dogs owned by the Second Shaykh; they feature in his recounted adventures",
+      "scope": "TALE OF THE TRADER AND THE JINNI / THE SECOND SHAYKH'S STORY",
+      "aliases": [
+        {
+          "text": "two greyhounds",
+          "evidence": [
+            123160,
+            123174
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba67235b1f25843c",
+      "name": "Third Shaykh (owner of the mare-mule)",
+      "description": "Old man who tells a tale of being transformed and of his wife becoming a mule",
+      "scope": "TALE OF THE TRADER AND THE JINNI / THE THIRD SHAYKH'S STORY",
+      "aliases": [
+        {
+          "text": "THE THIRD SHAYKH",
+          "evidence": [
+            40161,
+            40177
+          ]
+        },
+        {
+          "text": "third old man",
+          "evidence": [
+            135995,
+            136008
+          ]
+        },
+        {
+          "text": "master of the mare-mule",
+          "evidence": [
+            132274,
+            132297
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6bb6f3b33175ead9",
+      "name": "Mare-mule (the wife)",
+      "description": "Woman transformed into a she-mule in the Third Shaykh's tale",
+      "scope": "TALE OF THE TRADER AND THE JINNI / THE THIRD SHAYKH'S STORY",
+      "aliases": [
+        {
+          "text": "she-mule",
+          "evidence": [
+            113061,
+            113069
+          ]
+        },
+        {
+          "text": "mare-mule",
+          "evidence": [
+            132288,
+            132297
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f919bff25575ad96",
+      "name": "Bull",
+      "description": "Speaking bull in the fable contrasted with an ass about labour and ease",
+      "scope": "TALE OF THE BULL AND THE ASS",
+      "aliases": [
+        {
+          "text": "Bull",
+          "evidence": [
+            75984,
+            75988
+          ]
+        },
+        {
+          "text": "the Bull",
+          "evidence": [
+            75980,
+            75988
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bfec77a6410c2735",
+      "name": "Ass",
+      "description": "Speaking ass in the fable who gives counsel to the Bull",
+      "scope": "TALE OF THE BULL AND THE ASS",
+      "aliases": [
+        {
+          "text": "Ass",
+          "evidence": [
+            75997,
+            76000
+          ]
+        },
+        {
+          "text": "the Ass",
+          "evidence": [
+            75993,
+            76000
+          ]
+        },
+        {
+          "text": "Aliboron",
+          "evidence": [
+            84900,
+            84908
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c158b33477e1c718",
+      "name": "the Herdsman",
+      "description": "Keeper of cattle in the Bull and Ass story and in the First Shaykh's tale",
+      "scope": "TALE OF THE BULL AND THE ASS; THE FIRST SHAYKH'S STORY",
+      "aliases": [
+        {
+          "text": "the herdsman",
+          "evidence": [
+            115257,
+            115269
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e3dedc126abd8a5f",
+      "name": "Herdsman's daughter",
+      "description": "Woman skilled in magic in the First Shaykh's story who restores the bewitched",
+      "scope": "THE FIRST SHAYKH'S STORY",
+      "aliases": [
+        {
+          "text": "herdsman's daughter",
+          "evidence": [
+            120907,
+            120926
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3764c76ec5db9337",
+      "name": "The Fisherman",
+      "description": "Poor man who hauls up a sealed pitcher and releases a Jinni; protagonist of his eponymous story",
+      "scope": "THE FISHERMAN AND THE JINNI",
+      "aliases": [
+        {
+          "text": "the Fisherman",
+          "evidence": [
+            40396,
+            40409
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5cbb7e351b87f222",
+      "name": "Sulayman (Solomon)",
+      "description": "Prophet-king invoked in Jinn-backstory; referenced as the sealer who imprisoned the Jinni",
+      "scope": "THE FISHERMAN AND THE JINNI (JINN'S BACKSTORY)",
+      "aliases": [
+        {
+          "text": "Sulayman son of David",
+          "evidence": [
+            149231,
+            149252
+          ]
+        },
+        {
+          "text": "Sulayman",
+          "evidence": [
+            149231,
+            149239
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dcdcbc3cc14c02ef",
+      "name": "Asaf son of Barkhiyá",
+      "description": "Minister of Solomon who in the Jinn's backstory seizes supernatural beings",
+      "scope": "THE FISHERMAN AND THE JINNI (JINN'S BACKSTORY)",
+      "aliases": [
+        {
+          "text": "Asaf son of Barkhiyá",
+          "evidence": [
+            152351,
+            152371
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2c1db5e8ed8950a0",
+      "name": "Sakhr al-Jinni",
+      "description": "Famed jinn of Solomonic legend mentioned in the Jinni's account",
+      "scope": "THE FISHERMAN AND THE JINNI (JINN'S BACKSTORY)",
+      "aliases": [
+        {
+          "text": "Sakhr al-Jinni",
+          "evidence": [
+            152288,
+            152302
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-566bda60983d98fd",
+      "name": "King Yunan",
+      "description": "Ruler afflicted with leprosy in the \"Tale of the Wazir and the Sage Duban\"",
+      "scope": "TALE OF THE WAZIR AND THE SAGE DUBAN",
+      "aliases": [
+        {
+          "text": "King Yunan",
+          "evidence": [
+            158220,
+            158230
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0000d445b698bf18",
+      "name": "Sage Duban",
+      "description": "Learned physician who cures King Yunan by a unique method and whose fate unfolds in the tale",
+      "scope": "TALE OF THE WAZIR AND THE SAGE DUBAN",
+      "aliases": [
+        {
+          "text": "Dooban",
+          "evidence": [
+            40540,
+            40546
+          ]
+        },
+        {
+          "text": "the sage Duban",
+          "evidence": [
+            159022,
+            159036
+          ]
+        },
+        {
+          "text": "Duban the Wise",
+          "evidence": [
+            184344,
+            184358
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e1b18fc8b8664b78",
+      "name": "Wazir (of King Yunan)",
+      "description": "Envious minister who plots against the sage Duban in King Yunan's tale",
+      "scope": "TALE OF THE WAZIR AND THE SAGE DUBAN",
+      "aliases": [
+        {
+          "text": "the Minister",
+          "evidence": [
+            46825,
+            46837
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf2a417faa590de0",
+      "name": "King Sindibad",
+      "description": "Monarch in the hunting tale whose falcon saves him from poisoned water",
+      "scope": "KING SINDIBAD AND HIS FALCON",
+      "aliases": [
+        {
+          "text": "King Sindibad",
+          "evidence": [
+            170385,
+            170398
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e4501b724d6edcf9",
+      "name": "the Falcon",
+      "description": "Sindibad's hawk whose action averts disaster by upsetting poisoned water",
+      "scope": "KING SINDIBAD AND HIS FALCON",
+      "aliases": [
+        {
+          "text": "the falcon",
+          "evidence": [
+            147729,
+            147739
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0e44187fb2fcc80a",
+      "name": "Parrot",
+      "description": "Talkative parrot who tells an injured husband of his wife's infidelity in a popular folk tale",
+      "scope": "THE HUSBAND AND THE PARROT",
+      "aliases": [
+        {
+          "text": "the Parrot",
+          "evidence": [
+            40745,
+            40755
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6f1facb9e14a50f6",
+      "name": "Merchant (husband in parrot tale)",
+      "description": "Husband who punishes the parrot for telling of his wife's adultery",
+      "scope": "THE HUSBAND AND THE PARROT",
+      "aliases": [
+        {
+          "text": "the merchant",
+          "evidence": [
+            76718,
+            76730
+          ]
+        },
+        {
+          "text": "the husband",
+          "evidence": [
+            138831,
+            138842
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8753425ddc8624af",
+      "name": "The Prince (in \"Prince and the Ogress\")",
+      "description": "Young royal who is almost devoured by an ogress and saved by prayer",
+      "scope": "THE PRINCE AND THE OGRESS",
+      "aliases": [
+        {
+          "text": "the Prince",
+          "evidence": [
+            40880,
+            40890
+          ]
+        },
+        {
+          "text": "King's son",
+          "evidence": [
+            178780,
+            178790
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-493d53b5ccfdc62c",
+      "name": "Ghúlah (the Ogress)",
+      "description": "Monstrous ogress who lures the Prince and intends to devour him",
+      "scope": "THE PRINCE AND THE OGRESS",
+      "aliases": [
+        {
+          "text": "Ghúlah",
+          "evidence": [
+            179749,
+            179755
+          ]
+        },
+        {
+          "text": "Ogress",
+          "evidence": [
+            179770,
+            179776
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-02cc3569130263e9",
+      "name": "The Porter",
+      "description": "Porter of Baghdad who is led to a rich house and subjected to the three ladies' revels",
+      "scope": "THE PORTER AND THE THREE LADIES OF BAGHDAD",
+      "aliases": [
+        {
+          "text": "the Porter",
+          "evidence": [
+            41194,
+            41204
+          ]
+        },
+        {
+          "text": "Porter",
+          "evidence": [
+            41198,
+            41204
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c1d548c2649e610",
+      "name": "Eldest Lady",
+      "description": "One of the three ladies of Baghdad who invites and entertains the Porter",
+      "scope": "THE PORTER AND THE THREE LADIES OF BAGHDAD",
+      "aliases": [
+        {
+          "text": "the eldest lady",
+          "evidence": [
+            272503,
+            272518
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c661b17c82cef1c",
+      "name": "Cateress (provisioner)",
+      "description": "One of the three ladies who provides food, perfumes and wine to guests",
+      "scope": "THE PORTER AND THE THREE LADIES OF BAGHDAD",
+      "aliases": [
+        {
+          "text": "the cateress",
+          "evidence": [
+            271789,
+            271801
+          ]
+        },
+        {
+          "text": "provisioneress",
+          "evidence": [
+            276035,
+            276049
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fe810ce7d6206892",
+      "name": "Procuratrix / Portress",
+      "description": "One of the three household women who admits the Porter and manages the service",
+      "scope": "THE PORTER AND THE THREE LADIES OF BAGHDAD",
+      "aliases": [
+        {
+          "text": "the portress",
+          "evidence": [
+            270241,
+            270253
+          ]
+        },
+        {
+          "text": "the procuratrix",
+          "evidence": [
+            286617,
+            286632
+          ]
+        },
+        {
+          "text": "portress",
+          "evidence": [
+            270104,
+            270112
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e99f3689d9db8364",
+      "name": "First Kalandar",
+      "description": "First of the three mendicant Kalandars who tells a personal tale in the Porter's story",
+      "scope": "THE PORTER AND THE THREE LADIES OF BAGHDAD / FIRST KALANDAR'S TALE",
+      "aliases": [
+        {
+          "text": "First Kalandar",
+          "evidence": [
+            703434,
+            703448
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8077ab3819cbb85c",
+      "name": "Third Kalandar",
+      "description": "Third mendicant who narrates a further marvellous adventure",
+      "scope": "THE PORTER AND THE THREE LADIES OF BAGHDAD / THIRD KALANDAR'S TALE",
+      "aliases": [
+        {
+          "text": "the third Kalandar",
+          "evidence": [
+            382399,
+            382417
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0ab1bad9d57e3746",
+      "name": "Caliph Harun al-Rashid",
+      "description": "The historical Abbasid Caliph who appears incognito among the people and in the Porter's tale",
+      "scope": "THE PORTER AND THE THREE LADIES OF BAGHDAD; THE THREE APPLES",
+      "aliases": [
+        {
+          "text": "Harun al-Rashid",
+          "evidence": [
+            431238,
+            431253
+          ]
+        },
+        {
+          "text": "Caliph Harun al-Rashid",
+          "evidence": [
+            545352,
+            545374
+          ]
+        },
+        {
+          "text": "the Commander of the Faithful",
+          "evidence": [
+            381487,
+            381516
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-086ba3115970cc94",
+      "name": "Ja'afar",
+      "description": "Ja'afar al‑Barmaki, the Caliph's vizier—appears as minister/agent in multiple scenes",
+      "scope": "THE PORTER AND THE THREE LADIES OF BAGHDAD; THE THREE APPLES",
+      "aliases": [
+        {
+          "text": "Ja'afar",
+          "evidence": [
+            291604,
+            291611
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-813c2a7d8d7dfb5f",
+      "name": "Masrur",
+      "description": "Masrur, the Caliph's eunuch/sworder who accompanies Harun on his rounds",
+      "scope": "THE PORTER AND THE THREE LADIES OF BAGHDAD",
+      "aliases": [
+        {
+          "text": "Masrúr",
+          "evidence": [
+            291631,
+            291637
+          ]
+        },
+        {
+          "text": "Masrur",
+          "evidence": [
+            293475,
+            293481
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-34400778fc4258f2",
+      "name": "Hunchback / the Gobbo",
+      "description": "Hunchbacked groom who is forced into marriage (mocked as a groom) and later ends up in the privy; central comic figure in the bridal episode",
+      "scope": "THE THREE APPLES (embedded HUNCHBACK episode)",
+      "aliases": [
+        {
+          "text": "the Hunchback",
+          "evidence": [
+            604551,
+            604564
+          ]
+        },
+        {
+          "text": "the Gobbo",
+          "evidence": [
+            612659,
+            612668
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a76077a1cecef48f",
+      "name": "Sitt al‑Husn (Lady of Beauty)",
+      "description": "Wazir Shams al‑Din's daughter, famed for extraordinary beauty; bride in the Hunchback episode",
+      "scope": "THE THREE APPLES / HUNCHBACK EPISODE",
+      "aliases": [
+        {
+          "text": "Sitt al-Husn",
+          "evidence": [
+            367621,
+            367633
+          ]
+        },
+        {
+          "text": "Lady of Beauty",
+          "evidence": [
+            517485,
+            517499
+          ]
+        },
+        {
+          "text": "the bride",
+          "evidence": [
+            72669,
+            72678
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87e14601b087aedf",
+      "name": "Badr al‑Din Hasan",
+      "description": "Son of Nur al‑Din (Wazir of Bassorah), raised and later central to the \"Three Apples\" chain of events; also called Hasan",
+      "scope": "THE THREE APPLES (NUR AL‑DIN / BADR AL‑DIN STORY)",
+      "aliases": [
+        {
+          "text": "Badr al-Din Hasan",
+          "evidence": [
+            584318,
+            584335
+          ]
+        },
+        {
+          "text": "Hasan",
+          "evidence": [
+            584330,
+            584335
+          ]
+        },
+        {
+          "text": "Badr al-Din",
+          "evidence": [
+            584318,
+            584329
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-80f33d665f239260",
+      "name": "Nur al‑Din Ali",
+      "description": "Wazir of Bassorah who leaves family, rises to office and dies leaving a son Hasan; father of Badr al‑Din Hasan",
+      "scope": "THE THREE APPLES / NUR AL‑DIN ALI STORY",
+      "aliases": [
+        {
+          "text": "Nur al-Din Ali",
+          "evidence": [
+            567667,
+            567681
+          ]
+        },
+        {
+          "text": "Nur al-Din",
+          "evidence": [
+            567667,
+            567677
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-77d7c1d0f0cb1c1e",
+      "name": "Shams al‑Din Mohammed",
+      "description": "Wazir of Egypt, brother of Nur al‑Din; father of Sitt al‑Husn",
+      "scope": "THE THREE APPLES / SHAMS AL‑DIN MOHAMMED STORY",
+      "aliases": [
+        {
+          "text": "Shams al-Din Mohammed",
+          "evidence": [
+            567627,
+            567648
+          ]
+        },
+        {
+          "text": "Shams al-Din",
+          "evidence": [
+            567627,
+            567639
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8eb78d1774ae0378",
+      "name": "Wazir (of Bassorah)",
+      "description": "Older Wazir of Bassorah who hosts Nur al‑Din and later adopts/helps Badr al‑Din Hasan",
+      "scope": "THE THREE APPLES / NUR AL‑DIN ALI STORY",
+      "aliases": [
+        {
+          "text": "the Wazir of Bassorah",
+          "evidence": [
+            583108,
+            583129
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0c76adcb83d59f09",
+      "name": "the Cook (Hasan of Bassorah)",
+      "description": "Former rogue turned cook who adopts and raises Badr al‑Din Hasan in Damascus",
+      "scope": "THE THREE APPLES / BADR AL‑DIN IN DAMASCUS",
+      "aliases": [
+        {
+          "text": "the Cook",
+          "evidence": [
+            630840,
+            630848
+          ]
+        },
+        {
+          "text": "Hasan of Bassorah",
+          "evidence": [
+            611851,
+            611868
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bb52f51d89bc0f59",
+      "name": "Ajib (namesake/later boy)",
+      "description": "Name used for the Hunchback-groom's son / later a handsome boy (several Ajibs appear in tales)",
+      "scope": "THE THREE APPLES / HUNCHBACK EPISODE & NUR AL‑DIN TALE",
+      "aliases": [
+        {
+          "text": "Ajib",
+          "evidence": [
+            397084,
+            397088
+          ]
+        },
+        {
+          "text": "Ajíb",
+          "evidence": [
+            382884,
+            382888
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b5b3789d10f088e",
+      "name": "a Jew (money-changer)",
+      "description": "Unnamed Jewish money-changer who buys a ship's cargo and later appears in the \"Three Apples\" sequence",
+      "scope": "THE THREE APPLES",
+      "aliases": [
+        {
+          "text": "a Jew",
+          "evidence": [
+            733749,
+            733754
+          ]
+        },
+        {
+          "text": "the Jew",
+          "evidence": [
+            42894,
+            42901
+          ]
+        },
+        {
+          "text": "the money-changer",
+          "evidence": [
+            786183,
+            786200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0eda0dfd21087b26",
+      "name": "Ajib (boy, grandson searching)",
+      "description": "Young boy, grandson searching for his missing father; protagonist in family reunion episode",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "Ajib",
+          "evidence": [
+            397084,
+            397088
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-71bca4f4d6430368",
+      "name": "Badr al-Din Hasan (Hasan the Bassorite)",
+      "description": "Cook from Bassorah who is later revealed to be the son of Nur al-Din and father of Ajib; poet and courtier in Cairo",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "Badr al-Din Hasan",
+          "evidence": [
+            584318,
+            584335
+          ]
+        },
+        {
+          "text": "Hasan the Bassorite",
+          "evidence": [
+            651288,
+            651307
+          ]
+        },
+        {
+          "text": "Hasan of Bassorah",
+          "evidence": [
+            611851,
+            611868
+          ]
+        },
+        {
+          "text": "Hasan",
+          "evidence": [
+            584330,
+            584335
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-61577e2c37f0256a",
+      "name": "the Eunuch (Láik)",
+      "description": "Castrato servant and companion to Ajib; follows and attends the boy",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "the Eunuch",
+          "evidence": [
+            364340,
+            364350
+          ]
+        },
+        {
+          "text": "Láik",
+          "evidence": [
+            660770,
+            660774
+          ]
+        },
+        {
+          "text": "the Castrato",
+          "evidence": [
+            667765,
+            667777
+          ]
+        },
+        {
+          "text": "the unsexed",
+          "evidence": [
+            668950,
+            668961
+          ]
+        },
+        {
+          "text": "the servant",
+          "evidence": [
+            541779,
+            541790
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-22546109f67a0311",
+      "name": "Ajib's grandfather",
+      "description": "Unidentified grandfather accompanying Ajib on the search for his father",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "my grandfather",
+          "evidence": [
+            651906,
+            651920
+          ]
+        },
+        {
+          "text": "his grandfather",
+          "evidence": [
+            584340,
+            584355
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cad225bbef382fda",
+      "name": "Mother of Badr al-Din Hasan",
+      "description": "Widow of Nur al-Din, mother of Badr al-Din Hasan who weeps and keeps a tomb for her missing son until reunion",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "Badr al-Din Hasan's mother",
+          "evidence": [
+            669774,
+            669800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-657cf0ef6750764b",
+      "name": "Shams al-Din (the Wazir)",
+      "description": "Wazir who searches for his brother's son and eventually reunites the family; uncle of Ajib",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "Shams al-Din",
+          "evidence": [
+            567627,
+            567639
+          ]
+        },
+        {
+          "text": "the Wazir",
+          "evidence": [
+            47809,
+            47818
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-96b5e81770b9d46d",
+      "name": "Sitt al-Husn (the Lady of Beauty)",
+      "description": "Daughter of the Wazir; wife of Badr al-Din Hasan and called the Lady of Beauty",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "Sitt al-Husn",
+          "evidence": [
+            367621,
+            367633
+          ]
+        },
+        {
+          "text": "the Lady of Beauty",
+          "evidence": [
+            622054,
+            622072
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5a5b38139062f90b",
+      "name": "the Sultan (of Bassorah)",
+      "description": "Ruler who receives the Wazir and later tests and favours Badr al-Din Hasan",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "the Sultan",
+          "evidence": [
+            42759,
+            42769
+          ]
+        },
+        {
+          "text": "the King",
+          "evidence": [
+            45704,
+            45712
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ed88c9977337dc41",
+      "name": "the Viceroy of Damascus",
+      "description": "Regional governor in Damascus who interacts with Shams al-Din over the cook's case",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "the Viceroy of Damascus",
+          "evidence": [
+            671050,
+            671073
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4c0cba9a279fbd7a",
+      "name": "the Carpenter",
+      "description": "Carpenter summoned by Shams al-Din to make a wooden cross for punishment",
+      "scope": "Story of Badr al-Din Hasan",
+      "aliases": [
+        {
+          "text": "the carpenter",
+          "evidence": [
+            674851,
+            674864
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-69747ac8b00f0ce5",
+      "name": "Shahrazad (frame)",
+      "description": "Story-teller who narrates the Nights to the King over successive nights",
+      "scope": "Frame narrative",
+      "aliases": [
+        {
+          "text": "Shahrazad",
+          "evidence": [
+            7714,
+            7723
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fcabc9d3f7805c51",
+      "name": "Dunyazad (frame)",
+      "description": "Shahrazad's sister and interlocutor in the frame narration",
+      "scope": "Frame narrative",
+      "aliases": [
+        {
+          "text": "Dunyazad",
+          "evidence": [
+            94192,
+            94200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9362506b433f01bb",
+      "name": "the King (frame)",
+      "description": "Ruler listening to Shahrazad's tales (frame narrator's audience) often referred to as 'the King' or 'King of the age'",
+      "scope": "Frame narrative",
+      "aliases": [
+        {
+          "text": "the King",
+          "evidence": [
+            45704,
+            45712
+          ]
+        },
+        {
+          "text": "King of the age",
+          "evidence": [
+            93631,
+            93646
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-be149427ed6bba97",
+      "name": "Caliph Harun al-Rashid (mention/frame)",
+      "description": "Caliph referenced as hearing reports of stories via his Wazir; appears in framing commentary",
+      "scope": "Frame narrative (mentions)",
+      "aliases": [
+        {
+          "text": "Caliph Harun al-Rashid",
+          "evidence": [
+            545352,
+            545374
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4f8bf5ad7eef0057",
+      "name": "Ja'afar the Barmecide (frame mention)",
+      "description": "Wazir to the Caliph mentioned as teller/receiver of tales in the frame",
+      "scope": "Frame narrative (mentions)",
+      "aliases": [
+        {
+          "text": "Ja'afar the Barmecide",
+          "evidence": [
+            691642,
+            691663
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dde8ca1930950ec7",
+      "name": "the Tailor",
+      "description": "Tailor who finds and takes the Hunchback home; central narrator of the Hunchback's Tale",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "the Tailor",
+          "evidence": [
+            43034,
+            43044
+          ]
+        },
+        {
+          "text": "a Tailor",
+          "evidence": [
+            331029,
+            331037
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c339afc4ff6071ce",
+      "name": "the Tailor's wife",
+      "description": "Wife of the Tailor who feeds the Hunchback the fatal mouthful; instigator of disposal plan",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "the Tailor's wife",
+          "evidence": [
+            731894,
+            731911
+          ]
+        },
+        {
+          "text": "his wife",
+          "evidence": [
+            50707,
+            50715
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-73822b04a1965151",
+      "name": "the Hunchback (the Gobbo)",
+      "description": "Jester-like hunchback encountered by the Tailor and his wife who dies after choking on a fish-bone",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "the Hunchback",
+          "evidence": [
+            604551,
+            604564
+          ]
+        },
+        {
+          "text": "the Gobbo",
+          "evidence": [
+            612659,
+            612668
+          ]
+        },
+        {
+          "text": "Gobbo",
+          "evidence": [
+            604239,
+            604244
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dba41ca79126a3d7",
+      "name": "the black slave-girl",
+      "description": "Slave-girl of the Jewish physician who lets the Tailor and his wife into the physician's house and inadvertently triggers the chain of events",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "a black slave-girl",
+          "evidence": [
+            733812,
+            733830
+          ]
+        },
+        {
+          "text": "the slave-girl",
+          "evidence": [
+            138583,
+            138597
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6eca83febbe8568a",
+      "name": "the Jewish physician (the leach)",
+      "description": "Jewish doctor who finds the Hunchback dead in his house and passes the corpse on to avoid danger",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "the Jew",
+          "evidence": [
+            42894,
+            42901
+          ]
+        },
+        {
+          "text": "the Jewish physician",
+          "evidence": [
+            801742,
+            801762
+          ]
+        },
+        {
+          "text": "the leach",
+          "evidence": [
+            165036,
+            165045
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9d6516052a660897",
+      "name": "the Reeve (controller of the Sultan's kitchen)",
+      "description": "Official who finds the Hunchback in his house and believes the corpse a thief, strikes him and passes him on",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "the Reeve",
+          "evidence": [
+            692156,
+            692165
+          ]
+        },
+        {
+          "text": "Reeve, the controller of the Sultan's kitchen",
+          "evidence": [
+            735882,
+            735927
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ed34fa8836d7f908",
+      "name": "the Nazarene broker",
+      "description": "Christian (Nazarene) broker who stumbles upon the body, assaults it in drunkenness and is seized as the murderer; later narrator of his own story",
+      "scope": "The Hunchback's Tale; The Nazarene Broker's Story",
+      "aliases": [
+        {
+          "text": "the Nazarene",
+          "evidence": [
+            692170,
+            692182
+          ]
+        },
+        {
+          "text": "the Broker",
+          "evidence": [
+            739201,
+            739211
+          ]
+        },
+        {
+          "text": "the Nazarene broker",
+          "evidence": [
+            745985,
+            746004
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e3740b463aabaf6",
+      "name": "the watchman of the bazar",
+      "description": "Local market watchman who intervenes when the Nazarene and the corpse are found fighting; arrests people",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "the watchman",
+          "evidence": [
+            738932,
+            738944
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d3485ae7611291e6",
+      "name": "the Charley",
+      "description": "Public torch-bearer/watch official who ties up and brings the Nazarene before the Governor",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "the Charley",
+          "evidence": [
+            739070,
+            739081
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-71186bb8c8d3d6b4",
+      "name": "the Torch-bearer / executioner (hangman)",
+      "description": "Official who performs the hanging; later prepares to hang successive confessors",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "the torch-bearer",
+          "evidence": [
+            741041,
+            741057
+          ]
+        },
+        {
+          "text": "the executioner",
+          "evidence": [
+            740417,
+            740432
+          ]
+        },
+        {
+          "text": "the hangman",
+          "evidence": [
+            742480,
+            742491
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-161828815c524ab0",
+      "name": "the Governor (the Wali)",
+      "description": "Local governor who adjudicates the apparent murders and orders punishments",
+      "scope": "The Hunchback's Tale",
+      "aliases": [
+        {
+          "text": "the Governor",
+          "evidence": [
+            469210,
+            469222
+          ]
+        },
+        {
+          "text": "the Wali",
+          "evidence": [
+            739926,
+            739934
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4439342ea0602f53",
+      "name": "the young merchant / youth (in the Nazarene's tale)",
+      "description": "Handsome youth from Baghdad who loses his right hand after an episode in Cairo and is later a companion of the Nazarene",
+      "scope": "The Nazarene Broker's Story",
+      "aliases": [
+        {
+          "text": "a youth as handsome as could be",
+          "evidence": [
+            746767,
+            746798
+          ]
+        },
+        {
+          "text": "the young man",
+          "evidence": [
+            209756,
+            209769
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-74c26d8e4a33bd41",
+      "name": "Badr al-Din al-Bostáni (the Gardener)",
+      "description": "Merchant in Cairo who deals with the Nazarene broker and the youth; appears in the broker's account",
+      "scope": "The Nazarene Broker's Story",
+      "aliases": [
+        {
+          "text": "the Gardener",
+          "evidence": [
+            754978,
+            754990
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e452768538202ad4",
+      "name": "the Lady (mistress in Cairo)",
+      "description": "Wealthy lady who becomes the young merchant's lover, gives him money and later dies; unnamed mistress in the broker's tale",
+      "scope": "The Nazarene Broker's Story",
+      "aliases": [
+        {
+          "text": "the lady",
+          "evidence": [
+            66511,
+            66519
+          ]
+        },
+        {
+          "text": "my mistress",
+          "evidence": [
+            339338,
+            339349
+          ]
+        },
+        {
+          "text": "the young lady",
+          "evidence": [
+            199285,
+            199299
+          ]
+        },
+        {
+          "text": "my lady",
+          "evidence": [
+            272704,
+            272711
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4dba951b1cd90046",
+      "name": "the donkey-boy / ass-driver",
+      "description": "Minor attendant who carries the young merchant on an ass to the lady's house and later returns with him",
+      "scope": "The Nazarene Broker's Story",
+      "aliases": [
+        {
+          "text": "the donkey-boy",
+          "evidence": [
+            764934,
+            764948
+          ]
+        },
+        {
+          "text": "ass-driver",
+          "evidence": [
+            765457,
+            765467
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-675f922c592989a2",
+      "name": "the Reeve (narrator)",
+      "description": "Controller of the Sultan's kitchen who tells his own bizarre story about a lady and cumin-ragout",
+      "scope": "The Reeve's Tale",
+      "aliases": [
+        {
+          "text": "the Reeve",
+          "evidence": [
+            692156,
+            692165
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-16b654f58df0491b",
+      "name": "the Lady Zubaydah",
+      "description": "Prominent lady (Lady Zubaydah) invoked in the Reeve's Tale; her household and palace feature in the narrative",
+      "scope": "The Reeve's Tale",
+      "aliases": [
+        {
+          "text": "the Lady Zubaydah",
+          "evidence": [
+            789819,
+            789836
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-146293760f5c45d7",
+      "name": "the Jewish doctor (narrator)",
+      "description": "Jewish physician who later tells his own tale of Damascus, murder and hidden treasure; previously appears in the Hunchback chain",
+      "scope": "Tale of the Jewish Doctor",
+      "aliases": [
+        {
+          "text": "the Jewish physician",
+          "evidence": [
+            801742,
+            801762
+          ]
+        },
+        {
+          "text": "the Jew",
+          "evidence": [
+            42894,
+            42901
+          ]
+        },
+        {
+          "text": "the doctor",
+          "evidence": [
+            159687,
+            159697
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5ac1175f027882b3",
+      "name": "the Tailor (later narrator)",
+      "description": "Tailor who tells the story of how the Hunchback circuit of blame unfolded; narrator of the Tailor's Tale",
+      "scope": "The Tailor's Tale",
+      "aliases": [
+        {
+          "text": "the Tailor",
+          "evidence": [
+            43034,
+            43044
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-04d5616586ec8964",
+      "name": "the Barber (Al-Sámit)",
+      "description": "Barber who calls himself 'the Silent Man' and narrates his own life and the misfortunes of six brothers; pivotal figure in the Tailor's Tale",
+      "scope": "The Tailor's Tale; The Barber's Tale",
+      "aliases": [
+        {
+          "text": "the Barber",
+          "evidence": [
+            827368,
+            827378
+          ]
+        },
+        {
+          "text": "Al-Sámit",
+          "evidence": [
+            838667,
+            838675
+          ]
+        },
+        {
+          "text": "the Silent Man",
+          "evidence": [
+            838677,
+            838691
+          ]
+        },
+        {
+          "text": "Samit",
+          "evidence": [
+            877409,
+            877414
+          ]
+        },
+        {
+          "text": "Silent Man",
+          "evidence": [
+            837455,
+            837465
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5ec87ac32d7595bf",
+      "name": "Al-Bakbúk",
+      "description": "Barber's eldest brother, nicknamed the prattler; one brother who became a hunchback after a tailor-and-woman episode",
+      "scope": "The Barber's Tale",
+      "aliases": [
+        {
+          "text": "Al-Bakbuk",
+          "evidence": [
+            866739,
+            866748
+          ]
+        },
+        {
+          "text": "Al-Bakbúk",
+          "evidence": [
+            838345,
+            838354
+          ]
+        },
+        {
+          "text": "the prattler",
+          "evidence": [
+            838356,
+            838368
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5fa56b83b5269861",
+      "name": "Al-Haddár",
+      "description": "Barber's second brother, nicknamed the babbler, left paralysed in his story",
+      "scope": "The Barber's Tale",
+      "aliases": [
+        {
+          "text": "Al-Haddár",
+          "evidence": [
+            838383,
+            838392
+          ]
+        },
+        {
+          "text": "the babbler",
+          "evidence": [
+            838394,
+            838405
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9e566003f25ada7d",
+      "name": "Al-Fakík",
+      "description": "Barber's third brother, nicknamed the gabbler, rendered blind in his episode",
+      "scope": "The Barber's Tale",
+      "aliases": [
+        {
+          "text": "Al-Fakík",
+          "evidence": [
+            838417,
+            838425
+          ]
+        },
+        {
+          "text": "the Gabbler",
+          "evidence": [
+            888203,
+            888214
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b7f80ced2dd34b2f",
+      "name": "Al-Kuz al-aswáni",
+      "description": "Barber's fourth brother, the long-necked 'Gugglet', punished and maimed in his tale",
+      "scope": "The Barber's Tale",
+      "aliases": [
+        {
+          "text": "Al-Kuz al-aswáni",
+          "evidence": [
+            838466,
+            838482
+          ]
+        },
+        {
+          "text": "the long-necked Gugglet",
+          "evidence": [
+            838484,
+            838507
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e4352472084bc914",
+      "name": "Al-Nashshár",
+      "description": "Barber's fifth brother, the sawyer/seller of glass who loses his ears and gains fortune via a compassionate lady",
+      "scope": "The Barber's Tale",
+      "aliases": [
+        {
+          "text": "Al-Nashshár",
+          "evidence": [
+            838553,
+            838564
+          ]
+        },
+        {
+          "text": "the Babbler",
+          "evidence": [
+            902088,
+            902099
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e11216a8caf19cac",
+      "name": "Shakáshik",
+      "description": "Barber's sixth brother, called Many-clamours, subjected to violent mutilation in his misadventures",
+      "scope": "The Barber's Tale",
+      "aliases": [
+        {
+          "text": "Shakáshik",
+          "evidence": [
+            838607,
+            838616
+          ]
+        },
+        {
+          "text": "Many-clamours",
+          "evidence": [
+            921000,
+            921013
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1d01ca7688b37a7d",
+      "name": "Al-Mustansir bi'llah",
+      "description": "Caliph in the Barber's anecdote who hears the Barber's story and interacts with him",
+      "scope": "The Barber's Tale",
+      "aliases": [
+        {
+          "text": "Al-Mustansir bi'llah",
+          "evidence": [
+            861817,
+            861837
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f59e00bfa2fbc3f0",
+      "name": "the Barmecide (Wazir)",
+      "description": "High minister figure referenced in multiple frame contexts (also Ja'afar in frame); appears in epilogues and patron contexts",
+      "scope": "Frame narrative; The Tailor's Tale references",
+      "aliases": [
+        {
+          "text": "the Barmecide",
+          "evidence": [
+            550746,
+            550759
+          ]
+        },
+        {
+          "text": "the Wazir",
+          "evidence": [
+            47809,
+            47818
+          ]
+        }
+      ]
+    }
+  ]
+}

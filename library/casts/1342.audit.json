@@ -1,0 +1,75 @@
+{
+  "chunks": [
+    {
+      "start": 993,
+      "end": 650991,
+      "key": "f47c952cc46fa2daf62b7f7707deee3204e4be51757789f0de40cb2eaf95320d",
+      "usage": {
+        "input_tokens": 169211,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5007,
+        "output_tokens_details": {
+          "reasoning_tokens": 3264
+        },
+        "total_tokens": 174218
+      }
+    },
+    {
+      "start": 650991,
+      "end": 744280,
+      "key": "1211b960e33c0346ac5f1950582187b6a0ea5ee81dc0fee40be7620d25e73b89",
+      "usage": {
+        "input_tokens": 25190,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7063,
+        "output_tokens_details": {
+          "reasoning_tokens": 6016
+        },
+        "total_tokens": 32253
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "230c7dc5cc997178b4ed43169cc8db2f4183f4ab1c3ca9e56c6ab946508c86c5",
+    "usage": {
+      "input_tokens": 3595,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3365,
+      "output_tokens_details": {
+        "reasoning_tokens": 832
+      },
+      "total_tokens": 6960
+    }
+  },
+  "rejected": [
+    {
+      "name": "Mr. Collins",
+      "alias": "William Collins",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Phillips",
+      "alias": "Mrs. Phillips",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Bingley party (Mr. Bingley’s sisters/relatives)",
+      "alias": "the Netherfield party",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Gardiner's children",
+      "alias": "two younger boys",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

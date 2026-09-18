@@ -1,0 +1,23 @@
+{
+  "chunks": [
+    {
+      "start": 826,
+      "end": 384718,
+      "key": "5e59ff73ab377e28633c11df3c53c46b330116c99b796bba1c67a67c52bd6034",
+      "usage": {
+        "input_tokens": 108138,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5444,
+        "output_tokens_details": {
+          "reasoning_tokens": 4352
+        },
+        "total_tokens": 113582
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": []
+}

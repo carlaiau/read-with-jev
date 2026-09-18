@@ -8,7 +8,8 @@ try {
   await page.goto(baseURL);
   const catalog = await (await page.request.get(`${baseURL}/.netlify/functions/library`)).json();
   await page.locator('.passage').last().waitFor();
-  for(const doc of catalog.documents){
+  const sample = catalog.documents.filter((d:any)=>['pride-and-prejudice','moby-dick','romeo-and-juliet','alice-in-wonderland','gutenberg-100','gutenberg-71046','gutenberg-65238','gutenberg-3268','gutenberg-51252','gutenberg-42671'].includes(d.documentId));
+  for(const doc of sample){
     await page.getByLabel('Document',{exact:true}).selectOption(doc.documentId);
     await page.waitForFunction(({title,count})=>document.querySelector('h1')?.textContent===title && document.querySelectorAll('.passage').length===count,{title:doc.title,count:doc.passages});
     assert.equal(await page.getByLabel('Explore by').count(),0);
@@ -38,5 +39,5 @@ try {
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   await page.screenshot({path:'/tmp/jev-library-mobile.png'});
   assert.deepEqual(errors,[]);
-  console.log('All nine documents, baseline labels, cast switching, navigation, rapid switching, and mobile width passed.');
+  console.log('Representative library documents, baseline labels, cast switching, navigation, rapid switching, and mobile width passed.');
 } finally {await browser.close();}

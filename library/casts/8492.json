@@ -1,0 +1,1357 @@
+{
+  "schema": 1,
+  "gutenbergId": 8492,
+  "sourceSha256": "a1fe8503649b13bc46c6b98c49000eb8a9da59f9d3bd7aa8f94fc1b258c53096",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-370c4f1e49ed2121",
+      "name": "Hildred Castaigne",
+      "description": "First-person narrator of \"The Repairer of Reputations\", a man who becomes involved with Mr. Wilde and the Yellow Sign; claims a royal succession and is confined to an asylum.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Mr. Castaigne",
+          "evidence": [
+            14765,
+            14778
+          ]
+        },
+        {
+          "text": "Hildred",
+          "evidence": [
+            28050,
+            28057
+          ]
+        },
+        {
+          "text": "Hildred-Rex",
+          "evidence": [
+            60061,
+            60072
+          ]
+        },
+        {
+          "text": "Hildred Castaigne",
+          "evidence": [
+            28083,
+            28100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-23cfe83edad6403b",
+      "name": "Louis Castaigne",
+      "description": "Cousin of the narrator; an officer whose intended marriage and exile are central to the narrator's plot.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Louis",
+          "evidence": [
+            15003,
+            15008
+          ]
+        },
+        {
+          "text": "Louis Castaigne",
+          "evidence": [
+            51830,
+            51845
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e3ac62753468cae4",
+      "name": "Dr. John Archer",
+      "description": "A physician who initially detains the narrator and later figures in the narrator's plans; a local doctor in New York.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Dr. Archer",
+          "evidence": [
+            6972,
+            6982
+          ]
+        },
+        {
+          "text": "Doctor Archer",
+          "evidence": [
+            42559,
+            42572
+          ]
+        },
+        {
+          "text": "John Archer",
+          "evidence": [
+            15946,
+            15957
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d55925116fd342ce",
+      "name": "Mr. Wilde",
+      "description": "Eccentric Keeper of the 'Repairer of Reputations' business; scholar, manipulative organizer of conspiracies in the story.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Mr. Wilde",
+          "evidence": [
+            18868,
+            18877
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0b399bf1fbf0f910",
+      "name": "Osgood Oswald Vance",
+      "description": "A desperate client of Mr. Wilde who becomes involved in the narrator's scheme.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Vance",
+          "evidence": [
+            55097,
+            55102
+          ]
+        },
+        {
+          "text": "Osgood Oswald Vance",
+          "evidence": [
+            56419,
+            56438
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-da1599406bc7f7dd",
+      "name": "Hawberk",
+      "description": "An armourer with a small shop in Bleecker Street; father of Constance Hawberk and acquaintance of the narrator.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Hawberk",
+          "evidence": [
+            14625,
+            14632
+          ]
+        },
+        {
+          "text": "Old Hawberk",
+          "evidence": [
+            15117,
+            15128
+          ]
+        },
+        {
+          "text": "HAWBERK, ARMOURER.",
+          "evidence": [
+            14567,
+            14585
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-efdeacf0037a70bb",
+      "name": "Constance Hawberk",
+      "description": "Daughter of Hawberk; a young woman involved (romantically) with Louis Castaigne; appears repeatedly in the narrative.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Constance",
+          "evidence": [
+            14781,
+            14790
+          ]
+        },
+        {
+          "text": "Constance Hawberk",
+          "evidence": [
+            51060,
+            51077
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dd9c0a114f7b9730",
+      "name": "Arnold Steylette",
+      "description": "Owner and Editor in Chief of the great New York daily; appears as a client of Mr. Wilde mentioned in the study.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Arnold Steylette",
+          "evidence": [
+            26893,
+            26909
+          ]
+        },
+        {
+          "text": "Mr. Steylette",
+          "evidence": [
+            26587,
+            26600
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cef8e71ca568de0c",
+      "name": "Colonel Livingston",
+      "description": "Military aide mentioned among dignitaries at the inauguration of the Lethal Chamber; present at public ceremonies.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Colonel Livingston",
+          "evidence": [
+            12151,
+            12169
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7c8228fe10ec8f98",
+      "name": "General Blount",
+      "description": "General commanding at Governor's Island; listed among officials at the Lethal Chamber inauguration.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "General Blount",
+          "evidence": [
+            12224,
+            12238
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-25fc51b4a858c7bc",
+      "name": "Major-General Hamilton",
+      "description": "Commanding the garrison of New York and Brooklyn; present at the Lethal Chamber inauguration.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Major-General Hamilton",
+          "evidence": [
+            12274,
+            12296
+          ]
+        },
+        {
+          "text": "Hamilton",
+          "evidence": [
+            12288,
+            12296
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e38d3c84643bf6e3",
+      "name": "Admiral Buffby",
+      "description": "Admiral of the fleet in the North River; present at the Lethal Chamber inauguration.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Admiral Buffby",
+          "evidence": [
+            12349,
+            12363
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf75dcac413f4489",
+      "name": "Surgeon-General Lanceford",
+      "description": "Surgeon-General of the National Free Hospital; speaks at the Lethal Chamber inauguration.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Surgeon-General Lanceford",
+          "evidence": [
+            12398,
+            12423
+          ]
+        },
+        {
+          "text": "Lanceford",
+          "evidence": [
+            12414,
+            12423
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47a262fd3e7a2b92",
+      "name": "Senator Wyse",
+      "description": "Senator of New York mentioned among dignitaries at the Lethal Chamber inauguration.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Wyse",
+          "evidence": [
+            12476,
+            12480
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8708a64a0a5fceae",
+      "name": "Senator Franklin",
+      "description": "Senator of New York mentioned among officials present at the Lethal Chamber inauguration.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "Franklin",
+          "evidence": [
+            12485,
+            12493
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-220881685f3ad223",
+      "name": "Boris Yvain",
+      "description": "Young American sculptor whose marble group of the \"Fates\" and other works appear in various scenes; friend/acquaintance of the narrator(s).",
+      "scope": "THE REPAIRER OF REPUTATIONS; THE MASK",
+      "aliases": [
+        {
+          "text": "Boris Yvain",
+          "evidence": [
+            11554,
+            11565
+          ]
+        },
+        {
+          "text": "Boris",
+          "evidence": [
+            11554,
+            11559
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6e98afea6a9627ce",
+      "name": "Mr. Wilde's cat",
+      "description": "A vicious, recurring cat kept by Mr. Wilde; attacks and causes havoc in the Repairer of Reputations narrative.",
+      "scope": "THE REPAIRER OF REPUTATIONS",
+      "aliases": [
+        {
+          "text": "the cat",
+          "evidence": [
+            23494,
+            23501
+          ]
+        },
+        {
+          "text": "the creature",
+          "evidence": [
+            23175,
+            23187
+          ]
+        },
+        {
+          "text": "Puss",
+          "evidence": [
+            207340,
+            207344
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fad738138f616217",
+      "name": "Alec",
+      "description": "First-person narrator of \"The Mask\"; sculptor/artist who recounts events concerning Boris Yvain, Geneviève, and tragic occurrences.",
+      "scope": "THE MASK",
+      "aliases": [
+        {
+          "text": "Alec",
+          "evidence": [
+            77380,
+            77384
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e59e933afc7e83b9",
+      "name": "Geneviève",
+      "description": "A model and sitter for Boris Yvain; central female figure in \"The Mask\" who becomes subject of romantic and tragic events.",
+      "scope": "THE MASK",
+      "aliases": [
+        {
+          "text": "Geneviève",
+          "evidence": [
+            72824,
+            72833
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f276d1452e50a9c0",
+      "name": "Jack Scott",
+      "description": "Friend of Alec and Boris; artist who appears across several stories (including as narrator in other tales); assists after Boris and Geneviève's deaths.",
+      "scope": "THE MASK; THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "Jack Scott",
+          "evidence": [
+            76271,
+            76281
+          ]
+        },
+        {
+          "text": "Mr. Scott",
+          "evidence": [
+            87001,
+            87010
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c5b55323086dd187",
+      "name": "Alcide",
+      "description": "A servant/house assistant mentioned in \"The Mask\" who packs and looks after the narrator's rooms.",
+      "scope": "THE MASK",
+      "aliases": [
+        {
+          "text": "Alcide",
+          "evidence": [
+            102539,
+            102545
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-314c4328d2129a31",
+      "name": "Marie",
+      "description": "Maid/servant who cares for Geneviève and appears in \"The Mask\" following her illness and death.",
+      "scope": "THE MASK",
+      "aliases": [
+        {
+          "text": "Marie",
+          "evidence": [
+            87872,
+            87877
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d3b8584de3741c5b",
+      "name": "Rosier",
+      "description": "Old Rosier, a country contact used to keep servants quiet after the tragedy in \"The Mask\"; a minor supporting figure.",
+      "scope": "THE MASK",
+      "aliases": [
+        {
+          "text": "old Rosier",
+          "evidence": [
+            100615,
+            100625
+          ]
+        },
+        {
+          "text": "Rosier",
+          "evidence": [
+            100619,
+            100625
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5eac023df4f0a02",
+      "name": "Monseigneur C——",
+      "description": "The preacher at St. Barnabé whose sermon frames the narrator's experience in \"In the Court of the Dragon\".",
+      "scope": "IN THE COURT OF THE DRAGON",
+      "aliases": [
+        {
+          "text": "Monseigneur C——",
+          "evidence": [
+            109698,
+            109713
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-44b2e6eb725d54d0",
+      "name": "the organist",
+      "description": "A pale, slender man who plays discordant music at St. Barnabé and who becomes a persecuting figure aimed at the narrator.",
+      "scope": "IN THE COURT OF THE DRAGON",
+      "aliases": [
+        {
+          "text": "the organist",
+          "evidence": [
+            116337,
+            116349
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6cc4fcdbcab76d95",
+      "name": "Suisse",
+      "description": "A Swiss guard (Suisse) in rich uniform at St. Barnabé mentioned in the vespers scene.",
+      "scope": "IN THE COURT OF THE DRAGON",
+      "aliases": [
+        {
+          "text": "Suisse",
+          "evidence": [
+            109527,
+            109533
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3de42a4ea5bad966",
+      "name": "Jack Scott (as narrator)",
+      "description": "Narrator of \"The Yellow Sign\" (first-person), an artist whose model Tessie Reardon reads the forbidden book and suffers tragic consequences.",
+      "scope": "THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "Mr. Scott",
+          "evidence": [
+            87001,
+            87010
+          ]
+        },
+        {
+          "text": "Jack Scott",
+          "evidence": [
+            76271,
+            76281
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-13bd7598681ec78e",
+      "name": "Tessie Reardon",
+      "description": "A favorite model of the narrator; naive and affectionate, finds a mysterious onyx clasp (the Yellow Sign) and later reads the book leading to tragedy.",
+      "scope": "THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "Tessie",
+          "evidence": [
+            130337,
+            130343
+          ]
+        },
+        {
+          "text": "Tessie Reardon",
+          "evidence": [
+            137589,
+            137603
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5be1ba2604bf0fdf",
+      "name": "Thomas",
+      "description": "A bell-boy and attendant in the studio/building who recounts fears about the church watchman and later helps with deliveries.",
+      "scope": "THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "Thomas",
+          "evidence": [
+            17357,
+            17363
+          ]
+        },
+        {
+          "text": "the bell-boy",
+          "evidence": [
+            138261,
+            138273
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a0da7ed0eb2a1425",
+      "name": "Ed Burke",
+      "description": "Also called Ed or Eddie Burke; brother of Lizzie; a young man mentioned as Tessie's suitor in \"The Yellow Sign\".",
+      "scope": "THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "Ed",
+          "evidence": [
+            26921,
+            26923
+          ]
+        },
+        {
+          "text": "Ed Burke",
+          "evidence": [
+            145948,
+            145956
+          ]
+        },
+        {
+          "text": "Eddie Burke",
+          "evidence": [
+            153650,
+            153661
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8af2fb4b1d4eef59",
+      "name": "Pinkie McCormick",
+      "description": "A girl in the model circle mentioned by Tessie; minor named participant.",
+      "scope": "THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "Pinkie McCormick",
+          "evidence": [
+            142590,
+            142606
+          ]
+        },
+        {
+          "text": "Pinkie",
+          "evidence": [
+            142590,
+            142596
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3f381d749b047a2c",
+      "name": "Lizzie Burke",
+      "description": "Friend of Tessie and sister to Ed Burke; minor named participant.",
+      "scope": "THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "Lizzie Burke",
+          "evidence": [
+            142699,
+            142711
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4f10dbcf50161c02",
+      "name": "Cabane",
+      "description": "Old Cabane, the baker mentioned in anecdotes about Rue and the watchman in \"The Yellow Sign\".",
+      "scope": "THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "old Cabane",
+          "evidence": [
+            215766,
+            215776
+          ]
+        },
+        {
+          "text": "Cabane",
+          "evidence": [
+            215770,
+            215776
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7ce3c563ecf33781",
+      "name": "the watchman",
+      "description": "A pale, repulsive church watchman whose presence unnerves the narrator and whose corpse is found later; central ominous figure in the tale.",
+      "scope": "THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "the watchman",
+          "evidence": [
+            128598,
+            128610
+          ]
+        },
+        {
+          "text": "watchman of the church",
+          "evidence": [
+            148650,
+            148672
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-42ec1b4f661b4f15",
+      "name": "the doctor",
+      "description": "A physician who attends after Tessie's collapse and later comments upon the mysterious state of the dead watchman.",
+      "scope": "THE YELLOW SIGN",
+      "aliases": [
+        {
+          "text": "the doctor",
+          "evidence": [
+            7225,
+            7235
+          ]
+        },
+        {
+          "text": "Doctor",
+          "evidence": [
+            42559,
+            42565
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-145286986de253db",
+      "name": "Philip",
+      "description": "First-person narrator of \"The Demoiselle d’Ys\" (appears as 'Philip' in the legend), a stranger who meets Jeanne d'Ys on the moor and undergoes tragedy.",
+      "scope": "THE DEMOISELLE D’YS",
+      "aliases": [
+        {
+          "text": "Philip",
+          "evidence": [
+            192087,
+            192093
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a8122b20758b5c12",
+      "name": "Demoiselle Jeanne d’Ys",
+      "description": "The young noblewoman of the château d'Ys, beloved by the narrator Philip; dies tragically after a viper incident.",
+      "scope": "THE DEMOISELLE D’YS",
+      "aliases": [
+        {
+          "text": "Jeanne d’Ys",
+          "evidence": [
+            190522,
+            190533
+          ]
+        },
+        {
+          "text": "the Demoiselle d’Ys",
+          "evidence": [
+            195032,
+            195051
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cf2e11047260ed59",
+      "name": "Pelagie",
+      "description": "Nurse and attendant at the Château d'Ys who cares for Jeanne; a named supporting character.",
+      "scope": "THE DEMOISELLE D’YS",
+      "aliases": [
+        {
+          "text": "Pelagie",
+          "evidence": [
+            185192,
+            185199
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c59b0bc04d3ff94c",
+      "name": "Glemarec René",
+      "description": "A piqueur (hunter's attendant) at the château; one of Jeanne's hunting retainers.",
+      "scope": "THE DEMOISELLE D’YS",
+      "aliases": [
+        {
+          "text": "Glemarec René",
+          "evidence": [
+            184586,
+            184599
+          ]
+        },
+        {
+          "text": "René",
+          "evidence": [
+            184595,
+            184599
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1dc667565575ea33",
+      "name": "Raoul",
+      "description": "A falconer serving Jeanne d'Ys; teaches and handles birds of prey.",
+      "scope": "THE DEMOISELLE D’YS",
+      "aliases": [
+        {
+          "text": "Raoul",
+          "evidence": [
+            177341,
+            177346
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-057c492648b4d4bc",
+      "name": "Gaston",
+      "description": "One of the falconers at the Château d'Ys.",
+      "scope": "THE DEMOISELLE D’YS",
+      "aliases": [
+        {
+          "text": "Gaston",
+          "evidence": [
+            183001,
+            183007
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0bd15ab21f248a6b",
+      "name": "Hastur",
+      "description": "A falconer or bird-handler associated with Jeanne d'Ys' retinue (name used here in a falconry context).",
+      "scope": "THE DEMOISELLE D’YS",
+      "aliases": [
+        {
+          "text": "Hastur",
+          "evidence": [
+            27856,
+            27862
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-432af51b62ef9e0b",
+      "name": "Sieur Piriou Louis",
+      "description": "A huntsman (sieur) in Jeanne d'Ys' household, named among the hunting attendants.",
+      "scope": "THE DEMOISELLE D’YS",
+      "aliases": [
+        {
+          "text": "Piriou Louis",
+          "evidence": [
+            182912,
+            182924
+          ]
+        },
+        {
+          "text": "Sieur Piriou Louis",
+          "evidence": [
+            190776,
+            190794
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4efe8f59bc3215f0",
+      "name": "Pierrot",
+      "description": "A theatrical figure appearing in the short pieces of \"The Prophets' Paradise\" (The Throng), used as a named character in the vignette.",
+      "scope": "THE PROPHETS’ PARADISE",
+      "aliases": [
+        {
+          "text": "Pierrot",
+          "evidence": [
+            203865,
+            203872
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-97ee970bf913d0ce",
+      "name": "The Clown",
+      "description": "A stage/clown figure who speaks and appears in the vignettes collected under \"The Prophets' Paradise\".",
+      "scope": "THE PROPHETS’ PARADISE",
+      "aliases": [
+        {
+          "text": "The Clown",
+          "evidence": [
+            205841,
+            205850
+          ]
+        },
+        {
+          "text": "Clown",
+          "evidence": [
+            205845,
+            205850
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0e952bc5d9024440",
+      "name": "Severn",
+      "description": "An artist and painter; narrator of \"The Street of the Four Winds\" who rescues and feeds a stray cat and investigates its mysterious mistress.",
+      "scope": "THE STREET OF THE FOUR WINDS",
+      "aliases": [
+        {
+          "text": "Severn",
+          "evidence": [
+            207205,
+            207211
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d85bb75d75bb2233",
+      "name": "the cat (Severn's)",
+      "description": "A gaunt cat rescued by Severn in \"The Street of the Four Winds\"; wears a rose-coloured garter and leads him to its mistress.",
+      "scope": "THE STREET OF THE FOUR WINDS",
+      "aliases": [
+        {
+          "text": "the cat",
+          "evidence": [
+            23494,
+            23501
+          ]
+        },
+        {
+          "text": "Puss",
+          "evidence": [
+            207340,
+            207344
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eabffa0042e98334",
+      "name": "Sylvia Elven",
+      "description": "A mysterious woman associated with the north wing of the Severn's building (also appears as a central figure in other stories); her fate is tragic in Severn's tale and she is later central to other narratives.",
+      "scope": "THE STREET OF THE FOUR WINDS; THE STREET OF OUR LADY OF THE FIELDS",
+      "aliases": [
+        {
+          "text": "Sylvia",
+          "evidence": [
+            128443,
+            128449
+          ]
+        },
+        {
+          "text": "Sylvia Elven",
+          "evidence": [
+            216866,
+            216878
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d1ade7f1a52211e8",
+      "name": "Jack Trent",
+      "description": "American (Captain) and central character of \"The Street of the First Shell\"; husband of Sylvia, involved with the American Ambulance and the sortie scenes.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Jack Trent",
+          "evidence": [
+            281820,
+            281830
+          ]
+        },
+        {
+          "text": "Trent",
+          "evidence": [
+            227303,
+            227308
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3e6d6809403d1fa2",
+      "name": "West",
+      "description": "An artist (Monsieur West) friend of Trent and others; involved in social scenes and the siege narrative in \"The Street of the First Shell\".",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "West",
+          "evidence": [
+            3896,
+            3900
+          ]
+        },
+        {
+          "text": "Monsieur West",
+          "evidence": [
+            224189,
+            224202
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3940c0f5e93ae3e0",
+      "name": "Braith",
+      "description": "A fellow student/artist who lives in reduced circumstances and is part of Trent's circle; present in the siege/night scenes.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Braith",
+          "evidence": [
+            226684,
+            226690
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-913a6775eef72d1c",
+      "name": "Fallowby",
+      "description": "A convivial, improvident man in the artists' circle; appears in Trent's dinner and siege episodes.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Fallowby",
+          "evidence": [
+            226565,
+            226573
+          ]
+        },
+        {
+          "text": "Monsieur Fallowby",
+          "evidence": [
+            250182,
+            250199
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5f6504f3df8e7794",
+      "name": "Colette",
+      "description": "A young woman in the artists' circle; friend and hostess connected with West and the group's gatherings.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Colette",
+          "evidence": [
+            224317,
+            224324
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7951525f58b71ea0",
+      "name": "Marie Guernalec",
+      "description": "A young woman in the artists' group who participates in the dinner and social scenes.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Marie Guernalec",
+          "evidence": [
+            249823,
+            249838
+          ]
+        },
+        {
+          "text": "Marie",
+          "evidence": [
+            87872,
+            87877
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b6c0706693ed2181",
+      "name": "Odile",
+      "description": "A young woman in the artists' party who attends gatherings and dinners in the narrative.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Odile",
+          "evidence": [
+            240473,
+            240478
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2e9cfcf7f53b8590",
+      "name": "Thorne",
+      "description": "An acquaintance in the artists' circle who is mentioned among the dinner guests.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Thorne",
+          "evidence": [
+            240418,
+            240424
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-363920878cca87f4",
+      "name": "Hartman",
+      "description": "A man arrested as a suspected spy and for alleged profiteering during the siege; his arrest becomes a plot element in the sortie narrative.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Hartman",
+          "evidence": [
+            227072,
+            227079
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-923a8654b376734c",
+      "name": "Captain Southwark",
+      "description": "An attaché of the American Legation (Captain Southwark) who assists in identifying and protecting an American detainee during the siege scenes.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Captain Southwark",
+          "evidence": [
+            261752,
+            261769
+          ]
+        },
+        {
+          "text": "Southwark",
+          "evidence": [
+            244661,
+            244670
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1b30a53b3884cb45",
+      "name": "Père Cottard",
+      "description": "An old wounded man (concierge's husband) lodged at the pension; mentioned in Trent's concerns.",
+      "scope": "THE STREET OF THE FIRST SHELL",
+      "aliases": [
+        {
+          "text": "Père Cottard",
+          "evidence": [
+            227463,
+            227475
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0aa63d082c6d03f8",
+      "name": "Reverend Joel Byram",
+      "description": "An older moral guardian who helps Hastings find lodgings; solicits a respectable pension for the young student.",
+      "scope": "THE STREET OF OUR LADY OF THE FIELDS",
+      "aliases": [
+        {
+          "text": "Reverend Joel Byram",
+          "evidence": [
+            290657,
+            290676
+          ]
+        },
+        {
+          "text": "Dr. Byram",
+          "evidence": [
+            291285,
+            291294
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd06550f47f027b0",
+      "name": "Hastings",
+      "description": "Young American art student and central figure of \"THE STREET OF OUR LADY OF THE FIELDS\" who courts Sylvia; experiences student life in Paris.",
+      "scope": "THE STREET OF OUR LADY OF THE FIELDS",
+      "aliases": [
+        {
+          "text": "Hastings",
+          "evidence": [
+            290709,
+            290717
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1aa3f86413c3bd4b",
+      "name": "Madame Marotte",
+      "description": "Proprietress of the pension in the Street of Our Lady of the Fields who accommodates Hastings and other Americans.",
+      "scope": "THE STREET OF OUR LADY OF THE FIELDS",
+      "aliases": [
+        {
+          "text": "Madame Marotte",
+          "evidence": [
+            293564,
+            293578
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d746744f1c3ede7",
+      "name": "Susie Byng",
+      "description": "A young American visitor staying at Madame Marotte's pension who befriends Hastings.",
+      "scope": "THE STREET OF OUR LADY OF THE FIELDS",
+      "aliases": [
+        {
+          "text": "Susie Byng",
+          "evidence": [
+            298095,
+            298105
+          ]
+        },
+        {
+          "text": "Miss Susie Byng",
+          "evidence": [
+            298090,
+            298105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8bcd39b345a16074",
+      "name": "Mrs. Byng",
+      "description": "Mother of Susie Byng, an American visitor at the pension.",
+      "scope": "THE STREET OF OUR LADY OF THE FIELDS",
+      "aliases": [
+        {
+          "text": "Mrs. Byng",
+          "evidence": [
+            299004,
+            299013
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9eb04baa95a72c30",
+      "name": "Foxhall Clifford",
+      "description": "Artist and social figure in the Latin Quarter; introduces newcomers and is involved in several romantic entanglements including interactions with Rue Barrée and Valentine.",
+      "scope": "THE STREET OF OUR LADY OF THE FIELDS; RUE BARRÉE",
+      "aliases": [
+        {
+          "text": "Foxhall Clifford",
+          "evidence": [
+            370794,
+            370810
+          ]
+        },
+        {
+          "text": "Clifford",
+          "evidence": [
+            304998,
+            305006
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b2c7b71aac6b81cc",
+      "name": "Richard Osborne Elliott",
+      "description": "Artist and friend of Clifford, part of the Latin Quarter circle; appears frequently in social scenes.",
+      "scope": "THE STREET OF OUR LADY OF THE FIELDS; RUE BARRÉE",
+      "aliases": [
+        {
+          "text": "Elliott",
+          "evidence": [
+            305671,
+            305678
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-90168899d8201e36",
+      "name": "Valentine Tissot",
+      "description": "A spirited, enigmatic young woman (Valentine) of the Latin Quarter who befriends Hastings and requests discretion about her private life.",
+      "scope": "THE STREET OF OUR LADY OF THE FIELDS; RUE BARRÉE",
+      "aliases": [
+        {
+          "text": "Valentine",
+          "evidence": [
+            295128,
+            295137
+          ]
+        },
+        {
+          "text": "Valentine Tissot",
+          "evidence": [
+            314462,
+            314478
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bc5c3998f5f7b03d",
+      "name": "Selby",
+      "description": "New student at Julian's and later protagonist of the \"Rue Barrée\" episode; becomes infatuated/curious about the enigmatic Rue Barrée.",
+      "scope": "RUE BARRÉE",
+      "aliases": [
+        {
+          "text": "Selby",
+          "evidence": [
+            321453,
+            321458
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-05121fdbe94a04c1",
+      "name": "Rue Barrée",
+      "description": "An enigmatic woman known by the name of the street (Rue Barrée); a mysterious, reserved figure who is saluted by students and eludes exposure.",
+      "scope": "RUE BARRÉE",
+      "aliases": [
+        {
+          "text": "Rue Barrée",
+          "evidence": [
+            372247,
+            372257
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5f2791f33ea7c9d",
+      "name": "the gardener (market)",
+      "description": "A flower-seller/gardener at the market who interacts with Rue Barrée and sells plants; assists with the delivery of Selby's flowers.",
+      "scope": "RUE BARRÉE",
+      "aliases": [
+        {
+          "text": "the gardener",
+          "evidence": [
+            305370,
+            305382
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1540 @@
+{
+  "schema": 1,
+  "gutenbergId": 1260,
+  "sourceSha256": "13414dee2951c3ee731d76d2ffd822016b2479c892162760c5d0eb2aa5fa7631",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-48742cd1ea0ec95c",
+      "name": "Jane Eyre",
+      "description": "Narrator and protagonist; orphan raised at Gateshead, pupil and teacher at Lowood, later governess at Thornfield Hall who becomes Rochester’s wife and inherits a fortune.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "JANE EYRE",
+          "evidence": [
+            918,
+            927
+          ]
+        },
+        {
+          "text": "Jane Eyre",
+          "evidence": [
+            1291,
+            1300
+          ]
+        },
+        {
+          "text": "Jane",
+          "evidence": [
+            1291,
+            1295
+          ]
+        },
+        {
+          "text": "Miss Jane",
+          "evidence": [
+            32172,
+            32181
+          ]
+        },
+        {
+          "text": "Miss Jane Eyre",
+          "evidence": [
+            42802,
+            42816
+          ]
+        },
+        {
+          "text": "Miss Eyre",
+          "evidence": [
+            18177,
+            18186
+          ]
+        },
+        {
+          "text": "Janet",
+          "evidence": [
+            563370,
+            563375
+          ]
+        },
+        {
+          "text": "Jane Elliott",
+          "evidence": [
+            775898,
+            775910
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-80b3c2805ef74388",
+      "name": "Mrs. Reed",
+      "description": "Jane’s aunt and guardian at Gateshead Hall; harsh and unsympathetic, later ill and dies.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Reed",
+          "evidence": [
+            6672,
+            6681
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1dee07506067d677",
+      "name": "Eliza Reed",
+      "description": "Eldest daughter of Mrs. Reed; proud, saving, and often unkind to Jane.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Eliza",
+          "evidence": [
+            7163,
+            7168
+          ]
+        },
+        {
+          "text": "Lizzy",
+          "evidence": [
+            12059,
+            12064
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1f4277cbcf6b5f3c",
+      "name": "John Reed",
+      "description": "Son of Mrs. Reed; a bullying, cruel youth who torments Jane; later dies.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John Reed",
+          "evidence": [
+            11949,
+            11958
+          ]
+        },
+        {
+          "text": "John",
+          "evidence": [
+            7170,
+            7174
+          ]
+        },
+        {
+          "text": "Jack",
+          "evidence": [
+            12484,
+            12488
+          ]
+        },
+        {
+          "text": "Master Reed",
+          "evidence": [
+            12676,
+            12687
+          ]
+        },
+        {
+          "text": "Master John",
+          "evidence": [
+            17356,
+            17367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b15778236b503d8f",
+      "name": "Georgiana Reed",
+      "description": "Younger daughter of Mrs. Reed; beautiful, self-indulgent, and somewhat vain.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Georgiana",
+          "evidence": [
+            7180,
+            7189
+          ]
+        },
+        {
+          "text": "Georgy",
+          "evidence": [
+            12066,
+            12072
+          ]
+        },
+        {
+          "text": "Georgiana Reed",
+          "evidence": [
+            7180,
+            7194
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5ae4a05a6a25ab13",
+      "name": "Bessie (Mrs. Leaven)",
+      "description": "Nursery maid at Gateshead who cares for Jane at times; later marries Robert Leaven and visits Gateshead.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bessie",
+          "evidence": [
+            7080,
+            7086
+          ]
+        },
+        {
+          "text": "Bessie Lee",
+          "evidence": [
+            57897,
+            57907
+          ]
+        },
+        {
+          "text": "Mrs. Leaven",
+          "evidence": [
+            203674,
+            203685
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9109cec982db9a47",
+      "name": "Abbot (Miss Abbot)",
+      "description": "A housemaid at Gateshead who often echoes Mrs. Reed’s criticisms of Jane.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Abbot",
+          "evidence": [
+            17275,
+            17280
+          ]
+        },
+        {
+          "text": "Miss Abbot",
+          "evidence": [
+            17723,
+            17733
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d80dfc9e38e24a4f",
+      "name": "Mr. Reed (Jane’s uncle)",
+      "description": "Jane’s deceased uncle (Mrs. Reed’s husband) who originally took Jane in.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Reed",
+          "evidence": [
+            22831,
+            22839
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-818888eee49978c4",
+      "name": "Mr. Lloyd",
+      "description": "An apothecary called in to attend at Gateshead; advises sending Jane to school.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Lloyd",
+          "evidence": [
+            34563,
+            34572
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-67cceaebed62f233",
+      "name": "Mr. Brocklehurst (Rev. Robert Brocklehurst)",
+      "description": "Religious inspector/manager associated with Lowood School; severe and hypocritical; named treasurer of Lowood in background.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Brocklehurst",
+          "evidence": [
+            65164,
+            65180
+          ]
+        },
+        {
+          "text": "Brocklehurst",
+          "evidence": [
+            65168,
+            65180
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-97319fe85d31e473",
+      "name": "Naomi Brocklehurst",
+      "description": "Benefactor named on the Lowood building tablet (donor mentioned in narrative).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Naomi Brocklehurst",
+          "evidence": [
+            105256,
+            105274
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4b4fd7300d5d9c7e",
+      "name": "Miss Temple (Maria Temple)",
+      "description": "Superintendent of Lowood; kindly, educated, and a moral guide and friend to Jane.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Temple",
+          "evidence": [
+            69635,
+            69646
+          ]
+        },
+        {
+          "text": "Maria Temple",
+          "evidence": [
+            101709,
+            101721
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3c69b1bfbc5dbd68",
+      "name": "Miss Miller",
+      "description": "Under-teacher at Lowood who oversees classes and duties.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Miller",
+          "evidence": [
+            90572,
+            90583
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3c4a11e5c5525cb0",
+      "name": "Miss Smith",
+      "description": "Teacher at Lowood responsible for work and domestic training.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Smith",
+          "evidence": [
+            108971,
+            108981
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2d70d71707f26ae3",
+      "name": "Miss Scatcherd",
+      "description": "A harsh teacher at Lowood who punishes and criticises pupils (notably Helen Burns).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Scatcherd",
+          "evidence": [
+            109128,
+            109142
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-beb241ddf9b3b4bf",
+      "name": "Madame Pierrot",
+      "description": "French teacher at Lowood (from Lille), teaches French to pupils including Jane.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Pierrot",
+          "evidence": [
+            109324,
+            109338
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d394b671279a0d2",
+      "name": "Helen Burns",
+      "description": "Pupil at Lowood; devout, patient, and a close friend of Jane who dies of consumption.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Helen Burns",
+          "evidence": [
+            121524,
+            121535
+          ]
+        },
+        {
+          "text": "Burns",
+          "evidence": [
+            114474,
+            114479
+          ]
+        },
+        {
+          "text": "Helen",
+          "evidence": [
+            119150,
+            119155
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9303db7ce38acc58",
+      "name": "Rev. Mr. Nasmyth",
+      "description": "Clergyman who marries Miss Temple and leads her to leave Lowood (mentioned in narrative).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rev. Mr. Nasmyth",
+          "evidence": [
+            187859,
+            187875
+          ]
+        },
+        {
+          "text": "Mr. Nasmyth",
+          "evidence": [
+            187864,
+            187875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d7ae31a25cdbd0a",
+      "name": "Richard Mason (Mr. Mason)",
+      "description": "Traveller from the West Indies who is found wounded at Thornfield and is Bertha Mason’s brother, providing evidence of her existence and marriage to Rochester.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Mason",
+          "evidence": [
+            438582,
+            438591
+          ]
+        },
+        {
+          "text": "Mason",
+          "evidence": [
+            438586,
+            438591
+          ]
+        },
+        {
+          "text": "Richard",
+          "evidence": [
+            478799,
+            478806
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-010e1a33b8c807f1",
+      "name": "Edward Rochester",
+      "description": "Owner/master of Thornfield Hall; brooding, charismatic, employer and later suitor and husband of Jane; conceals a prior marriage and is injured and temporarily blind after Thornfield’s fire.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Rochester",
+          "evidence": [
+            225331,
+            225344
+          ]
+        },
+        {
+          "text": "Rochester",
+          "evidence": [
+            225335,
+            225344
+          ]
+        },
+        {
+          "text": "Edward",
+          "evidence": [
+            289517,
+            289523
+          ]
+        },
+        {
+          "text": "Fairfax Rochester",
+          "evidence": [
+            483313,
+            483330
+          ]
+        },
+        {
+          "text": "Edward Fairfax Rochester",
+          "evidence": [
+            663440,
+            663464
+          ]
+        },
+        {
+          "text": "Mr. Edward",
+          "evidence": [
+            289513,
+            289523
+          ]
+        },
+        {
+          "text": "my master",
+          "evidence": [
+            18285,
+            18294
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4a4c1c16bdc19bfa",
+      "name": "Grace Poole",
+      "description": "A Thornfield servant of mysterious habits; employed to attend the madwoman and associated with odd laughter and incidents of fire.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Grace Poole",
+          "evidence": [
+            249360,
+            249371
+          ]
+        },
+        {
+          "text": "Grace",
+          "evidence": [
+            139727,
+            139732
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9304240f2cbecfd9",
+      "name": "Mrs. Fairfax",
+      "description": "Housekeeper/manager at Thornfield Hall; practical, kind, and Jane’s immediate superior there.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Fairfax",
+          "evidence": [
+            198019,
+            198031
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d886244c2e043fec",
+      "name": "Adèle Varens",
+      "description": "French pupil at Thornfield; ward of Mr. Rochester, lively and often addressed in French; Jane’s charge.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Adèle",
+          "evidence": [
+            230592,
+            230597
+          ]
+        },
+        {
+          "text": "Mademoiselle",
+          "evidence": [
+            228635,
+            228647
+          ]
+        },
+        {
+          "text": "Mdlle",
+          "evidence": [
+            251637,
+            251642
+          ]
+        },
+        {
+          "text": "little Adèle",
+          "evidence": [
+            425572,
+            425584
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2c0ba5c95eb9d30d",
+      "name": "Sophie",
+      "description": "Adèle’s French nurse (bonne) and servant at Thornfield who dresses Jane and attends the nursery.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sophie",
+          "evidence": [
+            229132,
+            229138
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a72d5af2fe305a72",
+      "name": "Leah",
+      "description": "Housemaid at Thornfield who performs household duties and interacts with other servants; recounts observations about the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Leah",
+          "evidence": [
+            215436,
+            215440
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-de2bb2b0d8e926de",
+      "name": "Robert Leaven",
+      "description": "Coachman who later marries Bessie and returns as a visitor to Gateshead.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Robert Leaven",
+          "evidence": [
+            203211,
+            203224
+          ]
+        },
+        {
+          "text": "Leaven",
+          "evidence": [
+            203218,
+            203224
+          ]
+        },
+        {
+          "text": "Robert",
+          "evidence": [
+            203211,
+            203217
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-18b0c9132d8d074d",
+      "name": "Mr. Bates",
+      "description": "Local man (surgeon/attendant) mentioned as being fetched or seen in connection with Mrs. Reed and other events.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Bates",
+          "evidence": [
+            175237,
+            175246
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-562b6351e9744ba7",
+      "name": "Mr. Carter (surgeon)",
+      "description": "Surgeon called to attend Mr. Mason after his injury at Thornfield and who treats related injuries.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Carter",
+          "evidence": [
+            268003,
+            268009
+          ]
+        },
+        {
+          "text": "Mr. Carter",
+          "evidence": [
+            267999,
+            268009
+          ]
+        },
+        {
+          "text": "the surgeon, Carter",
+          "evidence": [
+            710036,
+            710055
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2b7c59c518eafa9a",
+      "name": "Pilot (dog)",
+      "description": "Mr. Rochester’s large dog, companion at Thornfield and affectionate toward Jane and Rochester at Ferndean.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pilot",
+          "evidence": [
+            257514,
+            257519
+          ]
+        },
+        {
+          "text": "old pointer dog",
+          "evidence": [
+            764349,
+            764364
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-92339817eedf1fd9",
+      "name": "Mesrour",
+      "description": "The name of Mr. Rochester’s black horse mentioned in the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mesrour",
+          "evidence": [
+            378734,
+            378741
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e97d8edac927db4b",
+      "name": "Mrs. Eshton",
+      "description": "Resident at the Leas; hostess whose daughters visit Thornfield.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Eshton",
+          "evidence": [
+            360723,
+            360734
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d93ce6043afd3877",
+      "name": "Amy Eshton",
+      "description": "One of Mrs. Eshton’s daughters; lively and youthful.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Amy Eshton",
+          "evidence": [
+            400595,
+            400605
+          ]
+        },
+        {
+          "text": "Amy",
+          "evidence": [
+            391098,
+            391101
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-774988793de92f6a",
+      "name": "Louisa Eshton",
+      "description": "Another of Mrs. Eshton’s daughters; elegant and pretty.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Louisa Eshton",
+          "evidence": [
+            396281,
+            396294
+          ]
+        },
+        {
+          "text": "Louisa",
+          "evidence": [
+            391253,
+            391259
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d790670af6d2f2b1",
+      "name": "Mr. Eshton",
+      "description": "Gentleman of the neighbourhood (at the Leas), involved in local visits with Mr. Rochester.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Eshton",
+          "evidence": [
+            359769,
+            359779
+          ]
+        },
+        {
+          "text": "Eshton",
+          "evidence": [
+            359773,
+            359779
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ce73f7cb09d93e7",
+      "name": "Colonel Dent",
+      "description": "A military gentleman and visitor at Thornfield; organises charades.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Colonel Dent",
+          "evidence": [
+            359909,
+            359921
+          ]
+        },
+        {
+          "text": "Dent",
+          "evidence": [
+            359917,
+            359921
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-36b7ab65280bac4a",
+      "name": "Mrs. Dent",
+      "description": "Wife of Colonel Dent, mild and polite.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Dent",
+          "evidence": [
+            394392,
+            394401
+          ]
+        },
+        {
+          "text": "Mrs. Colonel Dent",
+          "evidence": [
+            391668,
+            391685
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2183c85b482b4fd0",
+      "name": "Sir George Lynn",
+      "description": "Local gentleman, visitor at Thornfield.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir George Lynn",
+          "evidence": [
+            359891,
+            359906
+          ]
+        },
+        {
+          "text": "George Lynn",
+          "evidence": [
+            359895,
+            359906
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e3172ae2931cf570",
+      "name": "Henry Lynn",
+      "description": "Younger Mr. Lynn (frequently called Henry), a lively young man visiting Thornfield.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Henry Lynn",
+          "evidence": [
+            402710,
+            402720
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2056efb61276459d",
+      "name": "Frederick Lynn",
+      "description": "Young Mr. Lynn (Frederick), another visitor and part of local set.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Frederick Lynn",
+          "evidence": [
+            397003,
+            397017
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c37ef4c095c4e1a1",
+      "name": "Lord Ingram",
+      "description": "A gentleman (peer) visiting Thornfield; brother to Blanche and Mary Ingram.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lord Ingram",
+          "evidence": [
+            359878,
+            359889
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef7b616511cf1513",
+      "name": "Dowager Lady Ingram",
+      "description": "Elder matriarch of the Ingram family; proud and imperious.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lady Ingram",
+          "evidence": [
+            392053,
+            392064
+          ]
+        },
+        {
+          "text": "Dowager Lady Ingram",
+          "evidence": [
+            392045,
+            392064
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7d84fa6ae75dd574",
+      "name": "Blanche Ingram",
+      "description": "Tall, accomplished, and beautiful lady; presented as Mr. Rochester’s anticipated bride.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Blanche Ingram",
+          "evidence": [
+            366683,
+            366697
+          ]
+        },
+        {
+          "text": "Blanche",
+          "evidence": [
+            360823,
+            360830
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-465e8cb3d18999d1",
+      "name": "Mary Ingram",
+      "description": "Blanche’s sister; tall but more passive and languid in expression.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mary Ingram",
+          "evidence": [
+            360835,
+            360846
+          ]
+        },
+        {
+          "text": "Mary",
+          "evidence": [
+            172318,
+            172322
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ce995c15b0171128",
+      "name": "Miss Wilson",
+      "description": "Referenced former governess (mentioned in anecdote).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Wilson",
+          "evidence": [
+            405663,
+            405674
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3a76c21ad08cb7fb",
+      "name": "Mrs. Grey",
+      "description": "Referenced former governess (mentioned in anecdote).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Grey",
+          "evidence": [
+            405681,
+            405690
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5179ad13845ddd05",
+      "name": "Madame Joubert",
+      "description": "Referenced former governess (mentioned in anecdote).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Madame Joubert",
+          "evidence": [
+            405697,
+            405711
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f62eea96d6026356",
+      "name": "Mr. Vining",
+      "description": "Referenced tutor (mentioned in anecdote).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Vining",
+          "evidence": [
+            406661,
+            406671
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-88f6834acd023d66",
+      "name": "Mr. Rowland Rochester",
+      "description": "Mr. Rochester’s elder brother referenced in family background.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Rowland Rochester",
+          "evidence": [
+            289469,
+            289490
+          ]
+        },
+        {
+          "text": "Rowland Rochester",
+          "evidence": [
+            289473,
+            289490
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9d9b42e2d09b99e5",
+      "name": "Bertha Mason",
+      "description": "Rochester’s first wife, a Creole woman who is mad and confined at Thornfield; responsible for violent outbreaks including setting fires; dies in the blaze that destroys Thornfield.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bertha Mason",
+          "evidence": [
+            667328,
+            667340
+          ]
+        },
+        {
+          "text": "Bertha",
+          "evidence": [
+            663579,
+            663585
+          ]
+        },
+        {
+          "text": "Mrs. Rochester",
+          "evidence": [
+            562454,
+            562468
+          ]
+        },
+        {
+          "text": "my wife",
+          "evidence": [
+            422414,
+            422421
+          ]
+        },
+        {
+          "text": "the lunatic",
+          "evidence": [
+            671466,
+            671477
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d0ca566aa6813492",
+      "name": "Mr. Briggs",
+      "description": "Solicitor who produces the marriage record proving Rochester’s prior marriage and communicates legal particulars to interested parties.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Briggs",
+          "evidence": [
+            663244,
+            663254
+          ]
+        },
+        {
+          "text": "Briggs",
+          "evidence": [
+            662959,
+            662965
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-939f959c6042fd9f",
+      "name": "John Green",
+      "description": "Clerk present at the church ceremony; named as 'John Green' when the wedding is interrupted.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John Green",
+          "evidence": [
+            666339,
+            666349
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-db586d742255f517",
+      "name": "John (Thornfield servant)",
+      "description": "Servant/coachman/footman at Thornfield mentioned in connection with preparing the carriage and luggage.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John",
+          "evidence": [
+            7170,
+            7174
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-825b280da26442b4",
+      "name": "John (Ferndean servant)",
+      "description": "Servant at Ferndean Manor who assists Mr. Rochester; appears with his wife Mary in the Ferndean household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "John",
+          "evidence": [
+            7170,
+            7174
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-031fe9739f0ab7cc",
+      "name": "Mary (John's wife)",
+      "description": "Wife of John at Ferndean; assists with domestic tasks and attends Mr. Rochester.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mary",
+          "evidence": [
+            172318,
+            172322
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-12687a0f6fe6febd",
+      "name": "Mr. Wood",
+      "description": "Local clergyman (the officiating minister at the attempted wedding); referred to as 'Mr. Wood' and 'the clergyman'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Wood",
+          "evidence": [
+            656658,
+            656666
+          ]
+        },
+        {
+          "text": "Wood",
+          "evidence": [
+            656662,
+            656666
+          ]
+        },
+        {
+          "text": "the clergyman",
+          "evidence": [
+            656668,
+            656681
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c05aa8349ff33f2e",
+      "name": "Hannah (Moor House housekeeper)",
+      "description": "Long-serving housekeeper/old servant at Moor House who nursed the Rivers siblings and assists Jane and the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hannah",
+          "evidence": [
+            766872,
+            766878
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b720eedf1d2cd166",
+      "name": "Diana Rivers",
+      "description": "One of the Rivers sisters; cultivated, studious, and hospitable; she and Mary shelter and nurse Jane at Moor House.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Diana",
+          "evidence": [
+            765606,
+            765611
+          ]
+        },
+        {
+          "text": "Diana Rivers",
+          "evidence": [
+            841945,
+            841957
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-605d817d2beb10b3",
+      "name": "Mary Rivers",
+      "description": "One of the Rivers sisters; gentle and intelligent; shares Moor House with Diana and assists Jane.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mary",
+          "evidence": [
+            172318,
+            172322
+          ]
+        },
+        {
+          "text": "Mary Rivers",
+          "evidence": [
+            785961,
+            785972
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bb28acad5516ec52",
+      "name": "St. John Rivers",
+      "description": "Clergyman cousin of Jane (also christened St. John Eyre Rivers); austere, zealous, and missionary-minded; urges Jane to marry him and go to India as a missionary’s wife.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "St. John",
+          "evidence": [
+            480697,
+            480705
+          ]
+        },
+        {
+          "text": "Mr. St. John",
+          "evidence": [
+            768739,
+            768751
+          ]
+        },
+        {
+          "text": "St. John Rivers",
+          "evidence": [
+            785855,
+            785870
+          ]
+        },
+        {
+          "text": "Mr. Rivers",
+          "evidence": [
+            785711,
+            785721
+          ]
+        },
+        {
+          "text": "St. John Eyre Rivers",
+          "evidence": [
+            884705,
+            884725
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fcdb586adae5c617",
+      "name": "Mr. Eyre (of Madeira)",
+      "description": "Jane’s uncle of Madeira whose death and will make Jane an heiress; referenced as 'Mr. Eyre of Madeira'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Eyre",
+          "evidence": [
+            207328,
+            207336
+          ]
+        },
+        {
+          "text": "Mr. Eyre of Madeira",
+          "evidence": [
+            879624,
+            879643
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e39916263b8982fe",
+      "name": "Jonas Mason (Mr. Mason Sr.)",
+      "description": "Father of Bertha Mason cited in the marriage record; appears as part of documentary background.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jonas Mason",
+          "evidence": [
+            663616,
+            663627
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-24d3e95393cb56cd",
+      "name": "Antoinetta (Mrs. Mason)",
+      "description": "Mother of Bertha mentioned in the marriage record as a Creole named Antoinetta.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Antoinetta",
+          "evidence": [
+            663586,
+            663596
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a4b0aa05d727fb07",
+      "name": "Mrs. Poole’s son (keeper at Grimsby Retreat)",
+      "description": "Referenced attendant related to Grace Poole: Mrs. Poole’s son, keeper at Grimsby Retreat, mentioned as available to assist in paroxysms; unnamed in text.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the keeper at Grimsby Retreat",
+          "evidence": [
+            688736,
+            688765
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ab508bae60f2f3b0",
+      "name": "Alice Wood",
+      "description": "A local woman noted as a helpful, teachable attendant who serves Jane in the schoolhouse context.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Alice Wood",
+          "evidence": [
+            838081,
+            838091
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5c09b9ea1daffb6a",
+      "name": "Mr. Oliver",
+      "description": "Wealthy proprietor of Vale Hall who funds local projects and supports the Rivers family; father of Rosamond Oliver.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Oliver",
+          "evidence": [
+            750925,
+            750935
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-181551ea24b81e14",
+      "name": "Rosamond Oliver",
+      "description": "Daughter of Mr. Oliver; beautiful, flirtatious heiress who befriends Jane and later becomes engaged and married to Mr. Granby.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rosamond Oliver",
+          "evidence": [
+            845720,
+            845735
+          ]
+        },
+        {
+          "text": "Miss Oliver",
+          "evidence": [
+            817123,
+            817134
+          ]
+        },
+        {
+          "text": "Rosamond",
+          "evidence": [
+            841097,
+            841105
+          ]
+        },
+        {
+          "text": "Miss Rosamond",
+          "evidence": [
+            841092,
+            841105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5012d4be2dc8e5f3",
+      "name": "Mr. Granby",
+      "description": "Man who ultimately marries Rosamond Oliver; referred to as 'Mr. Granby'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Granby",
+          "evidence": [
+            911221,
+            911231
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2ca5865c9c6d073d",
+      "name": "Sir Frederic Granby",
+      "description": "Elder relation of Mr. Granby (Sir Frederic), referenced as Rosamond’s future family connection.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sir Frederic Granby",
+          "evidence": [
+            911319,
+            911338
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6aa9f3005470e5a0",
+      "name": "Captain Fitzjames",
+      "description": "Naval officer mentioned later in the narrative as Diana’s husband; a gallant and good man.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Fitzjames",
+          "evidence": [
+            1042287,
+            1042304
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-10f9a4e6e1b03810",
+      "name": "Mr. Wharton",
+      "description": "Clergyman mentioned later as Mary Rivers’s husband.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Wharton",
+          "evidence": [
+            1042309,
+            1042320
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a931831e6bb2b62f",
+      "name": "Damer de Rochester",
+      "description": "An ancestor of the Rochester family whose tomb and kneeling angel monument are described in the church setting (referenced in the narrative).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Damer de Rochester",
+          "evidence": [
+            659556,
+            659574
+          ]
+        }
+      ]
+    }
+  ]
+}

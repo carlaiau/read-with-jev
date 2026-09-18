@@ -1,0 +1,955 @@
+{
+  "schema": 1,
+  "gutenbergId": 345,
+  "sourceSha256": "96cd16eacdbfebae8fdda5591f66e0cc8ee76be18e0cd1aca02bc00615782d28",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-682f025ef428f069",
+      "name": "Jonathan Harker",
+      "description": "Young English solicitor; travels to Transylvania, is imprisoned in Castle Dracula, and later pursues the Count; Mina’s husband.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jonathan Harker",
+          "evidence": [
+            1687,
+            1702
+          ]
+        },
+        {
+          "text": "Harker Jonathan",
+          "evidence": [
+            54021,
+            54036
+          ]
+        },
+        {
+          "text": "Jonathan",
+          "evidence": [
+            1687,
+            1695
+          ]
+        },
+        {
+          "text": "Mr. Harker",
+          "evidence": [
+            38634,
+            38644
+          ]
+        },
+        {
+          "text": "Harker",
+          "evidence": [
+            1696,
+            1702
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-71db22143714f065",
+      "name": "Wilhelmina \"Mina\" Harker",
+      "description": "Jonathan Harker’s fiancée and later wife; schoolmistress and stenographer who compiles and transcribes diaries and letters; central female protagonist affected by Dracula.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mina Murray",
+          "evidence": [
+            1878,
+            1889
+          ]
+        },
+        {
+          "text": "Mina Harker",
+          "evidence": [
+            2176,
+            2187
+          ]
+        },
+        {
+          "text": "MINA HARKER",
+          "evidence": [
+            246712,
+            246723
+          ]
+        },
+        {
+          "text": "Wilhelmina",
+          "evidence": [
+            230726,
+            230736
+          ]
+        },
+        {
+          "text": "Mina",
+          "evidence": [
+            1860,
+            1864
+          ]
+        },
+        {
+          "text": "Madam Mina",
+          "evidence": [
+            406896,
+            406906
+          ]
+        },
+        {
+          "text": "Mrs. Harker",
+          "evidence": [
+            406444,
+            406455
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b82ef9527277293e",
+      "name": "Count Dracula",
+      "description": "Transylvanian nobleman and vampire antagonist who travels to England; his lairs and movements drive the plot.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "DRACULA.",
+          "evidence": [
+            10412,
+            10420
+          ]
+        },
+        {
+          "text": "Dracula",
+          "evidence": [
+            5092,
+            5099
+          ]
+        },
+        {
+          "text": "Count Dracula",
+          "evidence": [
+            5243,
+            5256
+          ]
+        },
+        {
+          "text": "the Count",
+          "evidence": [
+            6056,
+            6065
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0ae12fdc3172167d",
+      "name": "Lucy Westenra",
+      "description": "Young English woman, friend of Mina; becomes a target and victim of Dracula’s predations.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lucy",
+          "evidence": [
+            1851,
+            1855
+          ]
+        },
+        {
+          "text": "Miss Lucy",
+          "evidence": [
+            125702,
+            125711
+          ]
+        },
+        {
+          "text": "Lucy Westenra",
+          "evidence": [
+            2073,
+            2086
+          ]
+        },
+        {
+          "text": "Miss Lucy Westenra",
+          "evidence": [
+            125702,
+            125720
+          ]
+        },
+        {
+          "text": "LUCY",
+          "evidence": [
+            130666,
+            130670
+          ]
+        },
+        {
+          "text": "poor Lucy",
+          "evidence": [
+            211271,
+            211280
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5d154fc256bb5197",
+      "name": "Dr. John Seward",
+      "description": "Physician and keeper of an asylum; diarist (phonograph entries) and central investigator in the case.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Seward",
+          "evidence": [
+            2109,
+            2119
+          ]
+        },
+        {
+          "text": "John Seward",
+          "evidence": [
+            132283,
+            132294
+          ]
+        },
+        {
+          "text": "Jack Seward",
+          "evidence": [
+            143474,
+            143485
+          ]
+        },
+        {
+          "text": "Dr. John Seward",
+          "evidence": [
+            132279,
+            132294
+          ]
+        },
+        {
+          "text": "Seward",
+          "evidence": [
+            2113,
+            2119
+          ]
+        },
+        {
+          "text": "John",
+          "evidence": [
+            132283,
+            132287
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1a03709c892c919d",
+      "name": "Professor Abraham Van Helsing",
+      "description": "Dutch physician, scholar, and vampire expert who is called in to assist and leads the hunt against Dracula.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Van Helsing",
+          "evidence": [
+            2576,
+            2587
+          ]
+        },
+        {
+          "text": "Professor Van Helsing",
+          "evidence": [
+            258449,
+            258470
+          ]
+        },
+        {
+          "text": "Dr. Van Helsing",
+          "evidence": [
+            278081,
+            278096
+          ]
+        },
+        {
+          "text": "Abraham Van Helsing",
+          "evidence": [
+            259910,
+            259929
+          ]
+        },
+        {
+          "text": "VAN HELSING.",
+          "evidence": [
+            261013,
+            261025
+          ]
+        },
+        {
+          "text": "the Professor",
+          "evidence": [
+            278153,
+            278166
+          ]
+        },
+        {
+          "text": "Professor",
+          "evidence": [
+            258449,
+            258458
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5653c4f4624c5939",
+      "name": "R. M. Renfield",
+      "description": "Patient at Dr. Seward’s asylum with zoöphagous compulsions; variously implicated in Dracula’s activities.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "R. M. Renfield",
+          "evidence": [
+            142194,
+            142208
+          ]
+        },
+        {
+          "text": "Renfield",
+          "evidence": [
+            142200,
+            142208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cdfac094c90b08a1",
+      "name": "Quincey P. Morris",
+      "description": "American from Texas; friend of the party and skilled hunter who aids the fight against Dracula.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Quincey P. Morris",
+          "evidence": [
+            142888,
+            142905
+          ]
+        },
+        {
+          "text": "Quincey Morris",
+          "evidence": [
+            338538,
+            338552
+          ]
+        },
+        {
+          "text": "Mr. Morris",
+          "evidence": [
+            134896,
+            134906
+          ]
+        },
+        {
+          "text": "Quincey",
+          "evidence": [
+            135008,
+            135015
+          ]
+        },
+        {
+          "text": "Morris",
+          "evidence": [
+            134900,
+            134906
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-43395160a1866bfb",
+      "name": "Arthur Holmwood (Lord Godalming)",
+      "description": "Hon. Arthur Holmwood (later Lord Godalming); Lucy’s suitor/husband and aristocratic ally in the effort against Dracula.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hon. Arthur Holmwood",
+          "evidence": [
+            142909,
+            142929
+          ]
+        },
+        {
+          "text": "Arthur Holmwood",
+          "evidence": [
+            142914,
+            142929
+          ]
+        },
+        {
+          "text": "Arthur",
+          "evidence": [
+            129728,
+            129734
+          ]
+        },
+        {
+          "text": "Hon. Arthur",
+          "evidence": [
+            142909,
+            142920
+          ]
+        },
+        {
+          "text": "Lord Godalming",
+          "evidence": [
+            168276,
+            168290
+          ]
+        },
+        {
+          "text": "Art",
+          "evidence": [
+            129728,
+            129731
+          ]
+        },
+        {
+          "text": "Godalming",
+          "evidence": [
+            168281,
+            168290
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4dcb8794e13e3c36",
+      "name": "Sister Agatha",
+      "description": "Sister at the Buda-Pesth sanatorium who nurses Jonathan Harker after his illness and reports on his condition.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sister Agatha",
+          "evidence": [
+            230652,
+            230665
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a275df1d8efd9e7a",
+      "name": "Peter Hawkins",
+      "description": "Jonathan Harker’s employer/agent in Exeter who arranged the legal business with Count Dracula.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Peter Hawkins",
+          "evidence": [
+            54289,
+            54302
+          ]
+        },
+        {
+          "text": "Mr. Peter Hawkins",
+          "evidence": [
+            72617,
+            72634
+          ]
+        },
+        {
+          "text": "Mr. Hawkins",
+          "evidence": [
+            40837,
+            40848
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87abfb20af2f5ca3",
+      "name": "Samuel F. Billington",
+      "description": "Solicitor in Whitby who receives the Demeter’s consignment and corresponds about delivery of the boxes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Samuel F. Billington",
+          "evidence": [
+            77305,
+            77325
+          ]
+        },
+        {
+          "text": "Mr. S. F. Billington",
+          "evidence": [
+            187753,
+            187773
+          ]
+        },
+        {
+          "text": "Mr. Billington",
+          "evidence": [
+            510110,
+            510124
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-42f09f8f83240eb4",
+      "name": "Captain of the Demeter",
+      "description": "Master of the Russian schooner Demeter whose strange arrival and death at the wheel are narrated.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "captain",
+          "evidence": [
+            176609,
+            176616
+          ]
+        },
+        {
+          "text": "the captain",
+          "evidence": [
+            189965,
+            189976
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c373d38e93c88e73",
+      "name": "Dog from the Demeter",
+      "description": "Large dog that lands from the wrecked Demeter and runs up to the churchyard; later disappears.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the dog",
+          "evidence": [
+            21388,
+            21395
+          ]
+        },
+        {
+          "text": "dog",
+          "evidence": [
+            6196,
+            6199
+          ]
+        },
+        {
+          "text": "great dog",
+          "evidence": [
+            201160,
+            201169
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef01b52edd5fba0d",
+      "name": "Three Vampire Women (the Brides)",
+      "description": "Three seductive, predatory women encountered by Jonathan Harker in Castle Dracula who attack him while he is in a sleep-trance.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "three young women",
+          "evidence": [
+            88314,
+            88331
+          ]
+        },
+        {
+          "text": "the other two",
+          "evidence": [
+            57705,
+            57718
+          ]
+        },
+        {
+          "text": "the women",
+          "evidence": [
+            93626,
+            93635
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d3ea84d3f001376d",
+      "name": "Szgany (Gypsies)",
+      "description": "Band of Szgany/gypsies who camp at Castle Dracula, move earth-boxes, and transport the Count’s chest (includes their unnamed leader).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Szgany",
+          "evidence": [
+            97624,
+            97630
+          ]
+        },
+        {
+          "text": "gipsies",
+          "evidence": [
+            97709,
+            97716
+          ]
+        },
+        {
+          "text": "leader of the gypsies",
+          "evidence": [
+            852647,
+            852668
+          ]
+        },
+        {
+          "text": "the leader",
+          "evidence": [
+            853916,
+            853926
+          ]
+        },
+        {
+          "text": "the Szgany",
+          "evidence": [
+            102699,
+            102709
+          ]
+        },
+        {
+          "text": "gypsies",
+          "evidence": [
+            848229,
+            848236
+          ]
+        },
+        {
+          "text": "the gypsies",
+          "evidence": [
+            852657,
+            852668
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0ebb59fb107d8337",
+      "name": "Slovaks",
+      "description": "Group of Slovak labourers and river-traders who handle heavy boxes and earth at Castle Dracula and Carfax.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Slovaks",
+          "evidence": [
+            8159,
+            8166
+          ]
+        },
+        {
+          "text": "Slovak",
+          "evidence": [
+            8159,
+            8165
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-19c5f7b3c39d54e9",
+      "name": "Wolves",
+      "description": "Packs of wolves that howl in the Pass and are associated with Dracula’s influence; appear repeatedly in the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "wolves",
+          "evidence": [
+            28840,
+            28846
+          ]
+        },
+        {
+          "text": "the wolves",
+          "evidence": [
+            30310,
+            30320
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9e6e31ee2d072508",
+      "name": "Thomas Bilder",
+      "description": "Keeper of the wolf and related enclosures at the Zoological Gardens; provides an eyewitness account about an escaped wolf.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Thomas Bilder",
+          "evidence": [
+            310711,
+            310724
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8071adc10b86ef5f",
+      "name": "Mrs. Tom",
+      "description": "Wife of Thomas Bilder, long associated with the wolf-keeper and hospitable to visitors.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Tom",
+          "evidence": [
+            313670,
+            313678
+          ]
+        },
+        {
+          "text": "the old lady",
+          "evidence": [
+            11377,
+            11389
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b1bb86a68b791629",
+      "name": "Jack (Joseph) Smollet",
+      "description": "Carter/handler involved in moving boxes from Carfax and other sites (appears as Jack and Joseph Smollet).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jack Smollet",
+          "evidence": [
+            357458,
+            357470
+          ]
+        },
+        {
+          "text": "Smollet",
+          "evidence": [
+            357463,
+            357470
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-69d4d2ab0166f472",
+      "name": "Sam Bloxam",
+      "description": "Labourer who handled box deliveries to Piccadilly and gives an account of lifting heavy boxes from Carfax.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sam Bloxam",
+          "evidence": [
+            592025,
+            592035
+          ]
+        },
+        {
+          "text": "Bloxam",
+          "evidence": [
+            591805,
+            591811
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e8ae23aba52d8bf1",
+      "name": "Mr. Swales",
+      "description": "Old Whitby churchyard man who comments on graves and local legends in the town.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Swales",
+          "evidence": [
+            151892,
+            151902
+          ]
+        },
+        {
+          "text": "Swales",
+          "evidence": [
+            151896,
+            151902
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6c46962fa635cd3d",
+      "name": "Immanuel Hildesheim",
+      "description": "Local agent in Galatz who received instructions concerning the Count’s box.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Immanuel Hildesheim",
+          "evidence": [
+            792734,
+            792753
+          ]
+        },
+        {
+          "text": "Hildesheim",
+          "evidence": [
+            792743,
+            792753
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d1fee80fa392e5a7",
+      "name": "Petrof Skinsky",
+      "description": "Agent who took delivery of the chest at Galatz and is later found dead.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Petrof Skinsky",
+          "evidence": [
+            793397,
+            793411
+          ]
+        },
+        {
+          "text": "Skinsky",
+          "evidence": [
+            793404,
+            793411
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b1e85e469ce130da",
+      "name": "Captain Donelson",
+      "description": "Captain of the ship Czarina Catherine; provides testimony about the voyage and the box.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Donelson",
+          "evidence": [
+            799678,
+            799694
+          ]
+        },
+        {
+          "text": "Donelson",
+          "evidence": [
+            788932,
+            788940
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b15ae2c8c91585b2",
+      "name": "Ristics",
+      "description": "Named agent cited as a recipient of the Count’s box at Varna/Danubemouth.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ristics",
+          "evidence": [
+            723465,
+            723472
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5db2315dcf352512",
+      "name": "Mr. de Ville",
+      "description": "Person in London who sent instructions to Hildesheim regarding the box.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. de Ville",
+          "evidence": [
+            793189,
+            793201
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b941bcc6cf468c87",
+      "name": "Rufus Smith",
+      "description": "Lloyd’s correspondent named in a telegram reporting the ship’s movement.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rufus Smith",
+          "evidence": [
+            761163,
+            761174
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e3d228c27c766d1c",
+      "name": "Telegraph boy",
+      "description": "Messenger youth who brings a despatch and alerts the party (unnamed).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "telegraph boy",
+          "evidence": [
+            688439,
+            688452
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d1cd263b29a225d4",
+      "name": "Asylum attendant",
+      "description": "Unnamed attendant on duty at the asylum who discovers Renfield after his fall.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "attendant",
+          "evidence": [
+            163513,
+            163522
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7718e1d5bf5eed63",
+      "name": "Locksmith / working man (Piccadilly)",
+      "description": "Workman/locksmith hired to gain entry to the Piccadilly house and who assists Godalming.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "locksmith",
+          "evidence": [
+            664329,
+            664338
+          ]
+        },
+        {
+          "text": "workman",
+          "evidence": [
+            590413,
+            590420
+          ]
+        },
+        {
+          "text": "working man",
+          "evidence": [
+            679422,
+            679433
+          ]
+        }
+      ]
+    }
+  ]
+}

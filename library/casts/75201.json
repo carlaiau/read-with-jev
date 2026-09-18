@@ -1,0 +1,883 @@
+{
+  "schema": 1,
+  "gutenbergId": 75201,
+  "sourceSha256": "e33b8eea4483cbd5cff9cfe759a7440b358cfa586f30e584813777b712d0bd1f",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-2a091d63bc07d3f0",
+      "name": "Frederic Henry",
+      "description": "American ambulance lieutenant (driver) and first-person narrator of the novel",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Frederic Henry",
+          "evidence": [
+            124826,
+            124840
+          ]
+        },
+        {
+          "text": "Henry",
+          "evidence": [
+            35841,
+            35846
+          ]
+        },
+        {
+          "text": "Mr. Henry",
+          "evidence": [
+            35837,
+            35846
+          ]
+        },
+        {
+          "text": "Tenente",
+          "evidence": [
+            22081,
+            22088
+          ]
+        },
+        {
+          "text": "Tenente Enry",
+          "evidence": [
+            142950,
+            142962
+          ]
+        },
+        {
+          "text": "Federico",
+          "evidence": [
+            59376,
+            59384
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e93533909a7aee38",
+      "name": "Catherine Barkley",
+      "description": "British V.A.D. nurse; Frederic Henry's lover and later wife; dies in childbirth",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Catherine Barkley",
+          "evidence": [
+            42227,
+            42244
+          ]
+        },
+        {
+          "text": "Miss Barkley",
+          "evidence": [
+            16472,
+            16484
+          ]
+        },
+        {
+          "text": "Catherine",
+          "evidence": [
+            36078,
+            36087
+          ]
+        },
+        {
+          "text": "Cat",
+          "evidence": [
+            36078,
+            36081
+          ]
+        },
+        {
+          "text": "Mrs. Henry",
+          "evidence": [
+            465739,
+            465749
+          ]
+        },
+        {
+          "text": "Madame Henry",
+          "evidence": [
+            455744,
+            455756
+          ]
+        },
+        {
+          "text": "Catherine Henry",
+          "evidence": [
+            451747,
+            451762
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-210cfe007a4dbbeb",
+      "name": "Rinaldi",
+      "description": "Italian lieutenant, surgeon and close friend/roommate of Frederic Henry",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rinaldi",
+          "evidence": [
+            14789,
+            14796
+          ]
+        },
+        {
+          "text": "Rinaldo",
+          "evidence": [
+            246657,
+            246664
+          ]
+        },
+        {
+          "text": "Rinin",
+          "evidence": [
+            60086,
+            60091
+          ]
+        },
+        {
+          "text": "Rinaldo Purissimo",
+          "evidence": [
+            246657,
+            246674
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d00737ce32977482",
+      "name": "the priest",
+      "description": "young priest attached to the ambulance mess; frequently present at the mess and a friend of the officers",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "priest",
+          "evidence": [
+            8243,
+            8249
+          ]
+        },
+        {
+          "text": "Priest",
+          "evidence": [
+            9383,
+            9389
+          ]
+        },
+        {
+          "text": "father",
+          "evidence": [
+            13179,
+            13185
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e2b794cb61ed4fc6",
+      "name": "the major",
+      "description": "the major in command at the ambulance/hospital mess (senior officer often directing ambulance operations)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "major",
+          "evidence": [
+            10140,
+            10145
+          ]
+        },
+        {
+          "text": "Signor Maggiore",
+          "evidence": [
+            116653,
+            116668
+          ]
+        },
+        {
+          "text": "Maggiore",
+          "evidence": [
+            116660,
+            116668
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-df7d8a70881ed30a",
+      "name": "the captain",
+      "description": "officer at the mess who frequently taunts the priest and participates in mess banter",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "captain",
+          "evidence": [
+            9036,
+            9043
+          ]
+        },
+        {
+          "text": "the captain",
+          "evidence": [
+            9032,
+            9043
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7485e887a5451410",
+      "name": "Helen Ferguson",
+      "description": "British V.A.D. nurse; friend of Catherine Barkley; often called 'Fergy' by Catherine",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Ferguson",
+          "evidence": [
+            29473,
+            29486
+          ]
+        },
+        {
+          "text": "Helen Ferguson",
+          "evidence": [
+            28151,
+            28165
+          ]
+        },
+        {
+          "text": "Ferguson",
+          "evidence": [
+            28141,
+            28149
+          ]
+        },
+        {
+          "text": "Fergy",
+          "evidence": [
+            156299,
+            156304
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-82762b9ea0a5e139",
+      "name": "Miss Van Campen",
+      "description": "superintendent/head nurse at the American hospital in Milan",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Van Campen",
+          "evidence": [
+            126493,
+            126508
+          ]
+        },
+        {
+          "text": "Van Campen",
+          "evidence": [
+            126498,
+            126508
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bf548514ac68f3fc",
+      "name": "Miss Gage",
+      "description": "nurse at the American hospital who attends Frederic and Catherine",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Gage",
+          "evidence": [
+            127032,
+            127041
+          ]
+        },
+        {
+          "text": "Gage",
+          "evidence": [
+            127037,
+            127041
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f628138a2699a0ef",
+      "name": "Mrs. Walker",
+      "description": "older nurse at the American hospital (on night duty when Frederic first arrives)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Walker",
+          "evidence": [
+            123737,
+            123748
+          ]
+        },
+        {
+          "text": "Walker",
+          "evidence": [
+            123742,
+            123748
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-796178c73fcfb0d7",
+      "name": "Dr. Valentini",
+      "description": "surgeon in Milan who operates on Frederic's knee (major and noted surgeon)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Valentini",
+          "evidence": [
+            145237,
+            145250
+          ]
+        },
+        {
+          "text": "Valentini",
+          "evidence": [
+            144284,
+            144293
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-21db67d537845b39",
+      "name": "Dr. Varella",
+      "description": "surgeon at the Ospedale Maggiore consulted about Frederic's knee",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Varella",
+          "evidence": [
+            144183,
+            144194
+          ]
+        },
+        {
+          "text": "Varella",
+          "evidence": [
+            144187,
+            144194
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4abadae2da429827",
+      "name": "Capitano Varini",
+      "description": "military surgeon (appears in Milan hospital consults)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Capitano Varini",
+          "evidence": [
+            142934,
+            142949
+          ]
+        },
+        {
+          "text": "Varini",
+          "evidence": [
+            142943,
+            142949
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d35ee86d9e1fe0b",
+      "name": "Gino",
+      "description": "ambulance driver/mechanic who knows local roads and posts (works with Henry)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gino",
+          "evidence": [
+            236208,
+            236212
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ba2b97b3bdcf445d",
+      "name": "Gordini",
+      "description": "ambulance driver (friend and fellow driver); also called 'Franco' in the text",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gordini",
+          "evidence": [
+            76174,
+            76181
+          ]
+        },
+        {
+          "text": "Franco",
+          "evidence": [
+            88223,
+            88229
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d254456cec4a880",
+      "name": "Passini",
+      "description": "ambulance driver/mechanic; appears among the drivers at posts",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Passini",
+          "evidence": [
+            70123,
+            70130
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-240a307cb793c7d5",
+      "name": "Manera",
+      "description": "ambulance driver/mechanic in Frederic's unit",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Manera",
+          "evidence": [
+            69951,
+            69957
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bb28b75c826059a1",
+      "name": "Gavuzzi",
+      "description": "ambulance driver/mechanic in Frederic's unit",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gavuzzi",
+          "evidence": [
+            71324,
+            71331
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b985287e1765d3af",
+      "name": "Bonello",
+      "description": "ambulance driver who participates in the retreat episodes (kills a sergeant in one scene)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bonello",
+          "evidence": [
+            272874,
+            272881
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d64ddca31da38644",
+      "name": "Piani",
+      "description": "ambulance driver who travels with Frederic during the retreat",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Piani",
+          "evidence": [
+            274258,
+            274263
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-33abe88848c0ba1a",
+      "name": "Bartolomeo Aymo",
+      "description": "ambulance driver (often called 'Barto' or 'Aymo'); travels with Frederic's car",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aymo",
+          "evidence": [
+            274587,
+            274591
+          ]
+        },
+        {
+          "text": "Bartolomeo Aymo",
+          "evidence": [
+            279929,
+            279944
+          ]
+        },
+        {
+          "text": "Barto",
+          "evidence": [
+            276355,
+            276360
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9aea93fc8a7b0274",
+      "name": "Peduzzi",
+      "description": "ambulance section member mentioned as accompanying movements",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Peduzzi",
+          "evidence": [
+            253520,
+            253527
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f0733274f937ee40",
+      "name": "Crowell Rodgers",
+      "description": "American (from Georgia) wounded man with eye injury who appears at the hospital",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Crowell Rodgers",
+          "evidence": [
+            184005,
+            184020
+          ]
+        },
+        {
+          "text": "Crowell",
+          "evidence": [
+            184005,
+            184012
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e829c309dc12e6fd",
+      "name": "Ettore Moretti",
+      "description": "Italian officer (from San Francisco) and boastful veteran; social presence in Milan",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ettore Moretti",
+          "evidence": [
+            172871,
+            172885
+          ]
+        },
+        {
+          "text": "Ettore",
+          "evidence": [
+            172871,
+            172877
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-00d4bfa14b202270",
+      "name": "Mr. Meyers",
+      "description": "social gentleman in Milan who attends races and befriends some characters",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Meyers",
+          "evidence": [
+            171064,
+            171070
+          ]
+        },
+        {
+          "text": "Mr. Meyers",
+          "evidence": [
+            188131,
+            188141
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5146094cc36387d6",
+      "name": "Mrs. Meyers",
+      "description": "Mrs. Meyers, wife of Mr. Meyers, social frequent visitor to the hospital",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Meyers",
+          "evidence": [
+            171528,
+            171539
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-086b2339cb2d605b",
+      "name": "George",
+      "description": "head-waiter at restaurants (e.g., Gran Italia) who attends Frederic and Catherine",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "George",
+          "evidence": [
+            115712,
+            115718
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f49d33d34195af5d",
+      "name": "Count Greffi",
+      "description": "elderly count and billiards player encountered by Frederic in Stresa/Milan",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Count Greffi",
+          "evidence": [
+            369271,
+            369283
+          ]
+        },
+        {
+          "text": "the Count",
+          "evidence": [
+            376630,
+            376639
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8c13a0b618d46c4d",
+      "name": "Emilio",
+      "description": "barman/boatman at Stresa who helps Frederic and Catherine escape by boat",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Emilio",
+          "evidence": [
+            384628,
+            384634
+          ]
+        },
+        {
+          "text": "barman",
+          "evidence": [
+            356145,
+            356151
+          ]
+        },
+        {
+          "text": "the barman",
+          "evidence": [
+            356141,
+            356151
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1874b170475b3f1b",
+      "name": "the hospital porter",
+      "description": "porter at the American/British hospital in Gorizia who assists Frederic and Catherine; his wife also appears",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "porter",
+          "evidence": [
+            54616,
+            54622
+          ]
+        },
+        {
+          "text": "the porter",
+          "evidence": [
+            120499,
+            120509
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-590a48be285ba657",
+      "name": "the tall Englishman",
+      "description": "tall English ambulance driver/medic who helps Frederic after the field dressing-station incident",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the tall Englishman",
+          "evidence": [
+            88389,
+            88408
+          ]
+        },
+        {
+          "text": "Englishman",
+          "evidence": [
+            87723,
+            87733
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-64074e7232d82d83",
+      "name": "Bassi",
+      "description": "officer at the mess who participates in drinking and storytelling",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bassi",
+          "evidence": [
+            59049,
+            59054
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f463459580fbb850",
+      "name": "Rocca",
+      "description": "officer at the mess who tells stories and anecdotes",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rocca",
+          "evidence": [
+            56996,
+            57001
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e39833f81bc0615f",
+      "name": "the medical captain",
+      "description": "medical captain at field dressing station who first treats Frederic and dictates medical conclusions (unnamed)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "medical captain",
+          "evidence": [
+            77000,
+            77015
+          ]
+        },
+        {
+          "text": "captain doctor",
+          "evidence": [
+            49825,
+            49839
+          ]
+        },
+        {
+          "text": "the captain doctor",
+          "evidence": [
+            49821,
+            49839
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-407a4345b8f16f02",
+      "name": "the King",
+      "description": "the King of Italy mentioned as passing in a motor-car near the front (Vittorio Emmanuele referenced)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the King",
+          "evidence": [
+            4941,
+            4949
+          ]
+        },
+        {
+          "text": "Vittorio Emmanuele",
+          "evidence": [
+            52497,
+            52515
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4ec7dc30cce34a3f",
+      "name": "Mr. Henry's baby (unborn/deceased infant)",
+      "description": "the child born to Frederic Henry and Catherine Barkley; stillborn (briefly presented in narrative)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the baby",
+          "evidence": [
+            226287,
+            226295
+          ]
+        },
+        {
+          "text": "the child",
+          "evidence": [
+            386797,
+            386806
+          ]
+        },
+        {
+          "text": "the little darling",
+          "evidence": [
+            471196,
+            471214
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cb349b93e8b62828",
+      "name": "woodcutter (unnamed)",
+      "description": "unnamed local woodcutter(s) encountered near the Bains de l'Alliaz who populate the mountain inn scenes",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "woodcutter",
+          "evidence": [
+            436911,
+            436921
+          ]
+        },
+        {
+          "text": "the woodcutters",
+          "evidence": [
+            437344,
+            437359
+          ]
+        }
+      ]
+    }
+  ]
+}

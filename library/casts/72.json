@@ -1,0 +1,513 @@
+{
+  "schema": 1,
+  "gutenbergId": 72,
+  "sourceSha256": "5ad6732dba9d385518aaccabd775fce28e28e9d90b6046b9cd2d011e96684ae0",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-46f0dd203e58316a",
+      "name": "Thuvia of Ptarth",
+      "description": "Princess of Ptarth, central female protagonist",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Thuvia",
+          "evidence": [
+            884,
+            890
+          ]
+        },
+        {
+          "text": "Thuvia of Ptarth",
+          "evidence": [
+            1845,
+            1861
+          ]
+        },
+        {
+          "text": "Princess of Ptarth",
+          "evidence": [
+            3826,
+            3844
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9a1e61c952fc5e08",
+      "name": "Carthoris of Helium",
+      "description": "Prince of Helium; son of John Carter and Dejah Thoris; central male protagonist",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Carthoris",
+          "evidence": [
+            5430,
+            5439
+          ]
+        },
+        {
+          "text": "Carthoris of Helium",
+          "evidence": [
+            5430,
+            5449
+          ]
+        },
+        {
+          "text": "Prince of Helium",
+          "evidence": [
+            6531,
+            6547
+          ]
+        },
+        {
+          "text": "Turjun",
+          "evidence": [
+            221434,
+            221440
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4c83584dc50bf682",
+      "name": "John Carter",
+      "description": "Warlord of Mars; father of Carthoris (mentioned participant)",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "John Carter",
+          "evidence": [
+            14523,
+            14534
+          ]
+        },
+        {
+          "text": "John Carter, Warlord of Mars",
+          "evidence": [
+            40861,
+            40889
+          ]
+        },
+        {
+          "text": "Warlord of Mars",
+          "evidence": [
+            5639,
+            5654
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5bde2c07db4775ba",
+      "name": "Dejah Thoris",
+      "description": "Princess of Helium; wife of John Carter (mentioned)",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Dejah Thoris",
+          "evidence": [
+            5897,
+            5909
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e6e2df0db1225fa0",
+      "name": "Thuvan Dihn",
+      "description": "Jeddak (ruler) of Ptarth; Thuvia’s father",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Thuvan Dihn",
+          "evidence": [
+            2542,
+            2553
+          ]
+        },
+        {
+          "text": "Jeddak of Ptarth",
+          "evidence": [
+            1717,
+            1733
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a9b9d4ba532f8a9a",
+      "name": "Astok",
+      "description": "Prince of Dusar; abductor of Thuvia and instigator in plot",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Astok",
+          "evidence": [
+            2464,
+            2469
+          ]
+        },
+        {
+          "text": "Prince of Dusar",
+          "evidence": [
+            2769,
+            2784
+          ]
+        },
+        {
+          "text": "Astok of Dusar",
+          "evidence": [
+            208946,
+            208960
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd95bacb0972c03d",
+      "name": "Vas Kor",
+      "description": "Dusarian noble and operative in the abduction plot",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Vas Kor",
+          "evidence": [
+            31927,
+            31934
+          ]
+        },
+        {
+          "text": "Vas Kor of Dusar",
+          "evidence": [
+            226700,
+            226716
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1517b3f9fba7ab8c",
+      "name": "Hal Vas",
+      "description": "Son of Vas Kor; Dwar (captain) of the Road for his district",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Hal Vas",
+          "evidence": [
+            201638,
+            201645
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-96f71bcb07a51bfc",
+      "name": "Saran Tal",
+      "description": "Major-domo in Carthoris’ household (mentioned)",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Saran Tal",
+          "evidence": [
+            44407,
+            44416
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7366c2cfb0bdbd51",
+      "name": "Padwar (lieutenant of the guard)",
+      "description": "Lieutenant of the palace guard at Ptarth (addressed as 'Padwar')",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Padwar",
+          "evidence": [
+            8534,
+            8540
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-08f2582bb4afd7a7",
+      "name": "Kulan Tith",
+      "description": "Jeddak of Kaol; Thuvia’s betrothed",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Kulan Tith",
+          "evidence": [
+            13753,
+            13763
+          ]
+        },
+        {
+          "text": "Jeddak of Kaol",
+          "evidence": [
+            13765,
+            13779
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1e2dc9c5e7940296",
+      "name": "Kar Komak",
+      "description": "Odwar (commander) and famed bowman of Lothar who aids Carthoris",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Kar Komak",
+          "evidence": [
+            170974,
+            170983
+          ]
+        },
+        {
+          "text": "Kar Komak, the bowman",
+          "evidence": [
+            233766,
+            233787
+          ]
+        },
+        {
+          "text": "Kar Komak, odwar of the bowmen",
+          "evidence": [
+            170974,
+            171004
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-46a90dc0a27d9600",
+      "name": "Komal",
+      "description": "Named banth (huge Barsoomian lion) regarded as the god of Lothar",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Komal",
+          "evidence": [
+            113153,
+            113158
+          ]
+        },
+        {
+          "text": "Komal, god of Lothar",
+          "evidence": [
+            189164,
+            189184
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-308092e64e250087",
+      "name": "Jav",
+      "description": "Lotharian attendant/realist; courtier of Tario",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Jav",
+          "evidence": [
+            108843,
+            108846
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3b316bd4a8f8f119",
+      "name": "Tario",
+      "description": "Jeddak of Lothar; ruler encountered by Carthoris and Thuvia",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Tario",
+          "evidence": [
+            105864,
+            105869
+          ]
+        },
+        {
+          "text": "Jeddak of Lothar",
+          "evidence": [
+            106020,
+            106036
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8cf63f356998fbde",
+      "name": "Thar Ban",
+      "description": "Jed among the hordes of Torquas (green warrior encountered in Aaanthor)",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Thar Ban",
+          "evidence": [
+            55402,
+            55410
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7fea38e4dbe78a2f",
+      "name": "Hortan Gur",
+      "description": "Jeddak of Torquas; leader of the Torquasian green hordes",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Hortan Gur",
+          "evidence": [
+            81634,
+            81644
+          ]
+        },
+        {
+          "text": "Jeddak of Torquas",
+          "evidence": [
+            81646,
+            81663
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-471c6d1aed6c4e29",
+      "name": "Larok",
+      "description": "Dusarian warrior-artificer involved in tampering with Carthoris’ compass/lock sketch",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Larok",
+          "evidence": [
+            30493,
+            30498
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c293ace2b0349e02",
+      "name": "Tars Tarkas",
+      "description": "Green chieftain (Jeddak of Thark); referenced participant in Thuvia’s past",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Tars Tarkas",
+          "evidence": [
+            52540,
+            52551
+          ]
+        },
+        {
+          "text": "Jeddak of Thark",
+          "evidence": [
+            52553,
+            52568
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3483b28624c07068",
+      "name": "Tardos Mors",
+      "description": "Jeddak of Helium; appears in council regarding Thuvia’s abduction",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Tardos Mors",
+          "evidence": [
+            101707,
+            101718
+          ]
+        },
+        {
+          "text": "Jeddak of Helium",
+          "evidence": [
+            40909,
+            40925
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5bc4ab3ba97a3158",
+      "name": "Mors Kajak",
+      "description": "Son of Tardos Mors; Jed of Lesser Helium (mentioned)",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Mors Kajak",
+          "evidence": [
+            40927,
+            40937
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-81169db74bffe117",
+      "name": "Nutus",
+      "description": "Jeddak of Dusar; Astok’s father and instigator of schemes concerning Thuvia",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Nutus",
+          "evidence": [
+            211364,
+            211369
+          ]
+        },
+        {
+          "text": "Jeddak of Dusar",
+          "evidence": [
+            211371,
+            211386
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-783470e4fcd8c7a2",
+      "name": "Woola",
+      "description": "Named calot (pet animal) associated with John Carter (mentioned)",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Woola",
+          "evidence": [
+            98689,
+            98694
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3b04642b532bcda1",
+      "name": "Xodar",
+      "description": "Dator among the First Born; leader of an allied fleet referenced in the battle narrative",
+      "scope": "Thuvia, Maid of Mars",
+      "aliases": [
+        {
+          "text": "Xodar",
+          "evidence": [
+            237655,
+            237660
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "chunks": [
+    {
+      "start": 886,
+      "end": 492740,
+      "key": "7aaedbef74503e8ebe192a325b2342bcd2cc5dd6460f011129013c441956da6c",
+      "usage": {
+        "input_tokens": 144552,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7365,
+        "output_tokens_details": {
+          "reasoning_tokens": 5952
+        },
+        "total_tokens": 151917
+      }
+    }
+  ],
+  "consolidation": null,
+  "rejected": [
+    {
+      "name": "James Fitz-James",
+      "alias": "Snowdoun's Knight, James Fitz-James",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Brian the Hermit",
+      "alias": "the Hermit Monk",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Brian the Hermit",
+      "alias": "the Monk",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Earl of Mar",
+      "alias": "Lord Mar",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

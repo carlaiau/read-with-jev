@@ -1,0 +1,699 @@
+{
+  "schema": 1,
+  "gutenbergId": 564,
+  "sourceSha256": "a4cf4c82590e2d803695f5ed6fc7199eb2da33d848c452945def288f64163cfa",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-30bc3ae84aa910c3",
+      "name": "John Jasper",
+      "description": "Choir-master / orchestra leader at Cloisterham Cathedral; uncle of Edwin Drood; brooding, devoted, and obsessed with the mystery surrounding his nephew.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "John Jasper",
+          "evidence": [
+            77250,
+            77261
+          ]
+        },
+        {
+          "text": "Mr. Jasper",
+          "evidence": [
+            10491,
+            10501
+          ]
+        },
+        {
+          "text": "Jasper",
+          "evidence": [
+            10495,
+            10501
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3962a5d942f919be",
+      "name": "Edwin Drood",
+      "description": "Young heir and pupil (aspiring engineer); betrothed to Rosa Bud; last seen in Cloisterham before his mysterious disappearance.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Edwin Drood",
+          "evidence": [
+            873,
+            884
+          ]
+        },
+        {
+          "text": "Edwin",
+          "evidence": [
+            873,
+            878
+          ]
+        },
+        {
+          "text": "Mr. Edwin Drood",
+          "evidence": [
+            40785,
+            40800
+          ]
+        },
+        {
+          "text": "Ned",
+          "evidence": [
+            19880,
+            19883
+          ]
+        },
+        {
+          "text": "Eddy",
+          "evidence": [
+            41947,
+            41951
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d21f08711ea074f4",
+      "name": "Rosa Bud",
+      "description": "Miss Rosa Bud (called Pussy or Rosebud), a young pupil at the Nuns' House; Edwin Drood's fiancée and a central female figure in the narrative.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Miss Rosa Bud",
+          "evidence": [
+            39105,
+            39118
+          ]
+        },
+        {
+          "text": "Rosa Bud",
+          "evidence": [
+            39110,
+            39118
+          ]
+        },
+        {
+          "text": "Rosa",
+          "evidence": [
+            39110,
+            39114
+          ]
+        },
+        {
+          "text": "Rosebud",
+          "evidence": [
+            39138,
+            39145
+          ]
+        },
+        {
+          "text": "Miss Bud",
+          "evidence": [
+            39273,
+            39281
+          ]
+        },
+        {
+          "text": "Pussy",
+          "evidence": [
+            18746,
+            18751
+          ]
+        },
+        {
+          "text": "Little Rosebud",
+          "evidence": [
+            134405,
+            134419
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ace753840d8652b2",
+      "name": "Reverend Septimus Crisparkle",
+      "description": "Minor Canon of Cloisterham Cathedral; kindly, conscientious clergyman who tutors and protects Neville Landless and acts as moral adviser to others.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mr. Crisparkle",
+          "evidence": [
+            11107,
+            11121
+          ]
+        },
+        {
+          "text": "Reverend Septimus Crisparkle",
+          "evidence": [
+            16930,
+            16958
+          ]
+        },
+        {
+          "text": "Reverend Septimus",
+          "evidence": [
+            16930,
+            16947
+          ]
+        },
+        {
+          "text": "Septimus",
+          "evidence": [
+            16939,
+            16947
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a7b02c5301986138",
+      "name": "Mr. Tope",
+      "description": "Chief Verger of the Cathedral (showman figure); husband of Mrs. Tope; runs certain day-to-day duties and interacts with cathedral characters.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mr. Tope",
+          "evidence": [
+            10873,
+            10881
+          ]
+        },
+        {
+          "text": "Tope",
+          "evidence": [
+            10512,
+            10516
+          ]
+        },
+        {
+          "text": "the Verger",
+          "evidence": [
+            13240,
+            13250
+          ]
+        },
+        {
+          "text": "Chief Verger",
+          "evidence": [
+            10883,
+            10895
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d5aaafa8286754f1",
+      "name": "Mrs. Tope",
+      "description": "Verger's wife; a robust, practical woman who works at the Nuns' House and interacts familiarly with pupils and local people.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mrs. Tope",
+          "evidence": [
+            19228,
+            19237
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-97240b382fbb3f7f",
+      "name": "Thomas Sapsea",
+      "description": "Auctioneer of Cloisterham, later Mayor; prosperous, pompous, and self-important local figure who prides himself on worldly knowledge.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mr. Sapsea",
+          "evidence": [
+            57335,
+            57345
+          ]
+        },
+        {
+          "text": "Sapsea",
+          "evidence": [
+            57312,
+            57318
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-91f42d5985e0f463",
+      "name": "Durdles",
+      "description": "Stonemason and monumental sculptor (called Stony Durdles); an eccentric, often drunk local who knows the Cathedral crypts and graves intimately.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Durdles",
+          "evidence": [
+            68582,
+            68589
+          ]
+        },
+        {
+          "text": "Stony Durdles",
+          "evidence": [
+            75328,
+            75341
+          ]
+        },
+        {
+          "text": "Mr. Durdles",
+          "evidence": [
+            263024,
+            263035
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c14a28609b51f1f5",
+      "name": "Deputy",
+      "description": "A hideous small boy who follows and stones objects and people (employed or associated with Durdles); an often-mentioned local urchin.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Deputy",
+          "evidence": [
+            79439,
+            79445
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1d303cc394c40533",
+      "name": "Luke Honeythunder",
+      "description": "A loud, bombastic London philanthropist and professor of philanthropy; energetic and domineering in public philanthropic causes.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mr. Honeythunder",
+          "evidence": [
+            96165,
+            96181
+          ]
+        },
+        {
+          "text": "LUKE HONEYTHUNDER",
+          "evidence": [
+            99288,
+            99305
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6afe971016362807",
+      "name": "Neville Landless",
+      "description": "Young man from Ceylon, twin brother of Helena Landless; impulsive, hot-tempered, taken in by Mr. Crisparkle for education and suspected (then released) in Edwin Drood's disappearance.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Neville Landless",
+          "evidence": [
+            134356,
+            134372
+          ]
+        },
+        {
+          "text": "Neville",
+          "evidence": [
+            98063,
+            98070
+          ]
+        },
+        {
+          "text": "Mr. Neville",
+          "evidence": [
+            102321,
+            102332
+          ]
+        },
+        {
+          "text": "Mr. Neville Landless",
+          "evidence": [
+            353751,
+            353771
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-088e9699606f90f6",
+      "name": "Helena Landless",
+      "description": "Sister of Neville Landless; a strong, proud, and sympathetic young woman who befriends Rosa Bud and seeks to protect her brother.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Helena Landless",
+          "evidence": [
+            98075,
+            98090
+          ]
+        },
+        {
+          "text": "Helena",
+          "evidence": [
+            98075,
+            98081
+          ]
+        },
+        {
+          "text": "Miss Helena",
+          "evidence": [
+            102337,
+            102348
+          ]
+        },
+        {
+          "text": "Miss Landless",
+          "evidence": [
+            125243,
+            125256
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c18b9709a9be2185",
+      "name": "Miss Twinkleton",
+      "description": "Headmistress of the Nuns' House (school for young ladies); affected, theatrical in private, and proprietor of the seminary where Rosa studies.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Miss Twinkleton",
+          "evidence": [
+            36167,
+            36182
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd85c5a7bedf06b5",
+      "name": "Mrs. Tisher",
+      "description": "Companion to Miss Twinkleton; a deferential widow who helps look after the pupils' wardrobes and rooms at the Nuns' House.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mrs. Tisher",
+          "evidence": [
+            46992,
+            47003
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c45a5a9d7c5575b4",
+      "name": "Mr. Grewgious",
+      "description": "Hiram Grewgious, a careful, angular, respectable solicitor/receiver; guardian of Rosa Bud and a cautious, practical protector.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mr. Grewgious",
+          "evidence": [
+            160986,
+            160999
+          ]
+        },
+        {
+          "text": "Hiram Grewgious, Esquire",
+          "evidence": [
+            442776,
+            442800
+          ]
+        },
+        {
+          "text": "Grewgious",
+          "evidence": [
+            160990,
+            160999
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-83a8afe8f559146a",
+      "name": "Bazzard",
+      "description": "Mr. Grewgious's clerk; a pale, discontented subordinate who aspires to literary things (writes plays) and is attached to his employer.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Bazzard",
+          "evidence": [
+            221154,
+            221161
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e1c9447d7f6c5df3",
+      "name": "Mr. Tartar",
+      "description": "Former naval officer ('Tartar'), now a cheerful, resourceful London lodger who becomes Rosa's ally and offers rooms and a rooftop garden for secret meetings.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mr. Tartar",
+          "evidence": [
+            400045,
+            400055
+          ]
+        },
+        {
+          "text": "Tartar",
+          "evidence": [
+            397016,
+            397022
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e85642ea7fe0a143",
+      "name": "Lobley",
+      "description": "Lobley, man/boatman in Mr. Tartar's employ; assists in rowing and looking after the small boat.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Lobley",
+          "evidence": [
+            492002,
+            492008
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-89104d59ac557a18",
+      "name": "Mr. Peartree",
+      "description": "A member of the Eight Club and a surgeon (member of Royal College of Surgeons); rough-spoken and opinionated.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Peartree",
+          "evidence": [
+            544873,
+            544881
+          ]
+        },
+        {
+          "text": "Mr. Peartree",
+          "evidence": [
+            544930,
+            544942
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9f13c18c170881f1",
+      "name": "Kimber",
+      "description": "A dancing-master, member of the Eight Club; sells off by auction and is a local, comparatively trivial, figure in a club discussion.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Kimber",
+          "evidence": [
+            543900,
+            543906
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9ead4b69ec98c506",
+      "name": "Mrs. Billickin",
+      "description": "Proprietor/landlady of lodging-rooms (Billickin) in Bloomsbury; candid, businesslike, and blunt about rooms, stairs, and damp.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mrs. Billickin",
+          "evidence": [
+            483722,
+            483736
+          ]
+        },
+        {
+          "text": "BILLICKIN",
+          "evidence": [
+            483613,
+            483622
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9c05d201e0de95eb",
+      "name": "Mrs. Sapsea (EtheLinda)",
+      "description": "The late Mrs. Sapsea (EtheLinda), referred to in Mr. Sapsea's inscription and mourned in narrative; wife of Mr. Thomas Sapsea (deceased).",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mrs. Sapsea",
+          "evidence": [
+            63336,
+            63347
+          ]
+        },
+        {
+          "text": "ETHELINDA",
+          "evidence": [
+            67960,
+            67969
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7dd48fbc24ffd0ed",
+      "name": "the Dean",
+      "description": "The Dean of the Cathedral (unnamed); a venerable clerical figure who interacts with the Chapter and Minor Canon.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "the Dean",
+          "evidence": [
+            10683,
+            10691
+          ]
+        },
+        {
+          "text": "Mr. Dean",
+          "evidence": [
+            10528,
+            10536
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5db6b5c7c41e6be6",
+      "name": "Mrs. Dean",
+      "description": "Mrs. Dean, wife of the Dean; referenced as part of the Dean's household.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Mrs. Dean",
+          "evidence": [
+            14311,
+            14320
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-284ac7c32462a5ea",
+      "name": "Miss Dean",
+      "description": "Miss Dean, daughter (or female relative) in the Dean's household; part of the cathedral household referenced in residence.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "Miss Dean",
+          "evidence": [
+            14325,
+            14334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f94830eef72ff69c",
+      "name": "the Chinaman",
+      "description": "Unnamed Chinaman encountered in the opium den in Cloisterham early in the narrative; described as asleep or stupefied.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "a Chinaman",
+          "evidence": [
+            3454,
+            3464
+          ]
+        },
+        {
+          "text": "Chinaman",
+          "evidence": [
+            3456,
+            3464
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bebc2cc9b17a95d8",
+      "name": "the Lascar",
+      "description": "Unnamed Lascar (sailor) in the opium den; present among the sleeping/drugged group.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "a Lascar",
+          "evidence": [
+            3466,
+            3474
+          ]
+        },
+        {
+          "text": "Lascar",
+          "evidence": [
+            3468,
+            3474
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-60b5d0ec29dc7a87",
+      "name": "the haggard woman (opium den hostess)",
+      "description": "Unnamed haggard woman who runs the opium den; an opium-seller and hostess who tends customers in the early scene.",
+      "scope": "The Mystery of Edwin Drood",
+      "aliases": [
+        {
+          "text": "a haggard woman",
+          "evidence": [
+            3480,
+            3495
+          ]
+        },
+        {
+          "text": "hostess",
+          "evidence": [
+            5957,
+            5964
+          ]
+        }
+      ]
+    }
+  ]
+}

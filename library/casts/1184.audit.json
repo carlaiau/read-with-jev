@@ -1,0 +1,161 @@
+{
+  "chunks": [
+    {
+      "start": 955,
+      "end": 650918,
+      "key": "7967128c592b83f4fea0c961d89c3dd710be1593a8067782098ae22f912b3ad9",
+      "usage": {
+        "input_tokens": 181699,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6939,
+        "output_tokens_details": {
+          "reasoning_tokens": 4608
+        },
+        "total_tokens": 188638
+      }
+    },
+    {
+      "start": 650918,
+      "end": 1300900,
+      "key": "c08e8738c4773e3140f8cd66b30be2fa21410db243343512335a40ed1b0da46f",
+      "usage": {
+        "input_tokens": 178513,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6822,
+        "output_tokens_details": {
+          "reasoning_tokens": 4736
+        },
+        "total_tokens": 185335
+      }
+    },
+    {
+      "start": 1300900,
+      "end": 1950866,
+      "key": "93b97ee0d62111790d4a16991b2f9af1ff3091eae9a66dab59cfb03d1d8500f6",
+      "usage": {
+        "input_tokens": 184132,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7809,
+        "output_tokens_details": {
+          "reasoning_tokens": 4544
+        },
+        "total_tokens": 191941
+      }
+    },
+    {
+      "start": 1950866,
+      "end": 2600842,
+      "key": "1b8b121829d0241110a1f9c3550c04c3b67ed3265bfb633cb51259177eadb2ee",
+      "usage": {
+        "input_tokens": 182446,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8454,
+        "output_tokens_details": {
+          "reasoning_tokens": 5632
+        },
+        "total_tokens": 190900
+      }
+    },
+    {
+      "start": 2600842,
+      "end": 2689521,
+      "key": "2a60ae8b51abb01962400cbef9e04d3e589948a9e160faada9fa7c192d36ca80",
+      "usage": {
+        "input_tokens": 25699,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7260,
+        "output_tokens_details": {
+          "reasoning_tokens": 5760
+        },
+        "total_tokens": 32959
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "f38573117462fa6cd016472f7b991419f2170d2cee5c28a4d35eeda42fcf02bb",
+    "usage": {
+      "input_tokens": 12772,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 7985,
+      "output_tokens_details": {
+        "reasoning_tokens": 6848
+      },
+      "total_tokens": 20757
+    }
+  },
+  "rejected": [
+    {
+      "name": "M. Morrel",
+      "alias": "the worthy merchant",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Baron (M.) Dandré",
+      "alias": "Baron Dandré",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Julie Morrel",
+      "alias": "Madame Herbaut",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Ali",
+      "alias": "my Nubian slave",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Benedetto",
+      "alias": "Benedetto, No. 59",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Madame Danglars",
+      "alias": "Baronne Danglars, _née_ Hermine de Servieux",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Emmanuel Herbaut",
+      "alias": "her husband Emmanuel",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Haydée",
+      "alias": "my sister Haydée",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "M. Cavalcanti (senior)",
+      "alias": "M. Cavalcanti, senior",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Emmanuel Morrel",
+      "alias": "Emmanuel Morrel",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Thomson & French clerk/attendant",
+      "alias": "an attendant",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

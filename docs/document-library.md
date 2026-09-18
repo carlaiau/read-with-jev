@@ -1,8 +1,8 @@
 # Baseline document library
 
-The reader loads a catalog, then fetches one selected document. Classification happens during preparation; viewing books never invokes JEV or needs an API key. This library is separate from the gold datasets and frozen research results.
+The reader loads a catalog, then fetches one selected document. See [the English top-100 pipeline](top100-library.md) for the expanded collection and automated character/alias discovery. Classification happens during preparation; viewing books never invokes JEV or needs an API key. This library is separate from the gold datasets and frozen research results.
 
-## Included documents
+## Original curated documents
 
 | Document ID | Title | Source | Passages |
 | --- | --- | --- | ---: |
@@ -54,7 +54,7 @@ The first returns the catalog; the second returns a complete document. HEAD and 
 
 Connect this repository to Netlify using the committed `netlify.toml`: it runs `npm run build:netlify`, publishes the Next build, and includes `data/library/*.json` in the function bundle. Library preparation needs outbound access to the source hosts at build time, but requests need only the bundled files. No Netlify deployment has been performed as part of this implementation.
 
-Every current document is below 1.4 MB as JSON. Preparation rejects documents at 5.5 MB; larger future works should use chunked passage endpoints or object storage rather than enlarging this response indefinitely. All catalog files are bundled together, so reconsider bundle size as the collection grows.
+Responses larger than 4.5 MB use revision-pinned JSON parts; the client reassembles them before rendering. Preparation rejects logical documents at 30 MB. All catalog files are bundled together, so reconsider bundle size as the collection grows.
 
 ## Sources and adding documents
 

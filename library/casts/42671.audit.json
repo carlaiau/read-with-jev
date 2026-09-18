@@ -1,0 +1,120 @@
+{
+  "chunks": [
+    {
+      "start": 1073,
+      "end": 651065,
+      "key": "53b5b8dd78311f0aa6a06ee9e04fb585024f3149cf974935cf4a8b7ce5d4a0fb",
+      "usage": {
+        "input_tokens": 170155,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4797,
+        "output_tokens_details": {
+          "reasoning_tokens": 3264
+        },
+        "total_tokens": 174952
+      }
+    },
+    {
+      "start": 651065,
+      "end": 706179,
+      "key": "5b3949b54c84c7bc2d8aef5a4343de6dd7a4ca744b1577698eaf8313fe54cbf4",
+      "usage": {
+        "input_tokens": 14942,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5910,
+        "output_tokens_details": {
+          "reasoning_tokens": 4608
+        },
+        "total_tokens": 20852
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "9b9c787f12fb46ee52986e29e78a27805ea3ea38f19cf6b3f639af51d0e91cde",
+    "usage": {
+      "input_tokens": 3165,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 5004,
+      "output_tokens_details": {
+        "reasoning_tokens": 3392
+      },
+      "total_tokens": 8169
+    }
+  },
+  "rejected": [
+    {
+      "name": "Jane Bennet",
+      "alias": "Miss Jane Bennet",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mary Bennet",
+      "alias": "Miss Mary Bennet",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Catherine (Kitty) Bennet",
+      "alias": "Miss Catherine Bennet",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Catherine (Kitty) Bennet",
+      "alias": "Miss Kitty",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Charles Bingley",
+      "alias": "Charles Bingley",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Georgiana Darcy",
+      "alias": "Miss Georgiana Darcy",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "William Collins",
+      "alias": "William Collins",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "William Collins",
+      "alias": "Mr. William Collins",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Charlotte Lucas",
+      "alias": "Mrs. Charles Collins",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Gardiner",
+      "alias": "M. Gardiner",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Philips",
+      "alias": "Mrs. Philip's",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Philips",
+      "alias": "Mrs. Phillips",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Nicholls",
+      "alias": "Mr. Nicholls",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

@@ -1,0 +1,1170 @@
+{
+  "schema": 1,
+  "gutenbergId": 67979,
+  "sourceSha256": "b418e6dae92794a0a79cb160f29d88c5e7169d342f9128f005d91905e9023636",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-5224012859b6308a",
+      "name": "Valancy Stirling",
+      "description": "Protagonist; a shy, long‑suffering Stirling woman who lives a quiet life until she leaves home, marries, and finds freedom and love.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Valancy",
+          "evidence": [
+            1900,
+            1907
+          ]
+        },
+        {
+          "text": "Valancy Jane",
+          "evidence": [
+            30464,
+            30476
+          ]
+        },
+        {
+          "text": "Doss",
+          "evidence": [
+            12681,
+            12685
+          ]
+        },
+        {
+          "text": "Dossie",
+          "evidence": [
+            251728,
+            251734
+          ]
+        },
+        {
+          "text": "Miss Valancy Stirling",
+          "evidence": [
+            330566,
+            330587
+          ]
+        },
+        {
+          "text": "Mrs. Snaith",
+          "evidence": [
+            241626,
+            241637
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f06a733ed5462a8b",
+      "name": "Mrs. Frederick Stirling (Amelia)",
+      "description": "Valancy’s mother; a prim, controlling Stirling matron often called 'Mrs. Frederick'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Frederick Stirling",
+          "evidence": [
+            7116,
+            7139
+          ]
+        },
+        {
+          "text": "Mrs. Frederick",
+          "evidence": [
+            7116,
+            7130
+          ]
+        },
+        {
+          "text": "Mrs. Stirling",
+          "evidence": [
+            6680,
+            6693
+          ]
+        },
+        {
+          "text": "Amelia",
+          "evidence": [
+            89357,
+            89363
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c48921ada28e0747",
+      "name": "Christine Stickles",
+      "description": "Valancy’s cousin who lives with Mrs. Frederick; nervous, gossipy, called 'Cousin Stickles'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Christine Stickles",
+          "evidence": [
+            28933,
+            28951
+          ]
+        },
+        {
+          "text": "Cousin Stickles",
+          "evidence": [
+            5166,
+            5181
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-584da87212932739",
+      "name": "Uncle Benjamin",
+      "description": "Wealthy, avuncular Stirling relative whose jokes and will influence family affairs.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Uncle Benjamin",
+          "evidence": [
+            3009,
+            3023
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7dd7b3f782eaf90f",
+      "name": "Uncle James",
+      "description": "Solemn Stirling elder; family oracle and moral censor who intervenes in crises.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Uncle James",
+          "evidence": [
+            12818,
+            12829
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6f64df6347d47a49",
+      "name": "Aunt Wellington (Mary)",
+      "description": "Formidable, fashion‑conscious Stirling aunt (married to Uncle Wellington); named Mary in the narration.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aunt Wellington",
+          "evidence": [
+            2019,
+            2034
+          ]
+        },
+        {
+          "text": "Mary",
+          "evidence": [
+            101737,
+            101741
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-85211e8575c9f2a4",
+      "name": "Uncle Wellington",
+      "description": "A Stirling elder; husband of Aunt Wellington and a social critic of lesser tolerance.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Uncle Wellington",
+          "evidence": [
+            2986,
+            3002
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7a32026d4178ca5d",
+      "name": "Aunt Alberta",
+      "description": "A large, good‑natured Stirling aunt with a reputation for unselfishness.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aunt Alberta",
+          "evidence": [
+            12136,
+            12148
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-69573594bff859e1",
+      "name": "Uncle Herbert",
+      "description": "A Stirling relative; good‑humoured and kindly, host of an inclusive silver wedding.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Uncle Herbert",
+          "evidence": [
+            3037,
+            3050
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eba379a086065301",
+      "name": "Aunt Mildred",
+      "description": "Competent, talkative Stirling aunt who prides herself on being capable.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aunt Mildred",
+          "evidence": [
+            14719,
+            14731
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-75f66e34898a6f9f",
+      "name": "Aunt Isabel",
+      "description": "Sharp‑tongued Stirling aunt, censorious and critical of others.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aunt Isabel",
+          "evidence": [
+            14026,
+            14037
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1da97bcfe08aef60",
+      "name": "Cousin Georgiana",
+      "description": "Pious, prim Stirling cousin who frequently presages funerals and misfortunes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cousin Georgiana",
+          "evidence": [
+            14434,
+            14450
+          ]
+        },
+        {
+          "text": "Georgiana",
+          "evidence": [
+            14441,
+            14450
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-452f8503593248d7",
+      "name": "Cousin Gladys",
+      "description": "Stirling relative noted for complaining of 'neuritis' and for strong self‑opinion.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cousin Gladys",
+          "evidence": [
+            14911,
+            14924
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c5d05543cfdd9b86",
+      "name": "Cousin Sarah Taylor",
+      "description": "Proper Stirling relation, noted for her pickle recipes and prudishness.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Second Cousin Sarah Taylor",
+          "evidence": [
+            100058,
+            100084
+          ]
+        },
+        {
+          "text": "Cousin Sarah Taylor",
+          "evidence": [
+            100065,
+            100084
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-43dee179238e9389",
+      "name": "Cousin Betty Stirling",
+      "description": "Stirling relation whose bridesmaid selections cause Valancy disappointment.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cousin Betty Stirling",
+          "evidence": [
+            81706,
+            81727
+          ]
+        },
+        {
+          "text": "Betty",
+          "evidence": [
+            81713,
+            81718
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d4ecafba3a011929",
+      "name": "Second Cousin Lilian",
+      "description": "Relation mentioned in family gossip regarding an approaching wedding.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Second Cousin Lilian",
+          "evidence": [
+            56996,
+            57016
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-636c5324321c7fc8",
+      "name": "Second Cousin Geraldine",
+      "description": "Relative referenced in family lore for who was once 'given up' by doctors.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Second Cousin Geraldine",
+          "evidence": [
+            48078,
+            48101
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-66dd92f1c21e4bc0",
+      "name": "Artemas Stickles",
+      "description": "Relative referred to in connection with a hair brooch (name occurs in text).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cousin Artemas Stickles",
+          "evidence": [
+            88930,
+            88953
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3939b99b3fea4c80",
+      "name": "Great-grandmother Stirling",
+      "description": "Ancestral Stirling ancestor referenced in family relics and motto.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Great-grandmother Stirling",
+          "evidence": [
+            5389,
+            5415
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bc21fb80a616e0b4",
+      "name": "Frederick Stirling",
+      "description": "Valancy’s deceased father, remembered in family anecdotes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Frederick Stirling",
+          "evidence": [
+            7121,
+            7139
+          ]
+        },
+        {
+          "text": "the late Frederick Stirling",
+          "evidence": [
+            23071,
+            23098
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1baba66b71a9d4ff",
+      "name": "Amos Wansbarra",
+      "description": "Valancy’s maternal grandfather who chose her uncommon given name.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Amos Wansbarra",
+          "evidence": [
+            30710,
+            30724
+          ]
+        },
+        {
+          "text": "Grandfather Wansbarra",
+          "evidence": [
+            133369,
+            133390
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f4dc1512572c2e4c",
+      "name": "Dr. H. B. Trent",
+      "description": "Gruff, outspoken Deerwood physician who initially examines Valancy and (by mistake) sends her a fatal letter.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Trent",
+          "evidence": [
+            2059,
+            2068
+          ]
+        },
+        {
+          "text": "H. B. Trent",
+          "evidence": [
+            66356,
+            66367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5f808d7e49adac7",
+      "name": "Dr. Ambrose Marsh",
+      "description": "Port Lawrence physician of the Stirling family’s choosing; married Second Cousin Adelaide Stirling.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Ambrose Marsh",
+          "evidence": [
+            18920,
+            18937
+          ]
+        },
+        {
+          "text": "Dr. Marsh",
+          "evidence": [
+            71809,
+            71818
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c987e0d9e8bc14bc",
+      "name": "Rev. Dr. Stalling",
+      "description": "The rector whose stern finger chastises Valancy in childhood and who later attempts to bring her home.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Stalling",
+          "evidence": [
+            44973,
+            44985
+          ]
+        },
+        {
+          "text": "Rev. Dr. Stalling",
+          "evidence": [
+            44968,
+            44985
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-389e151a49605ce8",
+      "name": "Mr. Towers",
+      "description": "Free Methodist minister who marries Valancy and Barney and holds simple services 'up back'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Towers",
+          "evidence": [
+            190777,
+            190787
+          ]
+        },
+        {
+          "text": "old Mr. Towers",
+          "evidence": [
+            238151,
+            238165
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-35d913819fcf1162",
+      "name": "Mr. Bently",
+      "description": "Local Presbyterian minister referenced regarding Roaring Abel and local religion.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rev. Mr. Bently",
+          "evidence": [
+            141667,
+            141682
+          ]
+        },
+        {
+          "text": "Mr. Bently",
+          "evidence": [
+            141672,
+            141682
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ac8878036b0f86a7",
+      "name": "Roaring Abel (Abel Gay)",
+      "description": "Nicknamed 'Roaring Abel'; a loud, eccentric, sometimes drunken islander who shelters Cecilia Gay and later befriends Valancy.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Roaring Abel",
+          "evidence": [
+            54577,
+            54589
+          ]
+        },
+        {
+          "text": "Abel Gay",
+          "evidence": [
+            54830,
+            54838
+          ]
+        },
+        {
+          "text": "Abel",
+          "evidence": [
+            54585,
+            54589
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f0a881130778fe93",
+      "name": "Cecilia Gay",
+      "description": "Called 'Cissy' or 'Cecily'; a young woman who becomes ill and is nursed by Valancy until her death.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cecilia Gay",
+          "evidence": [
+            141005,
+            141016
+          ]
+        },
+        {
+          "text": "Cissy Gay",
+          "evidence": [
+            122332,
+            122341
+          ]
+        },
+        {
+          "text": "Cecily Gay",
+          "evidence": [
+            120426,
+            120436
+          ]
+        },
+        {
+          "text": "Cissy",
+          "evidence": [
+            122332,
+            122337
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0e35e12285b1b729",
+      "name": "Barney Snaith / Bernard Redfern / John Foster",
+      "description": "A complex central male figure: known locally as Barney Snaith (an outlawly islander), legally Bernard Redfern (son of Dr. Redfern), and published under the pen‑name John Foster; Valancy’s husband and companion.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Barney Snaith",
+          "evidence": [
+            53730,
+            53743
+          ]
+        },
+        {
+          "text": "Barney",
+          "evidence": [
+            53730,
+            53736
+          ]
+        },
+        {
+          "text": "Snaith",
+          "evidence": [
+            53737,
+            53743
+          ]
+        },
+        {
+          "text": "Bernard Snaith",
+          "evidence": [
+            340471,
+            340485
+          ]
+        },
+        {
+          "text": "Bernard Redfern",
+          "evidence": [
+            351343,
+            351358
+          ]
+        },
+        {
+          "text": "Bernard Snaith Redfern",
+          "evidence": [
+            340471,
+            340493
+          ]
+        },
+        {
+          "text": "Bernie",
+          "evidence": [
+            340382,
+            340388
+          ]
+        },
+        {
+          "text": "John Foster",
+          "evidence": [
+            16238,
+            16249
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4c5929c29d0f8f66",
+      "name": "Dr. Redfern",
+      "description": "Industrialist and maker of Redfern remedies; father of Bernard (Barney); wealthy, genial industrialist figure.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Redfern",
+          "evidence": [
+            58383,
+            58394
+          ]
+        },
+        {
+          "text": "Doc Redfern",
+          "evidence": [
+            340695,
+            340706
+          ]
+        },
+        {
+          "text": "Old Doc Redfern",
+          "evidence": [
+            395770,
+            395785
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d9137b5a1d2f271f",
+      "name": "Tom MacMurray",
+      "description": "Former owner/builder of Barney’s island shack; his furnishings are in the Blue Castle.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tom MacMurray",
+          "evidence": [
+            243005,
+            243018
+          ]
+        },
+        {
+          "text": "Old Tom MacMurray",
+          "evidence": [
+            243001,
+            243018
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7a01f7af241c2a6e",
+      "name": "Banjo",
+      "description": "Barney’s large grey cat, affectionate and outspoken; a named animal connected to the Blue Castle.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Banjo",
+          "evidence": [
+            244720,
+            244725
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-110fc8855a2f6f8d",
+      "name": "Good Luck",
+      "description": "Barney’s small tame cat (named 'Good Luck'), companion in the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Good Luck",
+          "evidence": [
+            244730,
+            244739
+          ]
+        },
+        {
+          "text": "Luck",
+          "evidence": [
+            244735,
+            244739
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e72336601d2ef3d9",
+      "name": "Leander",
+      "description": "A tame owl associated with Barney’s island household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Leander",
+          "evidence": [
+            245441,
+            245448
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c12104abaaf21289",
+      "name": "Rachel Edwards",
+      "description": "An old housekeeper once employed by Roaring Abel; mentioned in his account of household troubles.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rachel Edwards",
+          "evidence": [
+            145832,
+            145846
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5a5518c64a86fa98",
+      "name": "Miss Clarkson",
+      "description": "Librarian in Deerwood who interacts with Valancy over books (John Foster’s works).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Clarkson",
+          "evidence": [
+            17655,
+            17668
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b6a8e6d4be5f253",
+      "name": "Mr. Carewe",
+      "description": "Post‑office clerk at Deerwood who hands Valancy her letter from Montreal.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Carewe",
+          "evidence": [
+            62708,
+            62718
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1086935512a90827",
+      "name": "Joe Hammond",
+      "description": "One of the clerks at Uncle Benjamin’s grocery store.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Joe Hammond",
+          "evidence": [
+            41963,
+            41974
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-02d4a78f4054148d",
+      "name": "Claude Bertram",
+      "description": "Clerk at Uncle Benjamin’s grocery store who snickers at Valancy early on.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Claude Bertram",
+          "evidence": [
+            41979,
+            41993
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cb85dddcfa5ffa1e",
+      "name": "Mrs. Patterson",
+      "description": "Housekeeper for Dr. Trent (named as the doctor’s housekeeper who explains his sudden departure).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Patterson",
+          "evidence": [
+            51163,
+            51177
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-917e65ae8ad19c5b",
+      "name": "Mrs. Judd",
+      "description": "Name of a woman mentioned in connection with Dr. Trent (appears in text as someone talking uptown); another housekeeper/neighbor figure.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Judd",
+          "evidence": [
+            68473,
+            68482
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-47f426504546cd18",
+      "name": "Connie Hale",
+      "description": "Young local woman encountered by Valancy in Lover’s Lane.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Connie Hale",
+          "evidence": [
+            52349,
+            52360
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8dacb3ebd8a13c92",
+      "name": "Kate Bayley",
+      "description": "Young local woman encountered by Valancy in Lover’s Lane.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kate Bayley",
+          "evidence": [
+            52365,
+            52376
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-62d9c576f9dc63d6",
+      "name": "Clayton Markley",
+      "description": "Man who built a pretty house for his bride Jennie Lloyd; mentioned by Valancy in envy.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Clayton Markley",
+          "evidence": [
+            38951,
+            38966
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-234a82fa8cdbf749",
+      "name": "Jennie Lloyd",
+      "description": "Bride for whom Clayton Markley built a house; referenced as an object of Valancy’s envy.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jennie Lloyd",
+          "evidence": [
+            39020,
+            39032
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9edf00574c7944d1",
+      "name": "Will Desmond",
+      "description": "Man to whom Olive had been briefly engaged and who died; mentioned in backstory.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Will Desmond",
+          "evidence": [
+            104659,
+            104671
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d24d7e799cfedaf",
+      "name": "Donald Jackson",
+      "description": "A man Olive had an affair with; mentioned in the family narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Donald Jackson",
+          "evidence": [
+            104824,
+            104838
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cefa9e9ff3951a4a",
+      "name": "Cecil Price",
+      "description": "Olive’s fiancé (civil engineer), part of Olive’s romantic history.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cecil Price",
+          "evidence": [
+            105135,
+            105146
+          ]
+        },
+        {
+          "text": "Cecil",
+          "evidence": [
+            11811,
+            11816
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-641727b0cc2fafed",
+      "name": "Rob Walker",
+      "description": "Young man mentioned in a dance episode and as a romantic interest of Valancy’s youth.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rob Walker",
+          "evidence": [
+            85010,
+            85020
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ad51bf8d3e164c21",
+      "name": "Byron Stirling",
+      "description": "Relative (boy) who pinched Valancy in church at a childhood service incident.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Byron Stirling",
+          "evidence": [
+            80900,
+            80914
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-33fc447dcd4184c6",
+      "name": "Margaret Blunt",
+      "description": "Host of a party Valancy attends; scene of Valancy’s humiliation at being overlooked.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Margaret Blunt",
+          "evidence": [
+            84925,
+            84939
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-82b9f0e90d13b154",
+      "name": "Ellen Hamilton",
+      "description": "Local woman discussed among the Stirlings in gossip.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ellen Hamilton",
+          "evidence": [
+            108793,
+            108807
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8b746832310a2f50",
+      "name": "Edward Beck",
+      "description": "Widower of the Port road who later considers proposing to Valancy; a respectable older suitor.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edward Beck",
+          "evidence": [
+            228499,
+            228510
+          ]
+        },
+        {
+          "text": "Mr. Beck",
+          "evidence": [
+            228716,
+            228724
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-90e9f57ca0512037",
+      "name": "Mr. Bradly",
+      "description": "The minister (presbyterian) who conducts Cecilia Gay’s public funeral address.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Bradly",
+          "evidence": [
+            226087,
+            226097
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a8a9552b004a0bba",
+      "name": "Rachel (old housekeeper)",
+      "description": "Name used for a beefed‑up old housekeeper in Roaring Abel’s anecdote (Rachel Edwards).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rachel",
+          "evidence": [
+            145832,
+            145838
+          ]
+        },
+        {
+          "text": "Rachel Edwards",
+          "evidence": [
+            145832,
+            145846
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87a69981c7224925",
+      "name": "Henry",
+      "description": "Dr. Redfern’s chauffeur (named in the scene at the river landing).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Henry",
+          "evidence": [
+            340637,
+            340642
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e125ed7dcec4820b",
+      "name": "Howard",
+      "description": "Son of Aunt Mildred mentioned in passing (child reference).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Howard",
+          "evidence": [
+            98976,
+            98982
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-06116d27d05308ef",
+      "name": "Concluding/unnamed household animals (collective)",
+      "description": "Named household animals associated with Barney and the Blue Castle (listed individually above); included in narrative as companions.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Banjo",
+          "evidence": [
+            244720,
+            244725
+          ]
+        },
+        {
+          "text": "Good Luck",
+          "evidence": [
+            244730,
+            244739
+          ]
+        },
+        {
+          "text": "Leander",
+          "evidence": [
+            245441,
+            245448
+          ]
+        }
+      ]
+    }
+  ]
+}

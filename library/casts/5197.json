@@ -1,0 +1,3176 @@
+{
+  "schema": 1,
+  "gutenbergId": 5197,
+  "sourceSha256": "91177a06a0be117eee0a0a4f1a543bb64a5c6d958dbd711d010d6f513b0a3bda",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-c94f1707685c2527",
+      "name": "Richard Wagner",
+      "description": "Narrator; composer and author of this autobiography, recounting his childhood, musical development, and early career",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Richard Wagner",
+          "evidence": [
+            939,
+            953
+          ]
+        },
+        {
+          "text": "Wilhelm Richard",
+          "evidence": [
+            3507,
+            3522
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ebb0a6268163b660",
+      "name": "Friedrich Wagner",
+      "description": "Richard Wagner’s father; a clerk in the police service at Leipzig who died in 1813",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Friedrich Wagner",
+          "evidence": [
+            3538,
+            3554
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ed090bd06902c658",
+      "name": "Ludwig Geyer",
+      "description": "Actor, painter and Wagner’s stepfather who married his mother and introduced theatrical/artistic influences into the family",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ludwig Geyer",
+          "evidence": [
+            5561,
+            5573
+          ]
+        },
+        {
+          "text": "Geyer",
+          "evidence": [
+            5568,
+            5573
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-35ae36d482023547",
+      "name": "Adolph Wagner",
+      "description": "Richard Wagner’s uncle and philologist; influential in Wagner’s education and literary development",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Adolph Wagner",
+          "evidence": [
+            23222,
+            23235
+          ]
+        },
+        {
+          "text": "Adolph",
+          "evidence": [
+            4286,
+            4292
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-88bf16805f162bda",
+      "name": "Jeannette Thome",
+      "description": "Friend of Adolph Wagner and occupant of rooms used by Adolph and his sister in Leipzig; hosted Wagner as a child",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jeannette Thome",
+          "evidence": [
+            19105,
+            19120
+          ]
+        },
+        {
+          "text": "Mam’selle Thome",
+          "evidence": [
+            64422,
+            64437
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3cc070c57215151a",
+      "name": "Friederike Wagner",
+      "description": "Sister of Adolph Wagner who kept house with him",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Friederike Wagner",
+          "evidence": [
+            18855,
+            18872
+          ]
+        },
+        {
+          "text": "Friederike",
+          "evidence": [
+            18855,
+            18865
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1e2485ab53e5f54d",
+      "name": "Wetzel",
+      "description": "Vicar and early schoolmaster at Possendorf near Dresden who gave Wagner country schooling and told stories such as Robinson Crusoe",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Wetzel",
+          "evidence": [
+            11640,
+            11646
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9a809ad185df748d",
+      "name": "Rosalie",
+      "description": "Wagner’s elder sister and a professional actress who supported the family after their stepfather’s death",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rosalie",
+          "evidence": [
+            24539,
+            24546
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3ef02ec34156faa0",
+      "name": "Clara (sister, book)",
+      "description": "Wagner’s sister with significant early singing talent; made a debut in Italian opera as ‘Cenerentola’",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Clara",
+          "evidence": [
+            25284,
+            25289
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6b17282b54906fd8",
+      "name": "Louisa (book)",
+      "description": "Wagner’s sister who pursued an acting career (engagements in Breslau and Leipzig)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Louisa",
+          "evidence": [
+            24464,
+            24470
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f8bf1f7909bf6e44",
+      "name": "Albert (book)",
+      "description": "Wagner’s elder brother, originally intended for medicine, later had theatrical connections",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Albert",
+          "evidence": [
+            24272,
+            24278
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-52b74d9236fcbc19",
+      "name": "Julius (brother, book)",
+      "description": "Wagner’s brother apprenticed to his uncle the goldsmith in Eisleben",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Julius",
+          "evidence": [
+            15003,
+            15009
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b781769cf74c079f",
+      "name": "Ottilie (book)",
+      "description": "Wagner’s sister who befriended notable families in Prague and was a confidante to young Wagner",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ottilie",
+          "evidence": [
+            45875,
+            45882
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1092d4c8991f3c98",
+      "name": "Professor Sillig",
+      "description": "Young teacher at the Kreuz Grammar School who encouraged Wagner’s metric translations and poetry",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Professor Sillig",
+          "evidence": [
+            39350,
+            39366
+          ]
+        },
+        {
+          "text": "Sillig",
+          "evidence": [
+            38211,
+            38217
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-20da2d81dfd015fa",
+      "name": "Baumgarten-Crusius",
+      "description": "Assistant headmaster at the Kreuz/Nicolai school in Leipzig who punished Wagner and with whom Wagner had conflicts",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Baumgarten-Crusius",
+          "evidence": [
+            56892,
+            56910
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e2b8bc49f0bd3bfa",
+      "name": "Starke",
+      "description": "Schoolfellow who suddenly fell dead while Wagner was at school; this event prompted school poems",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Starke",
+          "evidence": [
+            38736,
+            38742
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-44e87ff932e2d76f",
+      "name": "Humann",
+      "description": "Music tutor engaged for Wagner around age twelve who gave him early piano lessons",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Humann",
+          "evidence": [
+            79592,
+            79598
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae1a42378a7fc7d8",
+      "name": "Mieksch",
+      "description": "Clara Wagner’s singing master who developed her voice",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mieksch",
+          "evidence": [
+            75346,
+            75353
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e3018849b44c3a4d",
+      "name": "Carl Maria von Weber (book)",
+      "description": "Conductor and composer; influential early musical figure in Wagner’s life (conductor at Dresden)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Carl Maria von Weber",
+          "evidence": [
+            630834,
+            630854
+          ]
+        },
+        {
+          "text": "C. M. von Weber",
+          "evidence": [
+            10480,
+            10495
+          ]
+        },
+        {
+          "text": "Weber",
+          "evidence": [
+            10490,
+            10495
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dce6089ddd1ef8fe",
+      "name": "Sassaroli",
+      "description": "Italian male-soprano vocalist remembered by Wagner for his effeminate style and influence on Wagner’s early distaste for Italian singing",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sassaroli",
+          "evidence": [
+            75970,
+            75979
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6c4b39322db3bbb1",
+      "name": "G. Müller",
+      "description": "Music teacher (later organist at Altenburg) who gave Wagner harmony lessons covertly",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "G. Muller",
+          "evidence": [
+            88174,
+            88183
+          ]
+        },
+        {
+          "text": "Muller",
+          "evidence": [
+            88177,
+            88183
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fcbe022393c64edc",
+      "name": "Flachs",
+      "description": "Eccentric local musical figure in Leipzig whom Wagner mistook for an original/conductor figure (inspired by Hoffmannian archetypes)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Flachs",
+          "evidence": [
+            89277,
+            89283
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d49348fd9af466b6",
+      "name": "Kuhnlein",
+      "description": "Musical conductor in Magdeburg described as eccentric, admirer of Mozart and critic of Weber; influenced Wagner’s views",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kuhnlein",
+          "evidence": [
+            94941,
+            94949
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8268579a14fba895",
+      "name": "Theodor Apel",
+      "description": "Friend and poet (son of August Apel) who influenced Wagner in Prague; Wagner set one of his poems to music",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Theodor Apel",
+          "evidence": [
+            187878,
+            187890
+          ]
+        },
+        {
+          "text": "Apel",
+          "evidence": [
+            41382,
+            41386
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-66ce0194a0f87802",
+      "name": "W. Marsano",
+      "description": "Handsome acquaintance in Prague’s salon circle, mentioned among youthful acquaintances",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "W. Marsano",
+          "evidence": [
+            46276,
+            46286
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9bafb91d722426ec",
+      "name": "Count Pachta (book)",
+      "description": "Aristocratic patron in Prague who befriended Wagner’s sister Ottilie and whose daughters entertained Wagner in his youth",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Count Pachta",
+          "evidence": [
+            45978,
+            45990
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e8f0b1d55beea4a",
+      "name": "Jenny (Pachta, book)",
+      "description": "One of Count Pachta’s daughters, described as a beauty and friend of Wagner’s sister Ottilie",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jenny",
+          "evidence": [
+            46016,
+            46021
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fc179057b69cb206",
+      "name": "Auguste (Pachta, book)",
+      "description": "One of Count Pachta’s daughters, friend of Ottilie; described as beautiful and attached to the family circle",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Auguste",
+          "evidence": [
+            46027,
+            46034
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d60ed368d0d7c2af",
+      "name": "St. Georges",
+      "description": "Playwright/composer referenced in Paris dealings (mentioned later re: librettos)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "St. Georges",
+          "evidence": [
+            592620,
+            592631
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c4d74179404099fa",
+      "name": "Moritz (actor)",
+      "description": "Actor in Prague recommended to Wagner’s family; hosted Wagner and influenced his Prague acquaintances",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Moritz",
+          "evidence": [
+            183855,
+            183861
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-68389c66e1d4ee47",
+      "name": "Heinrich Dorn",
+      "description": "Musical director and later a permanent municipal appointment; taught and worked with Wagner in Leipzig and Riga",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Heinrich Dorn",
+          "evidence": [
+            417830,
+            417843
+          ]
+        },
+        {
+          "text": "Dorn",
+          "evidence": [
+            147512,
+            147516
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b39e8a5484c20ed0",
+      "name": "Weinlich",
+      "description": "Theodor Weinlich, choirmaster and musical director at St. Thomas’s Church who taught Wagner counterpoint and fugue",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Theodor Weinlich",
+          "evidence": [
+            156091,
+            156107
+          ]
+        },
+        {
+          "text": "Weinlich",
+          "evidence": [
+            156099,
+            156107
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-efe7fa80b12b0d64",
+      "name": "M. Schott (publisher)",
+      "description": "Music publisher (Schott of Mainz) who corresponded with Wagner about copying the Ninth Symphony and other works",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Schott",
+          "evidence": [
+            101005,
+            101011
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-808603c105b4a9d6",
+      "name": "Friedrich Schmitt",
+      "description": "Young tenor acquaintance (later singer) who befriended Wagner in Magdeburg and supported him",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Friedrich Schmitt",
+          "evidence": [
+            254820,
+            254837
+          ]
+        },
+        {
+          "text": "Schmitt",
+          "evidence": [
+            254830,
+            254837
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f111723b1ca6782f",
+      "name": "Gebhardt",
+      "description": "A strikingly handsome and strong undergraduate friend among student companions in Leipzig",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gebhardt",
+          "evidence": [
+            126476,
+            126484
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-719988d3f1fbbb51",
+      "name": "Degelow",
+      "description": "Reckless student friend in Leipzig, noted duellist and adventurer; died from wounds in a duel at Jena",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Degelow",
+          "evidence": [
+            127387,
+            127394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-70fbf239a92e0d6f",
+      "name": "Stelzer (Lope)",
+      "description": "Student known as ‘Lope’, a wild daredevil of the university clubs in Leipzig",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Stelzer",
+          "evidence": [
+            128320,
+            128327
+          ]
+        },
+        {
+          "text": "Lope",
+          "evidence": [
+            128396,
+            128400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bb0d6d6e6022c70b",
+      "name": "Schroter",
+      "description": "Older companion in the Leipzig undergraduates; introduced Wagner to Heine and witty societies",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Schroter",
+          "evidence": [
+            128706,
+            128714
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-226e2c8b3af7d018",
+      "name": "Levy (Lippert)",
+      "description": "Student acquaintance (Jew named Levy, also known as Lippert) referenced in duel anecdotes",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Levy",
+          "evidence": [
+            135147,
+            135151
+          ]
+        },
+        {
+          "text": "Lippert",
+          "evidence": [
+            135167,
+            135174
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7e5aec2f5ff4c079",
+      "name": "Tischer",
+      "description": "Opponent chosen for Wagner’s first planned duel in Leipzig who ended up in hospital preventing the fight",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tischer",
+          "evidence": [
+            136714,
+            136721
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fa5ef75008229a43",
+      "name": "Wohlfart",
+      "description": "Old stager swordsman in Leipzig who was severely wounded in a duel witnessed by Wagner",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Wohlfart",
+          "evidence": [
+            135521,
+            135529
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a2044351425ef960",
+      "name": "Count Solms",
+      "description": "Member of Wagner’s student club who advised caution regarding duels and student life",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Count Solms",
+          "evidence": [
+            132882,
+            132893
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b127752b70fa8f21",
+      "name": "Friederike Galvani",
+      "description": "Young singer and early love interest of Wagner at Wurzburg; later became a mother",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Friederike Galvani",
+          "evidence": [
+            215379,
+            215397
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dedef74b1a62c451",
+      "name": "Friedrich Brockhaus (book)",
+      "description": "Bookseller and member of the Brockhaus family mentioned in connection with Wagner’s early career",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Friedrich Brockhaus",
+          "evidence": [
+            58848,
+            58867
+          ]
+        },
+        {
+          "text": "Brockhaus",
+          "evidence": [
+            58858,
+            58867
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-88622c6500ca7e3b",
+      "name": "Hermann Brockhaus (book)",
+      "description": "Younger brother of Friedrich Brockhaus; Orientalist and later professor; husband of Wagner’s sister Ottilie",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hermann Brockhaus",
+          "evidence": [
+            409713,
+            409730
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f253add1821a6d98",
+      "name": "General Bem",
+      "description": "Polish general and exile in Leipzig who impressed Wagner during the Polish events of 1831",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "General Bem",
+          "evidence": [
+            171408,
+            171419
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cb67d9b2515fb3d4",
+      "name": "Count Vincenz Tyszkiewitcz",
+      "description": "Polish noble and exile in Leipzig; friend and patron figure to whom Wagner was attached",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Count Vincenz Tyszkiewitcz",
+          "evidence": [
+            170056,
+            170082
+          ]
+        },
+        {
+          "text": "Vincenz Tyszkiewitcz",
+          "evidence": [
+            170062,
+            170082
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2fedbba7b79bb637",
+      "name": "Janusz",
+      "description": "Son of Count Vincenz Tyszkiewitcz (referred to by name in narrative)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Janusz",
+          "evidence": [
+            172842,
+            172848
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b36ec91fe3cf8ae1",
+      "name": "Bansemer",
+      "description": "Cavalry captain among the Polish exiles in Leipzig who befriended Wagner’s circle",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Bansemer",
+          "evidence": [
+            171134,
+            171142
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b3dd32e9118efa04",
+      "name": "Laube (book)",
+      "description": "Heinrich Laube, friend and poet who influenced Wagner and with whom he corresponded",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Laube",
+          "evidence": [
+            197793,
+            197798
+          ]
+        },
+        {
+          "text": "Heinrich Laube",
+          "evidence": [
+            197784,
+            197798
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-90e173d14df1dddd",
+      "name": "Heine (book)",
+      "description": "Heinrich Heine, poet whose works Laube and others discussed and who influenced Wagner’s literary tastes",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Heine",
+          "evidence": [
+            129118,
+            129123
+          ]
+        },
+        {
+          "text": "Heinrich Heine",
+          "evidence": [
+            516537,
+            516551
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7cd36773fdba0e7e",
+      "name": "Wilhelmine Schroder-Devrient (book)",
+      "description": "Renowned actress and singer whose performance in Fidelio deeply inspired Wagner and influenced his artistic aims",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Schroder-Devrient",
+          "evidence": [
+            103501,
+            103518
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-07d92f2c89f9193f",
+      "name": "Kietz (book)",
+      "description": "Ernst Kietz, painter (portraitist) who befriended Wagner in early years, sketched him and supported him materially at times",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kietz",
+          "evidence": [
+            3080,
+            3085
+          ]
+        },
+        {
+          "text": "Ernst Kietz",
+          "evidence": [
+            511137,
+            511148
+          ]
+        },
+        {
+          "text": "E. Kietz",
+          "evidence": [
+            3077,
+            3085
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-17d0604eb24e00bb",
+      "name": "Kittl (book)",
+      "description": "Young musician Wagner met in Prague who later became a composer/conductor",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kittl",
+          "evidence": [
+            183986,
+            183991
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aa128aee0cdeda8a",
+      "name": "Rochlitz",
+      "description": "Friedrich Rochlitz, impresario of Gewandhaus concerts in Leipzig who agreed to present Wagner’s symphony",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Friedrich Rochlitz",
+          "evidence": [
+            166322,
+            166340
+          ]
+        },
+        {
+          "text": "Rochlitz",
+          "evidence": [
+            166332,
+            166340
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5cd8bb0fdd9deaad",
+      "name": "Pohlenz",
+      "description": "Orchestra leader/conductor in Leipzig (Gewandhaus) who conducted Beethoven’s Ninth there and influenced Wagner’s views on performance",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pohlenz",
+          "evidence": [
+            161583,
+            161590
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-af7c6e22baf89535",
+      "name": "Zillmann",
+      "description": "Leader of a town band in Dresden whose open-air concerts fascinated young Wagner",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Zillmann",
+          "evidence": [
+            81402,
+            81410
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-87b9baf58acb4e20",
+      "name": "Mlle. Palazzesi",
+      "description": "Singer who performed at a recital where Wagner introduced one of his orchestral works",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mlle. Palazzesi",
+          "evidence": [
+            164216,
+            164231
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-405169cbd6afcf0f",
+      "name": "Mme. Pauline Viardot",
+      "description": "Prominent singer in Paris who heard Wagner’s songs and gave him feedback (mentioned in Paris episodes)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pauline Viardot",
+          "evidence": [
+            500170,
+            500185
+          ]
+        },
+        {
+          "text": "Mme. Pauline Viardot",
+          "evidence": [
+            500165,
+            500185
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7af55c659c443e64",
+      "name": "Habeneck",
+      "description": "Étienne-Nicolas Habeneck, conductor at the Paris Conservatoire who promised to rehearse Wagner’s work",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Habeneck",
+          "evidence": [
+            486302,
+            486310
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1f4992ae1b3624b9",
+      "name": "Meyerbeer",
+      "description": "Giacomo Meyerbeer, leading composer in Paris who aided Wagner with introductions and advice",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Meyerbeer",
+          "evidence": [
+            200343,
+            200352
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-70718db20e33943e",
+      "name": "Duponchel",
+      "description": "Manager of the Paris Opera who met Wagner with polite interest",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Duponchel",
+          "evidence": [
+            486252,
+            486261
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cd52207588a44ac3",
+      "name": "Gouin",
+      "description": "M. Gouin, Meyerbeer’s agent in Paris who negotiated on Wagner’s behalf and worked with local managers",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gouin",
+          "evidence": [
+            504485,
+            504490
+          ]
+        },
+        {
+          "text": "M. Gouin",
+          "evidence": [
+            504737,
+            504745
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-46ca2864df832813",
+      "name": "Leon Pillet",
+      "description": "Director of the Théâtre de la Renaissance in Paris who considered Wagner’s theatrical ideas and purchased a plot",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Leon Pillet",
+          "evidence": [
+            534294,
+            534305
+          ]
+        },
+        {
+          "text": "M. Leon Pillet",
+          "evidence": [
+            534291,
+            534305
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-025d4e065dd70057",
+      "name": "Dumersan",
+      "description": "M. Dumersan, translator/author in Paris who translated Wagner’s Liebesverbot into French verse",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dumersan",
+          "evidence": [
+            495748,
+            495756
+          ]
+        },
+        {
+          "text": "M. Dumersan",
+          "evidence": [
+            495745,
+            495756
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2dda6def789d1ec0",
+      "name": "Schlesinger",
+      "description": "Maurice/Moritz Schlesinger (music publisher/editor of the Gazette Musicale) who commissioned journalistic and arrangement work from Wagner in Paris",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Schlesinger",
+          "evidence": [
+            491069,
+            491080
+          ]
+        },
+        {
+          "text": "Moritz Schlesinger",
+          "evidence": [
+            1190428,
+            1190446
+          ]
+        },
+        {
+          "text": "Maurice Schlesinger",
+          "evidence": [
+            499561,
+            499580
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-db6745784f182ce1",
+      "name": "Berlioz (book)",
+      "description": "Hector Berlioz, French composer whose orchestral works and symphonies impressed Wagner in Paris",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Berlioz",
+          "evidence": [
+            546295,
+            546302
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-89b55e8657980ff0",
+      "name": "Mme. Dorus-Gras",
+      "description": "Daughter/celebrated soprano of the Paris stage (sang for Wagner’s trial audience)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mme. Dorus-Gras",
+          "evidence": [
+            505376,
+            505391
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fb8803d34dbb58b3",
+      "name": "Lablache",
+      "description": "Famous bass in Paris whom Wagner approached about inserting an aria into Norma",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lablache",
+          "evidence": [
+            302671,
+            302679
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1be0cad8915b5e66",
+      "name": "Halevy",
+      "description": "Fromental Halevy, composer of La Reine de Chypre and La Juive; Wagner reviewed and arranged some of his work in Paris",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Halevy",
+          "evidence": [
+            542941,
+            542947
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e03dcc1146b74259",
+      "name": "Villemain",
+      "description": "M. Villemain, French Minister of Education who intervened to aid a needy scholar (Lehrs)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Villemain",
+          "evidence": [
+            587464,
+            587473
+          ]
+        },
+        {
+          "text": "M. Villemain",
+          "evidence": [
+            588453,
+            588465
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-46a3a020c1f38b97",
+      "name": "Anders",
+      "description": "E. G. Anders, German-born music bibliographer in Paris who befriended Wagner and assisted with bibliographic and cultural contacts",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "E. G. Anders",
+          "evidence": [
+            488840,
+            488852
+          ]
+        },
+        {
+          "text": "Anders",
+          "evidence": [
+            488846,
+            488852
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d404e5b1a7521cb3",
+      "name": "Lehrs",
+      "description": "Philologist and friend/housemate of Anders in Paris; a close intellectual friend of Wagner who supported and conversed with him",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lehrs",
+          "evidence": [
+            491761,
+            491766
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2c227db99f1dd04e",
+      "name": "Brix",
+      "description": "German commercial traveller and amateur flautist who lodged with Wagner in Paris and later helped in small ways",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Brix",
+          "evidence": [
+            527287,
+            527291
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-675f0398c9056ec9",
+      "name": "Count Kuscelew",
+      "description": "Count Kuscelew, patron who offered Wagner a sum (and later was not further engaged) while Wagner was in Paris",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Count Kuscelew",
+          "evidence": [
+            528264,
+            528278
+          ]
+        },
+        {
+          "text": "Kuscelew",
+          "evidence": [
+            528270,
+            528278
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7b3be37a22e89021",
+      "name": "M. Jadin",
+      "description": "Eccentric older Paris resident near Meudon encountered by Wagner; a flamboyant amateur who made a memorable impression",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "M. Jadin",
+          "evidence": [
+            577626,
+            577634
+          ]
+        },
+        {
+          "text": "Jadin",
+          "evidence": [
+            577629,
+            577634
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-de151c4bb51efe4f",
+      "name": "Edouard Monnaie",
+      "description": "Commissaire for the Royal Theatres in Paris and editor associated with musical administration; intermediary in Wagner’s Paris dealings",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Edouard Monnaie",
+          "evidence": [
+            520938,
+            520953
+          ]
+        },
+        {
+          "text": "M. Edouard Monnaie",
+          "evidence": [
+            520935,
+            520953
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4f26193800d1123f",
+      "name": "Paul Faucher",
+      "description": "Literary figure associated with Victor Hugo’s circle, mentioned in connexion with theatrical plotting",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Paul Faucher",
+          "evidence": [
+            570842,
+            570854
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4a3542fc0d67a75b",
+      "name": "Richard Wagner (My Life — Volume 1)",
+      "description": "Narrator and composer; author of the memoir recounting events in Dresden, Leipzig, Berlin, Paris, Zürich and travels",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Wagner",
+          "evidence": [
+            947,
+            953
+          ]
+        },
+        {
+          "text": "I",
+          "evidence": [
+            957,
+            958
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bee59d677d85e18c",
+      "name": "Minna",
+      "description": "Wagner’s wife; accompanies and cares for him during parts of his Dresden, Zürich and Paris period",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Minna",
+          "evidence": [
+            249417,
+            249422
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c0d3d630873bc95f",
+      "name": "Clara (My Life — Volume 1)",
+      "description": "Wagner’s sister who shares his feelings and supports him in Dresden",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Clara",
+          "evidence": [
+            25284,
+            25289
+          ]
+        },
+        {
+          "text": "my sister Clara",
+          "evidence": [
+            25274,
+            25289
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-93558e4f7e71a059",
+      "name": "Wife of the invalid Italian singer",
+      "description": "Wife of the Italian singer who ill-treats her husband and later provokes his enmity toward Wagner",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "his wife",
+          "evidence": [
+            172072,
+            172080
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-33bfc1aeee8c223b",
+      "name": "Risse",
+      "description": "A stiff Philistine, a minor bass singer at the Dresden theatre who greets Wagner on the morning of Rienzi’s first performance",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Risse",
+          "evidence": [
+            653553,
+            653558
+          ]
+        },
+        {
+          "text": "a stiff Philistine called Risse",
+          "evidence": [
+            653527,
+            653558
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-66194869d865e663",
+      "name": "Fischer",
+      "description": "Worthwhile chorus-master at the Dresden theatre and a steadfast collaborator and friend in rehearsals",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Fischer",
+          "evidence": [
+            612233,
+            612240
+          ]
+        },
+        {
+          "text": "chorus-master Fischer",
+          "evidence": [
+            612219,
+            612240
+          ]
+        },
+        {
+          "text": "Gaffer Fischer",
+          "evidence": [
+            725208,
+            725222
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-40a1cd9a4d51c58b",
+      "name": "Tichatschek",
+      "description": "Leading tenor at the Dresden theatre whose singing contributes significantly to Rienzi’s success but whose style Wagner finds limiting for other roles",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Tichatschek",
+          "evidence": [
+            537685,
+            537696
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e885fbd01727b501",
+      "name": "Wachter",
+      "description": "Baritone singer at Dresden (once noted as a ‘Barber of Seville’) cast in various roles including the Mariner in Fliegender Holländer",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Wachter",
+          "evidence": [
+            669427,
+            669434
+          ]
+        },
+        {
+          "text": "Herr Wachter",
+          "evidence": [
+            687598,
+            687610
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cda5326804d54e65",
+      "name": "Schroder-Devrient (My Life)",
+      "description": "Prima donna singer (Sophie Schröder-Devrient) who works closely with Wagner on parts (notably Senta); powerful actress and central collaborator",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Schroder-Devrient",
+          "evidence": [
+            103501,
+            103518
+          ]
+        },
+        {
+          "text": "Devrient",
+          "evidence": [
+            2701,
+            2709
+          ]
+        },
+        {
+          "text": "her",
+          "evidence": [
+            1308,
+            1311
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f4fa5cf03c99e706",
+      "name": "Sophie Schroder",
+      "description": "Sophie Schröder, mother of Schroder-Devrient, influential in her daughter’s decisions",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Sophie Schroder",
+          "evidence": [
+            670114,
+            670129
+          ]
+        },
+        {
+          "text": "her famous mother, Sophie Schroder",
+          "evidence": [
+            670095,
+            670129
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4076e752cd442b86",
+      "name": "Johanna (my niece)",
+      "description": "Wagner’s niece, a young singer who impersonates roles such as Iphigenia and later Adriano; receives training and rises in reputation",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "my niece Johanna",
+          "evidence": [
+            945232,
+            945248
+          ]
+        },
+        {
+          "text": "Johanna",
+          "evidence": [
+            635623,
+            635630
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-440e4b125697fe08",
+      "name": "Friedrich Brockhaus (My Life)",
+      "description": "Publisher and friend who visits from Leipzig; member of the Brockhaus family appearing in Wagner’s circle",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Friedrich Brockhaus",
+          "evidence": [
+            58848,
+            58867
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a9d49823292f024f",
+      "name": "Fritz Brockhaus",
+      "description": "Brother-in-law of Wagner (mentioned hosting Mendelssohn and Devrient)",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Fritz Brockhaus",
+          "evidence": [
+            671630,
+            671645
+          ]
+        },
+        {
+          "text": "my brother-in-law, Fritz Brockhaus",
+          "evidence": [
+            671611,
+            671645
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8a014dba4f0c210c",
+      "name": "Heinrich Brockhaus (My Life)",
+      "description": "Publisher who later takes possession of Wagner’s library as security for a debt",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Heinrich Brockhaus",
+          "evidence": [
+            541664,
+            541682
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7880c84750ab92ee",
+      "name": "Julius (brother, My Life)",
+      "description": "Wagner’s brother Julius who attends performances and comments from an audience box",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "my brother Julius",
+          "evidence": [
+            222779,
+            222796
+          ]
+        },
+        {
+          "text": "Julius",
+          "evidence": [
+            15003,
+            15009
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dbc151ba2004c9dd",
+      "name": "Lüttichau",
+      "description": "General director of the Dresden Royal Theatre; central theatre official who negotiates with Wagner and the court",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Lüttichau",
+          "evidence": [
+            538426,
+            538435
+          ]
+        },
+        {
+          "text": "general director",
+          "evidence": [
+            699786,
+            699802
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c7ac29c16c6a92b4",
+      "name": "Julius Mosen",
+      "description": "Poet and acquaintance of Wagner in Dresden who criticises Wagner after Rienzi’s success",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Julius Mosen",
+          "evidence": [
+            663439,
+            663451
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-75e87f13ed5a9eee",
+      "name": "Karl (Herr Karl) Bank",
+      "description": "Musical critic in Dresden who becomes hostile to Wagner",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Herr Karl Bank",
+          "evidence": [
+            666185,
+            666199
+          ]
+        },
+        {
+          "text": "Karl Bank",
+          "evidence": [
+            666190,
+            666199
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bc729c8f35090fc9",
+      "name": "Julius Schladebach",
+      "description": "Another Dresden critic who figures among Wagner’s press opponents",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Herr Julius Schladebach",
+          "evidence": [
+            666614,
+            666637
+          ]
+        },
+        {
+          "text": "Julius Schladebach",
+          "evidence": [
+            666619,
+            666637
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ab120cb7d1283f20",
+      "name": "Rastrelli",
+      "description": "Royal director of music whose sudden death creates a vacancy leading to Wagner’s appointment",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Rastrelli",
+          "evidence": [
+            668168,
+            668177
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-493827874d4ced53",
+      "name": "Morlacchi",
+      "description": "Mentioned musician whose death previously left a conductorship vacant",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Morlacchi",
+          "evidence": [
+            695068,
+            695077
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8da7da083a32eb18",
+      "name": "Reissiger",
+      "description": "Colleague conductor at Dresden who conducts repertoire and whose relations with Wagner become strained",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Reissiger",
+          "evidence": [
+            538163,
+            538172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fd358e7a3042a4ee",
+      "name": "Karl Lipinsky",
+      "description": "Celebrated violinist and long-time leader of the Dresden orchestra, proud and temperamental",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Karl Lipinsky",
+          "evidence": [
+            711286,
+            711299
+          ]
+        },
+        {
+          "text": "Lipinsky",
+          "evidence": [
+            711291,
+            711299
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d7d7f63d1b137b07",
+      "name": "August Röckel",
+      "description": "Young musician, nephew of Hummel; becomes Wagner’s intimate friend, assistant, and political companion",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "August Röckel",
+          "evidence": [
+            715710,
+            715723
+          ]
+        },
+        {
+          "text": "Röckel",
+          "evidence": [
+            715717,
+            715723
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9a10af2a93c175e0",
+      "name": "Anton Pusinelli",
+      "description": "Young physician near Wagner who becomes a devoted friend and family doctor",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Anton Pusinelli",
+          "evidence": [
+            720925,
+            720940
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-92a59fa5f0f7c2a0",
+      "name": "Marie von Konneritz",
+      "description": "Frau von Konneritz (née Fink), wife of Chamberlain von Konneritz, social contact of Wagner in Dresden",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Marie von Konneritz (nee Fink)",
+          "evidence": [
+            721691,
+            721721
+          ]
+        },
+        {
+          "text": "Frau von Konneritz",
+          "evidence": [
+            723050,
+            723068
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fb3ff8d791e0734e",
+      "name": "Countess Rossi (Henriette Sontag)",
+      "description": "The celebrated singer Henriette Sontag (referred to as Countess Rossi) who greets Wagner warmly",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Countess Rossi, the famous Sontag",
+          "evidence": [
+            722151,
+            722184
+          ]
+        },
+        {
+          "text": "Countess Rossi",
+          "evidence": [
+            722151,
+            722165
+          ]
+        },
+        {
+          "text": "the famous Sontag",
+          "evidence": [
+            722167,
+            722184
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-266bd991bc79e34a",
+      "name": "Professor Lowe",
+      "description": "Organizer and energetic president of the Dresden Glee Club who initiates musical festivals and patriotic projects",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Professor Lowe",
+          "evidence": [
+            726112,
+            726126
+          ]
+        },
+        {
+          "text": "Lowe",
+          "evidence": [
+            482873,
+            482877
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1a95b95fd1f9e7c2",
+      "name": "Ferdinand Hiller",
+      "description": "Composer and conductor active in Dresden musical circles, organiser of subscription concerts and a social host",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Ferdinand Hiller",
+          "evidence": [
+            728964,
+            728980
+          ]
+        },
+        {
+          "text": "Hiller",
+          "evidence": [
+            2693,
+            2699
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6b0eb6671f114719",
+      "name": "Felix Mendelssohn",
+      "description": "Composer and conductor encountered by Wagner in Leipzig and Dresden; influential musical figure",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Mendelssohn",
+          "evidence": [
+            288462,
+            288473
+          ]
+        },
+        {
+          "text": "Mendelssohn’s",
+          "evidence": [
+            672320,
+            672333
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b0906e02068bebfb",
+      "name": "Robert Schumann",
+      "description": "Composer and critic who appears in Dresden salon life and discusses musical matters with Wagner",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Robert Schumann",
+          "evidence": [
+            86918,
+            86933
+          ]
+        },
+        {
+          "text": "R. Schumann",
+          "evidence": [
+            770179,
+            770190
+          ]
+        },
+        {
+          "text": "Schumann",
+          "evidence": [
+            2603,
+            2611
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef4abae8c335f375",
+      "name": "Franz Liszt",
+      "description": "Pianist, conductor and influential friend who befriends Wagner, attends performances, and later champions his works",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Liszt",
+          "evidence": [
+            2547,
+            2552
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7c37226556d2b2b9",
+      "name": "Belloni",
+      "description": "Liszt’s secretary who arranges introductions and concert tickets for Wagner in Paris and elsewhere",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Belloni",
+          "evidence": [
+            677811,
+            677818
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aea835b17ec1dc61",
+      "name": "Mendelssohn’s friend Devrient (reference)",
+      "description": "Refers to members of the Devrient theatrical family mentioned collectively in Wagner’s circle",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Devrient",
+          "evidence": [
+            2701,
+            2709
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7bbe3880f1048f6",
+      "name": "Eduard Devrient",
+      "description": "Actor, director and Gluck connoisseur who collaborates with Wagner on stage matters and Gluck productions",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Eduard Devrient",
+          "evidence": [
+            764864,
+            764879
+          ]
+        },
+        {
+          "text": "Herr Eduard Devrient",
+          "evidence": [
+            764859,
+            764879
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3fc42b7ff18f18f7",
+      "name": "Emil Devrient",
+      "description": "Actor of the Devrient family; mentioned in connection with theatrical affairs",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Emil Devrient",
+          "evidence": [
+            845395,
+            845408
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0b97139827279107",
+      "name": "Jenny Pachta (My Life)",
+      "description": "Friend from Wagner’s youth, mentioned as having been married into the aristocracy",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Jenny",
+          "evidence": [
+            46016,
+            46021
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5fb995624802f3b2",
+      "name": "Auguste Pachta (My Life)",
+      "description": "Friend from Wagner’s youth, mentioned alongside Jenny as married into the aristocracy",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Auguste Pachta",
+          "evidence": [
+            736371,
+            736385
+          ]
+        },
+        {
+          "text": "Auguste",
+          "evidence": [
+            46027,
+            46034
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d24bd0b6da7a3692",
+      "name": "Karl (or Herr) Küstner",
+      "description": "Manager of the Berlin theatre who arranges productions and communications with Wagner",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Küstner",
+          "evidence": [
+            592465,
+            592472
+          ]
+        },
+        {
+          "text": "Director Küstner",
+          "evidence": [
+            675692,
+            675708
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d55bd69b4f739008",
+      "name": "Henning (or Henniger)",
+      "description": "Conductor at the Berlin theatre whose limitations forced Wagner to conduct rehearsals",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Conductor Henning (or Henniger)",
+          "evidence": [
+            742872,
+            742903
+          ]
+        },
+        {
+          "text": "Henning",
+          "evidence": [
+            742882,
+            742889
+          ]
+        },
+        {
+          "text": "Henniger",
+          "evidence": [
+            742894,
+            742902
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2d1bdc1ac7a30376",
+      "name": "Conductor Taubert",
+      "description": "Conductor in Berlin mentioned as reporting on Wagner and later conducting performances",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Taubert",
+          "evidence": [
+            450016,
+            450023
+          ]
+        },
+        {
+          "text": "Conductor Taubert",
+          "evidence": [
+            1008858,
+            1008875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6d867407ba081070",
+      "name": "Spontini",
+      "description": "The aged master composer who visits Dresden to supervise productions (Gaspare Spontini); eccentric, demanding, influential",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Spontini",
+          "evidence": [
+            2554,
+            2562
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-244de165334a4151",
+      "name": "Berlioz (My Life)",
+      "description": "Hector Berlioz, composer; appears in relation to Spontini’s later death and anecdote",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Berlioz",
+          "evidence": [
+            546295,
+            546302
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3cd42d4561898f6f",
+      "name": "Marschner",
+      "description": "Heinrich Marschner, composer mentioned in connection with Dresden productions and his own operas",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Marschner",
+          "evidence": [
+            2564,
+            2573
+          ]
+        },
+        {
+          "text": "Heinrich Marschner",
+          "evidence": [
+            822507,
+            822525
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-53436296dd3cf571",
+      "name": "Hänel",
+      "description": "Sculptor present in Dresden artistic circles, contributor to salon life",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Hänel",
+          "evidence": [
+            904462,
+            904467
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9967866fb2c8b8ec",
+      "name": "Rietschel",
+      "description": "Sculptor and artist in Dresden artistic society referenced among salon meetings",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Rietschel",
+          "evidence": [
+            905202,
+            905211
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-50c07b4aa19d75b3",
+      "name": "Gutzkow",
+      "description": "Playwright employed by the theatre to produce spoken drama; his management appointment is discussed",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Gutzkow",
+          "evidence": [
+            2621,
+            2628
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fae856190c1429fa",
+      "name": "Laube (My Life)",
+      "description": "Friend and editor who earlier supported Wagner and later resumed an editorial role and commentary",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Laube",
+          "evidence": [
+            197793,
+            197798
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5eb92679f167da0",
+      "name": "Gottfried Semper",
+      "description": "Architect and public personality who participates in artistic and political salon debates in Dresden",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Semper",
+          "evidence": [
+            2613,
+            2619
+          ]
+        },
+        {
+          "text": "Gottfried Semper",
+          "evidence": [
+            886355,
+            886371
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1b907b97ad70a333",
+      "name": "F. Hiller (wife)",
+      "description": "Frau Hiller (wife of Ferdinand Hiller), noted as a Polish-born singer and hostess in Dresden society",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Frau Hiller",
+          "evidence": [
+            1006470,
+            1006481
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6dd9f2c577160437",
+      "name": "Peps",
+      "description": "Wagner’s little dog, born on the day of the first Rienzi rehearsal; constant companion in Dresden and later",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Peps",
+          "evidence": [
+            784988,
+            784992
+          ]
+        },
+        {
+          "text": "little dog Peps",
+          "evidence": [
+            784977,
+            784992
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b17dc69300760525",
+      "name": "Papo (parrot)",
+      "description": "Parrot acquired by Wagner as a gift from a manager during a trip to Hamburg; later kept by Minna and taught to sing selections from Rienzi",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "parrot",
+          "evidence": [
+            754756,
+            754762
+          ]
+        },
+        {
+          "text": "Papo",
+          "evidence": [
+            1213532,
+            1213536
+          ]
+        },
+        {
+          "text": "beautiful grey parrot",
+          "evidence": [
+            755058,
+            755079
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ea4317242205ddaf",
+      "name": "Count Redern",
+      "description": "Court musical director in Berlin who advises Wagner on royal permissions and dedications",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Count Redern",
+          "evidence": [
+            612915,
+            612927
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-52440e9406c7d248",
+      "name": "M. Illaire",
+      "description": "Head of the Royal Privy Council in Berlin whom Wagner approaches about reading Lohengrin to the King",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Illaire",
+          "evidence": [
+            981007,
+            981014
+          ]
+        },
+        {
+          "text": "M. Illaire",
+          "evidence": [
+            981004,
+            981014
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-da2ed2f70a08b352",
+      "name": "Louis Spohr",
+      "description": "Composer whom Wagner visits in Leipzig and whose late opera and opinions are discussed",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Spohr",
+          "evidence": [
+            2679,
+            2684
+          ]
+        },
+        {
+          "text": "Louis Spohr",
+          "evidence": [
+            948038,
+            948049
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a41d50b055f455ab",
+      "name": "F. Kittl (My Life)",
+      "description": "Friend and acquaintance of Wagner encountered on trips (Kittl) who appears in Prague and elsewhere",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Kittl",
+          "evidence": [
+            183986,
+            183991
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0dd6eeee1741b2c2",
+      "name": "G. Herwegh",
+      "description": "Georg Herwegh (poet/activist) referenced in connection with Bakunin and revolutionary acquaintances",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Herwegh",
+          "evidence": [
+            1091058,
+            1091065
+          ]
+        },
+        {
+          "text": "George Herwegh",
+          "evidence": [
+            1091051,
+            1091065
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e18868a1ffeb85e7",
+      "name": "Michael Bakunin",
+      "description": "Revolutionary (Mikhail/Michael Bakunin) who joins Dresden events, offers radical counsel and participates in barricade activity",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Michael Bakunin",
+          "evidence": [
+            1089915,
+            1089930
+          ]
+        },
+        {
+          "text": "Bakunin",
+          "evidence": [
+            2879,
+            2886
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fa5bb3b2e57efcc5",
+      "name": "August (or Adolf) Stahr",
+      "description": "Critic (Adolf Stahr) who raises objections about Lohengrin’s dramatic solution in correspondence with Wagner",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Stahr",
+          "evidence": [
+            924323,
+            924328
+          ]
+        },
+        {
+          "text": "Adolf Stahr",
+          "evidence": [
+            924317,
+            924328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-58526f642e788670",
+      "name": "Werder",
+      "description": "Professor Werder, an early admirer who visits Wagner after a Berlin performance and commends the work highly",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Professor Werder",
+          "evidence": [
+            750611,
+            750627
+          ]
+        },
+        {
+          "text": "Werder",
+          "evidence": [
+            750621,
+            750627
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2a2adef291b68a28",
+      "name": "Alwine Frommann",
+      "description": "A woman of independent means and ardent admirer who writes Wagner an effusive letter after hearing works in Berlin and supports him",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Alwino Frommann",
+          "evidence": [
+            762892,
+            762907
+          ]
+        },
+        {
+          "text": "Alwine Frommann",
+          "evidence": [
+            914814,
+            914829
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-96df5652994ca3f0",
+      "name": "Kietz (My Life)",
+      "description": "Artist and early friend who engraved Wagner’s portrait and later worked for him; also custodian of some title-pages and designs",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Kietz",
+          "evidence": [
+            3080,
+            3085
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5357b4a5a91ffb6f",
+      "name": "Carl Maria von Weber (My Life)",
+      "description": "Composer whose remains Wagner helps transfer to Dresden; subject of a commemorative enterprise",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Weber",
+          "evidence": [
+            10490,
+            10495
+          ]
+        },
+        {
+          "text": "Carl Maria von Weber",
+          "evidence": [
+            630834,
+            630854
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4a04c80e563f3158",
+      "name": "Caroline von Weber",
+      "description": "Weber’s widow who urges Wagner to accept the Dresden conductorship and later aids him in memorialising Weber",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Weber’s widow",
+          "evidence": [
+            710290,
+            710303
+          ]
+        },
+        {
+          "text": "Caroline von Weber",
+          "evidence": [
+            695891,
+            695909
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0baeccb169cd7295",
+      "name": "Gottfried Kockel",
+      "description": "Supporter and sympathiser present in rehearsals who helps Wagner with orchestral matters",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Kockel",
+          "evidence": [
+            772545,
+            772551
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2bde9083478db483",
+      "name": "H. Truhn",
+      "description": "Musician/commentator in Dresden who attends salon meetings and offers views on dramatic music and performance",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "H. Truhn",
+          "evidence": [
+            992422,
+            992430
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a5d6f676ecfac9b9",
+      "name": "Herr von Munchhausen",
+      "description": "The tall slim young man with whom Schroder-Devrient forms a new liaison",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "von Munchhausen",
+          "evidence": [
+            683244,
+            683259
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f8fc56b4aa73c2de",
+      "name": "Muller (ex-Minister of Education)",
+      "description": "Muller, the ex-Minister of Education and father of a young lieutenant of the Guards mentioned in Devrient’s affairs",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Muller",
+          "evidence": [
+            88177,
+            88183
+          ]
+        },
+        {
+          "text": "the son of Muller, the ex-Minister of Education",
+          "evidence": [
+            683105,
+            683152
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eac5477a5e0d39ec",
+      "name": "Muller (contrabassist from Darmstadt)",
+      "description": "A contrabassist named Muller from Darmstadt whom Lipinsky recommends for a post in the Dresden orchestra",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Muller",
+          "evidence": [
+            88177,
+            88183
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c632c08a7c308485",
+      "name": "Professor Kochly",
+      "description": "Philologist who attends concerts and is impressed by Wagner’s performances",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Professor Kochly",
+          "evidence": [
+            1121526,
+            1121542
+          ]
+        },
+        {
+          "text": "Kochly",
+          "evidence": [
+            941831,
+            941837
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-da77fdf51e54779a",
+      "name": "Professor Droysen",
+      "description": "Historian cited as influence on Wagner’s study of Greek tragedy (appears as referenced authority in Wagner’s reflections)",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Droysen",
+          "evidence": [
+            970824,
+            970831
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-065ee9add8118f19",
+      "name": "Professor Franck",
+      "description": "Hermann and Albert Franck: two Francks who participated in intellectual support and editorial contacts for Wagner",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Hermann Franck",
+          "evidence": [
+            893147,
+            893161
+          ]
+        },
+        {
+          "text": "Albert Franck",
+          "evidence": [
+            1208377,
+            1208390
+          ]
+        },
+        {
+          "text": "Dr. Franck",
+          "evidence": [
+            894978,
+            894988
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cfc1c1272e3948a4",
+      "name": "Alexander von Weber",
+      "description": "Son of Carl Maria von Weber, mentioned in connection with the transfer of his father’s remains",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Alexander von Weber",
+          "evidence": [
+            842946,
+            842965
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-395425e23794543d",
+      "name": "Frau Julie Ritter",
+      "description": "Madame Julie Ritter, benevolent supporter who aided Wagner and whose family befriended him",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Frau Julie Ritter",
+          "evidence": [
+            1241356,
+            1241373
+          ]
+        },
+        {
+          "text": "Julie Ritter",
+          "evidence": [
+            1241361,
+            1241373
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-14f455933623ba52",
+      "name": "Karl Ritter",
+      "description": "Young man from the Ritter family who visited Wagner and befriended him; acted as intermediary and companion",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Karl Ritter",
+          "evidence": [
+            1023041,
+            1023052
+          ]
+        },
+        {
+          "text": "Ritter",
+          "evidence": [
+            32753,
+            32759
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-75c506d34849cac5",
+      "name": "Mme. Jessie Laussot",
+      "description": "Madame Jessie Laussot, an Englishwoman married in Bordeaux who befriended Wagner and invited him to Bordeaux; later became entangled in family conflict",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Madame Jessie Laussot",
+          "evidence": [
+            1022919,
+            1022940
+          ]
+        },
+        {
+          "text": "Jessie Laussot",
+          "evidence": [
+            1022926,
+            1022940
+          ]
+        },
+        {
+          "text": "Mme. Laussot",
+          "evidence": [
+            1239836,
+            1239848
+          ]
+        },
+        {
+          "text": "Jessie",
+          "evidence": [
+            1022926,
+            1022932
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2c8875110d7886a4",
+      "name": "Eugene Laussot (M. Laussot)",
+      "description": "Eugène Laussot, Jessie Laussot’s husband, a Bordeaux wine-merchant involved in domestic conflict over Jessie’s friendship with Wagner",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "M. Laussot",
+          "evidence": [
+            1257354,
+            1257364
+          ]
+        },
+        {
+          "text": "Eugene Laussot",
+          "evidence": [
+            1240484,
+            1240498
+          ]
+        },
+        {
+          "text": "Laussot",
+          "evidence": [
+            1022933,
+            1022940
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-201321ef14c05587",
+      "name": "Mrs. Taylor",
+      "description": "Madame Taylor, Jessie Laussot’s English mother, influential in the Laussot household and active in the family’s disputes",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Mrs. Taylor",
+          "evidence": [
+            1240606,
+            1240617
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-00f0cd71a2b5c22c",
+      "name": "Nathalie",
+      "description": "‘So-called sister’ of Jessie Laussot who accompanies her in travel; a participant in domestic episodes",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Nathalie",
+          "evidence": [
+            401599,
+            401607
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cbf435af04887059",
+      "name": "Professor Siebert",
+      "description": "Weimar professor and contact of Liszt who helps Wagner with introductions and arrangements in Weimar",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Professor Siebert",
+          "evidence": [
+            1177303,
+            1177320
+          ]
+        },
+        {
+          "text": "Siebert",
+          "evidence": [
+            1177313,
+            1177320
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ded1e4bea6685cd9",
+      "name": "Professor Widmann",
+      "description": "Professor who offers Wagner the use of his passport and assistance during flight from Germany",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Professor Widmann",
+          "evidence": [
+            1179865,
+            1179882
+          ]
+        },
+        {
+          "text": "Widmann",
+          "evidence": [
+            500374,
+            500381
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-84942b672b7f8158",
+      "name": "Heubner",
+      "description": "Kreis-Amtmann Heubner, civic official who seized and held a barricade during the Dresden rising and later became a leader of the provisional government",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Heubner",
+          "evidence": [
+            1128509,
+            1128516
+          ]
+        },
+        {
+          "text": "Kreis-Amtmann Heubner",
+          "evidence": [
+            1128495,
+            1128516
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-575a19e3551d8fa3",
+      "name": "Todt",
+      "description": "Member of the Dresden provisional government who appears in the Town Hall during the rising",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Todt",
+          "evidence": [
+            1128783,
+            1128787
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e7c321b32802fcf3",
+      "name": "Tschirner",
+      "description": "Member of the Dresden provisional government who participates in council activities",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Tschirner",
+          "evidence": [
+            1128792,
+            1128801
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d26de5dc4f8cf23",
+      "name": "Stephan Born",
+      "description": "Compositor and revolutionary who takes command roles among volunteers and helps organise insurgent bands",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Stephan Born",
+          "evidence": [
+            1162772,
+            1162784
+          ]
+        },
+        {
+          "text": "Born",
+          "evidence": [
+            198281,
+            198285
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b995671d9c20723c",
+      "name": "Marschall von Bieberstein",
+      "description": "A lawyer and senior officer who takes part in provisional government efforts and escorts volunteers",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Marschall von Bieberstein",
+          "evidence": [
+            1123242,
+            1123267
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-31ec445f1ad4b8dd",
+      "name": "Leo von Zichlinsky",
+      "description": "Officer entrusted with covering a retreat and aiding provisional operations",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Leo von Zichlinsky",
+          "evidence": [
+            1128360,
+            1128378
+          ]
+        },
+        {
+          "text": "Zichlinsky",
+          "evidence": [
+            1031270,
+            1031280
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6b24cd7467d0e3f4",
+      "name": "Haimberger",
+      "description": "A young Galician/Polish violinist associated with Bakunin, present among the Town Hall defendants and volunteers",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Haimberger",
+          "evidence": [
+            1149999,
+            1150009
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-516f7315da87bec2",
+      "name": "Martin (post-office clerk)",
+      "description": "Energetic post-office clerk active in the provisional government’s operations",
+      "scope": "My Life — Volume 1",
+      "aliases": [
+        {
+          "text": "Martin",
+          "evidence": [
+            156426,
+            156432
+          ]
+        }
+      ]
+    }
+  ]
+}

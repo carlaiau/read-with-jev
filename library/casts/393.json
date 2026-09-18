@@ -1,0 +1,513 @@
+{
+  "schema": 1,
+  "gutenbergId": 393,
+  "sourceSha256": "845a998cab58fb388aa28b836b83ce49a1de49ba0701c591682122cfb1e5e64c",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-88fe7147c54b0b8d",
+      "name": "Emmeline Lestrange",
+      "description": "Little niece of Arthur Lestrange; child who grows up on the island, later the mother of Hannah; central female protagonist.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Emmeline Lestrange",
+          "evidence": [
+            10271,
+            10289
+          ]
+        },
+        {
+          "text": "Emmeline",
+          "evidence": [
+            10271,
+            10279
+          ]
+        },
+        {
+          "text": "Em’leen",
+          "evidence": [
+            106324,
+            106331
+          ]
+        },
+        {
+          "text": "Em’line",
+          "evidence": [
+            48206,
+            48213
+          ]
+        },
+        {
+          "text": "Em",
+          "evidence": [
+            10271,
+            10273
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1aebc657363eedf7",
+      "name": "Arthur Lestrange",
+      "description": "Passenger on the Northumberland, uncle and guardian of Emmeline and Dick; ill man who seeks to protect the children and later obsessively searches for them.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Arthur Lestrange",
+          "evidence": [
+            10049,
+            10065
+          ]
+        },
+        {
+          "text": "Mr Lestrange",
+          "evidence": [
+            11139,
+            11151
+          ]
+        },
+        {
+          "text": "Lestrange",
+          "evidence": [
+            10056,
+            10065
+          ]
+        },
+        {
+          "text": "Mad Lestrange",
+          "evidence": [
+            314464,
+            314477
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-159e767813a7b1ce",
+      "name": "Dick (Lestrange’s son)",
+      "description": "Arthur Lestrange’s little son; grows up on the island with Emmeline, becomes a skilled survivor and Emmeline’s partner.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dick",
+          "evidence": [
+            10659,
+            10663
+          ]
+        },
+        {
+          "text": "Dicky",
+          "evidence": [
+            11126,
+            11131
+          ]
+        },
+        {
+          "text": "Dicky,",
+          "evidence": [
+            11126,
+            11132
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3cf19f7c811efbb9",
+      "name": "Paddy Button",
+      "description": "Old shell-back sailor who cares for the children after the shipwreck; practical fo'c's'le character (later dies aboard the brig).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr Button",
+          "evidence": [
+            2708,
+            2717
+          ]
+        },
+        {
+          "text": "Paddy Button",
+          "evidence": [
+            14062,
+            14074
+          ]
+        },
+        {
+          "text": "Paddy",
+          "evidence": [
+            5015,
+            5020
+          ]
+        },
+        {
+          "text": "Pat",
+          "evidence": [
+            3472,
+            3475
+          ]
+        },
+        {
+          "text": "Left-handed Pat",
+          "evidence": [
+            3460,
+            3475
+          ]
+        },
+        {
+          "text": "Mr Paddy",
+          "evidence": [
+            51070,
+            51078
+          ]
+        },
+        {
+          "text": "Pawthrick",
+          "evidence": [
+            5758,
+            5767
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2680b7f5adfb1acd",
+      "name": "Captain Le Farge",
+      "description": "Master of the Northumberland (referred to as the ship’s \"old man\"); directs evacuation during the fire.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Le Farge",
+          "evidence": [
+            36601,
+            36617
+          ]
+        },
+        {
+          "text": "Le Farge",
+          "evidence": [
+            16228,
+            16236
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a071135c709beb3b",
+      "name": "Mrs Stannard",
+      "description": "Stewardess on the Northumberland who looks after the children aboard ship.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs Stannard",
+          "evidence": [
+            11059,
+            11071
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9ac4824e160b7caf",
+      "name": "Jenkins",
+      "description": "Steward mentioned aboard the Northumberland (criticized by the captain).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jenkins",
+          "evidence": [
+            24174,
+            24181
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6fe8cb36ff5a6b03",
+      "name": "Ohio",
+      "description": "A crew/passenger voice identified by origin and addressed by that sobriquet in the fo'c's'le dialogue.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ohio",
+          "evidence": [
+            4965,
+            4969
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ac3343f3a781390f",
+      "name": "Buck M'Cann",
+      "description": "Character in Paddy Button’s anecdote; an eccentric village man in Button’s Connaught reminiscences.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Buck M’Cann",
+          "evidence": [
+            76442,
+            76453
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4d3699e6ffeb60d2",
+      "name": "Tim",
+      "description": "Referred to as Paddy Button’s elder brother in a recollected tale told by Button.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tim",
+          "evidence": [
+            77500,
+            77503
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-501b8731c2f6d073",
+      "name": "Larry Marr",
+      "description": "Man mentioned in Button’s backstory who shanghaied Button in 'Frisco; part of Button’s past.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Larry Marr",
+          "evidence": [
+            3992,
+            4002
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e596c7db97ee72f7",
+      "name": "Jack Rafferty",
+      "description": "Sailor mentioned in Button’s reminiscences (example of a fo’c’s’le casualty).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jack Rafferty",
+          "evidence": [
+            46083,
+            46096
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-81eebc99e3f1cf91",
+      "name": "Mrs James",
+      "description": "Acquaintance in Boston who gave Emmeline the small cardboard box/tea-set; referenced in Emmeline’s memories.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs James",
+          "evidence": [
+            58187,
+            58196
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ddf37fffe7cb948c",
+      "name": "Mrs Sims",
+      "description": "Doctor’s wife mentioned in the children’s recollections in Boston.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs Sims",
+          "evidence": [
+            116198,
+            116206
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd05edceba1e4488",
+      "name": "Jane",
+      "description": "Servant referenced in Boston anecdotes (appears in children’s memories).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jane",
+          "evidence": [
+            59057,
+            59061
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-381ac32f6274eed3",
+      "name": "Koko",
+      "description": "Tame blue bird kept by Emmeline; a recurring named animal companion on the island.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Koko",
+          "evidence": [
+            189701,
+            189705
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1dc760c3fddf5074",
+      "name": "Hannah",
+      "description": "The child born to Emmeline and Dick on the island (male child given the name Hannah in the narrative).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hannah",
+          "evidence": [
+            57910,
+            57916
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f1eba5de2407ed62",
+      "name": "Merrows",
+      "description": "Mythical sea-people invoked in sailors’ tales and local lore within the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Merrows",
+          "evidence": [
+            42527,
+            42534
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ef61d68cdefd5e37",
+      "name": "Leprachaun",
+      "description": "Mythical Irish creature mentioned in fo'c's'le tales (part of Button’s folklore references).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Leprachaun",
+          "evidence": [
+            6126,
+            6136
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-41e4986d128cda1e",
+      "name": "Troll",
+      "description": "Mythical creature referenced in sailors’ dialogue (term used in conversation).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Troll",
+          "evidence": [
+            7621,
+            7626
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e93f0a980159df7d",
+      "name": "Cluricaunes",
+      "description": "Irish fairy-like beings (tinker of the Good People) mentioned in Button’s stories and in island lore within the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cluricaunes",
+          "evidence": [
+            106100,
+            106111
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c07a5d3dcd99a7ce",
+      "name": "Captain Simon J. Fountain",
+      "description": "Former whaler (Simon J. Fountain) who provides Lestrange with the crucial lead (the boxed tea-set) about the island where the children’s box was found.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Simon J. Fountain",
+          "evidence": [
+            325988,
+            326005
+          ]
+        },
+        {
+          "text": "Captain Fountain",
+          "evidence": [
+            330645,
+            330661
+          ]
+        },
+        {
+          "text": "Fountain",
+          "evidence": [
+            325997,
+            326005
+          ]
+        },
+        {
+          "text": "Silas",
+          "evidence": [
+            330024,
+            330029
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b34b975a59df5921",
+      "name": "Captain Stannistreet",
+      "description": "Master of the schooner Raratonga engaged to pursue the search for Lestrange’s children.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Captain Stannistreet",
+          "evidence": [
+            336930,
+            336950
+          ]
+        },
+        {
+          "text": "Stannistreet",
+          "evidence": [
+            336938,
+            336950
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-906a08f5b00c67a3",
+      "name": "Wannamaker",
+      "description": "Agent/advertising contact in San Francisco who places Lestrange’s notices and helps arrange interviews; appears as Lestrange’s business contact.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Wannamaker",
+          "evidence": [
+            323844,
+            323854
+          ]
+        }
+      ]
+    }
+  ]
+}

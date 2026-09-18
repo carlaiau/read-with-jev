@@ -1,0 +1,507 @@
+{
+  "schema": 1,
+  "gutenbergId": 1695,
+  "sourceSha256": "16fde29acf764ba5742fd5db8833f424b6b89c0f6e282d518f6c626006faf6e1",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-72391877835407c1",
+      "name": "Gabriel Syme",
+      "description": "Protagonist; a poet-turned-detective in the secret anti-anarchist corps, elected to the Council as 'Thursday'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gabriel Syme",
+          "evidence": [
+            10798,
+            10810
+          ]
+        },
+        {
+          "text": "Mr. Gabriel Syme",
+          "evidence": [
+            53187,
+            53203
+          ]
+        },
+        {
+          "text": "Syme",
+          "evidence": [
+            10806,
+            10810
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e66964a883e8281d",
+      "name": "Lucian Gregory",
+      "description": "Auburn‑haired revolutionary poet of Saffron Park; theatrical anarchist and rival of Syme.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lucian Gregory",
+          "evidence": [
+            8623,
+            8637
+          ]
+        },
+        {
+          "text": "Mr. Lucian Gregory",
+          "evidence": [
+            8619,
+            8637
+          ]
+        },
+        {
+          "text": "Gregory",
+          "evidence": [
+            8630,
+            8637
+          ]
+        },
+        {
+          "text": "Comrade Gregory",
+          "evidence": [
+            43735,
+            43750
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bd9da30906afa5dd",
+      "name": "Rosamond Gregory",
+      "description": "Sister of Lucian Gregory, a local woman of Saffron Park who appears in the opening garden scene.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Rosamond Gregory",
+          "evidence": [
+            16928,
+            16944
+          ]
+        },
+        {
+          "text": "Rosamond",
+          "evidence": [
+            11896,
+            11904
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0b338341b0791303",
+      "name": "Sunday (the President)",
+      "description": "Mysterious, colossal President of the Central Anarchist Council; enigmatic leader whose identity and purpose drive much of the plot.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sunday",
+          "evidence": [
+            2673,
+            2679
+          ]
+        },
+        {
+          "text": "the President",
+          "evidence": [
+            86159,
+            86172
+          ]
+        },
+        {
+          "text": "Bloody Sunday",
+          "evidence": [
+            37277,
+            37290
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-75ef0cb512ea8149",
+      "name": "Buttons",
+      "description": "Chairman of the local anarchist branch; conducts the meeting in the subterranean room.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Comrade Buttons",
+          "evidence": [
+            45956,
+            45971
+          ]
+        },
+        {
+          "text": "Mr. Buttons",
+          "evidence": [
+            58625,
+            58636
+          ]
+        },
+        {
+          "text": "Buttons",
+          "evidence": [
+            45964,
+            45971
+          ]
+        },
+        {
+          "text": "the chairman",
+          "evidence": [
+            47823,
+            47835
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1bf0c554eddb2a56",
+      "name": "Witherspoon",
+      "description": "A noisy, velvet‑coated anarchist present at the Council meetings; vocal opponent/participant in debates.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Witherspoon",
+          "evidence": [
+            50897,
+            50908
+          ]
+        },
+        {
+          "text": "Mr. Witherspoon",
+          "evidence": [
+            51516,
+            51531
+          ]
+        },
+        {
+          "text": "Comrade Witherspoon",
+          "evidence": [
+            50889,
+            50908
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9c64e98e73a6a688",
+      "name": "The Secretary (Monday)",
+      "description": "Secretary of the Central Anarchist Council (the branch secretary), noted for a twisted smile and fierce devotion to the cause; associated with the day 'Monday'.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the Secretary",
+          "evidence": [
+            86028,
+            86041
+          ]
+        },
+        {
+          "text": "Monday",
+          "evidence": [
+            96411,
+            96417
+          ]
+        },
+        {
+          "text": "the Secretary of the branch",
+          "evidence": [
+            86028,
+            86055
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bdea4005d57ce518",
+      "name": "Professor de Worms / Wilks",
+      "description": "Anarchist persona 'Professor de Worms' (assigned to 'Friday') who is revealed to be an actor named Wilks and later implicated in police operations.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Professor de Worms",
+          "evidence": [
+            98464,
+            98482
+          ]
+        },
+        {
+          "text": "de Worms",
+          "evidence": [
+            98474,
+            98482
+          ]
+        },
+        {
+          "text": "Professor",
+          "evidence": [
+            98464,
+            98473
+          ]
+        },
+        {
+          "text": "Wilks",
+          "evidence": [
+            70914,
+            70919
+          ]
+        },
+        {
+          "text": "Friday",
+          "evidence": [
+            98513,
+            98519
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e93ac3545852dce4",
+      "name": "Marquis de St. Eustache / Inspector Ratcliffe",
+      "description": "Introduced as the aristocratic Marquis de St. Eustache (Wednesday), later revealed to be Inspector Ratcliffe of the police—an undercover detective.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Marquis de St. Eustache",
+          "evidence": [
+            189187,
+            189210
+          ]
+        },
+        {
+          "text": "the Marquis",
+          "evidence": [
+            107510,
+            107521
+          ]
+        },
+        {
+          "text": "Wednesday",
+          "evidence": [
+            97100,
+            97109
+          ]
+        },
+        {
+          "text": "Inspector Ratcliffe",
+          "evidence": [
+            213604,
+            213623
+          ]
+        },
+        {
+          "text": "Ratcliffe",
+          "evidence": [
+            213614,
+            213623
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3bd1e7a20a3605f1",
+      "name": "Gogol",
+      "description": "A wild, brown‑haired conspirator described as a Pole and called 'Tuesday' at the Council; a tragic, fervent figure among the conspirators.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gogol",
+          "evidence": [
+            93479,
+            93484
+          ]
+        },
+        {
+          "text": "Tuesday",
+          "evidence": [
+            93543,
+            93550
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7e0586ea05109674",
+      "name": "Dr. Bull",
+      "description": "A practical, somewhat vulgar young doctor wearing dark spectacles; holds the 'Saturday' place on the Council and later revealed as a police operative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Bull",
+          "evidence": [
+            107497,
+            107505
+          ]
+        },
+        {
+          "text": "Bull",
+          "evidence": [
+            99695,
+            99699
+          ]
+        },
+        {
+          "text": "Saturday",
+          "evidence": [
+            99530,
+            99538
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9780565a2af8c2d1",
+      "name": "Colonel Ducroix",
+      "description": "French colonel who acts as a second for the Marquis in the duel and assists the protagonists in France.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Colonel Ducroix",
+          "evidence": [
+            201057,
+            201072
+          ]
+        },
+        {
+          "text": "Ducroix",
+          "evidence": [
+            199789,
+            199796
+          ]
+        },
+        {
+          "text": "the Colonel",
+          "evidence": [
+            201391,
+            201402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f0a60d81e81c0e12",
+      "name": "Dr. Renard",
+      "description": "Wealthy French doctor who owns motor‑cars and whose allegiance proves ambiguous during the pursuit in France.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Renard",
+          "evidence": [
+            240129,
+            240139
+          ]
+        },
+        {
+          "text": "Renard",
+          "evidence": [
+            238387,
+            238393
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cf351cfbde7fa9da",
+      "name": "the innkeeper (Le Soleil d'Or)",
+      "description": "Owner of the little inn 'Le Soleil d'Or' who initially assists the fugitives and is later implicated under pressure.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the innkeeper",
+          "evidence": [
+            230045,
+            230058
+          ]
+        },
+        {
+          "text": "old innkeeper",
+          "evidence": [
+            234026,
+            234039
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fd4a57510c0a49f6",
+      "name": "the peasant (wood‑cutter / cart driver)",
+      "description": "A prosperous Norman peasant who drives a cart and later helps the protagonists evade their pursuers.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the peasant",
+          "evidence": [
+            232162,
+            232173
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5d6ebfaca014c80",
+      "name": "a policeman on the Embankment",
+      "description": "Unnamed constable who first speaks to Syme on the Embankment and introduces him to the idea of a specialised philosophical detective corps.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "a policeman on the Embankment",
+          "evidence": [
+            66656,
+            66685
+          ]
+        },
+        {
+          "text": "the policeman",
+          "evidence": [
+            67370,
+            67383
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-df648f28a5ee2ff7",
+      "name": "the Scotland Yard chief in the dark room",
+      "description": "Unseen head of the special police department who interviews Syme in a pitch‑dark room and engages him for the anti‑anarchist corps.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "the chief",
+          "evidence": [
+            76848,
+            76857
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f41de7493226ca41",
+      "name": "the elephant",
+      "description": "An elephant from the Zoological Gardens that is ridden by Sunday in his escape through London and causes public uproar.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "an elephant",
+          "evidence": [
+            284374,
+            284385
+          ]
+        },
+        {
+          "text": "the elephant",
+          "evidence": [
+            283262,
+            283274
+          ]
+        }
+      ]
+    }
+  ]
+}

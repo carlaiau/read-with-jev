@@ -1,0 +1,160 @@
+{
+  "chunks": [
+    {
+      "start": 917,
+      "end": 650887,
+      "key": "73f8d107089deb2894bb8220c71a08c3455b7f04b17b6251b5b33677efd14fe9",
+      "usage": {
+        "input_tokens": 160134,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6648,
+        "output_tokens_details": {
+          "reasoning_tokens": 2944
+        },
+        "total_tokens": 166782
+      }
+    },
+    {
+      "start": 650887,
+      "end": 1272298,
+      "key": "f45ddba0c3c20316bb82e79999b4b7e24e90c4bcadc5d526aa24ffea017a4c12",
+      "usage": {
+        "input_tokens": 151062,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 10278,
+        "output_tokens_details": {
+          "reasoning_tokens": 5376
+        },
+        "total_tokens": 161340
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "2338bdc60912b41b3881ffaf388be4191461dd4e8fdefd94e45885a01d57e450",
+    "usage": {
+      "input_tokens": 17112,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 11064,
+      "output_tokens_details": {
+        "reasoning_tokens": 3456
+      },
+      "total_tokens": 28176
+    }
+  },
+  "rejected": [
+    {
+      "name": "Wilhelmine Schroder-Devrient (book)",
+      "alias": "Wilhelmine Schroder-Devrient",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Berlioz (book)",
+      "alias": "Hector Berlioz",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Halevy",
+      "alias": "Fromental Halevy",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Paul Faucher",
+      "alias": "M. Paul Faucher",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "an invalid Italian singer",
+      "alias": "an invalid Italian singer",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Schroder-Devrient (My Life)",
+      "alias": "the great artiste",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Princess Amalie",
+      "alias": "Princess Amalie",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Princess Augusta",
+      "alias": "Princess Augusta",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Rastrelli",
+      "alias": "royal director of music, Rastrelli",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Professor Lowe",
+      "alias": "‘Robespierre’ (nickname)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Franz Liszt",
+      "alias": "F. Liszt",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Franz Liszt",
+      "alias": "F. Liszt was described",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Jenny Pachta (My Life)",
+      "alias": "Jenny Pachta",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "F. Hiller (wife)",
+      "alias": "Hiller’s wife",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Count Redern",
+      "alias": "M. Illaire (separately below)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Caroline von Weber",
+      "alias": "Caroline von Weber (nee)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Herr von Munchhausen",
+      "alias": "Herr von Munchhausen",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Muller (contrabassist from Darmstadt)",
+      "alias": "Muller (contrabassist from Darmstadt)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Karl Ritter",
+      "alias": "young Ritter",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Von Watzdorf",
+      "alias": "von Watzdorf",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Martin (post-office clerk)",
+      "alias": "Martin, the post-office clerk",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

@@ -1,0 +1,1517 @@
+{
+  "chunks": [
+    {
+      "start": 1033,
+      "end": 651015,
+      "key": "ea82323e29446af4f5cc93a85da8f73588bef97e979d182e63784b0a438d029e",
+      "usage": {
+        "input_tokens": 227861,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 14938,
+        "output_tokens_details": {
+          "reasoning_tokens": 2624
+        },
+        "total_tokens": 242799
+      }
+    },
+    {
+      "start": 651015,
+      "end": 1300993,
+      "key": "aa818e17d9b55cddd51cacf2fc7e12ac37d33de6ccfdc629cf4311b494f07d89",
+      "usage": {
+        "input_tokens": 227884,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15716,
+        "output_tokens_details": {
+          "reasoning_tokens": 1088
+        },
+        "total_tokens": 243600
+      }
+    },
+    {
+      "start": 1300993,
+      "end": 1950987,
+      "key": "bff7c699ebc490373a5834e5ef5fac316f31e3cdbc4736ea85967fc38975f53e",
+      "usage": {
+        "input_tokens": 228610,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 14996,
+        "output_tokens_details": {
+          "reasoning_tokens": 4160
+        },
+        "total_tokens": 243606
+      }
+    },
+    {
+      "start": 1950987,
+      "end": 2600937,
+      "key": "abca4f891dce389665ad707e927c5cb3a39ae8db1e4c2f96271a8b996c44cc27",
+      "usage": {
+        "input_tokens": 225806,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8049,
+        "output_tokens_details": {
+          "reasoning_tokens": 960
+        },
+        "total_tokens": 233855
+      }
+    },
+    {
+      "start": 2600937,
+      "end": 3250904,
+      "key": "a29f9bed77e0ee6390042883179db5f59249ca69672db05a4750f68a2ec7e356",
+      "usage": {
+        "input_tokens": 223459,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 9408,
+        "output_tokens_details": {
+          "reasoning_tokens": 2304
+        },
+        "total_tokens": 232867
+      }
+    },
+    {
+      "start": 3250904,
+      "end": 3900841,
+      "key": "060c09122b110778daab75bec1aea7c99d3f3193f860c77e090ec67052d0c6e3",
+      "usage": {
+        "input_tokens": 225392,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15882,
+        "output_tokens_details": {
+          "reasoning_tokens": 1728
+        },
+        "total_tokens": 241274
+      }
+    },
+    {
+      "start": 3900841,
+      "end": 4550818,
+      "key": "9e40853e4ca2247d188ef2cfac2c0f6280cb95ade1151f37ed471c90abf06c80",
+      "usage": {
+        "input_tokens": 224190,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 224128
+        },
+        "output_tokens": 10881,
+        "output_tokens_details": {
+          "reasoning_tokens": 2624
+        },
+        "total_tokens": 235071
+      }
+    },
+    {
+      "start": 4550818,
+      "end": 4651335,
+      "key": "21a659d5aa278f12b296f38ae490b5f3fc1038b9b9c67af10dceea5756b13335",
+      "usage": {
+        "input_tokens": 36194,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5770,
+        "output_tokens_details": {
+          "reasoning_tokens": 1856
+        },
+        "total_tokens": 41964
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "359cd74fdd5cffad311d0082c9f9b0553352d740d7cdc22634441eb2ac3d7742",
+    "usage": {
+      "input_tokens": 103534,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 14439,
+      "output_tokens_details": {
+        "reasoning_tokens": 6336
+      },
+      "total_tokens": 117973
+    }
+  },
+  "rejected": [
+    {
+      "name": "JACKSON, THOMAS C. (surgeon)",
+      "alias": "JACKSON, THOMAS C.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JACOB, Sir GEORGE LE GRAND",
+      "alias": "JACOB, Sir GEORGE LE GRAND",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES, EDMUND JOHN (actor/barrister)",
+      "alias": "JAMES, EDMUND JOHN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES, SIR GEORGE",
+      "alias": "JAMES, SIR GEORGE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES, GEORGE VERNON (eld. son)",
+      "alias": "JAMES, GEORGE VERNON",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES, JACOB",
+      "alias": "JAMES, JACOB ÆMILIUS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES, JACOB",
+      "alias": "JACOB, JACOB ÆMILIUS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES, SIR WILLIAM, 1 Baronet (railway contractor)",
+      "alias": "JAMES, SIR WILLIAM, 1 Baronet",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "KNIGHT, WILLIAM (natural son)",
+      "alias": "KNIGHT, WILLIAM (natural son of a landed proprietor in Aberdeenshire)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAMINGTON, ALEXANDER DUNDAS ROSS WISHART BAILLIE-COCHRANE, 1 Baron",
+      "alias": "LAMINGTON, ALEXANDER DUNDAS ROSS WISHART BAILLIE-COCHRANE, 1 Baron",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAMINGTON, ALEXANDER DUNDAS ROSS WISHART BAILLIE-COCHRANE, 1 Baron",
+      "alias": "Baron Lamington",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAMPS0N, SIR CURTIS MIRANDA, 1 Baronet",
+      "alias": "LAMPS0N, SIR CURTIS MIRANDA, 1 Baronet",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAMPS0N, SIR CURTIS MIRANDA, 1 Baronet",
+      "alias": "LAMPS0N",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LANCE, GEORGE",
+      "alias": "LANCE, GEORGE (note: LANCE appears earlier)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LANCE, GEORGE",
+      "alias": "LARK, GEORGE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAND, EDWARD",
+      "alias": "LANT, EDWARD",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LANE, CHARLES EDWARD WILLIAM",
+      "alias": "LANE, WILLIAM",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LANE, SIR GEORGE ROBERT",
+      "alias": "LANE, SIR GEORGE ROBERT",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LANE, WILLIAM (cricketer)",
+      "alias": "LANE, WILLIAM",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LANE, WILLIAM BLAKE",
+      "alias": "LANE, WILLIAM BLAKE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LANEY, CHARLES",
+      "alias": "LANEY, CHARLES",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAURIE, DAVID (bibliographer)",
+      "alias": "LAURIE, DAVID",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAW, JOHN (various)",
+      "alias": "LAW, JOHN HENRY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAW, JOHN (various)",
+      "alias": "LAW, JOHN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAWRENCE, JOHN (David)",
+      "alias": "LAWRENCE, DAVID",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAWRENCE, JOHN (David)",
+      "alias": "LAWRENCE, JOHN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAWRENCE, JOHN (David)",
+      "alias": "LAWRENCE, LUIGI",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAWRENCE, JOHN (David)",
+      "alias": "LAWRENCE, SIR JOHN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LEAHY, JOHN",
+      "alias": "LEAHY, JOHN PIERS (bishop)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LANGHAM, STEPHEN NATHANIEL",
+      "alias": "LEON CHAMPION",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LANEY, JOHN (duplicated)",
+      "alias": "LANEY, JOHN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAPLACE, multiple (various entries including La Rocque etc.)",
+      "alias": "LAPLACHE, LUIGI",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAMBEY / LAMB (variants)",
+      "alias": "LAMB, WALTER SAVAGE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAMBEY / LAMB (variants)",
+      "alias": "LAMBERT, various",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LAUBEN, miscellaneous",
+      "alias": "Various (see entries)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUDOVICI / LULL (misc.)",
+      "alias": "See individual headings in text",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LORENZO / LOREN (misc.)",
+      "alias": "See individual headings in text",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOVELACE, AUGUSTA ADA KING, Countess of",
+      "alias": "Ada Lovelace",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOVELL, EDWIN",
+      "alias": "LOVELL, EDWIN (youngest son of Joseph Lovell Lovell of Chilcote manor, solicitor).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOVELL, EDWIN",
+      "alias": "Brother Glastonbury",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOVELL, SIR LOVELL BENJAMIN",
+      "alias": "LOVELL, SIR LOVELL BENJAMIN (eld. son of Thomas Stanhope Badcock of Little Missenden hall, Bucks.)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOVELL, MARIA ANNE",
+      "alias": "LOVELL, MARIA ANNE (dau. of Willoughby Lacy, patentee of Drury Lane, _d._ 1831).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOVELL, WILLIAM STANHOPE",
+      "alias": "LOVELL, WILLIAM STANHOPE (brother of Sir Lovell B. Lovell 1786–1861).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOVER, SAMUEL",
+      "alias": "LOVER, SAMUEL (eld. son of a member of the Dublin stock exchange).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOVESY, CONWAY WHITHORNE",
+      "alias": "LOVESY, CONWAY WHITHORNE (2 son of Conway Whithorne Lovesy of Charlton Kings, Gloucs.)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOVETT, WILLIAM",
+      "alias": "LOVETT, WILLIAM (son of William Lovett, master mariner, drowned 1800).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOW, DAVID (professor)",
+      "alias": "LOW, DAVID (eld. son of Alexander Low of Laws, Berwickshire, land-agent).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOW, HERBERT MOREY",
+      "alias": "LOW, HERBERT MOREY (son of Edwin Low of city of London, solicitor).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOW, SIR JOHN",
+      "alias": "LOW, SIR JOHN (eld. son of Robert Low of Clatto near Cupar, Fifeshire).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOW, SAMPSON (bookseller)",
+      "alias": "LOW, SAMPSON (son of Sampson Low of Berwick st. Soho, London, printer and publisher, _d._ 1800).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWDER, CHARLES FUGE",
+      "alias": "LOWDER, CHARLES FUGE (eld. child of Charles Loder of Bath, banker, _d._ 9 Sep. 1876).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWE, ANN ELIZABETH",
+      "alias": "LOWE, ANN ELIZABETH (daughter of Mauritius Lowe of 3 Hedge lane, Charing Cross, painter, _d._ in a poor lodging house in Westminster 1 Sep. 1793).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWE, EDWARD WILLIAM HOWE DE LANCY",
+      "alias": "LOWE, EDWARD WILLIAM HOWE DE LANCY (youngest son of sir Hudson Lowe 1769–1844, governor of St. Helena 1815–21).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWE, RICHARD GROVE",
+      "alias": "LOWE, RICHARD GROVE.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWE, ROBERT MANLEY",
+      "alias": "LOWE, ROBERT MANLEY.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWE, THOMAS HILL PEREGRINE FURYE",
+      "alias": "LOWE, THOMAS HILL PEREGRINE FURYE.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LÖWENTHAL, JOHANN JACOB",
+      "alias": "LÖWENTHAL, JOHANN JACOB.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWER, RICHARD",
+      "alias": "LOWER, RICHARD (son of John Lower of Alfriston, Sussex, barge owner).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWNDES, WILLIAM LOFTUS",
+      "alias": "LOWNDES, WILLIAM LOFTUS (younger son of Richard Lowndes of Rose hill, Dorking, Surrey).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWREY, DANIEL",
+      "alias": "LOWREY, DANIEL (son of parents who came from Roscrea, Tipperary, to Leeds).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWRY, JAMES CORRY",
+      "alias": "LOWRY, JAMES CORRY (1 son of James Lowry of Rockdale, co. Tyrone).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWRY, JOSEPH WILSON",
+      "alias": "LOWRY, JOSEPH WILSON (only son of Wilson Lowry, engraver 1762–1824).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWTHER, GORGES",
+      "alias": "LOWTHER, GORGES (1 son of Gorges Lowther of Lowther lodge, Dublin, _d._ 1785).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWTHER, SIR JOHN HENRY",
+      "alias": "LOWTHER, SIR JOHN HENRY, 2 Baronet (1 son of sir John Lowther, 1 Baronet 1759–1844).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOWTHROP, SIR WILLIAM",
+      "alias": "LOWTHROP, SIR WILLIAM (2 son of James Lowthrop of Welton hall, east riding of Yorkshire).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LOYD, LEWIS",
+      "alias": "LOYD, LEWIS (eld. son of Wm. Loyd of Court Henry, co. Carmarthen).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUARD, HENRY (general manager of bank)",
+      "alias": "LUARD, HENRY (5 son of Peter John Luard of Blyborough hall, Lincoln).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUARD, JOHN KYNASTON",
+      "alias": "LUARD, JOHN KYNASTON (3 son of John Luard of Wickham Place, Essex).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUARD, RICHARD GEORGE AMHERST",
+      "alias": "LUARD, RICHARD GEORGE AMHERST (eld. son of John Luard 1790–1875).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUBBOCK, SIR JOHN WILLIAM, 3 Baronet",
+      "alias": "LUBBOCK, SIR JOHN WILLIAM, 3 Baronet (only child of sir John Wm. Lubbock, 2 baronet 1774–1840).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUCAN, GEORGE CHARLES BINGHAM, 3 Earl of",
+      "alias": "LUCAN, GEORGE CHARLES BINGHAM, 3 Earl of (1 son of 2 earl of Lucan 1764–1839).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUCAS, EDWARD",
+      "alias": "LUCAS, EDWARD (only child of Charles Lucas of Castle Shane, co. Monaghan, _d._ 1796).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUCAS, FREDERICK",
+      "alias": "LUCAS, FREDERICK (2 son of Samuel Hayhurst Lucas, corn-merchant and a Quaker).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUCAS, HORATIO JOSEPH",
+      "alias": "LUCAS, HORATIO JOSEPH (4 son of Louis Lucas, West India merchant, _d._ 1862).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUCAS, JAMES",
+      "alias": "LUCAS, JAMES (2 son of James Lucas of Liverpool, West India merchant, _d._ 1830).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUCAS, JAMES (Hermit)",
+      "alias": "LUCAS, JAMES (son of James Lucas of Liverpool, West India merchant, _d._ 1830).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUCAS, JOHN (painter)",
+      "alias": "LUCAS, _John_ (son of William Lucas, sub-editor of The Sun newspaper, London).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUCAS, MARGARET",
+      "alias": "LUCAS, MARGARET (youngest dau. of Jacob Bright and youngest sister of John Bright, M.P.).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUCE, THOMAS",
+      "alias": "LUCE, THOMAS.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUDLOW, EBENEZER",
+      "alias": "LUDLOW, EBENEZER (son of Ebenezer Ludlow of Chipping Sodbury, Gloucester).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUDLOW-BRUGES, WILLIAM HEALD",
+      "alias": "LUDLOW-BRUGES, WILLIAM HEALD (eld. son of Benjamin Pennell Ludlow of Melksham, Wilts.)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUMLEY, BENJAMIN",
+      "alias": "LUMLEY, BENJAMIN (son of Louis Levy a Jewish merchant of Canada, _d._ London about 1831).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUNING, JACOB WILLIAM",
+      "alias": "LUNING, JACOB WILLIAM (3 child of Meinhard Conrad Luning 1732–83, pastor of Hamelvörden, Hanover).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUPTON, THOMAS GOFF",
+      "alias": "LUPTON, THOMAS GOFF.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LURGAN, CHARLES BROWNLOW, 2 Baron",
+      "alias": "LURGAN, CHARLES BROWNLOW, 2 Baron (son of 1 baron Brownlow 1795–1847).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LURGAN, CHARLES BROWNLOW, 2 Baron",
+      "alias": "LURGAN, CHARLES BROWNLOW, 2 Baron.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSH, JOHN ALFRED",
+      "alias": "LUSH, JOHN ALFRED (1 son of John Lush of Berwick St. John, Wilts).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSH, JOHN ALFRED",
+      "alias": "LUSH, JOHN ALFRED.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSH, SIR ROBERT",
+      "alias": "LUSH, SIR ROBERT (eld. son of Robert Lush of Shaftesbury, Dorset).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSH, SIR ROBERT",
+      "alias": "LUSH, SIR ROBERT.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSHINGTON, CHARLES",
+      "alias": "LUSHINGTON, _Charles_ (3 son of sir Stephen Lushington, 1 baronet 1744–1807).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSHINGTON, CHARLES MANNERS",
+      "alias": "LUSHINGTON, CHARLES MANNERS (youngest son of Stephen Rumbold Lushington 1776–1868).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSHINGTON, EDMUND LAW",
+      "alias": "LUSHINGTON, EDMUND LAW (1 son of Edmund Henry Lushington, puisne judge Ceylon, _d._ 1839).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSHINGTON, FRANKLIN",
+      "alias": "LUSHINGTON, FRANKLIN (4 son of sir Henry Lushington, 2 baronet 1775–1863).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSHINGTON, HENRY",
+      "alias": "LUSHINGTON, HENRY (2 son of Edmund Henry Lushington 1766–1839).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSHINGTON, SIR HENRY, 2 Baronet",
+      "alias": "LUSHINGTON, SIR HENRY, 2 Baronet (1 son of sir Stephen Lushington, Bart. 1744–1807).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSHINGTON, SIR JAMES LAW",
+      "alias": "LUSHINGTON, SIR JAMES LAW (3 son of rev. James Stephen Lushington, preb. of Carlisle, _d._ 17 June 1801).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSHINGTON, SIR STEPHEN",
+      "alias": "LUSHINGTON, SIR STEPHEN (2 son of sir Henry Lushington, 2 baronet 1775–1863).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LUSHINGTON, STEPHEN RUMBOLD",
+      "alias": "LUSHINGTON, STEPHEN RUMBOLD (2 son of James Stephen Lushington, V. of Newcastle and preb. of Carlisle, _d._ 1801).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LÜTHY, ROBERT",
+      "alias": "LÜTHY, ROBERT (son of Victor Lüthy a veterinary surgeon).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LYALL, ALFRED",
+      "alias": "LYALL, ALFRED (youngest son of John Lyall of Findon, Sussex, _d._ 1805).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "LYALL, WILLIAM ROWE",
+      "alias": "LYALL, WILLIAM ROWE.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Alexander Marshall",
+      "alias": "MARSHALL, ALEXANDER",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "James Marshall (of Rothesay)",
+      "alias": "MARSHALL, JAMES (son of a doctor at Rothesay, Bute, who _d._ 1806)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Marshall, Lord Curriehill (senior)",
+      "alias": "MARSHALL, JOHN, LORD CURRIEHILL (son of John Marshall of Garlieston, Wigtonshire)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mary Marshall (actress)",
+      "alias": "Polly Marshall",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "William Marshall (minister)",
+      "alias": "MARSHALL, WILLIAM (b. hamlet of Meadowmore, Perthshire 1807)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "G. Marston (G. Marsh)",
+      "alias": "MARSTON, G. stage name of G. Marsh",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "G. Marston (G. Marsh)",
+      "alias": "G. Marsh (dau. of John Baptiste Noel)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Henry Martin (brighton historian)",
+      "alias": "MARTIN, HENRY (son of Mr. Martin of North st. Brighton, saddler)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Martin (bookseller, librarian)",
+      "alias": "MARTIN, JOHN (son of John Martin of 112 Mount st. Grosvenor sq. London, _d._ 1836)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Martin (physician, Tonga Islands editor)",
+      "alias": "MARTIN, JOHN (b. 1789 physician)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Martin (boxer, 'Master of the Rolls')",
+      "alias": "MARTIN, JOHN (b. near Kennington church, London 10 July 1796)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Martin (political activist, Irish Felon)",
+      "alias": "MARTIN, JOHN (2 child of Samuel Martin)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Martin (political activist, Irish Felon)",
+      "alias": "Honest John Martin",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Martin (banker, Martins & Co.)",
+      "alias": "MARTIN, JOHN (eld. son of John Martin of Overbury court, Worcs. 1774–1832)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Martin (writer to the signet)",
+      "alias": "MARTIN, JOHN (son of Francis Martin of Davieland)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Edward Martin",
+      "alias": "MARTIN, JOHN EDWARD (eld. son of John Martin 1791–1855, librarian to Duke of Bedford)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Thomas Martin (naval officer)",
+      "alias": "MARTIN, THOMAS (son of John Nickleson Martin)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "William Martin (very long-lived)",
+      "alias": "MARTIN, WILLIAM (b. Ewell near Epsom 10 March 1750)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Benjamin May",
+      "alias": "MAY, BENJAMIN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "William Mayd",
+      "alias": "MAYD, WILLIAM (2 son of rev. Wm. Mayd)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Mayne",
+      "alias": "MAYNE, JOHN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Mayne (author?)",
+      "alias": "MAYNE, JOHN (b. 1796 boxer)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "William Mayne (author 'Peter Parley')",
+      "alias": "MAYNE, WILLIAM (natural son of Jane Martin, laundress)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sir William Mayne (judge)",
+      "alias": "MAYNE, SIR WILLIAM",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "W. Merrifield (bookman/engraver family)",
+      "alias": "MEAD, THOMAS (stage name)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "W. Merrifield (bookman/engraver family)",
+      "alias": "MERRIFIELD, etc.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Benjamin Mead",
+      "alias": "MEAD, THOMAS (stage name of Thomas Prescott)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Benjamin Mead",
+      "alias": "MEAD, THOMAS (others)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "AUGUSTUS HENRY MOUNSEY",
+      "alias": "AUGUSTUS HENRY MOUNSEY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ARMINE SIMCOE HENRY MOUNTAIN",
+      "alias": "ARMINE SIMCOE HENRY MOUNTAIN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "GEORGE JEHOSHAPHAT MOUNTAIN",
+      "alias": "GEORGE JEHOSHAPHAT MOUNTAIN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JACOB GEORGE MOUNTAIN",
+      "alias": "JACOB GEORGE MOUNTAIN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JACOB HENRY BROOKE MOUNTAIN",
+      "alias": "JACOB HENRY BROOKE MOUNTAIN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "STEPHEN MOORE MOUNT CASHELL",
+      "alias": "STEPHEN MOORE MOUNT CASHELL",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ERNEST AUGUSTUS EDGCUMBE MOUNT EDGCUMBE",
+      "alias": "ERNEST AUGUSTUS EDGCUMBE MOUNT EDGCUMBE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "HERVEY DE MONTMORENCY MOUNTMORRES",
+      "alias": "HERVEY DE MONTMORENCY MOUNTMORRES",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM BROWNE DE MONTMORENCY MOUNTMORRES",
+      "alias": "WILLIAM BROWNE DE MONTMORENCY MOUNTMORRES",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ANTOINE MOUNTSOY",
+      "alias": "ANTOINE MOUNTSOY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM FRANCIS COWPER TEMPLE MOUNT TEMPLE",
+      "alias": "WILLIAM FRANCIS COWPER TEMPLE MOUNT TEMPLE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM FRANCIS COLLARD MOUTRIE",
+      "alias": "WILLIAM FRANCIS COLLARD MOUTRIE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOHN LANCASTER GOUGH MOWAT",
+      "alias": "JOHN LANCASTER GOUGH MOWAT",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ALEXANDER MOWATT",
+      "alias": "ALEXANDER MOWATT",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ANNA CORA MOWATT",
+      "alias": "ANNA CORA MOWATT",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ALFRED JOSEPH STOURTON MOWBRAY",
+      "alias": "ALFRED JOSEPH STOURTON MOWBRAY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ALFRED RICHARD MOWBRAY",
+      "alias": "ALFRED RICHARD MOWBRAY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "EDWARD MOXON",
+      "alias": "EDWARD MOXON",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "EMMA MOXON",
+      "alias": "EMMA MOXON",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES HENRY HARMAR MOXON",
+      "alias": "JAMES HENRY HARMAR MOXON",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WALTER MOXON",
+      "alias": "WALTER MOXON",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "DENIS MOYLAN",
+      "alias": "DENIS MOYLAN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOHN GRENFELL MOYLE",
+      "alias": "JOHN GRENFELL MOYLE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "MATTHEW PAUL MOYLE",
+      "alias": "MATTHEW PAUL MOYLE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "CHARLES ABEL MOYSEY",
+      "alias": "CHARLES ABEL MOYSEY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ANNE MOZLEY",
+      "alias": "ANNE MOZLEY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "HARRIET ELIZABETH MOZLEY",
+      "alias": "HARRIET ELIZABETH MOZLEY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES BOWLING MOZLEY",
+      "alias": "JAMES BOWLING MOZLEY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "THOMAS MOZLEY",
+      "alias": "THOMAS MOZLEY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "HENRY MUDGE",
+      "alias": "HENRY MUDGE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "RICHARD ZACHARIAH MUDGE",
+      "alias": "RICHARD ZACHARIAH MUDGE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ZACHARY MUDGE",
+      "alias": "ZACHARY MUDGE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "CHARLES EDWARD MUDIE",
+      "alias": "CHARLES EDWARD MUDIE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "CHARLES HENRY MUDIE",
+      "alias": "CHARLES HENRY MUDIE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES MUDIE",
+      "alias": "JAMES MUDIE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "THOMAS MOLLISON MUDIE",
+      "alias": "THOMAS MOLLISON MUDIE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SIR HENRY MUGGERIDGE",
+      "alias": "SIR HENRY MUGGERIDGE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "EMILY MARGARET MUIR",
+      "alias": "EMILY MARGARET MUIR",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES MUIR",
+      "alias": "JAMES MUIR",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOHN MUIR (presbyterian minister)",
+      "alias": "JOHN MUIR",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOHN MUIR (eldest son of Wm. Muir)",
+      "alias": "MUIR, JOHN (eld. son of Wm. Muir)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOHN MUIR (eldest son of Wm. Muir)",
+      "alias": "JOHN MUIR",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "MATTHEW ANDREW MUIR",
+      "alias": "MATTHEW ANDREW MUIR",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "MATTHEW ARNOLD MUIR",
+      "alias": "MATTHEW ARNOLD MUIR",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MUIR (minister)",
+      "alias": "MUIR, WILLIAM (son of Wm. Muir, merchant)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MUIR (minister)",
+      "alias": "WILLIAM MUIR",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MUIR (engineer)",
+      "alias": "MUIR, WILLIAM (2 son of Andrew Muir)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MUIR (engineer)",
+      "alias": "WILLIAM MUIR",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SIR WILLIAM MUIR",
+      "alias": "SIR WILLIAM MUIR",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES MUIRHEAD",
+      "alias": "JAMES MUIRHEAD",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOHN MULCAHY",
+      "alias": "JOHN MULCAHY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM EDWARD MULCASTER",
+      "alias": "WILLIAM EDWARD MULCASTER",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "HENRY CHARLES MULES",
+      "alias": "HENRY CHARLES MULES",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "EDWARD MULHALL",
+      "alias": "EDWARD MULHALL",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ANDREW MULHOLLAND",
+      "alias": "ANDREW MULHOLLAND",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "MATTHIAS MULL",
+      "alias": "MATTHIAS MULL",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PATRICK FRANCIS MULLANY",
+      "alias": "PATRICK FRANCIS MULLANY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ROBERT MULLEN",
+      "alias": "ROBERT MULLEN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOSEPH MULLENS",
+      "alias": "JOSEPH MULLENS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "EDWARD ANGIER GODFREY MULLER",
+      "alias": "EDWARD ANGIER GODFREY MULLER",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "FRANZ MÜLLER",
+      "alias": "FRANZ MÜLLER",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "FREDERICK WILLIAM MULLINS",
+      "alias": "FREDERICK WILLIAM MULLINS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JAMES MULLINS",
+      "alias": "JAMES MULLINS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOHN THOMAS MULLOCK",
+      "alias": "JOHN THOMAS MULLOCK",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOSEPH MULLOOLY",
+      "alias": "JOSEPH MULLOOLY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "DINAH MARIA MULOCK",
+      "alias": "DINAH MARIA MULOCK",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MULREADY",
+      "alias": "WILLIAM MULREADY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "CHARLES PELHAM MULVANY",
+      "alias": "CHARLES PELHAM MULVANY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "GEORGE F. MULVANY",
+      "alias": "GEORGE F. MULVANY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ELIZA MUMFORD",
+      "alias": "ELIZA MUMFORD",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ISAAC VALE MUMMERY",
+      "alias": "ISAAC VALE MUMMERY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "GILES MUNBY",
+      "alias": "GILES MUNBY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM ADAM MUNDELL",
+      "alias": "WILLIAM ADAM MUNDELL",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "CHARLES FITROY MILLER MUNDY",
+      "alias": "CHARLES FITROY MILLER MUNDY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "GEORGE MUNDY",
+      "alias": "GEORGE MUNDY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SIR GEORGE MUNDY",
+      "alias": "SIR GEORGE MUNDY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SIR GEORGE RODNEY MUNDY",
+      "alias": "SIR GEORGE RODNEY MUNDY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "GEORGE VALENTINE MUNDY",
+      "alias": "GEORGE VALENTINE MUNDY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "GODFREY CHARLES MUNDY",
+      "alias": "GODFREY CHARLES MUNDY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SIR ROBERT MILLER MUNDY",
+      "alias": "SIR ROBERT MILLER MUNDY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MUNDY",
+      "alias": "WILLIAM MUNDY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ALEXANDER MUNRO (sculptor)",
+      "alias": "MUNRO, ALEXANDER (son of a stonemason)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ALEXANDER MUNRO (sculptor)",
+      "alias": "ALEXANDER MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ALEXANDER MUNRO (priest and educator)",
+      "alias": "ALEXANDER MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "ALEXANDER THOMPSON MUNRO",
+      "alias": "ALEXANDER THOMPSON MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SIR CHARLES MUNRO",
+      "alias": "SIR CHARLES MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "DONALD MUNRO (gardener)",
+      "alias": "DONALD MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "DONALD MUNRO (merchant)",
+      "alias": "DONALD MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "SIR GEORGE GUN MUNRO",
+      "alias": "SIR GEORGE GUN MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "HUGH ANDREW JOHNSTONE MUNRO",
+      "alias": "HUGH ANDREW JOHNSTONE MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JANET MUNRO OR McKENZIE",
+      "alias": "JANET MUNRO OR McKENZIE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOHN MUNRO (Madras officer)",
+      "alias": "MUNRO, JOHN (youngest son of James Munro)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "JOHN MUNRO (Madras officer)",
+      "alias": "JOHN MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MUNRO (army officer and botanist)",
+      "alias": "MUNRO, WILLIAM (eld. son of Wm. Munro)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MUNRO (army officer and botanist)",
+      "alias": "WILLIAM MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "KATE MUNROE",
+      "alias": "KATE MUNROE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "THOMAS MUNROE",
+      "alias": "MUNROE, MONTAGU",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "THOMAS MUNROE",
+      "alias": "MONTAGU MUNROE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "THOMAS MUNRO (publisher)",
+      "alias": "MURRAY, THOMAS (this entry appears as MURRAY; included for continuity)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "THOMAS MUNRO (publisher)",
+      "alias": "THOMAS MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MUNRO (marine)",
+      "alias": "MUNRO, WILLIAM (2 son of preceding)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "WILLIAM MUNRO (marine)",
+      "alias": "WILLIAM MUNRO",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "O’SHAUGHNESSY, SIR WILLIAM BROOKE",
+      "alias": "Sir William O’Shaughnessy Brooke",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PACKER, EDWARD",
+      "alias": "PACKER, EDWARD",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PACKER, EDWARD HENRY",
+      "alias": "PACKER, EDWARD HENRY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PACKER, THOMAS",
+      "alias": "PACKER, THOMAS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PAGE, HENRY (see above)",
+      "alias": "PAGE, HENRY",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PAKENHAM, GEORGE FREDERICK",
+      "alias": "PAKENHAM, GEORGE FREDERICK",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PAKENHAM, SIR GEORGE AUGUSTUS FREDERICK",
+      "alias": "PAKENHAM, SIR GEORGE AUGUSTUS FREDERICK",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PAKENHAM, SIR GEORGE EDWARD",
+      "alias": "PAKENHAM, SIR GEORGE EDWARD",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PALMER, LOFTUS",
+      "alias": "PALMER, LOFTUS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PALMER, SIR LOFTUS WILLIAM",
+      "alias": "PALMER, SIR LOFTUS WILLIAM",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PANTON, JOHN",
+      "alias": "PANTON, JOHN",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PANTON, EDWARD",
+      "alias": "PANTON, EDWARD",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PAPAFY, NICHOLAS",
+      "alias": "PAPAFY, NICHOLAS",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "PARDEE, DAVID",
+      "alias": "PARDEE, DAVID",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Henry Hall Pickersgill",
+      "alias": "PICKERSGILL, Henry Hall",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Benjamin Piercy",
+      "alias": "PIERSON, BENJAMIN (3 son of Robert Piercy, surveyor).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "William Henry Pierson (younger)",
+      "alias": "PIERSON, WILLIAM HENRY (eld. son of Charles Pierson of Cheltenham).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Richard Pigot",
+      "alias": "PIGOT, RICHARD (son of George Pigott, clerk to Peter Purcell)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Richard Pigott (forger)",
+      "alias": "PIGOTT, RICHARD (son of George Pigott, clerk to Peter Purcell, Dublin)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Richard Pigott (forger)",
+      "alias": "PIGOTT, RICHARD.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Philip Edward Plantagenet",
+      "alias": "PLANT, THOMAS LIVESLEY (son of George Halewood Plant, iron merchant).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Platt (artist?)",
+      "alias": "PLATT, WILLIAM?",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Thomas Pratt (judge)",
+      "alias": "PLATT? (see text)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "George Playfair (senior)",
+      "alias": "PLAYFAIR, SIR HUGH LYON (3 son of James Playfair 1738–1819).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Arthur C. Plowden",
+      "alias": "PLOWDEN, WALTER CHICHELE (youngest son of Trevor Chichele Plowden of the Bengal civil service).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Arthur C. Plowden",
+      "alias": "PLOWDEN, WILLIAM HENRY CHICHELE (4 son of Richard Chichele Plowden, a director of the H.E.I. Co., _d._ Jany. 1830).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Matthew Plummer (economist?)",
+      "alias": "PLUNKET, CHARLES DAWSON (3 son of 11 baron Louth 1757–1823).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Charles J. Prothero",
+      "alias": "PROTHERO, GEORGE (4 son of Thomas Prothero of St. Woolos and Malpas court, Newport, Monmouth 1780–1853).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Fanny Procter",
+      "alias": "PROCTER, FANNY ASH",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Frederick Charles Procter",
+      "alias": "PROCTOR, FREDERICK CHARLES",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Thomas Quincey (entry)",
+      "alias": "QUIN? (see entries)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Charles K. Provis",
+      "alias": "PROVIS, CHARLES",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "William Alex. Provis",
+      "alias": "PROVIS, WILLIAM (son of Thomas Provis).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "William Alex. Provis",
+      "alias": "PROVIS, WILLIAM ALEXANDER (son of Thomas Provis)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mark Quinlan",
+      "alias": "QUINTIN, LOUIS CHARLES (son of Monsieur Quintin, chirurgeon-major in the French royal service).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mark Quinlan",
+      "alias": "QUINLAN, JOHN (son of John Quinlan of County Meath).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Quintin (translated name forms)",
+      "alias": "QUINTIN, LOUIS AUGUSTINE",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Samuel Quinton",
+      "alias": "QUINTIN, SIR GEORGE AUGUSTUS (eld. son of George Quintin of Göttingen).",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Samuel Quinton",
+      "alias": "QUINTIN, SIR WILLIAM (son of George Quintin)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Quiggin (entry)",
+      "alias": "(see text)",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

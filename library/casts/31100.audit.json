@@ -1,0 +1,285 @@
+{
+  "chunks": [
+    {
+      "start": 994,
+      "end": 650939,
+      "key": "30077c0b9b4e58fe6c70a945ca06bf170c20eccb343279b52ba1199fbb559a4c",
+      "usage": {
+        "input_tokens": 170756,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7481,
+        "output_tokens_details": {
+          "reasoning_tokens": 4928
+        },
+        "total_tokens": 178237
+      }
+    },
+    {
+      "start": 650939,
+      "end": 1300929,
+      "key": "9db04a9af64af7b1c9dea584c9590a4f57d09e99da380fa9074c56e460779238",
+      "usage": {
+        "input_tokens": 168370,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5842,
+        "output_tokens_details": {
+          "reasoning_tokens": 2624
+        },
+        "total_tokens": 174212
+      }
+    },
+    {
+      "start": 1300929,
+      "end": 1950915,
+      "key": "b83e9897f2ef9541608e5c725e3744dc98e1ca069c7c55ea3da84766028c5133",
+      "usage": {
+        "input_tokens": 168423,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5448,
+        "output_tokens_details": {
+          "reasoning_tokens": 2560
+        },
+        "total_tokens": 173871
+      }
+    },
+    {
+      "start": 1950915,
+      "end": 2600876,
+      "key": "cd599796f57db699f77700456c5419fad4776b09fc05446238653274f56d1ff3",
+      "usage": {
+        "input_tokens": 172432,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5385,
+        "output_tokens_details": {
+          "reasoning_tokens": 3840
+        },
+        "total_tokens": 177817
+      }
+    },
+    {
+      "start": 2600876,
+      "end": 3250829,
+      "key": "58bb0a19598684c756e39add6d6601cc7a6ec1f2a3388b74ab777168c572ecb3",
+      "usage": {
+        "input_tokens": 171213,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7352,
+        "output_tokens_details": {
+          "reasoning_tokens": 2752
+        },
+        "total_tokens": 178565
+      }
+    },
+    {
+      "start": 3250829,
+      "end": 3900780,
+      "key": "2ba07ea76a0f348e0ac41c372129cfe218004ec24e3483a8bce9bfa1e67c424c",
+      "usage": {
+        "input_tokens": 168624,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7622,
+        "output_tokens_details": {
+          "reasoning_tokens": 5568
+        },
+        "total_tokens": 176246
+      }
+    },
+    {
+      "start": 3900780,
+      "end": 4435238,
+      "key": "7a69cdc9a594286a6dd081e3a48bed70266789bacadab21f8107daa0645768c2",
+      "usage": {
+        "input_tokens": 140847,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 4413,
+        "output_tokens_details": {
+          "reasoning_tokens": 3136
+        },
+        "total_tokens": 145260
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "cfe659ea6edd4a91386b4f89ea6f750ffebf9ef27a4e6fe170fea6029392f72b",
+    "usage": {
+      "input_tokens": 23136,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 9043,
+      "output_tokens_details": {
+        "reasoning_tokens": 6784
+      },
+      "total_tokens": 32179
+    }
+  },
+  "rejected": [
+    {
+      "name": "Mary Musgrove",
+      "alias": "Mary Musgrove",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Colonel Wallis",
+      "alias": "Mr Wallis",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Miss Carteret",
+      "alias": "the Honourable Miss Carteret",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Richard Morland",
+      "alias": "Mr Morland",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs Morland",
+      "alias": "Mrs Morland",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr Allen",
+      "alias": "Mr Allen",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "John Thorpe",
+      "alias": "Mr Thorpe",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs Thorpe",
+      "alias": "Mrs Thorpe",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Julia Bertram",
+      "alias": "Mrs. Yates",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Charles Maddox",
+      "alias": "Charles Maddox,",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Grant (sister Mary reference)",
+      "alias": "Mrs. Grant's sister",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mrs. Admiral Maxwell",
+      "alias": "Mrs. Admiral Maxwell",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Arthur",
+      "alias": "Mr. Arthur",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Reginald De Courcy",
+      "alias": "Sir Reginald De Courcy",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Lady De Courcy (Mrs. De Courcy)",
+      "alias": "Lady De Courcy",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Henry VIII",
+      "alias": "Henry the 8th",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Henry V",
+      "alias": "Henry the 5th",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Henry VI",
+      "alias": "Henry the 6th",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Edward V",
+      "alias": "Edward the 5th",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Edward VI",
+      "alias": "Edward the 6th",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "James I",
+      "alias": "James I",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Charles I",
+      "alias": "Charles the 1st",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mary Queen of Scots",
+      "alias": "Mary Queen of Scots",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Sir Francis Raleigh",
+      "alias": "Sir Francis Raleigh",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Lord Essex (Robert Devereux)",
+      "alias": "ROBERT Devereux",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Bingley",
+      "alias": "Charles Bingley",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Caroline Bingley",
+      "alias": "Miss B.",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Mr. Collins",
+      "alias": "William Collins",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Miss Grantley",
+      "alias": "Miss Grantley",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

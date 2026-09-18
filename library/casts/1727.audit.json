@@ -1,0 +1,70 @@
+{
+  "chunks": [
+    {
+      "start": 870,
+      "end": 650869,
+      "key": "2843436b4a8aff7eb406e24a32054facc4c8810e454c4188548875c2d716311f",
+      "usage": {
+        "input_tokens": 178464,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5539,
+        "output_tokens_details": {
+          "reasoning_tokens": 1600
+        },
+        "total_tokens": 184003
+      }
+    },
+    {
+      "start": 650869,
+      "end": 691569,
+      "key": "b3c9ca147303c4a0261d90cae2d93de5855a32f6f87c4e87c235c24cb98df4a9",
+      "usage": {
+        "input_tokens": 12144,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 5446,
+        "output_tokens_details": {
+          "reasoning_tokens": 4096
+        },
+        "total_tokens": 17590
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "fe4059073ea9feaf936fbe39a12dc94b3f877c5ac47a873f2f3f637140759f35",
+    "usage": {
+      "input_tokens": 5198,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 6071,
+      "output_tokens_details": {
+        "reasoning_tokens": 2368
+      },
+      "total_tokens": 11269
+    }
+  },
+  "rejected": [
+    {
+      "name": "Penelope",
+      "alias": "queen Penelope",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Euryclea",
+      "alias": "Euryclea daughter of Ops",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Aeolus",
+      "alias": "Aeolus son of Hippotas",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

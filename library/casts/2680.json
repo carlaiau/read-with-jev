@@ -1,0 +1,794 @@
+{
+  "schema": 1,
+  "gutenbergId": 2680,
+  "sourceSha256": "6977474f82a39dd88a4af31a59504821658174d33c177732c54357e4d680b96c",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-af242a50afcbeba0",
+      "name": "Marcus Aurelius Antoninus",
+      "description": "Roman Emperor and author of the Meditations; narrator of much of the text",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "MARCUS AURELIUS ANTONINUS",
+          "evidence": [
+            1258,
+            1283
+          ]
+        },
+        {
+          "text": "Marcus Aurelius",
+          "evidence": [
+            888,
+            903
+          ]
+        },
+        {
+          "text": "Marcus",
+          "evidence": [
+            888,
+            894
+          ]
+        },
+        {
+          "text": "Antoninus",
+          "evidence": [
+            2364,
+            2373
+          ]
+        },
+        {
+          "text": "M. Aurelius",
+          "evidence": [
+            390368,
+            390379
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2f5e556096830f7c",
+      "name": "M. Annius Verus (father of Marcus Aurelius)",
+      "description": "Father of Marcus Aurelius who held high office in Rome",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "M. Annius Verus",
+          "evidence": [
+            1335,
+            1350
+          ]
+        },
+        {
+          "text": "Annius Verus",
+          "evidence": [
+            1338,
+            1350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-da025f67b027fd04",
+      "name": "Annius Verus (grandfather of Marcus Aurelius)",
+      "description": "Grandfather of Marcus Aurelius, thrice Consul and adoptive guardian",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "the consular Annius Verus",
+          "evidence": [
+            1789,
+            1814
+          ]
+        },
+        {
+          "text": "his grandfather",
+          "evidence": [
+            1593,
+            1608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-933d70f38eac1bdd",
+      "name": "Hadrian",
+      "description": "Roman Emperor who recognised Marcus's character in youth",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "The Emperor Hadrian",
+          "evidence": [
+            2028,
+            2047
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4bfe486cbb4165db",
+      "name": "Antoninus Pius",
+      "description": "Roman Emperor who adopted Marcus Aurelius and arranged his betrothal",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Antoninus Pius",
+          "evidence": [
+            2364,
+            2378
+          ]
+        },
+        {
+          "text": "my lord and father",
+          "evidence": [
+            47087,
+            47105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-88203aa7906fa723",
+      "name": "Faustina (wife of Marcus Aurelius)",
+      "description": "Daughter of Antoninus Pius; wife of Marcus Aurelius",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Faustina",
+          "evidence": [
+            2339,
+            2347
+          ]
+        },
+        {
+          "text": "his wife, Faustina",
+          "evidence": [
+            7610,
+            7628
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-604316199d7e722a",
+      "name": "L. Ceionius Commodus / Lucius Aurelius Verus",
+      "description": "Adopted co-emperor and colleague of Marcus Aurelius (commonly called Verus)",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "L. Ceionius Commodus",
+          "evidence": [
+            3808,
+            3828
+          ]
+        },
+        {
+          "text": "Lucius Aurelius Verus",
+          "evidence": [
+            3929,
+            3950
+          ]
+        },
+        {
+          "text": "Verus",
+          "evidence": [
+            1345,
+            1350
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-71798c6399110889",
+      "name": "Commodus (son of Marcus Aurelius)",
+      "description": "Son and successor of Marcus Aurelius",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Commodus",
+          "evidence": [
+            3820,
+            3828
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4ab19df4f3c00ace",
+      "name": "Avidius Cassius",
+      "description": "Eastern governor who proclaimed himself emperor during a reported illness of Marcus; later assassinated",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Avidius Cassius",
+          "evidence": [
+            6489,
+            6504
+          ]
+        },
+        {
+          "text": "Cassius",
+          "evidence": [
+            6497,
+            6504
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-804d4e336cfc9411",
+      "name": "Pertinax",
+      "description": "Lieutenant praised by Marcus for effective service during the Marcomannic wars",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Pertinax",
+          "evidence": [
+            5552,
+            5560
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7ccbb27770193089",
+      "name": "Vologeses III. of Parthia",
+      "description": "Parthian king whose revolt and invasion are mentioned in the war narrative",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Vologeses III. of Parthia",
+          "evidence": [
+            4144,
+            4169
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fc498744a82bb6c9",
+      "name": "Justin",
+      "description": "Christian martyr mentioned as executed during Marcus Aurelius's reign",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Justin",
+          "evidence": [
+            10135,
+            10141
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-92452ddde8a033e5",
+      "name": "Polycarp",
+      "description": "Christian martyr at Smyrna mentioned in the account of persecutions",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Polycarp",
+          "evidence": [
+            10185,
+            10193
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ab7a7c210775429d",
+      "name": "Zeno",
+      "description": "Founder of Stoicism whose system is summarised in the Introduction",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Zeno",
+          "evidence": [
+            11752,
+            11756
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ff654b7a5a2ec0fe",
+      "name": "Chrysippus",
+      "description": "Early Stoic thinker who systematised the Porch (Stoic school)",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Chrysippus",
+          "evidence": [
+            12491,
+            12501
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f5e3517ae310e09f",
+      "name": "Diognetus",
+      "description": "Early instructor of Marcus Aurelius; advised him to avoid vain things and impostors",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Diognetus",
+          "evidence": [
+            33577,
+            33586
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-63ce9a8ee8c07a2a",
+      "name": "Rusticus",
+      "description": "Stoic teacher of Marcus Aurelius who set him on the path to moral reform",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Rusticus",
+          "evidence": [
+            24652,
+            24660
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b80a5f39beed9c11",
+      "name": "Apollonius",
+      "description": "Teacher of Marcus; exemplified steadiness and true liberty in character",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Apollonius",
+          "evidence": [
+            24738,
+            24748
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b9b35b0994eb4217",
+      "name": "Epictetus",
+      "description": "Stoic teacher whose _Hypomnemata_ influenced Marcus Aurelius",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Epictetus",
+          "evidence": [
+            35479,
+            35488
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5a4fcc6e36b0f3f7",
+      "name": "Sextus",
+      "description": "Tutor noted by Marcus for mildness and paternal governance of a household",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Sextus",
+          "evidence": [
+            36652,
+            36658
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d0e292588ca3c27d",
+      "name": "Alexander the Grammarian",
+      "description": "Teacher who instructed Marcus in courteous correction of language errors",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Alexander the Grammarian",
+          "evidence": [
+            37778,
+            37802
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c075ecb87fd93d63",
+      "name": "M. Cornelius Fronto",
+      "description": "Roman rhetorician and correspondent of Marcus Aurelius; tutor and later advisor (extensively represented in the Appendix)",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "M. CORNELIUS FRONTO",
+          "evidence": [
+            352728,
+            352747
+          ]
+        },
+        {
+          "text": "Fronto",
+          "evidence": [
+            38203,
+            38209
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-12b7bfdd1b0a1689",
+      "name": "Alexander the Platonic",
+      "description": "Teacher of Marcus advising on courtesy in replying to requests and letters",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Alexander the Platonic",
+          "evidence": [
+            38438,
+            38460
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-919ab92466a5aeaf",
+      "name": "Catulus",
+      "description": "Teacher mentioned by Marcus as model for receiving expostulation and loving children",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Catulus",
+          "evidence": [
+            38737,
+            38744
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3afc0c285f9317dd",
+      "name": "Severus (brother of Marcus Aurelius)",
+      "description": "Marcus Aurelius's brother whose example influenced Marcus's political and philosophical aims",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Severus",
+          "evidence": [
+            39050,
+            39057
+          ]
+        },
+        {
+          "text": "my brother Severus",
+          "evidence": [
+            39039,
+            39057
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6534829226fdcebe",
+      "name": "Claudius Maximus",
+      "description": "Instructor praised for self-command, cheerfulness, and moderation exemplified under stress",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Claudius Maximus",
+          "evidence": [
+            39934,
+            39950
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-95452a33991a63d3",
+      "name": "Domitius",
+      "description": "Referenced figure used as an example in Marcus's list of debts to teachers",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Domitius",
+          "evidence": [
+            38954,
+            38962
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f7302dbd18ec756b",
+      "name": "Athenodotus",
+      "description": "Referenced figure cited as an exemplar in Marcus's First Book",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Athenodotus",
+          "evidence": [
+            38968,
+            38979
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f2e6a2f3d7625233",
+      "name": "Monimus the Cynic",
+      "description": "Cynic philosopher invoked in a comparison about certainty and plainness",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Monimus the Cynic",
+          "evidence": [
+            63422,
+            63439
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3e672b0063a82cf0",
+      "name": "Theophrastus",
+      "description": "Successor to Aristotle; quoted on kinds of sin and moral culpability",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Theophrastus",
+          "evidence": [
+            56754,
+            56766
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e39e4dc598a20edc",
+      "name": "Hippocrates",
+      "description": "Famed physician cited in examples about the frailty of life and bodily ailments",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Hippocrates",
+          "evidence": [
+            69432,
+            69443
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fffa230704da5972",
+      "name": "Heraclitus",
+      "description": "Pre-Socratic philosopher quoted for doctrine of change and elemental conversions",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Heraclitus",
+          "evidence": [
+            69835,
+            69845
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7a71e8d276504d1a",
+      "name": "Democritus",
+      "description": "Pre-Socratic philosopher mentioned in illustrative anecdotes",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Democritus",
+          "evidence": [
+            70051,
+            70061
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d58d9d7f365d66c5",
+      "name": "Socrates",
+      "description": "Classical Athenian philosopher invoked repeatedly in comparisons and moral examples",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Socrates",
+          "evidence": [
+            26687,
+            26695
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-883ba5e00f82086d",
+      "name": "Plato",
+      "description": "Philosopher cited with several extended quotations and thematic points",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Plato",
+          "evidence": [
+            13565,
+            13570
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e2bda96b1cc00163",
+      "name": "Thrasea",
+      "description": "Senatorial exemplar (Thrasea Paetus) cited by Marcus among Roman models of virtue",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Thrasea",
+          "evidence": [
+            39158,
+            39165
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7c8ced33d7b04b82",
+      "name": "Helvidius",
+      "description": "Roman figure mentioned among political exemplars associated with Thrasea",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Helvidius",
+          "evidence": [
+            39171,
+            39180
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f9b94fa37a0fe32d",
+      "name": "Cato",
+      "description": "Cato (the Younger) cited by Marcus as a model of public virtue",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Cato",
+          "evidence": [
+            39186,
+            39190
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c95c88c176f76d1f",
+      "name": "Dio",
+      "description": "Dio (referenced among historical exemplars Marcus admired)",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Dio",
+          "evidence": [
+            9465,
+            9468
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7eda73e4c95406a9",
+      "name": "Brutus",
+      "description": "Marcus lists Brutus among the Roman exemplars he learned from",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Brutus",
+          "evidence": [
+            39205,
+            39211
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a5a2aff12ec04344",
+      "name": "Polemon",
+      "description": "Rhetorical teacher referenced in correspondence sample in Appendix",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Polemon",
+          "evidence": [
+            366229,
+            366236
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-61733c33789611e6",
+      "name": "Pollio",
+      "description": "Literary figure referenced in Fronto's letters and Marcus's studies",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Pollio",
+          "evidence": [
+            366296,
+            366302
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-36d70adfc5374d3c",
+      "name": "Anicetus",
+      "description": "Secretary mentioned in Marcus's correspondence describing his notebooks and hexameters",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Anicetus",
+          "evidence": [
+            365516,
+            365524
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-662c5cc5fb7e9b10",
+      "name": "Gratia",
+      "description": "Woman named in Fronto correspondence (context indicates a family member in letters)",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Gratia",
+          "evidence": [
+            360735,
+            360741
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-affb737e3664bfa6",
+      "name": "Lucilla",
+      "description": "Daughter of Marcus Aurelius mentioned in Appendix; wife of Lucius Verus",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Lucilla",
+          "evidence": [
+            221861,
+            221868
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a5e7c6f3a5905b53",
+      "name": "Laelianus Pontius",
+      "description": "Military figure cited in Appendix as enforcing discipline among soldiers",
+      "scope": "Meditations",
+      "aliases": [
+        {
+          "text": "Laelianus Pontius",
+          "evidence": [
+            381060,
+            381077
+          ]
+        }
+      ]
+    }
+  ]
+}

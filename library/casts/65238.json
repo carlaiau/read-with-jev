@@ -1,0 +1,858 @@
+{
+  "schema": 1,
+  "gutenbergId": 65238,
+  "sourceSha256": "9c471327b71e137bdb9fd93a25adcd02c3c5f4383ea20f1dbf82b4056c2ca392",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-709dfd3e31a7dbbb",
+      "name": "Anthony Cade",
+      "description": "Adventurer and narrator; Englishman who travels under assumed names, becomes entangled in thefts, blackmail and murder, and ultimately assumes the identity/role of Prince Nicholas of Herzoslovakia; friend of Jimmy/James McGrath and suitor/husband of Virginia Revel.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Anthony Cade",
+          "evidence": [
+            2505,
+            2517
+          ]
+        },
+        {
+          "text": "Mr. Cade",
+          "evidence": [
+            2746,
+            2754
+          ]
+        },
+        {
+          "text": "Mr. Anthony Cade",
+          "evidence": [
+            161071,
+            161087
+          ]
+        },
+        {
+          "text": "Anthony",
+          "evidence": [
+            2505,
+            2512
+          ]
+        },
+        {
+          "text": "Gentleman Joe?",
+          "evidence": [
+            5410,
+            5424
+          ]
+        },
+        {
+          "text": "James McGrath",
+          "evidence": [
+            17886,
+            17899
+          ]
+        },
+        {
+          "text": "Jimmy McGrath",
+          "evidence": [
+            2574,
+            2587
+          ]
+        },
+        {
+          "text": "Prince Nicholas Obolovitch",
+          "evidence": [
+            405455,
+            405481
+          ]
+        },
+        {
+          "text": "Nicholas Sergius Alexander Ferdinand Obolovitch",
+          "evidence": [
+            420654,
+            420701
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cdee429bc3454f4c",
+      "name": "James (Jimmy) McGrath",
+      "description": "Canadian prospector and old friend of Anthony Cade; originally in possession of Count Stylptitch’s manuscript and letters; gold‑seeker and occasional troublemaker.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Jimmy McGrath",
+          "evidence": [
+            2574,
+            2587
+          ]
+        },
+        {
+          "text": "James McGrath",
+          "evidence": [
+            17886,
+            17899
+          ]
+        },
+        {
+          "text": "Mr. McGrath",
+          "evidence": [
+            57306,
+            57317
+          ]
+        },
+        {
+          "text": "Jimmy",
+          "evidence": [
+            2574,
+            2579
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9545a4ddc66889a9",
+      "name": "Virginia Revel",
+      "description": "Widow (Hon. Mrs. Timothy Revel), charming, witty, and socially influential; former resident of Herzoslovakia and key figure in the plot—recognized Queen Varaga/Angèle Mory; later partner of Anthony Cade.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Virginia Revel",
+          "evidence": [
+            31785,
+            31799
+          ]
+        },
+        {
+          "text": "Mrs. Revel",
+          "evidence": [
+            42807,
+            42817
+          ]
+        },
+        {
+          "text": "Hon. Mrs. Timothy Revel",
+          "evidence": [
+            62915,
+            62938
+          ]
+        },
+        {
+          "text": "Mrs. Timothy Revel",
+          "evidence": [
+            62920,
+            62938
+          ]
+        },
+        {
+          "text": "Virginia",
+          "evidence": [
+            31785,
+            31793
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e0cb2d2748e24e0a",
+      "name": "Lord Caterham",
+      "description": "Clement Edward Alistair Brent, ninth Marquis of Caterham; owner of the country house Chimneys, hosts the house party and political meetings.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Lord Caterham",
+          "evidence": [
+            31888,
+            31901
+          ]
+        },
+        {
+          "text": "Clement Edward Alistair Brent, ninth Marquis of Caterham",
+          "evidence": [
+            32217,
+            32273
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e8a9d3b1676a92ad",
+      "name": "Hon. George Lomax",
+      "description": "Ambitious government official and political operator who organizes the Chimneys house party and is deeply involved in Herzoslovakian political manoeuvres.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "George Lomax",
+          "evidence": [
+            32200,
+            32212
+          ]
+        },
+        {
+          "text": "Mr. George Lomax",
+          "evidence": [
+            105923,
+            105939
+          ]
+        },
+        {
+          "text": "Codders",
+          "evidence": [
+            48044,
+            48051
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-57fc86c796315f56",
+      "name": "Bill Eversleigh",
+      "description": "Young, amiable Foreign Office subordinate to George Lomax; attends the party and attempts to help Virginia and others.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Bill Eversleigh",
+          "evidence": [
+            35924,
+            35939
+          ]
+        },
+        {
+          "text": "Bill",
+          "evidence": [
+            35924,
+            35928
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-36be859cc328750b",
+      "name": "Baron Lolopretjzyl",
+      "description": "Herzoslovakian nobleman and loyalist representative in London; concerned with restoration of the Herzoslovakian monarchy and the fate of the Stylptitch manuscript.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "BARON LOLOPRETJZYL.",
+          "evidence": [
+            56897,
+            56916
+          ]
+        },
+        {
+          "text": "Baron Lolopretjzyl.",
+          "evidence": [
+            151261,
+            151280
+          ]
+        },
+        {
+          "text": "Baron Lollipop",
+          "evidence": [
+            61944,
+            61958
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-984553ed479ebda9",
+      "name": "Herman Isaacstein",
+      "description": "Financier representing syndicate interested in Herzoslovakian oil concessions; participant in negotiations at Chimneys.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Herman Isaacstein",
+          "evidence": [
+            36337,
+            36354
+          ]
+        },
+        {
+          "text": "Mr. Isaacstein",
+          "evidence": [
+            44637,
+            44651
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0c11a16df4a231c1",
+      "name": "Superintendent Battle",
+      "description": "Scotland Yard superintendent assigned to investigate Prince Michael’s (Count Stanislaus’s) murder; methodical, imperturbable detective and later ally to Anthony.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Superintendent Battle",
+          "evidence": [
+            150558,
+            150579
+          ]
+        },
+        {
+          "text": "Battle",
+          "evidence": [
+            150417,
+            150423
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2eec1b8dc957b7c7",
+      "name": "Inspector Badgworthy",
+      "description": "Local police inspector at Market Basing who first hears of the murder at Chimneys and assists early investigation.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Inspector Badgworthy",
+          "evidence": [
+            133983,
+            134003
+          ]
+        },
+        {
+          "text": "Badgworthy",
+          "evidence": [
+            133993,
+            134003
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-741507eac48049fa",
+      "name": "Constable Johnson",
+      "description": "New local police constable assisting at Chimneys; reports arrivals and local details.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Johnson",
+          "evidence": [
+            134194,
+            134201
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e1d73e923ad0feb0",
+      "name": "Dr. Cartwright",
+      "description": "Local doctor who examines the body and assists the police at Chimneys.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Dr. Cartwright",
+          "evidence": [
+            135825,
+            135839
+          ]
+        },
+        {
+          "text": "Cartwright",
+          "evidence": [
+            135829,
+            135839
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0e8719ce1f134390",
+      "name": "Mademoiselle Brun",
+      "description": "French governess employed at Chimneys whose identity is later revealed to be false and central to the plot.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Mademoiselle Brun",
+          "evidence": [
+            211148,
+            211165
+          ]
+        },
+        {
+          "text": "Mademoiselle",
+          "evidence": [
+            211148,
+            211160
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8ca010b12b969702",
+      "name": "Boris Anchoukoff",
+      "description": "Valet/servant to Prince Michael (Stanislaus); a devoted Herzoslovakian servant who plays a violent and vengeful role after his master’s death.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Boris Anchoukoff",
+          "evidence": [
+            198461,
+            198477
+          ]
+        },
+        {
+          "text": "Boris",
+          "evidence": [
+            156362,
+            156367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c1d8ad1410162420",
+      "name": "Prince Michael of Herzoslovakia",
+      "description": "Incognito guest at Chimneys (staying as Count Stanislaus); pro‑British claimant to the Herzoslovakian throne who is murdered on the premises.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Prince Michael",
+          "evidence": [
+            34327,
+            34341
+          ]
+        },
+        {
+          "text": "Prince Michael Obolovitch",
+          "evidence": [
+            34327,
+            34352
+          ]
+        },
+        {
+          "text": "Count Stanislaus",
+          "evidence": [
+            140891,
+            140907
+          ]
+        },
+        {
+          "text": "His Highness Prince Michael",
+          "evidence": [
+            58231,
+            58258
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-29e335578181af1f",
+      "name": "King Victor",
+      "description": "Notorious international jewel thief and master of disguise (also referred to as Captain O’Neill); implicated in the wider intrigue concerning the missing jewel and operations against Stylptitch’s secrets.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "King Victor",
+          "evidence": [
+            23057,
+            23068
+          ]
+        },
+        {
+          "text": "Captain O’Neill",
+          "evidence": [
+            77416,
+            77431
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c10f3db5cbde182c",
+      "name": "Angèle Mory / Queen Varaga",
+      "description": "Actress (Angèle Mory) who became Countess/Queen Varaga of Herzoslovakia in background history; central to the secret concerning the missing jewel; referenced in the narrative and linked to the letters.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Angèle Mory",
+          "evidence": [
+            279045,
+            279056
+          ]
+        },
+        {
+          "text": "Queen Varaga",
+          "evidence": [
+            15477,
+            15489
+          ]
+        },
+        {
+          "text": "Countess Popoffsky",
+          "evidence": [
+            15262,
+            15280
+          ]
+        },
+        {
+          "text": "Countess Varaga Popoleffsky",
+          "evidence": [
+            280248,
+            280275
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d2a98e46434414c7",
+      "name": "Count Stylptitch",
+      "description": "Late Count whose Memoirs (Reminiscences) are central to the plot; had knowledge of secrets including the jewel’s hiding place.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Count Stylptitch",
+          "evidence": [
+            12418,
+            12434
+          ]
+        },
+        {
+          "text": "the late Count Stylptitch",
+          "evidence": [
+            14820,
+            14845
+          ]
+        },
+        {
+          "text": "Stylptitch",
+          "evidence": [
+            12424,
+            12434
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4e38e0b848949f15",
+      "name": "Hiram P. Fish",
+      "description": "American visitor and collector of first editions who is revealed to be a Pinkerton operative involved in trailing King Victor.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Hiram P. Fish",
+          "evidence": [
+            181214,
+            181227
+          ]
+        },
+        {
+          "text": "Hiram Fish",
+          "evidence": [
+            158185,
+            158195
+          ]
+        },
+        {
+          "text": "Mr. Fish",
+          "evidence": [
+            158230,
+            158238
+          ]
+        },
+        {
+          "text": "Mr. Hiram Fish",
+          "evidence": [
+            158181,
+            158195
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d9ff10576da52a73",
+      "name": "M. Lemoine",
+      "description": "Detective of the Sûreté (French police) who comes to assist; obsessed with capturing King Victor and at times at odds with the English detectives.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "M. Lemoine",
+          "evidence": [
+            274695,
+            274705
+          ]
+        },
+        {
+          "text": "Lemoine",
+          "evidence": [
+            274698,
+            274705
+          ]
+        },
+        {
+          "text": "the French detective",
+          "evidence": [
+            274786,
+            274806
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0dfcfeef14410054",
+      "name": "Giuseppe Manelli",
+      "description": "Italian waiter (Giuseppe) who attempts to steal Anthony’s papers and is later found shot near Staines; involved in the blackmail subplot.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Giuseppe",
+          "evidence": [
+            69756,
+            69764
+          ]
+        },
+        {
+          "text": "Giuseppe Manelli",
+          "evidence": [
+            97399,
+            97415
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e2d108247552e364",
+      "name": "Professor Wynward",
+      "description": "Cipher‑expert (professor) called in to decode Stylptitch’s letters; deciphers the crucial ‘Chimneys’ cipher.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Professor Wynward",
+          "evidence": [
+            323536,
+            323553
+          ]
+        },
+        {
+          "text": "Wynward",
+          "evidence": [
+            323546,
+            323553
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c505309daebe9c00",
+      "name": "Mr. Balderson",
+      "description": "Publisher (of Balderson and Hodgkins) originally contracted for Stylptitch’s manuscript; sends a representative to collect it.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Mr. Balderson",
+          "evidence": [
+            100104,
+            100117
+          ]
+        },
+        {
+          "text": "Balderson",
+          "evidence": [
+            100030,
+            100039
+          ]
+        },
+        {
+          "text": "Mr. Balderson of Balderson and Hodgkins",
+          "evidence": [
+            100355,
+            100394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-60f7d1c2440608aa",
+      "name": "Mr. Holmes",
+      "description": "Representative/messenger sent by the publishers (Balderson & Hodgkins) who collects the manuscript from Anthony.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Mr. Holmes",
+          "evidence": [
+            102972,
+            102982
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-40bf80ac46ca278b",
+      "name": "Tredwell",
+      "description": "Long‑serving white‑haired butler at Chimneys, attentive to his master and the household’s needs.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Tredwell",
+          "evidence": [
+            144539,
+            144547
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-879df61fac500bd5",
+      "name": "Chilvers",
+      "description": "Grave household functionary/footman at Pont Street for Virginia Revel; admits visitors and manages domestic errands.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Chilvers",
+          "evidence": [
+            46217,
+            46225
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-39bf2b156d169d45",
+      "name": "Élise",
+      "description": "Virginia Revel’s French maid who packs and manages household duties and who witnesses events at Pont Street.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Élise",
+          "evidence": [
+            109660,
+            109665
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a0652c84e0e1f326",
+      "name": "Lady Eileen \"Bundle\" Brent",
+      "description": "Lady Eileen Brent (nicknamed Bundle), Lord Caterham’s daughter—spirited, energetic, and practical; participates in investigating the house and its passages.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Lady Eileen Brent",
+          "evidence": [
+            141288,
+            141305
+          ]
+        },
+        {
+          "text": "Bundle",
+          "evidence": [
+            36082,
+            36088
+          ]
+        },
+        {
+          "text": "Lady Eileen",
+          "evidence": [
+            36657,
+            36668
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a24dd70a10720dc3",
+      "name": "Guggle",
+      "description": "Child of Lord Caterham (one of his daughters), known by the nickname Guggle; participates briefly in household scenes.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Guggle",
+          "evidence": [
+            222555,
+            222561
+          ]
+        },
+        {
+          "text": "Dulcie",
+          "evidence": [
+            211247,
+            211253
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5f800531c576f442",
+      "name": "Winkle",
+      "description": "Child of Lord Caterham (one of his daughters), known by the nickname Winkle; participates briefly in household scenes.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Winkle",
+          "evidence": [
+            222566,
+            222572
+          ]
+        },
+        {
+          "text": "Daisy",
+          "evidence": [
+            211259,
+            211264
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-70c8b1295ee82665",
+      "name": "Dutch Pedro",
+      "description": "Unnamed Herzoslovakian/foreigner (called Dutch Pedro) who bequeaths a packet of letters (blackmail material) to Jimmy McGrath before dying in Africa; his action sets the blackmail subplot in motion.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Dutch Pedro",
+          "evidence": [
+            27281,
+            27292
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c565af4c5f8b1c22",
+      "name": "Comrade of the Red Hand",
+      "description": "Unnamed member/representative of the revolutionary Comrades of the Red Hand who threatens and attempts to seize the manuscript; role repeated by several anonymous emissaries.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Comrade of the Red Hand",
+          "evidence": [
+            67609,
+            67632
+          ]
+        },
+        {
+          "text": "Comrade",
+          "evidence": [
+            66087,
+            66094
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a213ce1a9bc4244d",
+      "name": "Dorothy Kirkpatrick",
+      "description": "Actress/girl Bill Eversleigh took out (briefly mentioned); minor social figure in the narrative.",
+      "scope": "The Secret of Chimneys",
+      "aliases": [
+        {
+          "text": "Dorothy Kirkpatrick",
+          "evidence": [
+            51851,
+            51870
+          ]
+        }
+      ]
+    }
+  ]
+}

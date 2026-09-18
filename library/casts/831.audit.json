@@ -1,0 +1,185 @@
+{
+  "chunks": [
+    {
+      "start": 956,
+      "end": 650899,
+      "key": "4cb23b8c0945b0914cb0e7e7ef16b2881d5041caf012d5297379116d16a7c256",
+      "usage": {
+        "input_tokens": 173455,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 8103,
+        "output_tokens_details": {
+          "reasoning_tokens": 2944
+        },
+        "total_tokens": 181558
+      }
+    },
+    {
+      "start": 650899,
+      "end": 1021750,
+      "key": "84ab4366d490a75fdd467447b144950f7c90a2d89cda34c4e891167361242864",
+      "usage": {
+        "input_tokens": 99289,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 9759,
+        "output_tokens_details": {
+          "reasoning_tokens": 7744
+        },
+        "total_tokens": 109048
+      }
+    }
+  ],
+  "consolidation": {
+    "key": "ca7702cab4c1c255203b541cc0546399b1de9a4f58b349ecca6f4a77c81df7c9",
+    "usage": {
+      "input_tokens": 6992,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 10417,
+      "output_tokens_details": {
+        "reasoning_tokens": 3584
+      },
+      "total_tokens": 17409
+    }
+  },
+  "rejected": [
+    {
+      "name": "Erec",
+      "alias": "Erec, son of Lac",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Enide",
+      "alias": "the maid with the white shift",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the dwarf",
+      "alias": "the ignoble dwarf",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Count of Limors / Count Oringle",
+      "alias": "the Count of Limors",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the Handsome Coward",
+      "alias": "the Handsome Coward",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Meliant of Liz",
+      "alias": "Meliant of Liz",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Garravain of Estrangot",
+      "alias": "Garravain of Estrangot",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the Youth with the Golden Ring",
+      "alias": "the Youth with the Golden Ring",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the son of King Quenedic",
+      "alias": "the son of King Quenedic",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Girflet the son of Do",
+      "alias": "Girflet the son of Do",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Breon the son of Canodan",
+      "alias": "Breon the son of Canodan",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the captive maidens (weavers)",
+      "alias": "the captive maidens",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "my lord of Noire Espine",
+      "alias": "my lord of Noire Espine",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Lancelot",
+      "alias": "the knight with the vermilion arms",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "King Bademagu",
+      "alias": "the king (Bademagu)",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the dwarf (betrayer)",
+      "alias": "a pot-bellied, humpbacked, and crabbed dwarf",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Meleagant's seneschal",
+      "alias": "a seneschal of the faithless Meleagant",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the seneschal's wife",
+      "alias": "the lady of the house",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the seneschal's wife",
+      "alias": "the seneschal's wife",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the monk / hermit",
+      "alias": "the old white-haired monk",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the host's daughters (two)",
+      "alias": "his two daughters",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Lancelot's captors (local countrymen)",
+      "alias": "those who seized Lancelot",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the lady of Noauz",
+      "alias": "the lady of Noauz",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the lady of Pomelegloi",
+      "alias": "the lady of Pomelegloi",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "the son of the King of Aragon",
+      "alias": "son of the King of Aragon",
+      "reason": "No exact alias evidence in body"
+    },
+    {
+      "name": "Ignaures",
+      "alias": "Ignaures the well-beloved",
+      "reason": "No exact alias evidence in body"
+    }
+  ]
+}

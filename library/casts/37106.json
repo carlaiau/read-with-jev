@@ -1,0 +1,1307 @@
+{
+  "schema": 1,
+  "gutenbergId": 37106,
+  "sourceSha256": "494309c7c4b1a750f19bb69258760a602032ebb0a52955f5153818b3508d5fe0",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-8fd8a346592b7540",
+      "name": "Jo March",
+      "description": "Josephine 'Jo' March, second March sister; outspoken, tomboyish, aspiring writer and frequent headstrong protector of her family.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jo",
+          "evidence": [
+            1537,
+            1539
+          ]
+        },
+        {
+          "text": "Josephine",
+          "evidence": [
+            17525,
+            17534
+          ]
+        },
+        {
+          "text": "Josy-phine",
+          "evidence": [
+            91089,
+            91099
+          ]
+        },
+        {
+          "text": "Doctor Jo",
+          "evidence": [
+            269728,
+            269737
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-51db3802478d1617",
+      "name": "Meg March",
+      "description": "Margaret 'Meg' March, eldest sister; gentle, domestic, proud of prettiness and devoted to family duties.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Meg",
+          "evidence": [
+            1532,
+            1535
+          ]
+        },
+        {
+          "text": "Margaret",
+          "evidence": [
+            19741,
+            19749
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-706fd6a05e6d949a",
+      "name": "Beth March",
+      "description": "Elizabeth 'Beth' March, third sister; shy, musical, peace-making, quietly selfless and home-loving.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Beth",
+          "evidence": [
+            1323,
+            1327
+          ]
+        },
+        {
+          "text": "Elizabeth",
+          "evidence": [
+            20547,
+            20556
+          ]
+        },
+        {
+          "text": "Little Tranquillity",
+          "evidence": [
+            20764,
+            20783
+          ]
+        },
+        {
+          "text": "Betsey",
+          "evidence": [
+            1091343,
+            1091349
+          ]
+        },
+        {
+          "text": "Bethy",
+          "evidence": [
+            85306,
+            85311
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-362b32c889293863",
+      "name": "Amy March",
+      "description": "Amy March, youngest sister; artistic, vain about appearance, gradually maturing taste and manners.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Amy",
+          "evidence": [
+            1551,
+            1554
+          ]
+        },
+        {
+          "text": "Amy Curtis March",
+          "evidence": [
+            431473,
+            431489
+          ]
+        },
+        {
+          "text": "Little Raphael",
+          "evidence": [
+            95594,
+            95608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-73a5495ba0a8b538",
+      "name": "Mr. March",
+      "description": "The March family father; a studious, pious man (often at war), respected moral guide of the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. March",
+          "evidence": [
+            87413,
+            87422
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3dc1ad6d21b2526b",
+      "name": "Mrs. March",
+      "description": "The March family mother (Marmee); kindly, industrious, moral leader and comforter of her daughters.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. March",
+          "evidence": [
+            7451,
+            7461
+          ]
+        },
+        {
+          "text": "Marmee",
+          "evidence": [
+            21795,
+            21801
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ece0ad8c41a4b1d7",
+      "name": "Mr. Laurence",
+      "description": "James Laurence, wealthy, crotchety but kind neighbor and grandfather to Laurie; kindly patron to the March family.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Laurence",
+          "evidence": [
+            6724,
+            6736
+          ]
+        },
+        {
+          "text": "James Laurence",
+          "evidence": [
+            145129,
+            145143
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-49ce8c58d5e69c88",
+      "name": "Laurie (Theodore Laurence)",
+      "description": "Theodore 'Laurie' Laurence, Mr. Laurence's lively grandson and close friend of the March girls; warm-hearted, mischievous.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Laurie",
+          "evidence": [
+            6807,
+            6813
+          ]
+        },
+        {
+          "text": "Theodore",
+          "evidence": [
+            70291,
+            70299
+          ]
+        },
+        {
+          "text": "Theodore Laurence",
+          "evidence": [
+            432591,
+            432608
+          ]
+        },
+        {
+          "text": "Laurie Laurence",
+          "evidence": [
+            70233,
+            70248
+          ]
+        },
+        {
+          "text": "Teddy",
+          "evidence": [
+            12696,
+            12701
+          ]
+        },
+        {
+          "text": "Dora",
+          "evidence": [
+            70349,
+            70353
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-320181503bc4b173",
+      "name": "John Brooke",
+      "description": "John Brooke (Mr. Brooke), tutor and friend to the March family; steady, kind, later Meg's suitor and husband.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Brooke",
+          "evidence": [
+            8614,
+            8624
+          ]
+        },
+        {
+          "text": "John Brooke",
+          "evidence": [
+            9748,
+            9759
+          ]
+        },
+        {
+          "text": "Brooke",
+          "evidence": [
+            8618,
+            8624
+          ]
+        },
+        {
+          "text": "John",
+          "evidence": [
+            9748,
+            9752
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b5abbe47541c710c",
+      "name": "Aunt March",
+      "description": "Aunt March, wealthy, crotchety relative who takes Jo for a time; sharp-tongued but not unkind.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aunt March",
+          "evidence": [
+            10388,
+            10398
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-67525a9f984f11f2",
+      "name": "Hannah Mullet",
+      "description": "Hannah Mullet, long-serving family servant; practical, loyal, comic and resourceful housekeeper/nurse.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hannah",
+          "evidence": [
+            8753,
+            8759
+          ]
+        },
+        {
+          "text": "Hannah Mullet",
+          "evidence": [
+            8753,
+            8766
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8932df932aafaf68",
+      "name": "Dr. Bangs",
+      "description": "Dr. Bangs, physician who attends Beth and the March household in illness.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dr. Bangs",
+          "evidence": [
+            391825,
+            391834
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a816ee1e26375bca",
+      "name": "Mr. Davis",
+      "description": "Mr. Davis, schoolteacher; strict, dogmatic, enforces rules and administers discipline at school.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Davis",
+          "evidence": [
+            148863,
+            148872
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c3de1b96d8792e67",
+      "name": "Jenny Snow",
+      "description": "Jenny Snow, schoolgirl who reports classmates and causes embarrassment (notably Amy).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jenny Snow",
+          "evidence": [
+            151333,
+            151343
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e9bb8f97a641ed20",
+      "name": "Susie Perkins",
+      "description": "Susie Perkins, schoolmate mentioned in discipline episode (scarlet demonstration by Mr. Davis).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Susie Perkins",
+          "evidence": [
+            101455,
+            101468
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d6386b13b7153846",
+      "name": "Miss Crocker",
+      "description": "Miss Crocker, a neighborly lady and caller who attends social events; querulous, observant.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Miss Crocker",
+          "evidence": [
+            7633,
+            7645
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-93095e40ca6cd2a7",
+      "name": "Mrs. Gardiner",
+      "description": "Mrs. Gardiner, neighbor who hosts a dance; mother to Sallie Gardiner.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Gardiner",
+          "evidence": [
+            6405,
+            6418
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-311cf418d8bcb0fb",
+      "name": "Sallie Gardiner",
+      "description": "Sallie Gardiner, one of the girls in local society; hosts and fashions influence the March sisters.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Sallie",
+          "evidence": [
+            67670,
+            67676
+          ]
+        },
+        {
+          "text": "Sallie Gardiner",
+          "evidence": [
+            258075,
+            258090
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0e3dbbf6c5b1dd32",
+      "name": "Annie Moffat",
+      "description": "Annie Moffat, a fashionable young woman and friend of Sallie; entertains Meg and influences her tastes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Annie Moffat",
+          "evidence": [
+            79789,
+            79801
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d468527eaa5413c7",
+      "name": "Belle Moffat",
+      "description": "Belle Moffat, one of Annie's older sisters (engaged), helps dress Meg for a party.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Belle",
+          "evidence": [
+            194066,
+            194071
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-153af51c62433aa8",
+      "name": "Ned Moffat",
+      "description": "Ned Moffat, a young gentleman in local society who dances with Meg; later marries Sallie.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ned Moffat",
+          "evidence": [
+            212174,
+            212184
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9b628a82170f1d8f",
+      "name": "Mr. Moffat",
+      "description": "Mr. Moffat, Annie's father (fat, jovial), hosts social gatherings.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Moffat",
+          "evidence": [
+            193274,
+            193284
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9d432f29699c13ec",
+      "name": "Mr. King",
+      "description": "Mr. King, employer at whose house Meg works (governess post referenced); family appears in narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. King",
+          "evidence": [
+            100974,
+            100982
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bdde3d41269f5474",
+      "name": "Mrs. King",
+      "description": "Mrs. King, employer in whose household Meg serves; referenced in social comparisons.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. King",
+          "evidence": [
+            100953,
+            100962
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-49d24e057f6c8c7a",
+      "name": "Mrs. Hummel",
+      "description": "Mrs. Hummel, poor neighbor whose newborn baby dies; object of March family charity and concern.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mrs. Hummel",
+          "evidence": [
+            387326,
+            387337
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9336a9e4c84fe4b1",
+      "name": "Lottchen",
+      "description": "Lottchen, helper/older child in the Hummel household who cares for the baby in Mrs. Hummel's\r\nabsence.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Lottchen",
+          "evidence": [
+            387361,
+            387369
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-026cee3d4b367214",
+      "name": "Heinrich",
+      "description": "Heinrich, child of the Hummels mentioned among the sick children.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Heinrich",
+          "evidence": [
+            389774,
+            389782
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e34619b63b9d8378",
+      "name": "Minna",
+      "description": "Minna, another Hummel child referenced as ill.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Minna",
+          "evidence": [
+            389787,
+            389792
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-596698f44cb43250",
+      "name": "Mr. Pickwick (Pickwick Club members)",
+      "description": "The Pickwick Club characters as played by the girls in their entertainments; used for domestic play and satire.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Mr. Pickwick",
+          "evidence": [
+            7479,
+            7491
+          ]
+        },
+        {
+          "text": "Samuel Pickwick",
+          "evidence": [
+            224398,
+            224413
+          ]
+        },
+        {
+          "text": "S. PICKWICK",
+          "evidence": [
+            230386,
+            230397
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b33050ad67542018",
+      "name": "Augustus Snodgrass",
+      "description": "Augustus Snodgrass, a member of the girls' Pickwick Club (role-play identity).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Augustus Snodgrass",
+          "evidence": [
+            1086164,
+            1086182
+          ]
+        },
+        {
+          "text": "A. SNODGRASS",
+          "evidence": [
+            226961,
+            226973
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0f057a7d4185ec30",
+      "name": "Tracy Tupman",
+      "description": "Tracy Tupman, a member of the girls' Pickwick Club (role-play identity).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Tracy Tupman",
+          "evidence": [
+            224504,
+            224516
+          ]
+        },
+        {
+          "text": "T. TUPMAN",
+          "evidence": [
+            231489,
+            231498
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-27ca5ee7b54a686e",
+      "name": "Nathaniel Winkle",
+      "description": "Nathaniel Winkle, a member of the girls' Pickwick Club (role-play identity).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Nathaniel Winkle",
+          "evidence": [
+            224579,
+            224595
+          ]
+        },
+        {
+          "text": "N. WINKLE",
+          "evidence": [
+            232182,
+            232191
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ca1242b2adc5b74b",
+      "name": "Don Pedro",
+      "description": "Don Pedro, character in the girls' operatic tragedy performed by the March sisters (fictional play persona).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Don Pedro",
+          "evidence": [
+            6219,
+            6228
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e36428fd408aed0",
+      "name": "Hugo",
+      "description": "Hugo, villain character in the girls' 'Operatic Tragedy' performed by the March sisters (fictional persona).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hugo",
+          "evidence": [
+            24419,
+            24423
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9c2a8da1df5d4f11",
+      "name": "Hagar",
+      "description": "Hagar, the witch character in the girls' theatrical piece (fictional persona in their play).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hagar",
+          "evidence": [
+            25432,
+            25437
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-af8e6c947d53e669",
+      "name": "Roderigo",
+      "description": "Roderigo, lover character in the girls' play (fictional persona).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Roderigo",
+          "evidence": [
+            24768,
+            24776
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5afd675632118fda",
+      "name": "Zara",
+      "description": "Zara, heroine of the girls' operatic tragedy (fictional persona in their performance).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Zara",
+          "evidence": [
+            48936,
+            48940
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fe90591c5796ba9e",
+      "name": "Ferdinand Devereux",
+      "description": "Ferdinand Devereux, character in the Pickwick Portfolio's dramatic tale read by the girls (fictional).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ferdinand Devereux",
+          "evidence": [
+            229462,
+            229480
+          ]
+        },
+        {
+          "text": "Ferdinando",
+          "evidence": [
+            53506,
+            53516
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-7a8d1f16a421b61c",
+      "name": "Viola",
+      "description": "Viola, character in the theatrical tale read by the girls (fictional persona).",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Viola",
+          "evidence": [
+            227494,
+            227499
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2697a2e582c10982",
+      "name": "Scrabble",
+      "description": "Scrabble, Jo's pet rat, recurring small animal companion in the household.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Scrabble",
+          "evidence": [
+            60393,
+            60401
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cd6a5f297eaa2c4f",
+      "name": "Pip (canary)",
+      "description": "Pip, the March family canary; beloved pet of Beth mentioned in the narrative.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pip",
+          "evidence": [
+            7614,
+            7617
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-055ba12c6806847e",
+      "name": "Poll (parrot)",
+      "description": "Poll, Aunt March's parrot; talkative, mischievous household bird that provides comic incidents.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Poll",
+          "evidence": [
+            6839,
+            6843
+          ]
+        },
+        {
+          "text": "Polly",
+          "evidence": [
+            398018,
+            398023
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eb4c4f052007eaf2",
+      "name": "Mrs. Snowball Pat Paw",
+      "description": "Mrs. Snowball Pat Paw, a beloved cat referenced in the Pickwick Portfolio and household anecdotes.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "S. B. PAT PAW",
+          "evidence": [
+            234717,
+            234730
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0ae1462b8f9989a2",
+      "name": "Ellen Tree",
+      "description": "Ellen Tree, the Marches' make-believe horse (a saddle set on an apple-tree branch), used in play.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ellen Tree",
+          "evidence": [
+            8149,
+            8159
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-b360733bc6bb518e",
+      "name": "Estelle / Esther Valnor",
+      "description": "Estelle (called Esther), maid in Aunt March's household; a Frenchwoman who befriends Amy and helps arrange a private chapel space.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Esther",
+          "evidence": [
+            420252,
+            420258
+          ]
+        },
+        {
+          "text": "Estelle",
+          "evidence": [
+            421444,
+            421451
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-147c7162dc745b90",
+      "name": "Kitty Bryant",
+      "description": "Kitty Bryant, acquaintance of the March girls; referenced in social interactions and Amy's plans.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Kitty Bryant",
+          "evidence": [
+            425813,
+            425825
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-315bdcc1d69e4e3b",
+      "name": "Fred Vaughn",
+      "description": "Fred Vaughn, one of the Vaughn twins encountered at the picnic; lively young gentleman.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Fred",
+          "evidence": [
+            272966,
+            272970
+          ]
+        },
+        {
+          "text": "Fred Vaughn",
+          "evidence": [
+            278418,
+            278429
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-88148d9193c837f8",
+      "name": "Frank Vaughn",
+      "description": "Frank Vaughn, twin brother to Fred, energetic and impulsive youth in the picnic party.",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Frank",
+          "evidence": [
+            1811,
+            1816
+          ]
+        },
+        {
+          "text": "Frank Vaughn",
+          "evidence": [
+            687459,
+            687471
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d3551fe92331f61f",
+      "name": "Aunt Carrol",
+      "description": "Another elderly relative (also called Mrs. Carrol) who corresponds with the Marches",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Aunt Carrol",
+          "evidence": [
+            648659,
+            648670
+          ]
+        },
+        {
+          "text": "Mrs. Carrol",
+          "evidence": [
+            529990,
+            530001
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a86d5092edc44ccf",
+      "name": "Daisy",
+      "description": "Meg and John's daughter (one of the March grandchildren), a lively little child",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Daisy",
+          "evidence": [
+            11570,
+            11575
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-16510af441618e0f",
+      "name": "Demi",
+      "description": "Meg and John's son (one of the March grandchildren), mischievous little boy",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Demi",
+          "evidence": [
+            11561,
+            11565
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ce37b0bde9eeb71d",
+      "name": "Mrs. Kirke",
+      "description": "Mrs. Kirke (Madame Kirke), employer/hostess in New York who employs Jo as a governess",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Mrs. Kirke",
+          "evidence": [
+            720651,
+            720661
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-eb4f6b017bf7778e",
+      "name": "Professor (Mr.) Bhaer",
+      "description": "Friedrich Bhaer, German teacher and scholar; Jo's friend and later husband",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Professor Bhaer",
+          "evidence": [
+            729569,
+            729584
+          ]
+        },
+        {
+          "text": "Mr. Bhaer",
+          "evidence": [
+            12225,
+            12234
+          ]
+        },
+        {
+          "text": "Friedrich",
+          "evidence": [
+            752370,
+            752379
+          ]
+        },
+        {
+          "text": "Fritz",
+          "evidence": [
+            737813,
+            737818
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0b63bc0b40c93cc0",
+      "name": "Miss Norton",
+      "description": "A cultured, wealthy maiden lady in Jo's boarding-house circle who befriends Jo and the Professor",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Miss Norton",
+          "evidence": [
+            738058,
+            738069
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-cea41ddfa8a2e9b6",
+      "name": "Kitty Kirke",
+      "description": "One of Mrs. Kirke's lively children/young persons who interacts with the Professor and Jo",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Kitty",
+          "evidence": [
+            425813,
+            425818
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-263b2e2a08dfda72",
+      "name": "Minnie Kirke",
+      "description": "Another of Mrs. Kirke's children, playful and outspoken",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Minnie",
+          "evidence": [
+            737582,
+            737588
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a6f3c43f6a2ccd01",
+      "name": "Tina",
+      "description": "Small French child attached to Professor Bhaer (child pupil/foster child in his household)",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Tina",
+          "evidence": [
+            732618,
+            732622
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8ce228a0bf6e642c",
+      "name": "Franz",
+      "description": "One of Professor Bhaer's young nephews/pupils (boy in his household)",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Franz",
+          "evidence": [
+            741234,
+            741239
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-72bd481064e1e6f0",
+      "name": "Emil",
+      "description": "The other of Professor Bhaer's young nephews/pupils",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Emil",
+          "evidence": [
+            741244,
+            741248
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0d7101b8b8ef8162",
+      "name": "Mrs. Chester",
+      "description": "Mrs. Chester, a local lady who reassigns a fair table and causes conflict involving Amy",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Mrs. Chester",
+          "evidence": [
+            632657,
+            632669
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0cb3e17d785abf32",
+      "name": "May Chester",
+      "description": "Mrs. Chester's daughter who competes with Amy at the fair",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "May",
+          "evidence": [
+            42425,
+            42428
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-714676d1d0fde0c9",
+      "name": "Hayes",
+      "description": "Gardener/friend who sends flowers to help Amy at the fair and later helps the March family",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Hayes",
+          "evidence": [
+            666004,
+            666009
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-6828ba29daf73899",
+      "name": "Mr. Dashwood",
+      "description": "Editor of the \"Weekly Volcano\" who buys Jo's sensational stories",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Mr. Dashwood",
+          "evidence": [
+            757639,
+            757651
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3c9a542daaa8607a",
+      "name": "Mr. Lennox",
+      "description": "Acquaintance met on the voyage to England (offers Amy a bouquet carded 'Robert Lennox')",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Robert Lennox",
+          "evidence": [
+            681858,
+            681871
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1a452cfd1b7665bb",
+      "name": "Ward",
+      "description": "Friend of Mr. Lennox who travels with the party (appears in Amy's letters)",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Ward",
+          "evidence": [
+            681733,
+            681737
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a7d84b4f0793eb8b",
+      "name": "Mrs. Moffatt",
+      "description": "Local energetic matron (Sallie Moffatt mentioned among acquaintances)",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Sallie Moffatt",
+          "evidence": [
+            873980,
+            873994
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-357d4ff09ea9acfb",
+      "name": "Dodo",
+      "description": "Family nickname (Aunt Dodo), affectionate relative and playmate of the grandchildren",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Dodo",
+          "evidence": [
+            982722,
+            982726
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-244fbdf2309bc825",
+      "name": "Parker",
+      "description": "Little Parker, a child who offers a witty toast at the fair",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Parker",
+          "evidence": [
+            537698,
+            537704
+          ]
+        },
+        {
+          "text": "little Parker",
+          "evidence": [
+            537691,
+            537704
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c0af6d097b965218",
+      "name": "Tommy Bangs",
+      "description": "A mischievous boy at Plumfield who causes worry (e.g., playing with fire)",
+      "scope": "Little Women; Or, Meg, Jo, Beth, and Amy",
+      "aliases": [
+        {
+          "text": "Tommy Bangs",
+          "evidence": [
+            1071287,
+            1071298
+          ]
+        }
+      ]
+    }
+  ]
+}

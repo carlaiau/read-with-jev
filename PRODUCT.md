@@ -14,7 +14,7 @@ The primary audience is researchers evaluating JEV classification. They need to 
 
 Test whether a general-purpose JEV classifier can produce useful, trustworthy character maps for novels. The reader makes character distributions navigable alongside the book text, supporting inspection of the experiment rather than substituting a compelling visualization for evidence of accuracy.
 
-The longer-term concept is a web novel reader that processes Project Gutenberg books and lets readers select characters to highlight their contributions. The MVP evaluates three annotated novels and offers a curated nine-document baseline reader. Arbitrary-book ingestion remains future work.
+The longer-term concept is a web novel reader that processes Project Gutenberg books and lets readers select characters to highlight their contributions. The MVP evaluates three annotated novels and offers a baseline reader with curated books and imported English Gutenberg editions. Arbitrary-book ingestion remains future work.
 
 ## Positioning
 
@@ -25,7 +25,7 @@ The research mechanism combines stable target passages, overlapping neighboring 
 - The primary annotated reader is *Pride and Prejudice*. BookCoref and PDNC supply independent annotated editions; their text offsets and character inventories must stay separate.
 - Readers select one or several characters, inspect matching passages, and navigate with the full-height minimap or previous/next passage controls. The map supports arrow keys, Home, End, and Page Up/Down; research layers remain available through the API and benchmark commands.
 - Shared passages retain a separate colored margin line for every selected matching character. Each selected character also has an independent minimap curve, using the same color as their channel.
-- Data preparation and inference run offline through TypeScript commands. Reading and filtering do not trigger paid model requests. The Next.js reader defaults to deterministic name/alias baseline classifications across nine documents, served by a Netlify function. Pride and Prejudice research datasets retain human annotations; JEV predictions remain offline research artifacts.
+- Data preparation and inference run offline through TypeScript commands. Reading and filtering do not trigger paid model requests. The Next.js reader defaults to deterministic name/alias baseline classifications across the prepared document library, served by a Netlify function. Pride and Prejudice research datasets retain human annotations; JEV predictions remain offline research artifacts.
 - This research view reveals the full cast and whole-book activity. It is not spoiler-safe.
 
 ## Capabilities and Constraints

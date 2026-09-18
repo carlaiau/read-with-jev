@@ -1,0 +1,962 @@
+{
+  "schema": 1,
+  "gutenbergId": 3296,
+  "sourceSha256": "ef3fa6267968c875def9091a1882d14b525a85bbf6996a3e2f130a775b2e22d2",
+  "status": "extracted",
+  "method": {
+    "provider": "openai",
+    "model": "gpt-5-mini-2025-08-07",
+    "promptVersion": "cast-v1"
+  },
+  "characters": [
+    {
+      "id": "c-a1b07253799d6b7f",
+      "name": "Saint Augustine",
+      "description": "Narrator and author of the Confessions; Christian theologian and Bishop of Hippo recounting his life and conversion",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Saint Augustine",
+          "evidence": [
+            988,
+            1003
+          ]
+        },
+        {
+          "text": "Bishop of Hippo",
+          "evidence": [
+            1007,
+            1022
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-29f47380d73bc36e",
+      "name": "God",
+      "description": "The Lord, the divine addressee of Augustine's prayers and reflections",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "God",
+          "evidence": [
+            2439,
+            2442
+          ]
+        },
+        {
+          "text": "Lord",
+          "evidence": [
+            1121,
+            1125
+          ]
+        },
+        {
+          "text": "O Lord",
+          "evidence": [
+            1119,
+            1125
+          ]
+        },
+        {
+          "text": "my God",
+          "evidence": [
+            2436,
+            2442
+          ]
+        },
+        {
+          "text": "O my God",
+          "evidence": [
+            3171,
+            3179
+          ]
+        },
+        {
+          "text": "Lord God",
+          "evidence": [
+            4607,
+            4615
+          ]
+        },
+        {
+          "text": "God Almighty",
+          "evidence": [
+            76565,
+            76577
+          ]
+        },
+        {
+          "text": "my God and Lord",
+          "evidence": [
+            2444,
+            2459
+          ]
+        },
+        {
+          "text": "O Lord my God",
+          "evidence": [
+            2672,
+            2685
+          ]
+        },
+        {
+          "text": "my King and my God",
+          "evidence": [
+            29637,
+            29655
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8091d03069dc1cc5",
+      "name": "Jesus Christ",
+      "description": "Referred to as the Son, Savior and Mediator; central to Augustine's conversion and theology",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jesus",
+          "evidence": [
+            21648,
+            21653
+          ]
+        },
+        {
+          "text": "Christ",
+          "evidence": [
+            21341,
+            21347
+          ]
+        },
+        {
+          "text": "Jesus Christ",
+          "evidence": [
+            70763,
+            70775
+          ]
+        },
+        {
+          "text": "Lord Jesus",
+          "evidence": [
+            21643,
+            21653
+          ]
+        },
+        {
+          "text": "our Lord",
+          "evidence": [
+            50838,
+            50846
+          ]
+        },
+        {
+          "text": "Thy Son",
+          "evidence": [
+            2359,
+            2366
+          ]
+        },
+        {
+          "text": "the Man Christ Jesus",
+          "evidence": [
+            433941,
+            433961
+          ]
+        },
+        {
+          "text": "Christ Jesus",
+          "evidence": [
+            246834,
+            246846
+          ]
+        },
+        {
+          "text": "Only Begotten",
+          "evidence": [
+            134317,
+            134330
+          ]
+        },
+        {
+          "text": "our Saviour",
+          "evidence": [
+            251049,
+            251060
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-30a5c51002e5cb88",
+      "name": "Holy Spirit",
+      "description": "The Paraclete/Comforter; divine Spirit discussed as active, 'borne over the waters' and given to believers",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Holy Ghost",
+          "evidence": [
+            98586,
+            98596
+          ]
+        },
+        {
+          "text": "Holy Spirit",
+          "evidence": [
+            139378,
+            139389
+          ]
+        },
+        {
+          "text": "Paraclete",
+          "evidence": [
+            70805,
+            70814
+          ]
+        },
+        {
+          "text": "Comforter",
+          "evidence": [
+            70820,
+            70829
+          ]
+        },
+        {
+          "text": "Thy good Spirit",
+          "evidence": [
+            311639,
+            311654
+          ]
+        },
+        {
+          "text": "the Spirit",
+          "evidence": [
+            176059,
+            176069
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-14779272400f2f4b",
+      "name": "Augustine's mother",
+      "description": "Augustine's pious mother (unnamed in the supplied text), a central figure in his conversion through prayer and care",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "my mother",
+          "evidence": [
+            7935,
+            7944
+          ]
+        },
+        {
+          "text": "the mother of my flesh",
+          "evidence": [
+            21376,
+            21398
+          ]
+        },
+        {
+          "text": "Thy handmaid",
+          "evidence": [
+            299899,
+            299911
+          ]
+        },
+        {
+          "text": "that chaste, godly, and sober widow",
+          "evidence": [
+            88780,
+            88815
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a2bbd6c80ea49b09",
+      "name": "Patricius",
+      "description": "Augustine's father (referred to by name in the text); a pagan/slow-to-believe figure in Augustine's youth",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Patricius",
+          "evidence": [
+            328281,
+            328290
+          ]
+        },
+        {
+          "text": "my father",
+          "evidence": [
+            21976,
+            21985
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-49431bb2b4d0dd7c",
+      "name": "Alypius",
+      "description": "Close friend and companion of Augustine; friend in study and conversion, later a fellow Christian",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Alypius",
+          "evidence": [
+            184539,
+            184546
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2c32e97ab9fbff32",
+      "name": "Nebridius",
+      "description": "Friend of Augustine, thoughtful seeker after truth who accompanies Augustine in parts of his intellectual journey",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Nebridius",
+          "evidence": [
+            97637,
+            97646
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a10ad1c17e824ad4",
+      "name": "Ambrose",
+      "description": "Ambrose of Milan, Bishop and influential preacher whose sermons and example play a key role in Augustine's conversion",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Ambrose",
+          "evidence": [
+            161823,
+            161830
+          ]
+        },
+        {
+          "text": "Ambrose the Bishop",
+          "evidence": [
+            161823,
+            161841
+          ]
+        },
+        {
+          "text": "the Bishop",
+          "evidence": [
+            161831,
+            161841
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-2cd36b10d75ce9f7",
+      "name": "Simplicianus",
+      "description": "Simplicianus, a senior Christian and mentor figure (Ambrose's elder), who counsels Augustine",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Simplicianus",
+          "evidence": [
+            256491,
+            256503
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-511aba2113d6a213",
+      "name": "Verecundus",
+      "description": "An acquaintance and grammarian of Milan who hosts Augustine and friends; described as constrained by obligations",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Verecundus",
+          "evidence": [
+            274480,
+            274490
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-65ed683da2e1425b",
+      "name": "Faustus",
+      "description": "Faustus, a Manichaean bishop (renowned among Manichees) whom Augustine consults and finds intellectually limited",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Faustus",
+          "evidence": [
+            131356,
+            131363
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-05beb9523d48d952",
+      "name": "Victorinus",
+      "description": "Victorinus, a Roman rhetorician who converted to Christianity; Augustine cites his conversion as an example of grace",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Victorinus",
+          "evidence": [
+            259190,
+            259200
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-25e8f731e282d1fe",
+      "name": "Pontitianus",
+      "description": "An African official at the imperial court whose telling of Antony the monk and desert examples prompts Augustine's decisive turn",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pontitianus",
+          "evidence": [
+            275329,
+            275340
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fc0f6110f126502b",
+      "name": "Firminus",
+      "description": "Friend and interlocutor of Augustine; related anecdotes (father's consultation of astrologers) influence Augustine's rejection of astrology",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Firminus",
+          "evidence": [
+            223690,
+            223698
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-c629e3bba250b970",
+      "name": "Romanianus",
+      "description": "A wealthy townsman and friend who supports Augustine and companions; discussed in relation to communal plans",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Romanianus",
+          "evidence": [
+            205402,
+            205412
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-4cd6d61d6e4bb8aa",
+      "name": "Euodius",
+      "description": "Friend from Augustine's city who joins Augustine's household and partakes in his spiritual life and song",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Euodius",
+          "evidence": [
+            321947,
+            321954
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-27842f6afe4e38ae",
+      "name": "Adeodatus",
+      "description": "Augustine's son, born to him before his conversion, depicted as gifted and beloved; raised with Augustine after conversion",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Adeodatus",
+          "evidence": [
+            317795,
+            317804
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ca3fe66883d3e051",
+      "name": "Gervasius",
+      "description": "One of two martyrs (with Protasius) whose relics Ambrose uncovers at Milan; their discovery is narrated by Augustine",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Gervasius",
+          "evidence": [
+            320374,
+            320383
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9ecbfee84a8b13f3",
+      "name": "Protasius",
+      "description": "One of the pair of martyrs (with Gervasius) whose bodies are discovered and venerated at Milan",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Protasius",
+          "evidence": [
+            320388,
+            320397
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3d34d56855078a83",
+      "name": "Justina",
+      "description": "Justina, mother of Emperor Valentinian; mentioned as an Arian sympathizer who vexed Bishop Ambrose",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Justina",
+          "evidence": [
+            319498,
+            319505
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-9390b339dd11b964",
+      "name": "Valentinian",
+      "description": "Emperor Valentinian (referenced in relation to Justina and court matters)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Valentinian",
+          "evidence": [
+            319530,
+            319541
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5061615901ac56ec",
+      "name": "Antony",
+      "description": "Antony the Egyptian (St. Antony), the desert monk whose life Augustine hears about and who inspires conversions",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Antony",
+          "evidence": [
+            276137,
+            276143
+          ]
+        },
+        {
+          "text": "Antony the Egyptian",
+          "evidence": [
+            276137,
+            276156
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-dd5cbe01b20040a2",
+      "name": "Cyprian",
+      "description": "Saint Cyprian (referenced via an oratory in his memory where Augustine's mother waits)",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cyprian",
+          "evidence": [
+            149530,
+            149537
+          ]
+        },
+        {
+          "text": "the blessed Cyprian",
+          "evidence": [
+            149518,
+            149537
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1cfdb5315d49eab2",
+      "name": "Paul (the Apostle)",
+      "description": "The Apostle Paul, scripturally cited and prayed with; Augustine cites Pauline teaching and letters",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Paul",
+          "evidence": [
+            252390,
+            252394
+          ]
+        },
+        {
+          "text": "Paulus",
+          "evidence": [
+            268863,
+            268869
+          ]
+        },
+        {
+          "text": "the Apostle Paul",
+          "evidence": [
+            252378,
+            252394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-8e493cddba18faf5",
+      "name": "Abraham",
+      "description": "Biblical patriarch cited by Augustine in theological argument",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Abraham",
+          "evidence": [
+            76796,
+            76803
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-89c70cf11b7ffcd5",
+      "name": "Isaac",
+      "description": "Biblical patriarch cited in Augustine's discussion of types and scriptural interpretation",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Isaac",
+          "evidence": [
+            76810,
+            76815
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-79beb61e6763b938",
+      "name": "Jacob",
+      "description": "Biblical patriarch invoked in Augustine's theological reflections",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jacob",
+          "evidence": [
+            76821,
+            76826
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-fdaff61b707c3350",
+      "name": "Moses",
+      "description": "Moses, the scriptural lawgiver; Augustine discusses the interpretation of Mosaic texts",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Moses",
+          "evidence": [
+            76832,
+            76837
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f52d1ef6b298420e",
+      "name": "David",
+      "description": "King David, author of Psalms; Augustine frequently references and sings David's psalms",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "David",
+          "evidence": [
+            76843,
+            76848
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a9932e8ee0fa8c7d",
+      "name": "Solomon",
+      "description": "Biblical figure (King Solomon) referenced by Augustine in exegesis and example",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Solomon",
+          "evidence": [
+            74988,
+            74995
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-aac7f8d35dfcfbf9",
+      "name": "Esau",
+      "description": "Biblical figure (Esau) cited in moral examples",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Esau",
+          "evidence": [
+            227902,
+            227906
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-3829d417381e7add",
+      "name": "Jacob (as sibling pair with Esau)",
+      "description": "Biblical figure (Jacob) appearing in Augustine's ethical examples",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jacob",
+          "evidence": [
+            76821,
+            76826
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-f79886fa6b449941",
+      "name": "Dido",
+      "description": "Literary character from Virgil's Aeneid referenced as an object of Augustine's youthful curiosities",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Dido",
+          "evidence": [
+            24960,
+            24964
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-37e06434efa11e4c",
+      "name": "Aeneas",
+      "description": "Trojan hero of Virgil's Aeneid referenced in Augustine's account of studying poetry",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Aeneas",
+          "evidence": [
+            24909,
+            24915
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-ae240e13af4f8971",
+      "name": "Pylades",
+      "description": "Classical figure referenced alongside Orestes as an example of mutual devotion",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Pylades",
+          "evidence": [
+            103223,
+            103230
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5cd70a7833c973bd",
+      "name": "Orestes",
+      "description": "Classical figure cited with Pylades as an example of mutual willingness to die for one another",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Orestes",
+          "evidence": [
+            103235,
+            103242
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-e5f09812a9d04f7c",
+      "name": "Jove/Jupiter",
+      "description": "Roman god (Jove/Jupiter) referenced in Augustine's critique of pagan literature",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Jove",
+          "evidence": [
+            30326,
+            30330
+          ]
+        },
+        {
+          "text": "Jupiter",
+          "evidence": [
+            31542,
+            31549
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-d2b6c5d512eb6713",
+      "name": "Anubis",
+      "description": "Egyptian deity mentioned as an example of pagan idolatry Augustine critiques",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Anubis",
+          "evidence": [
+            260385,
+            260391
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-733d874f5fe1343c",
+      "name": "Terence",
+      "description": "Classical playwright referenced by Augustine in discussion of grammar and morals",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Terence",
+          "evidence": [
+            31481,
+            31488
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-5f2bf5f86ac7edfc",
+      "name": "Virgil",
+      "description": "Roman poet (Virgil) referenced for Augustine's youthful studies",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Virgil",
+          "evidence": [
+            27970,
+            27976
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-bed76a772e568c5a",
+      "name": "Homer",
+      "description": "Ancient Greek poet (Homer) mentioned as part of Augustine's early literary curriculum",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Homer",
+          "evidence": [
+            27837,
+            27842
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-a1de3c35f1005ead",
+      "name": "Cicero (Tully)",
+      "description": "Roman orator and author (referred to as Tully) whose work 'Hortensius' greatly influenced Augustine",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Cicero",
+          "evidence": [
+            67639,
+            67645
+          ]
+        },
+        {
+          "text": "Tully",
+          "evidence": [
+            70312,
+            70317
+          ]
+        },
+        {
+          "text": "Hortensius",
+          "evidence": [
+            67770,
+            67780
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1ef18dce5fc899aa",
+      "name": "Seneca",
+      "description": "Roman philosopher and writer mentioned among authors Augustine read",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Seneca",
+          "evidence": [
+            142836,
+            142842
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-0201288300f570c0",
+      "name": "Hippocrates",
+      "description": "Ancient medical authority cited in discussion of faculty and learning",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Hippocrates",
+          "evidence": [
+            96331,
+            96342
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-1bc608b82968160d",
+      "name": "Catiline",
+      "description": "Historical Roman figure (Catiline) invoked in rhetorical example",
+      "scope": "book",
+      "aliases": [
+        {
+          "text": "Catiline",
+          "evidence": [
+            52111,
+            52119
+          ]
+        }
+      ]
+    }
+  ]
+}
