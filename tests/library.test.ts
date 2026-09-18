@@ -6,6 +6,17 @@ import { literalMatches } from '../src/lib/evaluate';
 import type { LibraryDocument, LibraryCatalog } from '../src/lib/library-model';
 import libraryFunction from '../netlify/functions/library';
 import { serveLibrary } from '../src/server/library';
+import { removeIllustrations } from '../src/lib/library-prepare';
+test('illustration cleanup removes nested captions without removing bracketed prose', () => {
+  const source = 'news.\n[Illustration: Bennet\n[_Copyright 1894 by George Allen._]]\n[Illustration]\n[Enter Elizabeth.]';
+  assert.equal(removeIllustrations(source), 'news.\n\n\n[Enter Elizabeth.]');
+  assert.throws(() => removeIllustrations('prose [Illustration: incomplete'), /Unclosed/);
+});
+test('Pride and Prejudice chapter boundary has no orphaned illustration brackets', async () => {
+  const book = JSON.parse(await readFile('data/library/pride-and-prejudice.json', 'utf8')) as LibraryDocument;
+  assert.match(book.text, /daughters married: its solace was visiting and news\.\s+CHAPTER II\./);
+  assert(!/^\s*\]+\s*$/m.test(book.text));
+});
 const request = (query = '', init?: RequestInit) => new Request(`http://localhost/.netlify/functions/library${query}`, init);
 test('native Netlify handler serves a small multi-document catalog and exact prepared documents', async () => {
   const response = await libraryFunction(request()); assert.equal(response.status, 200);

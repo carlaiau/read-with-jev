@@ -6,7 +6,7 @@ The reader loads a catalog, then fetches one selected document. Classification h
 
 | Document ID | Title | Source | Passages |
 | --- | --- | --- | ---: |
-| `pride-and-prejudice` | Pride and Prejudice | Gutenberg 1342 | 324 |
+| `pride-and-prejudice` | Pride and Prejudice | Gutenberg 1342 | 316 |
 | `siddhartha` | Siddhartha | Gutenberg 2500 | 100 |
 | `animal-farm` | Animal Farm | Pinned BookCoref text | 100 |
 | `moby-dick` | Moby-Dick | Gutenberg 2701 | 553 |

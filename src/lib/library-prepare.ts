@@ -5,6 +5,24 @@ import { buildPassages } from './passages';
 import type { Span } from './model';
 import type { DocumentSpec, LibraryDocument } from './library-model';
 const siddharthaHeadings = ['THE SON OF THE BRAHMAN', 'WITH THE SAMANAS', 'GOTAMA', 'AWAKENING', 'KAMALA', 'WITH THE CHILDLIKE PEOPLE', 'SANSARA', 'BY THE RIVER', 'THE FERRYMAN', 'THE SON', 'OM', 'GOVINDA'];
+/** Illustration captions can contain nested bracketed copyright notices. */
+export function removeIllustrations(text: string): string {
+  const marker = /\[Illustration\b/gi;
+  let result = '', cursor = 0;
+  for (let match = marker.exec(text); match; match = marker.exec(text)) {
+    let end = match.index + 1, depth = 1;
+    while (end < text.length && depth > 0) {
+      if (text[end] === '[') depth++;
+      if (text[end] === ']') depth--;
+      end++;
+    }
+    assert.equal(depth, 0, 'Unclosed Gutenberg illustration caption');
+    result += text.slice(cursor, match.index);
+    cursor = end;
+    marker.lastIndex = end;
+  }
+  return result + text.slice(cursor);
+}
 export function prepareLibraryDocument(spec: DocumentSpec, raw: string, sha256: string): LibraryDocument {
   let text = raw.replace(/\r\n?/g, '\n'), textFormat: LibraryDocument['textFormat'] = 'plain';
   if (spec.format === 'bookcoref-text') {
@@ -30,7 +48,7 @@ export function prepareLibraryDocument(spec: DocumentSpec, raw: string, sha256: 
     const matches = [...text.matchAll(new RegExp(expression.source, 'gm'))]; assert(matches.length, `No body anchor for ${spec.id}`);
     text = text.slice(matches.at(-1)!.index).trim();
     if (spec.id === 'pride-and-prejudice') text = 'CHAPTER I.\n\n' + text;
-    text = text.replace(/\[Illustration[\s\S]*?\]/gi, '').replace(/\n{4,}/g, '\n\n\n');
+    text = removeIllustrations(text).replace(/\n{4,}/g, '\n\n\n');
   }
   const headingPatterns: Record<string, RegExp> = {
     'pride-and-prejudice': /^(?:CHAPTER|Chapter)\s+[IVXLCDM]+\.?[^\n]*$/gm,

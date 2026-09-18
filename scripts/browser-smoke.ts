@@ -8,7 +8,8 @@ try {
   page.on('pageerror', error => errors.push(error.message));
   await page.goto(baseURL);
   await page.locator('.passage').last().waitFor();
-  assert.equal(await page.locator('.passage').count(), 324);
+  const book = await (await page.request.get(`${baseURL}/.netlify/functions/library?document=pride-and-prejudice`)).json();
+  assert.equal(await page.locator('.passage').count(), book.passages.length);
   assert(await page.locator('.matched').count() > 0);
   await page.getByRole('checkbox', { name: 'Mr. Darcy', exact: false }).check();
   assert.equal(await page.locator('.rail-curve').count(), 2);
@@ -58,7 +59,7 @@ try {
   const slider = page.getByRole('slider', { name: 'Book position' });
   await slider.focus();
   await slider.press('End');
-  assert.equal(await slider.getAttribute('aria-valuenow'), '323');
+  assert.equal(await slider.getAttribute('aria-valuenow'), String(book.passages.length - 1));
   await slider.press('Home');
   assert.equal(await slider.getAttribute('aria-valuenow'), '0');
   const rail = await page.locator('.minimap').boundingBox();
