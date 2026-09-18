@@ -1,5 +1,7 @@
 # Affect prompts and state
 
+**Corpus-scope correction (iteration 8):** REMAN character annotations mark emotion participants, not all characters. Supplying them or filtering on their presence uses emotion-conditioned annotation information. See [the source audit](affect-iteration-8.md).
+
 For the original supplied-emotion attribution task, the selected prompt is **v2**. The later emotion-detection task keeps **highlight-v1**; the direct passage experiment below is **passage-v1**. All requests use the official SDK's Noul primitive (yes-probability), at most eight questions per call. Model comparison runs explicitly request `jev-1.13.0`. No custom system message is supplied by this runner.
 
 ## v1: original pilot

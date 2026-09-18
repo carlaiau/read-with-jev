@@ -158,3 +158,7 @@ annotations in state, with frozen development thresholds and matched accuracy/to
 [Iteration 7](docs/affect-iteration-7.md) evaluates the frozen direct prompt on 96 new-to-JEV
 passages, including those without annotated characters, exposing a substantial precision drop
 in that low-annotation-prevalence group. No threshold retuning or test-partition evaluation.
+
+[Iteration 8](docs/affect-iteration-8.md) confirms from REMAN's guidelines that character annotations
+are emotion-participant annotations, quantifies their selection effect, and prepares two independent
+blinded review forms. Earlier character-filtered metrics are conditional, not general passage accuracy.

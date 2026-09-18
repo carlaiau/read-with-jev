@@ -1,0 +1,63 @@
+{
+  "iteration": 8,
+  "datasetHash": "8cbfb62d7fe18f7628dc06b39ac1663edec1b5939427e73e0a3f1e2467e5930d",
+  "guidelines": {
+    "path": "data/raw/affect/reman-guidelines.pdf",
+    "sha256": "f0ab6284f4a206c6e070978807050fc7dd2584c8b2f3613bbb25e6c83b49f661",
+    "pages": [
+      1,
+      2,
+      3,
+      10,
+      11
+    ],
+    "finding": "Character annotations are restricted to emotion participants, not an exhaustive cast inventory. Filtering or supplying that inventory conditions on emotion annotation decisions."
+  },
+  "census": {
+    "developmentDocuments": 1253,
+    "eligibleDocuments": 1108,
+    "scope": "Three-sentence target with valid source spans and all annotated emotion expressions within target; full development only, test not scored",
+    "strata": [
+      {
+        "stratum": "without-annotated-characters",
+        "documents": 428,
+        "authors": 77,
+        "positiveDocuments": 23,
+        "categoryPairs": 3424,
+        "positiveCategories": 30,
+        "categoryPrevalence": 0.008761682242990653
+      },
+      {
+        "stratum": "with-annotated-characters",
+        "documents": 680,
+        "authors": 87,
+        "positiveDocuments": 620,
+        "categoryPairs": 5440,
+        "positiveCategories": 968,
+        "categoryPrevalence": 0.17794117647058824
+      }
+    ]
+  },
+  "review": {
+    "status": "unreviewed-not-gold",
+    "sourceRun": "data/runs/affect-passage-expansion-1789758612027.json",
+    "sourceRunHash": "a4eca440a22d53d0d94f538d52d7453dda1d3c8d83cce5319d6f9501f672358e",
+    "items": 40,
+    "distinctDocuments": 33,
+    "matchedFlagPairs": 12,
+    "lowScorePerStratum": 8,
+    "meanAbsoluteScoreGap": 0.07583333333333335,
+    "maxAbsoluteScoreGap": 0.35000000000000003,
+    "selection": "12 flagged pairs matched across annotation-character strata by identical category and nearest model score, without replacement; 8 below-threshold items per stratum; hash-shuffled order. Emotion-category gold outcomes are not used in selection; strata use corpus character annotations. Matching is approximate and descriptive, not causal or prevalence-representative.",
+    "packetPaths": [
+      "data/runs/affect-expansion-review-A.json",
+      "data/runs/affect-expansion-review-B.json"
+    ],
+    "packetHashes": [
+      "d57f6e4a682cf0f843fd91760c6057ee56d1779fce3a32450a7885069e84f424",
+      "b28138ba389aff5d6b7d9abd5e0a51b0e767c60d2621dfaf843b9287cde426ef"
+    ]
+  },
+  "newModelCalls": 0,
+  "codeHash": "c42773d588a4686baf5035ba2f49f9fc1143f91083e121e0a1bf997e5c8facd9"
+}
