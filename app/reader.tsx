@@ -1,5 +1,7 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { documentPath } from '../src/lib/document-url';
 import { loadLibraryDocument } from '../src/lib/library-transport';
 import { readerSegments } from '../src/lib/reader-text';
 import type { DocumentSummary, LibraryDocument } from '../src/lib/library-model';
@@ -8,18 +10,19 @@ import { Button } from '../src/catalyst/typescript/button';
 import { Checkbox, CheckboxField } from '../src/catalyst/typescript/checkbox';
 import { Field, Label } from '../src/catalyst/typescript/fieldset';
 import { Select } from '../src/catalyst/typescript/select';
+import { Radio, RadioField, RadioGroup } from '../src/catalyst/typescript/radio';
 import { Sidebar, SidebarHeader, SidebarBody, SidebarFooter } from '../src/catalyst/typescript/sidebar';
 import { CharacterRail, chapterActivity, Sparkline } from './reader-charts';
 
 const colors = ['#b64c68', '#27818d', '#7a65a4', '#ac7b1b', '#577b64', '#bd7047'];
-export default function Reader() {
+export default function Reader({ documentId, initialDocument }: { documentId: string; initialDocument: DocumentSummary }) {
+  const router = useRouter();
   const [book, setBook] = useState<(Book & Partial<LibraryDocument>) | null>(null);
   const [documents, setDocuments] = useState<DocumentSummary[]>([]);
-  const [documentId, setDocumentId] = useState('pride-and-prejudice');
   const [retry, setRetry] = useState(0);
   const baseline = true;
   const mentionLayer = true;
-  const documentInfo = documents.find(d => d.documentId === documentId);
+  const documentInfo = documents.find(d => d.documentId === documentId) ?? initialDocument;
   const title = book?.title ?? documentInfo?.title ?? 'Document library';
   const sectionTitle = (chapter: number) => book?.sections?.find(s => s.index === chapter)?.title ?? `Chapter ${chapter}`;
   useEffect(() => {
@@ -39,12 +42,10 @@ export default function Reader() {
   const [current, setCurrent] = useState(0);
   const [mobileOpen, setMobileOpen] = useState(false);
   useEffect(() => {
-    const controller = new AbortController(); setBook(null); setError(''); setCurrent(0); setSelected([]);
+    const controller = new AbortController(); setBook(null); setError(''); setCurrent(0); setSelected([]); setMatchMode('any');
     loadLibraryDocument<Book & Partial<LibraryDocument>>(`/.netlify/functions/library?document=${encodeURIComponent(documentId)}`, controller.signal).then(data => {
       if (controller.signal.aborted) return;
       setBook(data);
-      const first = data.characters.find(c => c.name.startsWith('Elizabeth'));
-      setSelected(first ? [first.id] : data.characters.length ? [data.characters[0].id] : []);
     }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
     return () => controller.abort();
   }, [documentId, retry]);
@@ -60,6 +61,9 @@ export default function Reader() {
       for (const element of elements) {
         if (element.getBoundingClientRect().top > marker) break;
         index = Number(element.dataset.index);
+      }
+      if (elements.length && window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2) {
+        index = Number(elements.at(-1)!.dataset.index);
       }
       setCurrent(index);
     };
@@ -92,12 +96,17 @@ export default function Reader() {
     <aside id="channels" className={`${mobileOpen ? 'block' : 'hidden'} fixed inset-x-0 top-16 bottom-0 z-30 border-r border-rule bg-panel lg:inset-x-auto lg:top-0 lg:left-0 lg:block lg:w-[290px] xl:w-[320px]`}>
       <Sidebar aria-label="Characters">
         <SidebarHeader className="px-6! pt-7! pb-5! lg:pt-10!">
-          <a href="/" className="font-serif text-[27px] leading-tight tracking-tight">{title}</a>
+          <a href={documentPath(documentInfo)} className="font-serif text-[27px] leading-tight tracking-tight">{title}</a>
           <p className="mt-2 font-serif text-lg italic text-muted">{documentInfo?.author ?? 'Unknown author'}{documentInfo?.year ? ` · ${documentInfo.year}` : ''}</p>
           <Field className="mt-4">
             <Label>Document</Label>
-            <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => { setDocumentId(e.target.value); setMatchMode('any'); }} className="mt-2">
-              {!documents.length && <option value="pride-and-prejudice">Loading library…</option>}
+            <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => {
+              const nextDocument = documents.find(document => document.documentId === e.target.value);
+              if (!nextDocument || nextDocument.documentId === documentId) return;
+              setSelected([]); setMatchMode('any');
+              router.push(documentPath(nextDocument));
+            }} className="mt-2">
+              {!documents.length && <option value={documentId}>{documentInfo.title}</option>}
               {documents.map(d => <option key={d.documentId} value={d.documentId}>{d.title}{documents.filter(other => other.title === d.title).length > 1 ? ` · Gutenberg ${d.source.split("/").at(-1)}` : ""}</option>)}
             </Select>
           </Field>
@@ -117,20 +126,23 @@ export default function Reader() {
           </>}
         </SidebarBody>
         <SidebarFooter className="gap-4 px-6! py-5!">
-          {selected.length > 1 && <Field>
-            <Label>Match passages</Label>
-            <Select value={matchMode} onChange={e => setMatchMode(e.target.value)} className="mt-2">
-              <option value="any">Any selected character</option>
-              <option value="all">All selected characters</option>
-            </Select>
-            <p className="mt-2 text-xs leading-4 text-muted">{mentionLayer ? 'Shared mentions, not necessarily a conversation.' : 'All selected characters speak in the passage; they may not address each other.'}</p>
-          </Field>}
+          <div className="flex items-center gap-4">
+            <h2 className="shrink-0 text-sm font-semibold">Jump to</h2>
+            {selected.length > 1 && <RadioGroup aria-label="Match passages" value={matchMode} onChange={setMatchMode} className="flex items-center gap-4 space-y-0!">
+              <RadioField className="items-center gap-x-2! py-1 *:data-[slot=control]:mt-0!"><Radio color="rose" value="any" /><Label className="cursor-pointer text-sm!">Any</Label></RadioField>
+              <RadioField className="items-center gap-x-2! py-1 *:data-[slot=control]:mt-0!"><Radio color="rose" value="all" /><Label className="cursor-pointer whitespace-nowrap text-sm!">{selected.length === 2 ? 'Both' : `All ${selected.length}`}</Label></RadioField>
+            </RadioGroup>}
+          </div>
           {requireAll && matches.length === 0 && <p role="status" className="text-sm text-muted">No passages include all selected characters. Try fewer characters or another layer.</p>}
-          <div className="flex items-baseline justify-between gap-3"><h2 className="text-sm font-semibold">{requireAll ? 'Shared passages' : selected.length ? 'Selected thread' : 'Whole book'}</h2><span className="text-xs text-muted">{matches.length} passages</span></div>
           <div className="flex items-center gap-3 text-sm text-muted"><span className="h-3 w-7 rounded-xs" style={{ background: activeColor }} />{baseline ? 'Name matches' : mentionLayer ? 'Annotated references' : 'Spoken aloud'}</div>
-          <div className="grid grid-cols-2 gap-2">
-            <Button outline disabled={previous === undefined} onClick={() => jump(previous)} className="px-2! text-xs!">← Previous passage</Button>
-            <Button outline disabled={next === undefined} onClick={() => jump(next)} className="px-2! text-xs!">Next passage →</Button>
+          <div className="flex items-center gap-2">
+            <Button outline aria-label="Previous passage" title="Previous passage" disabled={previous === undefined} onClick={() => jump(previous)} className="size-9 shrink-0 items-center! p-0!">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="size-5"><path d="M19 12H5m7-7-7 7 7 7" /></svg>
+            </Button>
+            <Button outline aria-label="Next passage" title="Next passage" disabled={next === undefined} onClick={() => jump(next)} className="size-9 shrink-0 items-center! p-0!">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="size-5"><path d="M5 12h14m-7-7 7 7-7 7" /></svg>
+            </Button>
+            <p className="ml-1 text-xs text-muted" aria-live="polite">{matches.length} passages</p>
           </div>
           <div className="border-t border-rule pt-4"><p className="font-serif text-lg">{sectionTitle(book?.passages[current]?.chapter ?? 1)}</p><p className="mt-1 text-xs text-muted">Passage {current + 1} of {book?.passages.length ?? '—'} · {book ? Math.round((book.passages[current]?.start ?? 0) / book.text.length * 100) : 0}% through</p></div>
         </SidebarFooter>

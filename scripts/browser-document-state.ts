@@ -1,0 +1,58 @@
+import { chromium } from '@playwright/test';
+import assert from 'node:assert/strict';
+const baseURL = process.env.READER_URL ?? 'http://127.0.0.1:3000';
+const browser = await chromium.launch({channel:'chrome',headless:true});
+try {
+  const page = await browser.newPage({viewport:{width:1440,height:1000}});
+  page.setDefaultTimeout(30_000);
+  const errors:string[]=[];
+  page.on('pageerror', error=>errors.push(error.message));
+  const waitBook = async (id:string) => {
+    console.log(`Checking ${id}`);
+    await page.waitForFunction(id => (document.querySelector('select[aria-label="Document"]') as HTMLSelectElement)?.value===id && document.querySelectorAll('.passage').length>0, id);
+    await page.getByLabel('Document',{exact:true}).waitFor();
+    assert.equal(await page.getByRole('checkbox',{checked:true}).count(),0);
+    assert.equal(await page.locator('.matched, .passage-thread').count(),0);
+  };
+  await page.goto(baseURL);
+  await waitBook('pride-and-prejudice');
+  assert.equal(new URL(page.url()).pathname,'/1342-pride-and-prejudice');
+  await page.getByRole('checkbox',{name:'Elizabeth Bennet',exact:false}).check();
+  await page.getByRole('checkbox',{name:'Mr. Darcy',exact:false}).check();
+  await page.getByRole('radio', { name: 'Both', exact: true }).check();
+  await page.getByLabel('Document',{exact:true}).selectOption('moby-dick');
+  await waitBook('moby-dick');
+  assert.equal(new URL(page.url()).pathname,'/2701-moby-dick');
+  await page.getByRole('checkbox').nth(2).check();
+  await page.reload();
+  await waitBook('moby-dick');
+  await page.goBack();
+  await waitBook('pride-and-prejudice');
+  await page.getByRole('checkbox',{name:'Elizabeth Bennet',exact:false}).check();
+  await page.getByRole('checkbox',{name:'Mr. Darcy',exact:false}).check();
+  assert(await page.getByRole('radio', { name: 'Any', exact: true }).isChecked());
+  await page.goForward();
+  await waitBook('moby-dick');
+  // A slow old response must not restore the previous book or its selection.
+  await page.route('**/.netlify/functions/library?document=alice-in-wonderland',async route=>{
+    await new Promise(resolve=>setTimeout(resolve,800));
+    await route.continue().catch(()=>{});
+  });
+  await page.getByLabel('Document',{exact:true}).selectOption('alice-in-wonderland');
+  await page.waitForURL('**/11-alices-adventures-in-wonderland');
+  await page.waitForFunction(()=>!(document.querySelector('select[aria-label="Document"]') as HTMLSelectElement)?.disabled);
+  await page.getByLabel('Document',{exact:true}).selectOption('romeo-and-juliet');
+  await waitBook('romeo-and-juliet');
+  await page.waitForTimeout(1000);
+  assert.equal(await page.locator('h1').innerText(),'Romeo and Juliet');
+  assert.equal(new URL(page.url()).pathname,'/1513-romeo-and-juliet');
+  await page.goto(`${baseURL}/42671-pride-and-prejudice`);
+  await waitBook('gutenberg-42671');
+  await page.goto(`${baseURL}/1342-old-title`);
+  await waitBook('pride-and-prejudice');
+  assert.equal(new URL(page.url()).pathname,'/1342-pride-and-prejudice');
+  const missing=await page.goto(`${baseURL}/999999-no-such-book`);
+  assert.equal(missing?.status(),404);
+  assert.deepEqual(errors,[]);
+  console.log('Selection reset, match-mode reset, reload, Back/Forward, rapid switching, edition permalinks, canonical redirects and unknown links passed.');
+} finally {await browser.close();}
