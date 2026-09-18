@@ -1,0 +1,75 @@
+import { chromium } from '@playwright/test';
+import assert from 'node:assert/strict';
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
+try {
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+  const errors: string[] = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('http://127.0.0.1:3000');
+  await page.locator('.passage').last().waitFor();
+  assert.equal(await page.locator('.passage').count(), 406);
+  assert(await page.locator('.matched').count() > 0);
+  await page.getByRole('checkbox', { name: 'Mr. Darcy', exact: false }).check();
+  assert.equal(await page.locator('.rail-curve').count(), 2);
+  for (const curve of await page.locator('.rail-curve').all()) {
+    const id = await curve.getAttribute('data-character-id');
+    const channelColor = await page.locator(`[data-channel-id="${id}"] polyline`).getAttribute('stroke');
+    assert.equal(await curve.getAttribute('stroke'), channelColor);
+  }
+  assert.notEqual(await page.locator('.rail-curve').nth(0).getAttribute('points'), await page.locator('.rail-curve').nth(1).getAttribute('points'));
+  const sharedPassage = page.locator('#passage-55');
+  assert.equal(await sharedPassage.locator('.passage-thread').count(), 2);
+  await page.getByRole('checkbox', { name: 'Jane Bennet', exact: false }).check();
+  assert.equal(await sharedPassage.locator('.passage-thread').count(), 3);
+  for (const thread of await sharedPassage.locator('.passage-thread').all()) {
+    const id = await thread.getAttribute('data-character-id');
+    const channelColor = await page.locator(`[data-channel-id="${id}"] polyline`).getAttribute('stroke');
+    assert.equal(await thread.evaluate((element, color) => {
+      const swatch = document.createElement('span');
+      swatch.style.backgroundColor = color!;
+      return (element as HTMLElement).style.backgroundColor === swatch.style.backgroundColor;
+    }, channelColor), true);
+  }
+  await sharedPassage.scrollIntoViewIfNeeded();
+  await page.screenshot({ path: '/tmp/read-with-jev-passage-threads.png' });
+  await page.getByRole('checkbox', { name: 'Jane Bennet', exact: false }).uncheck();
+  assert.equal(await sharedPassage.locator('.passage-thread').count(), 2);
+  await page.screenshot({ path: '/tmp/read-with-jev-multiple-characters.png' });
+  await page.getByRole('checkbox', { name: 'Mr. Darcy', exact: false }).uncheck();
+  assert.equal(await page.locator('.rail-curve').count(), 1);
+  assert.equal(await sharedPassage.locator('.passage-thread').count(), 1);
+  await page.screenshot({ path: '/tmp/read-with-jev-desktop.png' });
+  await page.getByRole('button', { name: 'Clear', exact: true }).click();
+  assert.equal(await page.locator('.matched').count(), 0);
+  assert.equal(await page.locator('.passage-thread').count(), 0);
+  await page.getByRole('checkbox', { name: 'Mr. Darcy', exact: false }).check();
+  assert(await page.locator('.matched').count() > 0);
+  await page.getByRole('button', { name: 'Next passage' }).click();
+  await page.waitForFunction(() => window.scrollY > 100);
+  const slider = page.getByRole('slider', { name: 'Book position' });
+  await slider.focus();
+  await slider.press('End');
+  assert.equal(await slider.inputValue(), '405');
+  await slider.press('Home');
+  assert.equal(await slider.inputValue(), '0');
+  const rail = await page.locator('.minimap').boundingBox();
+  assert(rail);
+  await page.mouse.click(rail.x + rail.width / 2, rail.y + rail.height / 2);
+  assert(Number(await slider.inputValue()) > 100);
+  await page.getByLabel('Explore by').selectOption('speaking');
+  await page.waitForFunction(() => document.querySelectorAll('.passage').length === 319);
+  assert.equal(await page.getByRole('checkbox').count(), 74);
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('http://127.0.0.1:3000');
+  await page.locator('.passage').last().waitFor();
+  await page.getByRole('button', { name: 'Channels', exact: true }).click();
+  await page.getByLabel('Explore by').selectOption('speaking');
+  await page.waitForFunction(() => document.querySelectorAll('.passage').length === 319);
+  await page.getByRole('button', { name: 'Close channels' }).click();
+  assert(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth));
+  await page.screenshot({ path: '/tmp/read-with-jev-mobile.png' });
+  const invalid = await page.request.get('http://127.0.0.1:3000/api/book?layer=../../.env');
+  assert.equal(invalid.status(), 400);
+  assert.deepEqual(errors, []);
+  console.log('Reader checks passed: Catalyst selection, clear, passage navigation, keyboard position slider, rail click, layer switching, mobile channels, mobile width, invalid layer, and no browser errors.');
+} finally { await browser.close(); }

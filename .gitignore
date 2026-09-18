@@ -7,3 +7,4 @@ data/processed/
 data/cache/
 data/runs/
 *.tsbuildinfo
+src/catalyst/demo
