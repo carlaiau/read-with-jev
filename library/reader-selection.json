@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "scope": "Individual novels and novellas; no omnibus collections, short-story collections, plays, poetry, nonfiction, or partial novel editions. New documents require an explicit eligibility entry.",
+  "scope": "Individual novels and novellas; no omnibus collections, short-story collections, plays, poetry, nonfiction, or partial novel editions. One edition per work: a second Gutenberg edition of an already published work is excluded as a duplicate. New documents require an explicit eligibility entry.",
   "included": [
     {
       "id": "pride-and-prejudice",
@@ -138,21 +138,6 @@
       "title": "The strange case of Dr. Jekyll and Mr. Hyde"
     },
     {
-      "id": "gutenberg-42671",
-      "gutenbergId": 42671,
-      "title": "Pride and Prejudice"
-    },
-    {
-      "id": "gutenberg-45839",
-      "gutenbergId": 45839,
-      "title": "Dracula"
-    },
-    {
-      "id": "gutenberg-42",
-      "gutenbergId": 42,
-      "title": "The strange case of Dr. Jekyll and Mr. Hyde"
-    },
-    {
       "id": "gutenberg-37106",
       "gutenbergId": 37106,
       "title": "Little Women; Or, Meg, Jo, Beth, and Amy"
@@ -268,6 +253,21 @@
       "id": "gutenberg-245",
       "title": "Life on the Mississippi",
       "reason": "Memoir and travel nonfiction"
+    },
+    {
+      "id": "gutenberg-42671",
+      "title": "Pride and Prejudice",
+      "reason": "Duplicate work: second Gutenberg edition of Pride and Prejudice, already published as pride-and-prejudice (Gutenberg 1342)"
+    },
+    {
+      "id": "gutenberg-45839",
+      "title": "Dracula",
+      "reason": "Duplicate work: second Gutenberg edition of Dracula, already published as gutenberg-345"
+    },
+    {
+      "id": "gutenberg-42",
+      "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+      "reason": "Duplicate work: second Gutenberg edition of The Strange Case of Dr. Jekyll and Mr. Hyde, already published as gutenberg-43"
     }
   ]
 }

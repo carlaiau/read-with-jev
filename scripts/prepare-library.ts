@@ -36,6 +36,13 @@ for (const spec of specs as DocumentSpec[]) {
   catalog.documents.push({ documentId: spec.id, title: book.title, author: book.author, year: book.year, source: book.source, classification: book.classification, passages: book.passages.length, characters: book.characters.length, sections: book.sections.length, revision: digest(json) });
   console.log(`${book.title}: ${book.passages.length} passages, ${book.sections.length} sections, ${Buffer.byteLength(json)} bytes`);
 }
+// One edition per work: duplicate editions are excluded in library/reader-selection.json, not here.
+const works = new Map<string, string>();
+for (const item of catalog.documents) {
+  const work = `${item.title.normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()} · ${item.author ?? ''}`;
+  assert(!works.has(work), `Duplicate work: ${item.documentId} repeats ${works.get(work)}. Exclude one edition in library/reader-selection.json`);
+  works.set(work, item.documentId);
+}
 if (refresh) await writeJson('library/sources.lock.json', locks);
 await writeJson('data/library/catalog.json', catalog);
 

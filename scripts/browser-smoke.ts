@@ -6,7 +6,7 @@ try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
-  await page.route('**/api/emotions?*',route=>route.fulfill({json:{sourceKey:'navigation-fixture',plans:[],lexicon:{},jevAvailable:false,model:'fixture',threshold:.75}}));
+  await page.route('**/api/emotions?*',route=>route.fulfill({json:{sourceKey:'navigation-fixture',plans:[],lexicon:{},jevAvailable:false,model:'fixture',threshold:.6}}));
   await page.route('**/api/emotions',route=>route.fulfill({status:503,json:{error:'Model calls disabled in navigation tests.'}}));
   await page.goto(baseURL);
   await page.locator('.passage').last().waitFor();

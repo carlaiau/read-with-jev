@@ -5,7 +5,26 @@ export const readingEmotions=['anger','anticipation','disgust','fear','joy','sad
 export type ReadingEmotion=typeof readingEmotions[number];
 export type EmotionScores=Record<ReadingEmotion,number>;
 export const emotionColors:Record<ReadingEmotion,string>={anger:'#a33b39',anticipation:'#8a6217',disgust:'#546c32',fear:'#775193',joy:'#946318',sadness:'#316e99',surprise:'#a14b75',trust:'#287365'};
-export const readingThreshold=.75;
+export const readingThreshold=.6;
+/**
+ * "How emotional is JEV" is a display control over the score a sentence needs before it is highlighted.
+ * A more emotional JEV accepts a lower score, so the dial runs from the strictest threshold to the
+ * loosest, with the published default at its midpoint. It moves the reading view only: it never
+ * re-scores a sentence, and a position on it is not a calibration claim.
+ */
+export const emotionalityScale={strictest:1,loosest:.2,step:5} as const;
+export function thresholdForEmotionality(value:number):number{
+ const clamped=Math.min(100,Math.max(0,value));
+ const {strictest,loosest}=emotionalityScale;
+ return Math.round((strictest-(strictest-loosest)*clamped/100)*100)/100;
+}
+export function emotionalityForThreshold(threshold:number):number{
+ const {strictest,loosest,step}=emotionalityScale;
+ const raw=(strictest-threshold)/(strictest-loosest)*100;
+ return Math.min(100,Math.max(0,Math.round(raw/step)*step));
+}
+const emotionalityLabels=[[10,'Not at all'],[30,'Not very'],[50,'Somewhat'],[70,'Quite'],[90,'Very']] as const;
+export function emotionalityLabel(value:number):string{return emotionalityLabels.find(([limit])=>value<=limit)?.[1]??'Extremely';}
 export const readingRequestConcurrency=6;
 export const readingScrollDelayMs=50;
 export type ReadingSentence={id:string;start:number;end:number;target:string;precedingContext:string;followingContext:string};

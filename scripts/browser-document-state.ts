@@ -14,7 +14,7 @@ try {
     assert.equal(await page.locator('#channels .channel-card').getByRole('checkbox',{checked:true}).count(),0);
     assert.equal(await page.locator('.matched, .passage-thread').count(),0);
   };
-  await page.route('**/api/emotions?*',route=>route.fulfill({json:{sourceKey:'navigation-fixture',plans:[],lexicon:{},jevAvailable:false,model:'fixture',threshold:.75}}));
+  await page.route('**/api/emotions?*',route=>route.fulfill({json:{sourceKey:'navigation-fixture',plans:[],lexicon:{},jevAvailable:false,model:'fixture',threshold:.6}}));
   await page.route('**/api/emotions',route=>route.fulfill({status:503,json:{error:'Model calls disabled in navigation tests.'}}));
   await page.goto(baseURL);
   await waitBook('pride-and-prejudice');
@@ -48,8 +48,8 @@ try {
   await page.waitForTimeout(1000);
   assert.equal(await page.locator('h1').innerText(),'Frankenstein');
   assert.equal(new URL(page.url()).pathname,'/84-frankenstein');
-  await page.goto(`${baseURL}/42671-pride-and-prejudice`);
-  await waitBook('gutenberg-42671');
+  await page.goto(`${baseURL}/21839-sense-and-sensibility`);
+  await waitBook('gutenberg-21839');
   await page.goto(`${baseURL}/1342-old-title`);
   await waitBook('pride-and-prejudice');
   assert.equal(new URL(page.url()).pathname,'/1342-pride-and-prejudice');

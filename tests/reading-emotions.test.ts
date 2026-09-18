@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readingPlans,lexicalRanges,validEmotionScores,readingEmotions} from '../src/lib/reading-emotions';
+import {readingPlans,lexicalRanges,validEmotionScores,readingEmotions,readingThreshold,emotionalityScale,emotionalityForThreshold,emotionalityLabel,thresholdForEmotionality} from '../src/lib/reading-emotions';
 import {readerSegments} from '../src/lib/reader-text';
 import {readingRequest} from '../src/server/reading-emotions';
 import type {Book} from '../src/lib/model';
@@ -40,4 +40,18 @@ test('library section headings stay outside sentence plans without modifying sou
  const before=JSON.stringify(fixture);const plans=readingPlans(fixture);
  assert.equal(plans[0].text,'');assert.equal(JSON.stringify(fixture),before);
  assert(!plans.flatMap(p=>p.sentences).some(s=>s.target.includes('CHAPTER I.')));
+});
+
+test('the emotionality dial round-trips the frozen default and only lowers the threshold as it rises',()=>{
+ assert.equal(thresholdForEmotionality(emotionalityForThreshold(readingThreshold)),readingThreshold);
+ assert.equal(emotionalityForThreshold(readingThreshold)%emotionalityScale.step,0);
+ assert.equal(thresholdForEmotionality(0),emotionalityScale.strictest);
+ assert.equal(thresholdForEmotionality(100),emotionalityScale.loosest);
+ for(let value=emotionalityScale.step;value<=100;value+=emotionalityScale.step)assert(thresholdForEmotionality(value)<thresholdForEmotionality(value-emotionalityScale.step));
+ // Out-of-range input must never widen the displayed threshold beyond the published scale.
+ assert.equal(thresholdForEmotionality(-40),emotionalityScale.strictest);assert.equal(thresholdForEmotionality(500),emotionalityScale.loosest);
+ assert.equal(emotionalityForThreshold(0),100);assert.equal(emotionalityForThreshold(1),0);
+ assert.equal(emotionalityForThreshold(readingThreshold),50,'The published default sits at the midpoint of the dial');
+ assert.equal(emotionalityLabel(emotionalityForThreshold(readingThreshold)),'Somewhat');
+ assert.equal(emotionalityLabel(0),'Not at all');assert.equal(emotionalityLabel(100),'Extremely');
 });
