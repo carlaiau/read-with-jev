@@ -19,10 +19,10 @@ with the sampled text; this feature is for comparison and inspection, not a vali
 ## On-demand inference
 
 When JEV is enabled, an IntersectionObserver watches sentences within 160 pixels of the viewport.
-A 180ms scheduling delay avoids starting work on every fleeting scroll event. Only sentences
+A 50ms scheduling delay avoids starting work on every fleeting scroll event. Only sentences
 still nearby when a slot becomes available are scheduled. The client and server each permit at
-most two simultaneous requests. Hidden tabs stop scheduling. Disabling JEV or changing editions
-stops scheduling and aborts pending browser requests. Up to two SDK requests already executing
+most six simultaneous requests. Hidden tabs stop scheduling. Disabling JEV or changing editions
+stops scheduling and aborts pending browser requests. Up to six SDK requests already executing
 on the server can finish and populate cache; browser cancellation does not cancel that remote work.
 
 One SDK request scores all eight emotions for a sentence. Changing visible emotions does not
@@ -87,7 +87,7 @@ prepared data changes, because edition metadata is memoized for that process.
 - Unit tests cover displayed-text reconstruction, emphasis, offsets, chapter boundaries,
   lexicon associations, complete eight-category scores, and annotation-free requests.
 - `scripts/browser-emotions.ts` uses explicit mocked JEV responses to exercise viewport scheduling,
-  the two-request bound, retry, emotion reuse, pause, layer toggles, keyboard inspection, feedback,
+  the six-request bound, retry, emotion reuse, pause, layer toggles, keyboard inspection, feedback,
   edition switching, desktop/mobile layouts and invalid API requests. Screenshots from that test
   illustrate UI states, not model results.
 - `scripts/browser-smoke.ts` preserves checks for existing character tracks and map navigation.

@@ -1,6 +1,6 @@
 import {chromium,expect} from '@playwright/test';
 import assert from 'node:assert/strict';
-import {readingEmotions} from '../src/lib/reading-emotions';
+import {readingEmotions,readingRequestConcurrency} from '../src/lib/reading-emotions';
 const base=process.env.READER_URL??'http://127.0.0.1:3101';
 const browser=await chromium.launch({channel:'chrome',headless:true});
 try{
@@ -16,7 +16,7 @@ try{
  await page.goto(base);await page.locator('[data-emotion-id]').last().waitFor();
  await expect(page.getByRole('button',{name:'Retry analysis'})).toBeVisible();await page.getByRole('button',{name:'Retry analysis'}).click();
  await expect(page.locator('[data-jev-highlight]').first()).toBeVisible();await expect(page.locator('.emotion-status')).toContainText('JEV analyses as you scroll.');
- assert(maxActive<=2);assert(calls.length>0&&calls.length<100,'Only nearby sentences should be requested');
+ assert(maxActive<=readingRequestConcurrency);assert(maxActive>2,'Nearby work should use the expanded concurrency');assert(calls.length>0&&calls.length<100,'Only nearby sentences should be requested');
  await page.getByRole('button',{name:'Fear',exact:true}).scrollIntoViewIfNeeded();await page.waitForTimeout(1200);
  const firstCalls=calls.length;
  await expect(page.getByRole('group',{name:'Visible emotions'}).getByRole('button',{pressed:true})).toHaveCount(8);await expect(page.locator('[data-jev-highlight]').first()).toHaveAttribute('data-jev-highlight','fear trust');await page.getByRole('button',{name:'Fear',exact:true}).click();await expect(page.locator('[data-jev-highlight]').first()).toHaveAttribute('data-jev-highlight','trust');await expect(page.locator('[data-nrc-emotions~=fear]')).toHaveCount(0);await page.waitForTimeout(350);assert.equal(calls.length,firstCalls,'Changing emotion must reuse scores');

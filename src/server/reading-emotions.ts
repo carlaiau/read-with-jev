@@ -2,7 +2,7 @@ import {sentenceSegmentationVersion} from '../lib/reader-sentences';
 import {readFile} from 'node:fs/promises';
 import {noul} from '@typesafe-ai/sdk';
 import type {Book} from '../lib/model';
-import {readingPlans,readingEmotions,validEmotionScores,readingThreshold,type ReadingSentence,type EmotionScores} from '../lib/reading-emotions';
+import {readingPlans,readingEmotions,readingRequestConcurrency,validEmotionScores,readingThreshold,type ReadingSentence,type EmotionScores} from '../lib/reading-emotions';
 import {digest,readJson,writeJson} from '../lib/io';
 import {createClient,validateAnswers} from './jev';
 import {passageInstructions} from './affect-passage-request';
@@ -35,7 +35,7 @@ export async function readingScores(sourceKey:string,sentence:ReadingSentence):P
  try{const cached=await readJson<{scores:unknown}>(path);if(!validEmotionScores(cached.scores))throw new ReadingError('Cached analysis is invalid.',503);return cached.scores;}catch(e){if((e as NodeJS.ErrnoException).code!=='ENOENT')throw e;}
  if(active.has(key))return active.get(key)!;
  if(!process.env.TYPESAFE_API_KEY)throw new ReadingError('JEV is not configured on this server. NRC underlines are still available.',503);
- if(inFlight>=2)throw new ReadingError('JEV is busy. Retry in a moment.',429);
+ if(inFlight>=readingRequestConcurrency)throw new ReadingError('JEV is busy. Retry in a moment.',429);
  const task=(async()=>{inFlight++;try{
   const response=await createClient().systemOne(request),answers=validateAnswers(response,Object.keys(request.questions));
   const scores=Object.fromEntries(readingEmotions.map((e,i)=>[e,answers[`q${i}`]])) as EmotionScores;

@@ -1,7 +1,7 @@
 'use client';
 import {createContext,useContext,useEffect,useMemo,useRef,useState,type CSSProperties,type ReactNode} from 'react';
 import {loadLibraryDocument} from '../src/lib/library-transport';
-import {readingEmotions,emotionColors,lexicalRanges,validEmotionScores,type ReadingEmotion,type EmotionMetadata,type EmotionScores,type ReadingPlan,type ReadingSentence} from '../src/lib/reading-emotions';
+import {readingEmotions,readingRequestConcurrency,readingScrollDelayMs,emotionColors,lexicalRanges,validEmotionScores,type ReadingEmotion,type EmotionMetadata,type EmotionScores,type ReadingPlan,type ReadingSentence} from '../src/lib/reading-emotions';
 import {Checkbox,CheckboxField} from '../src/catalyst/typescript/checkbox';
 import {Label} from '../src/catalyst/typescript/fieldset';
 import {Button} from '../src/catalyst/typescript/button';
@@ -26,12 +26,12 @@ export function EmotionComparison({layer,children,ready}:{layer:string;children:
   function pump(){
    if(stopped||document.visibilityState==='hidden')return;
    for(const id of nearby){
-    if(active>=2)break;if(cache.current.has(id))continue;
+    if(active>=readingRequestConcurrency)break;if(cache.current.has(id))continue;
     const c=new AbortController();controllers.set(id,c);active++;cache.current.set(id,{status:'pending'});bump();
     fetch('/api/emotions',{method:'POST',headers:{'Content-Type':'application/json'},signal:c.signal,body:JSON.stringify({layer,sourceKey:metadata!.sourceKey,sentenceId:id})}).then(async r=>{const d=await r.json();if(!r.ok)throw new Error(d.error);if(d.sentenceId!==id||!validEmotionScores(d.scores))throw new Error('JEV returned incomplete scores.');return d.scores as EmotionScores;}).then(scores=>{if(!stopped)cache.current.set(id,{status:'complete',scores});}).catch(e=>{if(!stopped&&e.name!=='AbortError')cache.current.set(id,{status:'error',error:e.message});}).finally(()=>{active--;controllers.delete(id);if(!stopped){bump();pump();}});
    }
   }
-  const observer=new IntersectionObserver(entries=>{for(const e of entries){const id=(e.target as HTMLElement).dataset.emotionId!;if(e.isIntersecting)nearby.add(id);else nearby.delete(id);}clearTimeout(timer);timer=setTimeout(pump,180);},{rootMargin:'160px 0px'});
+  const observer=new IntersectionObserver(entries=>{for(const e of entries){const id=(e.target as HTMLElement).dataset.emotionId!;if(e.isIntersecting)nearby.add(id);else nearby.delete(id);}clearTimeout(timer);timer=setTimeout(pump,readingScrollDelayMs);},{rootMargin:'160px 0px'});
   document.querySelectorAll('[data-emotion-id]').forEach(el=>observer.observe(el));
   document.addEventListener('visibilitychange',pump);
   return()=>{stopped=true;observer.disconnect();clearTimeout(timer);document.removeEventListener('visibilitychange',pump);for(const [id,c] of controllers){c.abort();cache.current.delete(id);}};
