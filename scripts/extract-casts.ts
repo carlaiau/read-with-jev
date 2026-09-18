@@ -1,4 +1,4 @@
-import { selectEnglishEntries } from '../src/lib/library-selection';
+import { selectNovelEntries } from '../src/lib/library-selection';
 import { readFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { readJson, writeJson, digest } from '../src/lib/io';
@@ -9,7 +9,7 @@ const only=process.argv.find(x=>x.startsWith('--book='))?.slice(7);
 const concurrency=Number(process.argv.find(x=>x.startsWith('--concurrency='))?.slice(14) ?? 6);
 assert(Number.isInteger(concurrency) && concurrency>=1 && concurrency<=16);
 const manifest=await readJson<any>('library/top100-import.json');
-const books=selectEnglishEntries<any>(manifest.entries).filter((e:any)=>!only || String(e.gutenbergId)===only);
+const books=selectNovelEntries<any>(manifest.entries).filter((e:any)=>!only || String(e.gutenbergId)===only);
 console.log(`${books.length} English editions; model ${CAST_MODEL}; ${execute?'execute':'cache only'}; concurrency ${concurrency}`);
 let cursor=0, halted=false;
 const failures:{id:number;error:string}[]=[];

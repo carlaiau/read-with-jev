@@ -1,9 +1,10 @@
-import { readFile, mkdir } from 'node:fs/promises';
+import {isReaderDocument} from '../src/lib/library-selection';
+import { readFile, mkdir, readdir, unlink } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import curated from '../library/documents.json';
 let imported: DocumentSpec[] = [];
 try { imported = JSON.parse(await readFile('library/top100-documents.json', 'utf8')); } catch (e) { if ((e as NodeJS.ErrnoException).code !== 'ENOENT') throw e; }
-const specs: DocumentSpec[] = [...curated as DocumentSpec[], ...imported];
+const specs: DocumentSpec[] = [...curated as DocumentSpec[], ...imported].filter(isReaderDocument);
 import type { DocumentSpec, LibraryCatalog } from '../src/lib/library-model';
 import { prepareLibraryDocument } from '../src/lib/library-prepare';
 import { digest, writeJson, atomicWrite } from '../src/lib/io';
@@ -37,3 +38,10 @@ for (const spec of specs as DocumentSpec[]) {
 }
 if (refresh) await writeJson('library/sources.lock.json', locks);
 await writeJson('data/library/catalog.json', catalog);
+
+// Remove stale generated documents after publishing the new catalog. Raw sources and
+// cast provenance remain archived; neither API can serve a document outside the catalog.
+const published=new Set(catalog.documents.map(d=>`${d.documentId}.json`));
+for(const file of await readdir('data/library')){
+ if(file!=='catalog.json'&&file.endsWith('.json')&&!published.has(file))await unlink(`data/library/${file}`);
+}

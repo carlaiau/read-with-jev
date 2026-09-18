@@ -1,5 +1,7 @@
 # Read with JEV
 
+The reader catalogue is restricted to individual novels and novellas by `library/reader-selection.json`. Collections, plays, poetry, nonfiction, and incomplete novel editions remain archived but are not published or offered for cast extraction. New editions require explicit inclusion; rebuilding does not restore excluded titles.
+
 A Next.js / TypeScript research prototype for a novel reader with a character minimap. The library supports multiple documents, with **Pride and Prejudice** selected initially.
 
 The reader defaults to **deterministic name/alias baseline classifications** across the prepared library. A document selector loads one book at a time from a Netlify function. See [the library and hosting guide](docs/document-library.md).
@@ -31,7 +33,7 @@ Open http://127.0.0.1:3000. Downloads are pinned to exact revisions, checksummed
 
 ## Expand the library
 
-The Gutenberg top-100 import currently selects the first 50 English editions, with resumable GPT-5 mini character and alias extraction before baseline classification. See [the import and cast-discovery guide](docs/top100-library.md) for commands, source checks, and model provenance.
+The Gutenberg top-100 import uses the first 50 English editions as a candidate pool and publishes only explicitly selected novels and novellas, with resumable GPT-5 mini character and alias extraction before baseline classification. See [the import and cast-discovery guide](docs/top100-library.md) for commands, source checks, and model provenance.
 
 ## Evaluate
 

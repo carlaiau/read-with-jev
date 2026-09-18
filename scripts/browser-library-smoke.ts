@@ -10,7 +10,8 @@ try {
   await page.goto(baseURL);
   const catalog = await (await page.request.get(`${baseURL}/.netlify/functions/library`)).json();
   await page.locator('.passage').last().waitFor();
-  const sample = catalog.documents.filter((d:any)=>['pride-and-prejudice','moby-dick','romeo-and-juliet','alice-in-wonderland','gutenberg-100','gutenberg-71046','gutenberg-65238','gutenberg-3268','gutenberg-51252','gutenberg-42671'].includes(d.documentId));
+  assert(!catalog.documents.some((d:any)=>['gutenberg-100','gutenberg-31100','sherlock-holmes','romeo-and-juliet'].includes(d.documentId)));
+  const sample = catalog.documents.filter((d:any)=>['pride-and-prejudice','moby-dick','alice-in-wonderland','gutenberg-65238','gutenberg-3268','gutenberg-42671'].includes(d.documentId));
   for(const doc of sample){
     await page.getByLabel('Document',{exact:true}).selectOption(doc.documentId);
     await page.waitForFunction(({title,count})=>document.querySelector('h1')?.textContent===title && document.querySelectorAll('.passage').length===count,{title:doc.title,count:doc.passages});
@@ -34,8 +35,8 @@ try {
   await page.waitForFunction(()=>document.querySelector('h1')?.textContent==='Alice’s Adventures in Wonderland' && document.querySelectorAll('.passage').length===75);
   await page.setViewportSize({width:390,height:844});
   await page.getByRole('button',{name:'Characters',exact:true}).click();
-  await page.getByLabel('Document',{exact:true}).selectOption('romeo-and-juliet');
-  await page.waitForFunction(()=>document.querySelectorAll('.passage').length===85);
+  await page.getByLabel('Document',{exact:true}).selectOption('frankenstein');
+  await page.waitForFunction(()=>document.querySelectorAll('.passage').length===191);
   await page.screenshot({path:'/tmp/jev-library-mobile-channels.png'});
   await page.getByRole('button',{name:'Close characters'}).click();
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));

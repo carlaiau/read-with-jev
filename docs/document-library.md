@@ -1,8 +1,10 @@
 # Baseline document library
 
+The reader catalogue is restricted to individual novels and novellas by `library/reader-selection.json`. Collections, plays, poetry, nonfiction, and incomplete novel editions remain archived but are not published or offered for cast extraction. New editions require explicit inclusion; rebuilding does not restore excluded titles.
+
 The reader loads a catalog, then fetches one selected document. See [the English top-100 pipeline](top100-library.md) for the expanded collection and automated character/alias discovery. Classification happens during preparation; character matching needs no API key; the optional emotion layer invokes JEV on demand when enabled and configured. This library is separate from the gold datasets and frozen research results.
 
-## Original curated documents
+## Published curated novels
 
 | Document ID | Title | Source | Passages |
 | --- | --- | --- | ---: |
@@ -13,8 +15,6 @@ The reader loads a catalog, then fetches one selected document. See [the English
 | `frankenstein` | Frankenstein | Gutenberg 84 | 191 |
 | `alice-in-wonderland` | Alice’s Adventures in Wonderland | Gutenberg 11 | 75 |
 | `crime-and-punishment` | Crime and Punishment | Gutenberg 2554 | 485 |
-| `sherlock-holmes` | The Adventures of Sherlock Holmes | Gutenberg 1661 | 263 |
-| `romeo-and-juliet` | Romeo and Juliet | Gutenberg 1513 | 85 |
 
 These are edition-specific reading passages, not detected scenes. The selected cast registries are editable and not exhaustive. Matching uses the existing baseline's case-insensitive, word-boundary name/alias search. It does not resolve pronouns, determine speakers, or establish physical presence. Ambiguous aliases and descriptors can produce false matches. No new accuracy claim is made for the six added titles.
 

@@ -1,12 +1,14 @@
 # English top-100 import and cast discovery
 
+The reader catalogue is restricted to individual novels and novellas by `library/reader-selection.json`. Collections, plays, poetry, nonfiction, and incomplete novel editions remain archived but are not published or offered for cast extraction. New editions require explicit inclusion; rebuilding does not restore excluded titles.
+
 The source is a dated snapshot of Project Gutenberg’s **last 30 days** list, not yesterday’s list. `library/top100.json` retains rank, ID, listing, download count, fetch time, and page checksum. Editions remain separate by Gutenberg ID. `library/top100-import.json` records metadata from each text header, raw-source checksums, language exclusions, and import status. Only entries whose declared language is English enter cast extraction. Excluded entries do not get replaced by a different ranking list.
 
-The current snapshot contains 97 English editions and three excluded French/German editions. The active import is capped at the **first 50 English editions**, in ranking order, by `library/import-settings.json`. Extraction, status, and publication share this selection. Cached work outside the selection is retained but is not published. The existing curated collection is retained, including three books outside this selection, giving 53 reader documents when all 50 casts are ready. Publication years are left unknown for imported editions: Gutenberg’s digital release date is not the original publication year.
+The snapshot contains 97 English editions and three excluded French/German editions. The first 50 English editions remain the candidate pool, in ranking order, controlled by `library/import-settings.json`. The explicit novel selection then narrows extraction, status, and publication to 31 eligible editions in that pool. With three additional curated novels, the reader offers **34 editions**. Separate editions of the same novel remain separate. Publication years are left unknown for imported editions: Gutenberg’s digital release date is not the original publication year.
 
 ## Pipeline
 
-Completed run: all 50 selected English editions have validated registries from `gpt-5-mini-2025-08-07`, containing 4,807 edition-specific character records. Publication contains 53 reader documents, with no selected editions pending. These counts include separate editions and collections; they are not counts of unique literary works or unique people across the library. The original curated casts remain in use for their six overlapping editions.
+The earlier 50-edition extraction run produced validated registries from `gpt-5-mini-2025-08-07`. Those archived registries retain their provenance. Current publication contains 34 individual novel/novella editions, with no selected editions pending; excluded collections are not served.
 
 ```sh
 # Download/cache sources and record the requested ranking. Refresh is explicit.

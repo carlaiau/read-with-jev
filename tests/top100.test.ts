@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { parseTop100, sourceMetadata } from '../src/lib/gutenberg-top';
 import { validateCastMetadata } from '../src/lib/cast-registry';
 import { digest } from '../src/lib/io';
-import { selectEnglishEntries } from '../src/lib/library-selection';
+import { selectEnglishEntries,selectNovelEntries } from '../src/lib/library-selection';
 test('selection caps English editions after filtering and preserves ranking order', () => {
   const entries = [
     { id: 1, status: 'downloaded', language: 'English' },
@@ -79,4 +79,9 @@ test('identity map keeps every record and supports transitive duplicates without
   assert.equal(cast.length,2);assert.deepEqual(new Set(cast[0].aliases),new Set(['Alice','Miss Alice','A.']));
   assert.throws(()=>applyIdentityMap(records,{'record-0':0}),/Incomplete/);
   assert.throws(()=>applyIdentityMap(records,{'record-0':99,'record-1':1,'record-2':2,'record-3':3}),/Invalid/);
+});
+
+test('novel selection retains long novels and fictional memoirs but rejects collections and unknown works',()=>{
+ const entries=[100,1184,1260,31100,71046,999999].map(gutenbergId=>({gutenbergId,status:'downloaded',language:'English'}));
+ assert.deepEqual(selectNovelEntries(entries).map(e=>e.gutenbergId),[1184,1260]);
 });

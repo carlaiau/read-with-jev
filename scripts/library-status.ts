@@ -1,4 +1,4 @@
-import { selectEnglishEntries } from '../src/lib/library-selection';
+import { selectNovelEntries } from '../src/lib/library-selection';
 import { readFile } from 'node:fs/promises';
 import { readJson } from '../src/lib/io';
 import { validateCastMetadata } from '../src/lib/cast-registry';
@@ -6,7 +6,7 @@ import { CAST_MODEL, CAST_PROMPT_VERSION } from '../src/server/openai-cast';
 const manifest=await readJson<any>('library/top100-import.json');
 const ready:number[]=[], pending:number[]=[],invalid:{id:number;reason:string}[]=[];
 let characters=0;
-for(const entry of selectEnglishEntries<any>(manifest.entries)){
+for(const entry of selectNovelEntries<any>(manifest.entries)){
   try{
     const raw=await readFile(`data/library-sources/${entry.gutenbergId}.txt`,'utf8');
     const cast=validateCastMetadata(await readJson(`library/casts/${entry.gutenbergId}.json`),entry.gutenbergId,raw);

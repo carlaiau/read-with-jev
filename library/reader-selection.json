@@ -1,0 +1,273 @@
+{
+  "schema": 1,
+  "scope": "Individual novels and novellas; no omnibus collections, short-story collections, plays, poetry, nonfiction, or partial novel editions. New documents require an explicit eligibility entry.",
+  "included": [
+    {
+      "id": "pride-and-prejudice",
+      "gutenbergId": 1342,
+      "title": "Pride and Prejudice"
+    },
+    {
+      "id": "siddhartha",
+      "gutenbergId": 2500,
+      "title": "Siddhartha"
+    },
+    {
+      "id": "animal-farm",
+      "gutenbergId": null,
+      "title": "Animal Farm"
+    },
+    {
+      "id": "moby-dick",
+      "gutenbergId": 2701,
+      "title": "Moby-Dick"
+    },
+    {
+      "id": "frankenstein",
+      "gutenbergId": 84,
+      "title": "Frankenstein"
+    },
+    {
+      "id": "alice-in-wonderland",
+      "gutenbergId": 11,
+      "title": "Alice’s Adventures in Wonderland"
+    },
+    {
+      "id": "crime-and-punishment",
+      "gutenbergId": 2554,
+      "title": "Crime and Punishment"
+    },
+    {
+      "id": "gutenberg-2641",
+      "gutenbergId": 2641,
+      "title": "A Room with a View"
+    },
+    {
+      "id": "gutenberg-65238",
+      "gutenbergId": 65238,
+      "title": "The Secret of Chimneys"
+    },
+    {
+      "id": "gutenberg-3268",
+      "gutenbergId": 3268,
+      "title": "The Mysteries of Udolpho"
+    },
+    {
+      "id": "gutenberg-2465",
+      "gutenbergId": 2465,
+      "title": "Carmen"
+    },
+    {
+      "id": "gutenberg-67979",
+      "gutenbergId": 67979,
+      "title": "The Blue Castle: a novel"
+    },
+    {
+      "id": "gutenberg-2868",
+      "gutenbergId": 2868,
+      "title": "The Green Mummy"
+    },
+    {
+      "id": "gutenberg-1260",
+      "gutenbergId": 1260,
+      "title": "Jane Eyre: An Autobiography"
+    },
+    {
+      "id": "gutenberg-59828",
+      "gutenbergId": 59828,
+      "title": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance."
+    },
+    {
+      "id": "gutenberg-345",
+      "gutenbergId": 345,
+      "title": "Dracula"
+    },
+    {
+      "id": "gutenberg-1695",
+      "gutenbergId": 1695,
+      "title": "The Man Who Was Thursday: A Nightmare"
+    },
+    {
+      "id": "gutenberg-21839",
+      "gutenbergId": 21839,
+      "title": "Sense and Sensibility"
+    },
+    {
+      "id": "gutenberg-601",
+      "gutenbergId": 601,
+      "title": "The Monk: A Romance"
+    },
+    {
+      "id": "gutenberg-145",
+      "gutenbergId": 145,
+      "title": "Middlemarch"
+    },
+    {
+      "id": "gutenberg-76639",
+      "gutenbergId": 76639,
+      "title": "Eloisa or, A series of original letters"
+    },
+    {
+      "id": "gutenberg-72",
+      "gutenbergId": 72,
+      "title": "Thuvia, maid of Mars"
+    },
+    {
+      "id": "gutenberg-19476",
+      "gutenbergId": 19476,
+      "title": "A Honeymoon in Space"
+    },
+    {
+      "id": "gutenberg-7326",
+      "gutenbergId": 7326,
+      "title": "The Yeoman Adventurer"
+    },
+    {
+      "id": "gutenberg-468",
+      "gutenbergId": 468,
+      "title": "Manon Lescaut"
+    },
+    {
+      "id": "gutenberg-75201",
+      "gutenbergId": 75201,
+      "title": "A farewell to arms"
+    },
+    {
+      "id": "gutenberg-43",
+      "gutenbergId": 43,
+      "title": "The strange case of Dr. Jekyll and Mr. Hyde"
+    },
+    {
+      "id": "gutenberg-42671",
+      "gutenbergId": 42671,
+      "title": "Pride and Prejudice"
+    },
+    {
+      "id": "gutenberg-45839",
+      "gutenbergId": 45839,
+      "title": "Dracula"
+    },
+    {
+      "id": "gutenberg-42",
+      "gutenbergId": 42,
+      "title": "The strange case of Dr. Jekyll and Mr. Hyde"
+    },
+    {
+      "id": "gutenberg-37106",
+      "gutenbergId": 37106,
+      "title": "Little Women; Or, Meg, Jo, Beth, and Amy"
+    },
+    {
+      "id": "gutenberg-564",
+      "gutenbergId": 564,
+      "title": "The Mystery of Edwin Drood"
+    },
+    {
+      "id": "gutenberg-1184",
+      "gutenbergId": 1184,
+      "title": "The Count of Monte Cristo"
+    },
+    {
+      "id": "gutenberg-1259",
+      "gutenbergId": 1259,
+      "title": "Twenty years after"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "sherlock-holmes",
+      "title": "The Adventures of Sherlock Holmes",
+      "reason": "Short-story collection"
+    },
+    {
+      "id": "romeo-and-juliet",
+      "title": "Romeo and Juliet",
+      "reason": "Play"
+    },
+    {
+      "id": "gutenberg-1727",
+      "title": "The Odyssey",
+      "reason": "Epic poem"
+    },
+    {
+      "id": "gutenberg-34413",
+      "title": "The Love Letters of Mary Wollstonecraft to Gilbert Imlay",
+      "reason": "Collected letters (nonfiction)"
+    },
+    {
+      "id": "gutenberg-5197",
+      "title": "My Life — Volume 1",
+      "reason": "Autobiography"
+    },
+    {
+      "id": "gutenberg-100",
+      "title": "The Complete Works of William Shakespeare",
+      "reason": "Complete-works collection"
+    },
+    {
+      "id": "gutenberg-3011",
+      "title": "The Lady of the Lake",
+      "reason": "Narrative poem"
+    },
+    {
+      "id": "gutenberg-6133",
+      "title": "The Extraordinary Adventures of Arsène Lupin, Gentleman-Burglar",
+      "reason": "Short-story collection"
+    },
+    {
+      "id": "gutenberg-2680",
+      "title": "Meditations",
+      "reason": "Philosophy"
+    },
+    {
+      "id": "gutenberg-24739",
+      "title": "Bidwell's Travels, from Wall Street to London Prison: Fifteen Years in Solitude",
+      "reason": "Autobiographical nonfiction"
+    },
+    {
+      "id": "gutenberg-51252",
+      "title": "The Book of the Thousand Nights and a Night — Volume 01 (of 10)",
+      "reason": "Story collection"
+    },
+    {
+      "id": "gutenberg-831",
+      "title": "Four Arthurian Romances",
+      "reason": "Collection of verse romances"
+    },
+    {
+      "id": "gutenberg-22541",
+      "title": "The Misplaced Battleship",
+      "reason": "Short story"
+    },
+    {
+      "id": "gutenberg-71046",
+      "title": "Modern English biography, volume 2 (of 6), I-Q",
+      "reason": "Biographical reference collection"
+    },
+    {
+      "id": "gutenberg-8492",
+      "title": "The King in Yellow",
+      "reason": "Short-story collection"
+    },
+    {
+      "id": "gutenberg-31100",
+      "title": "The Complete Project Gutenberg Works of Jane Austen",
+      "reason": "Complete-works collection"
+    },
+    {
+      "id": "gutenberg-47530",
+      "title": "Oliver Twist, Vol. 2 (of 3)",
+      "reason": "Partial novel: volume 2 of 3"
+    },
+    {
+      "id": "gutenberg-3296",
+      "title": "The Confessions of St. Augustine",
+      "reason": "Autobiographical religious nonfiction"
+    },
+    {
+      "id": "gutenberg-245",
+      "title": "Life on the Mississippi",
+      "reason": "Memoir and travel nonfiction"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { selectEnglishEntries } from '../src/lib/library-selection';
+import { selectNovelEntries,isReaderDocument } from '../src/lib/library-selection';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { readJson, writeJson } from '../src/lib/io';
@@ -7,10 +7,10 @@ import type { DocumentSpec } from '../src/lib/library-model';
 const readyOnly=process.argv.includes('--ready-only');
 const pending:number[]=[];
 const manifest=await readJson<any>('library/top100-import.json');
-const curated=await readJson<DocumentSpec[]>('library/documents.json');
+const curated=(await readJson<DocumentSpec[]>('library/documents.json')).filter(isReaderDocument);
 const specs:DocumentSpec[]=[];
 const locks=await readJson<Record<string,{url:string;sha256:string}>>('library/sources.lock.json');
-const selected=selectEnglishEntries<any>(manifest.entries);
+const selected=selectNovelEntries<any>(manifest.entries);
 for(const entry of selected){
   const raw=await readFile(`data/library-sources/${entry.gutenbergId}.txt`,'utf8');
   let cast;
@@ -34,4 +34,4 @@ manifest.publication={complete:pending.length===0,english:selected.length,select
 await writeJson('library/top100-import.json',manifest);
 await writeJson('library/top100-documents.json',specs);
 await writeJson('library/sources.lock.json',locks);
-console.log(`${specs.length} new English editions ready; ${curated.length + specs.length} total reader documents; ${pending.length} English editions still pending`);
+console.log(`${specs.length} new novel editions ready; ${curated.length + specs.length} total reader documents; ${pending.length} novel editions still pending`);

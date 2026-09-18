@@ -93,3 +93,13 @@ test('oversized documents use revision-pinned parts and reconstruct byte-for-byt
     assert.equal((await serveLibrary(request('?part=0'),dir)).status,400);
   }finally{await rm(dir,{recursive:true,force:true});}
 });
+
+test('reader catalog contains exactly the selected novels and excludes archived collections',async()=>{
+ const selection=JSON.parse(await readFile('library/reader-selection.json','utf8'));
+ const catalog=JSON.parse(await readFile('data/library/catalog.json','utf8')) as LibraryCatalog;
+ assert.deepEqual(catalog.documents.map(d=>d.documentId).sort(),selection.included.map((d:{id:string})=>d.id).sort());
+ for(const entry of selection.excluded){
+  assert.equal((await libraryFunction(request(`?document=${entry.id}`))).status,404);
+  await assert.rejects(readFile(`data/library/${entry.id}.json`),{code:'ENOENT'});
+ }
+});
