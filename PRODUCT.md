@@ -50,7 +50,7 @@ The current project name is Read with JEV. The user supplied a three-column read
 - `docs/datasets.md`: dataset provenance, edition differences, and licensing limitations. Source and annotation licensing require separate consideration for any public or commercial use.
 - `docs/experiment-plan.md`: current experiment and evaluation plan. This supersedes the initial manual-presence-annotation proposal in `docs/mvp-design.md`.
 - `docs/research.md`: research grounding. `src/server/jev.ts` and the benchmark scripts implement the classifier experiment.
-- The reported initial mention baseline uses 12 development passages. It is neither JEV performance nor held-out evidence. Live JEV development pilots are documented in `docs/jev-context-pilot.md` and `docs/jev-prompt-audit.md`; they do not establish held-out or general model accuracy.
+- Live mention-classification experiments cover Pride and Prejudice, Siddhartha, and Animal Farm. `docs/jev-research-summary.md` links the protocols, whole-book and held-out results, threshold analysis, and committed metric snapshots. They do not establish general accuracy across novels or physical-presence classification.
 
 ## Product Principles
 
