@@ -26,7 +26,7 @@ export function emotionalityForThreshold(threshold:number):number{
 const emotionalityLabels=[[10,'Not at all'],[30,'Not very'],[50,'Somewhat'],[70,'Quite'],[90,'Very']] as const;
 export function emotionalityLabel(value:number):string{return emotionalityLabels.find(([limit])=>value<=limit)?.[1]??'Extremely';}
 export const readingRequestConcurrency=6;
-export const readingScrollDelayMs=180;
+export const readingScrollDelayMs=50;
 export type ReadingSentence={id:string;start:number;end:number;target:string;precedingContext:string;followingContext:string};
 export type ReadingPlan={id:string;text:string;emphasis:{start:number;end:number}[];sentences:ReadingSentence[]};
 export type EmotionMetadata={sourceKey:string;plans:ReadingPlan[];jevAvailable:boolean;model:string;threshold:number};

@@ -17,7 +17,7 @@ minimap, and step between matches. Name matching does not resolve pronouns and d
 physical presence: an unmarked passage does not prove a character is absent.
 
 **JEV highlights** (always on where the server has credentials). JEV scores each sentence near the viewport for
-all eight emotions as you scroll, after a 180 ms pause so a flick of the wheel starts no work. Sentences at or above the current threshold get a coloured
+all eight emotions as you scroll, after a 50 ms pause so a flick of the wheel starts no work. Sentences at or above the current threshold get a coloured
 background; hovering one names the emotions. These are whole-sentence association suggestions —
 not extracted evidence spans, not character attributions, and not intensity.
 

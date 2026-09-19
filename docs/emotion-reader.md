@@ -32,7 +32,7 @@ not a validated emotion map.
 ## On-demand inference
 
 Where JEV is available, an IntersectionObserver watches sentences within 160 pixels of the viewport.
-A 180ms scheduling delay avoids starting work on every fleeting scroll event. Only sentences
+A 50ms scheduling delay avoids starting work on every fleeting scroll event. Only sentences
 still nearby when a slot becomes available are scheduled. The client and server each permit at
 most six simultaneous requests. Hidden tabs stop scheduling. Changing editions stops scheduling and
 aborts pending browser requests. Up to six SDK requests already executing
