@@ -19,7 +19,7 @@ try{
  assert(maxActive<=readingRequestConcurrency);assert(maxActive>2,'Nearby work should use the expanded concurrency');assert(calls.length>0&&calls.length<100,'Only nearby sentences should be requested');
  await page.getByRole('button',{name:'Fear',exact:true}).scrollIntoViewIfNeeded();await page.waitForTimeout(1200);
  const firstCalls=calls.length;
- await expect(page.getByRole('group',{name:'Visible emotions'}).getByRole('button',{pressed:true})).toHaveCount(8);await expect(page.locator('[data-jev-highlight]').first()).toHaveAttribute('data-jev-highlight','fear trust');await page.getByRole('button',{name:'Fear',exact:true}).click();await expect(page.locator('[data-jev-highlight]').first()).toHaveAttribute('data-jev-highlight','trust');await expect(page.locator('[data-nrc-emotions~=fear]')).toHaveCount(0);await page.waitForTimeout(350);assert.equal(calls.length,firstCalls,'Changing emotion must reuse scores');
+ await expect(page.getByRole('group',{name:'Visible emotions'}).getByRole('button',{pressed:true})).toHaveCount(8);await expect(page.locator('[data-jev-highlight]').first()).toHaveAttribute('data-jev-highlight','fear trust');await page.getByRole('button',{name:'Fear',exact:true}).click();await expect(page.locator('[data-jev-highlight]').first()).toHaveAttribute('data-jev-highlight','trust');await page.waitForTimeout(350);assert.equal(calls.length,firstCalls,'Changing emotion must reuse scores');
  const marked=page.locator('[data-jev-highlight]').first();
  await marked.hover();await expect(marked.locator('.emotion-hint')).toHaveCSS('opacity','1');await expect(marked.locator('.emotion-hint'),'Only the visible emotions appear in the hover guidance').toHaveText('Trust');
  // Marked sentences are not clickable: hover and keyboard focus are the only routes to the guidance.
@@ -33,7 +33,7 @@ try{
  await page.getByRole('button',{name:'Fear',exact:true}).click();
  await expect(page.locator('[data-jev-highlight]').first()).toHaveAttribute('data-jev-highlight','fear trust');
  for(const emotion of readingEmotions)await page.getByRole('button',{name:emotion[0].toUpperCase()+emotion.slice(1),exact:true}).click();
- await expect(page.locator('[data-jev-highlight]')).toHaveCount(0);await expect(page.locator('.emotion-underline')).toHaveCount(0);await expect(page.getByText('All emotions hidden. Enable a circle to show its highlights.')).toBeVisible();
+ await expect(page.locator('[data-jev-highlight]')).toHaveCount(0);await expect(page.getByText('All emotions hidden. Enable a circle to show its highlights.')).toBeVisible();
  for(const emotion of readingEmotions)await page.getByRole('button',{name:emotion[0].toUpperCase()+emotion.slice(1),exact:true}).click();
  await page.getByRole('button',{name:'Trust',exact:true}).blur();
  const controls=await page.locator('#channels .emotion-controls').boundingBox(),documentPicker=await page.getByLabel('Document',{exact:true}).boundingBox();assert(controls&&documentPicker&&documentPicker.y+documentPicker.height<controls.y,'The document picker sits under the title, above the emotion controls');
@@ -52,11 +52,9 @@ try{
  await expect(page.locator('.emotion-dial-readout')).toContainText('Somewhat · JEV highlights from 0.60');
  await expect(page.locator('[data-jev-highlight]').first()).toHaveAttribute('data-jev-highlight','fear trust');
  await page.waitForTimeout(350);assert.equal(calls.length,beforeDial,'Moving the dial must reuse scores');
- assert.equal(await page.getByRole('checkbox',{name:'JEV highlights',exact:true}).count(),0,'JEV highlighting is not a user switch');
- const nrc=page.getByRole('checkbox',{name:'NRC underlines',exact:true});
- assert(!await nrc.isChecked(),'NRC underlines start off');assert.equal(await page.locator('.emotion-underline').count(),0);
- await page.locator('.nrc-legend').hover();await expect(page.locator('.nrc-legend').locator('xpath=following-sibling::span')).toHaveCSS('opacity','1');
- await nrc.check();assert(await page.locator('.emotion-underline').count()>0);await nrc.uncheck();assert.equal(await page.locator('.emotion-underline').count(),0);
+ // Neither layer is a switch any more: JEV is always on and the NRC lexicon is gone entirely.
+ assert.equal(await page.locator('.emotion-controls').getByRole('checkbox').count(),0,'The emotion controls expose no layer switches');
+ assert.equal(await page.locator('.emotion-underline, .nrc-legend, [data-nrc-emotions]').count(),0);
  await page.getByLabel('Document',{exact:true}).selectOption('alice-in-wonderland');await expect(page.locator('.passage')).toHaveCount(75);await expect.poll(()=>calls.some(c=>c.layer==='document:alice-in-wonderland')).toBe(true);
  await page.setViewportSize({width:390,height:844});await page.goto(base);await page.locator('[data-emotion-id]').last().waitFor();await expect(page.locator('[data-jev-highlight]').first()).toBeVisible();
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'/tmp/affect-reader-mobile.png'});
@@ -67,5 +65,5 @@ try{
  assert.equal((await page.request.post(`${base}/api/emotions`,{headers:{Origin:'https://foreign.example'},data:{}})).status(),403);
  assert.equal((await page.request.get(`${base}/api/emotions?layer=../../.env`)).status(),400);
  assert.equal((await page.request.post(`${base}/api/emotions`,{data:{layer:'mentions',sourceKey:'stale',sentenceId:'bad'}})).status(),409);
- assert.deepEqual(errors,[]);console.log(JSON.stringify({status:'passed',mockedJev:true,calls:calls.length,maxConcurrent:maxActive,checks:'viewport queue, retry, reuse, emotionality dial, highlight tooltip, no click inspector, NRC default off, NRC toggle, editions, desktop/mobile, API validation'}));
+ assert.deepEqual(errors,[]);console.log(JSON.stringify({status:'passed',mockedJev:true,calls:calls.length,maxConcurrent:maxActive,checks:'viewport queue, retry, reuse, emotionality dial, highlight tooltip, no click inspector, no NRC layer, editions, desktop/mobile, API validation'}));
 }finally{await browser.close();}

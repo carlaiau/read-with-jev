@@ -14,7 +14,7 @@ try {
     assert.equal(await page.locator('#channels .channel-card').getByRole('checkbox',{checked:true}).count(),0);
     assert.equal(await page.locator('.matched, .passage-thread').count(),0);
   };
-  await page.route('**/api/emotions?*',route=>route.fulfill({json:{sourceKey:'navigation-fixture',plans:[],lexicon:{},jevAvailable:false,model:'fixture',threshold:.6}}));
+  await page.route('**/api/emotions?*',route=>route.fulfill({json:{sourceKey:'navigation-fixture',plans:[],jevAvailable:false,model:'fixture',threshold:.6}}));
   await page.route('**/api/emotions',route=>route.fulfill({status:503,json:{error:'Model calls disabled in navigation tests.'}}));
   await page.goto(baseURL);
   await waitBook('pride-and-prejudice');

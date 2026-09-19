@@ -1,19 +1,17 @@
 'use client';
 import {createContext,useContext,useEffect,useMemo,useRef,useState,type CSSProperties,type ReactNode} from 'react';
 import {loadLibraryDocument} from '../src/lib/library-transport';
-import {readingEmotions,readingRequestConcurrency,readingScrollDelayMs,emotionColors,emotionalityForThreshold,emotionalityLabel,emotionalityScale,lexicalRanges,readingThreshold,thresholdForEmotionality,validEmotionScores,type ReadingEmotion,type EmotionMetadata,type EmotionScores,type ReadingPlan,type ReadingSentence} from '../src/lib/reading-emotions';
-import {Checkbox,CheckboxField} from '../src/catalyst/typescript/checkbox';
-import {Label} from '../src/catalyst/typescript/fieldset';
+import {readingEmotions,readingRequestConcurrency,readingScrollDelayMs,emotionColors,emotionalityForThreshold,emotionalityLabel,emotionalityScale,readingThreshold,thresholdForEmotionality,validEmotionScores,type ReadingEmotion,type EmotionMetadata,type EmotionScores,type ReadingPlan,type ReadingSentence} from '../src/lib/reading-emotions';
 import {Button} from '../src/catalyst/typescript/button';
 type Result={status:'pending'|'complete'|'error';scores?:EmotionScores;error?:string};
-type Context={metadata:EmotionMetadata|null;emotions:ReadingEmotion[];nrc:boolean;jev:boolean;threshold:number;results:Map<string,Result>};
+type Context={metadata:EmotionMetadata|null;emotions:ReadingEmotion[];jev:boolean;threshold:number;results:Map<string,Result>};
 const Comparison=createContext<Context|null>(null);
 const Controls=createContext<ReactNode>(null);
 export function EmotionControls(){return useContext(Controls);}
 const label=(s:string)=>s[0].toUpperCase()+s.slice(1);
 export function EmotionComparison({layer,children,ready}:{layer:string;children:ReactNode;ready:boolean}){
  const [metadata,setMetadata]=useState<EmotionMetadata|null>(null),[loadError,setLoadError]=useState('');
- const [emotions,setEmotions]=useState<ReadingEmotion[]>([...readingEmotions]),[nrc,setNrc]=useState(false);
+ const [emotions,setEmotions]=useState<ReadingEmotion[]>([...readingEmotions]);
  const jev=!!metadata?.jevAvailable;
  // null keeps the reader on whatever default threshold this edition reports until the slider is moved.
  const [emotionality,setEmotionality]=useState<number|null>(null);
@@ -39,7 +37,7 @@ export function EmotionComparison({layer,children,ready}:{layer:string;children:
   return()=>{stopped=true;observer.disconnect();clearTimeout(timer);document.removeEventListener('visibilitychange',pump);for(const [id,c] of controllers){c.abort();cache.current.delete(id);}};
  },[metadata,jev,layer,retry,ready]);
  const errors=[...cache.current.values()].filter(r=>r.status==='error');
- const value=useMemo(()=>({metadata,emotions,nrc,jev,threshold,results:cache.current}),[metadata,emotions,nrc,jev,threshold,revision]);
+ const value=useMemo(()=>({metadata,emotions,jev,threshold,results:cache.current}),[metadata,emotions,jev,threshold,revision]);
  const controls=<div className="emotion-controls">
    <div className="emotion-dial">
     <label className="emotion-dial-label" htmlFor="emotion-dial">How emotional is JEV</label>
@@ -51,9 +49,6 @@ export function EmotionComparison({layer,children,ready}:{layer:string;children:
    </div>
    <div className="emotion-picker" role="group" aria-label="Visible emotions">{readingEmotions.map(e=><button key={e} type="button" className="emotion-toggle" aria-label={label(e)} aria-pressed={emotions.includes(e)} style={{'--emotion-color':emotionColors[e]} as CSSProperties} onClick={()=>setEmotions(current=>readingEmotions.filter(item=>item===e?!current.includes(item):current.includes(item)))}><span className="emotion-circle" aria-hidden="true"/><span className="emotion-tooltip" aria-hidden="true">{label(e)}</span></button>)}</div>
    {emotions.length===0&&<p className="emotion-note">All emotions hidden. Enable a circle to show its highlights.</p>}
-   <div className="emotion-controls-row">
-    <CheckboxField><Checkbox checked={nrc} onChange={setNrc} aria-label="NRC underlines"/><Label><span className="emotion-legend"><span className="nrc-legend">NRC underlines</span><span className="emotion-tooltip" aria-hidden="true">NRC Emotion Lexicon: a fixed dictionary of word-to-emotion associations. It underlines single words whatever the context, negation or speaker.</span></span></Label></CheckboxField>
-   </div>
    {(loadError||(errors.length>0&&jev))&&<div className="emotion-error"><span>{loadError||errors[0].error}</span>{!loadError&&<Button plain onClick={()=>{for(const [id,r] of cache.current)if(r.status==='error')cache.current.delete(id);setRetry(v=>v+1);setRevision(v=>v+1);}}>Retry analysis</Button>}</div>}
   </div>;
  return <Comparison.Provider value={value}><Controls.Provider value={controls}>{children}</Controls.Provider></Comparison.Provider>;
@@ -63,20 +58,17 @@ export function EmotionText({passageId,fallback}:{passageId:string;fallback:Reac
  if(!ctx||!plan||!ctx.metadata)return <>{fallback}</>;
  return <>{plan.sentences.map(s=><Sentence key={s.id} sentence={s} plan={plan} ctx={ctx}/>)}</>;
 }
-// Bands preserve every enabled association when several emotions share a span.
-function bands(emotions:ReadingEmotion[],background=false){return `linear-gradient(to ${background?'bottom':'right'}, ${emotions.flatMap((e,i)=>{const color=background?`${emotionColors[e]}30`:emotionColors[e];return [`${color} ${i/emotions.length*100}%`,`${color} ${(i+1)/emotions.length*100}%`];}).join(', ')})`;}
+// Bands keep every suggested emotion visible when several apply to one sentence.
+function bands(emotions:ReadingEmotion[]){return `linear-gradient(to bottom, ${emotions.flatMap((e,i)=>{const color=`${emotionColors[e]}30`;return [`${color} ${i/emotions.length*100}%`,`${color} ${(i+1)/emotions.length*100}%`];}).join(', ')})`;}
 function Sentence({sentence:s,plan,ctx}:{sentence:ReadingSentence;plan:ReadingPlan;ctx:Context}){
  const result=ctx.results.get(s.id),highlights=ctx.jev?ctx.emotions.filter(e=>result?.scores&&result.scores[e]>=ctx.threshold):[];
- const ranges=ctx.nrc?ctx.emotions.flatMap(emotion=>lexicalRanges(s.target,ctx.metadata!.lexicon,emotion).map(r=>({...r,emotion}))):[];
  const emphasis=plan.emphasis.filter(r=>r.start<s.end&&r.end>s.start).map(r=>({start:Math.max(r.start-s.start,0),end:Math.min(r.end-s.start,s.target.length)}));
- const bounds=[...new Set([0,s.target.length,...ranges.flatMap(r=>[r.start,r.end]),...emphasis.flatMap(r=>[r.start,r.end])])].sort((a,b)=>a-b);
- const description=[highlights.length?`JEV sentence suggestions: ${highlights.map(label).join(', ')}.`:'',ranges.length?`NRC word associations: ${[...new Set(ranges.map(r=>r.emotion))].map(label).join(', ')}.`:''].filter(Boolean).join(' ');
- return <span data-emotion-id={s.id} data-jev-highlight={highlights.length?highlights.join(' '):undefined} className={`emotion-sentence ${highlights.length?'emotion-background':''}`} style={highlights.length?{backgroundImage:bands(highlights,true)}:undefined}
-  tabIndex={highlights.length?0:undefined} aria-label={highlights.length?`${description} ${s.target}`:undefined}
-  title={!highlights.length&&ranges.length?description:undefined}>
+ const bounds=[...new Set([0,s.target.length,...emphasis.flatMap(r=>[r.start,r.end])])].sort((a,b)=>a-b);
+ return <span data-emotion-id={s.id} data-jev-highlight={highlights.length?highlights.join(' '):undefined} className={`emotion-sentence ${highlights.length?'emotion-background':''}`} style={highlights.length?{backgroundImage:bands(highlights)}:undefined}
+  tabIndex={highlights.length?0:undefined} aria-label={highlights.length?`JEV sentence suggestions: ${highlights.map(label).join(', ')}. ${s.target}`:undefined}>
   {highlights.length>0&&<span className="emotion-hint" aria-hidden="true">
    {highlights.map(e=><span key={e} className="emotion-hint-item" style={{background:emotionColors[e]}}>{label(e)}</span>)}
   </span>}
-  {bounds.slice(0,-1).map((start,i)=>{const end=bounds[i+1],text=s.target.slice(start,end),matches=[...new Set(ranges.filter(r=>r.start<=start&&r.end>=end).map(r=>r.emotion))],italic=emphasis.some(r=>r.start<=start&&r.end>=end);const part=italic?<em>{text}</em>:text;return matches.length?<span key={start} className="emotion-underline" data-nrc-emotions={matches.join(' ')} style={{backgroundImage:bands(matches)}} title={`NRC word associations: ${matches.map(label).join(', ')}`}>{part}</span>:<span key={start}>{part}</span>;})}
+  {bounds.slice(0,-1).map((start,i)=>{const end=bounds[i+1],text=s.target.slice(start,end);return emphasis.some(r=>r.start<=start&&r.end>=end)?<em key={start}>{text}</em>:<span key={start}>{text}</span>;})}
  </span>;
 }

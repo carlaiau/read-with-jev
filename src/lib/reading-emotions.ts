@@ -26,10 +26,10 @@ export function emotionalityForThreshold(threshold:number):number{
 const emotionalityLabels=[[10,'Not at all'],[30,'Not very'],[50,'Somewhat'],[70,'Quite'],[90,'Very']] as const;
 export function emotionalityLabel(value:number):string{return emotionalityLabels.find(([limit])=>value<=limit)?.[1]??'Extremely';}
 export const readingRequestConcurrency=6;
-export const readingScrollDelayMs=50;
+export const readingScrollDelayMs=180;
 export type ReadingSentence={id:string;start:number;end:number;target:string;precedingContext:string;followingContext:string};
 export type ReadingPlan={id:string;text:string;emphasis:{start:number;end:number}[];sentences:ReadingSentence[]};
-export type EmotionMetadata={sourceKey:string;plans:ReadingPlan[];lexicon:Record<string,string[]>;jevAvailable:boolean;model:string;threshold:number};
+export type EmotionMetadata={sourceKey:string;plans:ReadingPlan[];jevAvailable:boolean;model:string;threshold:number};
 /** All ranges are in the displayed edition, never source annotation coordinates. */
 export function readingPlans(book:Book & {textFormat?:'plain'|'tokenized';sections?:{index:number;title:string}[]}):ReadingPlan[]{
  const plans=book.passages.map((p,index)=>{
@@ -44,9 +44,6 @@ export function readingPlans(book:Book & {textFormat?:'plain'|'tokenized';sectio
   s.followingContext=plans[i].sentences[j+1]?.target??(i+1<plans.length&&book.passages[i+1].chapter===book.passages[i].chapter?plans[i+1].sentences[0]?.target??'':'');
  }
  return plans;
-}
-export function lexicalRanges(text:string,lexicon:Record<string,string[]>,emotion:ReadingEmotion){
- return [...text.matchAll(/[a-z]+(?:'[a-z]+)?/gi)].filter(m=>lexicon[m[0].toLowerCase()]?.includes(emotion)).map(m=>({start:m.index!,end:m.index!+m[0].length}));
 }
 export function validEmotionScores(value:unknown):value is EmotionScores{
  if(!value||typeof value!=='object')return false;const scores=value as Record<string,unknown>;

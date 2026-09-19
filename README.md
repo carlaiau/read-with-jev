@@ -1,6 +1,6 @@
-# Read with JEV
+# readwithjev
 
-A research prototype for reading whole novels alongside two emotion layers and a character
+A research prototype for reading whole novels alongside a model emotion layer and a character
 minimap. Built with Next.js and TypeScript.
 
 It is a reading instrument for inspecting model output, **not** a validated emotion map. Nothing
@@ -16,11 +16,8 @@ per document. Select characters to highlight their passages, follow their curves
 minimap, and step between matches. Name matching does not resolve pronouns and does not establish
 physical presence: an unmarked passage does not prove a character is absent.
 
-**NRC underlines** (off by default). Word-level associations from the NRC Emotion Lexicon, a fixed
-dictionary. It marks single words whatever the context, negation or speaker.
-
-**JEV highlights** (always on where the server has credentials). JEV scores each nearby sentence for
-all eight emotions as you scroll. Sentences at or above the current threshold get a coloured
+**JEV highlights** (always on where the server has credentials). JEV scores each sentence near the viewport for
+all eight emotions as you scroll, after a 180 ms pause so a flick of the wheel starts no work. Sentences at or above the current threshold get a coloured
 background; hovering one names the emotions. These are whole-sentence association suggestions —
 not extracted evidence spans, not character attributions, and not intensity.
 
@@ -28,8 +25,13 @@ not extracted evidence spans, not character attributions, and not intensity.
 published default of 0.60 at its midpoint. It re-ranks scores the browser already has: moving it
 never issues a new model request, and a position on it is not a calibration claim.
 
-Colour is never the only carrier of meaning — underline versus background separates the two layers,
-and the eight emotion circles can be toggled independently. Full-book spoilers throughout.
+The eight emotion circles can be toggled independently, and every highlight names its emotions in
+text on hover, so colour is never the only carrier of meaning. Full-book spoilers throughout.
+
+An NRC Emotion Lexicon underline layer used to sit alongside this. It was removed to keep the
+deploy free of a build-time download of a third-party lexicon and of the licensing questions that
+come with redistributing one. The research pipeline still uses NRC as a baseline comparator; see
+`npm run affect:prepare`.
 
 The UI uses Tailwind CSS v4 and the supplied Catalyst kit in `src/catalyst/typescript`. On mobile,
 the characters panel and the book map collapse behind buttons. The bundled Catalyst demo is excluded
@@ -51,21 +53,10 @@ npm run dev
 Open http://127.0.0.1:3000. Downloads are pinned to exact revisions, checksummed, and kept in the
 ignored `data/raw/`. Preparation verifies sources and writes `data/processed/`.
 
-The emotion layers need one more prepared file, the NRC word lexicon:
-
-```sh
-npm run reader:lexicon   # writes data/processed/reader-lexicon.json; needs Python 3
-```
-
-Without it the emotion endpoint answers `503 Emotion vocabulary is unavailable`. `npm run
-affect:prepare` writes it too, along with the REMAN research corpus; `reader:lexicon` is the
-lighter path that the deploy uses, and it reuses an existing `affect.json` instead of
-re-downloading.
-
-JEV highlighting also needs a server-side key. Copy `.env.example` to `.env.local` and set
+JEV highlighting needs a server-side key. Copy `.env.example` to `.env.local` and set
 `TYPESAFE_API_KEY`. **The reader then requests paid emotion analysis for sentences near the
-viewport as you scroll.** Without a key the reader still runs; the emotion controls say so and NRC
-underlines remain available. No key ever reaches the browser.
+viewport as you scroll.** Without a key the reader still runs: the threshold dial is disabled and
+no sentence is highlighted. No key ever reaches the browser.
 
 Dependencies are pinned to exact versions with a committed lockfile. Use npm 11.13+ to enforce the
 configured 14-day minimum release age. The only approved exception is `@typesafe-ai/sdk@0.6.0`. See
@@ -99,6 +90,19 @@ Regenerate it after a visible UI change, with a local server running:
 npm run og:capture
 ```
 
+The same harness records a short demo video — the threshold dial moving, a highlight's emotions on
+hover, and a character lighting up the book map. It drives the real app, so JEV scores sentences in
+the viewport and the first run may bill for them:
+
+```sh
+npm run demo:frames   # numbered PNG frames + per-frame durations
+npm run demo:video    # 1280x800 H.264 MP4, needs ffmpeg on PATH
+```
+
+Both write to `data/runs/`. `FRAME_DIR` and `DEMO_VIDEO_PATH` override the locations. ffmpeg is the
+only step that needs a tool outside the project (`brew install ffmpeg`); nothing in the app, the
+build or the test suite depends on it.
+
 With a local server running and Google Chrome installed:
 
 ```sh
@@ -113,10 +117,10 @@ under `/tmp`.
 
 ## Deploying
 
-`netlify.toml` runs `npm run build:netlify`, which builds the reader lexicon, prepares the
-checksum-locked library, and then builds the app. The library JSON is bundled in the native
-`library` function; `data/processed/reader-lexicon.json` is traced into the `/api/emotions` route.
-Next is configured for standalone output with prepared-data tracing.
+`netlify.toml` runs `npm run build:netlify`, which prepares the checksum-locked library and then
+builds the app. The library JSON is bundled in the native `library` function, and Next is
+configured for standalone output with prepared-data tracing. The build downloads nothing from a
+third party beyond the pinned, checksummed Gutenberg sources the library already uses.
 
 Set these on the deploy:
 
@@ -125,13 +129,54 @@ Set these on the deploy:
 | `TYPESAFE_API_KEY` | JEV highlighting. Without it the reader loads, the dial is disabled, and no sentence is highlighted. |
 | `NEXT_PUBLIC_SITE_URL` | Absolute Open Graph URLs, if the site is served from a domain other than Netlify's own `URL`. |
 
-The build downloads the pinned NRC Emotion Lexicon archive and bundles the word list into the
-server function. **Check the NRC licence before deploying publicly or commercially** — the reader
-only sends the subset of words that appear in the open document to the browser, but the full word
-list still ships inside the function. No REMAN research data is deployed.
+No research dataset and no third-party lexicon is deployed. Character preparation stays offline;
+the emotion endpoint performs bounded on-demand classification.
 
-Character preparation stays offline; the emotion endpoint performs bounded on-demand
-classification. A hosted worker queue and durable cache are later work. See
+### The shared cache
+
+A public deploy needs `DATABASE_URL` pointing at a Neon Postgres database. Use the **pooled**
+connection string — the one whose host contains `-pooler`. The reader runs as many short-lived
+serverless instances, and the direct string is bounded by the compute's connection slots. Reach
+for the direct string only for session-level work the pooler does not carry. Without a database
+every instance is on its own: the on-disk cache in `data/cache/` is per-instance and ephemeral, so two
+people reading the same chapter each pay for the same sentences and nothing survives a cold start.
+
+```sh
+npm run store:prepare                                     # idempotent DDL, safe to re-run
+npm run store:warm -- --document pride-and-prejudice      # dry run, and free: see below
+npm run store:warm -- --document pride-and-prejudice --execute --max-requests 500
+```
+
+Warming copies any local `data/cache/` answers into the store first. That costs nothing, so it
+runs uncapped and without `--execute`; only sentences no cache can answer reach the model, and
+those need an explicit `--execute --max-requests N`, matching the benchmark runner.
+
+`readingScores` reads through in order: the in-flight promise, the local disk cache, the shared
+store, and only then the model. Rows are keyed by the request digest already used for the disk
+cache, which folds in the edition, display version, sentence segmentation, model and prompt — so a
+prompt or edition change misses rather than silently serving a stale score. Pre-warming the
+documents people actually open turns public traffic into cache hits that cost nothing.
+
+**Concurrency is bounded globally, not per instance.** `readingRequestConcurrency` caps six
+in-flight model calls per server *process*, and a platform runs many processes, so on its own it
+bounds nothing. `JEV_MAX_CONCURRENT_CALLS` (default 12) is a lease held in Postgres for the life
+of each call, so every instance draws from one pool; a caller that finds it full gets a `429` and
+the reader retries. Leases expire after 120 seconds, comfortably past the route's own 90-second
+ceiling, so an instance that dies mid-call frees its slot without cleanup.
+
+It is a soft ceiling. The count comes from the statement's snapshot and excludes the row being
+inserted, so a simultaneous burst can briefly overshoot before the losers release. That is the
+right trade here: the point is to avoid hammering the provider, not to ration. Everything fails
+open — an unreachable store drops each instance back to its own six-call limit rather than
+stopping analysis.
+
+For scale, the corpus is about 219,000 sentences across 31 documents (6,027 in *Pride and
+Prejudice* alone), and one reader scrolling a few screens scores on the order of 100-200. Fully
+warmed, the table is roughly 60-80 MB.
+
+These rows are model predictions and are never gold. They carry their own task namespace
+(`reader-sentence-emotions-v1`); benchmarks keep their own cache and run artifacts and must not
+read from this table. A hosted worker queue and durable cache are later work. See
 [the hosting guide](docs/document-library.md).
 
 ## Evaluation

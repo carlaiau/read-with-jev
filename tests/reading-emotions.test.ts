@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readingPlans,lexicalRanges,validEmotionScores,readingEmotions,readingThreshold,emotionalityScale,emotionalityForThreshold,emotionalityLabel,thresholdForEmotionality} from '../src/lib/reading-emotions';
+import {readingPlans,validEmotionScores,readingEmotions,readingThreshold,emotionalityScale,emotionalityForThreshold,emotionalityLabel,thresholdForEmotionality} from '../src/lib/reading-emotions';
 import {readerSegments} from '../src/lib/reader-text';
 import {readingRequest} from '../src/server/reading-emotions';
 import type {Book} from '../src/lib/model';
@@ -17,10 +17,6 @@ test('reader plans preserve displayed text, emphasis and sentence ranges without
  assert.equal(plans[0].text.slice(plans[0].emphasis[0].start,plans[0].emphasis[0].end),'afraid');
  assert.equal(plans[0].sentences.at(-1)?.followingContext,plans[1].sentences[0].target);
  assert.equal(plans[1].sentences.at(-1)?.followingContext,'');assert.equal(plans[2].sentences[0].precedingContext,'');
-});
-test('NRC ranges preserve Unicode offsets and support overlapping category associations',()=>{
- const text='İ fear Fear';assert.deepEqual(lexicalRanges(text,{fear:['fear','anticipation']},'fear'),[{start:2,end:6},{start:7,end:11}]);
- assert.equal(lexicalRanges(text,{fear:['fear','anticipation']},'anticipation').length,2);
 });
 test('reader scores require all eight probabilities and requests omit annotation inventory',()=>{
  const s=readingPlans(book)[0].sentences[0],request=readingRequest(s);

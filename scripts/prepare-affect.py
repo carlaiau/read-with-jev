@@ -4,7 +4,6 @@ import hashlib
 import json
 import os
 from pathlib import Path
-import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 import zipfile
@@ -13,6 +12,9 @@ SOURCES = {
     'reman': ('https://www.ims.uni-stuttgart.de/documents/ressourcen/korpora/reman/reman.zip', '8f459b868ee77accb59b8b96566e1a263dd748492dd5af8b17feb512b928f8f8'),
     'nrc': ('https://saifmohammad.com/WebDocs/Lexicons/NRC-Emotion-Lexicon.zip', '4edcbd00b1d38ace19ecebca17a50ce08719785b9476cd12d31532eff0fc34e6'),
 }
+# The NRC host answers HTTP 406 to the default urllib agent, which fails CI builds. Identify the
+# project instead. The pinned SHA-256 above is what authenticates an archive; this header does not.
+USER_AGENT = 'read-with-jev/1.0 (+https://github.com/carlaiau/readwithjev)'
 
 
 def load_archive(name):
@@ -20,8 +22,15 @@ def load_archive(name):
     path = Path(f'data/raw/affect/{name}.zip')
     path.parent.mkdir(parents=True, exist_ok=True)
     if not path.exists():
-        with urllib.request.urlopen(url, timeout=60) as response:
-            content = response.read()
+        request = urllib.request.Request(url, headers={'User-Agent': USER_AGENT, 'Accept': '*/*'})
+        try:
+            with urllib.request.urlopen(request, timeout=180) as response:
+                content = response.read()
+        except OSError as error:
+            raise SystemExit(
+                f'Could not download the pinned {name} archive from {url}: {error}\n'
+                f'Place a verified copy at {path} and re-run, or build on a host that can reach it.'
+            ) from error
         if hashlib.sha256(content).hexdigest() != expected:
             raise ValueError(f'Source hash mismatch: {name}')
         path.write_bytes(content)
@@ -50,21 +59,6 @@ def nrc_lexicon():
             lexicon.setdefault(word, []).append(emotion)
     assert len(lexicon) > 5000
     return lexicon
-
-
-def reader_lexicon():
-    """Reader-only output: the NRC word associations, without any REMAN research corpus."""
-    url, sha256 = SOURCES['nrc']
-    prepared = Path('data/processed/affect.json')
-    if prepared.exists():
-        # A completed affect pass already verified the pinned archive; do not download it again.
-        lexicon, built_from = json.loads(prepared.read_text())['lexicon'], str(prepared)
-    else:
-        lexicon, built_from = nrc_lexicon(), url
-    assert len(lexicon) > 5000
-    write_json('data/processed/reader-lexicon.json',
-               {'version': 1, 'source': {'url': url, 'sha256': sha256}, 'builtFrom': built_from, 'lexicon': lexicon})
-    print(json.dumps({'path': 'data/processed/reader-lexicon.json', 'words': len(lexicon), 'builtFrom': built_from}, indent=2))
 
 
 def parse_document(node):
@@ -125,10 +119,8 @@ def main():
     payload = {'version': 1, 'sources': {k: {'url': v[0], 'sha256': v[1]} for k, v in SOURCES.items()}, 'documents': documents, 'lexicon': lexicon}
     write_json('data/processed/affect.json', payload)
     write_json('data/processed/affect-audit.json', audit)
-    reader_lexicon()
     print(json.dumps({k: v for k, v in audit.items() if k != 'quarantine'}, indent=2))
 
 
 if __name__ == '__main__':
-    # The deploy only needs the reader lexicon; the full pass also pulls the REMAN research corpus.
-    reader_lexicon() if '--lexicon-only' in sys.argv[1:] else main()
+    main()

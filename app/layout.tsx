@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const description = 'A research reader for classic novels: a whole-book character map, NRC dictionary underlines, and adjustable JEV sentence-emotion highlights.';
+const description = 'A research reader for classic novels: a whole-book character map and adjustable JEV sentence-emotion highlights you can tune as you read.';
 
 /** Absolute social image URLs need an origin. Netlify supplies one at build time. */
 function siteUrl(): URL {
@@ -14,11 +14,11 @@ function siteUrl(): URL {
 
 export const metadata: Metadata = {
   metadataBase: siteUrl(),
-  title: 'Read with JEV',
+  title: 'readwithjev',
   description,
-  applicationName: 'Read with JEV',
-  openGraph: { type: 'website', siteName: 'Read with JEV', title: 'Read with JEV', description },
-  twitter: { card: 'summary_large_image', title: 'Read with JEV', description },
+  applicationName: 'readwithjev',
+  openGraph: { type: 'website', siteName: 'readwithjev', title: 'readwithjev', description },
+  twitter: { card: 'summary_large_image', title: 'readwithjev', description },
 };
 
 export default function Layout({ children }: Readonly<{ children: React.ReactNode }>) {

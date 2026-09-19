@@ -19,7 +19,7 @@ export async function GET(request:Request){
   if(Buffer.byteLength(body)>LIBRARY_INLINE_LIMIT)return Response.json({transport:'json-parts',documentId:layer,revision:data.sourceKey,parts:Math.ceil(body.length/LIBRARY_PART_CHARS)},{headers});
   return new Response(body,{headers:{...headers,'Content-Type':'application/json'}});
  }
- catch(e){return Response.json({error:e instanceof ReadingError?e.message:'Emotion vocabulary is unavailable. Run `npm run reader:lexicon` on the server.'},{status:e instanceof ReadingError?e.status:503});}
+ catch(e){return Response.json({error:e instanceof ReadingError?e.message:'This edition is unavailable on the server.'},{status:e instanceof ReadingError?e.status:503});}
 }
 export async function POST(request:Request){
  if(!hasAllowedOrigin(request))return Response.json({error:'Origin not allowed.'},{status:403});
@@ -30,6 +30,6 @@ export async function POST(request:Request){
   const sentence=data.plans.flatMap(p=>p.sentences).find(s=>s.id===body.sentenceId);
   if(!sentence)return Response.json({error:'Unknown sentence.'},{status:400});
   if(request.signal.aborted)return new Response(null,{status:499});
-  return Response.json({sentenceId:sentence.id,scores:await readingScores(data.sourceKey,sentence)},{headers:{'Cache-Control':'no-store'}});
+  return Response.json({sentenceId:sentence.id,scores:await readingScores(body.layer,data.sourceKey,sentence)},{headers:{'Cache-Control':'no-store'}});
  }catch(e){return Response.json({error:e instanceof ReadingError?e.message:'JEV could not analyse this sentence. Retry when ready.'},{status:e instanceof ReadingError?e.status:502});}
 }

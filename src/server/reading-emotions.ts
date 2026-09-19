@@ -6,16 +6,9 @@ import {readingPlans,readingEmotions,readingRequestConcurrency,validEmotionScore
 import {digest,readJson,writeJson} from '../lib/io';
 import {createClient,validateAnswers} from './jev';
 import {passageInstructions} from './affect-passage-request';
+import {storedScores,storeScores,acquireModelSlot,releaseModelSlot} from './emotion-store';
 export const readingModel='jev-1.13.0';
 const books=new Map<string,Promise<Awaited<ReturnType<typeof load>>>>();
-/** A deploy ships only the reader lexicon; a full local affect pass satisfies this too. */
-async function affectLexicon(){
- for(const path of ['data/processed/reader-lexicon.json','data/processed/affect.json']){
-  try{return (await readJson<{lexicon:Record<string,string[]>}>(path)).lexicon;}
-  catch(e){if((e as NodeJS.ErrnoException).code!=='ENOENT')throw e;}
- }
- throw new ReadingError('Emotion vocabulary is unavailable. Run `npm run reader:lexicon` on the server.',503);
-}
 async function load(layer:string){
  let path=`data/processed/${layer}.json`;
  if(layer.startsWith('document:')){
@@ -24,10 +17,9 @@ async function load(layer:string){
   path=`data/library/${id}.json`;
  }
  const raw=await readFile(path,'utf8'),book=JSON.parse(raw) as Book;
- const associations=await affectLexicon();
- const plans=readingPlans(book),words=new Set(plans.flatMap(p=>[...p.text.matchAll(/[a-z]+(?:'[a-z]+)?/gi)].map(m=>m[0].toLowerCase())));
- const lexicon=Object.fromEntries(Object.entries(associations).filter(([word])=>words.has(word)));
- return {sourceKey:digest(JSON.stringify({raw,displayVersion:2,sentenceSegmentationVersion,icu:process.versions.icu,model:readingModel,instructions:passageInstructions,lexicon})),plans,lexicon,model:readingModel,threshold:readingThreshold};
+ const plans=readingPlans(book);
+ // displayVersion 3 drops the NRC lexicon from the served payload and from this fingerprint.
+ return {sourceKey:digest(JSON.stringify({raw,displayVersion:3,sentenceSegmentationVersion,icu:process.versions.icu,model:readingModel,instructions:passageInstructions})),plans,model:readingModel,threshold:readingThreshold};
 }
 export function validReadingSource(value:unknown):value is string {return typeof value==='string'&&(['mentions','speaking'].includes(value)||/^document:[a-z0-9-]{1,80}$/.test(value));}
 export function readingData(layer:string){
@@ -37,16 +29,41 @@ export function readingData(layer:string){
 export function readingRequest(s:ReadingSentence){return {model:readingModel,state:{precedingContext:s.precedingContext,target:s.target,followingContext:s.followingContext},questions:Object.fromEntries(readingEmotions.map((e,i)=>[`q${i}`,noul(`Emotion: ${e}.\n${passageInstructions}`)]))};}
 const active=new Map<string,Promise<EmotionScores>>();let inFlight=0;
 export class ReadingError extends Error {constructor(message:string,public status:number){super(message);}}
-export async function readingScores(sourceKey:string,sentence:ReadingSentence):Promise<EmotionScores>{
- const request=readingRequest(sentence),key=digest(JSON.stringify({task:'reader-sentence-emotions-v1',sourceKey,request}));
- const path=`data/cache/reader-emotions-${key}.json`;
- try{const cached=await readJson<{scores:unknown}>(path);if(!validEmotionScores(cached.scores))throw new ReadingError('Cached analysis is invalid.',503);return cached.scores;}catch(e){if((e as NodeJS.ErrnoException).code!=='ENOENT')throw e;}
+export const readingCachePath=(key:string)=>`data/cache/reader-emotions-${key}.json`;
+/** The local cache is free to read and free to copy into the shared store. */
+export async function diskScores(key:string):Promise<EmotionScores|undefined>{
+ try{
+  const cached=await readJson<{scores:unknown}>(readingCachePath(key));
+  if(!validEmotionScores(cached.scores))throw new ReadingError('Cached analysis is invalid.',503);
+  return cached.scores;
+ }catch(e){if((e as NodeJS.ErrnoException).code!=='ENOENT')throw e;return undefined;}
+}
+export function readingCacheKey(sourceKey:string,sentence:ReadingSentence){
+ return digest(JSON.stringify({task:'reader-sentence-emotions-v1',sourceKey,request:readingRequest(sentence)}));
+}
+/**
+ * Read-through: in-flight promise, local disk, then the shared store, and only then the model.
+ * The shared store is what makes a second reader of the same chapter free.
+ */
+export async function readingScores(layer:string,sourceKey:string,sentence:ReadingSentence):Promise<EmotionScores>{
+ const request=readingRequest(sentence),key=readingCacheKey(sourceKey,sentence);
+ const path=readingCachePath(key);
  if(active.has(key))return active.get(key)!;
- if(!process.env.TYPESAFE_API_KEY)throw new ReadingError('JEV is not configured on this server. NRC underlines are still available.',503);
+ const local=await diskScores(key);if(local)return local;
+ const shared=await storedScores(key);if(shared)return shared;
+ if(!process.env.TYPESAFE_API_KEY)throw new ReadingError('JEV is not configured on this server.',503);
  if(inFlight>=readingRequestConcurrency)throw new ReadingError('JEV is busy. Retry in a moment.',429);
- const task=(async()=>{inFlight++;try{
+ const task=(async()=>{inFlight++;let lease;try{
+  // inFlight bounds this process; the lease bounds every instance at once. With no store to
+  // ask, the per-process bound is the only one, which is the local-development case.
+  lease=await acquireModelSlot();
+  if(lease==='busy')throw new ReadingError('JEV is busy across this deployment. Retry in a moment.',429);
   const response=await createClient().systemOne(request),answers=validateAnswers(response,Object.keys(request.questions));
   const scores=Object.fromEntries(readingEmotions.map((e,i)=>[e,answers[`q${i}`]])) as EmotionScores;
-  await writeJson(path,{task:'reader-sentence-emotions-v1',sourceKey,key,createdAt:new Date().toISOString(),request,response,scores});return scores;
- }finally{inFlight--;}})();active.set(key,task);try{return await task;}finally{active.delete(key);}
+  await storeScores({cacheKey:key,layer,sentenceId:sentence.id,sourceKey,model:readingModel,scores});
+  // A read-only serverless filesystem must not fail a call the model has already answered and billed.
+  try{await writeJson(path,{task:'reader-sentence-emotions-v1',sourceKey,key,createdAt:new Date().toISOString(),request,response,scores});}
+  catch(error){console.warn('Reader emotion cache write failed; the score is still served.',error);}
+  return scores;
+ }finally{inFlight--;if(lease&&lease!=='busy')await releaseModelSlot(lease);}})();active.set(key,task);try{return await task;}finally{active.delete(key);}
 }

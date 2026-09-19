@@ -125,8 +125,8 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
           </Field>
           <EmotionControls />
         </SidebarHeader>
-        <SidebarBody className="gap-2 px-5! pt-4!">
-          <div className="sticky top-0 z-10 -mt-1 flex items-center justify-between bg-panel px-2 pb-1 pt-1"><h2 className="text-sm font-semibold text-muted">Characters</h2><Button plain className="text-xs! text-muted!" onClick={() => setSelected([])}>Clear</Button></div>
+        <SidebarBody className="gap-2 px-5! pt-0!">
+          <div className="sticky top-0 z-10 flex items-center justify-between bg-panel px-2 pb-2 pt-4"><h2 className="text-sm font-semibold text-muted">Characters</h2><Button plain className="text-xs! text-muted!" onClick={() => setSelected([])}>Clear</Button></div>
           {book && <>
             <button className={`channel-card w-full shrink-0 cursor-pointer rounded-lg border p-3 text-left ${!selected.length ? 'border-rule bg-ink/5' : 'border-transparent hover:bg-ink/3'}`} onClick={() => setSelected([])} aria-pressed={!selected.length}>
               <span className="flex items-baseline justify-between gap-2"><strong className="text-base font-medium">The book</strong><span className="text-xs text-muted">all {book.passages.length} passages</span></span>

@@ -1,19 +1,17 @@
-# NRC and JEV reader comparison
+# The JEV reader layer
 
-The sidebar sits under the document selector and contains the "How emotional is JEV" dial, an
-NRC-underlining switch, a fixed JEV-highlight legend, and all eight emotions enabled initially:
-anger, anticipation, disgust, fear, joy, sadness, surprise and trust. Colours are shared across
-both layers; the underline/background distinction carries meaning without relying on colour alone.
-Filled circles are enabled; hollow circles are hidden. Hover or keyboard focus reveals each name,
-and hovering the NRC legend explains what the lexicon is. Shared NRC words have segmented coloured
-underlines; shared JEV sentences have bands for every enabled suggested emotion, and hovering a
-highlighted sentence shows those emotion names as colour-banded chips. Opacity is fixed: these
-scores represent association confidence, not emotional intensity. Hiding every emotion hides both
-layers. The library character tracks remain name/alias baselines; the separate research editions
-retain human annotations.
+The sidebar sits under the document selector and contains the "How emotional is JEV" dial and all
+eight emotions enabled initially: anger, anticipation, disgust, fear, joy, sadness, surprise and
+trust. Filled circles are enabled; hollow circles are hidden. Hover or keyboard focus reveals each
+name. A JEV sentence carries bands for every enabled suggested emotion, and hovering it shows
+those emotion names as colour-banded chips, so colour is never the only carrier of meaning.
+Opacity is fixed: these scores represent association confidence, not emotional intensity. Hiding
+every emotion hides the layer. The library character tracks remain name/alias baselines; the
+separate research editions retain human annotations.
 
-**NRC underlines start off.** They mark dictionary-associated words from a fixed lexicon,
-regardless of context, negation or speaker.
+An NRC Emotion Lexicon underline layer previously ran alongside JEV in this reader. It was removed
+so the deploy needs no build-time download of a third-party lexicon and raises no redistribution
+question. NRC remains a baseline comparator in the research pipeline via `npm run affect:prepare`.
 
 **JEV highlighting is not a user switch.** It is on wherever the server has credentials, and off
 with an explanatory status line where it does not. JEV marks whole sentences using the direct
@@ -34,20 +32,29 @@ not a validated emotion map.
 ## On-demand inference
 
 Where JEV is available, an IntersectionObserver watches sentences within 160 pixels of the viewport.
-A 50ms scheduling delay avoids starting work on every fleeting scroll event. Only sentences
+A 180ms scheduling delay avoids starting work on every fleeting scroll event. Only sentences
 still nearby when a slot becomes available are scheduled. The client and server each permit at
 most six simultaneous requests. Hidden tabs stop scheduling. Changing editions stops scheduling and
 aborts pending browser requests. Up to six SDK requests already executing
 on the server can finish and populate cache; browser cancellation does not cancel that remote work.
 
 One SDK request scores all eight emotions for a sentence. Changing the visible emotions or the
-threshold dial does not make another request. Client results persist while toggling NRC; server disk cache survives
-reloads. Keys incorporate the source edition/text, display format, ICU version, lexicon, model,
-question and context. Identical concurrent server requests share a promise. Failures are not
+threshold dial does not make another request. Client results persist across those changes; server disk cache survives
+reloads. Keys incorporate the source edition/text, display format, ICU version, model, question
+and context. Dropping the lexicon advanced the display version, so fingerprints from before that
+change no longer match and their cached sentence scores are not reused.
+
+With `DATABASE_URL` set, the same key also addresses a shared Neon table, read after the local
+disk cache and before the model, so one reader's scored sentence is free for the next. A second
+table leases model slots: `readingRequestConcurrency` bounds one process, and the lease bounds
+every instance at once, which the per-process counter cannot do. Everything fails open — an
+unreachable store drops each instance back to its own limit rather than stopping analysis. Those
+rows are predictions in their own `reader-sentence-emotions-v1` namespace; benchmarks keep
+separate caches and run artifacts and never read from the table. Identical concurrent server requests share a promise. Failures are not
 negative predictions; a visible Retry analysis action retries only nearby failures. There are no
 automatic retries or whole-book model prefetches.
 
-Large metadata responses use revision-pinned JSON parts, and browser metadata omits server-only adjacent context and duplicate plan text. The metadata GET supports the selected catalog document via `layer=document:<id>` (and the independent `mentions`/`speaking` research editions). It reads local book/lexicon data and creates deterministic sentence plans. The
+Large metadata responses use revision-pinned JSON parts, and browser metadata omits server-only adjacent context and duplicate plan text. The metadata GET supports the selected catalog document via `layer=document:<id>` (and the independent `mentions`/`speaking` research editions). It reads the local prepared document and creates deterministic sentence plans. The
 POST accepts only a known edition, its source fingerprint and a sentence ID; text is reconstructed
 on the server. Invalid editions, stale versions, unknown sentences, malformed/oversized bodies and
 cross-origin browser requests are rejected. This is a local research app, not an authenticated
@@ -85,15 +92,8 @@ visible emotions appear. The per-sentence feedback capture that previously wrote
 
 ## Local use
 
-Prepare book data as usual, then build the NRC word lexicon the reader needs:
-
-```sh
-npm run reader:lexicon   # data/processed/reader-lexicon.json
-```
-
-`npm run affect:prepare` also writes it, together with the REMAN research corpus. The server reads
-`reader-lexicon.json` first and falls back to `affect.json`; with neither present, the metadata GET
-answers 503 with the command to run. Only the lexicon file is deployed — the REMAN corpus is not.
+Prepare book data as usual. The reader needs no affect data: the metadata GET builds sentence
+plans from the prepared document alone.
 For this sibling worktree, load the existing key without copying it into the worktree:
 
 ```sh
@@ -101,20 +101,18 @@ node --env-file=/Users/caiau/school/read-with-jev/.env \
   node_modules/next/dist/bin/next dev --webpack --hostname 127.0.0.1 --port 3101
 ```
 
-Webpack mode accommodates the shared node_modules symlink in this worktree. With no key, the NRC switch still works,
-the threshold dial is disabled, and no sentence is highlighted; the reader shows no separate
-status line for this. The server should be restarted if local
+Webpack mode accommodates the shared node_modules symlink in this worktree. With no key, the threshold dial is
+disabled and no sentence is highlighted; the reader shows no separate status line for this. The server should be restarted if local
 prepared data changes, because edition metadata is memoized for that process.
 
 ## Validation
 
-- Unit tests cover displayed-text reconstruction, emphasis, offsets, chapter boundaries,
-  lexicon associations, complete eight-category scores, and annotation-free requests.
+- Unit tests cover displayed-text reconstruction, emphasis, offsets, chapter boundaries, the
+  threshold dial, complete eight-category scores, and annotation-free requests.
 - `scripts/browser-emotions.ts` uses explicit mocked JEV responses to exercise viewport scheduling,
   the six-request bound, retry, emotion reuse, the threshold dial and its score reuse, the
   highlight hover guidance, keyboard focus on a marked sentence, the absence of any click
-  inspector, the NRC default-off state and its toggle, edition switching, desktop/mobile layouts
-  and invalid API requests. Screenshots from that test
+  inspector or layer switch, edition switching, desktop/mobile layouts and invalid API requests. Screenshots from that test
   illustrate UI states, not model results.
 - `scripts/browser-smoke.ts` preserves checks for existing character tracks and map navigation.
 - A single real SDK smoke call on the first reader sentence returned valid eight-category scores
