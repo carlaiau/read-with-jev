@@ -19,7 +19,7 @@ export async function GET(request:Request){
   if(Buffer.byteLength(body)>LIBRARY_INLINE_LIMIT)return Response.json({transport:'json-parts',documentId:layer,revision:data.sourceKey,parts:Math.ceil(body.length/LIBRARY_PART_CHARS)},{headers});
   return new Response(body,{headers:{...headers,'Content-Type':'application/json'}});
  }
- catch{return Response.json({error:'Emotion vocabulary is unavailable. Prepare the affect data on the server.'},{status:503});}
+ catch(e){return Response.json({error:e instanceof ReadingError?e.message:'Emotion vocabulary is unavailable. Run `npm run reader:lexicon` on the server.'},{status:e instanceof ReadingError?e.status:503});}
 }
 export async function POST(request:Request){
  if(!hasAllowedOrigin(request))return Response.json({error:'Origin not allowed.'},{status:403});

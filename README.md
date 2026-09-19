@@ -51,7 +51,18 @@ npm run dev
 Open http://127.0.0.1:3000. Downloads are pinned to exact revisions, checksummed, and kept in the
 ignored `data/raw/`. Preparation verifies sources and writes `data/processed/`.
 
-JEV highlighting needs a server-side key. Copy `.env.example` to `.env.local` and set
+The emotion layers need one more prepared file, the NRC word lexicon:
+
+```sh
+npm run reader:lexicon   # writes data/processed/reader-lexicon.json; needs Python 3
+```
+
+Without it the emotion endpoint answers `503 Emotion vocabulary is unavailable`. `npm run
+affect:prepare` writes it too, along with the REMAN research corpus; `reader:lexicon` is the
+lighter path that the deploy uses, and it reuses an existing `affect.json` instead of
+re-downloading.
+
+JEV highlighting also needs a server-side key. Copy `.env.example` to `.env.local` and set
 `TYPESAFE_API_KEY`. **The reader then requests paid emotion analysis for sentences near the
 viewport as you scroll.** Without a key the reader still runs; the emotion controls say so and NRC
 underlines remain available. No key ever reaches the browser.
@@ -81,6 +92,13 @@ npm run typecheck
 npm run build
 ```
 
+The social preview image at `app/opengraph-image.png` is a real screenshot of the running reader.
+Regenerate it after a visible UI change, with a local server running:
+
+```sh
+npm run og:capture
+```
+
 With a local server running and Google Chrome installed:
 
 ```sh
@@ -95,11 +113,26 @@ under `/tmp`.
 
 ## Deploying
 
-`netlify.toml` runs `npm run build:netlify`, prepares the checksum-locked library, and bundles its
-JSON in the native `library` function. Next is configured for standalone output with prepared-data
-tracing. Character preparation stays offline; the optional emotion endpoint performs bounded
-on-demand classification and needs prepared NRC data plus server credentials. A hosted worker queue
-and durable cache are later work. See [the hosting guide](docs/document-library.md).
+`netlify.toml` runs `npm run build:netlify`, which builds the reader lexicon, prepares the
+checksum-locked library, and then builds the app. The library JSON is bundled in the native
+`library` function; `data/processed/reader-lexicon.json` is traced into the `/api/emotions` route.
+Next is configured for standalone output with prepared-data tracing.
+
+Set these on the deploy:
+
+| Variable | Needed for |
+| --- | --- |
+| `TYPESAFE_API_KEY` | JEV highlighting. Without it the reader loads, the dial is disabled, and no sentence is highlighted. |
+| `NEXT_PUBLIC_SITE_URL` | Absolute Open Graph URLs, if the site is served from a domain other than Netlify's own `URL`. |
+
+The build downloads the pinned NRC Emotion Lexicon archive and bundles the word list into the
+server function. **Check the NRC licence before deploying publicly or commercially** — the reader
+only sends the subset of words that appear in the open document to the browser, but the full word
+list still ships inside the function. No REMAN research data is deployed.
+
+Character preparation stays offline; the emotion endpoint performs bounded on-demand
+classification. A hosted worker queue and durable cache are later work. See
+[the hosting guide](docs/document-library.md).
 
 ## Evaluation
 

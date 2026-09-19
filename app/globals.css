@@ -74,11 +74,10 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .emotion-picker { width: 100%; display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 0; margin-bottom: .45rem; }
 .emotion-toggle { width: 100%; min-height: 32px; }
 .emotion-controls .emotion-note { font-size: .75rem; }
-/* Keep every sidebar section reachable on short screens. */
-@media (max-height: 800px) {
-  #channels > nav { overflow-y: auto; }
-  #channels > nav > div { flex: none; overflow: visible; }
-}
+/* Keep every sidebar section reachable on short screens. The header and the character list each
+   scroll on their own, so the progress footer never leaves the viewport. Scrolling the whole nav
+   instead would push the footer thousands of pixels down once a long cast is listed. */
+#channels > nav > div:first-child { overflow-y: auto; }
 
 .progress-track { height: 5px; border-radius: 999px; background: color-mix(in srgb, var(--color-ink) 12%, transparent); overflow: hidden; }
 .progress-fill { height: 100%; border-radius: 999px; background: var(--color-ink); opacity: .55; transition: width 120ms linear; }

@@ -85,7 +85,15 @@ visible emotions appear. The per-sentence feedback capture that previously wrote
 
 ## Local use
 
-Prepare book data as usual and run `npm run affect:prepare` once if the NRC data is absent.
+Prepare book data as usual, then build the NRC word lexicon the reader needs:
+
+```sh
+npm run reader:lexicon   # data/processed/reader-lexicon.json
+```
+
+`npm run affect:prepare` also writes it, together with the REMAN research corpus. The server reads
+`reader-lexicon.json` first and falls back to `affect.json`; with neither present, the metadata GET
+answers 503 with the command to run. Only the lexicon file is deployed — the REMAN corpus is not.
 For this sibling worktree, load the existing key without copying it into the worktree:
 
 ```sh

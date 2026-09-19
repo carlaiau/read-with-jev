@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 import zipfile
@@ -35,6 +36,35 @@ def write_json(path, value):
     tmp = path.with_suffix('.tmp')
     tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
     os.replace(tmp, path)
+
+
+def nrc_lexicon():
+    nrc = load_archive('nrc')
+    lexicon = {}
+    for line in nrc.read('NRC-Emotion-Lexicon/NRC-Emotion-Lexicon-Wordlevel-v0.92.txt').decode('utf-8-sig').splitlines():
+        fields = line.split('\t')
+        if len(fields) != 3 or fields[2] not in ('0', '1'):
+            continue  # Release includes a prose header.
+        word, emotion, value = fields
+        if value == '1':
+            lexicon.setdefault(word, []).append(emotion)
+    assert len(lexicon) > 5000
+    return lexicon
+
+
+def reader_lexicon():
+    """Reader-only output: the NRC word associations, without any REMAN research corpus."""
+    url, sha256 = SOURCES['nrc']
+    prepared = Path('data/processed/affect.json')
+    if prepared.exists():
+        # A completed affect pass already verified the pinned archive; do not download it again.
+        lexicon, built_from = json.loads(prepared.read_text())['lexicon'], str(prepared)
+    else:
+        lexicon, built_from = nrc_lexicon(), url
+    assert len(lexicon) > 5000
+    write_json('data/processed/reader-lexicon.json',
+               {'version': 1, 'source': {'url': url, 'sha256': sha256}, 'builtFrom': built_from, 'lexicon': lexicon})
+    print(json.dumps({'path': 'data/processed/reader-lexicon.json', 'words': len(lexicon), 'builtFrom': built_from}, indent=2))
 
 
 def parse_document(node):
@@ -86,16 +116,7 @@ def main():
         if key in text_splits and text_splits[key] != document['split']:
             raise ValueError('Duplicate excerpt crosses split')
         text_splits[key] = document['split']
-    nrc = load_archive('nrc')
-    lexicon = {}
-    for line in nrc.read('NRC-Emotion-Lexicon/NRC-Emotion-Lexicon-Wordlevel-v0.92.txt').decode('utf-8-sig').splitlines():
-        fields = line.split('\t')
-        if len(fields) != 3 or fields[2] not in ('0', '1'):
-            continue  # Release includes a prose header.
-        word, emotion, value = fields
-        if value == '1':
-            lexicon.setdefault(word, []).append(emotion)
-    assert len(lexicon) > 5000
+    lexicon = nrc_lexicon()
     audit = {'version': 1, 'sourceDocuments': len(root), 'retainedDocuments': len(documents),
              'quarantinedDocuments': len(quarantine), 'quarantineIssues': dict(collections.Counter(i['reason'] for q in quarantine for i in q['issues'])),
              'splits': dict(collections.Counter(d['split'] for d in documents)),
@@ -104,8 +125,10 @@ def main():
     payload = {'version': 1, 'sources': {k: {'url': v[0], 'sha256': v[1]} for k, v in SOURCES.items()}, 'documents': documents, 'lexicon': lexicon}
     write_json('data/processed/affect.json', payload)
     write_json('data/processed/affect-audit.json', audit)
+    reader_lexicon()
     print(json.dumps({k: v for k, v in audit.items() if k != 'quarantine'}, indent=2))
 
 
 if __name__ == '__main__':
-    main()
+    # The deploy only needs the reader lexicon; the full pass also pulls the REMAN research corpus.
+    reader_lexicon() if '--lexicon-only' in sys.argv[1:] else main()

@@ -8,6 +8,14 @@ import {createClient,validateAnswers} from './jev';
 import {passageInstructions} from './affect-passage-request';
 export const readingModel='jev-1.13.0';
 const books=new Map<string,Promise<Awaited<ReturnType<typeof load>>>>();
+/** A deploy ships only the reader lexicon; a full local affect pass satisfies this too. */
+async function affectLexicon(){
+ for(const path of ['data/processed/reader-lexicon.json','data/processed/affect.json']){
+  try{return (await readJson<{lexicon:Record<string,string[]>}>(path)).lexicon;}
+  catch(e){if((e as NodeJS.ErrnoException).code!=='ENOENT')throw e;}
+ }
+ throw new ReadingError('Emotion vocabulary is unavailable. Run `npm run reader:lexicon` on the server.',503);
+}
 async function load(layer:string){
  let path=`data/processed/${layer}.json`;
  if(layer.startsWith('document:')){
@@ -16,9 +24,9 @@ async function load(layer:string){
   path=`data/library/${id}.json`;
  }
  const raw=await readFile(path,'utf8'),book=JSON.parse(raw) as Book;
- const affect=await readJson<{lexicon:Record<string,string[]>}>('data/processed/affect.json');
+ const associations=await affectLexicon();
  const plans=readingPlans(book),words=new Set(plans.flatMap(p=>[...p.text.matchAll(/[a-z]+(?:'[a-z]+)?/gi)].map(m=>m[0].toLowerCase())));
- const lexicon=Object.fromEntries(Object.entries(affect.lexicon).filter(([word])=>words.has(word)));
+ const lexicon=Object.fromEntries(Object.entries(associations).filter(([word])=>words.has(word)));
  return {sourceKey:digest(JSON.stringify({raw,displayVersion:2,sentenceSegmentationVersion,icu:process.versions.icu,model:readingModel,instructions:passageInstructions,lexicon})),plans,lexicon,model:readingModel,threshold:readingThreshold};
 }
 export function validReadingSource(value:unknown):value is string {return typeof value==='string'&&(['mentions','speaking'].includes(value)||/^document:[a-z0-9-]{1,80}$/.test(value));}

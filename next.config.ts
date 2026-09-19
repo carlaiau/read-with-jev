@@ -6,7 +6,7 @@ const config: NextConfig = {
   '/\\[book\\]': ['./data/library/catalog.json'],
   '/api/library': ['./data/library/*.json'],
   '/api/book': ['./data/processed/mentions.json', './data/processed/speaking.json'],
-  '/api/emotions': ['./data/library/*.json', './data/processed/mentions.json', './data/processed/speaking.json', './data/processed/affect.json'],
+  '/api/emotions': ['./data/library/*.json', './data/processed/mentions.json', './data/processed/speaking.json', './data/processed/reader-lexicon.json', './data/processed/affect.json'],
  },
 };
 export default config;
