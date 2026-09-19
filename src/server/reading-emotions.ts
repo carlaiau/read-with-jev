@@ -52,7 +52,11 @@ export async function readingScores(layer:string,sourceKey:string,sentence:Readi
  const local=await diskScores(key);if(local)return local;
  const shared=await storedScores(key);if(shared)return shared;
  if(!process.env.TYPESAFE_API_KEY)throw new ReadingError('JEV is not configured on this server.',503);
- if(inFlight>=readingRequestConcurrency)throw new ReadingError('JEV is busy. Retry in a moment.',429);
+ // The browser and the server share a default, but a bulk warm run needs a higher server-side
+ // ceiling than a single reader's viewport does.
+ const processLimit=Number(process.env.JEV_SERVER_CONCURRENCY);
+ if(inFlight>=(Number.isInteger(processLimit)&&processLimit>0?processLimit:readingRequestConcurrency))
+  throw new ReadingError('JEV is busy. Retry in a moment.',429);
  const task=(async()=>{inFlight++;let lease;try{
   // inFlight bounds this process; the lease bounds every instance at once. With no store to
   // ask, the per-process bound is the only one, which is the local-development case.
@@ -61,9 +65,13 @@ export async function readingScores(layer:string,sourceKey:string,sentence:Readi
   const response=await createClient().systemOne(request),answers=validateAnswers(response,Object.keys(request.questions));
   const scores=Object.fromEntries(readingEmotions.map((e,i)=>[e,answers[`q${i}`]])) as EmotionScores;
   await storeScores({cacheKey:key,layer,sentenceId:sentence.id,sourceKey,model:readingModel,scores});
-  // A read-only serverless filesystem must not fail a call the model has already answered and billed.
-  try{await writeJson(path,{task:'reader-sentence-emotions-v1',sourceKey,key,createdAt:new Date().toISOString(),request,response,scores});}
-  catch(error){console.warn('Reader emotion cache write failed; the score is still served.',error);}
+  // A read-only serverless filesystem must not fail a call the model has already answered and
+  // billed. A bulk warm run skips this entirely: the shared store is the destination, and a
+  // quarter of a million local copies would cost gigabytes for nothing.
+  if(process.env.JEV_SKIP_DISK_CACHE!=='1'){
+   try{await writeJson(path,{task:'reader-sentence-emotions-v1',sourceKey,key,createdAt:new Date().toISOString(),request,response,scores});}
+   catch(error){console.warn('Reader emotion cache write failed; the score is still served.',error);}
+  }
   return scores;
  }finally{inFlight--;if(lease&&lease!=='busy')await releaseModelSlot(lease);}})();active.set(key,task);try{return await task;}finally{active.delete(key);}
 }

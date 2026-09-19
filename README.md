@@ -34,7 +34,9 @@ come with redistributing one. The research pipeline still uses NRC as a baseline
 `npm run affect:prepare`.
 
 The UI uses Tailwind CSS v4 and the supplied Catalyst kit in `src/catalyst/typescript`. On mobile,
-the characters panel and the book map collapse behind buttons. The bundled Catalyst demo is excluded
+the left column splits into three drawers — Config, Characters and Map — opened one at a time from
+the header; the narrow book-map strip stays visible behind Characters so a selection registers on
+the map straight away. The bundled Catalyst demo is excluded
 from the application typecheck and the Tailwind scan.
 
 ## Start locally

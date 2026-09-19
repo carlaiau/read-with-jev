@@ -36,7 +36,8 @@ try{
  await expect(page.locator('[data-jev-highlight]')).toHaveCount(0);await expect(page.getByText('All emotions hidden. Enable a circle to show its highlights.')).toBeVisible();
  for(const emotion of readingEmotions)await page.getByRole('button',{name:emotion[0].toUpperCase()+emotion.slice(1),exact:true}).click();
  await page.getByRole('button',{name:'Trust',exact:true}).blur();
- const controls=await page.locator('#channels .emotion-controls').boundingBox(),documentPicker=await page.getByLabel('Document',{exact:true}).boundingBox();assert(controls&&documentPicker&&documentPicker.y+documentPicker.height<controls.y,'The document picker sits under the title, above the emotion controls');
+ const controls=await page.locator('#config-panel .emotion-controls').boundingBox(),documentPicker=await page.getByLabel('Document',{exact:true}).boundingBox();assert(controls&&documentPicker&&documentPicker.y+documentPicker.height<controls.y,'The document picker sits above the emotion controls');
+ assert.equal(await page.locator('#channels .emotion-controls').count(),0,'Config lives apart from the character list');
  await expect(page.locator('#reading-text .emotion-controls')).toHaveCount(0);
  await page.screenshot({path:'/tmp/affect-reader-desktop.png'});
  await page.locator('[data-jev-highlight]').first().click();await expect(page.getByLabel('Emotion inspection',{exact:true})).toHaveCount(0);
@@ -58,12 +59,28 @@ try{
  await page.getByLabel('Document',{exact:true}).selectOption('alice-in-wonderland');await expect(page.locator('.passage')).toHaveCount(75);await expect.poll(()=>calls.some(c=>c.layer==='document:alice-in-wonderland')).toBe(true);
  await page.setViewportSize({width:390,height:844});await page.goto(base);await page.locator('[data-emotion-id]').last().waitFor();await expect(page.locator('[data-jev-highlight]').first()).toBeVisible();
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'/tmp/affect-reader-mobile.png'});
- await page.getByRole('button',{name:'Characters',exact:true}).click();await expect(page.getByRole('group',{name:'Visible emotions'})).toBeVisible();await expect(page.locator('#channels .channel-card').first()).toBeVisible();await expect(page.getByRole('button',{name:'Next passage'})).toBeVisible();await page.getByRole('button',{name:'Fear',exact:true}).click();await expect(page.getByRole('button',{name:'Fear',exact:true})).toHaveAttribute('aria-pressed','false');await page.screenshot({path:'/tmp/affect-reader-mobile-sidebar.png'});await page.getByRole('button',{name:'Close characters'}).click();
+ // Three mobile drawers: config, characters, map. Only characters keeps the map strip visible.
+ const strip=()=>page.locator('#book-map').evaluate(el=>el.getBoundingClientRect().width);
+ await page.getByRole('button',{name:'Config',exact:true}).click();
+ await expect(page.getByRole('group',{name:'Visible emotions'})).toBeVisible();
+ await expect(page.getByLabel('How emotional is JEV',{exact:true})).toBeVisible();
+ await expect(page.getByLabel('Document',{exact:true})).toBeVisible();
+ assert.equal(await strip(),0,'Config hides the preview map');
+ await page.getByRole('button',{name:'Fear',exact:true}).click();await expect(page.getByRole('button',{name:'Fear',exact:true})).toHaveAttribute('aria-pressed','false');
+ await page.screenshot({path:'/tmp/affect-reader-mobile-config.png'});
+ await page.getByRole('button',{name:'Close config'}).click();
+ await page.getByRole('button',{name:'Characters',exact:true}).click();
+ await expect(page.locator('#channels .channel-card').first()).toBeVisible();
+ await expect(page.getByRole('button',{name:'Next passage'})).toBeVisible();
+ await expect(page.locator('#channels .emotion-controls')).toHaveCount(0);
+ assert(await strip()>0,'The characters drawer keeps the preview map visible');
+ await page.screenshot({path:'/tmp/affect-reader-mobile-sidebar.png'});
+ await page.getByRole('button',{name:'Close characters'}).click();
  await page.getByRole('button',{name:'Map',exact:true}).click();await expect(page.locator('#book-map .progress-track')).toBeVisible();await expect(page.locator('#book-map').getByText('Source and research notes on GitHub')).toBeVisible();await page.getByRole('button',{name:'Close map'}).click();
  await page.setViewportSize({width:320,height:740});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  assert.equal((await page.request.post(`${base}/api/emotions`,{headers:{Origin:base},data:{}})).status(),400);
  assert.equal((await page.request.post(`${base}/api/emotions`,{headers:{Origin:'https://foreign.example'},data:{}})).status(),403);
  assert.equal((await page.request.get(`${base}/api/emotions?layer=../../.env`)).status(),400);
  assert.equal((await page.request.post(`${base}/api/emotions`,{data:{layer:'mentions',sourceKey:'stale',sentenceId:'bad'}})).status(),409);
- assert.deepEqual(errors,[]);console.log(JSON.stringify({status:'passed',mockedJev:true,calls:calls.length,maxConcurrent:maxActive,checks:'viewport queue, retry, reuse, emotionality dial, highlight tooltip, no click inspector, no NRC layer, editions, desktop/mobile, API validation'}));
+ assert.deepEqual(errors,[]);console.log(JSON.stringify({status:'passed',mockedJev:true,calls:calls.length,maxConcurrent:maxActive,checks:'viewport queue, retry, reuse, emotionality dial, highlight tooltip, no click inspector, no NRC layer, mobile config/characters/map drawers, editions, desktop/mobile, API validation'}));
 }finally{await browser.close();}

@@ -1,6 +1,13 @@
 # The JEV reader layer
 
-The sidebar sits under the document selector and contains the "How emotional is JEV" dial and all
+On desktop the left column stacks the book title, a configuration block and the character list.
+On mobile those become three separate drawers — Config, Characters and Map — opened from the
+header, one at a time. Config holds the document selector, the dial and the emotion circles;
+Characters holds the cast and the jump controls. The narrow book-map strip stays visible behind
+the Characters drawer, so a selection shows up on the map immediately, and is hidden behind
+Config, where it would only be noise.
+
+The configuration block contains the "How emotional is JEV" dial and all
 eight emotions enabled initially: anger, anticipation, disgust, fear, joy, sadness, surprise and
 trust. Filled circles are enabled; hollow circles are hidden. Hover or keyboard focus reveals each
 name. A JEV sentence carries bands for every enabled suggested emotion, and hovering it shows

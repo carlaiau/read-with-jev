@@ -13,7 +13,7 @@ import { Checkbox, CheckboxField } from '../src/catalyst/typescript/checkbox';
 import { Field, Label } from '../src/catalyst/typescript/fieldset';
 import { Select } from '../src/catalyst/typescript/select';
 import { Radio, RadioField, RadioGroup } from '../src/catalyst/typescript/radio';
-import { Sidebar, SidebarHeader, SidebarBody, SidebarFooter } from '../src/catalyst/typescript/sidebar';
+import { Sidebar, SidebarHeader, SidebarFooter } from '../src/catalyst/typescript/sidebar';
 import { CharacterRail, chapterActivity, Sparkline } from './reader-charts';
 
 const colors = ['#b64c68', '#27818d', '#7a65a4', '#ac7b1b', '#577b64', '#bd7047'];
@@ -46,6 +46,8 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
   // Each mobile drawer covers the reading column, so only one may be open at a time.
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mapOpen, setMapOpen] = useState(false);
+  const [configOpen, setConfigOpen] = useState(false);
+  const closeDrawers = () => { setMobileOpen(false); setMapOpen(false); setConfigOpen(false); };
   useEffect(() => {
     const controller = new AbortController(); setBook(null); setError(''); setCurrent(0); setSelected([]); setMatchMode('any');
     loadLibraryDocument<Book & Partial<LibraryDocument>>(`/.netlify/functions/library?document=${encodeURIComponent(documentId)}`, controller.signal).then(data => {
@@ -87,45 +89,58 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
   const matches = book?.passages.map((p, i) => !selected.length || (requireAll ? selected.every(id => p.labels.includes(id)) : selected.some(id => p.labels.includes(id))) ? i : -1).filter(i => i >= 0) ?? [];
   function jump(index: number | undefined) {
     if (index === undefined) return;
-    setMobileOpen(false); setMapOpen(false); setCurrent(index);
+    closeDrawers(); setCurrent(index);
     document.getElementById(`passage-${index}`)?.scrollIntoView({ behavior: 'instant', block: 'start' });
   }
   const previous = matches.filter(i => i < current).at(-1), next = matches.find(i => i > current);
   const toggle = (id: string) => setSelected(ids => ids.includes(id) ? ids.filter(v => v !== id) : [...ids, id]);
   const progress = book ? Math.round((book.passages[current]?.start ?? 0) / book.text.length * 100) : 0;
-  // Both panels stay fixed at every width; only their box and visibility change with the breakpoint.
-  const drawer = 'block inset-x-0 top-16 bottom-0';
+  // On mobile each section is its own overlay; on desktop they stack inside one fixed column.
+  // The characters drawer keeps the map strip visible, so it stops short of it (right-10).
+  const drawerBox = 'fixed inset-x-0 top-16 bottom-0 z-30 bg-panel lg:static lg:inset-auto lg:z-auto';
 
   return <EmotionComparison key={documentId} layer={`document:${documentId}`} ready={!!book}><div className="min-h-screen bg-paper text-ink">
     <a href="#reading-text" className="sr-only z-50 rounded bg-white p-3 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Skip to book</a>
     <header className="fixed left-0 right-10 top-0 z-40 flex h-16 items-center justify-between gap-2 border-b border-rule bg-panel px-5 lg:hidden">
       <span className="min-w-0 truncate font-serif text-lg">{title}</span>
-      <div className="flex shrink-0 items-center gap-2">
-        <Button outline aria-expanded={mobileOpen} aria-controls="channels" onClick={() => { setMobileOpen(!mobileOpen); setMapOpen(false); }}>{mobileOpen ? 'Close characters' : 'Characters'}</Button>
-        <Button outline aria-expanded={mapOpen} aria-controls="book-map" onClick={() => { setMapOpen(!mapOpen); setMobileOpen(false); }}>{mapOpen ? 'Close map' : 'Map'}</Button>
+      <div className="flex shrink-0 items-center gap-1.5">
+        {/* Three drawers plus a title do not fit a 320px header, so the labels stay compact and
+            an open drawer shortens to "Close" while keeping its full accessible name. */}
+        {([['Config', configOpen, setConfigOpen, 'config-panel'],
+           ['Characters', mobileOpen, setMobileOpen, 'channels'],
+           ['Map', mapOpen, setMapOpen, 'book-map']] as const).map(([label, open, setOpen, controls]) =>
+          <Button key={label} outline aria-expanded={open} aria-controls={controls}
+            aria-label={open ? `Close ${label.toLowerCase()}` : label}
+            className="px-2.5! py-1.5! text-xs!"
+            onClick={() => { const next = !open; closeDrawers(); setOpen(next); }}>{open ? 'Close' : label}</Button>)}
       </div>
     </header>
 
-    <aside id="channels" className={`fixed z-30 border-r border-rule bg-panel ${mobileOpen ? drawer : 'hidden'} lg:block lg:inset-x-auto lg:top-0 lg:bottom-0 lg:left-0 lg:w-[300px] xl:w-[336px]`}>
-      <Sidebar aria-label="Book and characters">
-        <SidebarHeader className="px-6! pt-7! pb-5! lg:pt-10!">
-          <h1 className="font-serif text-[27px] leading-tight tracking-tight"><a href={documentPath(documentInfo)}>{title}</a></h1>
-          <p className="mt-2 font-serif text-lg italic text-muted">{documentInfo?.author ?? 'Unknown author'}{documentInfo?.year ? ` · ${documentInfo.year}` : ''}</p>
-          <Field className="mt-4">
-            <Label>Document</Label>
-            <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => {
-              const nextDocument = documents.find(document => document.documentId === e.target.value);
-              if (!nextDocument || nextDocument.documentId === documentId) return;
-              setSelected([]); setMatchMode('any'); setMobileOpen(false);
-              router.push(documentPath(nextDocument));
-            }} className="mt-2">
-              {!documents.length && <option value={documentId}>{displayBookTitle(documentInfo.title)}</option>}
-              {documents.map(d => <option key={d.documentId} value={d.documentId}>{displayBookTitle(d.title)}</option>)}
-            </Select>
-          </Field>
-          <EmotionControls />
-        </SidebarHeader>
-        <SidebarBody className="gap-2 px-5! pt-0!">
+    {/* One fixed column on desktop; on mobile each section is an independent drawer. */}
+    <div className="lg:fixed lg:inset-y-0 lg:left-0 lg:z-30 lg:flex lg:w-[300px] lg:flex-col lg:border-r lg:border-rule lg:bg-panel xl:w-[336px]">
+      <div className="hidden shrink-0 px-6 pb-5 pt-10 lg:block">
+        <h1 className="font-serif text-[27px] leading-tight tracking-tight"><a href={documentPath(documentInfo)}>{title}</a></h1>
+        <p className="mt-2 font-serif text-lg italic text-muted">{documentInfo?.author ?? 'Unknown author'}{documentInfo?.year ? ` · ${documentInfo.year}` : ''}</p>
+      </div>
+
+      <div id="config-panel" aria-label="Reading configuration" className={`${configOpen ? `${drawerBox} block overflow-y-auto px-6 py-6` : 'hidden'} lg:block lg:overflow-visible lg:px-6 lg:pb-5 lg:pt-0`}>
+        <Field>
+          <Label>Document</Label>
+          <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => {
+            const nextDocument = documents.find(document => document.documentId === e.target.value);
+            if (!nextDocument || nextDocument.documentId === documentId) return;
+            setSelected([]); setMatchMode('any'); closeDrawers();
+            router.push(documentPath(nextDocument));
+          }} className="mt-2">
+            {!documents.length && <option value={documentId}>{displayBookTitle(documentInfo.title)}</option>}
+            {documents.map(d => <option key={d.documentId} value={d.documentId}>{displayBookTitle(d.title)}</option>)}
+          </Select>
+        </Field>
+        <EmotionControls />
+      </div>
+
+      <nav id="channels" aria-label="Characters" className={`${mobileOpen ? `${drawerBox} right-10 flex flex-col` : 'hidden'} lg:flex lg:min-h-0 lg:flex-1 lg:flex-col lg:border-t lg:border-rule`}>
+        <div className="flex min-h-0 flex-1 flex-col gap-2 overflow-y-auto px-5">
           <div className="sticky top-0 z-10 flex items-center justify-between bg-panel px-2 pb-2 pt-4"><h2 className="text-sm font-semibold text-muted">Characters</h2><Button plain className="text-xs! text-muted!" onClick={() => setSelected([])}>Clear</Button></div>
           {book && <>
             <button className={`channel-card w-full shrink-0 cursor-pointer rounded-lg border p-3 text-left ${!selected.length ? 'border-rule bg-ink/5' : 'border-transparent hover:bg-ink/3'}`} onClick={() => setSelected([])} aria-pressed={!selected.length}>
@@ -138,8 +153,8 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
               <div className="col-span-2" data-channel-id={c.id}><Sparkline values={c.activity} color={colorFor(c.id)} /></div>
             </CheckboxField>)}
           </>}
-        </SidebarBody>
-        <SidebarFooter className="gap-4 px-6! py-5!">
+        </div>
+        <div className="flex shrink-0 flex-col gap-4 border-t border-rule px-6 py-5">
           <div className="flex items-center gap-4">
             <h2 className="shrink-0 text-sm font-semibold">Jump to</h2>
             {selected.length > 1 && <RadioGroup aria-label="Match passages" value={matchMode} onChange={setMatchMode} className="flex items-center gap-4 space-y-0!">
@@ -148,7 +163,7 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
             </RadioGroup>}
           </div>
           {requireAll && matches.length === 0 && <p role="status" className="text-sm text-muted">No passages include all selected characters. Try fewer characters or another layer.</p>}
-          
+          <div className="flex items-center gap-3 text-sm text-muted"><span className="h-3 w-7 rounded-xs" style={{ background: activeColor }} />{baseline ? 'Name matches' : mentionLayer ? 'Annotated references' : 'Spoken aloud'}</div>
           <div className="flex items-center gap-2">
             <Button outline aria-label="Previous passage" title="Previous passage" disabled={previous === undefined} onClick={() => jump(previous)} className="size-9 shrink-0 items-center! p-0!">
               <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="size-5"><path d="M19 12H5m7-7-7 7 7 7" /></svg>
@@ -158,9 +173,9 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
             </Button>
             <p className="ml-1 text-xs text-muted" aria-live="polite">{matches.length} passages</p>
           </div>
-        </SidebarFooter>
-      </Sidebar>
-    </aside>
+        </div>
+      </nav>
+    </div>
 
     <main id="reading-text" className="reading-column mr-12 min-w-0 px-6 pt-24 pb-24 sm:px-10 lg:ml-[300px] lg:mr-[250px] lg:px-10 lg:pt-10 xl:ml-[336px] xl:mr-[280px] xl:px-16">
       <div className="mx-auto max-w-[860px]">
@@ -186,7 +201,7 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
       </div>
     </main>
 
-    <aside id="book-map" className={`fixed z-30 bg-panel ${mapOpen ? drawer : 'block inset-y-0 right-0 w-10'} lg:inset-x-auto lg:top-0 lg:bottom-0 lg:right-0 lg:left-auto lg:w-[250px] lg:border-l lg:border-rule xl:w-[280px]`}>
+    <aside id="book-map" className={`fixed z-30 bg-panel ${mapOpen ? 'block inset-x-0 top-16 bottom-0' : configOpen ? 'hidden' : 'block inset-y-0 right-0 w-10'} lg:block lg:inset-x-auto lg:top-0 lg:bottom-0 lg:right-0 lg:left-auto lg:w-[250px] lg:border-l lg:border-rule xl:w-[280px]`}>
       <Sidebar aria-label="Book map">
         <SidebarHeader className={`${mapOpen ? '' : 'hidden'} shrink-0 px-5! pt-5! pb-3! lg:flex lg:pt-8!`}>
           <h2 className="text-sm font-semibold text-muted">Book map</h2>
