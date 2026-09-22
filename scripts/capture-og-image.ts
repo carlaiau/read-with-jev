@@ -11,11 +11,11 @@ try{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(base,{waitUntil:'load'});
  await page.locator('.passage').last().waitFor();
- await page.getByRole('checkbox',{name:'Elizabeth Bennet',exact:false}).check();
+ await page.getByRole('checkbox',{name:'Rodion Raskolnikov',exact:false}).check();
  await page.locator('.rail-curve').first().waitFor();
  // JEV analyses the viewport on demand; give cached or live scores a bounded chance to land.
  const highlights=await page.locator('[data-jev-highlight]').first().waitFor({timeout:45_000}).then(()=>true,()=>false);
- await page.getByRole('checkbox',{name:'Elizabeth Bennet',exact:false}).blur();
+ await page.getByRole('checkbox',{name:'Rodion Raskolnikov',exact:false}).blur();
  await page.mouse.move(1199,629);
  await page.evaluate(()=>{for(const el of document.querySelectorAll('#channels nav > div'))el.scrollTop=0;});
  // Bring a real highlighted sentence into the cropped frame rather than advertising an empty page.

@@ -4,7 +4,7 @@ import {chromium, type Page} from '@playwright/test';
 import {mkdir, rm, writeFile} from 'node:fs/promises';
 const base=process.env.READER_URL??'http://127.0.0.1:3000';
 const dir=process.env.FRAME_DIR??'data/runs/demo-frames';
-const W=1280,H=800,CAST=['Elizabeth Bennet','Jane Bennet']  // adjacent in the list, so both stay visible on screen;
+const W=1280,H=800,CAST=['Rodion Raskolnikov','Dmitri Razumihin']  // adjacent in the list, so both stay visible on screen;
 await rm(dir,{recursive:true,force:true});await mkdir(dir,{recursive:true});
 
 const browser=await chromium.launch({channel:'chrome',headless:true});
