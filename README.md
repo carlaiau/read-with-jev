@@ -28,6 +28,12 @@ never issues a new model request, and a position on it is not a calibration clai
 The eight emotion circles can be toggled independently, and every highlight names its emotions in
 text on hover, so colour is never the only carrier of meaning. Full-book spoilers throughout.
 
+**Your text.** The paste-in reader at `/your-text` sits beside the book library. Paste or edit up to
+20,000 characters; CodeMirror keeps the text editable while JEV analyses nearby sentences as you
+scroll. Its overview counts only completed sentences and recalculates when the emotion threshold
+changes. Guests keep a draft in this browser tab through sign-in. With a configured account,
+texts autosave privately and can be reopened, renamed, edited, and deleted from “My texts.”
+
 An NRC Emotion Lexicon underline layer used to sit alongside this. It was removed to keep the
 deploy free of a build-time download of a third-party lexicon and of the licensing questions that
 come with redistributing one. The research pipeline still uses NRC as a baseline comparator; see
@@ -110,6 +116,7 @@ With a local server running and Google Chrome installed:
 ```sh
 npm run test:browser          # selection, navigation, document switching, mobile overflow
 npm run test:library:browser
+npm run test:text:browser    # mocked JEV, desktop and mobile paste-in reader
 READER_URL=http://127.0.0.1:3000 node --import tsx scripts/browser-emotions.ts
 READER_URL=http://127.0.0.1:3000 node --import tsx scripts/browser-document-state.ts
 ```
@@ -119,17 +126,40 @@ under `/tmp`.
 
 ## Deploying
 
-`netlify.toml` runs `npm run build:netlify`, which prepares the checksum-locked library and then
-builds the app. The library JSON is bundled in the native `library` function, and Next is
-configured for standalone output with prepared-data tracing. The build downloads nothing from a
-third party beyond the pinned, checksummed Gutenberg sources the library already uses.
+`netlify.toml` runs `npm run build:netlify`, which prepares the checksum-locked library, applies
+the idempotent reader-cache and private-text schemas to `DATABASE_URL`, and then builds the app.
+A failed migration stops the deploy. The library JSON is bundled in the native `library` function,
+and Next is configured for standalone output with prepared-data tracing. Library preparation uses only the
+pinned, checksummed Gutenberg sources; schema preparation contacts the configured Neon database.
+Set a branch-specific `DATABASE_URL` for deploy previews, since the build applies schema to the
+database in that variable.
 
 Set these on the deploy:
 
 | Variable | Needed for |
 | --- | --- |
 | `TYPESAFE_API_KEY` | JEV highlighting. Without it the reader loads, the dial is disabled, and no sentence is highlighted. |
+| `DATABASE_URL` | Pooled Neon connection for deploy-time schema preparation, private texts, guest allowance, and the shared reader cache. |
 | `NEXT_PUBLIC_SITE_URL` | Absolute Open Graph URLs, if the site is served from a domain other than Netlify's own `URL`. |
+| `NEON_AUTH_BASE_URL` and `NEON_AUTH_COOKIE_SECRET` | Neon Auth sessions for private saved texts. |
+| `GUEST_COOKIE_SECRET` | Signs the guest allowance identity cookie. Use a random value of at least 32 characters. |
+
+### Private texts and guest allowance
+
+Create an isolated Neon branch, point `DATABASE_URL` at its pooled connection, and run
+`npm run texts:prepare` there first. Verify `user_texts`, `custom_text_scores`, and
+`guest_jev_usage` before deploying. The deployment build applies the same idempotent schema to
+its configured database. Provision Neon Auth for the project, enable email/password, add the local
+and deployed origins as trusted domains,
+and set the Auth base URL and a random cookie secret. Enable account saves in deployment only
+after those steps. The auth and text routes fail closed when their backing services are missing.
+
+Saved text bodies live in `user_texts`, with every read and mutation constrained by the Auth user
+ID. Custom emotion scores are predictions in a separate table, keyed by a digest of the sentence,
+neighbors, model, and task; raw guest text and requests never enter the reader's disk cache.
+The server signs a persistent guest identity cookie and atomically reserves one of 1,000 calls
+for each new JEV request. Cache hits are free. If the quota store cannot be reached, new guest
+analysis pauses. Clearing the cookie can reset the identity, so this is a practical usage limit.
 
 No research dataset and no third-party lexicon is deployed. Character preparation stays offline;
 the emotion endpoint performs bounded on-demand classification.

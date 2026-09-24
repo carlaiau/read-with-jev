@@ -66,10 +66,13 @@ await page.evaluate(()=>{
 const dial=(await page.locator('#emotion-dial').boundingBox())!;
 const trackY=dial.y+dial.height/2,left=dial.x+8,right=dial.x+dial.width-8,mid=left+(right-left)*.5;
 // The tooltip sits above the sentence, so only the top of a wrapped highlight has to be clear.
+// A multi-line sentence's boundingBox unions every line, so a point inside it can land on a
+// neighbouring sentence's line instead; the first line's own rect keeps the hover point on-target.
 const onScreen=async()=>{
  for(const handle of await page.locator('[data-jev-highlight]').all()){
-  const box=await handle.boundingBox();
-  if(box&&box.y>170&&box.y<H-70)return box;
+  const rects=await handle.evaluate(el=>[...el.getClientRects()].map(r=>({x:r.x,y:r.y,width:r.width,height:r.height})));
+  const rect=rects.find(r=>r.y>170&&r.y<H-70&&r.width>60);
+  if(rect)return rect;
  }
  return undefined;
 };
@@ -80,9 +83,9 @@ await scroll(1150,46);                 // read down; highlights and the map mark
 await shoot(90,8);
 const target=await onScreen();
 let from:[number,number]=[860,470];
-if(target){                            // hover one highlight for the emotions behind it
+if(target){                            // hover one highlight; hold well past the tooltip's fade-in so it can be read
  const hover:[number,number]=[target.x+target.width*.35,target.y+16];
- await glide(from,hover,16);await page.waitForTimeout(220);await shoot(110,14);from=hover;
+ await glide(from,hover,16);await page.waitForTimeout(350);await shoot(140,30);from=hover;
 }
 await glide(from,[mid,trackY],16);     // then the dial: loosen it and highlights bloom
 await page.mouse.down();

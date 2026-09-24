@@ -1,6 +1,7 @@
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 const baseURL = process.env.READER_URL ?? 'http://127.0.0.1:3000';
+const bookURL = new URL('/1342-pride-and-prejudice', baseURL).toString();
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
@@ -8,7 +9,7 @@ try {
   page.on('pageerror', error => errors.push(error.message));
   await page.route('**/api/emotions?*',route=>route.fulfill({json:{sourceKey:'navigation-fixture',plans:[],jevAvailable:false,model:'fixture',threshold:.6}}));
   await page.route('**/api/emotions',route=>route.fulfill({status:503,json:{error:'Model calls disabled in navigation tests.'}}));
-  await page.goto(baseURL);
+  await page.goto(bookURL);
   await page.locator('.passage').last().waitFor();
   const book = await (await page.request.get(`${baseURL}/.netlify/functions/library?document=pride-and-prejudice`)).json();
   assert.equal(await page.locator('.passage').count(), book.passages.length);
@@ -71,7 +72,7 @@ try {
   await page.mouse.click(rail.x + rail.width / 2, rail.y + rail.height / 2);
   assert(Number(await slider.getAttribute('aria-valuenow')) > 100);
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto(baseURL);
+  await page.goto(bookURL);
   await page.locator('.passage').last().waitFor();
   await page.getByRole('button', { name: 'Characters', exact: true }).click();
   await page.getByRole('button', { name: 'Close characters' }).click();

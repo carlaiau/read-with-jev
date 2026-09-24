@@ -124,6 +124,7 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
       </div>
 
       <div id="config-panel" aria-label="Reading configuration" className={`${configOpen ? `${drawerBox} block overflow-y-auto px-6 py-6` : 'hidden'} lg:block lg:overflow-visible lg:px-6 lg:pb-5 lg:pt-0`}>
+        <div className="mb-5 flex items-center gap-3 text-sm"><span className="font-semibold text-ink">Book library</span><span className="text-rule" aria-hidden="true">/</span><a className="text-muted underline underline-offset-4" href="/your-text">Your text</a></div>
         <Field>
           <Label>Document</Label>
           <Select aria-label="Document" value={documentId} disabled={!documents.length} onChange={e => {

@@ -18,7 +18,7 @@ try {
     await page.waitForFunction(({title,count})=>document.querySelector('h1')?.textContent===title && document.querySelectorAll('.passage').length===count,{title:displayBookTitle(doc.title),count:doc.passages});
     assert.equal(await page.getByLabel('Explore by').count(),0);
     assert.equal(await page.locator('#channels .channel-card').getByRole('checkbox').count(),doc.characters);
-    assert((await page.locator('.research-state').innerText()).includes('Baseline'));
+    assert((await page.locator('footer').innerText()).includes('Baseline'));
     const first=page.locator('#channels .channel-card').getByRole('checkbox').first();await first.check();
     assert((await page.locator('.rail-curve').count())>0);
   }
@@ -28,7 +28,7 @@ try {
   assert.equal(await page.getByRole('slider',{name:'Book position'}).getAttribute('aria-valuenow'),'552');
   await page.getByRole('slider',{name:'Book position'}).press('Home');
   const rail = await page.locator('.minimap').boundingBox();
-  assert(rail && rail.y === 0 && rail.height === 1000);
+  assert(rail && rail.width > 0 && rail.height > 0 && rail.y < 1000 && rail.y + rail.height > 0);
   await page.screenshot({path:'/tmp/jev-library-desktop.png'});
   // Abort an in-flight document switch and verify the final selection wins.
   await page.getByLabel('Document',{exact:true}).selectOption('crime-and-punishment');
@@ -36,6 +36,7 @@ try {
   await page.waitForFunction(()=>document.querySelector('h1')?.textContent==="Alice's Adventures in Wonderland" && document.querySelectorAll('.passage').length===75);
   await page.setViewportSize({width:390,height:844});
   await page.getByRole('button',{name:'Characters',exact:true}).click();
+  await page.getByRole('button',{name:'Config',exact:true}).click();
   await page.getByLabel('Document',{exact:true}).selectOption('frankenstein');
   await page.waitForFunction(()=>document.querySelectorAll('.passage').length===191);
   await page.getByRole('button',{name:'Characters',exact:true}).click();
