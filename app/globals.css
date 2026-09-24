@@ -90,7 +90,7 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .custom-sidebar h2,.custom-overview h2 { color: var(--color-muted); font-family: var(--font-sans); font-size: .875rem; line-height: 1.4; font-weight: 600; }
 .custom-sidebar-heading button,.custom-document-meta button,.custom-alert button { font-size: .8rem; color: var(--color-ink); text-decoration: underline; text-underline-offset: 3px; }
 .custom-account-name { margin-top: .55rem; color: var(--color-muted); font-size: .8rem; }
-.custom-text-list { display: flex; flex-direction: column; gap: .15rem; margin: 1.3rem -.4rem .75rem; max-height: 33vh; overflow: auto; }
+.custom-text-list { display: flex; flex: 0 0 auto; flex-direction: column; gap: .15rem; margin: 1.3rem -.4rem .75rem; min-height: 12rem; max-height: 33vh; overflow-y: auto; }
 .custom-text-list a { display: flex; align-items: baseline; justify-content: space-between; gap: .7rem; width: 100%; min-width: 0; padding: .65rem .4rem; border-radius: 4px; text-align: left; font-size: .85rem; text-decoration: none; color: inherit; }
 .custom-text-list a:hover,.custom-text-list a[aria-current=page] { background: color-mix(in srgb,var(--color-ink) 6%,transparent); }
 .custom-text-list span { min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
