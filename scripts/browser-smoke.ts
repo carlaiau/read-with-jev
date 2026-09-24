@@ -5,6 +5,8 @@ const bookURL = new URL('/1342-pride-and-prejudice', baseURL).toString();
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+  // Reproduce a browser without the ES2023 array copying methods.
+  await page.addInitScript(() => { Object.defineProperty(Array.prototype, 'toSorted', { value: undefined, configurable: true }); });
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.route('**/api/emotions?*',route=>route.fulfill({json:{sourceKey:'navigation-fixture',plans:[],jevAvailable:false,model:'fixture',threshold:.6}}));

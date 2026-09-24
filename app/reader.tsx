@@ -32,7 +32,8 @@ export default function Reader({ documentId, initialDocument }: { documentId: st
     const controller = new AbortController();
     fetch('/.netlify/functions/library', { signal: controller.signal }).then(async response => {
       const data = await response.json(); if (!response.ok) throw new Error(data.error);
-      setDocuments((data.documents as DocumentSummary[]).toSorted((a, b) =>
+      if (!Array.isArray(data.documents)) throw new Error('The document library returned an invalid catalog.');
+      setDocuments((data.documents as DocumentSummary[]).slice().sort((a, b) =>
         displayBookTitle(a.title).localeCompare(displayBookTitle(b.title), 'en', { sensitivity: 'base', numeric: true }) ||
         a.source.localeCompare(b.source, 'en', { numeric: true }) ||
         a.documentId.localeCompare(b.documentId, 'en', { numeric: true })));

@@ -83,12 +83,9 @@ button:not(:disabled), [role=checkbox] { cursor: pointer; }
 .custom-sidebar-content { display: flex; flex-direction: column; min-height: 100vh; }
 .custom-sidebar-footer { margin-top: auto; padding: 2rem 0 3rem; }
 .custom-sidebar-intro { margin-bottom: 2.5rem; }
+.custom-sidebar-intro .custom-back-link { display: inline-block; margin-bottom: 1.4rem; color: var(--color-muted); font-size: .875rem; text-decoration: underline; text-underline-offset: 4px; }
 .custom-sidebar-intro h1 { font-family: var(--font-serif); font-size: 27px; line-height: 1.2; letter-spacing: -.02em; }
 .custom-sidebar-intro p { margin-top: .45rem; color: var(--color-muted); font-family: var(--font-serif); font-size: 1.1rem; font-style: italic; }
-.custom-sidebar-intro nav { display: flex; align-items: center; gap: .75rem; margin-top: 1.5rem; font-size: .875rem; }
-.custom-sidebar-intro nav a { color: var(--color-muted); text-decoration: underline; text-underline-offset: 4px; }
-.custom-sidebar-intro nav span { color: var(--color-rule); }
-.custom-sidebar-intro nav strong { font-weight: 600; }
 .custom-sidebar-heading { display: flex; align-items: baseline; justify-content: space-between; gap: .5rem; }
 .custom-sidebar h2,.custom-overview h2 { color: var(--color-muted); font-family: var(--font-sans); font-size: .875rem; line-height: 1.4; font-weight: 600; }
 .custom-sidebar-heading button,.custom-document-meta button,.custom-alert button { font-size: .8rem; color: var(--color-ink); text-decoration: underline; text-underline-offset: 3px; }
