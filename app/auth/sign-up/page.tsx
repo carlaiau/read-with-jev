@@ -1,2 +1,3 @@
 import AuthForm from '../auth-form';
-export default function Page(){return <AuthForm mode="up"/>;}
+import {savedTextReturnPath} from '../../../src/lib/custom-text';
+export default async function Page({searchParams}:{searchParams:Promise<{next?:string}>}){const {next}=await searchParams;return <AuthForm mode="up" next={savedTextReturnPath(next)}/>;}

@@ -3,6 +3,11 @@ import {readerSentenceRanges} from './reader-sentences';
 export const customTextLimit=20_000;
 export const guestCallLimit=1_000;
 
+/** Only saved-text paths may survive an account redirect. */
+export function savedTextReturnPath(value:unknown):string|null{
+ return typeof value==='string'&&/^\/your-text\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(value)?value:null;
+}
+
 export type CustomSentence={start:number;end:number;target:string;precedingContext:string;followingContext:string;key:string};
 export type CustomTextSummary={id:string;title:string;revision:number;createdAt:string;updatedAt:string};
 export type CustomTextDocument=CustomTextSummary&{body:string};

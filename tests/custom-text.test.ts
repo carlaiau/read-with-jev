@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {customSentences,customTextLimit,guestCallLimit} from '../src/lib/custom-text';
+import {customSentences,customTextLimit,guestCallLimit,savedTextReturnPath} from '../src/lib/custom-text';
 import {customEmotionKey,validCustomSentenceRequest} from '../src/server/custom-text-emotions';
 import {getCustomText,updateCustomText,deleteCustomText,reserveGuestCall,customTextSchema} from '../src/server/custom-text-store';
 import {guestIdentity,signGuestId,verifyGuestId} from '../src/server/guest-identity';
@@ -20,6 +20,11 @@ test('custom sentences preserve source offsets and invalidate only changed targe
  assert.equal(long[0].key,edited[0].key);
  assert.equal(long[4].key,edited[4].key);
  assert.notEqual(long[2].key,edited[2].key);
+});
+test('account return paths accept only saved-text permalinks',()=>{
+ const path='/your-text/c96138b2-8a24-49a1-a977-bde70401262e';
+ assert.equal(savedTextReturnPath(path),path);
+ for(const candidate of ['/your-text','/your-text/not-an-id','//evil.test','https://evil.test',`${path}?next=evil`,`${path}/extra`])assert.equal(savedTextReturnPath(candidate),null);
 });
 test('custom JEV key includes context, model task, and no gold labels',()=>{
  const sentence={target:'She smiled.',precedingContext:'He entered.',followingContext:'The room was quiet.'};
